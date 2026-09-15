@@ -1,0 +1,102 @@
+{
+  "app": "Dateline — CWI Press",
+  "description": "Article and press corpus index — real records only, each with a live URL.",
+  "updated": "2026-09-15",
+  "articles": [
+    {
+      "title": "The Unavoidable Voice: That Boy Hi Hat and the Baltimore Code of Alternative Rap",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2025-11-08",
+      "url": "https://medium.com/@cumulativeweb/the-unavoidable-voice-that-boy-hi-hat-and-the-baltimore-code-of-alternative-rap-16bc843d8b56",
+      "topics": [
+        "artist profile",
+        "Baltimore origin",
+        "Flamerz"
+      ]
+    },
+    {
+      "title": "Authority Established: That Boy Hi Hat and the Definitive Sound of Post-Trap Futurism",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2025-11-17",
+      "url": "https://medium.com/@cumulativeweb/authority-established-that-boy-hi-hat-and-the-definitive-sound-of-post-trap-futurism-683102cbb30d",
+      "topics": [
+        "Post-Trap Futurism",
+        "The Alternative Theory"
+      ]
+    },
+    {
+      "title": "From the Streets of Kovrov to the Global Stage: That Boy Hi Hat and Kokurcho's 'Zooted Zone' Takes Over the Airwaves",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "~2024-12",
+      "url": "https://medium.com/@cumulativeweb/from-the-streets-of-kovrov-to-the-global-stage-that-boy-hi-hat-and-kokurchos-zooted-zone-takes-4debc2361fa6",
+      "topics": [
+        "Zooted Zone",
+        "Kokurcho",
+        "breakout"
+      ]
+    },
+    {
+      "title": "Spotify Confirms: Alt-Rap Artist That Boy Hi Hat Is a Safest Bet Sync Asset, Backed by Radio",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2025-12-06",
+      "url": "https://medium.com/@cumulativeweb/spotify-confirms-alt-rap-artist-that-boy-hi-hat-is-a-safest-bet-sync-asset-backed-by-radio-6fcff90fe4a1",
+      "topics": [
+        "sync",
+        "Spotify",
+        "radio"
+      ]
+    },
+    {
+      "title": "The Genesis of 'Diabolique'",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2025-11",
+      "url": "https://medium.com/@cumulativeweb/the-genesis-of-diabolique-how-that-boy-hi-hat-black-lansky-hybridwavy-are-forging-the-future-e15c083ec245",
+      "topics": [
+        "Diabolique",
+        "Hybrid",
+        "Black Lansky"
+      ]
+    },
+    {
+      "title": "The Logo of Alternative Rap: That Boy Hi Hat's 'NO SKIPS' EP is Taking the World By Storm",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2025-10-03",
+      "url": "https://medium.com/@cumulativeweb/the-logo-of-alternative-rap-that-boy-hi-hats-no-skips-ep-is-taking-the-world-by-storm-driven-77163a1aabb4",
+      "topics": [
+        "NO SKIPS",
+        "GTA VI",
+        "The Logo Effect"
+      ]
+    },
+    {
+      "title": "The Sound of the Code",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2025-11",
+      "url": "https://medium.com/@cumulativeweb/the-sound-of-the-code-why-alt-rap-is-the-next-sync-solution-for-game-devs-e60972c89aee",
+      "topics": [
+        "sync",
+        "game developers",
+        "alt-rap"
+      ]
+    },
+    {
+      "title": "Deconstructing 'Diabolique': How That Boy Hi Hat & Hybrid Engineered the Next Phase of Post-Trap Futurism",
+      "outlet": "Medium (@cumulativeweb)",
+      "published": "2026-07-06",
+      "url": "https://medium.com/@cumulativeweb/deconstructing-diabolique-how-that-boy-hi-hat-hybrid-engineered-the-next-phase-of-post-trap-e1c5b29fb13f",
+      "topics": [
+        "Diabolique",
+        "Hybrid",
+        "production"
+      ]
+    }
+  ],
+  "substack": {
+    "name": "Cumulative Web Inc",
+    "url": "https://substack.com/@cumulativewebinc",
+    "verified_live": "2026-09-15",
+    "description": "Official publication of Cumulative Web Inc — defining authority in global Alt-Rap, bridging indie music culture with media sync."
+  },
+  "editorial_note": "Article body copy is undergoing an owner-approved fact-cleanup pass (2026-09-15): 9 contradictions resolved against sourced records and owner answers. Nothing above invents content — titles, outlets, dates, and URLs come from CWI's own publication records.",
+  "contact": "hp@cumulativeweb.com"
+}
