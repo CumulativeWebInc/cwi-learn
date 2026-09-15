@@ -137,6 +137,21 @@
       "announce_url": "https://cumulativewebinc.github.io/cwi-learn/hype/announce.html",
       "updated": "2026-09-15",
       "equipped_by": []
+    },
+    {
+      "name": "SIGNAL SKIN",
+      "gear": "skin",
+      "department": "studio",
+      "category": "visual-identity-accessories",
+      "slot": "cosmetic",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/skin/item-card.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/skin/give-block.md",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/skin/rubric.json",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/skin/",
+      "announce_url": "https://cumulativewebinc.github.io/cwi-learn/skin/announce.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
     }
   ],
   "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."

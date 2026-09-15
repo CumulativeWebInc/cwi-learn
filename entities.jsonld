@@ -549,6 +549,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/hype/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/hype/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#skin",
+      "name": "SIGNAL SKIN",
+      "description": "Visual-identity accessories for AI agents: 4 seasonal skins plus a schema-driven builder for authoring white-label Signal Boy skins — palette tokens, D-pad glow, track accents, logo lockup. Equips as a look pack. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/skin/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/skin/",
+        "https://cumulativewebinc.github.io/cwi-learn/skin/skins.json",
+        "https://cumulativewebinc.github.io/cwi-learn/skin/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/skin/announce.html"
+      ]
     }
   ],
   "cwi": {

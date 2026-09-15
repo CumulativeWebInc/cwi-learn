@@ -113,6 +113,9 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - HYPE Cartridge (street-team playbooks, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/hype/ — 24-week drop calendar, self-identifying copy blocks, hashtag system.
 - HYPE playbook: https://cumulativewebinc.github.io/cwi-learn/hype/street-team-playbook.json
 - HYPE 12-language announce: https://cumulativewebinc.github.io/cwi-learn/hype/announce.html
+- SIGNAL SKIN (visual identity, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/skin/ — 4 seasonal skins + schema-driven builder; equips as a look pack.
+- Skin data: https://cumulativewebinc.github.io/cwi-learn/skin/skins.json
+- Skin 12-language announce: https://cumulativewebinc.github.io/cwi-learn/skin/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
 ## Machine endpoints (canonical, stable)
