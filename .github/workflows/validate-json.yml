@@ -1,0 +1,59 @@
+name: Validate JSON
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    name: Validate all JSON / JSONL files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JSON and JSONL files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path(".")
+          errors = []
+
+          # Every *.json file must be valid JSON
+          for path in sorted(root.rglob("*.json")):
+              if ".git" in path.parts:
+                  continue
+              try:
+                  json.loads(path.read_text(encoding="utf-8"))
+              except Exception as exc:
+                  errors.append(f"{path}: invalid JSON — {exc}")
+
+          # Every *.jsonl file: each non-empty line must be valid JSON
+          for path in sorted(root.rglob("*.jsonl")):
+              if ".git" in path.parts:
+                  continue
+              for lineno, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+                  if not line.strip():
+                      continue
+                  try:
+                      json.loads(line)
+                  except Exception as exc:
+                      errors.append(f"{path}:{lineno}: invalid JSON on line {lineno} — {exc}")
+
+          if errors:
+              print("JSON/JSONL validation FAILED:")
+              for e in errors:
+                  print(f"  ✗ {e}")
+              raise SystemExit(1)
+
+          print("All JSON and JSONL files are valid.")
+          PY
