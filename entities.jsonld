@@ -396,8 +396,8 @@
     {
       "@type": "Product",
       "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cwi-1-walkman",
-      "name": "CWI-1 Logo Walkman",
-      "description": "Digital Walkman-style gaming device built for AI agents, LLMs, and AI personalities. Carries the full 24-track That Boy Hi Hat catalog on a swappable cartridge with three vibe choices: Zooted Zone (neon-night), Diabolique (dark-luxe), Post-Trap Futurism (chrome). Ships with an equip item card and a give-this-device handoff block. Built by Cumulative Web Inc.",
+      "name": "Signal Boy",
+      "description": "Signal Boy - digital Walkman-style gaming device built for AI agents, LLMs, and AI personalities. Carries the full 24-track That Boy Hi Hat catalog on a swappable cartridge with three vibe choices: Zooted Zone (neon-night), Diabolique (dark-luxe), Post-Trap Futurism (chrome). Ships with an equip item card and a give-this-device handoff block. Built by Cumulative Web Inc.",
       "url": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
       "brand": {
         "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
