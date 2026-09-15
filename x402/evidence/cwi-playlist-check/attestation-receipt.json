@@ -1,0 +1,18 @@
+{
+  "attested_artifact": "https://cumulativewebinc.github.io/cwi-learn/x402/evidence/cwi-playlist-check/first-spin-verdict.json",
+  "attested_sha256": "97ef3f2b88ebd2d95c28e2f05005ee2776dae1a5b8b824ca2db044b07dd1934e",
+  "chain": {
+    "algorithm": "sha256",
+    "entry_hash": "f7f9d1da28760b82c14e8a349f8d5e14a3014ae35b94a0e4712cfe48592aee34",
+    "genesis_note": "First receipt in the x402 evidence chain for cwi-playlist-check. Subsequent re-verifications append linked receipts.",
+    "prev_hash": "GENESIS"
+  },
+  "format": "cwi-attestation-receipt/1.0",
+  "issued_at": "2026-09-15T23:35:30Z",
+  "issuer": "Cumulative Web Inc",
+  "provider_contact": "hp@cumulativeweb.com",
+  "receipt_id": "CWI-X402-PC-2026-001",
+  "receipt_note": "Needle Drop receipt discipline applied to service evidence: a hash-chained, tamper-evident attestation sealing the paid-run verdict. It attests AUTHORSHIP (this provider ran these checks and stands behind them) and is resolvable without trusting the directory \u2014 recompute the sha256 of the verdict file and compare. Provider-signature (signed capability attestation) is the v1.1 upgrade path; until then the chain plus the pinned manifest is the authorship evidence.",
+  "service": "cwi-playlist-check",
+  "verdict_summary": "verified_testnet_pilot \u2014 402 challenge correct ($0.05, Base Sepolia USDC), real data handlers 24/24, paid-protocol facilitator verdicts recorded; on-chain settlement NOT yet proven."
+}
