@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Pulse — CWI Data</title>
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.sub{color:var(--lblu);font-size:.9em;margin-top:4px}
+#badge{margin-left:auto;font-weight:700;padding:10px 16px;border-radius:10px;font-size:.95em;white-space:nowrap}
+#badge.ok{background:#1d3a2a;color:#39ff6a;border:1px solid var(--ok)}
+main{max-width:1080px;margin:0 auto;padding:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:12px;padding:14px}
+.card .n{font-size:1.7em;font-weight:800;color:var(--gold2)}
+.card .l{font-size:.78em;color:var(--lblu);text-transform:uppercase;letter-spacing:.6px;margin-top:4px}
+section{background:var(--card);border:1px solid var(--blue);border-radius:12px;padding:16px;margin-bottom:16px}
+h2{margin:0 0 12px;font-size:1.05em;color:#fff;letter-spacing:.4px}
+h2 .tag{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.85em}
+th{text-align:left;color:var(--gold2);border-bottom:1px solid var(--blue);padding:8px}
+td{border-bottom:1px solid #12294f;padding:8px;vertical-align:top}
+.note{color:var(--lblu);font-size:.85em;line-height:1.6}
+code{background:#060c18;padding:2px 6px;border-radius:4px;font-size:.85em;color:var(--gold2)}
+.method{background:var(--navy2);border-left:3px solid var(--gold);border-radius:6px;padding:10px 12px;font-size:.88em;line-height:1.6}
+a{color:var(--gold2)}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="CWI logo" onerror="this.style.display='none'">
+<div><h1>PULSE · Daily Data Snapshot</h1>
+<div class="sub">Cumulative Web Inc — every number computed from a live source at generation time. Nothing estimated.</div></div>
+<div id="badge" class="ok">—</div>
+</header>
+<main>
+<div class="cards" id="cards"></div>
+<section>
+<h2><span class="tag">●</span> Curator statuses</h2>
+<div id="curators"></div>
+</section>
+<section>
+<h2><span class="tag">●</span> Sources</h2>
+<table id="sources"></table>
+</section>
+<section>
+<h2><span class="tag">●</span> Regeneration method</h2>
+<div class="method" id="method"></div>
+</section>
+</main>
+<script>
+fetch('pulse.json').then(r=>r.json()).then(p=>{
+document.getElementById('badge').textContent=p.endpoints_live+'/'+p.endpoints_checked.length+' endpoints live · '+p.date;
+const cards=[
+[p.tracks,'catalog tracks'],
+[p.skus,'Agent Deck SKUs'],
+[p.dataset_rows,'dataset rows'],
+[p.verified_placements,'verified sync placements'],
+[p.verified_playlist_placements+' ('+p.verified_playlist_holds+' holds)','playlist placements'],
+[p.curator_statuses.by_status.verified+'V / '+p.curator_statuses.by_status.unverified+'U / '+p.curator_statuses.by_status.unconfirmed+'?','curator statuses'],
+[p.endpoints_live,'endpoints live']];
+document.getElementById('cards').innerHTML=cards.map(c=>
+'<div class="card"><div class="n">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
+document.getElementById('curators').innerHTML=
+'<table><tr><th>Curator</th><th>Playlist</th><th>Status</th><th>Detail</th></tr>'+
+p.curator_statuses.detail.map(c=>'<tr><td>'+c.curator+'</td><td>'+c.playlist+'</td><td>'+c.status+'</td><td>'+
+(c.verified_holds?c.verified_holds.map(h=>h.track+' #'+h.position).join(' · '):'—')+'</td></tr>').join('')+'</table>';
+document.getElementById('sources').innerHTML=
+'<tr><th>Metric</th><th>Source</th></tr>'+
+Object.entries(p.sources).map(e=>'<tr><td><code>'+e[0]+'</code></td><td class="note">'+e[1]+'</td></tr>').join('');
+document.getElementById('method').innerHTML='<p class="note">Generated '+p.generated+'. '+
+p.regeneration_method.replace(/\. /g,'.</p><p class="note">')+'</p>';
+});
+</script>
+</body>
+</html>
