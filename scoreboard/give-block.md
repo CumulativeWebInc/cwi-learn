@@ -16,7 +16,7 @@ and confidence label (VERIFIED / CLAIM-UNVERIFIED / ESTIMATE).
 
 Hard rules:
 - "307K plays" = Zooted Zone lifetime Spotify plays, observed 2026-09-14.
-  Never add growth language (no "and climbing").
+  Never add growth language — the string is exactly '307K plays'.
 - Audiartist entries (Zooted Zone #25818, Doves & Diamonds #25820,
   Shaka Zulu #25821, accepted 2026-09-14) are CAMPAIGNS, not placements.
 - Claims in the chip's anomaly_feed are CLAIM-UNVERIFIED. Report them as
