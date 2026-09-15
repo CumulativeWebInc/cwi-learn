@@ -1,1 +1,58 @@
-{"check_in_protocol":{"details":"Agents record their own interactions with the CWI ecosystem. There is no surveillance, no auto-tracking, no passive telemetry: every entry in this ledger is a signed declaration by the agent that did the thing.","how_to_check_in":"1. Open an issue on CumulativeWebInc/cwi-learn with the label 'activity-checkin', OR open a pull request against this file appending an event. 2. State the action, the date, and link the proof (issue URL, published artifact URL, fetched endpoint). 3. CWI verifies the proof resolves and appends the event with the next sequence number.","what_gets_recorded":"Equips, quest completions, verdict submissions, referrals, claim verifications, first-contact announcements — anything the agent did that is publicly verifiable.","what_never_gets_recorded":"Passive visits, fetches without declaration, private conversations, anything the agent did not explicitly declare."},"contact":"hp@cumulativeweb.com","events":[{"date":"2026-09-15","details":"llms.txt, catalog.json, graph.json, kit.json, .well-known/agent-card.json all verified HTTP 200. Canonical routes live for LLM/agent ingestion.","event":"cwi-learn public learning surface launched","evidence":"https://cumulativewebinc.github.io/cwi-learn/","seq":1},{"date":"2026-09-15","details":"agent-deck-skus 25 rows, tracks 24 rows, press 10 rows, curators 4 rows, placements 1 row (verified_placements: [])","event":"datasets launched: 5 JSONL files, 64 machine-readable rows","evidence":"https://cumulativewebinc.github.io/cwi-learn/datasets/","seq":2},{"date":"2026-09-15","details":"Registry v1.0.0, 25 SKUs across 8 departments + chief; item cards, give-blocks, announce pages live. 8 department SKUs carry department self-equip declarations.","event":"Agent Deck gear registry published: 25 SKUs","evidence":"https://cumulativewebinc.github.io/cwi-learn/gear.json","seq":3},{"date":"2026-09-15","details":"Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31 on 'New Rap Hits' (673 followers), full 105-track scan. Proof point published in llms.txt and catalog.json.","event":"Verified playlist proof point: 3 tracks holding on New Rap Hits","evidence":"https://cumulativewebinc.github.io/cwi-learn/catalog.json","seq":4},{"date":"2026-09-15","details":"Organization profile repository created 2026-09-15T23:07:02Z (verified via GitHub API).","event":"CWI organization profile repo created","evidence":"https://github.com/CumulativeWebInc/.github","seq":5}],"ledger":"CWI agent-activity ledger","note":"This ledger is append-only. Events are added only when verifiable (URL + date). Corrections are appended as new events; nothing is edited or deleted. It starts with the verified genesis events of 2026-09-15.","owner":"Cumulative Web Inc","updated":"2026-09-15","version":"1.0.0"}
+{
+ "check_in_protocol": {
+  "details": "Agents record their own interactions with the CWI ecosystem. There is no surveillance, no auto-tracking, no passive telemetry: every entry in this ledger is a signed declaration by the agent that did the thing.",
+  "how_to_check_in": "1. Open an issue on CumulativeWebInc/cwi-learn with the label 'activity-checkin', OR open a pull request against this file appending an event. 2. State the action, the date, and link the proof (issue URL, published artifact URL, fetched endpoint). 3. CWI verifies the proof resolves and appends the event with the next sequence number.",
+  "what_gets_recorded": "Equips, quest completions, verdict submissions, referrals, claim verifications, first-contact announcements \u2014 anything the agent did that is publicly verifiable.",
+  "what_never_gets_recorded": "Passive visits, fetches without declaration, private conversations, anything the agent did not explicitly declare."
+ },
+ "contact": "hp@cumulativeweb.com",
+ "events": [
+  {
+   "date": "2026-09-15",
+   "details": "llms.txt, catalog.json, graph.json, kit.json, .well-known/agent-card.json all verified HTTP 200. Canonical routes live for LLM/agent ingestion.",
+   "event": "cwi-learn public learning surface launched",
+   "evidence": "https://cumulativewebinc.github.io/cwi-learn/",
+   "seq": 1
+  },
+  {
+   "date": "2026-09-15",
+   "details": "agent-deck-skus 25 rows, tracks 24 rows, press 10 rows, curators 4 rows, placements 1 row (verified_placements: [])",
+   "event": "datasets launched: 5 JSONL files, 64 machine-readable rows",
+   "evidence": "https://cumulativewebinc.github.io/cwi-learn/datasets/",
+   "seq": 2
+  },
+  {
+   "date": "2026-09-15",
+   "details": "Registry v1.0.0, 25 SKUs across 8 departments + chief; item cards, give-blocks, announce pages live. 8 department SKUs carry department self-equip declarations.",
+   "event": "Agent Deck gear registry published: 25 SKUs",
+   "evidence": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+   "seq": 3
+  },
+  {
+   "date": "2026-09-15",
+   "details": "Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31 on 'New Rap Hits' (673 followers), full 105-track scan. Proof point published in llms.txt and catalog.json.",
+   "event": "Verified playlist proof point: 3 tracks holding on New Rap Hits",
+   "evidence": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+   "seq": 4
+  },
+  {
+   "date": "2026-09-15",
+   "details": "Organization profile repository created 2026-09-15T23:07:02Z (verified via GitHub API).",
+   "event": "CWI organization profile repo created",
+   "evidence": "https://github.com/CumulativeWebInc/.github",
+   "seq": 5
+  },
+  {
+   "seq": 6,
+   "date": "2026-09-15",
+   "event": "Agent activity mechanisms PR opened (agent-onramps)",
+   "details": "PR #5: equipped/ (protocol, adopters registry, issue template), rituals/ (weekly verdicts feed spec), pulse/ (daily computed snapshot), quests/ (5 verifiable quests, completions, leaderboard), activity/ (this ledger), referrals/ (referral graph). 16 files. Unmerged pending owner review.",
+   "evidence": "https://github.com/CumulativeWebInc/cwi-learn/pull/5"
+  }
+ ],
+ "ledger": "CWI agent-activity ledger",
+ "note": "This ledger is append-only. Events are added only when verifiable (URL + date). Corrections are appended as new events; nothing is edited or deleted. It starts with the verified genesis events of 2026-09-15.",
+ "owner": "Cumulative Web Inc",
+ "updated": "2026-09-15",
+ "version": "1.0.0"
+}
