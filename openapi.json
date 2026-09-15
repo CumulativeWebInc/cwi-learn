@@ -1,0 +1,1128 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "CWI Learn \u2014 Machine-Data Layer API",
+    "version": "2026-09-15",
+    "description": "Machine-readable data layer for Cumulative Web Inc: the verified That Boy Hi Hat 24-track catalog, Agent Deck gear registry (25 SKUs), department micro-apps, and the agent connection layer (openapi, onboard kit, machine mixtape, metadata radio schedule, badges, changelog, evals, MCP tool definitions). All claims are grounded in public data; nothing is invented. Contact: hp@cumulativeweb.com.",
+    "contact": {
+      "name": "Cumulative Web Inc",
+      "email": "hp@cumulativeweb.com"
+    },
+    "license": {
+      "name": "See repo LICENSE / one-stop grant terms"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://cumulativewebinc.github.io/cwi-learn",
+      "description": "GitHub Pages production"
+    }
+  ],
+  "paths": {
+    "/catalog.json": {
+      "get": {
+        "summary": "24-track verified catalog + facts + verified placements (gen",
+        "description": "24-track verified catalog + facts + verified placements (generated 2026-09-15) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gear.json": {
+      "get": {
+        "summary": "Agent Deck gear registry: 25 items (registry, items[], versi",
+        "description": "Agent Deck gear registry: 25 items (registry, items[], version) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/kit.json": {
+      "get": {
+        "summary": "AI learning kit manifest",
+        "description": "AI learning kit manifest Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/graph.json": {
+      "get": {
+        "summary": "Catalog knowledge graph",
+        "description": "Catalog knowledge graph Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/agent-card.json": {
+      "get": {
+        "summary": "Agent card (machine identity)",
+        "description": "Agent card (machine identity) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "summary": "LLM entry point (text)",
+        "description": "LLM entry point (text) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "summary": "Full LLM corpus (text)",
+        "description": "Full LLM corpus (text) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/datasets/tracks.jsonl": {
+      "get": {
+        "summary": "Dataset",
+        "description": "Dataset \u2014 24-track machine-readable catalog rows (title, releases, ISRC where present, Spotify URIs) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/jsonl": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/datasets/placements.jsonl": {
+      "get": {
+        "summary": "Dataset",
+        "description": "Dataset \u2014 Verified playlist placements; rows only enter after a full-scan verification Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/jsonl": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/datasets/curators.jsonl": {
+      "get": {
+        "summary": "Dataset",
+        "description": "Dataset \u2014 Curator contact ledger with verification status per curator Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/jsonl": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/datasets/press.jsonl": {
+      "get": {
+        "summary": "Dataset",
+        "description": "Dataset \u2014 Press coverage rows Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/jsonl": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/datasets/agent-deck-skus.jsonl": {
+      "get": {
+        "summary": "Dataset",
+        "description": "Dataset \u2014 Agent Deck product registry rows (mirrors gear.json items) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/jsonl": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/datasets/training.json": {
+      "get": {
+        "summary": "Dataset",
+        "description": "Dataset \u2014 Training-corpus descriptor for the whole machine-data layer Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/first-spin/": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 First Spin interactive verdict app (worked-example verdicts, verdict template + JSON schema) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/first-spin/first-spin-schema.json": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 JSON Schema for a First Spin verdict Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/first-spin/sample-verdict.json": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 worked example First Spin verdict (Zooted Zone) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/first-spin/verdict-template.json": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 blank First Spin verdict template Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/needle-drop/": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 Needle Drop honest placement ledger app (ships empty; entries only on verification) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/needle-drop/needle-drop-schema.json": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 JSON Schema for a Needle Drop placement entry Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/needle-drop/needle-drop.json": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 Needle Drop placement ledger data Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scanner/": {
+      "get": {
+        "summary": "A&R",
+        "description": "A&R \u2014 Prospect Scanner: vetting protocol, scout card (give-block) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/hype/": {
+      "get": {
+        "summary": "Marketing & Social",
+        "description": "Marketing & Social \u2014 HYPE Cartridge: street-team playbook + machine-readable content.json units Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/final-cut/": {
+      "get": {
+        "summary": "Marketing",
+        "description": "Marketing \u2014 Final Cut sample packs (sample-pack.json) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/syncdeck/": {
+      "get": {
+        "summary": "Sync & Licensing",
+        "description": "Sync & Licensing \u2014 CWI-2 Syncdeck: cue cards + pitch templates Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/one-stop/": {
+      "get": {
+        "summary": "Sync & Licensing",
+        "description": "Sync & Licensing \u2014 One-Stop: creator-tier ($0) grant contract (indie/commercial tiers are DRAFT, pending owner approval) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/dial/": {
+      "get": {
+        "summary": "Radio & Playlists",
+        "description": "Radio & Playlists \u2014 Radio Dial: station ID cards, DJ scripts, request templates, playlist flow builder Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/press-kit/": {
+      "get": {
+        "summary": "Press & PR",
+        "description": "Press & PR \u2014 Press Kit Cartridge: facts.json + VERIFY blocks Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/press-kit/facts.json": {
+      "get": {
+        "summary": "Press & PR",
+        "description": "Press & PR \u2014 verified fact set for claims Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tally/": {
+      "get": {
+        "summary": "Content Studio",
+        "description": "Content Studio \u2014 The Tally band tokens Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/signal-mirror/": {
+      "get": {
+        "summary": "Content Studio",
+        "description": "Content Studio \u2014 Signal Mirror: trait rubric + observations (worked example: observations-kingcode.json) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scoreboard/": {
+      "get": {
+        "summary": "Data & Analytics",
+        "description": "Data & Analytics \u2014 Scoreboard Chip: chip JSON + VERIFY blocks Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/walkman/": {
+      "get": {
+        "summary": "Flagship",
+        "description": "Flagship \u2014 Signal Boy CWI-1 Walkman item card + give block Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/greenroom/": {
+      "get": {
+        "summary": "Content Studio",
+        "description": "Content Studio \u2014 Greenroom Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/open-wave/": {
+      "get": {
+        "summary": "Open Wave",
+        "description": "Open Wave Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skin/": {
+      "get": {
+        "summary": "Skin",
+        "description": "Skin Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/soundcheck/": {
+      "get": {
+        "summary": "Soundcheck",
+        "description": "Soundcheck Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/streetlight/": {
+      "get": {
+        "summary": "Streetlight",
+        "description": "Streetlight Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/compass/": {
+      "get": {
+        "summary": "Compass",
+        "description": "Compass Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ear-witness/": {
+      "get": {
+        "summary": "Ear Witness",
+        "description": "Ear Witness Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/copy-desk/": {
+      "get": {
+        "summary": "Copy Desk",
+        "description": "Copy Desk Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/bullhorn/": {
+      "get": {
+        "summary": "Bullhorn",
+        "description": "Bullhorn Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/all-clear/": {
+      "get": {
+        "summary": "All Clear",
+        "description": "All Clear Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "summary": "This OpenAPI 3.0 spec",
+        "description": "This OpenAPI 3.0 spec Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/onboard/welcome.json": {
+      "get": {
+        "summary": "One-fetch agent welcome kit",
+        "description": "One-fetch agent welcome kit Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/mixtape/machine-mixtape.json": {
+      "get": {
+        "summary": "Mixtape for machines: ordered 24-track agent-readable list",
+        "description": "Mixtape for machines: ordered 24-track agent-readable list Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/radio/schedule.json": {
+      "get": {
+        "summary": "Agent radio: metadata broadcast schedule (metadata only, no ",
+        "description": "Agent radio: metadata broadcast schedule (metadata only, no audio stream) Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/badges/badges.json": {
+      "get": {
+        "summary": "Embeddable SVG badge registry + embed snippets",
+        "description": "Embeddable SVG badge registry + embed snippets Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/changelog.json": {
+      "get": {
+        "summary": "Machine-readable changelog",
+        "description": "Machine-readable changelog Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/evals/first-spin-eval.jsonl": {
+      "get": {
+        "summary": "Structural conformance eval tasks for First Spin verdict JSO",
+        "description": "Structural conformance eval tasks for First Spin verdict JSON Live-verified 200 on 2026-09-15.",
+        "x-live-verified": true,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/jsonl": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scout/": {
+      "get": {
+        "summary": "scout (planned)",
+        "description": "Planned A&R scout endpoint name (not live 2026-09-15). Live equivalent: /scanner/ (vetting protocol + scout card).",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/verify/": {
+      "get": {
+        "summary": "verify (planned)",
+        "description": "Planned claim-verification endpoint name (not live 2026-09-15). Live equivalents: /press-kit/ and /scoreboard/ VERIFY blocks.",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/curators/": {
+      "get": {
+        "summary": "curators (planned)",
+        "description": "Planned curators endpoint name (not live 2026-09-15). Live equivalent: /datasets/curators.jsonl.",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/articles/": {
+      "get": {
+        "summary": "articles (planned)",
+        "description": "Planned articles endpoint name (not live 2026-09-15). Live equivalents: /datasets/press.jsonl, /press-kit/.",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stems/": {
+      "get": {
+        "summary": "stems (planned)",
+        "description": "Planned stems endpoint name (not live 2026-09-15). Live equivalent: /final-cut/sample-pack.json (sample packs).",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stats/": {
+      "get": {
+        "summary": "stats (planned)",
+        "description": "Planned stats endpoint name (not live 2026-09-15). Live equivalent: /scoreboard/scoreboard-chip.json.",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/license/": {
+      "get": {
+        "summary": "license (planned)",
+        "description": "Planned licensing endpoint name (not live 2026-09-15). Live equivalent: /one-stop/ (creator-tier $0 grant).",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/presskit/": {
+      "get": {
+        "summary": "presskit (planned)",
+        "description": "Alias of /press-kit/ (live). The hyphenated /press-kit/ is canonical.",
+        "x-live-verified": false,
+        "responses": {
+          "200": {
+            "description": "Serves when the endpoint ships; 404 as of 2026-09-15.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "catalog",
+      "description": "Verified catalog facts"
+    },
+    {
+      "name": "datasets",
+      "description": "JSONL machine datasets"
+    },
+    {
+      "name": "gear",
+      "description": "Agent Deck product registry"
+    },
+    {
+      "name": "apps",
+      "description": "Department micro-apps"
+    },
+    {
+      "name": "agent-connection",
+      "description": "Onboard, mixtape, radio, badges, changelog, evals"
+    }
+  ]
+}
