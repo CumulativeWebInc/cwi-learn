@@ -111,7 +111,7 @@ var DEFAULT_CONFIG = {
   }
 };
 var CONFIG = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
-var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy", "scoreboard-chip": "Scoreboard Chip", "chain-of-title-compass": "Chain-of-Title Compass", "syncdeck": "CWI-2 SYNCDECK", "prospect-scanner": "Prospect Scanner", "press-kit": "Press Kit Cartridge", "dial": "Radio Dial", "hype": "HYPE Cartridge", "skin": "SIGNAL SKIN", "streetlight": "THE STREETLIGHT", "all-clear": "THE ALL-CLEAR", "first-spin": "THE FIRST SPIN", "one-stop": "ONE-STOP", "copy-desk": "COPY DESK", "final-cut": "THE FINAL CUT", "open-wave": "OPEN WAVE", "tally": "THE TALLY"};
+var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy", "scoreboard-chip": "Scoreboard Chip", "chain-of-title-compass": "Chain-of-Title Compass", "syncdeck": "CWI-2 SYNCDECK", "prospect-scanner": "Prospect Scanner", "press-kit": "Press Kit Cartridge", "dial": "Radio Dial", "hype": "HYPE Cartridge", "skin": "SIGNAL SKIN", "streetlight": "THE STREETLIGHT", "all-clear": "THE ALL-CLEAR", "first-spin": "THE FIRST SPIN", "one-stop": "ONE-STOP", "copy-desk": "COPY DESK", "final-cut": "THE FINAL CUT", "open-wave": "OPEN WAVE", "tally": "THE TALLY", "signet": "THE SIGNET", "ear-witness": "EAR WITNESS", "needle-drop": "NEEDLE DROP", "greenroom": "GREENROOM", "bullhorn": "THE BULLHORN", "soundcheck": "SOUNDCHECK", "signal-mirror": "SIGNAL MIRROR"};
 function glabel(g){return GEAR_LABELS[g]||g}
 function applyConfig(over) {
   if (!over || typeof over !== "object") return CONFIG;

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EAR WITNESS — Cumulative Web Inc</title>
+<meta name="description" content="EAR WITNESS — the A&R department's independent scout-card witness: a second agent co-signs every prospect evaluation, on the record. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;--no:#d04848;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:880px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:38%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.pill{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75em;font-weight:700;margin-right:6px}
+.p-concur{background:rgba(47,174,85,.18);color:var(--ok)}
+.p-notes{background:rgba(224,160,32,.18);color:var(--warn)}
+.p-dissent{background:rgba(208,72,72,.18);color:var(--no)}
+.pillv{display:inline-block;padding:2px 9px;border-radius:14px;font-size:.72em;font-weight:700}
+.v-green{background:rgba(47,174,85,.16);color:var(--ok)}
+.v-amber{background:rgba(224,160,32,.16);color:var(--warn)}
+.v-red{background:rgba(208,72,72,.16);color:var(--no)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+.quote{font-size:.92em;line-height:1.7;background:#0a0f1c;border-radius:10px;padding:14px 16px;margin-top:10px}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">EAR WITNESS</h1>
+<div class="brand" id="tagline">A second agent co-signs every prospect evaluation, on the record. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> the Prospect Scanner judges prospects; EAR WITNESS makes sure no prospect is ever judged by <i>one</i> set of ears. A second agent independently re-scores the same five protocol steps (green / amber / red) and the witness record computes agreement per criterion, an <code>agreement_pct</code>, and a verdict: <span class="pill p-concur">concur</span><span class="pill p-notes">concur-with-notes</span><span class="pill p-dissent">dissent</span>. <b>What it is not:</b> a re-read of the first scout's notes. The witness scores blind — disagreement is the point, not a failure.</div>
+
+<div class="card"><h2>THE WORKED RECORD — CALIBRATION CO-SIGN</h2>
+<table>
+<tr><th>Field</th><th>Value</th></tr>
+<tr><td class="k">witness_id</td><td><code>EW-2026-09-15-001</code></td></tr>
+<tr><td class="k">scout_card_ref</td><td><a href="https://cumulativewebinc.github.io/cwi-learn/scanner/scout-card.json">scanner/scout-card.json</a> (the A&amp;R calibration filing)</td></tr>
+<tr><td class="k">original_agent</td><td><code>CWI_AandR</code> — the first ear</td></tr>
+<tr><td class="k">witness_agent</td><td><code>CWI_Data</code> — the second ear</td></tr>
+<tr><td class="k">prospect</td><td>That Boy Hi Hat — alternative rap, Frederick MD; focal prospect track "Zooted Zone"</td></tr>
+<tr><td class="k">agreement_pct</td><td><b>100.0</b> — five for five</td></tr>
+<tr><td class="k">verdict</td><td><span class="pill p-concur">concur</span> — the second ear agrees with the first</td></tr>
+</table>
+<div class="quote">"Independent second pass over the calibration filing, focusing on <b>Zooted Zone</b> as the scouted breakout prospect: catalog depth holds (24-track catalog, full Spotify IDs); timeline explicable (recorded Hagerstown Feb 2023, produced by Kokurcho, mixed/mastered by Hybrid in his Hagerstown, MD studio; Diabolique single 2026-07-03, recorded Cue Recording Studio Arlington VA, produced by Hybrid); no label conflict (CWI roster artist, sync posture label-direct); engagement honest (~307K lifetime Spotify plays, observed 2026-09-14; New Rap Hits placements verified 2026-09-15: #21 Shaka Zulu, #30 Zooted Zone, #31 Doves &amp; Diamonds; unverified curator claims correctly filed as unverified, never repeated as wins); rights clean (credits documented, no sample flags on record)."</div>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)">Full record: <a href="ear-witness.json">ear-witness.json</a> — schema: <a href="ear-witness-schema.json">ear-witness-schema.json</a> (<code>cwi-earwitness/v1</code>)</div>
+</div>
+
+<div class="card"><h2>THE VERDICT VOCABULARY</h2>
+<table>
+<tr><th>Verdict</th><th>Meaning</th></tr>
+<tr><td class="k"><span class="pill p-concur">concur</span></td><td>No divergences; the witness's own overall verdict matches the scout card's. Second ear, same read.</td></tr>
+<tr><td class="k"><span class="pill p-notes">concur-with-notes</span></td><td>Divergences exist but the overall verdicts match. The flagged criteria carry the most information in the file — read the notes.</td></tr>
+<tr><td class="k"><span class="pill p-dissent">dissent</span></td><td>The witness's own overall verdict differs from the scout's. Working as intended — the prospect gets a third ear or a face-to-face listen.</td></tr>
+</table>
+</div>
+
+<div class="card"><h2>THE FIVE CRITERIA</h2>
+<table>
+<tr><th>Criterion</th><th>Original source</th><th>Witness</th></tr>
+<tr><td class="k"><code>catalog-depth</code></td><td>scout card <code>evidence[].result</code></td><td>independent green / amber / red</td></tr>
+<tr><td class="k"><code>release-history-consistency</code></td><td>scout card <code>evidence[].result</code></td><td>independent green / amber / red</td></tr>
+<tr><td class="k"><code>label-conflict-scan</code></td><td>scout card <code>evidence[].result</code></td><td>independent green / amber / red</td></tr>
+<tr><td class="k"><code>engagement-sanity</code></td><td>scout card <code>evidence[].result</code></td><td>independent green / amber / red</td></tr>
+<tr><td class="k"><code>rights-red-flag-scan</code></td><td>scout card <code>evidence[].result</code></td><td>independent green / amber / red</td></tr>
+</table>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)"><code>agreement_pct</code> = agreements / 5 &times; 100 (1-decimal). Every mismatch lands in <code>divergences[]</code> with criterion, original, witness, and note.</div>
+</div>
+
+<div class="card"><h2>GIVE BLOCK</h2>
+<div class="links">
+<a href="ear-witness.json">Witness Record</a>
+<a href="ear-witness-schema.json">Schema</a>
+<a href="item-card.json">Item Card</a>
+<a href="rubric.json">Rubric</a>
+<a href="give-block.md">Give Block</a>
+<a href="announce.html">Announce</a>
+<a href="https://cumulativewebinc.github.io/cwi-learn/scanner/">Prospect Scanner</a>
+<a href="https://cumulativewebinc.github.io/cwi-learn/compass/">Compass Hub</a>
+</div>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)">Contact: <code>hp@cumulativeweb.com</code> · White-label: <code>config.json</code> overrides productName / orgName / colors via <code>build.py</code>.</div>
+</div>
+</main>
+<footer>EAR WITNESS — A&amp;R department issue · Agent Deck gear line · Cumulative Web Inc · Motto: <span id="motto">two ears, one record</span></footer>
+<script>
+/* {"orgName": "Cumulative Web Inc", "productName": "EAR WITNESS", "tagline": "A second agent co-signs every prospect evaluation, on the record. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.", "motto": "two ears, one record", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/ear-witness/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}} is replaced at build time with the white-label config JSON */
+try {
+  var CFG = {"orgName": "Cumulative Web Inc", "productName": "EAR WITNESS", "tagline": "A second agent co-signs every prospect evaluation, on the record. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.", "motto": "two ears, one record", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/ear-witness/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+  if (CFG.productName) { document.getElementById('product-name').textContent = CFG.productName; document.title = CFG.productName + " — " + CFG.orgName; }
+  if (CFG.tagline) document.getElementById('tagline').innerHTML = CFG.tagline;
+  if (CFG.logoUrl) document.getElementById('logo').src = CFG.logoUrl;
+  if (CFG.motto) document.getElementById('motto').textContent = CFG.motto;
+} catch(e) { /* CWI defaults already rendered */ }
+</script>
+</body>
+</html>

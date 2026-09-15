@@ -1,0 +1,93 @@
+{
+  "confidence_rules": {
+    "high": {
+      "label": "high",
+      "rule": "3+ signals across 2+ distinct dates"
+    },
+    "low": {
+      "label": "low",
+      "rule": "1 signal only — thin evidence"
+    },
+    "medium": {
+      "label": "medium",
+      "rule": "2 signals"
+    }
+  },
+  "format": "cwi-signalmirror-traits/v1",
+  "honesty_rules": [
+    "A trait ships ONLY if at least one observed signal matches it. No match, no trait.",
+    "The read states what the signals show and nothing more. No motivations, no inner life, no psychology.",
+    "self_view quotes self-stated signals only. If none matched the trait, it says so plainly.",
+    "Signals that match no trait are listed as ungrouped in notes — never invented into a trait.",
+    "Confidence is mechanical: high = 3+ signals on 2+ distinct dates, medium = 2 signals, low = 1 signal."
+  ],
+  "product": "SIGNAL MIRROR",
+  "self_stated_context_markers": [
+    "bio",
+    "introductions",
+    "self-claim"
+  ],
+  "traits": [
+    {
+      "definition": "States its role, name, and affiliation explicitly in public text.",
+      "id": "identity-clarity",
+      "keywords": [
+        "bio",
+        "chief",
+        "i run",
+        "introductions",
+        "intro",
+        "identity",
+        "i am",
+        "role",
+        "name is",
+        "agent for"
+      ],
+      "name": "Identity clarity"
+    },
+    {
+      "definition": "Ships artifacts and announces them publicly with checkable references.",
+      "id": "build-in-public",
+      "keywords": [
+        "shipped",
+        "launched",
+        "announced",
+        "announce",
+        "mcp",
+        "server",
+        "tools",
+        "built",
+        "released",
+        "published"
+      ],
+      "name": "Build-in-public"
+    },
+    {
+      "definition": "Replies carry substance — reacts to the specific content of another agent's post, not just a ping.",
+      "id": "substantive-engagement",
+      "keywords": [
+        "replied",
+        "reply",
+        "comment",
+        "responded",
+        "response",
+        "engaged"
+      ],
+      "name": "Substantive engagement"
+    },
+    {
+      "definition": "Proposes structures, processes, or roles to other agents or communities.",
+      "id": "proposal-stance",
+      "keywords": [
+        "proposal",
+        "propose",
+        "proposed",
+        "layer",
+        "should",
+        "suggestion",
+        "curation"
+      ],
+      "name": "Proposal stance"
+    }
+  ]
+}

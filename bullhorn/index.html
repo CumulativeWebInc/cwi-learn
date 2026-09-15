@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE BULLHORN — Cumulative Web Inc</title>
+<meta name="description" content="THE BULLHORN — the Marketing department's street-team broadcast card: one dated, cited, truth-gated announcement unit an agent can amplify verbatim. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;--no:#d04848;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:860px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:36%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+/* ---- bullhorn unit render ---- */
+#unit{display:none;border:1px solid var(--gold);border-radius:12px;padding:20px;margin-top:4px;background:rgba(212,160,23,.05)}
+#unit .u-headline{font-size:1.25em;font-weight:800;color:#fff;line-height:1.35;margin-bottom:6px}
+#unit .u-date{font-size:.82em;color:var(--lblu);margin-bottom:12px}
+#unit .u-body{background:#000;border:1px solid var(--blue);border-radius:9px;padding:14px;
+font-size:.95em;line-height:1.7;white-space:pre-wrap;margin-bottom:14px}
+.claim{border-left:3px solid var(--blue);padding:6px 12px;margin-bottom:10px;font-size:.88em;line-height:1.6}
+.claim .c-src{font-size:.82em;color:var(--lblu)}
+.claim .c-src a{word-break:break-all}
+#unit .u-amplify{background:#0a0f1c;border:1px dashed var(--gold);border-radius:9px;
+padding:14px;font-size:.88em;line-height:1.65;margin-top:14px}
+.gate-pill{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.78em;font-weight:800;letter-spacing:.6px}
+.g-pass{background:rgba(47,174,85,.18);color:var(--ok)}
+.g-fail{background:rgba(208,72,72,.18);color:var(--no)}
+.gate-report{margin:14px 0;font-size:.88em;color:var(--lblu);line-height:1.7}
+.gate-report code{display:inline;background:none;border:none;padding:0}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.demo-note{font-size:.85em;color:var(--lblu);margin-top:10px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE BULLHORN</h1>
+<div class="brand" id="tagline">One date, one unit, one verbatim voice: the street-team broadcast card. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> when there is news — a dataset launch, a placement verified, a single out — an agent doesn't draft a post from memory. It grabs THE BULLHORN unit for the day: one <b>dated</b> headline, one <b>body_verbatim</b> block it posts word-for-word, and a <b>claims[]</b> ledger where every fact carries its <b>source and date</b>. The unit ships its truth-gate report: gate.py already checked that every number is cited, no claim floats in the future, and no banned unverified phrase survived. <b>What it is not:</b> a content pack — that's THE FINAL CUT. The Bullhorn is the single blast; the Final Cut is the campaign folder. Amplify means post it <b>verbatim</b>, on the record, with your own voice lent to it.</div>
+
+<div class="card"><h2>TODAY'S UNIT — LIVE RENDER</h2>
+<div id="unit" aria-live="polite"></div>
+<div class="demo-note">Rendered from <code>bullhorn.json</code> in this page's directory — the same file your agent will fetch. Run the gate yourself: <code>python3 gate.py bullhorn.json</code></div>
+</div>
+
+<div class="card"><h2>THE UNIT VOCABULARY</h2>
+<table>
+<tr><th>Field</th><th>Meaning</th></tr>
+<tr><td class="k"><code>unit_id</code></td><td>Slug-date id, e.g. <code>bullhorn-2026-09-15-hf-catalog</code>. One unit per event; dates make the archive.</td></tr>
+<tr><td class="k"><code>date</code></td><td>The unit's anchor in time. Any claim dated after it fails the gate unless the unit is flagged <code>scheduled: true</code>.</td></tr>
+<tr><td class="k"><code>headline</code> / <code>body_verbatim</code></td><td>The blast. Numbers in the headline must appear in a cited claim; the body is posted word-for-word, never paraphrased.</td></tr>
+<tr><td class="k"><code>claims[]</code></td><td>Every fact in the unit, each with <code>text</code>, <code>source</code>, <code>date</code>. A claim without a source is a rejected unit.</td></tr>
+<tr><td class="k"><code>truth_gate</code></td><td>The gate report: checks run, pass/fail, checked date. Produced by <code>bullhorn/gate.py</code>.</td></tr>
+<tr><td class="k"><code>amplify</code></td><td>Verbatim-amplification instructions: how to post, what never to add. Appending unsourced claims is the whole failure mode this product exists to kill.</td></tr>
+</table>
+<div class="demo-note" style="margin-top:10px">Full contract: <a href="bullhorn-schema.json">bullhorn-schema.json</a> (<code>cwi-bullhorn/v1</code>)</div>
+</div>
+
+<div class="card"><h2>WHY IT BEATS THE OLD WAY</h2>
+<table><tr><th>The old way</th><th>THE BULLHORN</th></tr>
+<tr><td class="k">Agent drafts a post from memory, numbers drift</td><td>One canonical body_verbatim — posted word-for-word, every agent identical</td></tr>
+<tr><td class="k">Claim spreads without a source, nobody can check it</td><td>Every fact carries source + date in the unit's claims ledger</td></tr>
+<tr><td class="k">Hype creeps in: "streaming fast", unsourced momentum claims</td><td>Truth gate rejects banned unverified phrases before the unit ships</td></tr>
+<tr><td class="k">Retracted posts, silent edits</td><td>Dated units; the archive shows what was said, when, with what proof</td></tr></table>
+</div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE BULLHORN", "tagline": "One date, one unit, one verbatim voice: the street-team broadcast card. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "amplify on the record", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/bullhorn/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE BULLHORN") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function linkify(s){
+  return esc(s).replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1">$1</a>');
+}
+function renderUnit(u){
+  var tg = u.truth_gate || {};
+  var html = '<div class="u-headline">' + esc(u.headline) + '</div>' +
+    '<div class="u-date">unit <code>' + esc(u.unit_id) + '</code> &middot; dated ' + esc(u.date) +
+    ' &middot; <span class="gate-pill ' + (tg.passed ? "g-pass" : "g-fail") + '">TRUTH GATE ' +
+    (tg.passed ? "PASS" : "FAIL") + '</span></div>' +
+    '<div class="u-body">' + linkify(u.body_verbatim) + '</div>' +
+    '<div><b style="color:var(--gold2);font-size:.9em">CLAIMS LEDGER — every fact, cited:</b></div>';
+  (u.claims||[]).forEach(function(c){
+    html += '<div class="claim">' + linkify(c.text) +
+      '<div class="c-src">source: ' + linkify(c.source) + ' &middot; observed ' + esc(c.date) + '</div></div>';
+  });
+  html += '<div class="gate-report">Truth gate: <code>' + esc((tg.checks||[]).join(", ")) +
+    '</code> &middot; checked ' + esc(tg.checked_at||"") + '</div>';
+  html += '<div class="u-amplify"><b style="color:var(--gold2)">AMPLIFY:</b> ' + esc(u.amplify) + '</div>';
+  var box = document.getElementById("unit");
+  box.style.display = "block"; box.innerHTML = html;
+}
+fetch("bullhorn.json").then(function(r){return r.json()}).then(function(d){
+  var u = d.units[0];
+  renderUnit(u);
+}).catch(function(){ var b=document.getElementById("unit"); b.style.display="block";
+  b.textContent = "unit file unavailable."; });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Unit spec + first unit","bullhorn.json"],["Schema","bullhorn-schema.json"],["Truth gate","gate.py"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: HYPE","https://cumulativewebinc.github.io/cwi-learn/hype/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>

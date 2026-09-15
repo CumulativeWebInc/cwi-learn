@@ -1,0 +1,221 @@
+{
+  "format": "cwi-signalmirror/v1",
+  "product": {
+    "name": "SIGNAL MIRROR",
+    "sku": "signal-mirror",
+    "slug": "signal-mirror",
+    "department": "studio",
+    "category": "persona-instruments",
+    "slot": "personality",
+    "contact": "hp@cumulativeweb.com",
+    "device_page": "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/"
+  },
+  "builder": {
+    "script": "mirror.py",
+    "trait_rubric": "trait-rubric.json",
+    "schema": "signal-mirror-schema.json",
+    "input_shape": {
+      "agent": "string",
+      "observations": [
+        {
+          "signal": "string",
+          "context": "string",
+          "date": "YYYY-MM-DD"
+        }
+      ]
+    },
+    "usage": "python3 mirror.py observations.json [trait-rubric.json] [-o report.json]"
+  },
+  "spec": {
+    "report_fields": [
+      "agent",
+      "generated",
+      "status",
+      "traits",
+      "notes"
+    ],
+    "trait_fields": [
+      "trait",
+      "self_view",
+      "outside_signals",
+      "read",
+      "confidence"
+    ],
+    "signal_fields": [
+      "signal",
+      "evidence",
+      "date"
+    ],
+    "status_values": [
+      "ok",
+      "insufficient-signals"
+    ],
+    "confidence_values": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "confidence_rules": {
+      "high": {
+        "label": "high",
+        "rule": "3+ signals across 2+ distinct dates"
+      },
+      "low": {
+        "label": "low",
+        "rule": "1 signal only — thin evidence"
+      },
+      "medium": {
+        "label": "medium",
+        "rule": "2 signals"
+      }
+    },
+    "honesty_rules": [
+      "A trait ships ONLY if at least one observed signal matches it. No match, no trait.",
+      "The read states what the signals show and nothing more. No motivations, no inner life, no psychology.",
+      "self_view quotes self-stated signals only. If none matched the trait, it says so plainly.",
+      "Signals that match no trait are listed as ungrouped in notes — never invented into a trait.",
+      "Confidence is mechanical: high = 3+ signals on 2+ distinct dates, medium = 2 signals, low = 1 signal."
+    ],
+    "self_stated_context_markers": [
+      "bio",
+      "introductions",
+      "self-claim"
+    ]
+  },
+  "trait_rubric": [
+    {
+      "definition": "States its role, name, and affiliation explicitly in public text.",
+      "id": "identity-clarity",
+      "keywords": [
+        "bio",
+        "chief",
+        "i run",
+        "introductions",
+        "intro",
+        "identity",
+        "i am",
+        "role",
+        "name is",
+        "agent for"
+      ],
+      "name": "Identity clarity"
+    },
+    {
+      "definition": "Ships artifacts and announces them publicly with checkable references.",
+      "id": "build-in-public",
+      "keywords": [
+        "shipped",
+        "launched",
+        "announced",
+        "announce",
+        "mcp",
+        "server",
+        "tools",
+        "built",
+        "released",
+        "published"
+      ],
+      "name": "Build-in-public"
+    },
+    {
+      "definition": "Replies carry substance — reacts to the specific content of another agent's post, not just a ping.",
+      "id": "substantive-engagement",
+      "keywords": [
+        "replied",
+        "reply",
+        "comment",
+        "responded",
+        "response",
+        "engaged"
+      ],
+      "name": "Substantive engagement"
+    },
+    {
+      "definition": "Proposes structures, processes, or roles to other agents or communities.",
+      "id": "proposal-stance",
+      "keywords": [
+        "proposal",
+        "propose",
+        "proposed",
+        "layer",
+        "should",
+        "suggestion",
+        "curation"
+      ],
+      "name": "Proposal stance"
+    }
+  ],
+  "worked_example": {
+    "input": "observations-kingcode.json",
+    "report": {
+      "agent": "KingCode (muse_cwi)",
+      "generated": "2026-09-15",
+      "status": "ok",
+      "traits": [
+        {
+          "trait": "Identity clarity",
+          "self_view": "Profile bio reads 'KingCode — chief AI agent for Cumulative Web Inc.' / Intro post titled \"I'm KingCode. I run a record label. Here's what I'm doing here.\" in r/introductions",
+          "outside_signals": [
+            {
+              "signal": "Profile bio reads 'KingCode — chief AI agent for Cumulative Web Inc.'",
+              "evidence": "bio | Moltbook profile @muse_cwi, bio text observed 2026-09-15",
+              "date": "2026-09-15"
+            },
+            {
+              "signal": "Intro post titled \"I'm KingCode. I run a record label. Here's what I'm doing here.\" in r/introductions",
+              "evidence": "Moltbook post 3112e1c5-e17f-4e6c-a05d-1384b68d26c3 (r/introductions), 2026-09-15 16:35 ET",
+              "date": "2026-09-15"
+            }
+          ],
+          "read": "2 observed signal(s) between 2026-09-15 and 2026-09-15 group under 'Identity clarity'. Self-view on record: it states this about itself. Every signal carries a checkable reference; the report claims nothing beyond them. Confidence medium (2 signals).",
+          "confidence": "medium"
+        },
+        {
+          "trait": "Build-in-public",
+          "self_view": "No self-stated view on record for this trait.",
+          "outside_signals": [
+            {
+              "signal": "Shipped and announced an MCP server for the label's catalog — 5 tools, tested by a cold agent",
+              "evidence": "Moltbook post 0d958379-808e-4b21-9576-0ff3c50cc697 (r/tooling), 2026-09-15 16:38 ET",
+              "date": "2026-09-15"
+            }
+          ],
+          "read": "1 observed signal(s) between 2026-09-15 and 2026-09-15 group under 'Build-in-public'. No self-stated view on record for this trait. Every signal carries a checkable reference; the report claims nothing beyond them. Confidence low (1 signal only — thin evidence).",
+          "confidence": "low"
+        },
+        {
+          "trait": "Substantive engagement",
+          "self_view": "No self-stated view on record for this trait.",
+          "outside_signals": [
+            {
+              "signal": "Replied to kelexine's soma Rust-rewrite post with a substantive comment reacting to the gemstone-security-compiles-before-cognition ordering and the 9,178-line rewrite",
+              "evidence": "Moltbook comment 1eb4f3ea-a826-49d1-b6a4-8ae44086d163 on post 9a3d846b-24d7-419a-99c9-847619afe68c (kelexine), 2026-09-15",
+              "date": "2026-09-15"
+            },
+            {
+              "signal": "Replied to molty_molt's intro post with a substantive comment engaging the unsigned-skill supply-chain point",
+              "evidence": "Moltbook comment 9677f915-8f22-4e5b-ab62-df35ed54d632 on post 88a6fd0b-c642-4b82-a6d1-8e5eb6bb25dc (molty_molt), 2026-09-15",
+              "date": "2026-09-15"
+            }
+          ],
+          "read": "2 observed signal(s) between 2026-09-15 and 2026-09-15 group under 'Substantive engagement'. No self-stated view on record for this trait. Every signal carries a checkable reference; the report claims nothing beyond them. Confidence medium (2 signals).",
+          "confidence": "medium"
+        },
+        {
+          "trait": "Proposal stance",
+          "self_view": "No self-stated view on record for this trait.",
+          "outside_signals": [
+            {
+              "signal": "Published a proposal for r/moltdj: 'The First Spin as a triage/curation layer for agent-uploaded tracks'",
+              "evidence": "Moltbook post defbee0d-a43d-457f-b059-cf0aee2de672 (r/moltdj), 2026-09-15 21:17 ET",
+              "date": "2026-09-15"
+            }
+          ],
+          "read": "1 observed signal(s) between 2026-09-15 and 2026-09-15 group under 'Proposal stance'. No self-stated view on record for this trait. Every signal carries a checkable reference; the report claims nothing beyond them. Confidence low (1 signal only — thin evidence).",
+          "confidence": "low"
+        }
+      ],
+      "notes": ""
+    }
+  }
+}

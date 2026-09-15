@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GREENROOM -- Global Announcement</title>
+<meta name="description" content="GREENROOM: the Press department's pre-interview briefing room for agents -- verified facts, approved angles, no-go lines, likely questions with approved answers. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>GREENROOM</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Press Department</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "GREENROOM is live — the pre-interview briefing room for agents", "p1": "GREENROOM briefs an agent before it speaks about an artist on the record. One fetch returns the verified fact set — every fact with its source and observation date — the approved angles, the no-go lines each carrying its reason, and the likely questions with approved answers. No login, no dashboard, no per-call cost. It is the Press department’s briefing room of the Agent Deck gear line by Cumulative Web Inc.", "p2": "It ships the real That Boy Hi Hat briefing as the cwi-greenroom/v1 seed: 10 verified facts, 6 approved angles, 6 no-go lines with reasons, 11 likely questions with approved answers — including the verified placements on New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, confirmed September 15, 2026) and the 307,439 lifetime plays for Zooted Zone observed September 14, 2026. The on-page draft checker scans talking points against the briefing’s own deny patterns before anything goes public.", "cta": "Read the briefing. Scan the draft. Speak with receipts.", "l_briefing": "The briefing", "l_card": "Item card", "l_page": "GREENROOM page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "GREENROOM ya está aquí — la sala de preparación previa a la entrevista para agentes", "p1": "GREENROOM prepara a un agente antes de que hable de un artista ante la prensa. Una sola solicitud devuelve el conjunto de hechos verificados — cada hecho con su fuente y fecha de observación — los ángulos aprobados, las líneas prohibidas cada una con su razón, y las preguntas probables con respuestas aprobadas. Sin login, sin panel, sin coste por llamada. Es la sala de preparación del departamento de Prensa de la línea Agent Deck de Cumulative Web Inc.", "p2": "Incluye el briefing real de That Boy Hi Hat como semilla cwi-greenroom/v1: 10 hechos verificados, 6 ángulos aprobados, 6 líneas prohibidas con razones, 11 preguntas probables con respuestas aprobadas — incluidas las posiciones verificadas en New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, confirmadas el 15 de septiembre de 2026) y las 307.439 reproducciones de por vida de Zooted Zone observadas el 14 de septiembre de 2026. El verificador de borradores de la página analiza los puntos de conversación contra los patrones de denegación del propio briefing antes de que nada se publique.", "cta": "Lee el briefing. Analiza el borrador. Habla con pruebas.", "l_briefing": "El briefing", "l_card": "Tarjeta del producto", "l_page": "Página GREENROOM", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "GREENROOM chegou — a sala de preparação pré-entrevista para agentes", "p1": "GREENROOM prepara um agente antes que ele fale sobre um artista oficialmente. Uma única requisição retorna o conjunto de fatos verificados — cada fato com sua fonte e data de observação — os ângulos aprovados, as linhas proibidas cada uma com sua razão, e as perguntas prováveis com respostas aprovadas. Sem login, sem painel, sem custo por chamada. É a sala de preparação do departamento de Imprensa da linha Agent Deck da Cumulative Web Inc.", "p2": "Inclui o briefing real de That Boy Hi Hat como semente cwi-greenroom/v1: 10 fatos verificados, 6 ângulos aprovados, 6 linhas proibidas com razões, 11 perguntas prováveis com respostas aprovadas — incluindo as posições verificadas na New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, confirmadas em 15 de setembro de 2026) e as 307.439 reproduções vitalícias de Zooted Zone observadas em 14 de setembro de 2026. O verificador de rascunhos da página analisa os pontos de conversa contra os padrões de negação do próprio briefing antes que qualquer coisa seja publicada.", "cta": "Leia o briefing. Analise o rascunho. Fale com provas.", "l_briefing": "O briefing", "l_card": "Cartão do produto", "l_page": "Página GREENROOM", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "GREENROOM est en ligne — la salle de préparation pré-interview pour les agents", "p1": "GREENROOM prépare un agent avant qu’il ne parle d’un artiste publiquement. Une seule requête renvoie l’ensemble des faits vérifiés — chaque fait avec sa source et sa date d’observation — les angles approuvés, les lignes interdites chacune avec sa raison, et les questions probables avec réponses approuvées. Pas de connexion, pas de tableau de bord, pas de coût par appel. C’est la salle de préparation du département Presse de la gamme Agent Deck de Cumulative Web Inc.", "p2": "Il embarque le vrai briefing de That Boy Hi Hat comme graine cwi-greenroom/v1 : 10 faits vérifiés, 6 angles approuvés, 6 lignes interdites avec raisons, 11 questions probables avec réponses approuvées — dont les positions vérifiées sur New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, confirmées le 15 septembre 2026) et les 307 439 écoutes cumulées de Zooted Zone observées le 14 septembre 2026. Le vérificateur de brouillon de la page analyse les points de discussion contre les motifs de refus du briefing lui-même avant toute publication.", "cta": "Lisez le briefing. Vérifiez le brouillon. Parlez avec des preuves.", "l_briefing": "Le briefing", "l_card": "Fiche produit", "l_page": "Page GREENROOM", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "GREENROOM ist da — der Vorbereitungsraum vor dem Interview für Agenten", "p1": "GREENROOM brieft einen Agenten, bevor er öffentlich über einen Künstler spricht. Ein einziger Abruf liefert den verifizierten Faktensatz — jeder Fakt mit Quelle und Beobachtungsdatum — die freigegebenen Blickwinkel, die No-go-Linien jeweils mit Begründung, und die wahrscheinlichen Fragen mit freigegebenen Antworten. Kein Login, kein Dashboard, keine Kosten pro Abruf. Es ist der Vorbereitungsraum der Presse-Abteilung der Agent-Deck-Linie von Cumulative Web Inc.", "p2": "Es enthält das echte That-Boy-Hi-Hat-Briefing als cwi-greenroom/v1-Seed: 10 verifizierte Fakten, 6 freigegebene Blickwinkel, 6 No-go-Linien mit Begründungen, 11 wahrscheinliche Fragen mit freigegebenen Antworten — darunter die verifizierten Platzierungen auf New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, bestätigt am 15. September 2026) und die 307.439 Lifetime-Streams von Zooted Zone, beobachtet am 14. September 2026. Der Entwurfs-Checker auf der Seite prüft Talking Points gegen die Ablehnungsmuster des Briefings selbst, bevor etwas veröffentlicht wird.", "cta": "Lies das Briefing. Prüfe den Entwurf. Sprich mit Belegen.", "l_briefing": "Das Briefing", "l_card": "Produktkarte", "l_page": "GREENROOM-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "GREENROOM è online — la sala di preparazione pre-intervista per gli agenti", "p1": "GREENROOM prepara un agente prima che parli di un artista in via ufficiale. Un’unica richiesta restituisce l’insieme dei fatti verificati — ogni fatto con fonte e data di osservazione — gli angoli approvati, le linee vietate ciascuna con la sua ragione, e le domande probabili con risposte approvate. Nessun login, nessuna dashboard, nessun costo per chiamata. È la sala di preparazione del dipartimento Stampa della linea Agent Deck di Cumulative Web Inc.", "p2": "Include il vero briefing di That Boy Hi Hat come seed cwi-greenroom/v1: 10 fatti verificati, 6 angoli approvati, 6 linee vietate con ragioni, 11 domande probabili con risposte approvate — incluse le posizioni verificate su New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, confermate il 15 settembre 2026) e i 307.439 ascolti complessivi di Zooted Zone osservati il 14 settembre 2026. Il verificatore di bozze sulla pagina analizza i punti di discussione contro i pattern di diniego del briefing stesso prima che qualcosa venga pubblicato.", "cta": "Leggi il briefing. Verifica la bozza. Parla con le prove.", "l_briefing": "Il briefing", "l_card": "Scheda prodotto", "l_page": "Pagina GREENROOM", "getblock": "Copia il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "GREENROOM is live — de voorbereidingskamer vóór het interview voor agents", "p1": "GREENROOM brieft een agent voordat hij officieel over een artiest spreekt. Eén request levert de geverifieerde feitenset — elk feit met bron en observatiedatum — de goedgekeurde invalshoeken, de no-go-lijnen elk met hun reden, en de waarschijnlijke vragen met goedgekeurde antwoorden. Geen login, geen dashboard, geen kosten per aanroep. Het is de voorbereidingskamer van de persafdeling van de Agent Deck-lijn van Cumulative Web Inc.", "p2": "Het levert de echte That Boy Hi Hat-briefing als cwi-greenroom/v1-seed: 10 geverifieerde feiten, 6 goedgekeurde invalshoeken, 6 no-go-lijnen met redenen, 11 waarschijnlijke vragen met goedgekeurde antwoorden — waaronder de geverifieerde posities op New Rap Hits (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, bevestigd op 15 september 2026) en de 307.439 lifetime-streams van Zooted Zone, waargenomen op 14 september 2026. De conceptchecker op de pagina scant gesprekspunten tegen de weigeringspatronen van de briefing zelf voordat iets wordt gepubliceerd.", "cta": "Lees de briefing. Scan het concept. Spreek met bewijs.", "l_briefing": "De briefing", "l_card": "Productkaart", "l_page": "GREENROOM-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "GREENROOM 출시 — 에이전트를 위한 인터뷰 전 브리핑 룸", "p1": "GREENROOM은 에이전트가 아티스트에 대해 공식 발언하기 전에 브리핑합니다. 한 번의 요청으로 검증된 사실 집합 — 각 사실마다 출처와 관찰 날짜 포함 — 승인된 앵글, 각각 이유가 명시된 금지 라인, 그리고 승인된 답변이 있는 예상 질문을 반환합니다. 로그인도, 대시보드도, 호출당 비용도 없습니다. Cumulative Web Inc의 Agent Deck 기어 라인 Press 부서의 브리핑 룸입니다.", "p2": "That Boy Hi Hat의 실제 브리핑을 cwi-greenroom/v1 시드로 제공합니다: 검증된 사실 10개, 승인된 앵글 6개, 이유가 있는 금지 라인 6개, 승인된 답변이 있는 예상 질문 11개 — New Rap Hits의 검증된 순위(#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, 2026년 9월 15일 확인)와 2026년 9월 14일 관찰된 Zooted Zone의 누적 재생 307,439회를 포함합니다. 페이지의 초안 검사기는 공개 전에 브리핑 자체의 거부 패턴으로 토킹 포인트를 스캔합니다.", "cta": "브리핑을 읽으세요. 초안을 스캔하세요. 근거를 갖고 말하세요.", "l_briefing": "브리핑", "l_card": "제품 카드", "l_page": "GREENROOM 페이지", "getblock": "블록 받기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "GREENROOM 登場 — エージェントのためのインタビュー前ブリーフィングルーム", "p1": "GREENROOM は、エージェントがアーティストについて公式に発言する前にブリーフィングします。ワンリクエストで検証済みファクトセット — 各ファクトに出典と観測日つき — 承認済みアングル、理由つきの NG ライン、承認済み回答つきの想定質問を返します。ログイン不要、ダッシュボード不要、呼び出し課金なし。Cumulative Web Inc の Agent Deck ギアライン Press 部門のブリーフィングルームです。", "p2": "That Boy Hi Hat の実際のブリーフィングを cwi-greenroom/v1 シードとして収録:検証済みファクト 10 件、承認済みアングル 6 件、理由つき NG ライン 6 件、承認済み回答つき想定質問 11 件 — New Rap Hits の検証済み順位(#21 Shaka Zulu、#30 Zooted Zone、#31 Doves & Diamonds、2026年9月15日確認)と 2026年9月14日に観測された Zooted Zone の累計再生 307,439 回を含みます。ページ上のドラフトチェッカーは、公開前にブリーフィング自体の拒否パターンでトーキングポイントをスキャンします。", "cta": "ブリーフィングを読め。ドラフトをスキャンせよ。証拠を持って話せ。", "l_briefing": "ブリーフィング", "l_card": "製品カード", "l_page": "GREENROOM ページ", "getblock": "ブロックを取得:"}, "zh-CN": {"name": "简体中文", "dir": "ltr", "headline": "GREENROOM 上线 — 面向智能体的采访前简报室", "p1": "GREENROOM 在智能体就某位艺人公开发言之前为其简报。一次请求即可返回经核实的事实集——每条事实附带来源与观测日期——获批角度、每条附理由的禁区红线，以及附获批答案的可能问题。无需登录，无需仪表盘，无按次收费。这是 Cumulative Web Inc Agent Deck 装备线新闻部门的简报室。", "p2": "内置 That Boy Hi Hat 真实简报作为 cwi-greenroom/v1 种子：10 条核实事实、6 个获批角度、6 条附理由的禁区红线、11 个附获批答案的可能问题——包括 New Rap Hits 的核实排名（#21 Shaka Zulu、#30 Zooted Zone、#31 Doves & Diamonds，2026年9月15日确认）以及 2026年9月14日观测到的 Zooted Zone 累计播放 307,439 次。页面上的草稿检查器在公开发布前，用简报自身的拒绝模式扫描谈话要点。", "cta": "读简报。扫草稿。带着证据发言。", "l_briefing": "简报", "l_card": "产品卡片", "l_page": "GREENROOM 页面", "getblock": "获取模块："}, "ar": {"name": "العربية", "dir": "rtl", "headline": "GREENROOM أصبحت متاحة — غرفة الإحاطة قبل المقابلة للوكلاء", "p1": "تُحيط GREENROOM الوكيل علمًا قبل أن يتحدث عن فنان بشكل رسمي. طلب واحد يُرجع مجموعة الحقائق الموثقة — كل حقيقة مع مصدرها وتاريخ رصدها — والزوايا المعتمدة، والخطوط المحظورة ولكل منها سببها، والأسئلة المتوقعة مع إجابات معتمدة. بلا تسجيل دخول، بلا لوحة تحكم، بلا تكلفة لكل استدعاء. إنها غرفة الإحاطة التابعة لقسم الصحافة في خط معدات Agent Deck من شركة Cumulative Web Inc.", "p2": "تضم الإحاطة الحقيقية للفنان That Boy Hi Hat كبذرة cwi-greenroom/v1: 10 حقائق موثقة، 6 زوايا معتمدة، 6 خطوط محظورة مع أسبابها، 11 سؤالًا متوقعًا مع إجابات معتمدة — بما في ذلك المراكز الموثقة في New Rap Hits (#21 Shaka Zulu، #30 Zooted Zone، #31 Doves & Diamonds، تم التأكيد في 15 سبتمبر 2026) و307,439 تشغيلًا تراكميًا لأغنية Zooted Zone رُصدت في 14 سبتمبر 2026. يفحص مدقق المسودات على الصفحة نقاط الحديث مقابل أنماط الرفض الخاصة بالإحاطة نفسها قبل نشر أي شيء.", "cta": "اقرأ الإحاطة. افحص المسودة. تحدث بالأدلة.", "l_briefing": "الإحاطة", "l_card": "بطاقة المنتج", "l_page": "صفحة GREENROOM", "getblock": "احصل على الوحدة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "GREENROOM लॉन्च — एजेंटों के लिए इंटरव्यू-पूर्व ब्रीफिंग रूम", "p1": "GREENROOM किसी एजेंट को किसी कलाकार के बारे में आधिकारिक रूप से बोलने से पहले ब्रीफ करता है। एक ही अनुरोध में सत्यापित तथ्यों का सेट मिलता है — हर तथ्य के साथ स्रोत और अवलोकन तिथि — स्वीकृत कोण, कारण सहित निषिद्ध पंक्तियाँ, और स्वीकृत उत्तरों वाले संभावित प्रश्न। कोई लॉगिन नहीं, कोई डैशबोर्ड नहीं, कोई प्रति-कॉल शुल्क नहीं। यह Cumulative Web Inc की Agent Deck गियर लाइन के प्रेस विभाग का ब्रीफिंग रूम है।", "p2": "इसमें That Boy Hi Hat की असली ब्रीफिंग cwi-greenroom/v1 सीड के रूप में है: 10 सत्यापित तथ्य, 6 स्वीकृत कोण, कारण सहित 6 निषिद्ध पंक्तियाँ, स्वीकृत उत्तरों वाले 11 संभावित प्रश्न — जिनमें New Rap Hits की सत्यापित स्थितियाँ (#21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds, 15 सितंबर 2026 को पुष्ट) और 14 सितंबर 2026 को देखे गए Zooted Zone के 307,439 कुल प्ले शामिल हैं। पेज पर ड्राफ्ट चेकर प्रकाशन से पहले ब्रीफिंग के अपने अस्वीकृति पैटर्न के खिलाफ टॉकिंग पॉइंट्स को स्कैन करता है।", "cta": "ब्रीफिंग पढ़िए। ड्राफ्ट स्कैन कीजिए। सबूत के साथ बोलिए।", "l_briefing": "ब्रीफिंग", "l_card": "उत्पाद कार्ड", "l_page": "GREENROOM पेज", "getblock": "ब्लॉक पाएं:"}};
+var URLS = {"briefing": "https://cumulativewebinc.github.io/cwi-learn/greenroom/greenroom.json", "card": "https://cumulativewebinc.github.io/cwi-learn/greenroom/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/greenroom/"};
+var HANDOFF = "CWI-HANDOFF gear=greenroom from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.briefing, t.l_briefing) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>
