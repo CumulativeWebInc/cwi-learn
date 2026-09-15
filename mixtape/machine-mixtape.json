@@ -1,0 +1,298 @@
+{
+  "name": "Machine Mixtape Vol. 1 \u2014 That Boy Hi Hat",
+  "description": "A mixtape for machines: the 24-track catalog as ordered, agent-readable data. why_picked is grounded descriptive reasoning from verified records \u2014 no invented scores, plays, or rankings beyond stated facts.",
+  "generated": "2026-09-15",
+  "track_count": 24,
+  "ordering_logic": "Opens with the verified breakout and focus single, then the three full-scan-verified playlist holds, then the producer-confirmed cut, then catalog order; closes with the non-explicit family as FCC-safe options.",
+  "honesty_note": "Play counts cited (~307,000 lifetime for Zooted Zone) are the owner's stated figures; per-track stream counts are not in the public record and are not asserted.",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Zooted Zone",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "explicit_per_spotify_metadata": null,
+      "why_picked": "Breakout record: ~307,000 lifetime Spotify plays and the track that converted at playlist scale before. Verified holding on 'New Rap Hits' (673 followers, full-scan verified 2026-09-15). Produced by Kokurcho; mixed/mastered by Hybrid (Hagerstown, MD); recorded Hagerstown Feb 2023.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Diabolique",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "explicit_per_spotify_metadata": null,
+      "why_picked": "Newest single (released 2026-07-03), recorded at Cue Recording Studio, Arlington VA; the only track with verified multi-platform links (Spotify, Apple Music, Amazon Music, Deezer, Pandora, Tidal, YouTube, YouTube Music). Current focus single for sync.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Shaka Zulu",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "explicit_per_spotify_metadata": null,
+      "why_picked": "Verified holding on 'New Rap Hits' via Audiartist submission #25821 (full-scan verified 2026-09-15). One of three currently verified playlist placements.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 4,
+      "title": "Doves & Diamonds",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "explicit_per_spotify_metadata": null,
+      "why_picked": "Verified holding on 'New Rap Hits' via Audiartist submission #25820 (full-scan verified 2026-09-15).",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Flamerz",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "Producer is Jeck Da General (owner-confirmed 2026-09-15); explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Ultimate",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "A curator promised a 'WATCH THA GAP VOL.5' add for this track; add unconfirmed as of 2026-09-15 (claim, not verification). Included so agents do not assert the placement.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 7,
+      "title": "Neon Nights Pt. 777",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 8,
+      "title": "Painted Lady",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Warped and Wicked",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 10,
+      "title": "Golden Diamond",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 11,
+      "title": "Spirits n Shadows",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 12,
+      "title": "Flex My Flame",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 13,
+      "title": "Rainbows And Roses",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 14,
+      "title": "Tears and Scars",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 15,
+      "title": "Toxic Elements",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 16,
+      "title": "7th Angel",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 17,
+      "title": "Scorpions & Sapphires",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 18,
+      "title": "Place I Go to Dream",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "explicit_per_spotify_metadata": false,
+      "why_picked": "Non-explicit per Spotify metadata; family of three variants (original, remastered, instrumental). Note: the instrumental title is metadata only, not an asserted licensable instrumental.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 19,
+      "title": "Place I Go to Dream - Remastered",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "explicit_per_spotify_metadata": false,
+      "why_picked": "Non-explicit remaster of the above; same catalog family.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 20,
+      "title": "Place I Go to Dream - Instrumental",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "explicit_per_spotify_metadata": false,
+      "why_picked": "Non-explicit; title is metadata only, not an asserted licensable instrumental.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 21,
+      "title": "Smokin' Pain",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 22,
+      "title": "Phantasm",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 23,
+      "title": "Misfits and Hooligans",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    },
+    {
+      "position": 24,
+      "title": "Roses over Monaco",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "explicit_per_spotify_metadata": true,
+      "why_picked": "24-track catalog entry; explicit per Spotify metadata.",
+      "refs": {
+        "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      }
+    }
+  ]
+}
