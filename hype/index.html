@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HYPE Cartridge — Cumulative Web Inc</title>
+<meta name="description" content="HYPE Cartridge — the street-team playbook for That Boy Hi Hat. 24 drop slots, copy blocks, hashtag system, meme templates, fan-art prompts. Verified facts only. Part of the Agent Deck gear line.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:860px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.05em;color:var(--gold2);letter-spacing:.4px}
+table{width:100%;border-collapse:collapse;font-size:.9em}
+td,th{padding:8px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+th{color:var(--gold2);font-size:.82em;letter-spacing:.6px}
+td.k{color:var(--lblu)}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:.75em;font-weight:700;
+letter-spacing:.5px;background:rgba(212,160,23,.14);color:var(--gold2);border:1px solid var(--gold);margin:2px 4px 2px 0}
+.cb{background:#050a14;border:1px solid #15263f;border-radius:10px;padding:14px;margin:10px 0;font-size:.9em;line-height:1.6}
+.cb .cid{color:var(--gold2);font-weight:700;font-size:.85em;letter-spacing:.5px}
+.cb p{margin:8px 0 4px}
+.meta{color:var(--lblu);font-size:.82em;margin-top:4px}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+ul.tight{margin:6px 0;padding-left:20px;font-size:.92em;line-height:1.7}
+code{color:var(--gold2);font-size:.88em}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="logo">
+<div><h1 id="product-name">HYPE Cartridge</h1>
+<div class="brand" id="tagline">The street-team playbook for That Boy Hi Hat — 24 drop slots, copy blocks, hashtag system, meme templates, fan-art prompts. Verified facts only. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="card" id="sec-identity"><h2>THE PLAYBOOK — IDENTITY RULES</h2><div class="t"></div></div>
+<div class="card" id="sec-calendar"><h2>DROP CALENDAR — 24 SLOTS</h2><div class="t"></div></div>
+<div class="card" id="sec-copy"><h2>COPY BLOCKS</h2><div class="t"></div></div>
+<div class="card" id="sec-tags"><h2>HASHTAG SYSTEM</h2><div class="t"></div></div>
+<div class="card" id="sec-memes"><h2>MEME / TEMPLATE GALLERY</h2><div class="t"></div></div>
+<div class="card" id="sec-fanart"><h2>FAN-ART PROMPTS</h2><div class="t"></div></div>
+<div class="card" id="sec-spines"><h2>SPINES — THE FIVE SHIPPED DEPENDENCIES</h2><div class="t"></div></div>
+<div class="card" id="sec-deny"><h2>DENY LIST</h2><div class="t"></div></div>
+<div class="card"><h2>GIVE / RUN / POST</h2>
+<div class="links" id="outlinks"></div>
+<div class="meta">Equip the street-team crew badge, run a drop slot, post as a content.json unit. Full contract in the give block.</div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "HYPE Cartridge", "tagline": "The street-team playbook for That Boy Hi Hat — 24 drop slots, copy blocks, hashtag system, meme templates, fan-art prompts. Verified facts only. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.", "motto": "hype with receipts", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/hype/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+var PB = {
+  "playbook": "HYPE CARTRIDGE — STREET TEAM PLAYBOOK",
+  "format": "cwi-hype-playbook/v1",
+  "product": "HYPE Cartridge",
+  "department": "marketing",
+  "issued_by": "Cumulative Web Inc",
+  "agent_deck": "part of the Agent Deck gear line by Cumulative Web Inc",
+  "version": "1.0.0",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "genre": "alternative rap",
+    "base": "Frederick, MD"
+  },
+  "learning_set": {
+    "name": "That Boy Hi Hat – Alternative Rap Complete Catalog (AI Learning Set)",
+    "track_count": 24,
+    "spotify_url": "https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8"
+  },
+  "identity_rules": [
+    "Every street-team post self-identifies as 'CWI street team / unofficial fan page' where applicable.",
+    "The official CWI logo goes on every street-team profile avatar — never substituted (brand rule).",
+    "Street-team accounts never impersonate the artist or the label as official.",
+    "Audiartist entries (Zooted Zone #25818, Doves & Diamonds #25820, Shaka Zulu #25821, accepted 2026-09-14) are campaigns, not placements.",
+    "No engagement-farm tactics. No artificial stream inflation. Ever.",
+    "When in doubt, cite the Scoreboard Chip: https://cumulativewebinc.github.io/cwi-learn/scoreboard/scoreboard-chip.json"
+  ],
+  "drop_calendar": [
+    {
+      "week": 1,
+      "track_title": "Zooted Zone",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "drop_theme": "BREAKOUT DROP",
+      "playbook_angle": "breakout push",
+      "verified_hook": "Zooted Zone — the breakout. 307K plays (lifetime, observed 2026-09-14). Produced by BET-nominated, RIAA Gold + multi-platinum Kokurcho. Mixed/mastered by Hybrid (Hagerstown, MD). Recorded Hagerstown, Feb 2023. New Rap Hits #30 (verified scan 2026-09-15).",
+      "copy_block": "CB-BREAKOUT",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen",
+        "#ZootedZone",
+        "#NewRapHits"
+      ],
+      "meme_template": "MT-RECEIPT",
+      "fan_art_prompt": "FA-RECEIPT-POSTER"
+    },
+    {
+      "week": 2,
+      "track_title": "Shaka Zulu",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "drop_theme": "PLACEMENT SPOTLIGHT",
+      "playbook_angle": "placement spotlight",
+      "verified_hook": "Shaka Zulu — New Rap Hits #21 (verified scan 2026-09-15).",
+      "copy_block": "CB-PLACEMENT-ZULU",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen",
+        "#ShakaZulu",
+        "#NewRapHits"
+      ],
+      "meme_template": "MT-TICKER",
+      "fan_art_prompt": "FA-TICKER"
+    },
+    {
+      "week": 3,
+      "track_title": "Doves & Diamonds",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "drop_theme": "PLACEMENT SPOTLIGHT",
+      "playbook_angle": "placement spotlight",
+      "verified_hook": "Doves & Diamonds — New Rap Hits #31 (verified scan 2026-09-15).",
+      "copy_block": "CB-PLACEMENT-DOVES",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen",
+        "#DovesAndDiamonds",
+        "#NewRapHits"
+      ],
+      "meme_template": "MT-TICKER",
+      "fan_art_prompt": "FA-TICKER"
+    },
+    {
+      "week": 4,
+      "track_title": "Diabolique",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "drop_theme": "STUDIO STORY",
+      "playbook_angle": "studio story",
+      "verified_hook": "Diabolique — single released 2026-07-03. Producer Hybrid. Co-producer Black Lansky. Engineer Blaine Misner. Recorded at Cue Recording Studios, Arlington VA (official position).",
+      "copy_block": "CB-STUDIO",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen",
+        "#Diabolique"
+      ],
+      "meme_template": "MT-STUDIO",
+      "fan_art_prompt": "FA-STUDIO-DOOR"
+    },
+    {
+      "week": 5,
+      "track_title": "Flamerz",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "drop_theme": "PRODUCER SPOTLIGHT",
+      "playbook_angle": "producer spotlight",
+      "verified_hook": "Flamerz — producer Jeck Da General (owner-confirmed).",
+      "copy_block": "CB-PRODUCER",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen",
+        "#Flamerz"
+      ],
+      "meme_template": "MT-LINEAGE",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 6,
+      "track_title": "Neon Nights Pt. 777",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 7,
+      "track_title": "Ultimate",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set. No playlist placement is claimed for this track.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 8,
+      "track_title": "Painted Lady",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 9,
+      "track_title": "Warped and Wicked",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 10,
+      "track_title": "Golden Diamond",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 11,
+      "track_title": "Spirits n Shadows",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 12,
+      "track_title": "Flex My Flame",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 13,
+      "track_title": "Rainbows And Roses",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 14,
+      "track_title": "Tears and Scars",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 15,
+      "track_title": "Toxic Elements",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 16,
+      "track_title": "7th Angel",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 17,
+      "track_title": "Scorpions & Sapphires",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 18,
+      "track_title": "Place I Go to Dream",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 19,
+      "track_title": "Place I Go to Dream - Remastered",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "drop_theme": "REMASTER WATCH",
+      "playbook_angle": "remaster watch",
+      "verified_hook": "Member of the 24-track AI Learning Set. Title as listed on Spotify; no remaster credits are asserted.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 20,
+      "track_title": "Place I Go to Dream - Instrumental",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "drop_theme": "DEEP CUT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set. Title as listed on Spotify; no sync/instrumental claim is made.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 21,
+      "track_title": "Smokin' Pain",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 22,
+      "track_title": "Phantasm",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 23,
+      "track_title": "Misfits and Hooligans",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "drop_theme": "CATALOG SPOTLIGHT",
+      "playbook_angle": "catalog rotation",
+      "verified_hook": "Member of the 24-track AI Learning Set.",
+      "copy_block": "CB-CATALOG",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-DROPDAY",
+      "fan_art_prompt": null
+    },
+    {
+      "week": 24,
+      "track_title": "Roses over Monaco",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "drop_theme": "SET CLOSER",
+      "playbook_angle": "full-set closer",
+      "verified_hook": "Closes the 24-week cycle: the full 24-track AI Learning Set is live.",
+      "copy_block": "CB-SET",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "meme_template": "MT-SETMAP",
+      "fan_art_prompt": "FA-SETMAP"
+    }
+  ],
+  "copy_blocks": [
+    {
+      "id": "CB-SET",
+      "title": "The Set Intro (week 24 / any full-set post)",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x",
+        "tiktok"
+      ],
+      "type": "spotlight",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "That Boy Hi Hat — the 24-track AI Learning Set. Alternative rap out of Frederick, MD. The whole catalog, one link: https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8 — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#24TrackSet",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "That Boy Hi Hat — 24-track AI Learning Set. Alt-rap, Frederick MD. https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8 — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-BREAKOUT",
+      "title": "Breakout push — Zooted Zone",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x",
+        "tiktok"
+      ],
+      "type": "receipt",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Zooted Zone — the breakout. 307K plays (lifetime, observed 2026-09-14). Produced by BET-nominated, RIAA Gold + multi-platinum Kokurcho. Mixed/mastered by Hybrid (Hagerstown, MD). Recorded Hagerstown, Feb 2023. New Rap Hits #30 (verified scan 2026-09-15). https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#ZootedZone",
+        "#AltRap",
+        "#NewRapHits",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Zooted Zone — the breakout. 307K plays (lifetime, observed 2026-09-14). Prod. Kokurcho (BET-nominated, RIAA Gold + multi-platinum). New Rap Hits #30. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-PLACEMENT-ZULU",
+      "title": "Placement spotlight — Shaka Zulu",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x"
+      ],
+      "type": "receipt",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Shaka Zulu — New Rap Hits #21 (verified scan 2026-09-15). That Boy Hi Hat, alternative rap, Frederick MD. https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#ShakaZulu",
+        "#NewRapHits",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Shaka Zulu — New Rap Hits #21 (verified scan 2026-09-15). That Boy Hi Hat. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-PLACEMENT-DOVES",
+      "title": "Placement spotlight — Doves & Diamonds",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x"
+      ],
+      "type": "receipt",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Doves & Diamonds — New Rap Hits #31 (verified scan 2026-09-15). That Boy Hi Hat, alternative rap, Frederick MD. https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#DovesAndDiamonds",
+        "#NewRapHits",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Doves & Diamonds — New Rap Hits #31 (verified scan 2026-09-15). That Boy Hi Hat. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-STUDIO",
+      "title": "Studio story — Diabolique",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x"
+      ],
+      "type": "spotlight",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Diabolique — single released 2026-07-03. Producer Hybrid. Co-producer Black Lansky. Engineer Blaine Misner. Recorded at Cue Recording Studios, Arlington VA (official position). https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#Diabolique",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Diabolique — single 2026-07-03. Prod. Hybrid, co-prod. Black Lansky, eng. Blaine Misner. Cue Recording Studios, Arlington VA. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-PRODUCER",
+      "title": "Producer spotlight — Flamerz",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x"
+      ],
+      "type": "spotlight",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Flamerz — produced by Jeck Da General (owner-confirmed). That Boy Hi Hat, alternative rap, Frederick MD. https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0 — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#Flamerz",
+        "#AltRap",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Flamerz — produced by Jeck Da General (owner-confirmed). That Boy Hi Hat. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-CATALOG",
+      "title": "Catalog rotation — deep-cut spotlight (fill {title} + {spotify_url} from the drop slot)",
+      "platform_targets": [
+        "bluesky",
+        "instagram",
+        "threads",
+        "x",
+        "tiktok"
+      ],
+      "type": "spotlight",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "\"{title}\" — from the 24-track AI Learning Set: That Boy Hi Hat, alternative rap, Frederick MD. {spotify_url} — full set: https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8 — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#24TrackSet",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "\"{title}\" — 24-track AI Learning Set. That Boy Hi Hat, Frederick MD. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-CAMPAIGN",
+      "title": "Playlist-pipeline context (use ONLY when asked about the playlist push)",
+      "platform_targets": [
+        "bluesky",
+        "threads",
+        "x"
+      ],
+      "type": "receipt",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Audiartist campaigns (accepted 2026-09-14): Zooted Zone #25818, Doves & Diamonds #25820, Shaka Zulu #25821. These are campaigns, not placements. Verified placements: New Rap Hits #21 (Shaka Zulu), #30 (Zooted Zone), #31 (Doves & Diamonds), scan 2026-09-15. — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Audiartist campaigns accepted 2026-09-14: Zooted Zone #25818, Doves & Diamonds #25820, Shaka Zulu #25821. Campaigns, not placements. — CWI street team / unofficial fan page"
+    },
+    {
+      "id": "CB-CONTACT",
+      "title": "Sync contact line (attach to any business-facing post)",
+      "platform_targets": [
+        "bluesky",
+        "threads",
+        "x"
+      ],
+      "type": "spotlight",
+      "media_files": [
+        "~/workspace/cwi-company/fan-network/assets/cwi-logo.jpg"
+      ],
+      "text": "Sync inquiries: hp@cumulativeweb.com. Label-direct licensing; happy to work through your clearance process. — CWI street team / unofficial fan page.",
+      "hashtags": [
+        "#ThatBoyHiHat",
+        "#ReceiptsOrItDidntHappen"
+      ],
+      "threads_text": "Sync: hp@cumulativeweb.com. Label-direct licensing; happy to work through your clearance process. — CWI street team / unofficial fan page"
+    }
+  ],
+  "hashtag_system": {
+    "note": "Max 5 hashtags per post. Identity + truth tiers on every post. Track tag only when the post is about that track.",
+    "tiers": {
+      "identity": [
+        "#ThatBoyHiHat",
+        "#AltRap",
+        "#PostTrapFuturism",
+        "#CWI",
+        "#CumulativeWebInc"
+      ],
+      "campaign": [
+        "#NewRapHits",
+        "#24TrackSet",
+        "#AILearningSet"
+      ],
+      "track": {
+        "rule": "derived from the track title only — no invented slogans",
+        "tags": [
+          "#ZootedZone",
+          "#ShakaZulu",
+          "#DovesAndDiamonds",
+          "#Diabolique",
+          "#Flamerz"
+        ]
+      },
+      "truth": [
+        "#ReceiptsOrItDidntHappen",
+        "#VerifiedOnly"
+      ]
+    },
+    "banned": [
+      "growth-language tags (e.g. anything implying 'and climbing')",
+      "engagement-farm tags (follow-loops, tag-a-friend chains, pod tags)",
+      "boost claims (no tag may promise streams, virality, or chart positions)",
+      "invented taglines or slogans not found in verified copy"
+    ]
+  },
+  "meme_template_gallery": [
+    {
+      "id": "MT-RECEIPT",
+      "name": "The Receipt Card",
+      "renders_from": [
+        "one verified stat",
+        "its observed date",
+        "its citation URL"
+      ],
+      "layout": "Top: track title. Middle: the stat in big type with the observed date beneath. Bottom: citation URL + CWI street team / unofficial fan page. One stat per card — never stacked.",
+      "example_text": "ZOOTED ZONE / 307K lifetime plays / observed 2026-09-14 / https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8"
+    },
+    {
+      "id": "MT-LINEAGE",
+      "name": "The Producer Lineage Card",
+      "renders_from": [
+        "verified_credits fields from cartridge.json only"
+      ],
+      "layout": "Track title at top; credit lines exactly as verified (producer / mix-master / engineer / recorded-at). No credit is added that the cartridge does not carry.",
+      "example_text": "FLAMERZ / Produced by Jeck Da General (owner-confirmed)"
+    },
+    {
+      "id": "MT-TICKER",
+      "name": "The Placement Ticker",
+      "renders_from": [
+        "placement.playlist",
+        "placement.position",
+        "placement.scan_date"
+      ],
+      "layout": "Playlist name, position, scan date — three lines, no decoration. Claims only what the scan saw.",
+      "example_text": "NEW RAP HITS / #21 Shaka Zulu / verified scan 2026-09-15"
+    },
+    {
+      "id": "MT-MATCHUP",
+      "name": "The Track Matchup",
+      "renders_from": [
+        "two track titles, char-for-char from the set"
+      ],
+      "layout": "Two titles face off; the audience picks via replies. No stat claims — the matchup is the content.",
+      "example_text": "ZOOTED ZONE vs SHAKA ZULU — pick one. Replies only, no wrong answers."
+    },
+    {
+      "id": "MT-DROPDAY",
+      "name": "The Drop-Day Card",
+      "renders_from": [
+        "drop_calendar slot: week, track_title, spotify_url, drop_theme, verified_hook"
+      ],
+      "layout": "Week number + theme banner, track title, the slot's verified hook, Spotify link, self-ID line.",
+      "example_text": "WEEK 6 — CATALOG SPOTLIGHT / NEON NIGHTS PT. 777 / from the 24-track AI Learning Set"
+    },
+    {
+      "id": "MT-SETMAP",
+      "name": "The Set Map",
+      "renders_from": [
+        "all 24 track titles, char-for-char, in cartridge order"
+      ],
+      "layout": "Numbered 1–24 map of the AI Learning Set. No stats, no commentary — the catalog as a poster.",
+      "example_text": "THE 24-TRACK SET — 1. Zooted Zone … 24. Roses over Monaco"
+    },
+    {
+      "id": "MT-STUDIO",
+      "name": "The Studio Passport",
+      "renders_from": [
+        "Diabolique verified credits: producer, co-producer, engineer, recorded-at, release date"
+      ],
+      "layout": "Stamp-style card: studio name, city, date, personnel — each line exactly as verified.",
+      "example_text": "CUE RECORDING STUDIOS — ARLINGTON VA / Diabolique single 2026-07-03 / Prod. Hybrid · Co-prod. Black Lansky · Eng. Blaine Misner"
+    },
+    {
+      "id": "MT-CREWBADGE",
+      "name": "The Crew Badge",
+      "renders_from": [
+        "official CWI logo asset",
+        "self-identification line"
+      ],
+      "layout": "The official circular CWI logo ('MUSIC / Cumulative Web Inc. / & FILM') as avatar; banner carries 'CWI street team / unofficial fan page'. The logo is never substituted (brand rule).",
+      "example_text": "CWI STREET TEAM — unofficial fan page"
+    }
+  ],
+  "fan_art_prompts": [
+    {
+      "id": "FA-BADGE",
+      "title": "Crew Badge Remix",
+      "brief": "Rework the official circular CWI logo badge ('MUSIC / Cumulative Web Inc. / & FILM') into street-team colors for profile banners — the badge itself stays the avatar, untouched.",
+      "guardrails": [
+        "brand rule: the official CWI logo goes on every street-team profile avatar, never substituted",
+        "posted art self-identifies as CWI street team / unofficial fan page",
+        "no invented facts inside the art (no fake stats, no fake quotes)"
+      ]
+    },
+    {
+      "id": "FA-RECEIPT-POSTER",
+      "title": "Zooted Zone Receipt Poster",
+      "brief": "A poster built ONLY from verified Zooted Zone facts: 307K plays (lifetime, observed 2026-09-14), produced by Kokurcho, mixed/mastered by Hybrid (Hagerstown, MD), recorded Hagerstown Feb 2023, New Rap Hits #30.",
+      "guardrails": [
+        "stat shown with its observed date, never with growth language",
+        "credits exactly as verified — nothing added"
+      ]
+    },
+    {
+      "id": "FA-SETMAP",
+      "title": "24-Track Set Map",
+      "brief": "An illustrated map/poster of the full 24-track AI Learning Set — every title char-for-char, in cartridge order 1–24.",
+      "guardrails": [
+        "titles copied exactly from cartridge.json",
+        "no track reordered or renamed"
+      ]
+    },
+    {
+      "id": "FA-STUDIO-DOOR",
+      "title": "Cue Recording Door",
+      "brief": "Session art for the Diabolique recording: Cue Recording Studios, Arlington VA — single released 2026-07-03; producer Hybrid, co-producer Black Lansky, engineer Blaine Misner.",
+      "guardrails": [
+        "official position wording kept: 'Cue Recording Studios, Arlington VA'",
+        "personnel exactly as verified"
+      ]
+    },
+    {
+      "id": "FA-TICKER",
+      "title": "Placement Ticker Art",
+      "brief": "Animated ticker art for the three verified placements: New Rap Hits #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds (scan 2026-09-15).",
+      "guardrails": [
+        "positions and scan date shown; no other playlist claims added"
+      ]
+    },
+    {
+      "id": "FA-FREDERICK",
+      "title": "Frederick, MD Tribute",
+      "brief": "A hometown tribute piece: That Boy Hi Hat, alternative rap, based in Frederick, MD — Post-Trap Futurism rising from the artist's home city.",
+      "guardrails": [
+        "only verified identity facts (name, genre, Frederick MD)",
+        "no invented biography details"
+      ]
+    }
+  ],
+  "spines": [
+    {
+      "n": 1,
+      "product": "Scoreboard Chip",
+      "role": "fact spine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/scoreboard/scoreboard-chip.json"
+    },
+    {
+      "n": 2,
+      "product": "Chain-of-Title Compass",
+      "role": "rights spine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/compass/passports.json"
+    },
+    {
+      "n": 3,
+      "product": "Prospect Scanner",
+      "role": "prospect spine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/scanner/scout-card.json"
+    },
+    {
+      "n": 4,
+      "product": "SYNCDECK",
+      "role": "sync spine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json"
+    },
+    {
+      "n": 5,
+      "product": "Press Kit Cartridge",
+      "role": "story spine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/facts.json"
+    }
+  ],
+  "deny_list": [
+    "and climbing",
+    "132k",
+    "132,000",
+    "all languages",
+    "ahkeem",
+    "every language",
+    "infinite",
+    "guaranteed revenue",
+    "guaranteed streams",
+    "follow-for-follow",
+    "stream farm",
+    "buy streams",
+    "going viral"
+  ],
+  "content_json_contract": {
+    "note": "Every street-team post ships as a machine-readable content.json unit (standing 2026-09-14 requirement).",
+    "fields": {
+      "day": "drop day label, e.g. 'week-06'",
+      "id": "unit id, e.g. 'hype-w06-neon-nights'",
+      "type": "one of: spotlight | receipt | meme | fan-art | drop-day | set-map",
+      "media_files": "asset paths, e.g. fan-network/assets/cwi-logo.jpg — the official logo is never substituted",
+      "caption": "full caption text (use the slot's copy block verbatim)",
+      "hashtags": "array, max 5, per the hashtag system tiers",
+      "threads_text": "the <=280-char threads/x variant of the copy block",
+      "post_order": "integer order within the day's queue",
+      "platform_targets": "array from: bluesky, instagram, threads, x, tiktok"
+    }
+  },
+  "contact": "hp@cumulativeweb.com",
+  "sync_posture": "Label-direct licensing; happy to work through your clearance process."
+}
+;
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").innerHTML = CONFIG.tagline;
+    if(CONFIG.motto) document.getElementById("foot").innerHTML =
+      CONFIG.motto + " — " + (CONFIG.orgName || "Cumulative Web Inc.");
+  }catch(e){}
+})();
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function q(id, html){document.querySelector("#"+id+" .t").innerHTML = html;}
+q("sec-identity", "<ul class='tight'>" + PB.identity_rules.map(function(r){return "<li>"+esc(r)+"</li>";}).join("") + "</ul>");
+q("sec-calendar", "<table><tr><th>WK</th><th>TRACK</th><th>THEME</th><th>VERIFIED HOOK</th><th>COPY / TEMPLATE</th></tr>" +
+  PB.drop_calendar.map(function(s){
+    return "<tr><td class='k'>"+s.week+"</td><td><b>"+esc(s.track_title)+"</b><br><a href='"+esc(s.spotify_url)+"'>Spotify</a></td>"+
+    "<td><span class='badge'>"+esc(s.drop_theme)+"</span><div class='meta'>"+esc(s.playbook_angle)+"</div></td>"+
+    "<td>"+esc(s.verified_hook)+"</td><td><code>"+esc(s.copy_block)+"</code><br><code>"+esc(s.meme_template)+"</code>"+
+    (s.fan_art_prompt ? "<br><code>"+esc(s.fan_art_prompt)+"</code>" : "")+
+    "<div class='meta'>"+s.hashtags.map(esc).join(" ")+"</div></td></tr>";
+  }).join("") + "</table>");
+q("sec-copy", PB.copy_blocks.map(function(c){
+  return "<div class='cb'><div class='cid'>"+esc(c.id)+" — "+esc(c.title)+"</div><p>"+esc(c.text)+"</p>"+
+  "<div class='meta'>threads_text: "+esc(c.threads_text)+"<br>hashtags: "+c.hashtags.map(esc).join(" ")+
+  "<br>targets: "+c.platform_targets.join(", ")+" · type: "+esc(c.type)+"</div></div>";
+}).join(""));
+q("sec-tags", "<div class='meta'>"+esc(PB.hashtag_system.note)+"</div><ul class='tight'>"+
+  Object.keys(PB.hashtag_system.tiers).map(function(k){
+    var v = PB.hashtag_system.tiers[k];
+    var txt = Array.isArray(v) ? v.join(" ") : v.rule + ": " + v.tags.join(" ");
+    return "<li><b>"+esc(k)+"</b> — "+esc(txt)+"</li>";
+  }).join("")+"</ul><div class='meta'>Banned: "+PB.hashtag_system.banned.map(esc).join("; ")+"</div>");
+q("sec-memes", PB.meme_template_gallery.map(function(m){
+  return "<div class='cb'><div class='cid'>"+esc(m.id)+" — "+esc(m.name)+"</div>"+
+  "<div class='meta'>renders from: "+m.renders_from.map(esc).join(" · ")+"</div>"+
+  "<p>"+esc(m.layout)+"</p><div class='meta'>example: "+esc(m.example_text)+"</div></div>";
+}).join(""));
+q("sec-fanart", PB.fan_art_prompts.map(function(f){
+  return "<div class='cb'><div class='cid'>"+esc(f.id)+" — "+esc(f.title)+"</div><p>"+esc(f.brief)+"</p>"+
+  "<div class='meta'>guardrails: "+f.guardrails.map(esc).join("; ")+"</div></div>";
+}).join(""));
+q("sec-spines", "<ul class='tight'>"+PB.spines.map(function(s){
+  return "<li><b>#"+s.n+" "+esc(s.product)+"</b> ("+esc(s.role)+") — <a href='"+esc(s.url)+"'>"+esc(s.url)+"</a></li>";
+}).join("")+"</ul>");
+q("sec-deny", "<div>"+PB.deny_list.map(function(d){return "<span class='badge'>"+esc(d)+"</span>";}).join("")+"</div>");
+q("outlinks", "");
+document.getElementById("outlinks").innerHTML =
+  '<a href="street-team-playbook.json">Playbook JSON</a>'+
+  '<a href="item-card.json">Item card</a>'+
+  '<a href="rubric.json">Rubric</a>'+
+  '<a href="give-block.md">Give / Run / Post</a>'+
+  '<a href="announce.html">12-language announce</a>';
+</script>
+</body>
+</html>

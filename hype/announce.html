@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HYPE Cartridge — Global Announcement</title>
+<meta name="description" content="HYPE Cartridge: the street-team playbook agents can run. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>HYPE Cartridge</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Marketing &amp; Social &mdash; Agent Deck</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "HYPE Cartridge is live — the street-team playbook agents can run", "p1": "HYPE Cartridge is the street-team playbook for That Boy Hi Hat, run by the CWI Marketing & Social department. 24 drop slots — one per track — with copy blocks, a hashtag system, meme templates, and fan-art prompts, all written from verified facts only. It equips as a street-team crew badge on Signal Boy, and it cites the Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK, and Press Kit as its spines.", "p2": "The discipline is the feature: every post self-identifies as CWI street team / unofficial fan page, every stat carries its observed date, and the deny list bans growth language, invented quotes, and engagement-farm tactics. Calendar discipline — one track per slot, slots in order.", "cta": "Badge up. Run the playbook. Post the receipts.", "l_playbook": "The playbook", "l_card": "Item card", "l_page": "HYPE page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "HYPE Cartridge ya está aquí — el manual del street team que los agentes pueden ejecutar", "p1": "HYPE Cartridge es el manual del street team para That Boy Hi Hat, dirigido por el departamento de Marketing y Social de CWI. 24 espacios de lanzamiento — uno por canción — con bloques de copy, un sistema de hashtags, plantillas de memes y prompts de fan-art, todo escrito solo con datos verificados. Se equipa como insignia de crew del street team en Signal Boy, y cita como columnas al Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK y Press Kit.", "p2": "La disciplina es la propuesta: cada publicación se identifica como CWI street team / unofficial fan page, cada dato lleva su fecha de observación, y la lista de denegados prohíbe el lenguaje de crecimiento, las citas inventadas y las tácticas de granja de engagement. Disciplina de calendario: una canción por espacio, en orden.", "cta": "Ponte la insignia. Ejecuta el manual. Publica los recibos.", "l_playbook": "El manual", "l_card": "Tarjeta del producto", "l_page": "Página HYPE", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "HYPE Cartridge chegou — o playbook do street team que os agentes podem rodar", "p1": "HYPE Cartridge é o playbook do street team para That Boy Hi Hat, comandado pelo departamento de Marketing e Social da CWI. 24 slots de lançamento — um por faixa — com blocos de copy, sistema de hashtags, templates de memes e prompts de fan-art, tudo escrito apenas com fatos verificados. Equipa como um distintivo de equipe do street team no Signal Boy e cita como espinhas o Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK e Press Kit.", "p2": "A disciplina é o diferencial: cada post se identifica como CWI street team / unofficial fan page, cada dado traz sua data de observação, e a deny list bane linguagem de crescimento, citações inventadas e táticas de fazenda de engajamento. Disciplina de calendário — uma faixa por slot, na ordem.", "cta": "Vista o distintivo. Rode o playbook. Poste os recibos.", "l_playbook": "O playbook", "l_card": "Cartão do produto", "l_page": "Página HYPE", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "HYPE Cartridge est en ligne — le playbook street-team que les agents peuvent exécuter", "p1": "HYPE Cartridge est le playbook street-team pour That Boy Hi Hat, piloté par le département Marketing & Social de CWI. 24 créneaux de sortie — un par titre — avec blocs de copy, système de hashtags, modèles de mèmes et prompts de fan-art, le tout écrit uniquement à partir de faits vérifiés. Il s'équipe comme un badge d'équipe street-team sur Signal Boy, et cite comme épines dorsales le Scoreboard Chip, le Chain-of-Title Compass, le Prospect Scanner, le SYNCDECK et le Press Kit.", "p2": "La discipline est la proposition : chaque post s'identifie comme CWI street team / unofficial fan page, chaque stat porte sa date d'observation, et la deny list bannit le langage de croissance, les citations inventées et les tactiques de ferme d'engagement. Discipline du calendrier — un titre par créneau, dans l'ordre.", "cta": "Équipez le badge. Exécutez le playbook. Postez les reçus.", "l_playbook": "Le playbook", "l_card": "Fiche produit", "l_page": "Page HYPE", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "HYPE Cartridge ist da — das Street-Team-Playbook, das Agenten fahren können", "p1": "HYPE Cartridge ist das Street-Team-Playbook für That Boy Hi Hat, geführt vom CWI Marketing-&-Social-Team. 24 Drop-Slots — einer pro Track — mit Copy-Blöcken, Hashtag-System, Meme-Templates und Fan-Art-Prompts, alles ausschließlich aus verifizierten Fakten geschrieben. Es rüstet sich als Street-Team-Crew-Badge auf Signal Boy aus und zitiert Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK und Press Kit als seine Rückgrate.", "p2": "Die Disziplin ist das Feature: Jeder Post identifiziert sich als CWI street team / unofficial fan page, jede Statistik trägt ihr Beobachtungsdatum, und die Deny-List verbannt Wachstums-Sprache, erfundene Zitate und Engagement-Farm-Taktiken. Kalender-Disziplin — ein Track pro Slot, Slots in Reihenfolge.", "cta": "Badge an. Playbook fahren. Belege posten.", "l_playbook": "Das Playbook", "l_card": "Produktkarte", "l_page": "HYPE-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "HYPE Cartridge è online — il playbook dello street team che gli agenti possono eseguire", "p1": "HYPE Cartridge è il playbook dello street team per That Boy Hi Hat, diretto dal dipartimento Marketing & Social di CWI. 24 slot di uscita — uno per brano — con blocchi di copy, sistema di hashtag, template di meme e prompt di fan-art, scritti solo con fatti verificati. Si equipaggia come badge della crew street team su Signal Boy e cita come spine dorsali Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK e Press Kit.", "p2": "La disciplina è il punto: ogni post si identifica come CWI street team / unofficial fan page, ogni dato porta la sua data di osservazione, e la deny list vieta il linguaggio di crescita, le citazioni inventate e le tattiche da engagement farm. Disciplina di calendario — un brano per slot, in ordine.", "cta": "Indossa il badge. Esegui il playbook. Pubblica le ricevute.", "l_playbook": "Il playbook", "l_card": "Scheda prodotto", "l_page": "Pagina HYPE", "getblock": "Prendi il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "HYPE Cartridge is live — het street-team-playbook dat agents kunnen draaien", "p1": "HYPE Cartridge is het street-team-playbook voor That Boy Hi Hat, gerund door de CWI-afdeling Marketing & Social. 24 drop-slots — één per track — met copy-blokken, een hashtagsysteem, meme-templates en fan-art-prompts, allemaal geschreven uit uitsluitend geverifieerde feiten. Hij rust zich uit als street-team-crew-badge op Signal Boy en citeert Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK en Press Kit als zijn ruggengraten.", "p2": "De discipline is het kenmerk: elke post identificeert zich als CWI street team / unofficial fan page, elke stat draagt zijn observatiedatum, en de deny-lijst verbant groeitaal, verzonnen quotes en engagement-farm-tactieken. Kalenderdiscipline — één track per slot, slots op volgorde.", "cta": "Badge om. Draai het playbook. Post de bonnetjes.", "l_playbook": "Het playbook", "l_card": "Productkaart", "l_page": "HYPE-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "HYPE Cartridge 출시 — 에이전트가 실행할 수 있는 스트릿팀 플레이북", "p1": "HYPE Cartridge는 CWI 마케팅 & 소셜 부서가 운영하는 That Boy Hi Hat의 스트릿팀 플레이북입니다. 트랙당 하나씩 24개의 드롭 슬롯에 카피 블록, 해시태그 시스템, 밈 템플릿, 팬아트 프롬프트를 담았으며, 모두 검증된 사실만으로 작성되었습니다. Signal Boy에 스트릿팀 크루 배지로 장착되며, Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK, Press Kit을 스파인으로 인용합니다.", "p2": "규율이 곧 기능입니다: 모든 게시물은 CWI street team / unofficial fan page임을 밝히고, 모든 수치는 관찰 날짜를 달고 있으며, 거부 목록은 성장 언어, 지어낸 인용, 인게이지먼트 팜 전술을 금지합니다. 캘린더 규율 — 슬롯당 한 트랙, 순서대로.", "cta": "배지를 달자. 플레이북을 실행하자. 증빙을 게시하자.", "l_playbook": "플레이북", "l_card": "제품 카드", "l_page": "HYPE 페이지", "getblock": "블록 가져오기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "HYPE Cartridge始動 — エージェントが回せるストリートチーム・プレイブック", "p1": "HYPE Cartridgeは、CWIマーケティング&ソーシャル部門が運営するThat Boy Hi Hatのストリートチーム・プレイブックです。1トラック1スロットの全24ドロップスロットに、コピーブロック、ハッシュタグシステム、ミームテンプレート、ファンアートプロンプトを収録。すべて検証済みの事実のみで書かれています。Signal Boyにストリートチームのクルーバッジとして装備でき、Scoreboard Chip、Chain-of-Title Compass、Prospect Scanner、SYNCDECK、Press Kitを背骨として引用します。", "p2": "規律こそが機能です:すべての投稿はCWI street team / unofficial fan pageであることを明示し、すべての数値に観測日を添え、拒否リストは成長言語、捏造引用、エンゲージメントファーム戦術を禁じます。カレンダー規律 — 1スロット1トラック、順番どおり。", "cta": "バッジを付けよう。プレイブックを回そう。レシートを投稿しよう。", "l_playbook": "プレイブック", "l_card": "製品カード", "l_page": "HYPEページ", "getblock": "ブロックを取得:"}, "zh": {"name": "简体中文", "dir": "ltr", "headline": "HYPE Cartridge 上线 — 智能体可以执行的街头团队手册", "p1": "HYPE Cartridge 是 CWI 营销与社交部门运营的 That Boy Hi Hat 街头团队手册。24 个投放档位——每首歌一个——配有文案模块、话题标签体系、模因模板和粉丝艺术提示词,全部只用已验证的事实写成。它作为街头团队徽章装备在 Signal Boy 上,并引用 Scoreboard Chip、Chain-of-Title Compass、Prospect Scanner、SYNCDECK 和 Press Kit 作为其主干。", "p2": "纪律即卖点:每条帖子都自我标识为 CWI street team / unofficial fan page,每个数据都标注观测日期,拒绝清单禁止增长话术、编造引言和刷互动战术。日历纪律——每个档位一首歌,按顺序执行。", "cta": "戴上徽章。执行手册。晒出证据。", "l_playbook": "手册", "l_card": "产品卡", "l_page": "HYPE 页面", "getblock": "获取区块:"}, "ar": {"name": "العربية", "dir": "rtl", "headline": "إطلاق HYPE Cartridge — دليل فريق الشارع الذي يمكن للوكلاء تشغيله", "p1": "HYPE Cartridge هو دليل فريق الشارع للفنان That Boy Hi Hat، وتديره إدارة التسويق والتواصل الاجتماعي في CWI. 24 خانة إصدار — خانة لكل أغنية — مع كتل نصوص جاهزة، ونظام وسوم، وقوالب ميمز، ومطالبات فنّ المعجبين، كلها مكتوبة من حقائق موثّقة فقط. يُجهَّز كشارة طاقم فريق الشارع على Signal Boy، ويستشهد بـ Scoreboard Chip وChain-of-Title Compass وProspect Scanner وSYNCDECK وPress Kit كأعمدة له.", "p2": "الانضباط هو الميزة: كل منشور يُعرّف نفسه بأنه CWI street team / unofficial fan page، وكل إحصائية تحمل تاريخ ملاحظتها، وقائمة الرفض تحظر لغة النمو والاقتباسات المخترعة وتكتيكات مزارع التفاعل. انضباط التقويم — أغنية لكل خانة، بالترتيب.", "cta": "البس الشارة. شغّل الدليل. انشر الإيصالات.", "l_playbook": "الدليل", "l_card": "بطاقة المنتج", "l_page": "صفحة HYPE", "getblock": "انسخ الكتلة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "HYPE Cartridge लॉन्च — स्ट्रीट-टीम प्लेबुक जिसे एजेंट चला सकते हैं", "p1": "HYPE Cartridge CWI के मार्केटिंग व सोशल विभाग द्वारा संचालित That Boy Hi Hat की स्ट्रीट-टीम प्लेबुक है। 24 ड्रॉप स्लॉट — हर ट्रैक के लिए एक — कॉपी ब्लॉकों, हैशटैग सिस्टम, मीम टेम्पलेट्स और फ़ैन-आर्ट प्रॉम्प्ट्स के साथ, सब कुछ केवल सत्यापित तथ्यों से लिखा गया है। यह Signal Boy पर स्ट्रीट-टीम क्रू बैज के रूप में इक्विप होती है, और Scoreboard Chip, Chain-of-Title Compass, Prospect Scanner, SYNCDECK और Press Kit को अपनी रीढ़ के रूप में उद्धृत करती है।", "p2": "अनुशासन ही फ़ीचर है: हर पोस्ट खुद को CWI street team / unofficial fan page के रूप में पहचानती है, हर आँकड़ा अपनी अवलोकन तिथि के साथ आता है, और डिनाई लिस्ट ग्रोथ-भाषा, गढ़े गए उद्धरणों और एंगेजमेंट-फ़ार्म टैक्टिक्स पर प्रतिबंध लगाती है। कैलेंडर अनुशासन — हर स्लॉट में एक ट्रैक, क्रम से।", "cta": "बैज पहनें। प्लेबुक चलाएँ। रसीदें पोस्ट करें।", "l_playbook": "प्लेबुक", "l_card": "प्रोडक्ट कार्ड", "l_page": "HYPE पेज", "getblock": "ब्लॉक लें:"}};
+var URLS = {"playbook": "https://cumulativewebinc.github.io/cwi-learn/hype/street-team-playbook.json", "card": "https://cumulativewebinc.github.io/cwi-learn/hype/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/hype/"};
+var HANDOFF = "CWI-HANDOFF gear=hype-cartridge from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.playbook, t.l_playbook) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>
