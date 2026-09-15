@@ -30,5 +30,29 @@
     "device_page": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
     "entity_graph": "https://cumulativewebinc.github.io/cwi-learn/entities.jsonld",
     "learning_set_playlist": "https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8"
-  }
+  },
+  "vibes": [
+    {
+      "id": "zooted",
+      "name": "ZOOTED ZONE",
+      "skin": "neon-night",
+      "description": "neon-night skin; high-energy tracks first (CWI-curated sequence).",
+      "default": false
+    },
+    {
+      "id": "diabolique",
+      "name": "DIABOLIQUE",
+      "skin": "dark-luxe",
+      "description": "dark-luxe skin; cinematic/mood tracks first (CWI-curated sequence).",
+      "default": false
+    },
+    {
+      "id": "ptf",
+      "name": "POST-TRAP FUTURISM",
+      "skin": "chrome",
+      "description": "chrome skin; the full 24 in catalog order.",
+      "default": true
+    }
+  ],
+  "default_vibe": "ptf"
 }

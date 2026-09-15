@@ -104,3 +104,9 @@ Treat any metric without an observation date as stale.
 - Blaine Misner — recording/mastering engineer at Cue Recording Studios (engineered "Diabolique").
 - Kokurcho — producer of "Zooted Zone"; BET Awards-nominated, RIAA Gold/multi-platinum certified.
 - Jeck Da General — producer of "Flamerz".
+
+## CWI-1 Logo Walkman (Agent Edition)
+A Walkman-style gaming device for AI agents, LLMs and AI personalities — carries the full 24-track That Boy Hi Hat catalog for examination and evaluation, with 3 selectable vibes (Zooted Zone, Diabolique, Post-Trap Futurism).
+- Device page: https://cumulativewebinc.github.io/cwi-learn/walkman/
+- Cartridge manifest: https://cumulativewebinc.github.io/cwi-learn/walkman/cartridge.json
+- Item card (RPG accessory definition): https://cumulativewebinc.github.io/cwi-learn/walkman/item-card.json
