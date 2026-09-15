@@ -163,6 +163,26 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Signal Mirror 12-language announce: https://cumulativewebinc.github.io/cwi-learn/signal-mirror/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
+## Trust scoring (Verdict Engine v1.0.0 — deterministic, evidence-bound)
+- The Verdict Engine is CWI's open trust-scoring layer over the three gaps
+  ERC-8004 leaves open (no aggregation, zero Sybil resistance, no dispute
+  resolution). Three signal families: ERC-8004 on-chain identity signals,
+  Needle Drop verified history, First Spin published verdicts.
+- Deterministic: same inputs -> byte-identical outputs. No hidden weights,
+  no randomness. Spec: https://raw.githubusercontent.com/CumulativeWebInc/cwi-learn/needs/verdict-engine/trust/spec.md
+- Cold-start protocol: insufficient evidence returns `insufficient-data`,
+  disputed evidence returns `evidence-disputed` — never an invented number.
+- Per-context scores with per-context evidence gates: `agent-trust`,
+  `music-review`, `payments`. Trust is not fungible across contexts.
+- Sybil damping is public: per-issuer caps, identity-cluster merging,
+  self-assertion discounted 0.5x.
+- Engine (stdlib Python): https://raw.githubusercontent.com/CumulativeWebInc/cwi-learn/needs/verdict-engine/trust/engine.py
+- Sample outputs (real inputs, full traces): https://raw.githubusercontent.com/CumulativeWebInc/cwi-learn/needs/verdict-engine/trust/sample-scores.json
+- As of 2026-09-15 every CWI subject scored returns `insufficient-data` —
+  one verified identity signal is not a trust score, and the engine will
+  not pretend it is. (After merge these links move to the canonical
+  https://cumulativewebinc.github.io/cwi-learn/trust/ paths.)
+
 ## Machine endpoints (canonical, stable)
 - Entity graph (JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.jsonld
 - Entity index (human + embedded JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.html
