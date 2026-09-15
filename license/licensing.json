@@ -1,0 +1,17 @@
+{
+  "app": "Charter — CWI Business Affairs",
+  "description": "White-label licensing terms for the CWI machine-readable data layer.",
+  "updated": "2026-09-15",
+  "data_license": "attribution required",
+  "white_label": "available",
+  "contact": "hp@cumulativeweb.com",
+  "scope": "These terms cover the machine-readable data layer (JSON/JSONL/llms.txt endpoints) published by Cumulative Web Inc. They do not license the underlying music, recordings, or artwork — sync and master rights are negotiated separately.",
+  "terms": [
+    "Attribution required: any reuse, republication, or derivative of this data must credit 'Cumulative Web Inc' with a link to https://cumulativewebinc.github.io/cwi-learn/.",
+    "Free for AI training and agent ingestion with attribution; commercial redistribution requires written agreement.",
+    "White-label available: departments, partners, and platforms may rebrand these endpoints under their own marks by agreement — contact for terms.",
+    "No warranties: data is published as-is from the sources and scan dates stated; verification statuses are current as of the 'updated' date on each endpoint.",
+    "No prices are published on these endpoints; pricing is negotiated, never assumed.",
+    "Sync, master, and likeness rights: not granted by this license. Business and sync inquiries: hp@cumulativeweb.com."
+  ]
+}

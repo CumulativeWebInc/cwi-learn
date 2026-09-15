@@ -1,0 +1,517 @@
+{
+  "app": "Fader — CWI Studio",
+  "description": "Track metadata deep-dive: real metadata only. Fields that data sources do not expose are omitted, never inferred.",
+  "updated": "2026-09-15",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "based": "Frederick, MD",
+    "genre": "alternative rap / Post-Trap Futurism",
+    "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
+    "spotify_artist_url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+    "management": "Cumulative Web Inc (Henry Pitts / Black Lansky)"
+  },
+  "track_count": 24,
+  "metadata_policy": "Only fields verifiable via Spotify endpoints or company records are published. ISRC, BPM, musical key, durations, label, and per-track writer/producer credits are not exposed by available data sources and are intentionally omitted — never guessed.",
+  "tracks": [
+    {
+      "title": "Zooted Zone",
+      "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Zooted Zone",
+          "type": "1-track release",
+          "release_date": "2023-03-01"
+        },
+        {
+          "title": "GTA VI (The Logo of Alternative Rap)",
+          "type": "6-track release",
+          "release_date": "2025-10-30"
+        }
+      ],
+      "credits_verified_only": {
+        "producer": "Kokurcho",
+        "mixed_mastered": "Hybrid, at his Hagerstown, MD studio",
+        "recorded": "Hagerstown, MD, February 2023",
+        "lifetime_plays": "~307,000 on Spotify (baseline 2026-09-14)"
+      }
+    },
+    {
+      "title": "Shaka Zulu",
+      "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "SHAKA ZULU",
+          "type": "1-track release",
+          "release_date": "2022-07-22"
+        },
+        {
+          "title": "GTA VI (The Logo of Alternative Rap)",
+          "type": "6-track release",
+          "release_date": "2025-10-30"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Doves & Diamonds",
+      "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Doves & Diamonds",
+          "type": "1-track release",
+          "release_date": "2023-01-11"
+        },
+        {
+          "title": "GTA VI (The Logo of Alternative Rap)",
+          "type": "6-track release",
+          "release_date": "2025-10-30"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Diabolique",
+      "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Diabolique",
+          "type": "1-track release",
+          "release_date": "2026-07-03"
+        }
+      ],
+      "credits_verified_only": {
+        "producer": "Hybrid",
+        "co_producer": "Black Lansky",
+        "recorded": "Cue Recording Studio, Arlington, Virginia (official position, 2026-09-15)"
+      }
+    },
+    {
+      "title": "Flamerz",
+      "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Flamerz",
+          "type": "1-track release",
+          "release_date": "2024-07-19"
+        },
+        {
+          "title": "GTA VI (The Logo of Alternative Rap)",
+          "type": "6-track release",
+          "release_date": "2025-10-30"
+        },
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "producer": "Jeck Da General"
+      }
+    },
+    {
+      "title": "Neon Nights Pt. 777",
+      "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Ultimate",
+      "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Ultimate",
+          "type": "1-track release",
+          "release_date": "2024-06-14"
+        },
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Painted Lady",
+      "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Painted Lady",
+          "type": "1-track release",
+          "release_date": "2024-08-16"
+        },
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Warped and Wicked",
+      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Golden Diamond",
+      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Golden Diamond",
+          "type": "1-track release",
+          "release_date": "2023-06-30"
+        },
+        {
+          "title": "GTA VI (The Logo of Alternative Rap)",
+          "type": "6-track release",
+          "release_date": "2025-10-30"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Spirits n Shadows",
+      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Spirits n Shadows",
+          "type": "1-track release",
+          "release_date": "2021-10-25"
+        },
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Flex My Flame",
+      "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Flex My Flame",
+          "type": "1-track release",
+          "release_date": "2023-07-28"
+        },
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Rainbows And Roses",
+      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "piv·ot·al",
+          "type": "2-track release",
+          "release_date": "2022-01-17"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Tears and Scars",
+      "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Toxic Elements",
+      "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        },
+        {
+          "title": "Post Trap Futurism: The Logo Effect",
+          "type": "album",
+          "release_date": "2025-12-12"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "7th Angel",
+      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "7th Angel",
+          "type": "1-track release",
+          "release_date": "2023-10-14"
+        },
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Scorpions & Sapphires",
+      "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Place I Go to Dream",
+      "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "explicit": false,
+      "releases": [
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        },
+        {
+          "title": "The Alternative Theory",
+          "type": "album",
+          "release_date": "2025-11-20"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Place I Go to Dream - Remastered",
+      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "explicit": false,
+      "releases": [
+        {
+          "title": "Place I Go to Dream (Remastered)",
+          "type": "2-track release",
+          "release_date": "2022-02-18"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Place I Go to Dream - Instrumental",
+      "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "explicit": false,
+      "releases": [
+        {
+          "title": "Place I Go to Dream (Remastered)",
+          "type": "2-track release",
+          "release_date": "2022-02-18"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Smokin' Pain",
+      "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Phantasm",
+      "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        },
+        {
+          "title": "Phantasm",
+          "type": "1-track release",
+          "release_date": "2021-11-24"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Misfits and Hooligans",
+      "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    },
+    {
+      "title": "Roses over Monaco",
+      "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "explicit": true,
+      "releases": [
+        {
+          "title": "Idol or Icon",
+          "type": "album",
+          "release_date": "2021-11-24"
+        }
+      ],
+      "credits_verified_only": {
+        "credits_verified": "none — performed by That Boy Hi Hat; per-track writers/producers unverified"
+      }
+    }
+  ],
+  "contact": "hp@cumulativeweb.com"
+}
