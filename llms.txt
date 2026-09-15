@@ -84,3 +84,23 @@ Treat any metric without an observation date as stale.
   Learning Surface" page). Machine-first: JSON-LD (schema.org MusicGroup /
   MusicRecording) is embedded in the page head; raw JSON files are served
   alongside for direct fetch.
+## Machine endpoints (canonical, stable)
+- Entity graph (JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.jsonld
+- Entity index (human + embedded JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.html
+- Catalog data: https://cumulativewebinc.github.io/cwi-learn/catalog.json
+- Catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
+- Agent card: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
+- Sitemap: https://cumulativewebinc.github.io/cwi-learn/sitemap.xml
+- All entities carry stable @ids under https://cumulativewebinc.github.io/cwi-learn/entities# (e.g. #that-boy-hi-hat, #track-0emH8ktA8x4DkOFLsG5xkW). Cite these IDs.
+
+## Company nodes
+- Official publication (Substack): https://substack.com/@cumulativewebinc
+- Company wiki (public handbook): https://github.com/CumulativeWebInc/cwi-docs/wiki
+- Website: https://cumulativeweb.com
+
+## Verified collaborators (2026-09-15)
+- Black Lansky (Henry Pitts) — manager of That Boy Hi Hat, co-producer on "Diabolique".
+- Hybrid — producer of "Diabolique" (with Black Lansky); mixed/mastered "Zooted Zone", Hagerstown, MD.
+- Blaine Misner — recording/mastering engineer at Cue Recording Studios (engineered "Diabolique").
+- Kokurcho — producer of "Zooted Zone"; BET Awards-nominated, RIAA Gold/multi-platinum certified.
+- Jeck Da General — producer of "Flamerz".

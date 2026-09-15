@@ -1,0 +1,403 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc",
+      "name": "Cumulative Web Inc",
+      "alternateName": "CWI",
+      "url": "https://cumulativeweb.com",
+      "logo": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg",
+      "description": "Independent music company. Management and creative for alternative rap / Post-Trap Futurism. Artist: That Boy Hi Hat.",
+      "email": "hp@cumulativeweb.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hp@cumulativeweb.com",
+        "contactType": "business and sync inquiries"
+      },
+      "sameAs": [
+        "https://substack.com/@cumulativewebinc",
+        "https://github.com/CumulativeWebInc/cwi-docs/wiki",
+        "https://open.spotify.com/user/f225iofpluh1ca2k5qyinvoq4"
+      ]
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat",
+      "name": "That Boy Hi Hat",
+      "genre": [
+        "alternative rap",
+        "Post-Trap Futurism"
+      ],
+      "location": {
+        "@type": "Place",
+        "name": "Frederick, Maryland, USA"
+      },
+      "url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+      "description": "Alternative rap artist managed by Henry Pitts (aka Black Lansky) via Cumulative Web Inc. 307,439 lifetime Spotify plays on 'Zooted Zone' (observed 2026-09-14). Three tracks verified holding on Spotify playlist 'New Rap Hits' as of 2026-09-15: #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds.",
+      "sameAs": [
+        "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+        "https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8",
+        "https://bsky.app/profile/thatboyhihatcwi.bsky.social"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#black-lansky",
+      "name": "Black Lansky",
+      "jobTitle": "Manager and co-producer; runs Cumulative Web Inc.",
+      "description": "Henry Pitts, aka Black Lansky. Manager of That Boy Hi Hat and operator of Cumulative Web Inc. Co-producer on Diabolique.",
+      "alternateName": "Henry Pitts"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#hybrid",
+      "name": "Hybrid",
+      "jobTitle": "Producer, mixing and mastering engineer",
+      "description": "Producer of Diabolique (with Black Lansky). Mixed and mastered Zooted Zone at his studio in Hagerstown, Maryland."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#blaine-misner",
+      "name": "Blaine Misner",
+      "jobTitle": "Recording and mastering engineer",
+      "description": "Recording and mastering engineer at Cue Recording Studios, Virginia. Engineered Diabolique.",
+      "sameAs": [
+        "https://www.cuerecording.com/mastering",
+        "https://soundbetter.com/profiles/4608-blaine-misner"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#kokurcho",
+      "name": "Kokurcho",
+      "jobTitle": "Producer",
+      "description": "Producer of Zooted Zone. BET Awards-nominated; RIAA Gold and multi-platinum certified."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#jeck-da-general",
+      "name": "Jeck Da General",
+      "jobTitle": "Producer",
+      "description": "Producer of Flamerz."
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-0emH8ktA8x4DkOFLsG5xkW",
+      "name": "Zooted Zone",
+      "url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW"
+      ],
+      "description": "Zooted Zone by That Boy Hi Hat — the breakout. 307,439 lifetime Spotify plays (observed 2026-09-14). Produced by Kokurcho; mixed and mastered by Hybrid at his Hagerstown, MD studio; recorded Hagerstown, MD, February 2023. Verified holding #30 on Spotify playlist 'New Rap Hits' (2026-09-15 scan).",
+      "producer": [
+        {
+          "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#kokurcho"
+        }
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3pQEzg7xFqGIk0CK1Za1Kw",
+      "name": "Shaka Zulu",
+      "url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw"
+      ],
+      "description": "Shaka Zulu by That Boy Hi Hat. Verified holding #21 on Spotify playlist 'New Rap Hits' (2026-09-15 scan)."
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4NAyd7rvnuG3DrPFqXo4eQ",
+      "name": "Doves & Diamonds",
+      "url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ"
+      ],
+      "description": "Doves & Diamonds by That Boy Hi Hat. Verified holding #31 on Spotify playlist 'New Rap Hits' (2026-09-15 scan)."
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2eSyWmIdPzEMyWejLb2LBj",
+      "name": "Diabolique",
+      "url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj"
+      ],
+      "releaseDate": "2026-07-03",
+      "description": "Diabolique by That Boy Hi Hat, released 2026-07-03. Recorded at Cue Recording Studios, Arlington, Virginia. Produced by Hybrid; co-produced by Black Lansky; engineered by Blaine Misner.",
+      "producer": [
+        {
+          "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#hybrid"
+        },
+        {
+          "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#black-lansky"
+        }
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2MDHAUo4zJTHGXGQHUhNw0",
+      "name": "Flamerz",
+      "url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0"
+      ],
+      "description": "Flamerz by That Boy Hi Hat. Produced by Jeck Da General.",
+      "producer": [
+        {
+          "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#jeck-da-general"
+        }
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4XP56LZjeS0TJUd30kpGSK",
+      "name": "Neon Nights Pt. 777",
+      "url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2daugr3ni3r6jHH6UI57EK",
+      "name": "Ultimate",
+      "url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6nhzq7P7x09aUbPts4ywFl",
+      "name": "Painted Lady",
+      "url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3w4RKguHAT2xd9K0w5CklC",
+      "name": "Warped and Wicked",
+      "url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4RFWRhPn8NX0DTQPpl1swe",
+      "name": "Golden Diamond",
+      "url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2tEdW6WKfcs2NGI6OIvAm6",
+      "name": "Spirits n Shadows",
+      "url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7FQvcCS2CdTVsd6hb9jvHx",
+      "name": "Flex My Flame",
+      "url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2ZUYjQGsRLHRcsfgyeAWpo",
+      "name": "Rainbows And Roses",
+      "url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6NfxhZ4NebIduGEKZeD2Lk",
+      "name": "Tears and Scars",
+      "url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2aTbpxiF2jNiB3PGi81oqa",
+      "name": "Toxic Elements",
+      "url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2dvfN5rFyQO69qmb5oYlRG",
+      "name": "7th Angel",
+      "url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6YQq5GsaUmanh0XyHQIGoR",
+      "name": "Scorpions & Sapphires",
+      "url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3KX10tZBft6gp2Nea9HZOB",
+      "name": "Place I Go to Dream",
+      "url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-31MTBSMfWy4jGEYAilkaH8",
+      "name": "Place I Go to Dream - Remastered",
+      "url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3tKoMnnlkcRr7wE3PUQ9bp",
+      "name": "Place I Go to Dream - Instrumental",
+      "url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6jJpR9IhQ9PmRPJpxLlOmK",
+      "name": "Smokin' Pain",
+      "url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7xbS3rY8ZzCXNEPLPykf95",
+      "name": "Phantasm",
+      "url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4Z5UCQLqWzpPeihPTZ9Gqg",
+      "name": "Misfits and Hooligans",
+      "url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3r86CjoxCNvvCz98h2btm1",
+      "name": "Roses over Monaco",
+      "url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+      },
+      "sameAs": [
+        "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1"
+      ]
+    }
+  ],
+  "cwi": {
+    "engine": "semantic-saturation/1.0",
+    "generated": "2026-09-15",
+    "source": "verified CWI records only; no invented facts",
+    "track_count": 24
+  }
+}
