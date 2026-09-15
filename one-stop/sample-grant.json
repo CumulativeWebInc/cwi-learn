@@ -1,0 +1,32 @@
+{
+ "countersignature": {
+  "date": null,
+  "signature": null,
+  "status": "awaiting-licensee"
+ },
+ "draft_mode": false,
+ "fee": "0",
+ "fee_tier": "creator",
+ "grant_format": "cwi-grant/v1",
+ "grant_id": "cwi-grant-tbhh-001-sample",
+ "issued": "2026-09-15",
+ "issuer": "Cumulative Web Inc",
+ "licensee": {
+  "contact": "ops@example.org",
+  "name": "Sample Streamer Toolkit"
+ },
+ "media": "twitch",
+ "pre_clearance": {
+  "attested": "2026-09-15",
+  "ownership": "Cumulative Web Inc holds 100% of master and 100% of publishing for all 24 tracks in the That Boy Hi Hat catalog ref — verified against the CWI catalog source of truth. No third-party publisher, label, or sample-clearance dependency exists.",
+  "statement": "Cumulative Web Inc, issuer of record, attests that the master and publishing rights for every track in catalog_ref are 100% owned by Cumulative Web Inc and pre-cleared for the grant's fee tier. This is a one-stop clearance: a single grant carries both master and publishing."
+ },
+ "rights_line": "℗ Cumulative Web Inc — 100% master & publishing, pre-cleared",
+ "term_months": 12,
+ "territory": "worldwide",
+ "track": {
+  "catalog_id": "tbhh-001",
+  "title": "Zooted Zone"
+ },
+ "use": "stream-overlay"
+}
