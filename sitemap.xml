@@ -109,4 +109,27 @@
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/signal-mirror/signal-mirror.json</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/signal-mirror/item-card.json</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/signal-mirror/announce.html</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/scout/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/presskit/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/verify/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/curators/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/articles/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/stems/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/stats/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/license/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/scout/scout-cards.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/presskit/press-kit.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/verify/verification.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/curators/curators.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/articles/articles.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/stems/track-metadata.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/stats/data-quality.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/license/licensing.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/agent-deck-skus.jsonl</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/placements.jsonl</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/curators.jsonl</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/press.jsonl</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/training.json</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/llms-full.txt</loc><lastmod>2026-09-15</lastmod></url>
 </urlset>
