@@ -47,6 +47,21 @@
       "announce_url": "https://cumulativewebinc.github.io/cwi-learn/scoreboard/announce.html",
       "updated": "2026-09-15",
       "equipped_by": []
+    },
+    {
+      "name": "Chain-of-Title Compass",
+      "gear": "chain-of-title-compass",
+      "department": "affairs",
+      "category": "rights-clarity-accessories",
+      "slot": "business-affairs",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/compass/give-block.md",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/compass/rubric.json",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/compass/",
+      "announce_url": "https://cumulativewebinc.github.io/cwi-learn/compass/announce.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
     }
   ],
   "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."
