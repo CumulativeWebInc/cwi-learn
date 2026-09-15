@@ -77,6 +77,21 @@
       "announce_url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/announce.html",
       "updated": "2026-09-15",
       "equipped_by": []
+    },
+    {
+      "name": "CWI-1 Prospect Scanner",
+      "gear": "prospect-scanner",
+      "department": "ar",
+      "category": "talent-scouting-accessories",
+      "slot": "personality",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/scanner/item-card.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/scanner/give-block.md",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/scanner/rubric.json",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/scanner/",
+      "announce_url": "https://cumulativewebinc.github.io/cwi-learn/scanner/announce.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
     }
   ],
   "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."
