@@ -1,0 +1,54 @@
+{
+  "app": "Ledger — CWI Data & Analytics",
+  "description": "Dataset statistics and data-quality report for the CWI machine-readable layer. Every number below is computed from a real source.",
+  "updated": "2026-09-15",
+  "computed_from": {
+    "tracks": "AI Learning Set playlist (spotify:playlist:45RaLEzD4KO8YHpp3oayq8), recount-corrected 2026-09-15; cross-checked with Intelligence Engine discography file",
+    "releases_indexed": "workspace/cwi-company/intelligence/discography-that-boy-hi-hat.json (Spotify search + embed endpoints)",
+    "skus": "https://cumulativewebinc.github.io/cwi-learn/gear.json (Agent Deck registry)",
+    "placements": "2026-09-15 full playlist scans",
+    "curators": "2026-09-14/15 claim and scan records",
+    "articles": "CWI publication records (Medium @cumulativeweb + Substack)"
+  },
+  "counts": {
+    "tracks": 24,
+    "agent_deck_skus": 25,
+    "releases_indexed": 21,
+    "explicit_tracks": 21,
+    "non_explicit_cataloged": 3,
+    "verified_playlist_holds": 3,
+    "verified_sync_placements": 0,
+    "curator_records": 4,
+    "articles_indexed": 9
+  },
+  "verification_rates": {
+    "tracks_with_verified_credits": {
+      "n": 3,
+      "of": 24,
+      "pct": 12.5
+    },
+    "tracks_with_verified_playlist_holds": {
+      "n": 3,
+      "of": 24,
+      "pct": 12.5
+    },
+    "curators_verified": {
+      "n": 1,
+      "of": 4,
+      "pct": 25.0
+    }
+  },
+  "coverage_notes": [
+    "Per-track writer/producer credits: 21 of 24 tracks are performed-by only (unverified). Owner-confirmed credits exist for Zooted Zone (Kokurcho; mixed/mastered Hybrid), Diabolique (Hybrid; co-prod. Black Lansky), Flamerz (Jeck Da General).",
+    "ISRC, BPM, musical key, durations, label: not exposed by available Spotify endpoints — omitted, not estimated.",
+    "No clean/FCC-safe versions and no licensable instrumentals are documented for any track; titles containing 'Instrumental' or lacking [E] are metadata only.",
+    "Curator claims: 1 of 4 verified; 2 failed full scans (UNVERIFIED); 1 has no scan evidence (UNCONFIRMED). Claims are recorded as claims, never as placements."
+  ],
+  "quality_flags": [
+    "Title spelling variants exist in Spotify metadata ('Warped & Wicked' vs 'Warped and Wicked'; 'Scorpion & Sapphires' vs 'Scorpions & Sapphires'; 'Neon Nights pt. 777' vs 'Neon Nights Pt. 777'; 'SHAKA ZULU' vs 'Shaka Zulu') — flagged per track; exact Spotify URI must be specified in pitches.",
+    "A 2026-09-14 recount corrected an earlier 34-track count down to 24 unique tracks; the 24 figure is now canonical.",
+    "Payola-adjacent curator flagged (DJ 6Rings) — excluded from leads.",
+    "No invented facts policy: every endpoint publishes source or verification status for each field."
+  ],
+  "contact": "hp@cumulativeweb.com"
+}
