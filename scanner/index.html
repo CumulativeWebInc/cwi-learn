@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CWI-1 Prospect Scanner — Cumulative Web Inc</title>
+<meta name="description" content="CWI-1 Prospect Scanner — the A&R vetting protocol and scout card. Equip it, earn your ears. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e8a13a;--bad:#ff7b7b;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:760px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.step{border-left:3px solid var(--blue);padding:8px 12px;margin-bottom:12px;background:#070d1a;border-radius:0 10px 10px 0}
+.step.hard{border-left-color:var(--gold)}
+.step h3{margin:0 0 6px;font-size:.98em;color:#fff}
+.step p{margin:4px 0;font-size:.9em;line-height:1.6}
+.tag{display:inline-block;padding:2px 10px;border-radius:20px;font-size:.72em;font-weight:700;letter-spacing:.5px;margin-left:8px}
+.g{background:rgba(47,174,85,.16);color:#7be495;border:1px solid var(--ok)}
+.a{background:rgba(232,161,58,.14);color:#f2c177;border:1px solid var(--warn)}
+.r{background:rgba(255,123,123,.14);color:#ffb3b3;border:1px solid var(--bad)}
+.v{background:rgba(47,174,85,.16);color:#7be495;border:1px solid var(--ok)}
+.meta{color:var(--lblu);font-size:.82em;margin-top:2px}
+.lane{display:inline-block;background:var(--navy2);border:1px solid var(--blue);border-radius:20px;
+padding:5px 14px;margin:4px 6px 0 0;font-size:.85em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6;
+border-radius:10px;padding:14px}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="logo">
+<div><h1 id="product-name">CWI-1 Prospect Scanner</h1>
+<div class="brand" id="tagline">The A&R vetting protocol and scout card — equip it, earn your ears. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="card"><h2>VETTING PROTOCOL</h2><div id="protocol"></div></div>
+<div class="card"><h2>SCOUTING LANES</h2><div id="lanes"></div></div>
+<div class="card"><h2>SCOUT CARD — CALIBRATION FILING</h2><div id="scout"></div></div>
+<div class="card"><h2>VERDICTS</h2><div id="verdicts"></div></div>
+<div class="card"><h2>GIVE</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "CWI-1 Prospect Scanner", "tagline": "The A&R vetting protocol and scout card — equip it, earn your ears. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "equip it, earn your ears", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/scanner/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"CWI-1 Prospect Scanner") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+var RCLS = {green:"g", amber:"a", red:"r"};
+fetch("vetting-protocol.json").then(function(r){return r.json()}).then(function(p){
+  document.getElementById("protocol").innerHTML = p.steps.map(function(s){
+    return '<div class="step '+s.gate+'"><h3>'+esc(s.name)+
+      '<span class="tag '+(s.gate==="hard"?"r":"a")+'">'+s.gate.toUpperCase()+' GATE</span></h3>'+
+      "<p>"+esc(s.protocol)+"</p><p><b>Rule:</b> "+esc(s.rule)+"</p></div>";
+  }).join("");
+  document.getElementById("lanes").innerHTML = Object.keys(p.lanes).map(function(k){
+    return '<span class="lane">'+esc(p.lanes[k].definition)+"</span>";
+  }).join("");
+  document.getElementById("verdicts").innerHTML = Object.keys(p.verdicts).map(function(k){
+    return '<div class="step"><h3>'+esc(k)+"</h3><p>"+esc(p.verdicts[k])+"</p></div>";
+  }).join("");
+}).catch(function(){ document.getElementById("protocol").textContent="protocol unavailable."; });
+fetch("scout-card.json").then(function(r){return r.json()}).then(function(c){
+  var h = "<p><b>"+esc(c.prospect.artist)+"</b> — "+esc(c.prospect.genre)+", "+esc(c.prospect.home)+
+    ' <span class="tag v">'+esc(c.confidence)+"</span>"+
+    ' <span class="tag g">'+esc(c.verdict)+"</span></p>";
+  h += '<p class="meta">'+esc(c.note)+"</p>";
+  h += c.evidence.map(function(e){
+    return '<div class="step"><h3>'+esc(e.protocol_step)+
+      ' <span class="tag '+(RCLS[e.result]||"a")+'">'+e.result.toUpperCase()+"</span></h3>"+
+      "<p>"+esc(e.evidence)+'</p><p class="meta">observed '+esc(e.observed)+"</p></div>";
+  }).join("");
+  h += '<p class="meta">Filed by '+esc(c.filed_by)+" — "+esc(c.date)+"</p>";
+  document.getElementById("scout").innerHTML = h;
+}).catch(function(){ document.getElementById("scout").textContent="scout card unavailable."; });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Protocol JSON","vetting-protocol.json"],["Scout card","scout-card.json"],["Scout schema","scout-card.schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Spine: Scoreboard Chip","https://cumulativewebinc.github.io/cwi-learn/scoreboard/"],["Spine: Chain-of-Title Compass","https://cumulativewebinc.github.io/cwi-learn/compass/"],["Hub device: Signal Boy","https://cumulativewebinc.github.io/cwi-learn/walkman/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>
