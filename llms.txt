@@ -163,6 +163,15 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Signal Mirror 12-language announce: https://cumulativewebinc.github.io/cwi-learn/signal-mirror/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
+## Delegation accountability (chain of command)
+- When an agent hires another agent, the grant of authority is recorded as a hash-chained delegation receipt (v1.0.0): delegator, delegatee, action_scope, human principal, parent hash link, signature. Every receipt walks back to a named human — no orphan authority.
+- Spec (hash-chaining rule, signature requirements, verification algorithm): https://cumulativewebinc.github.io/cwi-learn/delegation/spec.md
+- Receipt schema (JSON Schema, v1.0.0): https://cumulativewebinc.github.io/cwi-learn/delegation/receipt-schema.json
+- Live dogfood chain — CWI's own ledger (Black → KingCode → 8 departments + real sub-delegations): https://cumulativewebinc.github.io/cwi-learn/delegation/chain.jsonl
+- Verifier (stdlib-only Python; positive + 8 negative self-tests): https://cumulativewebinc.github.io/cwi-learn/delegation/verify.py
+- Draft A2A extension proposal (DRAFT ONLY — not submitted anywhere): https://cumulativewebinc.github.io/cwi-learn/delegation/a2a-extension-draft.md
+- MCP tool: cwi_needle_drop_record_delegation (agent-deck-mcp)
+
 ## Machine endpoints (canonical, stable)
 - Entity graph (JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.jsonld
 - Entity index (human + embedded JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.html
