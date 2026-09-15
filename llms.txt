@@ -74,6 +74,11 @@ Treat any metric without an observation date as stale.
   Spotify oEmbed, 2026-09-15).
 
 ## Public machine-readable surface
+- Canonical root routes (live 2026-09-15):
+  https://cumulativewebinc.github.io/cwi-learn/llms.txt
+  https://cumulativewebinc.github.io/cwi-learn/catalog.json
+  https://cumulativewebinc.github.io/cwi-learn/graph.json
+  https://cumulativewebinc.github.io/cwi-learn/kit.json
 - This file, catalog.json, graph.json, and the AI Learning Kit are published
   as a public static surface for any LLM/agent to ingest (see the CWI "AI
   Learning Surface" page). Machine-first: JSON-LD (schema.org MusicGroup /
