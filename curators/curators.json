@@ -1,0 +1,69 @@
+{
+  "app": "Dial — CWI Radio & Playlists",
+  "description": "Verified curator/playlist directory. Statuses: VERIFIED (scan-confirmed), UNVERIFIED (claim failed scan), UNCONFIRMED (no scan evidence).",
+  "updated": "2026-09-15",
+  "curators": [
+    {
+      "name": "New Rap Hits",
+      "curator": "Audiartist",
+      "platform": "Spotify",
+      "followers": 673,
+      "status": "VERIFIED",
+      "verified_positions": {
+        "Shaka Zulu": 21,
+        "Zooted Zone": 30,
+        "Doves & Diamonds": 31
+      },
+      "last_checked": "2026-09-15",
+      "notes": "Three That Boy Hi Hat tracks verified holding in one full playlist scan."
+    },
+    {
+      "name": "No Label Needed — Hip Hop & R&B | The Next Wave",
+      "curator": "Flow",
+      "platform": "Spotify",
+      "status": "UNVERIFIED",
+      "claims": [
+        {
+          "track": "Zooted Zone",
+          "claimed": "2026-09-14"
+        }
+      ],
+      "last_checked": "2026-09-15",
+      "notes": "Claimed add failed verification — Zooted Zone absent in two full scans."
+    },
+    {
+      "name": "It's Goin",
+      "curator": "DJ 6Rings (Shan)",
+      "platform": "Spotify",
+      "status": "UNVERIFIED",
+      "claims": [
+        {
+          "track": "track TBD",
+          "claimed": "2026-09-14"
+        }
+      ],
+      "last_checked": "2026-09-15",
+      "notes": "Playlist unlocatable via search and API check. PAYOLA FLAG: rapsushiplaylist.com sells $25 playlist adds — do not pursue."
+    },
+    {
+      "name": "WATCH THA GAP VOL.5",
+      "curator": "unknown",
+      "platform": "Spotify",
+      "status": "UNCONFIRMED",
+      "claims": [
+        {
+          "track": "Ultimate",
+          "claimed": "add promised"
+        }
+      ],
+      "last_checked": "2026-09-15",
+      "notes": "No scan evidence; not treated as a placement."
+    }
+  ],
+  "status_definitions": {
+    "VERIFIED": "Track found present in a live full scan of the playlist.",
+    "UNVERIFIED": "A claimed add that failed one or more full scans.",
+    "UNCONFIRMED": "A promised add with no scan evidence yet."
+  },
+  "contact": "hp@cumulativeweb.com"
+}
