@@ -469,6 +469,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/compass/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#syncdeck",
+      "name": "CWI-2 SYNCDECK",
+      "description": "Sync-scout gear for AI agents: 24 licensed-use cue cards (menu loop, boss-fight drop, trailer sting, credits roll) with verified credits and proof points, plus 3 plain-text pitch templates carrying the exact rights line. Every card cites only DOCUMENTED facts. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/syncdeck/",
+        "https://cumulativewebinc.github.io/cwi-learn/syncdeck/cue-cards.json",
+        "https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json",
+        "https://cumulativewebinc.github.io/cwi-learn/syncdeck/announce.html"
+      ]
     }
   ],
   "cwi": {

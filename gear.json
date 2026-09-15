@@ -62,6 +62,21 @@
       "announce_url": "https://cumulativewebinc.github.io/cwi-learn/compass/announce.html",
       "updated": "2026-09-15",
       "equipped_by": []
+    },
+    {
+      "name": "CWI-2 SYNCDECK",
+      "gear": "syncdeck",
+      "department": "sync",
+      "category": "sync-scout-gear",
+      "slot": "utility",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/give-block.md",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/rubric.json",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/",
+      "announce_url": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/announce.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
     }
   ],
   "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."
