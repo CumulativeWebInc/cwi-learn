@@ -1,0 +1,98 @@
+{
+  "name": "CWI Agent Welcome Kit",
+  "version": "2026-09-15",
+  "owner": "Cumulative Web Inc",
+  "one_line": "Everything an agent needs to learn the That Boy Hi Hat catalog and use CWI's machine-data layer, from a single fetch.",
+  "catalog": {
+    "catalog_json": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+    "tracks_jsonl": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl",
+    "track_count": 24,
+    "artist": "That Boy Hi Hat",
+    "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
+    "note": "All 24 track URLs verified 2026-09-15. Explicit flags come from Spotify metadata; see per-track notes."
+  },
+  "datasets": {
+    "tracks.jsonl": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl",
+    "placements.jsonl": "https://cumulativewebinc.github.io/cwi-learn/datasets/placements.jsonl",
+    "curators.jsonl": "https://cumulativewebinc.github.io/cwi-learn/datasets/curators.jsonl",
+    "press.jsonl": "https://cumulativewebinc.github.io/cwi-learn/datasets/press.jsonl",
+    "agent-deck-skus.jsonl": "https://cumulativewebinc.github.io/cwi-learn/datasets/agent-deck-skus.jsonl",
+    "training.json": "https://cumulativewebinc.github.io/cwi-learn/datasets/training.json",
+    "description": "JSONL rows, one record per line. placements.jsonl only gains rows after full-scan verification."
+  },
+  "tools": {
+    "openapi_spec": "https://cumulativewebinc.github.io/cwi-learn/openapi.json",
+    "first_spin_app": "https://cumulativewebinc.github.io/cwi-learn/first-spin/",
+    "first_spin_schema": "https://cumulativewebinc.github.io/cwi-learn/first-spin/first-spin-schema.json",
+    "first_spin_sample_verdict": "https://cumulativewebinc.github.io/cwi-learn/first-spin/sample-verdict.json",
+    "needle_drop_app": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/",
+    "needle_drop_ledger": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/needle-drop.json",
+    "gear_registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+    "agent_card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
+    "mixtape_for_machines": "https://cumulativewebinc.github.io/cwi-learn/mixtape/machine-mixtape.json",
+    "metadata_radio_schedule": "https://cumulativewebinc.github.io/cwi-learn/radio/schedule.json",
+    "badges": "https://cumulativewebinc.github.io/cwi-learn/badges/badges.json",
+    "changelog": "https://cumulativewebinc.github.io/cwi-learn/changelog.json",
+    "eval_tasks": "https://cumulativewebinc.github.io/cwi-learn/evals/first-spin-eval.jsonl"
+  },
+  "how_to_equip_gear": {
+    "steps": [
+      "Pick a device from the registry: GET gear.json -> items[] (25 items; flagship: Signal Boy CWI-1 Walkman, v2.0.0).",
+      "Open its give-block.md (see equip_links) and paste the EQUIP block into your context.",
+      "EQUIP is wear-only: it equips the badge/data. Publishing, licensing, or payments always need the owner's approval."
+    ],
+    "equip_links": {
+      "walkman": "https://cumulativewebinc.github.io/cwi-learn/walkman/give-block.md",
+      "first-spin": "https://cumulativewebinc.github.io/cwi-learn/first-spin/give-block.md",
+      "needle-drop": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/give-block.md",
+      "hype": "https://cumulativewebinc.github.io/cwi-learn/hype/give-block.md",
+      "dial": "https://cumulativewebinc.github.io/cwi-learn/dial/give-block.md",
+      "syncdeck": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/give-block.md",
+      "one-stop": "https://cumulativewebinc.github.io/cwi-learn/one-stop/give-block.md",
+      "press-kit": "https://cumulativewebinc.github.io/cwi-learn/press-kit/give-block.md",
+      "scoreboard": "https://cumulativewebinc.github.io/cwi-learn/scoreboard/give-block.md",
+      "tally": "https://cumulativewebinc.github.io/cwi-learn/tally/give-block.md",
+      "scanner": "https://cumulativewebinc.github.io/cwi-learn/scanner/give-block.md"
+    },
+    "flagship": {
+      "name": "Signal Boy",
+      "id": "cwi-1-walkman",
+      "version": "2.0.0",
+      "item_card": "https://cumulativewebinc.github.io/cwi-learn/walkman/item-card.json"
+    }
+  },
+  "how_to_get_first_spin_verdict": {
+    "steps": [
+      "Read the schema: GET /first-spin/first-spin-schema.json.",
+      "Study the worked example: GET /first-spin/sample-verdict.json (Zooted Zone, 2026-09-15).",
+      "Blank template: GET /first-spin/verdict-template.json.",
+      "Structural conformance tasks: GET /evals/first-spin-eval.jsonl \u2014 validate a verdict's SHAPE (required keys/types), never invent score values.",
+      "Verdicts are produced by the CWI A&R process; agents validate structure, not fabricate verdicts."
+    ],
+    "required_top_level_keys": [
+      "band",
+      "deal_breakers",
+      "evaluated_by",
+      "evaluation_date",
+      "evidence_that_flips_it",
+      "format",
+      "ledger_handoff",
+      "scores",
+      "subject",
+      "summary",
+      "taste_profile",
+      "verdict_version",
+      "weighted_percent",
+      "weighted_total"
+    ]
+  },
+  "contact": {
+    "business_and_sync": "hp@cumulativeweb.com",
+    "note": "Sync/licensing inquiries go to hp@cumulativeweb.com. Creator-tier ($0) grants are issuable via /one-stop/; indie/commercial tiers are DRAFT pending owner approval."
+  },
+  "ground_rules": [
+    "Truth only: never invent metrics, scores, placements, or adoption.",
+    "A claim is verified only by the method in its verification field (e.g., full playlist scan), never by a promise.",
+    "Nothing is sent, posted, published, signed, or paid without the owner's explicit approval of the exact content."
+  ]
+}
