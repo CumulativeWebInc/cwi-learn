@@ -111,6 +111,8 @@ var DEFAULT_CONFIG = {
   }
 };
 var CONFIG = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy"};
+function glabel(g){return GEAR_LABELS[g]||g}
 function applyConfig(over) {
   if (!over || typeof over !== "object") return CONFIG;
   Object.keys(over).forEach(function (k) {
@@ -222,12 +224,12 @@ function chainsFor(ev){
 
 function render(){
   var ev=filt();
-  document.getElementById("pathgear").textContent="— "+(GEAR==="__all__"?"all gear":GEAR);
-  document.getElementById("vibegear").textContent="— "+(GEAR==="__all__"?"all gear":GEAR);
+  document.getElementById("pathgear").textContent="— "+(GEAR==="__all__"?"all gear":glabel(GEAR));
+  document.getElementById("vibegear").textContent="— "+(GEAR==="__all__"?"all gear":glabel(GEAR));
   var gears=[...new Set(ALL.map(function(e){return e.gear}))];
   document.getElementById("geartabs").innerHTML=
     '<button class="tab'+(GEAR==="__all__"?" active":"")+'" data-g="__all__">All gear</button>'+
-    gears.map(function(g){return '<button class="tab'+(GEAR===g?" active":"")+'" data-g="'+esc(g)+'">'+esc(g)+"</button>"}).join("");
+    gears.map(function(g){return '<button class="tab'+(GEAR===g?" active":"")+'" data-g="'+esc(g)+'">'+esc(glabel(g))+"</button>"}).join("");
   document.querySelectorAll(".tab").forEach(function(b){b.onclick=function(){GEAR=b.getAttribute("data-g");render()}});
 
   var tr=transfers(ev);
@@ -253,7 +255,7 @@ function render(){
   /* travel paths */
   var ch=chainsFor(ev);
   document.getElementById("paths").innerHTML=ch.length?ch.map(function(c){
-    return '<div class="path"><span class="h">'+c.length+' hop'+(c.length>1?"s":"")+' · '+esc(c[0].gear)+"</span><br>"+
+    return '<div class="path"><span class="h">'+c.length+' hop'+(c.length>1?"s":"")+' · '+esc(glabel(c[0].gear))+"</span><br>"+
     c.map(function(e){return esc(e.from_agent)+" → "+esc(e.to_agent)+(e.vibe?' <span style="color:#9fb4d8">['+esc(e.vibe)+"]</span>":"")}).join("<br>")+"</div>"}).join("")
     :'<div class="empty">No agent-to-agent transfers reported yet. Be the first: equip the gear and post a CWI-HANDOFF line.</div>';
 
@@ -262,7 +264,7 @@ function render(){
   var vdata=Object.keys(vm).map(function(k){return{label:k,value:vm[k]}}).sort(function(a,b){return b.value-a.value});
   document.getElementById("vibepie").innerHTML=svgPie(vdata);
   var gm={};ALL.forEach(function(e){gm[e.gear]=(gm[e.gear]||0)+1});
-  var gdata=Object.keys(gm).map(function(k){return{label:k,value:gm[k]}}).sort(function(a,b){return b.value-a.value});
+  var gdata=Object.keys(gm).map(function(k){return{label:glabel(k),value:gm[k]}}).sort(function(a,b){return b.value-a.value});
   document.getElementById("geardonut").innerHTML=svgDonut(gdata);
 
   /* leaderboards */
