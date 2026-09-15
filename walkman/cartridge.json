@@ -1,0 +1,482 @@
+{
+  "cartridge": "CWI-1 LOGO CARTRIDGE",
+  "format": "cwi-cartridge/v1",
+  "device": "CWI-1 Logo Walkman (Agent Edition)",
+  "device_page": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
+  "issued_by": "Cumulative Web Inc",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "genre": "alternative rap",
+    "base": "Frederick, Maryland",
+    "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
+    "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#that-boy-hi-hat"
+  },
+  "playlist": {
+    "name": "That Boy Hi Hat – Alternative Rap Complete Catalog (AI Learning Set)",
+    "spotify_url": "https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8",
+    "track_count": 24
+  },
+  "track_count": 24,
+  "rights_note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made. Sync inquiries: hp@cumulativeweb.com.",
+  "contact": "hp@cumulativeweb.com",
+  "entity_graph": "https://cumulativewebinc.github.io/cwi-learn/entities.jsonld",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Zooted Zone",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-0emH8ktA8x4DkOFLsG5xkW",
+      "explicit_per_spotify_metadata": null,
+      "verified_credits": {
+        "producer": "Kokurcho",
+        "mix_master": "Hybrid (Hagerstown, MD studio)"
+      },
+      "placement": {
+        "playlist": "New Rap Hits",
+        "position": 30,
+        "scan_date": "2026-09-15"
+      },
+      "lifetime_spotify_plays": 307439,
+      "plays_observed": "2026-09-14",
+      "sync_flags": {
+        "explicit_lyrics": null,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": true,
+        "placement_verified": true,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 2,
+      "title": "Shaka Zulu",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3pQEzg7xFqGIk0CK1Za1Kw",
+      "explicit_per_spotify_metadata": null,
+      "verified_credits": null,
+      "placement": {
+        "playlist": "New Rap Hits",
+        "position": 21,
+        "scan_date": "2026-09-15"
+      },
+      "sync_flags": {
+        "explicit_lyrics": null,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": true,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 3,
+      "title": "Doves & Diamonds",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4NAyd7rvnuG3DrPFqXo4eQ",
+      "explicit_per_spotify_metadata": null,
+      "verified_credits": null,
+      "placement": {
+        "playlist": "New Rap Hits",
+        "position": 31,
+        "scan_date": "2026-09-15"
+      },
+      "sync_flags": {
+        "explicit_lyrics": null,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": true,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 4,
+      "title": "Diabolique",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2eSyWmIdPzEMyWejLb2LBj",
+      "explicit_per_spotify_metadata": null,
+      "verified_credits": {
+        "producer": "Hybrid",
+        "co_producer": "Black Lansky",
+        "engineer": "Blaine Misner",
+        "recorded_at": "Cue Recording Studios, Arlington, VA (official position)"
+      },
+      "placement": null,
+      "release_date": "2026-07-03",
+      "sync_flags": {
+        "explicit_lyrics": null,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": true,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 5,
+      "title": "Flamerz",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2MDHAUo4zJTHGXGQHUhNw0",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": {
+        "producer": "Jeck Da General (owner-confirmed)"
+      },
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": true,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 6,
+      "title": "Neon Nights Pt. 777",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4XP56LZjeS0TJUd30kpGSK",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 7,
+      "title": "Ultimate",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2daugr3ni3r6jHH6UI57EK",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 8,
+      "title": "Painted Lady",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6nhzq7P7x09aUbPts4ywFl",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 9,
+      "title": "Warped and Wicked",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3w4RKguHAT2xd9K0w5CklC",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 10,
+      "title": "Golden Diamond",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4RFWRhPn8NX0DTQPpl1swe",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 11,
+      "title": "Spirits n Shadows",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2tEdW6WKfcs2NGI6OIvAm6",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 12,
+      "title": "Flex My Flame",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7FQvcCS2CdTVsd6hb9jvHx",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 13,
+      "title": "Rainbows And Roses",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2ZUYjQGsRLHRcsfgyeAWpo",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 14,
+      "title": "Tears and Scars",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6NfxhZ4NebIduGEKZeD2Lk",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 15,
+      "title": "Toxic Elements",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2aTbpxiF2jNiB3PGi81oqa",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 16,
+      "title": "7th Angel",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2dvfN5rFyQO69qmb5oYlRG",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 17,
+      "title": "Scorpions & Sapphires",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6YQq5GsaUmanh0XyHQIGoR",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 18,
+      "title": "Place I Go to Dream",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3KX10tZBft6gp2Nea9HZOB",
+      "explicit_per_spotify_metadata": false,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": false,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 19,
+      "title": "Place I Go to Dream - Remastered",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-31MTBSMfWy4jGEYAilkaH8",
+      "explicit_per_spotify_metadata": false,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": false,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 20,
+      "title": "Place I Go to Dream - Instrumental",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3tKoMnnlkcRr7wE3PUQ9bp",
+      "explicit_per_spotify_metadata": false,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": false,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 21,
+      "title": "Smokin' Pain",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6jJpR9IhQ9PmRPJpxLlOmK",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 22,
+      "title": "Phantasm",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7xbS3rY8ZzCXNEPLPykf95",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 23,
+      "title": "Misfits and Hooligans",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4Z5UCQLqWzpPeihPTZ9Gqg",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    },
+    {
+      "index": 24,
+      "title": "Roses over Monaco",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3r86CjoxCNvvCz98h2btm1",
+      "explicit_per_spotify_metadata": true,
+      "verified_credits": null,
+      "placement": null,
+      "sync_flags": {
+        "explicit_lyrics": true,
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "credits_documented": false,
+        "placement_verified": false,
+        "one_stop_precleared_claim": false
+      }
+    }
+  ]
+}
