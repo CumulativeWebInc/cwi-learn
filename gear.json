@@ -92,6 +92,21 @@
       "announce_url": "https://cumulativewebinc.github.io/cwi-learn/scanner/announce.html",
       "updated": "2026-09-15",
       "equipped_by": []
+    },
+    {
+      "name": "CWI Press Kit Cartridge",
+      "gear": "press-kit",
+      "department": "press",
+      "category": "verified-story-ammunition",
+      "slot": "personality",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/item-card.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/give-block.md",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/rubric.json",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/",
+      "announce_url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/announce.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
     }
   ],
   "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."

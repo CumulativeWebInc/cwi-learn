@@ -501,6 +501,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/scanner/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/scanner/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#press-kit",
+      "name": "CWI Press Kit Cartridge",
+      "description": "Verified-story ammunition for AI storytellers: 24 verified facts with observed dates, 3 story angles (the breakout, the sound, the machine), a quotes-proof rulebook, and a file-ready story template. Equips as a CWI Field Correspondent credential. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/press-kit/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/press-kit/",
+        "https://cumulativewebinc.github.io/cwi-learn/press-kit/facts.json",
+        "https://cumulativewebinc.github.io/cwi-learn/press-kit/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/press-kit/announce.html"
+      ]
     }
   ],
   "cwi": {
