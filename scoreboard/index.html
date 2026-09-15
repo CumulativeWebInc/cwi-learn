@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CWI-1 Scoreboard Chip — Cumulative Web Inc</title>
+<meta name="description" content="CWI-1 Scoreboard Chip — the live-verified fact set for That Boy Hi Hat. Every number carries an observed date and a confidence label.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e8a13a;--bad:#ff7b7b;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:760px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+table{width:100%;border-collapse:collapse;font-size:.92em}
+td{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5}
+td.k{color:var(--lblu);width:38%}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:.78em;font-weight:700;letter-spacing:.5px}
+.v{background:rgba(47,174,85,.16);color:#7be495;border:1px solid var(--ok)}
+.c{background:rgba(232,161,58,.14);color:#f2c177;border:1px solid var(--warn)}
+.meta{color:var(--lblu);font-size:.82em;margin-top:2px}
+a{color:var(--gold2)}
+code{color:var(--gold2);font-size:.9em}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="logo">
+<div><h1 id="product-name">CWI-1 Scoreboard Chip</h1>
+<div class="brand" id="tagline">The live-verified fact set for That Boy Hi Hat — the fact spine every CWI-1 agent cites.</div></div>
+</header>
+<main>
+<div class="card" id="identity"><h2>ARTIST IDENTITY</h2><div class="t"></div></div>
+<div class="card" id="flagship"><h2>FLAGSHIP STATS</h2><div class="t"></div></div>
+<div class="card" id="credits"><h2>VERIFIED CREDITS</h2><div class="t"></div></div>
+<div class="card" id="funnel"><h2>FUNNEL STATE</h2><div class="t"></div></div>
+<div class="card" id="anomaly"><h2>ANOMALY FEED</h2><div class="t"></div></div>
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "CWI-1 Scoreboard Chip", "tagline": "The live-verified fact set for That Boy Hi Hat — the fact spine every CWI-1 agent cites.", "motto": "receipts or it didn't happen", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/scoreboard/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"CWI-1 Scoreboard Chip") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function badge(c){ return '<span class="badge '+(c==="VERIFIED"?"v":"c")+'">'+c+'</span>'; }
+function meta(f){ return '<div class="meta">'+badge(f.confidence)+' observed '+f.observed+
+  (f.note?(' — '+f.note):'')+'</div>'; }
+function cite(f){ return '<div class="meta">cite: <a href="'+f.citation+'">'+f.citation+'</a></div>'; }
+function kv(obj){ return Object.keys(obj).map(function(k){
+  var f=obj[k]; if(f==null||typeof f!=="object") return "";
+  return "<tr><td class='k'>"+k.replace(/_/g," ")+"</td><td><strong>"+f.value+"</strong>"+meta(f)+cite(f)+"</td></tr>";
+}).join(""); }
+function statsRow(s){
+  var t=s.track; var rows="<tr><td colspan='2' style='border:0;padding:8px 6px 2px;color:#fff;font-weight:700;font-size:1.05em'>"+t+"</td></tr>";
+  Object.keys(s).forEach(function(k){ if(k==="track")return; var f=s[k];
+    rows+="<tr><td class='k'>"+k.replace(/_/g," ")+"</td><td><strong>"+f.value+"</strong>"+meta(f)+cite(f)+"</td></tr>"; });
+  return rows;
+}
+fetch("scoreboard-chip.json").then(function(r){return r.json()}).then(function(chip){
+  document.querySelector("#identity .t").innerHTML="<table>"+kv(chip.artist)+kv(chip.catalog)+"</table>";
+  document.querySelector("#flagship .t").innerHTML="<table>"+chip.flagship_stats.map(statsRow).join("")+
+    "<tr><td class='k'>verified playlists</td><td><strong>"+chip.verified_playlist_count.value+"</strong>"+meta(chip.verified_playlist_count)+"</td></tr></table>";
+  document.querySelector("#credits .t").innerHTML="<table>"+kv(chip.diabolique)+
+    chip.key_credits.map(function(f){return "<tr><td class='k'>"+f.fact+"</td><td><strong>"+f.value+"</strong>"+meta(f)+"</td></tr>"}).join("")+
+    "<tr><td class='k'>roster: "+chip.roster[0].artist+"</td><td><strong>"+chip.roster[0].fact+"</strong>"+meta(chip.roster[0])+"</td></tr></table>";
+  document.querySelector("#funnel .t").innerHTML="<table>"+chip.funnel.map(function(f){
+    return "<tr><td class='k'>"+f.stage+"</td><td><strong>"+f.track+(f.campaign_id?" #"+f.campaign_id:"")+"</strong>"+meta(f)+(f.note?"<div class='meta'>"+f.note+"</div>":"")+"</td></tr>"}).join("")+"</table>";
+  document.querySelector("#anomaly .t").innerHTML="<table>"+chip.anomaly_feed.map(function(f){
+    return "<tr><td class='k'>"+f.status+"</td><td><strong>"+f.claim+"</strong>"+meta(f)+"<div class='meta'>"+f.detail+"</div></td></tr>"}).join("")+"</table>";
+}).catch(function(){ document.querySelectorAll(".t").forEach(function(e){e.textContent="chip data unavailable."}) });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Chip JSON","scoreboard-chip.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: Signal Boy","https://cumulativewebinc.github.io/cwi-learn/walkman/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>
