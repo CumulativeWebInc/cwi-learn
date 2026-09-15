@@ -805,6 +805,118 @@
         "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/announce.html"
       ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-needle",
+      "name": "Needle",
+      "description": "Needle is the CWI A&R department endpoint: 24 That Boy Hi Hat tracks as scout cards with verified credits only, releases, title-derived themes, and verification notes. Ships a human page and machine-readable scout-cards.json. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/scout/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/scout/",
+        "https://cumulativewebinc.github.io/cwi-learn/scout/scout-cards.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-marquee",
+      "name": "Marquee",
+      "description": "Marquee is the CWI Marketing department endpoint: a machine-readable press kit for That Boy Hi Hat — bio facts, links, assets, and contact. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/presskit/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/presskit/",
+        "https://cumulativewebinc.github.io/cwi-learn/presskit/press-kit.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-seal",
+      "name": "Seal",
+      "description": "Seal is the CWI Sync department endpoint: a placement-verification ledger that publishes only scan-confirmed placements. The ledger is honestly empty at launch — that is the feature. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/verify/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/verify/",
+        "https://cumulativewebinc.github.io/cwi-learn/verify/verification.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-dial",
+      "name": "Dial",
+      "description": "Dial is the CWI Radio & Playlists department endpoint: a curator/playlist directory with honest status fields (VERIFIED, UNVERIFIED, UNCONFIRMED). Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/curators/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/curators/",
+        "https://cumulativewebinc.github.io/cwi-learn/curators/curators.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-dateline",
+      "name": "Dateline",
+      "description": "Dateline is the CWI Press department endpoint: an index of the real CWI press corpus — 8 Medium articles and the verified-live Substack publication. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/articles/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/articles/",
+        "https://cumulativewebinc.github.io/cwi-learn/articles/articles.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-fader",
+      "name": "Fader",
+      "description": "Fader is the CWI Studio department endpoint: track metadata deep-dive for the 24-track catalog — real fields only, nothing inferred. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/stems/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/stems/",
+        "https://cumulativewebinc.github.io/cwi-learn/stems/track-metadata.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-ledger",
+      "name": "Ledger",
+      "description": "Ledger is the CWI Data & Analytics department endpoint: dataset statistics and a data-quality report computed from real sources. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/stats/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/stats/",
+        "https://cumulativewebinc.github.io/cwi-learn/stats/data-quality.json"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-charter",
+      "name": "Charter",
+      "description": "Charter is the CWI Business Affairs department endpoint: white-label licensing terms for the CWI data layer — attribution required, no prices. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/license/",
+      "author": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/license/",
+        "https://cumulativewebinc.github.io/cwi-learn/license/licensing.json"
+      ]
     }
   ],
   "cwi": {
