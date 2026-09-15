@@ -1,0 +1,54 @@
+{
+  "changelog": "https://cumulativewebinc.github.io/cwi-learn/changelog.json",
+  "entries": [
+    {
+      "date": "2026-09-15",
+      "type": "launch",
+      "title": "Machine-data layer launched",
+      "details": "datasets/tracks.jsonl, placements.jsonl, curators.jsonl, press.jsonl, agent-deck-skus.jsonl, training.json \u2014 all HTTP 200; plus catalog.json (24 tracks, URLs verified), graph.json, kit.json, .well-known/agent-card.json, llms.txt.",
+      "evidence": [
+        "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl",
+        "https://cumulativewebinc.github.io/cwi-learn/catalog.json"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "launch",
+      "title": "Agent Deck gear registry: 25 SKUs",
+      "details": "gear.json registry with 25 items; flagship Signal Boy CWI-1 Walkman v2.0.0 (item card at /walkman/item-card.json).",
+      "evidence": [
+        "https://cumulativewebinc.github.io/cwi-learn/gear.json"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "launch",
+      "title": "Department micro-apps live",
+      "details": "first-spin, needle-drop, scanner (A&R); hype, final-cut (Marketing); syncdeck, one-stop (Sync); dial (Radio); press-kit (Press); tally, signal-mirror (Studio); scoreboard (Data); walkman (flagship). All verified HTTP 200.",
+      "evidence": [
+        "https://cumulativewebinc.github.io/cwi-learn/first-spin/",
+        "https://cumulativewebinc.github.io/cwi-learn/needle-drop/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "launch",
+      "title": "Verified playlist placements",
+      "details": "Three That Boy Hi Hat tracks verified holding on 'New Rap Hits' (673 followers) via full playlist scan: Shaka Zulu (#25821), Zooted Zone (#25818), Doves & Diamonds (#25820), accepted 2026-09-14 via Audiartist.",
+      "evidence": [
+        "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "https://open.spotify.com/playlist/5zhnSpZqKRRaOvRMWuT0bL"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "feature",
+      "title": "Agent connection layer",
+      "details": "openapi.json (OpenAPI 3.0 for the whole layer), onboard/welcome.json one-fetch kit, mixtape/machine-mixtape.json (24 tracks), radio/schedule.json (metadata-only broadcast schedule), badges/ (3 embeddable SVGs), changelog.json, install.sh quickstart, evals/first-spin-eval.jsonl structural conformance tasks, and MCP tool definitions on CumulativeWebInc/agent-deck-mcp.",
+      "evidence": [
+        "https://cumulativewebinc.github.io/cwi-learn/openapi.json",
+        "https://cumulativewebinc.github.io/cwi-learn/onboard/welcome.json"
+      ]
+    }
+  ]
+}
