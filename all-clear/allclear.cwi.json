@@ -1,0 +1,1408 @@
+{
+  "format": "cwi-allclear/v1",
+  "catalog": {
+    "label": "Cumulative Web Inc",
+    "artist": "That Boy Hi Hat",
+    "base_location": "Frederick, MD",
+    "genre": [
+      "alternative rap",
+      "Post-Trap Futurism"
+    ],
+    "contact": "hp@cumulativeweb.com",
+    "updated": "2026-09-15",
+    "notes": "Reference seed dataset for THE ALL-CLEAR (Business Affairs). Verified facts only; nothing here is legal advice. Commercial, sync, and derivative uses remain conditional on contact with the rights holder."
+  },
+  "tracks": [
+    {
+      "title": "Zooted Zone",
+      "catalog_ref": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ],
+      "notes": "Lifetime Spotify plays ~307,439 (observed 2026-09-14). Produced by Kokurcho; mixed and mastered by Hybrid at his Hagerstown, MD studio; recorded Hagerstown, Feb 2023.",
+      "verified_placements": [
+        {
+          "playlist": "New Rap Hits",
+          "position": 30,
+          "observed": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "title": "Shaka Zulu",
+      "catalog_ref": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ],
+      "verified_placements": [
+        {
+          "playlist": "New Rap Hits",
+          "position": 21,
+          "observed": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "title": "Doves & Diamonds",
+      "catalog_ref": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ],
+      "verified_placements": [
+        {
+          "playlist": "New Rap Hits",
+          "position": 31,
+          "observed": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "title": "Diabolique",
+      "catalog_ref": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ],
+      "notes": "Released 2026-07-03. Recorded at Cue Recording Studios, Arlington, Virginia. Co-produced by Hybrid and Black."
+    },
+    {
+      "title": "Flamerz",
+      "catalog_ref": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Neon Nights Pt. 777",
+      "catalog_ref": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Ultimate",
+      "catalog_ref": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Painted Lady",
+      "catalog_ref": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Warped and Wicked",
+      "catalog_ref": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Golden Diamond",
+      "catalog_ref": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Spirits n Shadows",
+      "catalog_ref": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Flex My Flame",
+      "catalog_ref": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Rainbows And Roses",
+      "catalog_ref": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Tears and Scars",
+      "catalog_ref": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Toxic Elements",
+      "catalog_ref": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "7th Angel",
+      "catalog_ref": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Scorpions & Sapphires",
+      "catalog_ref": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Place I Go to Dream",
+      "catalog_ref": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Place I Go to Dream - Remastered",
+      "catalog_ref": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Place I Go to Dream - Instrumental",
+      "catalog_ref": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Smokin' Pain",
+      "catalog_ref": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Phantasm",
+      "catalog_ref": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Misfits and Hooligans",
+      "catalog_ref": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "title": "Roses over Monaco",
+      "catalog_ref": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ]
+    }
+  ]
+}

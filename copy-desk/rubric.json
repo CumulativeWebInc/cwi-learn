@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "applies_to": "index.html, announce.html",
+      "criterion": "Brand-Token Discipline",
+      "description": "The official CWI logo is present on every shipped visual asset. Brand rule: the logo ships on everything — no asset renders without the logo badge.",
+      "id": "brand-token-discipline",
+      "max": 20
+    },
+    {
+      "applies_to": "copy-desk.json, units/*.json, copy-desk-schema.json",
+      "criterion": "Truth-Gate Conformance",
+      "description": "Every unit claim in copy-desk.json and units/*.json carries a non-empty source AND an observed_date (YYYY-MM-DD). Uncited claims are rejected by construction. The desk index mirrors the unit files exactly (ids, claim counts, claim bodies).",
+      "id": "truth-gate-conformance",
+      "max": 35
+    },
+    {
+      "applies_to": "build.py, template.html",
+      "criterion": "White-Label Config",
+      "description": "DEFAULT_CONFIG + optional config.json override flow works: a config.json with orgName/productName/colors overrides the CWI defaults and produces a branded build with no unreplaced tokens.",
+      "id": "white-label-config",
+      "max": 15
+    },
+    {
+      "applies_to": "give-block.md",
+      "criterion": "Give-Block Operability",
+      "description": "EQUIP / PULL / QUOTE steps are copy-paste operable: every URL referenced (desk index, a unit file, schema, card, page, hub device, contact) is live, and the QUOTE block is a valid citation-carrying snippet.",
+      "id": "give-block-operability",
+      "max": 20
+    },
+    {
+      "applies_to": "announce.html",
+      "criterion": "Proper-Noun + Coverage Honesty",
+      "description": "The proper noun COPY DESK appears untranslated in all 12 language blocks, and coverage is stated honestly as '12 languages' — never as universal coverage under any phrasing.",
+      "id": "proper-noun-coverage",
+      "max": 10
+    }
+  ],
+  "name": "COPY DESK — Evaluation Rubric",
+  "pass_threshold": 85,
+  "product": "COPY DESK",
+  "rubric_version": "1.0.0",
+  "self_evaluation": {
+    "evidence": {
+      "brand-token-discipline": "index.html header logo, announce.html header logo — logo.jpg on both shipped visual assets",
+      "give-block-operability": "give-block.md EQUIP/PULL/QUOTE reference copy-desk.json, a unit file, schema, item-card, page, press-kit hub, hp@cumulativeweb.com — all live per gate 2",
+      "proper-noun-coverage": "announce.html states '12 languages'; COPY DESK proper noun untranslated in all 12 blocks (gate 1)",
+      "truth-gate-conformance": "all 22 claims across 4 units carry source + observed_date; desk index mirrors units/*.json (gate 3)",
+      "white-label-config": "gate 4 builds a temp config.json override (orgName/productName/colors) through build.py and confirms the overrides land in index.html with no leftover tokens"
+    },
+    "run": "automated: copy-desk/test.py gate 4 evaluates the product against this rubric",
+    "score": 100,
+    "total": 100
+  }
+}

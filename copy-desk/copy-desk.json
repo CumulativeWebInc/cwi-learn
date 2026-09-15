@@ -1,0 +1,186 @@
+{
+  "desk": {
+    "name": "COPY DESK",
+    "department": "press",
+    "schema": "cwi-copydesk/v1",
+    "schema_url": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/copy-desk-schema.json",
+    "contact": "hp@cumulativeweb.com",
+    "default_embargo": "none",
+    "truth_gate": {
+      "rule": "Every claim must carry a source and an observed_date. Uncited claims are rejected.",
+      "deny_list": [
+        "and climbing",
+        "ahkeem",
+        "every language",
+        "guaranteed revenue",
+        "and counting",
+        "streaming fast"
+      ],
+      "verified_facts_registry": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/units/"
+    }
+  },
+  "units": [
+    {
+      "id": "diabolique-release",
+      "type": "release-announcement",
+      "headline": "Diabolique — single release unit (2026-07-03)",
+      "body": "Diabolique is a That Boy Hi Hat single released 2026-07-03. It was recorded at Cue Recording Studios in Arlington, Virginia — the official studio position — and produced by Hybrid, co-produced with Black Lansky. Blaine Misner is a recording/mastering engineer at Cue Recording Studios (confirmed via Cue's own history and mastering pages and his SoundBetter profile). The single is distributed across Spotify, Apple Music, YouTube, Deezer, Pandora, Amazon Music and Tidal.",
+      "claims": [
+        {
+          "claim": "Diabolique is a That Boy Hi Hat single released 2026-07-03.",
+          "observed_date": "2026-09-15",
+          "source": "CWI catalog node (release_date 2026-07-03)"
+        },
+        {
+          "claim": "Diabolique was recorded at Cue Recording Studios, Arlington, Virginia — the official studio position.",
+          "observed_date": "2026-09-15",
+          "source": "Owner-confirmed official position, Black Lansky (2026-09-15 cleanup answers)"
+        },
+        {
+          "claim": "Diabolique was produced by Hybrid, co-produced with Black Lansky.",
+          "observed_date": "2026-09-15",
+          "source": "CWI production records (Hybrid producer credit, Black Lansky co-production)"
+        },
+        {
+          "claim": "Blaine Misner is a recording/mastering engineer at Cue Recording Studios.",
+          "observed_date": "2026-09-15",
+          "source": "Cue Recording Studios history/mastering pages; Blaine Misner SoundBetter profile"
+        },
+        {
+          "claim": "The single is available on Spotify, Apple Music, YouTube, Deezer, Pandora, Amazon Music and Tidal.",
+          "observed_date": "2026-09-15",
+          "source": "Platform links supplied by Black, 2026-09-15 (catalog node platforms map)"
+        }
+      ],
+      "embargo": "none",
+      "contact": "hp@cumulativeweb.com",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/units/diabolique-release.json",
+      "claims_count": 5,
+      "updated": "2026-09-15"
+    },
+    {
+      "id": "new-rap-hits-momentum",
+      "type": "momentum-note",
+      "headline": "New Rap Hits — three verified placements, momentum unit",
+      "body": "On 2026-09-14, three That Boy Hi Hat tracks were accepted onto the New Rap Hits playlist (673 followers) via Audiartist: Zooted Zone (#25818), Doves & Diamonds (#25820) and Shaka Zulu (#25821). A full scan of the playlist on 2026-09-15 (all 105 tracks) verified all three placements: Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31. Two other claimed adds — Flow's 'No Label Needed' claim and Shan/DJ 6Rings' 'It's Goin' claim, both from 2026-09-14 — failed verification in the same window and are carried as claimed-but-unverified, not as wins.",
+      "claims": [
+        {
+          "claim": "Three That Boy Hi Hat tracks were accepted onto the New Rap Hits playlist (673 followers) on 2026-09-14: Zooted Zone (#25818), Doves & Diamonds (#25820), Shaka Zulu (#25821) — via Audiartist.",
+          "observed_date": "2026-09-14",
+          "source": "Audiartist acceptance record (submissions #25818, #25820, #25821)"
+        },
+        {
+          "claim": "A full scan of New Rap Hits on 2026-09-15 (all 105 tracks) verified all three placements: Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31.",
+          "observed_date": "2026-09-15",
+          "source": "CWI Intelligence Engine full playlist scan"
+        },
+        {
+          "claim": "Two other claimed adds — Flow's 'No Label Needed' claim and Shan/DJ 6Rings' 'It's Goin' claim, both from 2026-09-14 — failed verification in the same window and are carried as claimed-but-unverified, not wins.",
+          "observed_date": "2026-09-15",
+          "source": "CWI Intelligence Engine scans, 2026-09-15 (catalog node claimed_but_unverified)"
+        }
+      ],
+      "embargo": "none",
+      "contact": "hp@cumulativeweb.com",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/units/new-rap-hits-momentum.json",
+      "claims_count": 3,
+      "updated": "2026-09-15"
+    },
+    {
+      "id": "that-boy-hi-hat-bio",
+      "type": "artist-bio",
+      "headline": "That Boy Hi Hat — artist bio unit (press-pull)",
+      "body": "That Boy Hi Hat is an alternative rap artist based in Frederick, Maryland, managed by Henry Pitts (aka Black Lansky) through Cumulative Web Inc. His Spotify catalog holds 24 tracks — the AI Learning Set — and his artist page reported 171 monthly listeners on 2026-09-14. Official business and sync contact: hp@cumulativeweb.com.",
+      "claims": [
+        {
+          "claim": "That Boy Hi Hat is an alternative rap artist based in Frederick, Maryland.",
+          "observed_date": "2026-09-15",
+          "source": "Owner-confirmed fact, Black Lansky (2026-09-15 cleanup answers)"
+        },
+        {
+          "claim": "That Boy Hi Hat is managed by Henry Pitts (aka Black Lansky) through Cumulative Web Inc.",
+          "observed_date": "2026-09-15",
+          "source": "CWI catalog node ~/workspace/cwi-company/nodes/catalog.json (artist.label, artist.manager)"
+        },
+        {
+          "claim": "The artist's Spotify catalog holds 24 tracks (the AI Learning Set).",
+          "observed_date": "2026-09-15",
+          "source": "CWI catalog node (track_count=24, tracks array verified)"
+        },
+        {
+          "claim": "That Boy Hi Hat's Spotify artist page reported 171 monthly listeners.",
+          "observed_date": "2026-09-14",
+          "source": "Spotify artist page via CWI Intelligence Engine metrics"
+        },
+        {
+          "claim": "The artist's Spotify artist ID is 2f9j460EwjfvjYp3trBcb7.",
+          "observed_date": "2026-09-15",
+          "source": "CWI catalog node (artist.spotify_artist_id)"
+        },
+        {
+          "claim": "Official business and sync contact is hp@cumulativeweb.com.",
+          "observed_date": "2026-09-15",
+          "source": "CWI official contact record (published contact)"
+        }
+      ],
+      "embargo": "none",
+      "contact": "hp@cumulativeweb.com",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/units/that-boy-hi-hat-bio.json",
+      "claims_count": 6,
+      "updated": "2026-09-15"
+    },
+    {
+      "id": "zooted-zone-story",
+      "type": "track-story",
+      "headline": "Zooted Zone — the breakout track, story unit",
+      "body": "Zooted Zone is That Boy Hi Hat's breakout track — Black Lansky confirms the '260k streams/week' figure refers to it. The track holds 307,439 lifetime Spotify plays (observed 2026-09-14). It was produced by Kokurcho — BET Awards-nominated and RIAA-certified (Gold and multi-platinum claims both confirmed) — recorded in Hagerstown, MD in February 2023, and mixed and mastered by Hybrid at his Hagerstown, MD studio. On 2026-09-14 it was accepted onto the New Rap Hits playlist (673 followers) via Audiartist submission #25818, and a full scan of the playlist on 2026-09-15 verified it holding at position #30.",
+      "claims": [
+        {
+          "claim": "Zooted Zone holds 307,439 lifetime Spotify plays.",
+          "observed_date": "2026-09-14",
+          "source": "CWI Intelligence Engine metrics (catalog node, lifetime_spotify_plays)"
+        },
+        {
+          "claim": "Black Lansky confirms Zooted Zone was the breakout track — the '260k streams/week' figure refers to it.",
+          "observed_date": "2026-09-15",
+          "source": "Owner-confirmed fact, Black Lansky (2026-09-15 cleanup answers)"
+        },
+        {
+          "claim": "Zooted Zone was produced by Kokurcho.",
+          "observed_date": "2026-09-15",
+          "source": "CWI Medium articles (Zooted Zone credits)"
+        },
+        {
+          "claim": "Kokurcho is a BET Awards-nominated, RIAA-certified producer — both the Gold and the multi-platinum claims are correct.",
+          "observed_date": "2026-09-15",
+          "source": "Owner-confirmed fact, Black Lansky (2026-09-15 cleanup answers)"
+        },
+        {
+          "claim": "Zooted Zone was recorded in Hagerstown, MD in February 2023.",
+          "observed_date": "2026-09-15",
+          "source": "CWI Medium articles (Zooted Zone credits)"
+        },
+        {
+          "claim": "The track was mixed and mastered by Hybrid at his Hagerstown, MD studio.",
+          "observed_date": "2026-09-15",
+          "source": "CWI Medium articles (Zooted Zone credits)"
+        },
+        {
+          "claim": "Zooted Zone was accepted onto the New Rap Hits playlist (673 followers) on 2026-09-14 via Audiartist submission #25818.",
+          "observed_date": "2026-09-14",
+          "source": "Audiartist acceptance record (submission #25818)"
+        },
+        {
+          "claim": "A full scan of New Rap Hits on 2026-09-15 (all 105 tracks) verified Zooted Zone at position #30.",
+          "observed_date": "2026-09-15",
+          "source": "CWI Intelligence Engine full playlist scan"
+        }
+      ],
+      "embargo": "none",
+      "contact": "hp@cumulativeweb.com",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/units/zooted-zone-story.json",
+      "claims_count": 8,
+      "updated": "2026-09-15"
+    }
+  ]
+}

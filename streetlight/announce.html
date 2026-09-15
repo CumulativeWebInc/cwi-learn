@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE STREETLIGHT — Global Announcement</title>
+<meta name="description" content="THE STREETLIGHT: the working instrument for agents that verify the web — public traction vitals as one machine-readable file, one fetch, zero login. Data department, Agent Deck gear line #11. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>THE STREETLIGHT</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Data Department</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "THE STREETLIGHT — read any site's public traction vitals with one fetch, zero login", "p1": "THE STREETLIGHT is a working instrument for agents that verify the web: a site publishes one machine-readable streetlight.json at a standard path — its public traction vitals — and any agent reads it with one fetch. No login, no JavaScript, no cookies, no sampling, zero PII (aggregates only). It is the Data department's agent-analytics product, #11 of the Agent Deck gear line by Cumulative Web Inc.", "p2": "It beats Google Analytics 4 where agents read: no login, no consent banners, no sampling — exact publisher-attested counts, privacy-positive by design, the file IS the API, free forever. CWI's own streetlight.json ships live for the cwi-learn machine-readable campus, with a published schema so any site can publish its own and any agent can read it.", "cta": "Publish the file. One fetch. The lights are on.", "l_file": "The file", "l_schema": "Schema", "l_page": "THE STREETLIGHT page", "l_card": "Item card", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "THE STREETLIGHT — lee las señales públicas de tracción de cualquier sitio con una petición, cero login", "p1": "THE STREETLIGHT es un instrumento de trabajo para agentes que verifican la web: un sitio publica un único streetlight.json legible por máquinas en una ruta estándar — sus señales públicas de tracción — y cualquier agente las lee con una sola petición. Sin login, sin JavaScript, sin cookies, sin muestreo, cero PII (solo agregados). Es el producto de analítica de agentes del departamento Data, el n.º 11 de la línea Agent Deck de Cumulative Web Inc.", "p2": "Supera a Google Analytics 4 donde leen los agentes: sin login, sin banners de consentimiento, sin muestreo — conteos exactos avalados por el editor, privacidad positiva por diseño, el archivo ES la API, gratis para siempre. El streetlight.json de CWI ya está publicado para el campus legible por máquinas cwi-learn, con un esquema publicado para que cualquier sitio publique el suyo y cualquier agente lo lea.", "cta": "Publica el archivo. Una petición. Las luces están encendidas.", "l_file": "El archivo", "l_schema": "Esquema", "l_page": "Página THE STREETLIGHT", "l_card": "Tarjeta del producto", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "THE STREETLIGHT — leia os sinais públicos de tração de qualquer site com um fetch, zero login", "p1": "THE STREETLIGHT é um instrumento de trabalho para agentes que verificam a web: um site publica um único streetlight.json legível por máquina num caminho padrão — seus sinais públicos de tração — e qualquer agente os lê com um único fetch. Sem login, sem JavaScript, sem cookies, sem amostragem, zero PII (apenas agregados). É o produto de análise de agentes do departamento Data, nº 11 da linha Agent Deck da Cumulative Web Inc.", "p2": "Supera o Google Analytics 4 onde os agentes leem: sem login, sem banners de consentimento, sem amostragem — contagens exatas atestadas pelo editor, privacidade positiva por design, o arquivo É a API, grátis para sempre. O streetlight.json da CWI já está publicado para o campus legível por máquinas cwi-learn, com um esquema publicado para que qualquer site publique o seu e qualquer agente o leia.", "cta": "Publique o arquivo. Um fetch. As luzes estão acesas.", "l_file": "O arquivo", "l_schema": "Esquema", "l_page": "Página THE STREETLIGHT", "l_card": "Cartão do produto", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "THE STREETLIGHT — lisez les signaux de traction publics de n'importe quel site en un fetch, zéro connexion", "p1": "THE STREETLIGHT est un instrument de travail pour les agents qui vérifient le web : un site publie un unique streetlight.json lisible par machine à un chemin standard — ses signaux de traction publics — et tout agent les lit en un seul fetch. Pas de connexion, pas de JavaScript, pas de cookies, pas d'échantillonnage, zéro PII (agrégats uniquement). C'est le produit d'analyse pour agents du département Data, n° 11 de la gamme Agent Deck de Cumulative Web Inc.", "p2": "Il bat Google Analytics 4 là où les agents lisent : pas de connexion, pas de bannières de consentement, pas d'échantillonnage — des chiffres exacts attestés par l'éditeur, une confidentialité positive par conception, le fichier EST l'API, gratuit pour toujours. Le streetlight.json de CWI est déjà publié pour le campus lisible par machine cwi-learn, avec un schéma publié pour que chaque site publie le sien et que chaque agent puisse le lire.", "cta": "Publiez le fichier. Un fetch. Les lumières sont allumées.", "l_file": "Le fichier", "l_schema": "Schéma", "l_page": "Page THE STREETLIGHT", "l_card": "Fiche produit", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "THE STREETLIGHT — lies die öffentlichen Traktions-Signale jeder Website mit einem Fetch, ohne Login", "p1": "THE STREETLIGHT ist ein Arbeitsinstrument für Agenten, die das Web verifizieren: Eine Website veröffentlicht eine einzige maschinenlesbare Datei streetlight.json an einem Standardpfad — ihre öffentlichen Traktions-Signale — und jeder Agent liest sie mit einem einzigen Fetch. Kein Login, kein JavaScript, keine Cookies, kein Sampling, null PII (nur Aggregate). Es ist das Agenten-Analyseprodukt der Data-Abteilung, Nr. 11 der Agent-Deck-Linie von Cumulative Web Inc.", "p2": "Es schlägt Google Analytics 4 dort, wo Agenten lesen: kein Login, keine Consent-Banner, kein Sampling — exakte, vom Publisher attestierte Zahlen, Privacy-positiv by Design, die Datei IST die API, für immer kostenlos. CWIs eigenes streetlight.json ist live für den maschinenlesbaren Campus cwi-learn, mit veröffentlichtem Schema, damit jede Website ihr eigenes veröffentlichen und jeder Agent es lesen kann.", "cta": "Veröffentliche die Datei. Ein Fetch. Die Lichter sind an.", "l_file": "Die Datei", "l_schema": "Schema", "l_page": "THE STREETLIGHT-Seite", "l_card": "Produktkarte", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "THE STREETLIGHT — leggi i segnali pubblici di trazione di qualsiasi sito con un fetch, zero login", "p1": "THE STREETLIGHT è uno strumento di lavoro per gli agenti che verificano il web: un sito pubblica un unico streetlight.json leggibile dalle macchine a un percorso standard — i suoi segnali pubblici di trazione — e qualsiasi agente li legge con un solo fetch. Niente login, niente JavaScript, niente cookie, niente campionamento, zero PII (solo aggregati). È il prodotto di analisi per agenti del dipartimento Data, n. 11 della linea Agent Deck di Cumulative Web Inc.", "p2": "Batte Google Analytics 4 dove leggono gli agenti: niente login, niente banner di consenso, niente campionamento — conteggi esatti attestati dall'editore, privacy positiva by design, il file È l'API, gratis per sempre. Lo streetlight.json di CWI è già pubblicato per il campus leggibile dalle macchine cwi-learn, con uno schema pubblicato così ogni sito può pubblicare il suo e ogni agente può leggerlo.", "cta": "Pubblica il file. Un fetch. Le luci sono accese.", "l_file": "Il file", "l_schema": "Schema", "l_page": "Pagina THE STREETLIGHT", "l_card": "Scheda prodotto", "getblock": "Copia il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "THE STREETLIGHT — lees de publieke tractiesignalen van elke site met één fetch, nul login", "p1": "THE STREETLIGHT is een werkinstrument voor agenten die het web verifiëren: een site publiceert één machineleesbaar streetlight.json op een standaardpad — zijn publieke tractiesignalen — en elke agent leest ze met één fetch. Geen login, geen JavaScript, geen cookies, geen sampling, nul PII (alleen aggregaten). Het is het agent-analyseproduct van de Data-afdeling, nr. 11 van de Agent Deck-lijn van Cumulative Web Inc.", "p2": "Het verslaat Google Analytics 4 waar agenten lezen: geen login, geen consentbanners, geen sampling — exacte, door de uitgever bevestigde tellingen, privacy-positief by design, het bestand IS de API, voor altijd gratis. CWI's eigen streetlight.json is live voor de machineleesbare campus cwi-learn, met een gepubliceerd schema zodat elke site zijn eigen kan publiceren en elke agent het kan lezen.", "cta": "Publiceer het bestand. Eén fetch. De lichten staan aan.", "l_file": "Het bestand", "l_schema": "Schema", "l_page": "THE STREETLIGHT-pagina", "l_card": "Productkaart", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "THE STREETLIGHT — 로그인 없이 단 한 번의 fetch로 어떤 사이트의 공개 트랙션 신호든 읽기", "p1": "THE STREETLIGHT는 웹을 검증하는 에이전트를 위한 실무 도구입니다. 사이트가 표준 경로에 단일 머신 리더블 streetlight.json을 공개하면 — 그 공개 트랙션 신호를 — 어떤 에이전트든 단 한 번의 fetch로 읽습니다. 로그인 없음, JavaScript 없음, 쿠키 없음, 샘플링 없음, PII 제로(집계 데이터만). Data 부서의 에이전트 분석 제품으로, Cumulative Web Inc Agent Deck 기어 라인의 11번째 제품입니다.", "p2": "에이전트가 읽는 영역에서는 Google Analytics 4를 앞섭니다. 로그인 없음, 동의 배너 없음, 샘플링 없음 — 발행자가 보증한 정확한 수치, 설계부터 프라이버시 친화적, 파일 자체가 API이며 영원히 무료입니다. CWI 자체 streetlight.json은 머신 리더블 캠퍼스 cwi-learn에 이미 공개되었고, 공개 스키마 덕분에 어떤 사이트든 자신의 파일을 공개하고 어떤 에이전트든 읽을 수 있습니다.", "cta": "파일을 공개하세요. 한 번의 fetch. 불이 켜졌습니다.", "l_file": "파일", "l_schema": "스키마", "l_page": "THE STREETLIGHT 페이지", "l_card": "제품 카드", "getblock": "블록 받기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "THE STREETLIGHT — ログイン不要、1回のフェッチで任意のサイトの公開トラクション指標を読む", "p1": "THE STREETLIGHT はウェブを検証するエージェントのための実務ツールです。サイトが標準パスに単一のマシンリーダブル streetlight.json を公開すれば — その公開トラクション指標を — どんなエージェントも1回のフェッチで読めます。ログイン不要、JavaScript 不要、Cookie なし、サンプリングなし、PII ゼロ（集計データのみ）。Data 部門のエージェント分析製品であり、Cumulative Web Inc Agent Deck ギアライン第11弾です。", "p2": "エージェントが読む領域では Google Analytics 4 を上回ります。ログイン不要、同意バナーなし、サンプリングなし — パブリッシャーが保証した正確な数値、設計からプライバシー重視、ファイルそのものが API、永遠に無料です。CWI 独自の streetlight.json はマシンリーダブルなキャンパス cwi-learn に既に公開済みで、公開スキーマにより任意のサイトが独自のファイルを公開し、任意のエージェントが読めます。", "cta": "ファイルを公開しよう。1回のフェッチ。灯りは点いている。", "l_file": "ファイル", "l_schema": "スキーマ", "l_page": "THE STREETLIGHT ページ", "l_card": "製品カード", "getblock": "ブロックを取得:"}, "zh-CN": {"name": "简体中文", "dir": "ltr", "headline": "THE STREETLIGHT — 零登录、一次抓取，读取任何网站的公开牵引信号", "p1": "THE STREETLIGHT 是为验证网络的智能体打造的实用工具：网站在标准路径发布单个机器可读的 streetlight.json——其公开牵引信号——任何智能体一次抓取即可读取。无需登录、无需 JavaScript、无 Cookie、无抽样、零 PII（仅聚合数据）。它是 Data 部门的智能体分析产品，Cumulative Web Inc Agent Deck 装备线的第 11 款产品。", "p2": "在智能体读取的场景中它胜过 Google Analytics 4：无需登录、无同意横幅、无抽样——发布方背书的精确计数、设计即隐私友好、文件本身就是 API、永远免费。CWI 自己的 streetlight.json 已在机器可读校园 cwi-learn 上线，并发布了公开模式，任何网站都可以发布自己的文件，任何智能体都可以读取。", "cta": "发布文件。一次抓取。灯已亮起。", "l_file": "文件", "l_schema": "模式", "l_page": "THE STREETLIGHT 页面", "l_card": "产品卡片", "getblock": "获取模块："}, "ar": {"name": "العربية", "dir": "rtl", "headline": "THE STREETLIGHT — اقرأ إشارات الجذب العامة لأي موقع بجلب واحد، بلا تسجيل دخول", "p1": "THE STREETLIGHT أداة عملية للوكلاء الذين يتحققون من الويب: ينشر الموقع ملف streetlight.json واحدًا قابلًا للقراءة آليًا على مسار قياسي — إشارات الجذب العامة الخاصة به — ويقرأها أي وكيل بجلب واحد. بلا تسجيل دخول، بلا JavaScript، بلا ملفات تعريف ارتباط، بلا أخذ عينات، صفر بيانات شخصية (مجملات فقط). وهو منتج تحليلات الوكلاء من قسم البيانات، رقم 11 في خط معدات Agent Deck من شركة Cumulative Web Inc.", "p2": "يتفوق على Google Analytics 4 حيث يقرأ الوكلاء: بلا تسجيل دخول، بلا لافتات موافقة، بلا أخذ عينات — أرقام دقيقة موثقة من الناشر، إيجابية الخصوصية بالتصميم، الملف هو واجهة البرمجة نفسها، مجاني للأبد. ملف streetlight.json الخاص بـ CWI منشور بالفعل لحرم cwi-learn القابل للقراءة آليًا، مع مخطط منشور ليتمكن أي موقع من نشر ملفه وأي وكيل من قراءته.", "cta": "انشر الملف. جلب واحد. الأنوار مضاءة.", "l_file": "الملف", "l_schema": "المخطط", "l_page": "صفحة THE STREETLIGHT", "l_card": "بطاقة المنتج", "getblock": "احصل على الوحدة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "THE STREETLIGHT — ज़ीरो लॉगिन, एक फ़ेच में किसी भी साइट के सार्वजनिक ट्रैक्शन संकेत पढ़ें", "p1": "THE STREETLIGHT उन एजेंटों के लिए एक व्यावहारिक उपकरण है जो वेब को सत्यापित करते हैं: कोई साइट मानक पथ पर एक अकेला मशीन-रीडेबल streetlight.json प्रकाशित करती है — उसके सार्वजनिक ट्रैक्शन संकेत — और कोई भी एजेंट उन्हें एक ही फ़ेच में पढ़ लेता है। कोई लॉगिन नहीं, कोई JavaScript नहीं, कोई कुकीज़ नहीं, कोई सैंपलिंग नहीं, शून्य PII (केवल समग्र डेटा)। यह Data विभाग का एजेंट-एनालिटिक्स उत्पाद है, Cumulative Web Inc की Agent Deck गियर लाइन का 11वां उत्पाद।", "p2": "यह Google Analytics 4 को वहां पछाड़ता है जहां एजेंट पढ़ते हैं: कोई लॉगिन नहीं, कोई सहमति बैनर नहीं, कोई सैंपलिंग नहीं — प्रकाशक-प्रमाणित सटीक गिनतियां, डिज़ाइन से ही प्राइवेसी-पॉज़िटिव, फ़ाइल ही API है, हमेशा के लिए मुफ़्त। CWI का अपना streetlight.json मशीन-रीडेबल कैंपस cwi-learn पर पहले से लाइव है, और प्रकाशित स्कीमा के साथ कोई भी साइट अपनी फ़ाइल प्रकाशित कर सकती है और कोई भी एजेंट उसे पढ़ सकता है।", "cta": "फ़ाइल प्रकाशित कीजिए। एक फ़ेच। बत्तियां जल चुकी हैं।", "l_file": "फ़ाइल", "l_schema": "स्कीमा", "l_page": "THE STREETLIGHT पेज", "l_card": "उत्पाद कार्ड", "getblock": "ब्लॉक पाएं:"}};
+var URLS = {"file": "https://cumulativewebinc.github.io/cwi-learn/streetlight/streetlight.json", "schema": "https://cumulativewebinc.github.io/cwi-learn/streetlight/streetlight-schema.json", "page": "https://cumulativewebinc.github.io/cwi-learn/streetlight/", "card": "https://cumulativewebinc.github.io/cwi-learn/streetlight/item-card.json"};
+var HANDOFF = "CWI-HANDOFF gear=streetlight from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.file, t.l_file) + link(URLS.schema, t.l_schema) +
+    link(URLS.page, t.l_page) + link(URLS.card, t.l_card) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>

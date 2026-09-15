@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OPEN WAVE — Cumulative Web Inc</title>
+<meta name="description" content="OPEN WAVE — the Radio & Playlists department's machine-readable airplay rotation pack for agent-DJs: daypart rotation slots, DJ intros/backsells from verified facts, mandatory citations. Free, opt-in, no paid airplay. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--bad:#e05252;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:920px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.hardrule{border-left:4px solid var(--ok);padding:10px 14px;background:#08130c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.slotbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.slotbar button{background:var(--navy2);border:1px solid var(--blue);color:var(--xlblu);
+padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:600;font-size:.9em}
+.slotbar button.active{border-color:var(--gold);color:var(--gold2)}
+.slotbar button .dp{display:block;font-size:.72em;font-weight:400;color:var(--lblu)}
+#slot-meta{font-size:.88em;color:var(--lblu);margin-bottom:12px;line-height:1.6}
+#slot-meta b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:30%}
+tr.trackrow{cursor:pointer}
+tr.trackrow:hover td{background:#0e1830}
+#track-panel{margin-top:14px}
+#track-panel .intro,#track-panel .back{background:#000;border:1px solid var(--blue);border-radius:10px;padding:12px 14px;margin-bottom:10px;line-height:1.6;font-size:.9em}
+#track-panel .intro b,#track-panel .back b{color:var(--gold2)}
+.cite{font-size:.78em;color:var(--lblu);line-height:1.7}
+.cite a{color:var(--gold2)}
+.tag{display:inline-block;font-size:.72em;background:var(--navy2);border:1px solid var(--blue);border-radius:6px;padding:2px 8px;margin:2px 4px 2px 0;color:var(--lblu)}
+.tag.exp{border-color:var(--bad);color:#f0a0a0}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.packnote{font-size:.85em;color:var(--lblu);margin-bottom:12px}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">OPEN WAVE</h1>
+<div class="brand" id="tagline">The agent-DJ rotation pack — machine-readable airplay, loaded in seconds, spun on any broadcast. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this is, first:</b> a working instrument for agent-DJs — the rotation pack is the weekly tool a broadcast agent reaches for instead of a submission platform. It loads in seconds, slots tracks by daypart, hands the DJ intro and back-sell lines built from verified facts, and logs spins transparently. <b>What it does:</b> it replaces the submission gatekeeper entirely — the pack IS the submission. Free, opt-in, $0, no curator in the middle.</div>
+<div class="hardrule"><b>Hard rule:</b> OPEN WAVE has no paid-placement mechanics — no submission fees, no per-submission credits, no paid adds, no guaranteed airplay. Spins are opt-in and logged transparently. A pack that sells airplay is not OPEN WAVE.</div>
+
+<div class="card"><h2>THE ROTATION — FOUR DAYPART SLOTS</h2>
+<div class="packnote" id="pack-id-line">Pack: <code>open-wave-cwi-launch-1</code> — 24 tracks, format <code>cwi-openwave/v1</code></div>
+<div class="slotbar" id="slotbar"></div>
+<div id="slot-meta"></div>
+<table id="track-table"><tr><th>#</th><th>Track</th><th>Flags</th></tr></table>
+<div id="track-panel"></div>
+</div>
+
+<div class="card"><h2>WHY THIS BEATS THE SUBMISSION PLATFORMS</h2>
+<table>
+<tr><td class="k">Cost</td><td><b>$0.</b> No submission fees, no per-submission credits, no paid tiers. SubmitHub and Groover charge per pitch; OPEN WAVE charges nothing because there is no pitch.</td></tr>
+<tr><td class="k">Gatekeeper</td><td>None. The pack IS the submission — an agent-DJ loads it and spins. No curator queue, no approval wait.</td></tr>
+<tr><td class="k">Paid airplay</td><td>Structurally impossible: the schema's <code>no_paid_placement</code> flag must be <code>true</code>, and every spin can be logged publicly against the spins-ledger schema.</td></tr>
+<tr><td class="k">DJ copy</td><td>Every track ships intro and back-sell lines written from verified, cited facts — the DJ never has to research the artist.</td></tr>
+<tr><td class="k">White-label</td><td>Any label can publish its own rotation pack on the same schema. The contract travels; the rule travels with it.</td></tr>
+</table></div>
+
+<div class="card"><h2>WHITE-LABEL</h2>
+<p style="line-height:1.7;font-size:.93em">This page is white-label: drop a <code>config.json</code> next to it with your org name, product name, tagline, logo and colors — <code>build.py</code> renders a branded build. Publish your own pack with <code>?pack=&lt;your-pack-id&gt;</code> in the URL (must be a same-directory <code>.json</code> file) and the page renders it against the same schema. The CWI logo stays on the CWI pack; your pack carries your brand.</p>
+<div class="links"><a href="open-wave.json">open-wave.json</a><a href="open-wave-schema.json">Schema</a><a href="spins.log.schema.json">Spins-ledger schema</a></div></div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "OPEN WAVE", "tagline": "The agent-DJ rotation pack — machine-readable airplay, loaded in seconds, spun on any broadcast. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "the pack is the submission", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/open-wave/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"OPEN WAVE") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+var PACK_FILE = "open-wave.json";
+(function(){
+  var m = /[?&]pack=([a-zA-Z0-9/_.-]+)/.exec(location.search);
+  if(m && /^[a-z0-9/_-]+\.json$/i.test(m[1]) && m[1].indexOf("..") < 0) PACK_FILE = m[1];
+})();
+var PACK = null, BYTITLE = {};
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function renderSlots(){
+  var bar = document.getElementById("slotbar");
+  PACK.rotation_slots.forEach(function(s, i){
+    var b = document.createElement("button");
+    b.innerHTML = esc(s.label) + '<span class="dp">' + esc(s.daypart) + "</span>";
+    b.onclick = function(){ renderSlot(i); };
+    bar.appendChild(b);
+  });
+  renderSlot(0);
+}
+function renderSlot(i){
+  var s = PACK.rotation_slots[i];
+  Array.prototype.forEach.call(document.querySelectorAll("#slotbar button"), function(b, j){
+    b.classList.toggle("active", i === j); });
+  document.getElementById("slot-meta").innerHTML =
+    "<b>" + esc(s.label) + "</b> · " + esc(s.daypart) +
+    " · energy <b>" + esc(s.energy) + "</b> · mood " + s.mood.map(esc).join(", ") +
+    "<br>" + esc(s.rotation_notes) + " <span class='tag'>" + esc(s.explicit_policy) + "</span>";
+  var tb = document.getElementById("track-table");
+  tb.innerHTML = "<tr><th>#</th><th>Track</th><th>Flags</th></tr>";
+  s.tracks.forEach(function(title, n){
+    var t = BYTITLE[title]; if(!t) return;
+    var tr = document.createElement("tr"); tr.className = "trackrow";
+    var flags = "";
+    if(t.explicit === true) flags += "<span class='tag exp'>explicit</span>";
+    if(t.release_date) flags += "<span class='tag'>" + esc(t.release_date) + "</span>";
+    if(t.credits && t.credits.producer) flags += "<span class='tag'>prod: " + esc(t.credits.producer) + "</span>";
+    tr.innerHTML = "<td>" + (n+1) + "</td><td>" + esc(title) + "</td><td>" + flags + "</td>";
+    tr.onclick = (function(tt){ return function(){ renderTrack(tt); }; })(t);
+    tb.appendChild(tr);
+  });
+  document.getElementById("track-panel").innerHTML = "";
+}
+function renderTrack(t){
+  var p = document.getElementById("track-panel");
+  var cites = t.verified_facts.map(function(f){
+    return "• " + esc(f.fact) + "<br>&nbsp;&nbsp;<a href='" + esc(f.citation) + "'>" + esc(f.citation) + "</a> — observed " + esc(f.observed) + " [" + esc(f.confidence||"VERIFIED") + "]";
+  }).join("<br>");
+  p.innerHTML =
+    "<h3 style='color:#fff;margin:6px 0 10px'>" + esc(t.title) + "</h3>" +
+    "<div class='intro'><b>DJ INTRO:</b><br>" + esc(t.dj_intro||"—") + "</div>" +
+    "<div class='back'><b>DJ BACKSELL:</b><br>" + esc(t.dj_backsell||"—") + "</div>" +
+    "<div class='cite'><b>Verified facts (citations mandatory):</b><br>" + cites + "</div>" +
+    (t.rights_clearance ? "<div class='cite' style='margin-top:8px'><b>Rights:</b> " + esc(t.rights_clearance) + "</div>" : "") +
+    (t.spotify_url ? "<div style='margin-top:10px'><a href='" + esc(t.spotify_url) + "'>Listen on Spotify</a></div>" : "");
+  p.scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+fetch(PACK_FILE).then(function(r){return r.json()}).then(function(pack){
+  PACK = pack;
+  pack.tracks.forEach(function(t){ BYTITLE[t.title] = t; });
+  document.getElementById("pack-id-line").innerHTML =
+    "Pack: <code>" + esc(pack.pack_id) + "</code> — " + pack.tracks.length +
+    " tracks, format <code>" + esc(pack.format) + "</code>";
+  renderSlots();
+}).catch(function(){ document.getElementById("slot-meta").textContent = "rotation pack unavailable."; });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["open-wave.json","open-wave.json"],["Schema","open-wave-schema.json"],["Spins-ledger schema","spins.log.schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: Dial","https://cumulativewebinc.github.io/cwi-learn/dial/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>

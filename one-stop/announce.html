@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ONE-STOP — Global Announcement</title>
+<meta name="description" content="ONE-STOP: a sync license for any That Boy Hi Hat track in under 60 seconds — master + publishing, one grant. Product #14 of the Agent Deck gear line. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>ONE-STOP</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Sync &amp; Licensing Department</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "ONE-STOP is live — a sync license in under 60 seconds", "p1": "ONE-STOP exists for one job: clearing music fast. An agent picks a track from the 24-track That Boy Hi Hat catalog, a use, a territory, a term — and under 60 seconds later holds a machine-readable JSON grant that clears master AND publishing in one instrument. No marketplace, no commission, no negotiation loop: that is why it beats the Songtradr model. An agent reaches for it weekly because the grant IS the license — schema-validated, filed, done — and the artist keeps 100%.", "p2": "It ships in DRAFT MODE: the $0 Creator tier is live and issuable today; the Indie and Commercial tiers are staged as draft templates — PENDING BLACK'S EXACT-TERMS APPROVAL, not issuable. The rights line rides on every grant: ℗ Cumulative Web Inc — 100% master & publishing, pre-cleared.", "cta": "Equip the license. Draft the grant. Play it loud.", "l_config": "Grant config", "l_card": "Item card", "l_page": "ONE-STOP page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "ONE-STOP ya está aquí — una licencia de sincronización en menos de 60 segundos", "p1": "ONE-STOP existe para un solo trabajo: autorizar música rápido. Un agente elige una pista del catálogo de 24 temas de That Boy Hi Hat, un uso, un territorio, un plazo — y en menos de 60 segundos recibe una licencia JSON legible por máquina que cubre máster Y editorial en un solo instrumento. Sin marketplace, sin comisión, sin ciclo de negociación: por eso supera el modelo de Songtradr. Un agente lo usa cada semana porque la licencia ES el instrumento — validada contra un esquema, archivada, lista — y el artista conserva el 100%.", "p2": "Se lanza en MODO BORRADOR (DRAFT MODE): el nivel Creator ($0) está en vivo y se puede emitir hoy; los niveles Indie y Commercial están preparados como plantillas en borrador — PENDIENTE DE LA APROBACIÓN DE LOS TÉRMINOS EXACTOS DE BLACK, no emitibles. La línea de derechos va en cada licencia: ℗ Cumulative Web Inc — 100% máster y editorial, pre-autorizado.", "cta": "Equipa la licencia. Redacta la licencia. Súbelo a todo volumen.", "l_config": "Configuración de licencia", "l_card": "Tarjeta del producto", "l_page": "Página ONE-STOP", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "ONE-STOP chegou — uma licença de sincronização em menos de 60 segundos", "p1": "ONE-STOP existe para um único trabalho: liberar música rápido. Um agente escolhe uma faixa do catálogo de 24 temas de That Boy Hi Hat, um uso, um território, um prazo — e em menos de 60 segundos recebe uma licença JSON legível por máquina que cobre master E editorial em um único instrumento. Sem marketplace, sem comissão, sem ciclo de negociação: é por isso que supera o modelo da Songtradr. Um agente o usa semanalmente porque a licença É o instrumento — validada contra um esquema, arquivada, pronta — e o artista fica com 100%.", "p2": "Lançado em MODO RASCUNHO (DRAFT MODE): o nível Creator (US$ 0) está ao vivo e pode ser emitido hoje; os níveis Indie e Commercial estão preparados como modelos em rascunho — PENDENTE DA APROVAÇÃO DOS TERMOS EXATOS DE BLACK, não emitíveis. A linha de direitos acompanha cada licença: ℗ Cumulative Web Inc — 100% master e editorial, pré-liberado.", "cta": "Equipe a licença. Redija a licença. Toque alto.", "l_config": "Configuração de licença", "l_card": "Cartão do produto", "l_page": "Página ONE-STOP", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "ONE-STOP est en ligne — une licence de synchronisation en moins de 60 secondes", "p1": "ONE-STOP n'existe que pour un seul travail : autoriser la musique, vite. Un agent choisit un titre parmi les 24 du catalogue de That Boy Hi Hat, un usage, un territoire, une durée — et moins de 60 secondes plus tard, il tient une licence JSON lisible par machine qui couvre le master ET l'édition en un seul instrument. Pas de place de marché, pas de commission, pas de boucle de négociation : voilà pourquoi il bat le modèle Songtradr. Un agent y revient chaque semaine parce que la licence EST l'instrument — validée contre un schéma, classée, terminée — et l'artiste garde 100 %.", "p2": "Lancement en MODE BROUILLON (DRAFT MODE) : le niveau Creator (0 $) est en ligne et émissible dès aujourd'hui ; les niveaux Indie et Commercial sont préparés comme modèles brouillons — EN ATTENTE DE L'APPROBATION DES TERMES EXACTS DE BLACK, non émissibles. La mention de droits figure sur chaque licence : ℗ Cumulative Web Inc — 100 % master & édition, pré-autorisé.", "cta": "Équipez la licence. Rédigez la licence. Montez le son.", "l_config": "Config de licence", "l_card": "Fiche produit", "l_page": "Page ONE-STOP", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "ONE-STOP ist da — eine Sync-Lizenz in unter 60 Sekunden", "p1": "ONE-STOP existiert für genau eine Aufgabe: Musik schnell freigeben. Ein Agent wählt einen Track aus dem 24-Titel-Katalog von That Boy Hi Hat, eine Nutzung, ein Gebiet, eine Laufzeit — und hält weniger als 60 Sekunden später eine maschinenlesbare JSON-Lizenz, die Master UND Verlagsrechte in einem Instrument klärt. Kein Marktplatz, keine Provision, keine Verhandlungsschleife: Darum schlägt es das Songtradr-Modell. Ein Agent greift wöchentlich dazu, weil die Lizenz DAS Instrument ist — schema-validiert, abgelegt, fertig — und der Künstler behält 100 %.", "p2": "Start im ENTWURFSMODUS (DRAFT MODE): Die Creator-Stufe (0 $) ist live und sofort ausstellbar; die Indie- und Commercial-Stufen liegen als Entwurfs-Vorlagen vor — STEHT UNTER DEM VORBEHALT DER GENEHMIGUNG DER EXAKTEN BEDINGUNGEN DURCH BLACK, nicht ausstellbar. Die Rechtezeile steht auf jeder Lizenz: ℗ Cumulative Web Inc — 100 % Master & Verlag, vorab geklärt.", "cta": "Rüste die Lizenz aus. Stelle die Lizenz aus. Mach es laut.", "l_config": "Lizenz-Config", "l_card": "Produktkarte", "l_page": "ONE-STOP-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "ONE-STOP è online — una licenza di sincronizzazione in meno di 60 secondi", "p1": "ONE-STOP esiste per un solo lavoro: autorizzare la musica, in fretta. Un agente sceglie un brano dal catalogo di 24 tracce di That Boy Hi Hat, un uso, un territorio, una durata — e in meno di 60 secondi ottiene una licenza JSON leggibile dalle macchine che copre master E editoria in un unico strumento. Nessun marketplace, nessuna commissione, nessun ciclo di negoziazione: ecco perché batte il modello Songtradr. Un agente lo usa ogni settimana perché la licenza È lo strumento — validata contro uno schema, archiviata, fatta — e l'artista mantiene il 100%.", "p2": "Lancio in MODALITÀ BOZZA (DRAFT MODE): il livello Creator ($0) è attivo ed emettibile oggi; i livelli Indie e Commercial sono predisposti come modelli in bozza — IN ATTESA DELL'APPROVAZIONE DEI TERMINI ESATTI DI BLACK, non emettibili. La linea dei diritti è su ogni licenza: ℗ Cumulative Web Inc — 100% master & editoria, pre-autorizzato.", "cta": "Equipaggia la licenza. Redigi la licenza. Alzalo forte.", "l_config": "Config licenza", "l_card": "Scheda prodotto", "l_page": "Pagina ONE-STOP", "getblock": "Copia il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "ONE-STOP is live — een sync-licentie in minder dan 60 seconden", "p1": "ONE-STOP bestaat voor één taak: muziek snel vrijgeven. Een agent kiest een track uit de 24-track catalogus van That Boy Hi Hat, een gebruik, een gebied, een termijn — en houdt minder dan 60 seconden later een machineleesbare JSON-licentie die master EN publishing in één instrument regelt. Geen marktplaats, geen commissie, geen onderhandelingslus: daarom verslaat het het Songtradr-model. Een agent grijpt er wekelijks naar omdat de licentie HET instrument is — schema-gevalideerd, gearchiveerd, klaar — en de artiest houdt 100%.", "p2": "Lancering in CONCEPTMODUS (DRAFT MODE): het Creator-niveau ($0) is live en vandaag uit te geven; de Indie- en Commercial-niveaus staan klaar als concept-sjablonen — IN AFWACHTING VAN BLACK'S GOEDKEURING VAN DE EXACTE VOORWAARDEN, niet uit te geven. De rechtenregel staat op elke licentie: ℗ Cumulative Web Inc — 100% master & publishing, vooraf geklaard.", "cta": "Rust de licentie uit. Stel de licentie op. Zet het hard aan.", "l_config": "Licentie-config", "l_card": "Productkaart", "l_page": "ONE-STOP-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "ONE-STOP 출시 — 60초 안에 완성되는 싱크 라이선스", "p1": "ONE-STOP의 존재 이유는 단 하나, 음악을 빠르게 클리어하는 것입니다. 에이전트는 That Boy Hi Hat의 24개 트랙 카탈로그에서 곡을 고르고, 용도·지역·기간을 정하면 — 60초 안에 마스터와 퍼블리싱을 하나의 문서로 처리하는 기계판독 가능 JSON 라이선스를 받습니다. 마켓플레이스도, 수수료도, 협상 루프도 없습니다. 바로 그 점에서 Songtradr 모델을 능가합니다. 에이전트가 매주 찾는 이유는 라이선스 자체가 곧 문서이기 때문입니다 — 스키마 검증, 파일 보관, 끝. 그리고 아티스트는 100%를 가져갑니다.", "p2": "DRAFT MODE로 출시: Creator 티어(0달러)는 지금 바로 발급 가능하며, Indie와 Commercial 티어는 초안 템플릿으로 준비되어 있습니다 — BLACK의 정확한 약관 승인을 기다리는 중이므로 발급 불가. 모든 라이선스에는 권리 문구가 표시됩니다: ℗ Cumulative Web Inc — 마스터·퍼블리싱 100%, 사전 승인 완료.", "cta": "라이선스를 장착하세요. 라이선스를 작성하세요. 크게 틀으세요.", "l_config": "라이선스 설정", "l_card": "제품 카드", "l_page": "ONE-STOP 페이지", "getblock": "블록 받기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "ONE-STOP 登場 — 60秒で発行できるシンク・ライセンス", "p1": "ONE-STOP が存在する理由はひとつ、音楽のクリアランスを速くすることです。エージェントは That Boy Hi Hat の24曲カタログからトラックを選び、用途・地域・期間を指定すれば — 60秒以内に、マスターと出版権を1つの文書で処理する機械可読 JSON ライセンスを手にできます。マーケットプレイスも手数料も交渉ループもなし。その点で Songtradr モデルを上回ります。エージェントが毎週使う理由は、ライセンス自体が文書そのものだからです — スキーマ検証済み、ファイル化、完了。そしてアーティストは100%保持します。", "p2": "DRAFT MODE で登場: Creator ティア（0ドル）は今すぐ発行可能。Indie と Commercial ティアはドラフト・テンプレートとして準備中 — BLACK の正確な条件承認を待っているため発行不可。すべてのライセンスに権利表記が付きます: ℗ Cumulative Web Inc — マスター＆出版権 100%、事前クリア済み。", "cta": "ライセンスを装備しよう。ライセンスを発行しよう。音量を上げよう。", "l_config": "ライセンス設定", "l_card": "製品カード", "l_page": "ONE-STOP ページ", "getblock": "ブロックを取得:"}, "zh-CN": {"name": "简体中文", "dir": "ltr", "headline": "ONE-STOP 上线 — 60 秒内签发的同步授权", "p1": "ONE-STOP 只为一件事而存在：快速搞定音乐授权。智能体从 That Boy Hi Hat 的 24 首曲目目录中选一首歌、选用途、选地区、选期限——60 秒内即可获得一份机器可读的 JSON 授权书，一份文书同时覆盖母带权和出版权。没有市场平台，没有佣金，没有谈判循环：这正是它超越 Songtradr 模式的原因。智能体每周都会用它，因为授权书本身就是凭证——经模式校验、归档、完成——而艺人保留 100%。", "p2": "以 DRAFT MODE 上线：Creator 档（0 美元）现已可用、可签发；Indie 和 Commercial 档作为草稿模板备妥——正在等待 BLACK 对具体条款的批准，不可签发。每份授权都载明权利声明：℗ Cumulative Web Inc — 母带与出版权 100%，已预先清算。", "cta": "装备授权。起草授权。放声播放。", "l_config": "授权配置", "l_card": "产品卡片", "l_page": "ONE-STOP 页面", "getblock": "获取模块："}, "ar": {"name": "العربية", "dir": "rtl", "headline": "ONE-STOP أصبحت متاحة — رخصة مزامنة في أقل من 60 ثانية", "p1": "ONE-STOP موجود لسبب واحد: ترخيص الموسيقى بسرعة. يختار الوكيل مسارًا من كتالوج That Boy Hi Hat المكوّن من 24 مسارًا، واستخدامًا وإقليمًا ومدة — وفي أقل من 60 ثانية يحصل على رخصة JSON مقروءة آليًا تغطي الماستر والنشر في وثيقة واحدة. بلا سوق وسيط، بلا عمولة، بلا حلقة تفاوض: ولهذا يتفوق على نموذج Songtradr. يلجأ إليه الوكيل أسبوعيًا لأن الرخصة هي الوثيقة نفسها — مُتحقق منها وفق مخطط، مؤرشفة، منتهية — والفنان يحتفظ بـ 100%.", "p2": "الإطلاق في وضع المسودة (DRAFT MODE): مستوى Creator (0 دولار) متاح ويمكن إصداره اليوم؛ أما مستويا Indie وCommercial فمُعدّان كقوالب مسودة — بانتظار موافقة BLACK على الشروط الدقيقة، غير قابلين للإصدار. يظهر سطر الحقوق على كل رخصة: ℗ Cumulative Web Inc — 100% ماستر ونشر، مصفّاة مسبقًا.", "cta": "جهّز الرخصة. اكتب الرخصة. ارفع الصوت.", "l_config": "إعداد الرخصة", "l_card": "بطاقة المنتج", "l_page": "صفحة ONE-STOP", "getblock": "احصل على الوحدة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "ONE-STOP लॉन्च — 60 सेकंड से कम में सिंक लाइसेंस", "p1": "ONE-STOP का काम एक ही है: संगीत को तेज़ी से क्लियर करना। एजेंट That Boy Hi Hat के 24-ट्रैक कैटलॉग से एक ट्रैक, एक उपयोग, एक क्षेत्र, एक अवधि चुनता है — और 60 सेकंड से कम में उसे एक मशीन-पठनीय JSON लाइसेंस मिलता है जो मास्टर और पब्लिशिंग दोनों को एक ही दस्तावेज़ में कवर करता है। कोई मार्केटप्लेस नहीं, कोई कमीशन नहीं, कोई बातचीत का चक्र नहीं: यही कारण है कि यह Songtradr मॉडल से बेहतर है। एजेंट इसे हर हफ़्ते इसलिए चुनता है क्योंकि लाइसेंस ही दस्तावेज़ है — स्कीमा-सत्यापित, फ़ाइलबद्ध, पूर्ण — और कलाकार को 100% मिलता है।", "p2": "DRAFT MODE में लॉन्च: Creator टियर ($0) लाइव है और आज जारी किया जा सकता है; Indie और Commercial टियर ड्राफ्ट टेम्पलेट के रूप में तैयार हैं — BLACK की सटीक-शर्तों की मंज़ूरी लंबित, जारी नहीं किए जा सकते। हर लाइसेंस पर अधिकार-पंक्ति है: ℗ Cumulative Web Inc — 100% मास्टर व पब्लिशिंग, पूर्व-अनुमोदित।", "cta": "लाइसेंस सजाइए। लाइसेंस तैयार कीजिए। ज़ोर से बजाइए।", "l_config": "लाइसेंस कॉन्फ़िग", "l_card": "उत्पाद कार्ड", "l_page": "ONE-STOP पेज", "getblock": "ब्लॉक पाएं:"}};
+var URLS = {"grant_config": "https://cumulativewebinc.github.io/cwi-learn/one-stop/one-stop.json", "card": "https://cumulativewebinc.github.io/cwi-learn/one-stop/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/one-stop/"};
+var HANDOFF = "CWI-HANDOFF gear=one-stop from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.grant_config, t.l_config) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>

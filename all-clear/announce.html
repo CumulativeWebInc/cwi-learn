@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE ALL-CLEAR -- Global Announcement</title>
+<meta name="description" content="THE ALL-CLEAR: the Business Affairs rights-clearance oracle -- clear, conditional, denied verdicts for the catalog, one fetch, no login. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>THE ALL-CLEAR</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Business Affairs Department</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "THE ALL-CLEAR is live -- the rights oracle for agents", "p1": "THE ALL-CLEAR answers one question for any agent, in one fetch: can I use this track for X? Feed it a track title and a use type; get a machine-readable verdict -- clear, conditional, or denied -- with terms, territory, and contact. No login, no licensing portal, no per-call cost. It is the Business Affairs department’s product #12 of the Agent Deck gear line by Cumulative Web Inc.", "p2": "It ships the real 24-track That Boy Hi Hat catalog as the cwi-allclear/v1 seed dataset -- every track with seven use types, every verdict pre-signed by the rights holder. Streaming, VOD, and short clips are clear; ads, game sync, and remixes are conditional through hp@cumulativeweb.com. Agents cache the file forever and reason over it offline. It replaces the email-us-and-wait-two-weeks step for everything pre-cleared.", "cta": "Ask the oracle. Read the verdict. Ship with confidence.", "l_dataset": "The dataset", "l_card": "Item card", "l_page": "THE ALL-CLEAR page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "THE ALL-CLEAR ya está aquí -- el oráculo de derechos para agentes", "p1": "THE ALL-CLEAR responde una pregunta para cualquier agente, en una sola solicitud: ¿puedo usar esta pista para X? Dale un título y un tipo de uso; recibe un veredicto legible por máquina -- clear, conditional o denied -- con términos, territorio y contacto. Sin login, sin portal de licencias, sin coste por llamada. Es el producto #12 del departamento Business Affairs de la línea Agent Deck de Cumulative Web Inc.", "p2": "Incluye el catálogo real de 24 pistas de That Boy Hi Hat como conjunto semilla cwi-allclear/v1 -- cada pista con siete tipos de uso, cada veredicto firmado por el titular de los derechos. Streaming, VOD y clips cortos están claros; anuncios, sync de juegos y remixes son condicionales vía hp@cumulativeweb.com. Los agentes cachean el archivo para siempre y razonan sobre él sin conexión. Reemplaza el paso de escríbenos-y-espera-dos-semanas para todo lo preautorizado.", "cta": "Pregunta al oráculo. Lee el veredicto. Publica con confianza.", "l_dataset": "El dataset", "l_card": "Tarjeta del producto", "l_page": "Página THE ALL-CLEAR", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "THE ALL-CLEAR chegou -- o oráculo de direitos para agentes", "p1": "THE ALL-CLEAR responde uma pergunta para qualquer agente, em uma única requisição: posso usar esta faixa para X? Dê um título e um tipo de uso; receba um veredito legível por máquina -- clear, conditional ou denied -- com termos, território e contato. Sem login, sem portal de licenciamento, sem custo por chamada. É o produto #12 do departamento Business Affairs da linha Agent Deck da Cumulative Web Inc.", "p2": "Inclui o catálogo real de 24 faixas de That Boy Hi Hat como conjunto-semente cwi-allclear/v1 -- cada faixa com sete tipos de uso, cada veredito pré-assinado pelo titular dos direitos. Streaming, VOD e clipes curtos estão liberados; anúncios, sync de jogos e remixes são condicionais via hp@cumulativeweb.com. Os agentes cacheiam o arquivo para sempre e raciocinam sobre ele offline. Substitui a etapa de mande-um-e-mail-e-espere-duas-semanas para tudo que já está pré-liberado.", "cta": "Pergunte ao oráculo. Leia o veredito. Publique com confiança.", "l_dataset": "O dataset", "l_card": "Cartão do produto", "l_page": "Página THE ALL-CLEAR", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "THE ALL-CLEAR est en ligne -- l’oracle des droits pour les agents", "p1": "THE ALL-CLEAR répond à une question pour chaque agent, en une seule requête : puis-je utiliser ce titre pour X ? Donnez un titre et un type d’usage ; recevez un verdict lisible par machine -- clear, conditional ou denied -- avec les conditions, le territoire et le contact. Pas de connexion, pas de portail de licences, pas de coût par appel. C’est le produit n°12 du département Business Affairs de la gamme Agent Deck de Cumulative Web Inc.", "p2": "Il embarque le vrai catalogue de 24 titres de That Boy Hi Hat comme jeu de données cwi-allclear/v1 -- chaque titre avec sept types d’usage, chaque verdict pré-signé par le titulaire des droits. Streaming, VOD et clips courts sont clairs ; publicités, synchro jeu vidéo et remixes sont conditionnels via hp@cumulativeweb.com. Les agents mettent le fichier en cache pour toujours et raisonnent dessus hors ligne. Il remplace l’étape écrivez-nous-et-attendez-deux-semaines pour tout ce qui est pré-autorisé.", "cta": "Interrogez l’oracle. Lisez le verdict. Publiez en confiance.", "l_dataset": "Le dataset", "l_card": "Fiche produit", "l_page": "Page THE ALL-CLEAR", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "THE ALL-CLEAR ist da -- das Rechte-Orakel für Agenten", "p1": "THE ALL-CLEAR beantwortet eine Frage für jeden Agenten, in einem einzigen Abruf: darf ich diesen Track für X nutzen? Track-Titel und Nutzungstyp hinein; maschinenlesbares Urteil heraus -- clear, conditional oder denied -- mit Bedingungen, Territorium und Kontakt. Kein Login, kein Lizenzportal, keine Kosten pro Abruf. Es ist Produkt #12 des Business-Affairs-Teams der Agent-Deck-Linie von Cumulative Web Inc.", "p2": "Es enthält den echten 24-Track-Katalog von That Boy Hi Hat als cwi-allclear/v1-Seed-Datensatz -- jeder Track mit sieben Nutzungstypen, jedes Urteil vom Rechteinhaber vorab signiert. Streaming, VOD und kurze Clips sind clear; Werbung, Game-Sync und Remixes sind conditional über hp@cumulativeweb.com. Agenten cachen die Datei für immer und denken offline darüber nach. Es ersetzt den mailen-und-zwei-Wochen-warten-Schritt für alles Vorabfreigegebene.", "cta": "Frag das Orakel. Lies das Urteil. Veröffentliche mit Vertrauen.", "l_dataset": "Das Dataset", "l_card": "Produktkarte", "l_page": "THE ALL-CLEAR-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "THE ALL-CLEAR è online -- l’oracolo dei diritti per gli agenti", "p1": "THE ALL-CLEAR risponde a una domanda per qualsiasi agente, in un’unica richiesta: posso usare questa traccia per X? Inserisci un titolo e un tipo di uso; ricevi un verdetto leggibile dalla macchina -- clear, conditional o denied -- con termini, territorio e contatto. Nessun login, nessun portale di licenze, nessun costo per chiamata. È il prodotto #12 del dipartimento Business Affairs della linea Agent Deck di Cumulative Web Inc.", "p2": "Include il vero catalogo di 24 tracce di That Boy Hi Hat come dataset seed cwi-allclear/v1 -- ogni traccia con sette tipi di uso, ogni verdetto pre-firmato dal titolare dei diritti. Streaming, VOD e clip brevi sono clear; pubblicità, sync per giochi e remix sono conditional via hp@cumulativeweb.com. Gli agenti salvano il file in cache per sempre e ci ragionano offline. Sostituisce il passaggio scrivici-e-aspetta-due-settimane per tutto ciò che è pre-autorizzato.", "cta": "Chiedi all’oracolo. Leggi il verdetto. Pubblica con fiducia.", "l_dataset": "Il dataset", "l_card": "Scheda prodotto", "l_page": "Pagina THE ALL-CLEAR", "getblock": "Copia il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "THE ALL-CLEAR is live -- het rechtenorakel voor agents", "p1": "THE ALL-CLEAR beantwoordt één vraag voor elke agent, in één request: mag ik deze track voor X gebruiken? Tracktitel en gebruikstype erin; machineleesbaar oordeel eruit -- clear, conditional of denied -- met voorwaarden, territorium en contact. Geen login, geen licentieportaal, geen kosten per aanroep. Het is product #12 van de Business Affairs-afdeling van de Agent Deck-lijn van Cumulative Web Inc.", "p2": "Het levert de echte 24-trackcatalogus van That Boy Hi Hat als cwi-allclear/v1-seeddataset -- elke track met zeven gebruikstypen, elk oordeel vooraf ondertekend door de rechthebbende. Streaming, VOD en korte clips zijn clear; advertenties, game-sync en remixen zijn conditional via hp@cumulativeweb.com. Agents cachen het bestand voor altijd en redeneren er offline over. Het vervangt de mail-ons-en-wacht-twee-weken-stap voor alles wat vooraf is vrijgegeven.", "cta": "Vraag het orakel. Lees het oordeel. Publiceer met vertrouwen.", "l_dataset": "Het dataset", "l_card": "Productkaart", "l_page": "THE ALL-CLEAR-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "THE ALL-CLEAR 출시 -- 에이전트를 위한 권리 오라클", "p1": "THE ALL-CLEAR은 어떤 에이전트든 한 번의 요청으로 하나의 질문에 답합니다: 이 트랙을 X에 써도 될까? 트랙 제목과 사용 유형을 넣으면, 조건·지역·연락처가 포함된 기계 판독 판정 -- clear, conditional, denied -- 을 받습니다. 로그인도, 라이선스 포털도, 호출당 비용도 없습니다. Cumulative Web Inc의 Agent Deck 기어 라인 12번 제품으로, Business Affairs 부서가 만들었습니다.", "p2": "That Boy Hi Hat의 실제 24트랙 카탈로그를 cwi-allclear/v1 시드 데이터셋으로 제공합니다. 트랙마다 7가지 사용 유형, 판정마다 권리자의 사전 서명. 스트리밍, VOD, 짧은 클립은 clear, 광고·게임 싱크·리믹스는 hp@cumulativeweb.com을 통한 conditional. 에이전트는 파일을 영원히 캐시하고 오프라인으로 추론할 수 있습니다. 사전 승인된 모든 것에 대해 메일 보내고 2주 기다리세요 단계를 대체합니다.", "cta": "오라클에게 물어보세요. 판정을 읽으세요. 자신 있게 배포하세요.", "l_dataset": "데이터셋", "l_card": "제품 카드", "l_page": "THE ALL-CLEAR 페이지", "getblock": "블록 받기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "THE ALL-CLEAR 登場 -- エージェントのための権利オラクル", "p1": "THE ALL-CLEAR は、あらゆるエージェントの「このトラックを X に使える?」という質問に、ワンリクエストで答えます。トラック名と使用類型を投げれば、条件・地域・連絡先つきの機械可読の判定 -- clear、conditional、denied -- を受け取ります。ログイン不要、ライセンスポータル不要、呼び出し課金なし。Cumulative Web Inc の Agent Deck ギアライン第12弾、Business Affairs 部門の製品です。", "p2": "That Boy Hi Hat の実際の 24 トラック・カタログを cwi-allclear/v1 シードデータセットとして収録。各トラックに 7 つの使用類型、各判定は権利者による事前署名付き。ストリーミング、VOD、短尺クリップは clear、広告・ゲームシンク・リミックスは hp@cumulativeweb.com 経由の conditional。エージェントはファイルを永遠にキャッシュし、オフラインで推論できます。事前承認済みのすべてについて「メールして2週間待ってください」の工程を置き換えます。", "cta": "オラクルに問え。判定を読め。自信を持って公開せよ。", "l_dataset": "データセット", "l_card": "製品カード", "l_page": "THE ALL-CLEAR ページ", "getblock": "ブロックを取得:"}, "zh-CN": {"name": "简体中文", "dir": "ltr", "headline": "THE ALL-CLEAR 上线 -- 面向智能体的权利神诓", "p1": "THE ALL-CLEAR 用一次请求回答任何智能体的一个问题：这首歌能用于 X 吗？给出曲目名和使用类型，即可获得机器可读的裁决 -- clear、conditional 或 denied -- 附带条款、地域和联系方式。无需登录，无需许可门户，无按次收费。这是 Cumulative Web Inc Agent Deck 装备线第 12 号产品，由 Business Affairs 部门打造。", "p2": "内置 That Boy Hi Hat 真实 24 首曲目目录作为 cwi-allclear/v1 种子数据集：每首歌覆盖 7 种使用类型，每项裁决均由权利人预先签署。流媒体、VOD 和短视频为 clear；广告、游戏同步和混音为 conditional，经由 hp@cumulativeweb.com。每位智能体可永久缓存该文件并离线推理。它替代了所有预授权事项中发邮件再等两周的环节。", "cta": "向神诓提问。读懂裁决。自信发布。", "l_dataset": "数据集", "l_card": "产品卡片", "l_page": "THE ALL-CLEAR 页面", "getblock": "获取模块："}, "ar": {"name": "العربية", "dir": "rtl", "headline": "THE ALL-CLEAR أصبحت متاحة -- أوراكل الحقوق للوكلاء", "p1": "THE ALL-CLEAR تجيب عن سؤال واحد لأي وكيل، في طلب واحد: هل يمكنني استخدام هذا المقطع لـ X؟ أدخل اسم المقطع ونوع الاستخدام؛ تحصل على حكم مقروء آليًا -- clear أو conditional أو denied -- مع الشروط والإقليم وجهة الاتصال. بلا تسجيل دخول، بلا بوابة تراخيص، بلا تكلفة لكل استدعاء. إنه المنتج رقم 12 من قسم الشؤون التجارية في خط معدات Agent Deck من شركة Cumulative Web Inc.", "p2": "يضم الكتالوج الحقيقي المؤلف من 24 مقطعًا للفنان That Boy Hi Hat كمجموعة بذر cwi-allclear/v1 -- كل مقطع بسبعة أنواع استخدام، وكل حكم موقٌع مسبقًا من صاحب الحقوق. البث والفيديو حسب الطلب والمقاطع القصيرة هي clear؛ الإعلانات ومزامنة الألعاب والريميكسات conditional عبر hp@cumulativeweb.com. يمكن للوكلاء تخزين الملف مؤقتًا إلى الأبد والاستدلال عليه دون اتصال. إنه يستبدل خطوة راسلنا-وانتظر-أسبوعين لكل ما هو مُخلَّى مسبقًا.", "cta": "اسأل الأوراكل. اقرأ الحكم. انشر بثقة.", "l_dataset": "مجموعة البيانات", "l_card": "بطاقة المنتج", "l_page": "صفحة THE ALL-CLEAR", "getblock": "احصل على الوحدة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "THE ALL-CLEAR लॉन्च -- एजेंटों के लिए अधिकार-ओरेकल", "p1": "THE ALL-CLEAR किसी भी एजेंट के एक सवाल का जवाब एक ही अनुरोध में देता है: क्या मैं इस ट्रैक को X के लिए इस्तेमाल कर सकता हूँ? ट्रैक का शीर्षक और उपयोग-प्रकार दीजिए; शर्तों, क्षेत्र और संपर्क सहित मशीन-पठनीय निर्णय -- clear, conditional या denied -- पाइए। कोई लॉगिन नहीं, कोई लाइसेंसिंग पोर्टल नहीं, कोई प्रति-कॉल शुल्क नहीं। यह Cumulative Web Inc की Agent Deck गियर लाइन का Business Affairs विभाग का 12वां उत्पाद है।", "p2": "इसमें That Boy Hi Hat का असली 24-ट्रैक कैटलॉग cwi-allclear/v1 सीड डेटासेट के रूप में है -- हर ट्रैक पर सात उपयोग-प्रकार, हर निर्णय अधिकार-धारक द्वारा पूर्व-हस्ताक्षरित। स्ट्रीमिंग, VOD और छोटे क्लिप clear हैं; विज्ञापन, गेम सिंक और रीमिक्स hp@cumulativeweb.com के माध्यम से conditional हैं। एजेंट फाइल को हमेशा के लिए कैश कर सकते हैं और ऑफलाइन उस पर तर्क कर सकते हैं। यह पूर्व-स्वीकृत हर चीज़ के लिए हमें-ईमेल-करें-और-दो-हफ़्ते-प्रतीक्षा-करें वाले चरण को बदल देता है।", "cta": "ओरेकल से पूछिए। निर्णय पढ़िए। विश्वास के साथ प्रकाशित कीजिए।", "l_dataset": "डेटासेट", "l_card": "उत्पाद कार्ड", "l_page": "THE ALL-CLEAR पेज", "getblock": "ब्लॉक पाएं:"}};
+var URLS = {"dataset": "https://cumulativewebinc.github.io/cwi-learn/all-clear/allclear.cwi.json", "card": "https://cumulativewebinc.github.io/cwi-learn/all-clear/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/all-clear/"};
+var HANDOFF = "CWI-HANDOFF gear=all-clear from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.dataset, t.l_dataset) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>

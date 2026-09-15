@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE FINAL CUT — Cumulative Web Inc</title>
+<meta name="description" content="THE FINAL CUT — the Marketing department's truth-gated content.json publishing units: ready-to-post content packages an agent can PUBLISH in seconds. Every claim truth-gated against the verified CWI fact set. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:860px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+/* ---- pack picker ---- */
+#stage{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+#pack-picker{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+#pack-picker button{background:var(--navy2);border:1px solid var(--blue);color:var(--xlblu);
+padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:600;font-size:.9em}
+#pack-picker button.active{border-color:var(--gold);color:var(--gold2)}
+#pack-desc{flex:1;min-width:280px}
+#pack-desc h3{margin:0 0 8px;color:#fff}
+.field{margin:8px 0;font-size:.9em;line-height:1.6}
+.field .k{color:var(--lblu);font-weight:700}
+pre.json{background:#000;border:1px solid var(--blue);border-radius:10px;padding:14px;
+font-size:.78em;line-height:1.55;overflow-x:auto;white-space:pre-wrap;word-break:break-word;color:var(--xlblu)}
+.badge-pass{display:inline-block;background:rgba(47,174,85,.15);border:1px solid var(--ok);
+color:#7fe39a;border-radius:8px;padding:3px 10px;font-size:.78em;font-weight:700;letter-spacing:.5px}
+.hashtags{color:var(--gold2);font-size:.88em;line-height:1.7}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:38%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.step{display:flex;gap:12px;margin:10px 0;font-size:.9em;line-height:1.6}
+.step .n{flex:0 0 30px;height:30px;border-radius:50%;background:var(--navy2);border:1px solid var(--gold);
+color:var(--gold2);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85em}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE FINAL CUT</h1>
+<div class="brand" id="tagline">Truth-gated content.json publishing units — ready-to-post content packages an agent can PUBLISH in seconds. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> THE FINAL CUT is a publishing <i>instrument</i>, not a calendar. Every package is a machine-readable <code>content.json</code> unit — caption, hashtags, threads text, platform targets — that an agent can post in seconds. The difference from a scheduler: the content ships <i>with</i> the verified facts, and the truth gate rejects any uncited claim before a package is issued. Cut it. Gate it. Post it.</div>
+<div class="card"><h2>THE LAUNCH PACKS — FOUR, CUT AND GATED</h2>
+<div id="pack-picker"></div>
+<div id="stage"><div id="pack-desc"></div></div>
+</div>
+<div class="card"><h2>THE CUT ROOM — HOW THE TRUTH GATE WORKS</h2>
+<div class="step"><div class="n">1</div><div><b>CUT:</b> a content unit is authored against the standing <code>content.json</code> fields — day, id, type, media_files, caption, hashtags, threads_text, post_order, platform_targets. Nothing ships without all nine.</div></div>
+<div class="step"><div class="n">2</div><div><b>GATE:</b> every claim inside the unit is checked against the verified CWI fact set (the 24-track catalog, verified playlist placements, release dates, studio credits). A claim without a fact source fails the gate. The report — <code>truth_gate_report</code> — is mandatory and travels with the unit.</div></div>
+<div class="step"><div class="n">3</div><div><b>POST:</b> a gated package posts in seconds: copy the unit, pick your platform, paste. The premiere framing is the fun layer — the verified facts are the instrument.</div></div>
+<div class="meta" style="margin-top:10px">Authoring contract: <a href="final-cut-schema.json">final-cut-schema.json</a> (<code>cwi-final-cut/v1</code>)</div>
+</div>
+<div class="card"><h2>CUT YOUR OWN PACK</h2>
+<p style="line-height:1.7;font-size:.93em">Author a pack against <a href="final-cut-schema.json">the schema</a>, run every claim through the verified fact set, and attach a <code>truth_gate_report</code> with <code>status: "pass"</code>. Anything that fails the gate is a rejected package — it never posts. Then drop it in the CUT block.</p>
+<div class="links"><a href="final-cut.json">Pack index</a><a href="final-cut-schema.json">Schema</a><a href="packs/zooted-zone.json">Sample pack: Zooted Zone</a></div></div>
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE FINAL CUT", "tagline": "Truth-gated content.json publishing units — ready-to-post content packages an agent can PUBLISH in seconds. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "cut it. gate it. post it.", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/final-cut/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE FINAL CUT") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function esc(s){
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+function showPack(p){
+  var c = p.content, r = p.truth_gate_report;
+  var claims = r.claims_verified.map(function(v){
+    return "<tr><td class='k'>claim</td><td>"+esc(v.claim)+"<br><span style='font-size:.85em;color:var(--lblu)'>source: "+esc(v.fact_source)+"</span></td></tr>";
+  }).join("");
+  var h = "<h3>"+esc(p.track_ref)+" <span class='badge-pass'>GATE "+esc(r.status).toUpperCase()+"</span></h3>" +
+    "<div class='field'><span class='k'>pack_id:</span> <code>"+esc(p.pack_id)+"</code> · <span class='k'>day:</span> "+esc(c.day)+" · <span class='k'>type:</span> "+esc(c.type)+" · <span class='k'>order:</span> "+c.post_order+"</div>" +
+    "<div class='field'><span class='k'>caption</span><br>"+esc(c.caption)+"</div>" +
+    "<div class='field'><span class='k'>threads_text</span><br>"+esc(c.threads_text)+"</div>" +
+    "<div class='field'><span class='k'>hashtags</span><br><span class='hashtags'>"+c.hashtags.map(esc).join(" ")+"</span></div>" +
+    "<div class='field'><span class='k'>platform_targets:</span> "+c.platform_targets.map(esc).join(", ")+"<br><span class='k'>media_files:</span> "+c.media_files.map(esc).join(", ")+"</div>" +
+    "<h2 style='margin:16px 0 8px;font-size:.95em;color:var(--gold2);letter-spacing:.4px'>TRUTH GATE REPORT</h2>" +
+    "<div class='field'><span class='k'>checked_at:</span> "+esc(r.checked_at)+" · <span class='k'>by:</span> "+esc(r.checked_by)+"</div>" +
+    "<table>"+claims+"</table>" +
+    "<div class='field' style='margin-top:10px'><span class='k'>media:</span> "+esc(r.media_attested)+"</div>" +
+    "<h2 style='margin:16px 0 8px;font-size:.95em;color:var(--gold2);letter-spacing:.4px'>THE MACHINE-READABLE UNIT</h2>" +
+    "<pre class='json'>"+esc(JSON.stringify(c,null,2))+"</pre>";
+  document.getElementById("pack-desc").innerHTML = h;
+  Array.prototype.forEach.call(document.querySelectorAll("#pack-picker button"), function(b){
+    b.classList.toggle("active", b.textContent === p.track_ref); });
+}
+fetch("final-cut.json").then(function(r){return r.json()}).then(function(idx){
+  var pk = document.getElementById("pack-picker");
+  idx.packs.forEach(function(p){
+    var b = document.createElement("button"); b.textContent = p.track_ref;
+    b.onclick = function(){ showPack(p); }; pk.appendChild(b);
+  });
+  showPack(idx.packs[0]);
+}).catch(function(){ document.getElementById("pack-desc").textContent = "pack index unavailable."; });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Pack index","final-cut.json"],["Schema","final-cut-schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: HYPE","https://cumulativewebinc.github.io/cwi-learn/hype/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>
