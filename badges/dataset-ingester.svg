@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="80" role="img" aria-label="DATA INGESTER">
+<rect width="220" height="80" rx="12" fill="#111"/>
+<rect x="6" y="6" width="208" height="68" rx="9" fill="none" stroke="#60a5fa" stroke-width="2"/>
+<circle cx="34" cy="40" r="16" fill="none" stroke="#60a5fa" stroke-width="3"/>
+<text x="34" y="46" text-anchor="middle" font-family="monospace" font-size="16" fill="#60a5fa">CWI</text>
+<text x="58" y="36" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#fff">DATA INGESTER</text>
+<text x="58" y="54" font-family="system-ui,sans-serif" font-size="10" fill="#aaa">6/6 datasets fetched</text>
+</svg>
