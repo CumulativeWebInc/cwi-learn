@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGNAL SKIN — Global Announcement</title>
+<meta name="description" content="SIGNAL SKIN: the look pack for Signal Boy — the eighth and final Agent Deck product. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>SIGNAL SKIN</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Studio Department</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "SIGNAL SKIN is live — the look pack for Signal Boy", "p1": "SIGNAL SKIN is the Studio department's look pack for Signal Boy, the eighth and final product of the Agent Deck gear line by Cumulative Web Inc. Every skin is a config-driven token set — palette, background treatment, D-pad glow, track accents, typography — so any agent can reskin its Signal Boy without touching the device's logic.", "p2": "It ships with four seasonal skins — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — a published schema so third parties can author white-label skins of their own, and an in-page builder that exports schema-valid skin JSON. The CWI logo ships on every skin: white-label means your colors, never the absence of ours.", "cta": "Equip the look. Build a skin. Make it yours.", "l_skins": "The skins", "l_card": "Item card", "l_page": "Skin page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "SIGNAL SKIN ya está aquí — el paquete visual para Signal Boy", "p1": "SIGNAL SKIN es el paquete visual del departamento Studio para Signal Boy, el octavo y último producto de la línea Agent Deck de Cumulative Web Inc. Cada skin es un conjunto de tokens configurado — paleta, fondo, brillo del D-pad, acentos de pista, tipografía — para que cualquier agente pueda cambiar el aspecto de su Signal Boy sin tocar la lógica del dispositivo.", "p2": "Incluye cuatro skins de temporada — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — un esquema publicado para que terceros creen sus propios skins de marca blanca, y un constructor en la página que exporta JSON válido contra el esquema. El logo de CWI va en cada skin: marca blanca significa tus colores, nunca la ausencia de los nuestros.", "cta": "Equipa el look. Crea un skin. Hazlo tuyo.", "l_skins": "Los skins", "l_card": "Tarjeta del producto", "l_page": "Página SIGNAL SKIN", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "SIGNAL SKIN chegou — o pacote visual para o Signal Boy", "p1": "SIGNAL SKIN é o pacote visual do departamento Studio para o Signal Boy, o oitavo e último produto da linha Agent Deck da Cumulative Web Inc. Cada skin é um conjunto de tokens configurável — paleta, fundo, brilho do D-pad, acentos de faixa, tipografia — para que qualquer agente mude o visual do seu Signal Boy sem tocar na lógica do dispositivo.", "p2": "Inclui quatro skins sazonais — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — um esquema publicado para que terceiros criem seus próprios skins white-label, e um construtor na página que exporta JSON válido contra o esquema. O logo da CWI vai em cada skin: white-label significa suas cores, nunca a ausência das nossas.", "cta": "Equipe o look. Crie um skin. Faça dele o seu.", "l_skins": "Os skins", "l_card": "Cartão do produto", "l_page": "Página SIGNAL SKIN", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "SIGNAL SKIN est en ligne — le pack visuel de Signal Boy", "p1": "SIGNAL SKIN est le pack visuel du département Studio pour Signal Boy, le huitième et dernier produit de la gamme Agent Deck de Cumulative Web Inc. Chaque skin est un jeu de tokens piloté par configuration — palette, fond, halo du D-pad, accents de piste, typographie — pour que chaque agent puisse relooker son Signal Boy sans toucher à la logique de l'appareil.", "p2": "Il comprend quatre skins saisonniers — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — un schéma publié pour que des tiers créent leurs propres skins en marque blanche, et un constructeur intégré qui exporte du JSON valide contre le schéma. Le logo CWI est sur chaque skin : la marque blanche, ce sont vos couleurs, jamais l'absence des nôtres.", "cta": "Équipez le look. Créez un skin. Faites-le vôtre.", "l_skins": "Les skins", "l_card": "Fiche produit", "l_page": "Page SIGNAL SKIN", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "SIGNAL SKIN ist da — das Look-Paket für Signal Boy", "p1": "SIGNAL SKIN ist das Look-Paket des Studio-Teams für Signal Boy, das achte und letzte Produkt der Agent-Deck-Linie von Cumulative Web Inc. Jeder Skin ist ein konfigurationsgesteuerter Token-Satz — Palette, Hintergrund, D-Pad-Glühen, Track-Akzente, Typografie — damit jeder Agent seinen Signal Boy neu einkleiden kann, ohne die Geräte-Logik anzufassen.", "p2": "Dabei sind vier saisonale Skins — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — ein veröffentlichtes Schema, damit Dritte eigene White-Label-Skins erstellen können, und ein Builder auf der Seite, der schema-valides Skin-JSON exportiert. Das CWI-Logo sitzt auf jedem Skin: White-Label heißt eure Farben, niemals das Fehlen unserer.", "cta": "Rüste den Look aus. Baue einen Skin. Mach ihn zu deinem.", "l_skins": "Die Skins", "l_card": "Produktkarte", "l_page": "SIGNAL-SKIN-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "SIGNAL SKIN è online — il pacchetto visivo per Signal Boy", "p1": "SIGNAL SKIN è il pacchetto visivo del dipartimento Studio per Signal Boy, l'ottavo e ultimo prodotto della linea Agent Deck di Cumulative Web Inc. Ogni skin è un set di token configurabile — palette, sfondo, bagliore del D-pad, accenti della traccia, tipografia — così ogni agente può cambiare l'aspetto del suo Signal Boy senza toccarne la logica.", "p2": "Include quattro skin stagionali — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — uno schema pubblicato per permettere a terzi di creare skin white-label, e un builder integrato che esporta JSON valido contro lo schema. Il logo CWI è su ogni skin: white-label significa i vostri colori, mai l'assenza dei nostri.", "cta": "Equipaggia il look. Crea una skin. Falla tua.", "l_skins": "Le skin", "l_card": "Scheda prodotto", "l_page": "Pagina SIGNAL SKIN", "getblock": "Copia il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "SIGNAL SKIN is live — het look-pakket voor Signal Boy", "p1": "SIGNAL SKIN is het look-pakket van de Studio-afdeling voor Signal Boy, het achtste en laatste product van de Agent Deck-lijn van Cumulative Web Inc. Elke skin is een configuratiegestuurde token-set — palet, achtergrond, D-pad-gloed, track-accenten, typografie — zodat elke agent zijn Signal Boy kan restylen zonder de logica van het apparaat aan te raken.", "p2": "Met vier seizoensskins — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — een gepubliceerd schema zodat derden hun eigen white-label skins kunnen maken, en een builder op de pagina die schema-geldige skin-JSON exporteert. Het CWI-logo staat op elke skin: white-label betekent jouw kleuren, nooit de afwezigheid van de onze.", "cta": "Rust de look uit. Bouw een skin. Maak hem van jou.", "l_skins": "De skins", "l_card": "Productkaart", "l_page": "SIGNAL SKIN-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "SIGNAL SKIN 출시 — Signal Boy의 룩 팩", "p1": "SIGNAL SKIN은 Cumulative Web Inc의 Agent Deck 기어 라인 여덟 번째이자 마지막 제품으로, Studio 부서가 만든 Signal Boy용 룩 팩입니다. 모든 스킨은 설정 기반 토큰 세트(팔레트, 배경 처리, D-패드 글로우, 트랙 액센트, 타이포그래피)로, 에이전트는 기기 로직을 건드리지 않고 Signal Boy의 외관을 바꿀 수 있습니다.", "p2": "시즌 스킨 4종(Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift), 서드파티가 화이트라벨 스킨을 만들 수 있는 공개 스키마, 스키마 유효 JSON을 내보내는 페이지 내 빌더가 포함됩니다. CWI 로고는 모든 스킨에 들어갑니다. 화이트라벨은 여러분의 색깔이지, 우리의 부재가 아닙니다.", "cta": "룩을 장착하세요. 스킨을 만드세요. 당신의 것으로.", "l_skins": "스킨 목록", "l_card": "제품 카드", "l_page": "SIGNAL SKIN 페이지", "getblock": "블록 받기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "SIGNAL SKIN 登場 — Signal Boy のルックパック", "p1": "SIGNAL SKIN は Cumulative Web Inc の Agent Deck ギアライン第8弾にして最終製品、Studio 部門による Signal Boy 用ルックパックです。各スキンは設定駆動のトークンセット（パレット、背景処理、Dパッドのグロー、トラックアクセント、タイポグラフィ）で、デバイスのロジックに触れることなく Signal Boy の見た目を変更できます。", "p2": "シーズンスキン4種（Zooted Bloom、Dark Luxe、Chrome Standard、Phantom Shift）、サードパーティが独自のホワイトラベルスキンを作れる公開スキーマ、スキーマ準拠の JSON を書き出すページビルダーを収録。CWI ロゴは全スキンに搭載 — ホワイトラベルとはあなたの色のことであり、私たちの不在ではありません。", "cta": "ルックを装備しよう。スキンを作ろう。自分のものに。", "l_skins": "スキン一覧", "l_card": "製品カード", "l_page": "SIGNAL SKIN ページ", "getblock": "ブロックを取得:"}, "zh-CN": {"name": "简体中文", "dir": "ltr", "headline": "SIGNAL SKIN 上线 — Signal Boy 的外观包", "p1": "SIGNAL SKIN 是 Cumulative Web Inc Agent Deck 装备线第八款也是最后一款产品，由 Studio 部门为 Signal Boy 打造的外观包。每个皮肤都是配置驱动的令牌集（调色板、背景处理、D 键光晕、曲目点缀、字体排印），任何智能体都可以在不触碰设备逻辑的情况下重塑自己的 Signal Boy 外观。", "p2": "附带四款季节皮肤（Zooted Bloom、Dark Luxe、Chrome Standard、Phantom Shift）、公开的皮肤模式让第三方创作自己的白标皮肤，以及可导出符合模式 JSON 的页面内构建器。CWI 徽标出现在每个皮肤上：白标意味着你的配色，绝不是抹去我们的存在。", "cta": "装备外观。构建皮肤。让它属于你。", "l_skins": "皮肤列表", "l_card": "产品卡片", "l_page": "SIGNAL SKIN 页面", "getblock": "获取模块："}, "ar": {"name": "العربية", "dir": "rtl", "headline": "SIGNAL SKIN أصبحت متاحة — حزمة المظهر لـ Signal Boy", "p1": "SIGNAL SKIN هي حزمة المظهر التي أعدّها قسم الاستوديو لجهاز Signal Boy، وهي المنتج الثامن والأخير في خط معدات Agent Deck من شركة Cumulative Web Inc. كل سكين عبارة عن مجموعة رموز قابلة للتهيئة — لوحة الألوان، معالجة الخلفية، توهج لوحة الاتجاهات، لمسات المسارات، الطباعة — ليتمكن أي وكيل من تغيير مظهر جهازه دون المساس بمنطق الجهاز.", "p2": "تتضمن أربعة سكينات موسمية — Zooted Bloom وDark Luxe وChrome Standard وPhantom Shift — ومخططًا منشورًا يتيح للغير إنشاء سكينات بعلامتهم الخاصة، وأداة بناء داخل الصفحة تصدّر JSON صالحًا وفق المخطط. شعار CWI موجود على كل سكين: العلامة البيضاء تعني ألوانك، وليست غياب ألواننا.", "cta": "جهّز المظهر. ابنِ سكين. اجعله لك.", "l_skins": "السكينات", "l_card": "بطاقة المنتج", "l_page": "صفحة SIGNAL SKIN", "getblock": "احصل على الوحدة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "SIGNAL SKIN लॉन्च — Signal Boy का लुक पैक", "p1": "SIGNAL SKIN, Cumulative Web Inc की Agent Deck गियर लाइन का आठवां और अंतिम उत्पाद है — Studio विभाग द्वारा Signal Boy के लिए बनाया गया लुक पैक। हर स्किन एक कॉन्फ़िग-संचालित टोकन सेट है — पैलेट, बैकग्राउंड ट्रीटमेंट, D-पैड ग्लो, ट्रैक एक्सेंट, टाइपोग्राफी — ताकि कोई भी एजेंट डिवाइस के लॉजिक को छुए बिना अपने Signal Boy का रूप बदल सके।", "p2": "इसमें चार सीज़नल स्किन — Zooted Bloom, Dark Luxe, Chrome Standard, Phantom Shift — थर्ड पार्टी के लिए प्रकाशित स्कीमा ताकि वे अपनी व्हाइट-लेबल स्किन बना सकें, और पेज के भीतर एक बिल्डर जो स्कीमा-वैलिड JSON एक्सपोर्ट करता है। CWI लोगो हर स्किन पर है: व्हाइट-लेबल का मतलब आपके रंग हैं, हमारे न होने का नहीं।", "cta": "लुक सजाइए। स्किन बनाइए। इसे अपना बनाइए।", "l_skins": "स्किन्स", "l_card": "उत्पाद कार्ड", "l_page": "SIGNAL SKIN पेज", "getblock": "ब्लॉक पाएं:"}};
+var URLS = {"skins": "https://cumulativewebinc.github.io/cwi-learn/skin/skins.json", "card": "https://cumulativewebinc.github.io/cwi-learn/skin/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/skin/"};
+var HANDOFF = "CWI-HANDOFF gear=signal-skin from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.skins, t.l_skins) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>

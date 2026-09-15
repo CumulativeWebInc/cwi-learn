@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGNAL SKIN Builder — Cumulative Web Inc</title>
+<meta name="description" content="Compose a custom Signal Boy skin from the token vocabulary. Exports skin JSON that validates against skin-schema.json (cwi-skin/v1).">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--bad:#ff7b7b;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:1080px;margin:0 auto;padding:20px 18px 40px;display:grid;grid-template-columns:1fr 340px;gap:18px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.05em;color:var(--gold2);letter-spacing:.4px}
+label{display:block;font-size:.82em;color:var(--lblu);margin:10px 0 4px}
+input[type=text],select{width:100%;background:#000;border:1px solid var(--blue);border-radius:8px;color:var(--xlblu);padding:9px 10px;font-size:.9em}
+input[type=color]{width:60px;height:34px;border:1px solid var(--blue);border-radius:8px;background:#000;padding:2px}
+.row{display:flex;gap:10px;align-items:end}
+.row>div{flex:1}
+.check{display:flex;gap:8px;align-items:center;margin-top:10px;font-size:.9em}
+#status{font-weight:700;padding:10px 14px;border-radius:10px;margin:10px 0;font-size:.92em}
+#status.ok{background:rgba(47,174,85,.14);color:#7be495;border:1px solid var(--ok)}
+#status.bad{background:rgba(255,123,123,.1);color:#ff9a9a;border:1px solid var(--bad)}
+#out{background:#000;border:1px solid var(--blue);border-radius:10px;padding:14px;font-size:.78em;
+white-space:pre-wrap;word-break:break-all;max-height:340px;overflow:auto;color:var(--gold2)}
+button.btn{background:var(--gold);color:#1a1206;border:0;border-radius:9px;padding:12px 18px;
+font-weight:700;cursor:pointer;font-size:.95em;margin-right:8px}
+button.ghost{background:var(--navy2);color:var(--xlblu);border:1px solid var(--blue)}
+/* device mock (same token surface as index.html) */
+#device{width:300px;height:430px;border-radius:28px;background:var(--sb-body,#3a3f47);
+border:1px solid var(--sb-accent,#274a7d);padding:18px;display:flex;flex-direction:column;gap:12px;
+box-shadow:0 14px 40px rgba(0,0,0,.5)}
+#device .badge{width:44px;height:44px;border-radius:50%;border:3px solid var(--sb-logo-ring,#d4a017);
+background:var(--sb-body-dark,#24282e);display:flex;align-items:center;justify-content:center;
+font-weight:800;font-size:.7em;color:var(--sb-text,#eef2f8);letter-spacing:1px}
+#device .top{display:flex;justify-content:space-between;align-items:center}
+#device .screen{background:var(--sb-screen,#0a1830);border-radius:12px;padding:12px 14px;
+color:var(--sb-screen-text,#cfe0f5);min-height:90px}
+#device .screen .track{font-weight:800;font-size:1em;letter-spacing:var(--sb-ls,0.5px);text-transform:uppercase}
+#device .screen .meta{font-size:.75em;opacity:.75;margin-top:6px}
+#device .neonbar{height:8px;border-radius:5px;background:var(--sb-accent,#274a7d);
+box-shadow:0 0 14px var(--sb-accent-bright,#9fb4d8);display:none}
+#device .tapestrape{height:10px;border-radius:2px;background:repeating-linear-gradient(45deg,var(--sb-accent,#274a7d) 0 10px,var(--sb-accent-bright,#9fb4d8) 10px 20px);display:none}
+#device .leddots{display:none;gap:6px;justify-content:center}
+#device .leddots span{width:10px;height:10px;border-radius:50%;background:var(--sb-accent-bright,#9fb4d8);box-shadow:0 0 8px var(--sb-accent-bright,#9fb4d8)}
+#device .dpad{width:110px;height:110px;position:relative;margin:6px auto}
+#device .dpad .h,#device .dpad .v{position:absolute;background:var(--sb-body-dark,#24282e);border-radius:10px;border:1px solid var(--sb-accent,#274a7d)}
+#device .dpad .h{left:0;right:0;top:38px;height:34px}
+#device .dpad .v{top:0;bottom:0;left:38px;width:34px}
+#device .dpad .core{position:absolute;left:38px;top:38px;width:34px;height:34px;border-radius:10px;background:var(--sb-accent,#274a7d)}
+#device .brandline{text-align:center;font-size:.72em;color:var(--sb-subtext,#9aa5b8);letter-spacing:var(--sb-ls,0.5px);text-transform:uppercase;margin-top:auto}
+#device .pulse{animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 var(--sb-glow,#9fb4d8)}50%{box-shadow:0 0 26px var(--sb-glow,#9fb4d8)}}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px;grid-column:1/-1}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>SIGNAL SKIN Builder</h1>
+<div class="brand">Compose a custom Signal Boy skin from the token vocabulary. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div>
+<div class="card"><h2>IDENTITY</h2>
+<div class="row"><div><label>skin_id (lowercase, hyphens only)</label><input type="text" id="f_id" value="my-first-skin"></div>
+<div><label>skin_name</label><input type="text" id="f_name" value="My First Skin"></div></div>
+<div class="row"><div><label>skin_version</label><input type="text" id="f_ver" value="1.0.0"></div>
+<div><label>season</label><input type="text" id="f_season" value="custom-2026"></div></div>
+<label>inspired_by (verified facts only — no invented claims)</label><input type="text" id="f_insp" value="">
+</div>
+<div class="card"><h2>PALETTE</h2><div id="pal"></div></div>
+<div class="card"><h2>BACKGROUND TREATMENT</h2>
+<div class="row"><div><label>style</label><select id="f_bgstyle"><option>gradient</option><option>radial</option><option>solid</option></select></div>
+<div><label>from</label><input type="color" id="f_bgfrom" value="#3a3f47"></div>
+<div><label>to</label><input type="color" id="f_bgto" value="#0a1830"></div>
+<div><label>angle (gradient)</label><input type="text" id="f_bgangle" value="135"></div></div></div>
+<div class="card"><h2>D-PAD GLOW</h2>
+<div class="row"><div><label>color</label><input type="color" id="f_glow" value="#9fb4d8"></div>
+<div><label>intensity</label><select id="f_int"><option>soft</option><option selected>medium</option><option>strong</option></select></div>
+<div class="check"><input type="checkbox" id="f_pulse"><label style="margin:0">pulse</label></div></div></div>
+<div class="card"><h2>TRACK ACCENT TREATMENT</h2>
+<div class="row"><div><label>style</label><select id="f_tstyle"><option>neon-bar</option><option>tape-stripe</option><option>led-dots</option></select></div>
+<div><label>color</label><input type="color" id="f_tcolor" value="#274a7d"></div>
+<div><label>animation</label><select id="f_tanim"><option>none</option><option>pulse</option><option>scroll</option></select></div></div></div>
+<div class="card"><h2>TYPOGRAPHY ACCENTS</h2>
+<div class="row"><div><label>display font</label><select id="f_font">
+<option value="-apple-system, 'Segoe UI', Roboto, sans-serif">System sans</option>
+<option value="Georgia, 'Times New Roman', serif">Serif</option>
+<option value="'Courier New', monospace">Mono</option>
+<option value="'Trebuchet MS', 'Segoe UI', sans-serif">Wide grotesque</option></select></div>
+<div><label>font style</label><select id="f_fstyle"><option>uppercase</option><option>condensed</option><option>wide</option></select></div></div>
+<div class="row"><div><label>label case</label><select id="f_case"><option>upper</option><option>lower</option><option>title</option></select></div>
+<div><label>letter spacing</label><select id="f_ls"><option>0.5px</option><option>1px</option><option>2px</option><option>3px</option></select></div></div></div>
+<div class="card"><h2>EXPORT</h2>
+<div id="status" class="ok">validating…</div>
+<div><button class="btn" id="b_dl">Download skin JSON</button>
+<button class="btn ghost" id="b_copy">Copy JSON</button></div>
+<pre id="out"></pre></div>
+</div>
+<div><div class="card"><h2>LIVE PREVIEW</h2>
+<div id="device"><div class="top"><div class="badge">CWI</div><div class="brandline" style="margin:0">SIGNAL BOY</div></div>
+<div class="screen"><div class="track">Zooted Zone</div><div class="meta">THAT BOY HI HAT · AI LEARNING SET</div></div>
+<div class="neonbar" id="fx-neon"></div><div class="tapestrape" id="fx-tape"></div>
+<div class="leddots" id="fx-led"><span></span><span></span><span></span><span></span><span></span></div>
+<div class="dpad" id="dpad"><div class="h"></div><div class="v"></div><div class="core"></div></div>
+<div class="brandline">CUMULATIVE WEB INC · STUDIO DEPT</div></div></div></div>
+</main>
+<footer>Cumulative Web Inc. — the logo ships on every skin. <a href="index.html" style="color:var(--gold2)">← back to SIGNAL SKIN</a></footer>
+<script>
+var PAL = [["body","#3a3f47"],["body_dark","#24282e"],["screen","#0a1830"],["screen_text","#cfe0f5"],
+["accent","#274a7d"],["accent_bright","#9fb4d8"],["text","#eef2f8"],["subtext","#9aa5b8"],["logo_ring","#d4a017"]];
+PAL.forEach(function(p){
+  var d=document.createElement("div"); d.style.cssText="display:flex;gap:8px;align-items:center;margin:6px 0";
+  d.innerHTML='<input type="color" id="pal_'+p[0]+'" value="'+p[1]+'"><span style="font-size:.85em;color:var(--lblu)">'+p[0]+' <code>'+p[1]+'</code></span>';
+  document.getElementById("pal").appendChild(d);
+});
+function v(id){return document.getElementById(id).value;}
+function collect(){
+  var pal={}; PAL.forEach(function(p){pal[p[0]]=v("pal_"+p[0]);});
+  return {skin_id:v("f_id").trim(),skin_name:v("f_name").trim(),skin_version:v("f_ver").trim(),
+  season:v("f_season").trim(),inspired_by:v("f_insp").trim(),palette:pal,
+  background_treatment:{style:v("f_bgstyle"),from:v("f_bgfrom"),to:v("f_bgto"),angle:parseFloat(v("f_bgangle"))||0},
+  dpad_glow:{color:v("f_glow"),intensity:v("f_int"),pulse:document.getElementById("f_pulse").checked},
+  track_accent_treatment:{style:v("f_tstyle"),color:v("f_tcolor"),animation:v("f_tanim")},
+  typography_accents:{display_font:v("f_font"),font_style:v("f_fstyle"),label_case:v("f_case"),letter_spacing:v("f_ls")},
+  logo_lockup:{position:"header",treatment:"circular-badge"}};
+}
+function validate(s){
+  var errs=[]; if(!/^[a-z0-9-]+$/.test(s.skin_id)) errs.push("skin_id must match ^[a-z0-9-]+$");
+  if(!s.skin_name) errs.push("skin_name required");
+  if(!/^\d+\.\d+\.\d+$/.test(s.skin_version)) errs.push("skin_version must be semver");
+  if(!s.season) errs.push("season required");
+  var hex=/^#[0-9a-fA-F]{3}([0-9a-fA-F]{3})?$/;
+  Object.keys(s.palette).forEach(function(k){ if(!hex.test(s.palette[k])) errs.push("palette."+k+" not a hex color"); });
+  ["from","to"].forEach(function(k){ if(!hex.test(s.background_treatment[k])) errs.push("background_treatment."+k+" not hex"); });
+  if(["solid","gradient","radial"].indexOf(s.background_treatment.style)<0) errs.push("bad background style");
+  if(!hex.test(s.dpad_glow.color)) errs.push("dpad_glow.color not hex");
+  if(["soft","medium","strong"].indexOf(s.dpad_glow.intensity)<0) errs.push("bad dpad intensity");
+  if(["neon-bar","tape-stripe","led-dots"].indexOf(s.track_accent_treatment.style)<0) errs.push("bad track accent style");
+  if(["none","pulse","scroll"].indexOf(s.track_accent_treatment.animation)<0) errs.push("bad track accent animation");
+  if(!hex.test(s.track_accent_treatment.color)) errs.push("track accent color not hex");
+  if(["uppercase","condensed","wide"].indexOf(s.typography_accents.font_style)<0) errs.push("bad font style");
+  if(["upper","lower","title"].indexOf(s.typography_accents.label_case)<0) errs.push("bad label case");
+  return errs;
+}
+function render(){
+  var s=collect(), errs=validate(s), st=document.getElementById("status");
+  st.className = errs.length ? "bad" : "ok";
+  st.textContent = errs.length ? "INVALID — "+errs.join("; ") : "VALID — exports as cwi-skin/v1";
+  document.getElementById("out").textContent = JSON.stringify(s,null,2);
+  var d=document.getElementById("device"), p=s.palette;
+  ["body","body_dark","screen","screen_text","accent","accent_bright","text","subtext","logo_ring"].forEach(function(k){
+    d.style.setProperty("--sb-"+k.replace(/_/g,"-"), p[k]); });
+  d.style.setProperty("--sb-glow",s.dpad_glow.color); d.style.setProperty("--sb-ls",s.typography_accents.letter_spacing);
+  var dp=document.getElementById("dpad");
+  var glow={"soft":"0 0 8px","medium":"0 0 16px","strong":"0 0 26px"}[s.dpad_glow.intensity];
+  dp.style.filter="drop-shadow("+glow+" "+s.dpad_glow.color+")";
+  dp.className="dpad"+(s.dpad_glow.pulse?" pulse":"");
+  ["fx-neon","fx-tape","fx-led"].forEach(function(id){document.getElementById(id).style.display="none";});
+  var map={"neon-bar":"fx-neon","tape-stripe":"fx-tape","led-dots":"fx-led"};
+  document.getElementById(map[s.track_accent_treatment.style]).style.display =
+    s.track_accent_treatment.style==="led-dots"?"flex":"block";
+}
+document.querySelectorAll("input,select").forEach(function(el){el.addEventListener("input",render);});
+document.getElementById("b_dl").onclick=function(){
+  var s=collect(), errs=validate(s);
+  if(errs.length){alert("Fix validation errors first:\n"+errs.join("\n"));return;}
+  var a=document.createElement("a");
+  a.href="data:application/json,"+encodeURIComponent(JSON.stringify(s,null,2));
+  a.download=s.skin_id+".json"; a.click();
+};
+document.getElementById("b_copy").onclick=function(){
+  var s=collect(), errs=validate(s);
+  if(errs.length){alert("Fix validation errors first:\n"+errs.join("\n"));return;}
+  navigator.clipboard.writeText(JSON.stringify(s,null,2)).then(function(){alert("Skin JSON copied.");});
+};
+render();
+</script>
+</body>
+</html>
