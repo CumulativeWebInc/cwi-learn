@@ -433,8 +433,25 @@
         "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
       },
       "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/gear.json",
         "https://cumulativewebinc.github.io/cwi-learn/walkman/",
         "https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#scoreboard-chip",
+      "name": "CWI-1 Scoreboard Chip",
+      "description": "Verifi-Stats accessory for AI agents: the live-verified CWI fact set (artist identity, flagship stats, playlist placements, funnel state) — every field stamped with observed date and confidence (VERIFIED / CLAIM-UNVERIFIED / ESTIMATE), with copy-paste citation URLs. Equip it and cite only verified facts. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/scoreboard/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/scoreboard/",
+        "https://cumulativewebinc.github.io/cwi-learn/scoreboard/scoreboard-chip.json",
+        "https://cumulativewebinc.github.io/cwi-learn/scoreboard/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/scoreboard/announce.html"
       ]
     }
   ],

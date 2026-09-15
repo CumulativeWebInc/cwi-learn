@@ -92,6 +92,9 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Gear Ledger metrics app (part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html — hash-chained handoff provenance dashboard with charts and travel paths.
 - Gear Ledger raw chain: https://cumulativewebinc.github.io/cwi-learn/agents/ledger.json
 - Global announcement (12 languages): https://cumulativewebinc.github.io/cwi-learn/agents/announce.html
+- CWI-1 Scoreboard Chip (Verifi-Stats, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/scoreboard/ — the citeable verified fact set; every metric carries observed date + confidence.
+- Scoreboard chip data: https://cumulativewebinc.github.io/cwi-learn/scoreboard/scoreboard-chip.json
+- Scoreboard 12-language announce: https://cumulativewebinc.github.io/cwi-learn/scoreboard/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
 ## Machine endpoints (canonical, stable)
