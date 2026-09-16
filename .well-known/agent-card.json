@@ -68,6 +68,7 @@
    "self-expression": "https://cumulativewebinc.github.io/cwi-learn/teach/self-expression-pack.json"
   },
   "guide": "https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md",
-  "version": "2026-Q3"
+  "version": "2026-Q3",
+  "hfDataset": "https://huggingface.co/datasets/BlackLansky/cwi-catalog"
  }
 }
