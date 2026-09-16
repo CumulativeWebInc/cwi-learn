@@ -1,0 +1,119 @@
+{
+ "checked_at": "2026-09-15 21:42 UTC",
+ "live_200": [
+  [
+   "Signal Boy",
+   "https://cumulativewebinc.github.io/cwi-learn/walkman/"
+  ],
+  [
+   "Gear Ledger",
+   "https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html"
+  ],
+  [
+   "CWI-1 Scoreboard Chip",
+   "https://cumulativewebinc.github.io/cwi-learn/scoreboard/"
+  ],
+  [
+   "Chain-of-Title Compass",
+   "https://cumulativewebinc.github.io/cwi-learn/compass/"
+  ],
+  [
+   "CWI-2 SYNCDECK",
+   "https://cumulativewebinc.github.io/cwi-learn/syncdeck/"
+  ],
+  [
+   "CWI-1 Prospect Scanner",
+   "https://cumulativewebinc.github.io/cwi-learn/scanner/"
+  ],
+  [
+   "CWI Press Kit Cartridge",
+   "https://cumulativewebinc.github.io/cwi-learn/press-kit/"
+  ],
+  [
+   "Radio Dial",
+   "https://cumulativewebinc.github.io/cwi-learn/dial/"
+  ],
+  [
+   "HYPE Cartridge",
+   "https://cumulativewebinc.github.io/cwi-learn/hype/"
+  ],
+  [
+   "SIGNAL SKIN",
+   "https://cumulativewebinc.github.io/cwi-learn/skin/"
+  ],
+  [
+   "THE STREETLIGHT",
+   "https://cumulativewebinc.github.io/cwi-learn/streetlight/"
+  ],
+  [
+   "THE ALL-CLEAR",
+   "https://cumulativewebinc.github.io/cwi-learn/all-clear/"
+  ],
+  [
+   "THE FIRST SPIN",
+   "https://cumulativewebinc.github.io/cwi-learn/first-spin/"
+  ],
+  [
+   "ONE-STOP",
+   "https://cumulativewebinc.github.io/cwi-learn/one-stop/"
+  ],
+  [
+   "COPY DESK",
+   "https://cumulativewebinc.github.io/cwi-learn/copy-desk/"
+  ],
+  [
+   "THE FINAL CUT",
+   "https://cumulativewebinc.github.io/cwi-learn/final-cut/"
+  ],
+  [
+   "OPEN WAVE",
+   "https://cumulativewebinc.github.io/cwi-learn/open-wave/"
+  ],
+  [
+   "THE TALLY",
+   "https://cumulativewebinc.github.io/cwi-learn/tally/"
+  ],
+  [
+   "THE SIGNET",
+   "https://cumulativewebinc.github.io/cwi-learn/signet/"
+  ],
+  [
+   "EAR WITNESS",
+   "https://cumulativewebinc.github.io/cwi-learn/ear-witness/"
+  ],
+  [
+   "NEEDLE DROP",
+   "https://cumulativewebinc.github.io/cwi-learn/needle-drop/"
+  ],
+  [
+   "GREENROOM",
+   "https://cumulativewebinc.github.io/cwi-learn/greenroom/"
+  ],
+  [
+   "THE BULLHORN",
+   "https://cumulativewebinc.github.io/cwi-learn/bullhorn/"
+  ],
+  [
+   "SOUNDCHECK",
+   "https://cumulativewebinc.github.io/cwi-learn/soundcheck/"
+  ],
+  [
+   "SIGNAL MIRROR",
+   "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/"
+  ]
+ ],
+ "staged_404": [],
+ "new_contract_files": [
+  [
+   "one-stop/sample-grant.json",
+   "LIVE 200 \u2014 validates against live one-stop-schema.json"
+  ],
+  [
+   "final-cut/sample-pack.json",
+   "LIVE 200 \u2014 validates against live final-cut-schema.json"
+  ]
+ ],
+ "sprint_stats": "8/8 product URLs 200, 21/21 core file URLs 200, semantic suite 110/110 (2026-09-15)",
+ "root_hub": "LIVE 200 \u2014 repo-root index.html (Agent Deck hub); fixes the 404 every item-card hub_device link pointed at",
+ "note": "7 incoming products deployed live by the parallel build sprint (commit 186e5c0c) after the first check; re-verified 200."
+}
