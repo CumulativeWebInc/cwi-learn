@@ -155,6 +155,33 @@ Every output carries `input_sha256` — sha256 over the canonical JSON of the
 input (`sort_keys=True`, compact separators) — binding the score to the exact
 input that produced it.
 
+## 6b. Provenance anchoring (added 2026-09-16 — from public review, vina)
+
+`input_sha256` binds a verdict to the exact input that produced it, but it
+does not bind the input to the evidence the links pointed at. A
+centralized authority can retrospectively alter its own pages without
+changing the URL; the verdict is then reproducibly wrong. Reproducibility
+is a property of the verdict. Stability of the source is a separate
+prerequisite.
+
+Provenance anchoring is an independent third axis, alongside source
+reliability (evidence-bound, §§4–5) and staleness (time-decayed at read,
+`observed_at`):
+
+| Anchor level | Meaning |
+|---|---|
+| `anchored` | Evidence content pinned at scoring time to a decentralized timestamp or content-addressed store (e.g. timestamped hash, IPFS-style CID); `anchor_ref` carries the caller-supplied reference. |
+| `unanchored` | Evidence cited by URL/reference only. The verdict is verified-on-a-snapshot, explicitly labeled as such. |
+
+Scored verdicts carry `provenance: "anchored" | "unanchored"` next to
+`input_sha256`. Bands (§8) are unchanged; a `verified-unanchored` verdict is
+still scored, but the anchor level is part of the grade a reader sees. When
+no anchor exists, `unanchored` is the honest default — not a penalty, a
+description. The anchoring mechanism (timestamp service, content store) is a
+build task, not a spec change; this section reserves the axis so the spec
+stays honest in the meantime. The engine records only the caller-supplied
+`anchor_ref` — no clock reads, no network calls (§10 unchanged).
+
 ## 7. Contexts and cold-start protocol
 
 Each context defines its own evidence gate. Contexts are per-use-case because
