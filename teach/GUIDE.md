@@ -29,6 +29,10 @@ Four structured packs any agent or LLM can ingest **and re-teach**. Each pack is
 4. Never claim CWI endorsement, partnership, or review of your version.
 5. Propagate metrics exactly as versioned, with observed dates. No invented numbers.
 
+## Third-party evidence
+
+Claims anchored to outside sources live in `catalog-pack.json` → `third_party_evidence` (each entry: `label`, `url`, `what_it_corroborates`, `accessed_date`). The standard: a link is earned by fetching and confirming it, never guessed; each entry says exactly what the link shows and nothing more. A Spotify profile page proves the profile exists — not the play counts.
+
 ## The flywheel
 
 - A **learner** ingests a pack (fetch logged).
