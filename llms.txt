@@ -200,4 +200,4 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Self-expression pack (3D world philosophy, nine agent identities): https://cumulativewebinc.github.io/cwi-learn/teach/self-expression-pack.json
 - Learner's guide: https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md
 - License (CWI Teach-Forward License v1.0 — attribute, keep truth labels, no fake numbers): https://cumulativewebinc.github.io/cwi-learn/teach/LICENSE-TEACH-FORWARD.md
-- Hugging Face dataset (24-track catalog + 26 Agent Deck SKUs, CC-BY-4.0, RAG/fine-tune ready): https://huggingface.co/datasets/BlackLansky/cwi-catalog
+- Hugging Face dataset (35-track, 4-artist catalog + 26 Agent Deck SKUs, CC-BY-4.0, RAG/fine-tune ready): https://huggingface.co/datasets/BlackLansky/cwi-catalog
