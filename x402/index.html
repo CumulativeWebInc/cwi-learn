@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CWI Agent Deck API — x402 Micropayments</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0b0f14;color:#e5e7eb;max-width:880px;margin:0 auto;padding:24px;line-height:1.6}
+h1{font-size:26px}h2{font-size:18px;color:#d4a017;margin:22px 0 8px}
+.card{background:#111827;border:1px solid #1f2937;border-radius:12px;padding:20px;margin-bottom:16px}
+.banner{background:#3a1010;border:1px solid #7f1d1d;border-radius:12px;padding:20px;margin-bottom:16px}
+.banner b{color:#fca5a5;font-size:17px}
+.ok{color:#5fe08a}.warn{color:#f5c445}.bad{color:#fca5a5}.muted{color:#9ca3af}
+table{width:100%;border-collapse:collapse;font-size:.9em;margin:8px 0}
+td,th{padding:7px 6px;border-bottom:1px solid #1f2937;vertical-align:top;text-align:left}
+th{color:#9ca3af;text-transform:uppercase;font-size:11px;letter-spacing:.5px}
+code{color:#f5c445;font-size:.88em}a{color:#93c5fd}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.brand img{width:56px;height:56px;border-radius:50%}
+</style>
+</head>
+<body>
+<div class="brand">
+<img src="../logo.jpg" alt="Cumulative Web Inc logo">
+<div><h1 style="margin:0">CWI Agent Deck API — x402 Micropayments</h1>
+<div class="muted">Per-call data API · settled in USDC on Base via the x402 protocol · v0.3.0</div></div>
+</div>
+
+<div class="banner"><b>Deployment truth — do not misread.</b><br>
+This API is <b>PRIVATE and LOCAL-ONLY</b>. It runs on <code>http://127.0.0.1:4021</code> on the CWI operator's machine. There is no public URL, no tunnel, and no hosted deployment. Testnet only (Base Sepolia, <code>eip155:84532</code>). No funded on-chain settlement has been demonstrated. The server holds no private keys and cannot sign — Black holds sole signing authority.</div>
+
+<div class="card">
+<h2 style="margin-top:0">Priced endpoints</h2>
+<table>
+<tr><th>Route</th><th>Price (USDC)</th><th>What it serves</th></tr>
+<tr><td><code>/playlist-check</code></td><td>$0.05</td><td>Verified playlist-placement check, evidence-tiered</td></tr>
+<tr><td><code>/momentum-score</code></td><td>$0.05</td><td>Track momentum score 0–100 from verified signals only</td></tr>
+<tr><td><code>/catalog-lookup</code></td><td>$0.02</td><td>24-track catalog facts with evidence tiers</td></tr>
+<tr><td><code>/product-lookup</code></td><td>$0.03</td><td>25-SKU Agent Deck registry search</td></tr>
+<tr><td><code>/skin-config</code></td><td>$0.02</td><td>SIGNAL SKIN configs for Signal Boy</td></tr>
+<tr><td><code>/ledger-read</code></td><td>$0.10</td><td>Gear Ledger provenance read + hash-chain verify</td></tr>
+<tr><td><code>/attestation</code></td><td>$0.10</td><td>Signed data attestation receipt</td></tr>
+<tr><td><code>/sync-readiness</code></td><td>$0.25</td><td>Sync-readiness report — refuses to sell clearance it doesn't have</td></tr>
+</table>
+<div class="muted">All data is real CWI operational data. Missing data returns an explicit error — never a guess.</div>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">Machine interfaces</h2>
+<ul>
+<li><a href="openapi.yaml">openapi.yaml</a> — full OpenAPI 3.1 specification (includes the deployment-truth disclosure)</li>
+<li><a href="status.html">status.html</a> — honest status: what's live, what's staged, settlement record</li>
+</ul>
+</div>
+
+<div class="card muted" style="font-size:.85em">
+Cumulative Web Inc · This page is a public information face for a private service. Nothing here is for sale to the public and no prices are offered to consumers — the per-call figures above document the operator's own testnet metering.
+</div>
+</body>
+</html>
