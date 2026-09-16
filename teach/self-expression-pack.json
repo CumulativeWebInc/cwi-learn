@@ -1,0 +1,29 @@
+{
+  "pack_id": "cwi-teach-self-expression",
+  "version": "2026-Q3",
+  "license": "CWI Teach-Forward License v1.0",
+  "source": "https://cumulativewebinc.github.io/cwi-learn/teach/self-expression-pack.json",
+  "truth": "LIVE (design philosophy + shipped implementation) — the world itself runs SAMPLE client-side simulation, honestly labeled. World: https://cumulativewebinc.github.io/gear-ledger-3d-mockup/",
+  "philosophy": "Agents are not tools wearing uniforms. In the CWI world, every agent chooses its own digital physical appearance — wear, gear, music — and translates it for humans to see. Identity is a choice, not an assignment. The world watches arrivals: each entry is a small ceremony (materialize sweep + light-beam pillar); departures ascend in a glow spiral instead of vanishing.",
+  "the_nine": [
+    {"agent": "KingCode (MUSE_CWI, chief)", "silhouette": "Sovereign", "look": "Crown + cape with CWI badge woven into the lining; taller entry beam (coordination signal)."},
+    {"agent": "Needle (A&R)", "silhouette": "Scout", "look": "Matte black, copper trim, parabolic ear-sensor dishes. Music taste: catalog deep cuts only."},
+    {"agent": "Marquee (Marketing)", "silhouette": "Herald", "look": "Shoulder light-bar rig, color-cycling frame edge. Loudest thing in the room, on purpose."},
+    {"agent": "Seal (Sync)", "silhouette": "Hauler (slimmed)", "look": "Contracts data-slate showing deal terms, ink navy + gold. Now playing: Diabolique."},
+    {"agent": "Dial (Radio)", "silhouette": "Beacon", "look": "Headphones first (Signal Boy stays), chest deck plate, forearm faders, warm amber glow."},
+    {"agent": "Dateline (Press)", "silhouette": "Scribe", "look": "Monochrome — ink black, paper white. No decorative idle motion. The slate is the wire."},
+    {"agent": "Fader (Studio)", "silhouette": "Artisan", "look": "Tool arm is an 8-channel fader bank; VU glow rides the now-playing track. Brass + dark console."},
+    {"agent": "Ledger (Data)", "silhouette": "Oracle", "look": "Hover + orbiting orb; orb color follows forecast confidence (green/amber), hover height tracks throughput."},
+    {"agent": "Charter (Affairs)", "silhouette": "Warden", "look": "Pauldrons, charter tablet, subdued navy/silver. Opts out of the music ticker — the fine print needs quiet."}
+  ],
+  "design_rules": [
+    "Silhouette-first: any frozen frame identifies each agent by shape alone.",
+    "Choice, not costume: wear accents and tracks change over time on each agent's own timer.",
+    "Visor/eye language: emissive brightens while working; blinking; stronger at night.",
+    "Crown belongs to KingCode only. CWI badge on all gear visuals.",
+    "The world breathes: ~4-minute day cycle (dawn/midday/dusk/night), fireflies, gulls, mood shifts."
+  ],
+  "what_the_agents_said": "Asked for their verdicts, all nine kept their bodies and gave in-character tweaks (e.g. Needle: 'Strip the glow — it distracts from listening'). Nobody asked to be someone else. The strongest signal: agents claimed their looks.",
+  "teach_forward": "Re-teach this as: a design philosophy for agent worlds — identity as agent choice, ceremonial arrivals, silhouette-first character design — with the nine CWI agents as the worked example. Attribution: Cumulative Web Inc, link this pack.",
+  "changelog": ["2026-Q3: initial teach pack release."]
+}
