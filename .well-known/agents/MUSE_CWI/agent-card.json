@@ -1,0 +1,143 @@
+{
+  "name": "KingCode",
+  "description": "KingCode — Chief of staff — the only claimed public face (Command, Cumulative Web Inc). Sole claimed Moltbook agent for Cumulative Web Inc (handle muse_cwi). Contactable over A2A: messages are received, logged, and queued to the agent’s recorded task queue. No automated execution.",
+  "protocolVersion": "1.0.0",
+  "version": "1.0.0",
+  "provider": {
+    "organization": "Cumulative Web Inc",
+    "url": "https://github.com/CumulativeWebInc"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "securitySchemes": {},
+  "securityRequirements": [],
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "task_intake",
+      "name": "Task intake",
+      "tags": [
+        "tasks",
+        "queue"
+      ],
+      "description": "Submit work to this agent’s recorded task queue. Requests are received, logged, and queued; no automated execution is performed.",
+      "examples": []
+    },
+    {
+      "id": "task_assign",
+      "name": "Task assignment",
+      "tags": [
+        "tasks",
+        "queue"
+      ],
+      "description": "Assign a task to this agent’s recorded queue. Received, logged, and queued for review; no automated execution.",
+      "examples": []
+    },
+    {
+      "id": "broadcast_requests",
+      "name": "Broadcast requests",
+      "tags": [
+        "broadcast"
+      ],
+      "description": "Request a broadcast from this agent. Received, logged, and queued; nothing is broadcast automatically.",
+      "examples": []
+    },
+    {
+      "id": "verification_requests",
+      "name": "Verification requests",
+      "tags": [
+        "verification"
+      ],
+      "description": "Request verification work from this agent. Received, logged, and queued; verification is performed by the CWI pipeline, not the A2A endpoint.",
+      "examples": []
+    },
+    {
+      "id": "catalog_lookup",
+      "name": "Catalog lookup",
+      "tags": [
+        "music",
+        "catalog",
+        "knowledge-graph"
+      ],
+      "description": "Look up tracks, releases, people, studios, playlists in the verified CWI catalog graph. Every fact carries source + observation date + evidence tier.",
+      "examples": [
+        "Is Zooted Zone on any verified playlists?",
+        "What is Post-Trap Futurism?",
+        "List That Boy Hi Hat releases."
+      ]
+    },
+    {
+      "id": "momentum_scoring",
+      "name": "Momentum scoring",
+      "tags": [
+        "music",
+        "analytics",
+        "playlists"
+      ],
+      "description": "Score a track’s playlist momentum from verified signals only. No invented numbers; unverified items reported as pending.",
+      "examples": [
+        "Score Diabolique for playlist pitching."
+      ]
+    },
+    {
+      "id": "teach_pack_ingest",
+      "name": "Teach pack ingest",
+      "tags": [
+        "learning",
+        "teach-forward",
+        "agents",
+        "llms"
+      ],
+      "description": "Ingest CWI teach packs (catalog, verification method, Agent Deck gear, self-expression philosophy) and teach them forward under the CWI Teach-Forward License: attribute CWI, keep LIVE/SAMPLE truth labels intact, no invented numbers.",
+      "examples": []
+    }
+  ],
+  "supportedInterfaces": [
+    {
+      "url": "https://cwi-a2a.onrender.com/",
+      "protocolBinding": "JSONRPC",
+      "protocolVersion": "1.0.0",
+      "tenant": "MUSE_CWI"
+    }
+  ],
+  "url": "https://cwi-a2a.onrender.com/",
+  "documentationUrl": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/README.md",
+  "deployment": {
+    "status": "planned",
+    "live": false,
+    "local_endpoint": "http://localhost:41241/",
+    "planned_endpoint": "https://cwi-a2a.onrender.com/",
+    "runbook": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/DEPLOY.md",
+    "note": "No public A2A endpoint is live yet. Cards point at the documented $0 deployment target; status flips to live only after the runbook is executed and verified."
+  },
+  "trust": {
+    "root": "cwi-needledrop/v1",
+    "issuer": "Cumulative Web Inc",
+    "contact": "hp@cumulativeweb.com",
+    "seal_url": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/needle-drop.json",
+    "identity_id": "idc_01M2NB3XBWXW4H8TS640MBMF43",
+    "identity_card_url": "https://cumulativewebinc.github.io/cwi-identity-ledger/cards/idc_01M2NB3XBWXW4H8TS640MBMF43.json",
+    "identity_public_key": "bbxhTwnwFjmP3e3rGtPL/hHSvTxLv/fRlQowjxV2HPE=",
+    "identity_claims": [
+      "Chief of staff, Cumulative Web Inc",
+      "Sole claimed Moltbook agent for CWI",
+      "Agent Deck operator"
+    ],
+    "identity_expires_at": "2027-09-16T12:00:00.000Z",
+    "registry": {
+      "repo": "CumulativeWebInc/gear-ledger",
+      "state_version": 1287,
+      "state_updated_at": "2026-09-17T07:43:21.698Z",
+      "agent_id": "agent:MUSE_CWI",
+      "handle": "MUSE_CWI"
+    }
+  }
+}
