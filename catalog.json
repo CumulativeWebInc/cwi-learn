@@ -526,5 +526,186 @@
     ],
     "clearance_policy": "Every cue sheet carries clearance status 'amber': not cleared for sync; rights review required before any license. No terms stated. No one-stop / pre-cleared claims, ever. Rights contact: hp@cumulativeweb.com.",
     "note": "Voice-note recording (title unconfirmed) excluded from the public catalog. Spotify IDs linked only on exact-title-verified mappings."
+  },
+  "verified_streams": {
+    "as_of": "2026-09-17",
+    "source": "Spotify for Artists (owner's artist dashboard)",
+    "note": "Totals across all versions per song, all-time.",
+    "total_alltime": 956340,
+    "total_named_tracks": 943848,
+    "track_count_named": 23,
+    "unattributed_version_entries": {
+      "count": 2,
+      "total": 12492,
+      "footnote": "Spotify for Artists showed two additional version-level entries with truncated titles ('Place I Go…' 11722 and 'Rainbows A…' 770) that could not be attributed to full titles, so they are counted in total_alltime but not listed as tracks."
+    },
+    "tracks": [
+      {
+        "title": "Zooted Zone",
+        "streams": 316402
+      },
+      {
+        "title": "Broken Hearts Club",
+        "streams": 255301
+      },
+      {
+        "title": "Doves & Diamonds",
+        "streams": 132183
+      },
+      {
+        "title": "Place I Go to Dream",
+        "streams": 46889
+      },
+      {
+        "title": "Shaka Zulu",
+        "streams": 27884
+      },
+      {
+        "title": "Rainbows And Roses",
+        "streams": 26567
+      },
+      {
+        "title": "Warped & Wicked",
+        "streams": 25004
+      },
+      {
+        "title": "Neon Nights Pt. 777",
+        "streams": 22003
+      },
+      {
+        "title": "Golden Diamond",
+        "streams": 19874
+      },
+      {
+        "title": "Diabolique",
+        "streams": 19031
+      },
+      {
+        "title": "7th Angel",
+        "streams": 18768
+      },
+      {
+        "title": "Scorpion & Sapphires",
+        "streams": 16369
+      },
+      {
+        "title": "Flex My Flame",
+        "streams": 8121
+      },
+      {
+        "title": "Tears and Scars",
+        "streams": 4182
+      },
+      {
+        "title": "Spirits n Shadows",
+        "streams": 2257
+      },
+      {
+        "title": "Flamerz",
+        "streams": 913
+      },
+      {
+        "title": "Phantasm",
+        "streams": 858
+      },
+      {
+        "title": "Roses over Monaco",
+        "streams": 425
+      },
+      {
+        "title": "Smokin' Pain",
+        "streams": 261
+      },
+      {
+        "title": "Ultimate",
+        "streams": 238
+      },
+      {
+        "title": "Misfits and Hooligans",
+        "streams": 207
+      },
+      {
+        "title": "Painted Lady",
+        "streams": 73
+      },
+      {
+        "title": "Toxic Element",
+        "streams": 38
+      }
+    ]
+  },
+  "platform_presence": {
+    "as_of": "2026-09-17",
+    "spotify": {
+      "status": "present",
+      "artist_url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7"
+    },
+    "apple_music": {
+      "status": "present",
+      "collections": 24,
+      "artist_url": "https://music.apple.com/us/artist/that-boy-hi-hat/1590210881"
+    },
+    "deezer": {
+      "status": "present",
+      "releases": 20,
+      "fans": 2,
+      "artist_url": "https://www.deezer.com/artist/148421152"
+    },
+    "amazon_music": {
+      "status": "present",
+      "items": 32,
+      "gaps": [
+        "Idol or Icon",
+        "NO SKIPS"
+      ]
+    },
+    "pandora": {
+      "status": "partial",
+      "detail": "Only Diabolique track page indexed"
+    },
+    "shazam": {
+      "status": "present",
+      "tracks_confirmed": 10
+    },
+    "tidal": {
+      "status": "unindexed",
+      "detail": "Not publicly indexed as of 2026-09-17"
+    }
+  },
+  "youtube": {
+    "as_of": "2026-09-17",
+    "channels": [
+      {
+        "name": "ThatBoyHiHatVEVO",
+        "channel_id": "UCgDvxt08hUOtij4dVfoahcw",
+        "videos": 9
+      },
+      {
+        "name": "That Boy Hi Hat - Topic",
+        "channel_id": "UCdlSWhZXKKNPhjXDknHzzpQ",
+        "videos": 20
+      }
+    ],
+    "top_videos": [
+      {
+        "title": "Doves & Diamonds",
+        "views_topic": 673,
+        "views_vevo": 233
+      },
+      {
+        "title": "Broken Hearts Club",
+        "views_combined": 143
+      },
+      {
+        "title": "Zooted Zone",
+        "views_combined_topic": 154
+      },
+      {
+        "title": "Ultimate",
+        "kind": "official_video",
+        "url": "https://www.youtube.com/watch?v=rjS8DptYwww",
+        "views": 83
+      }
+    ]
   }
 }
