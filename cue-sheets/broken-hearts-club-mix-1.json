@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-broken-hearts-club-mix-1",
+  "title": "Broken Hearts Club (Mix 1)",
+  "artist": {
+    "name": null,
+    "tier": "UNCONFIRMED",
+    "note": "Title string 'Broken Hearts Club (Mix 1)' verified as canonical (2026-09-17). Artist attribution unconfirmed — do not assert."
+  },
+  "spotify": {
+    "id": null,
+    "url": null,
+    "verified": false,
+    "tier": "UNCONFIRMED",
+    "note": "No verified Spotify ID; not present in the 24-track catalog. Unreleased as far as the catalog record shows."
+  },
+  "mix": "Mix 1",
+  "duration_s": 188,
+  "duration_note": "Measured 2026-09-17 from Broken_Hearts_Club_Mix_1.mp3.",
+  "audio": {
+    "tempo_bpm": {
+      "value": 110,
+      "confidence": 0.641,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "quote_allowed": true,
+      "note": ""
+    },
+    "key": {
+      "value": "A minor",
+      "correlation": 0.351,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "note": "Key tentative (0.351 correlation)."
+    },
+    "loudness": {
+      "lufs_integrated": -9.2,
+      "true_peak_dbtp": 0.8,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (EBU R128)"
+    },
+    "energy": {
+      "value": "high",
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17",
+      "note": "Analyzer energy bucket for the measured file."
+    }
+  },
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "UNCONFIRMED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [],
+  "placements": [],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "Not in the 24-track AI Learning Set and no verified Spotify ID — treat as unreleased/SAMPLE material."
+  ]
+}

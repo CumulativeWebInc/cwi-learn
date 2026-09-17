@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CWI Catalog Cue Sheet",
+  "version": "1.0.0",
+  "description": "Machine-readable cue sheet for one catalog track. Every factual value carries an evidence tier. Tiers: VERIFIED (traced to a live check or the published CWI record), UNVERIFIED (published but not re-checked), UNCONFIRMED (single-source / ambiguous, do not assert), SAMPLE (in-house estimate or demo, never a commitment). Standing rules: scene_use and instrumentation are NEVER inferred (status 'unassessed'); clearance is 'amber' for every track (no one-stop / pre-cleared claims, no terms); lyrics are never published from machine drafts.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "cue_id",
+    "title",
+    "artist",
+    "spotify",
+    "audio",
+    "genre",
+    "mood_tags",
+    "scene_use",
+    "instrumentation",
+    "lyrics",
+    "credits",
+    "placements",
+    "clearance",
+    "related",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "cue_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tier": {
+          "enum": [
+            "VERIFIED",
+            "UNVERIFIED",
+            "UNCONFIRMED",
+            "SAMPLE"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "spotify": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "tier": {
+          "enum": [
+            "VERIFIED",
+            "UNVERIFIED",
+            "UNCONFIRMED",
+            "SAMPLE"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "mix": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "duration_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "duration_note": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "object"
+    },
+    "third_party_audio_features": {
+      "type": "object"
+    },
+    "genre": {
+      "type": "array"
+    },
+    "mood_tags": {
+      "type": "array"
+    },
+    "mood_note": {
+      "type": "string"
+    },
+    "scene_use": {
+      "type": "object"
+    },
+    "instrumentation": {
+      "type": "object"
+    },
+    "lyrics": {
+      "type": "object"
+    },
+    "credits": {
+      "type": "array"
+    },
+    "placements": {
+      "type": "array"
+    },
+    "clearance": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "amber"
+          ]
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "terms": {
+          "type": "string"
+        },
+        "rights_contact": {
+          "type": "string"
+        }
+      }
+    },
+    "related": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

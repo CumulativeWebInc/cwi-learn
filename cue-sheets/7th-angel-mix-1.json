@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-7th-angel-mix-1",
+  "title": "7th Angel",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "tier": "VERIFIED",
+    "note": "Artist of record."
+  },
+  "spotify": {
+    "id": "2dvfN5rFyQO69qmb5oYlRG",
+    "url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+    "verified": true,
+    "tier": "VERIFIED",
+    "note": "Verified Spotify ID for catalog title '7th Angel' (audio-features cross-check 2026-09-16)."
+  },
+  "mix": "Mix 1",
+  "duration_s": 240,
+  "duration_note": "Measured 2026-09-17 from 7th_Angel_Mix_1.mp3.",
+  "audio": {
+    "tempo_bpm": {
+      "value": 85,
+      "confidence": 0.515,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "quote_allowed": true,
+      "note": ""
+    },
+    "key": {
+      "value": "A# minor",
+      "correlation": 0.455,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "note": ""
+    },
+    "loudness": {
+      "lufs_integrated": -11.3,
+      "true_peak_dbtp": 0.9,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (EBU R128)"
+    },
+    "energy": {
+      "value": "high",
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17",
+      "note": "Analyzer energy bucket for the measured file."
+    }
+  },
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "VERIFIED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [],
+  "placements": [],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "Canonical title: '7th Angel (Mix 1)' (2026-09-17)."
+  ]
+}

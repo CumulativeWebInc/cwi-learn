@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-spirits-n-shadows",
+  "title": "Spirits n Shadows",
+  "artist": {
+    "name": "Mas",
+    "tier": "UNCONFIRMED",
+    "note": "Canonical title 'Mas – Spirits n Shadows' (2026-09-17); Spotify catalog lists the same-titled track under That Boy Hi Hat. Artist attribution unconfirmed — do not assert."
+  },
+  "spotify": {
+    "id": "2tEdW6WKfcs2NGI6OIvAm6",
+    "url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+    "verified": true,
+    "tier": "VERIFIED",
+    "note": "Verified Spotify ID for catalog title 'Spirits n Shadows' (audio-features cross-check 2026-09-16)."
+  },
+  "mix": null,
+  "duration_s": 198,
+  "duration_note": "Measured 2026-09-17 from Mas__Spirits_n_Shadows.mp3.",
+  "audio": {
+    "tempo_bpm": {
+      "value": 157,
+      "confidence": 0.471,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "quote_allowed": true,
+      "note": "Double-time feel outlier in the batch."
+    },
+    "key": {
+      "value": "C major",
+      "correlation": 0.558,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "note": ""
+    },
+    "loudness": {
+      "lufs_integrated": -10.3,
+      "true_peak_dbtp": 0.7,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (EBU R128)"
+    },
+    "energy": {
+      "value": "high",
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17",
+      "note": "Loud master; peak just over 0 dBTP."
+    }
+  },
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "UNCONFIRMED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [],
+  "placements": [],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "Machine-draft lyric transcription exists (rough, unpublished) — lyrics need Black's ear before publication."
+  ]
+}

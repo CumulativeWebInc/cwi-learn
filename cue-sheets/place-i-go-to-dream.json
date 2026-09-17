@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-place-i-go-to-dream",
+  "title": "Place I Go To Dream",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "tier": "VERIFIED",
+    "note": "Artist of record."
+  },
+  "spotify": {
+    "id": "3KX10tZBft6gp2Nea9HZOB",
+    "url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+    "verified": true,
+    "tier": "VERIFIED",
+    "note": "Verified Spotify ID for catalog title 'Place I Go to Dream' (audio-features cross-check 2026-09-16)."
+  },
+  "mix": null,
+  "duration_s": 168,
+  "duration_note": "Measured 2026-09-17 from Place_I_Go_To_Dream.mp3.",
+  "audio": {
+    "tempo_bpm": {
+      "value": 85,
+      "confidence": 0.531,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "quote_allowed": true,
+      "note": "Corroborated: ReccoBeats reports 84.979 BPM for the separate 'Remastered' master (third-party, 2026-09-16)."
+    },
+    "key": {
+      "value": "A# major",
+      "correlation": 0.623,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "note": ""
+    },
+    "loudness": {
+      "lufs_integrated": -9.1,
+      "true_peak_dbtp": 1.1,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (EBU R128)"
+    },
+    "energy": {
+      "value": "high",
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17",
+      "note": "Widest dynamic range in the batch (11.5 LU) — most breathing room."
+    }
+  },
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "VERIFIED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [],
+  "placements": [],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [
+    {
+      "relation": "alternate_master",
+      "title": "Place I Go to Dream - Remastered",
+      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+      "tier": "VERIFIED",
+      "note": "Separate master on Spotify. ReccoBeats third-party features: 84.979 BPM, C# major (2026-09-16). Do not conflate with this measured mix."
+    },
+    {
+      "relation": "alternate_version",
+      "title": "Place I Go to Dream - Instrumental",
+      "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
+      "tier": "VERIFIED",
+      "note": "Title is Spotify metadata only (URL verified 2026-09-15); not an asserted licensable instrumental. See correction slip-0003: llms.txt previously stated no instrumental versions exist."
+    }
+  ],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "Canonical title: 'Place I Go To Dream' (2026-09-17)."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-diabolique-louder",
+  "title": "Diabolique (Louder)",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "tier": "VERIFIED",
+    "note": "Artist of record."
+  },
+  "spotify": {
+    "id": "2eSyWmIdPzEMyWejLb2LBj",
+    "url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+    "verified": true,
+    "tier": "VERIFIED",
+    "note": "Verified against the live Spotify API 2026-09-16. This ID is DIABOLIQUE's — never use it for Zooted Zone (see correction slip-0001)."
+  },
+  "mix": "Louder",
+  "duration_s": 156,
+  "duration_note": "Measured 2026-09-17 from Diabolique_Louder.mp3. Measurements cover the 'Louder' mix variant.",
+  "audio": {
+    "tempo_bpm": {
+      "value": 77,
+      "confidence": null,
+      "tier": "VERIFIED",
+      "source": "catalog Cyanite measurement",
+      "quote_allowed": true,
+      "note": "Catalog Cyanite value (77 BPM) SUPERSEDES the in-house estimate (102 BPM, 0.79 conf, D minor) for catalog purposes. Both are recorded; Cyanite wins."
+    },
+    "key": {
+      "value": "G# minor",
+      "correlation": null,
+      "tier": "VERIFIED",
+      "source": "catalog Cyanite measurement",
+      "note": "Catalog Cyanite value supersedes the in-house D minor estimate (0.444 correlation)."
+    },
+    "loudness": {
+      "lufs_integrated": -12.6,
+      "true_peak_dbtp": 0.1,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (EBU R128)"
+    },
+    "energy": {
+      "value": "high",
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17",
+      "note": "Analyzer energy bucket for the measured file."
+    }
+  },
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "VERIFIED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [
+    {
+      "role": "producer",
+      "name": "Hybrid (with Black Lansky)",
+      "tier": "VERIFIED",
+      "source": "cwi-learn/llms.txt verified-collaborators (2026-09-15)",
+      "note": "Black Lansky is co-producer on Diabolique."
+    },
+    {
+      "role": "recording_studio",
+      "name": "Cue Recording Studio, Arlington, Virginia",
+      "tier": "VERIFIED",
+      "source": "Owner-confirmed 2026-09-15 (official position for all sync one-sheets)",
+      "note": "Official position: Diabolique was recorded at Cue Recording Studio, Arlington, Virginia."
+    },
+    {
+      "role": "engineer",
+      "name": "Blaine Misner",
+      "tier": "VERIFIED",
+      "source": "cwi-learn/llms.txt verified-collaborators (2026-09-15)",
+      "note": "Recording/mastering engineer at Cue Recording Studios (per Cue's own pages + SoundBetter)."
+    }
+  ],
+  "placements": [],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "In-house estimate for reference only: 102 BPM (0.79), D minor (0.444) — superseded by Cyanite for catalog use."
+  ]
+}

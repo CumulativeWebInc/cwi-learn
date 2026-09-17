@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-warped-and-wicked",
+  "title": "Warped & Wicked",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "tier": "VERIFIED",
+    "note": "Catalog artist of record for 'Warped and Wicked'."
+  },
+  "spotify": {
+    "id": "3w4RKguHAT2xd9K0w5CklC",
+    "url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+    "verified": true,
+    "tier": "VERIFIED",
+    "note": "Verified Spotify ID for catalog title 'Warped and Wicked' (audio-features cross-check 2026-09-16)."
+  },
+  "mix": "Mix 1",
+  "duration_s": 249,
+  "duration_note": "Measured 2026-09-17 from Worked_And_Wicked_Mix1.mp3.",
+  "audio": {
+    "tempo_bpm": {
+      "value": 85,
+      "confidence": 0.491,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "quote_allowed": true,
+      "note": ""
+    },
+    "key": {
+      "value": "D minor",
+      "correlation": 0.617,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (numpy onset-autocorrelation / Krumhansl)",
+      "note": ""
+    },
+    "loudness": {
+      "lufs_integrated": -14.3,
+      "true_peak_dbtp": -0.2,
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17 (EBU R128)"
+    },
+    "energy": {
+      "value": "high",
+      "tier": "SAMPLE",
+      "source": "cwi-in-house-analyzer 2026-09-17",
+      "note": "Analyzer energy bucket for the measured file."
+    }
+  },
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "VERIFIED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [],
+  "placements": [],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "Title corrected by Black 2026-09-17: the filename 'Worked_And_Wicked_Mix1.mp3' is wrong; the title is 'Warped & Wicked'. Use the corrected title in all catalog work."
+  ]
+}

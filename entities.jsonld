@@ -97,7 +97,13 @@
         {
           "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#kokurcho"
         }
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/zooted-zone.json",
+        "name": "CWI catalog cue sheet: Zooted Zone",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -110,7 +116,13 @@
       "sameAs": [
         "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw"
       ],
-      "description": "Shaka Zulu by That Boy Hi Hat. Verified holding #21 on Spotify playlist 'New Rap Hits' (2026-09-15 scan)."
+      "description": "Shaka Zulu by That Boy Hi Hat. Verified holding #21 on Spotify playlist 'New Rap Hits' (2026-09-15 scan).",
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/shaka-zulu.json",
+        "name": "CWI catalog cue sheet: Shaka Zulu",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -145,7 +157,13 @@
         {
           "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#black-lansky"
         }
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/diabolique-louder.json",
+        "name": "CWI catalog cue sheet: Diabolique",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17. Measurements cover the 'Louder' mix variant; catalog Cyanite values (77 BPM, G# minor) supersede in-house estimates."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -211,7 +229,13 @@
       },
       "sameAs": [
         "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/warped-and-wicked.json",
+        "name": "CWI catalog cue sheet: Warped and Wicked",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -223,7 +247,13 @@
       },
       "sameAs": [
         "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/golden-diamond-mix-1.json",
+        "name": "CWI catalog cue sheet: Golden Diamond",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -235,7 +265,13 @@
       },
       "sameAs": [
         "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/spirits-n-shadows.json",
+        "name": "CWI catalog cue sheet: Spirits n Shadows",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -259,7 +295,13 @@
       },
       "sameAs": [
         "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/rainbows-and-roses-mix-1.json",
+        "name": "CWI catalog cue sheet: Rainbows And Roses",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -295,7 +337,13 @@
       },
       "sameAs": [
         "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/7th-angel-mix-1.json",
+        "name": "CWI catalog cue sheet: 7th Angel",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",
@@ -319,7 +367,13 @@
       },
       "sameAs": [
         "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "Dataset",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/place-i-go-to-dream.json",
+        "name": "CWI catalog cue sheet: Place I Go to Dream",
+        "description": "Evidence-tiered machine-readable cue sheet (measurements, credits, placements, amber clearance). Issued 2026-09-17."
+      }
     },
     {
       "@type": "MusicRecording",

@@ -1,0 +1,113 @@
+{
+  "index": "cwi-catalog-cue-sheets",
+  "version": "1.0.0",
+  "issued": "2026-09-17",
+  "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+  "schema": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/cue-sheet-schema.json",
+  "readme": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/README.md",
+  "evidence_tiers": [
+    "VERIFIED",
+    "UNVERIFIED",
+    "UNCONFIRMED",
+    "SAMPLE"
+  ],
+  "clearance_policy": "Every cue sheet carries clearance status 'amber': not cleared for sync; rights review required before any license. No terms stated. No one-stop / pre-cleared claims, ever. Rights contact: hp@cumulativeweb.com",
+  "cue_sheets": [
+    {
+      "cue_id": "cue-zooted-zone",
+      "title": "Zooted Zone",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/zooted-zone.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-shaka-zulu",
+      "title": "Shaka Zulu",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/shaka-zulu.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-warped-and-wicked",
+      "title": "Warped & Wicked",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/warped-and-wicked.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-spirits-n-shadows",
+      "title": "Spirits n Shadows",
+      "artist": "Mas",
+      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/spirits-n-shadows.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-golden-diamond-mix-1",
+      "title": "Golden Diamond",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/golden-diamond-mix-1.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-rainbows-and-roses-mix-1",
+      "title": "Rainbows And Roses",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/rainbows-and-roses-mix-1.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-7th-angel-mix-1",
+      "title": "7th Angel",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/7th-angel-mix-1.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-place-i-go-to-dream",
+      "title": "Place I Go To Dream",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/place-i-go-to-dream.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-diabolique-louder",
+      "title": "Diabolique (Louder)",
+      "artist": "That Boy Hi Hat",
+      "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/diabolique-louder.json",
+      "has_verified_spotify_id": true
+    },
+    {
+      "cue_id": "cue-lp-phantasm-high-hat",
+      "title": "LP Phantasm – High Hat",
+      "artist": null,
+      "spotify_id": null,
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/lp-phantasm-high-hat.json",
+      "has_verified_spotify_id": false
+    },
+    {
+      "cue_id": "cue-neon-nights-mix1",
+      "title": "Neon Nights (MIX1)",
+      "artist": null,
+      "spotify_id": null,
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/neon-nights-mix1.json",
+      "has_verified_spotify_id": false
+    },
+    {
+      "cue_id": "cue-broken-hearts-club-mix-1",
+      "title": "Broken Hearts Club (Mix 1)",
+      "artist": null,
+      "spotify_id": null,
+      "url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/broken-hearts-club-mix-1.json",
+      "has_verified_spotify_id": false
+    }
+  ]
+}

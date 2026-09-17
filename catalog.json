@@ -79,7 +79,8 @@
     {
       "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
       "spotify_url_verified": true,
-      "title": "Zooted Zone"
+      "title": "Zooted Zone",
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/zooted-zone.json"
     },
     {
       "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
@@ -103,7 +104,8 @@
         "true_peak_dbtp": 0.1,
         "energy": "high",
         "notes": "BPM low confidence (0.322); re-checked 2026-09-17 with autocorrelation candidate sweep — 83 confirmed strongest peak. Keep tentative."
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/shaka-zulu.json"
     },
     {
       "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
@@ -144,7 +146,8 @@
         "true_peak_dbtp": 0.1,
         "energy": "high",
         "notes": "BPM/key from Cyanite verified analysis (supersedes conflicting in-house estimate of 102 BPM / D minor). Loudness in-house."
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/diabolique-louder.json"
     },
     {
       "title": "Flamerz",
@@ -222,7 +225,8 @@
         "true_peak_dbtp": -0.2,
         "energy": "high",
         "notes": "TITLE LOCK 2026-09-17: Black corrected filename 'Worked_And_Wicked' -> 'Warped & Wicked'."
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/warped-and-wicked.json"
     },
     {
       "title": "Golden Diamond",
@@ -249,7 +253,8 @@
         "true_peak_dbtp": 0.5,
         "energy": "high",
         "notes": "Key correlation low (0.351-class); tentative."
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/golden-diamond-mix-1.json"
     },
     {
       "title": "Spirits n Shadows",
@@ -276,7 +281,8 @@
         "true_peak_dbtp": 0.7,
         "energy": "high",
         "notes": ""
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/spirits-n-shadows.json"
     },
     {
       "title": "Flex My Flame",
@@ -311,7 +317,8 @@
         "true_peak_dbtp": -0.4,
         "energy": "high",
         "notes": "Cleanest in-house read of the batch."
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/rainbows-and-roses-mix-1.json"
     },
     {
       "title": "Tears and Scars",
@@ -354,7 +361,8 @@
         "true_peak_dbtp": 0.9,
         "energy": "high",
         "notes": ""
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/7th-angel-mix-1.json"
     },
     {
       "title": "Scorpions & Sapphires",
@@ -389,7 +397,8 @@
         "true_peak_dbtp": 1.1,
         "energy": "high",
         "notes": ""
-      }
+      },
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/place-i-go-to-dream.json"
     },
     {
       "title": "Place I Go to Dream - Remastered",
@@ -499,6 +508,23 @@
     "fixed_masters": [
       "LP_Phantasm-High_Hat-FIXED-TP-1.mp3 (-0.5 dBTP, 2026-09-17)"
     ],
-    "machine_draft_lyrics": "12/12 complete 2026-09-17 (faster-whisper base) — drafts only, not published in this surface."
+    "machine_draft_lyrics": "12/12 complete 2026-09-17 (faster-whisper base) — drafts only, not published in this surface.",
+    "cue_sheets_index": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/index.json"
+  },
+  "cue_sheets": {
+    "index_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/index.json",
+    "schema_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/cue-sheet-schema.json",
+    "readme_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/README.md",
+    "issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "track_count": 12,
+    "evidence_tiers": [
+      "VERIFIED",
+      "UNVERIFIED",
+      "UNCONFIRMED",
+      "SAMPLE"
+    ],
+    "clearance_policy": "Every cue sheet carries clearance status 'amber': not cleared for sync; rights review required before any license. No terms stated. No one-stop / pre-cleared claims, ever. Rights contact: hp@cumulativeweb.com.",
+    "note": "Voice-note recording (title unconfirmed) excluded from the public catalog. Spotify IDs linked only on exact-title-verified mappings."
   }
 }
