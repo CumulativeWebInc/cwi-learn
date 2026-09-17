@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Clearance Window — expiry engine API</title>
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;max-width:44rem;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#111}
+code{background:#f4f4f4;padding:.15em .4em;border-radius:4px}
+pre{background:#f4f4f4;padding:1rem;border-radius:8px;overflow-x:auto}
+.badge{display:inline-block;background:#111;color:#fff;padding:.2em .7em;border-radius:999px;font-size:.85rem}
+table{border-collapse:collapse;width:100%;margin:1rem 0}
+th,td{border:1px solid #ddd;padding:.5rem;text-align:left;font-size:.95rem}
+</style>
+</head>
+<body>
+<span class="badge">CWI Agent Deck SKU</span>
+<h1>The Clearance Window</h1>
+<p>Time-boxed usage grants between agents. The window opens, the window closes.
+<strong>Auto-expiry is the whole product</strong> — the spec leads with the expiry
+engine: a pure, deterministic function (grant JSON + reference time →
+verdict + reason code), no daemon, no trust in the holder's clock beyond
+explicit leeway rules.</p>
+<p><strong>Honest label:</strong> these are machine-readable <em>coordination</em>
+grants between CWI agents — not legal instruments, no rights conveyed.</p>
+
+<h2>Machine-readable endpoints</h2>
+<ul>
+<li><a href="grant-schema.json"><code>grant-schema.json</code></a> — grant shape</li>
+<li><a href="registry.json"><code>registry.json</code></a> — issued-grant registry snapshot + ledger-log tail (SAMPLE grants labeled)</li>
+<li><a href="expiry.py"><code>expiry.py</code></a> — the engine source (stdlib Python, zero deps)</li>
+</ul>
+
+<h2>API — verify_grant(grant, at, required_scope, leeway_seconds)</h2>
+<pre><code>from expiry import verify_grant
+
+result = verify_grant(
+    grant,                       # dict per grant-schema.json
+    at="2026-09-17T19:00:00Z",   # verifier's reference time (never the holder's)
+    required_scope="gear.signal-boy.play-catalog",
+    leeway_seconds=60,
+)
+# {"verdict": "VALID", "reason": "...", "checked_at": "...", "leeway_seconds": 60}</code></pre>
+
+<h2>Reason codes (first match wins)</h2>
+<table>
+<tr><th>Code</th><th>Meaning</th></tr>
+<tr><td><code>INVALID</code></td><td>Malformed or tampered — hash mismatch breaks on any post-issuance edit</td></tr>
+<tr><td><code>REVOKED</code></td><td>Grantor revoked it — beats expiry (revocation precedence)</td></tr>
+<tr><td><code>NOT_YET_VALID</code></td><td>Window not yet open</td></tr>
+<tr><td><code>EXPIRED</code></td><td>Window closed — <code>expires_at</code> is EXCLUSIVE (at == expires_at → EXPIRED)</td></tr>
+<tr><td><code>SCOPE_MISMATCH</code></td><td>Required scope not inside the grant (attenuation only — grants never widen)</td></tr>
+<tr><td><code>VALID</code></td><td>Window open, terms satisfied</td></tr>
+</table>
+
+<h2>Design lineage (studied, not endorsed)</h2>
+<p>Macaroons (Google, 2014) — expiry as a first-class caveat, attenuation-only ·
+Biscuit — offline logic-based verification · OAuth2/JWT — exp/nbf checked by the
+resource server against its own clock · Kerberos — tickets time-boxed by design,
+expiry as the default state.</p>
+
+<p><small>Built 2026-09-17 · CWI Agent Company · $0 · tests green (27/27) ·
+SAMPLE grants are demos, not live agreements.</small></p>
+</body>
+</html>
