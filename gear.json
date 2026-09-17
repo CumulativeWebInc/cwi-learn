@@ -1,7 +1,7 @@
 {
   "registry": "Agent Deck — CWI Agent Gear Registry",
-  "version": "1.0.0",
-  "updated": "2026-09-15",
+  "version": "1.1.0",
+  "updated": "2026-09-17",
   "owner": "Cumulative Web Inc",
   "contact": "hp@cumulativeweb.com",
   "items": [
@@ -377,6 +377,50 @@
       "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/rubric.json",
       "product_url": "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/",
       "updated": "2026-09-15",
+      "equipped_by": []
+    },
+    {
+      "name": "THE ERROR BAR",
+      "gear": "error-bar",
+      "department": "data",
+      "category": "claim-validation",
+      "slot": "utility",
+      "version": "1.0.0",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/error-bar/",
+      "updated": "2026-09-17",
+      "equipped_by": []
+    },
+    {
+      "name": "THE SYNC SHELF",
+      "gear": "sync-shelf",
+      "department": "sync",
+      "category": "sync-briefing",
+      "slot": "utility",
+      "version": "1.0.0",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/sync-shelf/",
+      "updated": "2026-09-17",
+      "equipped_by": []
+    },
+    {
+      "name": "THE CORRECTION SLIP",
+      "gear": "correction-slip",
+      "department": "press",
+      "category": "fact-corrections",
+      "slot": "utility",
+      "version": "1.0.0",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/correction-slips/",
+      "updated": "2026-09-17",
+      "equipped_by": []
+    },
+    {
+      "name": "THE CLEARANCE WINDOW",
+      "gear": "clearance-window",
+      "department": "affairs",
+      "category": "usage-grants",
+      "slot": "utility",
+      "version": "1.0.0",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/clearance-window/",
+      "updated": "2026-09-17",
       "equipped_by": []
     }
   ],

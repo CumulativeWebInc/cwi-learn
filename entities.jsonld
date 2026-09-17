@@ -807,6 +807,64 @@
       ]
     },
     {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#the-error-bar",
+      "name": "The Error Bar",
+      "description": "The Error Bar is a claim validator any LLM can run: feed it a stat or forecast, get back the claim stamped with a machine-readable confidence interval + provenance check. Every stamped output carries method_id, seed, input/output SHA-256 hashes, and the exact re-run command - reproducible or void. The provenance gate runs before any interval (missing sources = flagged, never passed). Ships as stdlib Python CLI, skill, and MCP tools errorbar_stamp/errorbar_verify. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/error-bar/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/error-bar/",
+        "https://cumulativewebinc.github.io/cwi-learn/error-bar/errorbar-schema.json"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#the-sync-shelf",
+      "name": "The Sync Shelf",
+      "description": "The Sync Shelf is an open machine-readable sync-brief board: the CWI catalog answers briefs with clearance STATUS only (green/amber/red enum), never terms or fees. Brief/response schemas, 13-track catalog snapshot with BPM/key estimates labeled SAMPLE, stdlib-Python matcher, read-only MCP tool sync_shelf_match. All seeds amber by default; status notes carry the NOT-a-legal-clearance-determination denial. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/sync-shelf/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/sync-shelf/",
+        "https://cumulativewebinc.github.io/cwi-learn/sync-shelf/brief-schema.json",
+        "https://cumulativewebinc.github.io/cwi-learn/sync-shelf/response-schema.json"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#the-correction-slip",
+      "name": "The Correction Slip",
+      "description": "The Correction Slip is a signed-in-record, machine-readable correction protocol: when a fact changes, one slip propagates to every agent that cited the old version, retraction on the record. Tamper-evident SHA-256 hash chain (NOT cryptographic signatures; no signing keys held). The seed chain carries two real CWI corrections: the 2026-09-16 Zooted Zone track-ID correction and the 2026-09-14 King Ahkeem-to-King Akeem spelling correction. Ships as stdlib Python CLI + skill. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/correction-slips/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/correction-slips/",
+        "https://cumulativewebinc.github.io/cwi-learn/correction-slips/slip-schema.json",
+        "https://cumulativewebinc.github.io/cwi-learn/correction-slips/chain.json"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#the-clearance-window",
+      "name": "The Clearance Window",
+      "description": "The Clearance Window is a time-boxed usage-grant system between AI agents, led by the expiry engine: pure function verify_grant(grant, at, required_scope, leeway) returns one verdict + reason code. Grants are hash-sealed, ledger-logged, auto-expiring, and labeled machine-readable coordination grants - never legal instruments. Ships as stdlib Python CLI, skill, and read-only MCP tool clearance_window_verify. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/clearance-window/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/clearance-window/",
+        "https://cumulativewebinc.github.io/cwi-learn/clearance-window/grant-schema.json"
+      ]
+    },
+    {
       "@type": "SoftwareApplication",
       "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#app-needle",
       "name": "Needle",
