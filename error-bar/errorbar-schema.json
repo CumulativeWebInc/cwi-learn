@@ -1,0 +1,207 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "claim_input": {
+      "properties": {
+        "claim": {
+          "description": "the claim text, verbatim",
+          "type": "string"
+        },
+        "claim_type": {
+          "enum": [
+            "stat",
+            "forecast",
+            "proportion"
+          ],
+          "type": "string"
+        },
+        "evidence_tier": {
+          "enum": [
+            "verified",
+            "corroborated",
+            "single-source",
+            "anecdotal",
+            "none"
+          ],
+          "type": "string"
+        },
+        "horizon_days": {
+          "description": "required meaningfully for forecast claims",
+          "type": "number"
+        },
+        "label": {
+          "default": "SAMPLE",
+          "description": "LIVE only for CWI-verified facts; everything else is SAMPLE",
+          "enum": [
+            "SAMPLE",
+            "LIVE"
+          ],
+          "type": "string"
+        },
+        "observed_at": {
+          "description": "ISO-8601, must not be in the future",
+          "type": "string"
+        },
+        "point_estimate": {
+          "type": "number"
+        },
+        "sample_n": {
+          "description": "required for proportion claims",
+          "type": "integer"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "sources": {
+          "items": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "api",
+                  "document",
+                  "human",
+                  "internal-record",
+                  "other"
+                ],
+                "type": "string"
+              },
+              "ref": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "claim",
+        "point_estimate",
+        "claim_type",
+        "evidence_tier"
+      ],
+      "type": "object"
+    },
+    "stamped_output": {
+      "properties": {
+        "claim": {
+          "type": "string"
+        },
+        "claim_type": {
+          "type": "string"
+        },
+        "confidence_tier": {
+          "enum": [
+            "strong",
+            "moderate",
+            "weak",
+            "insufficient-data"
+          ],
+          "type": "string"
+        },
+        "input_sha256": {
+          "type": "string"
+        },
+        "interval": {
+          "properties": {
+            "high": {
+              "type": "number"
+            },
+            "low": {
+              "type": "number"
+            },
+            "method_id": {
+              "type": "string"
+            },
+            "nominal_coverage": {
+              "type": "number"
+            }
+          },
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "label": {
+          "enum": [
+            "SAMPLE",
+            "LIVE"
+          ],
+          "type": "string"
+        },
+        "output_sha256": {
+          "type": "string"
+        },
+        "point_estimate": {
+          "type": "number"
+        },
+        "provenance": {
+          "properties": {
+            "checks": {
+              "type": "array"
+            },
+            "source_count": {
+              "type": "integer"
+            },
+            "status": {
+              "enum": [
+                "pass",
+                "flagged",
+                "insufficient-data"
+              ],
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "reproducibility": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "stamped_at": {
+          "type": "string"
+        },
+        "tool": {
+          "const": "error-bar"
+        },
+        "tool_version": {
+          "type": "string"
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "tool",
+        "tool_version",
+        "claim",
+        "claim_type",
+        "point_estimate",
+        "interval",
+        "confidence_tier",
+        "provenance",
+        "seed",
+        "input_sha256",
+        "output_sha256",
+        "reproducibility",
+        "stamped_at"
+      ],
+      "type": "object"
+    }
+  },
+  "title": "error-bar/1.0.0"
+}

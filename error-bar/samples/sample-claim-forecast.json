@@ -1,0 +1,1 @@
+{"claim":"That Boy Hi Hat will reach 1,000,000 Spotify monthly listeners by 2027-06-30","claim_type":"forecast","evidence_tier":"anecdotal","horizon_days":287,"label":"SAMPLE","observed_at":"2026-09-17T00:00:00Z","point_estimate":1000000,"seed":42,"sources":[{"kind":"human","ref":"SAMPLE SOURCE — label-team growth narrative, no model behind it"}],"unit":"monthly listeners"}
