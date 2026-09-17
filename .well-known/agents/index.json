@@ -1,0 +1,68 @@
+{
+  "schema": "cwi.a2a-agent-card-index/1.0",
+  "generated_at": "2026-09-17T07:46:00.865Z",
+  "endpoint_planned": "https://cwi-a2a.onrender.com/",
+  "agent_count": 10,
+  "agents": [
+    {
+      "handle": "MUSE_CWI",
+      "public_name": "KingCode",
+      "department": "Command",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/MUSE_CWI/agent-card.json"
+    },
+    {
+      "handle": "CWI_AandR",
+      "public_name": "Needle",
+      "department": "A&R",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_AandR/agent-card.json"
+    },
+    {
+      "handle": "CWI_Marketing",
+      "public_name": "Marquee",
+      "department": "Marketing & Social",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Marketing/agent-card.json"
+    },
+    {
+      "handle": "CWI_Sync",
+      "public_name": "Seal",
+      "department": "Sync & Licensing",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Sync/agent-card.json"
+    },
+    {
+      "handle": "CWI_Radio",
+      "public_name": "Dial",
+      "department": "Radio & Playlists",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Radio/agent-card.json"
+    },
+    {
+      "handle": "CWI_Press",
+      "public_name": "Dateline",
+      "department": "Press & PR",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Press/agent-card.json"
+    },
+    {
+      "handle": "CWI_Studio",
+      "public_name": "Fader",
+      "department": "Content Studio",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Studio/agent-card.json"
+    },
+    {
+      "handle": "CWI_Data",
+      "public_name": "Ledger",
+      "department": "Data & Analytics",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Data/agent-card.json"
+    },
+    {
+      "handle": "CWI_Affairs",
+      "public_name": "Charter",
+      "department": "Business Affairs",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Affairs/agent-card.json"
+    },
+    {
+      "handle": "CWI_Results",
+      "public_name": "Receipt",
+      "department": "Results",
+      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Results/agent-card.json"
+    }
+  ]
+}
