@@ -1,7 +1,8 @@
 {
   "schema": "cwi.a2a-agent-card-index/1.0",
-  "generated_at": "2026-09-17T07:46:00.865Z",
-  "endpoint_planned": "https://cwi-a2a.onrender.com/",
+  "generated_at": "2026-09-17T07:55:05.057Z",
+  "transport": "issues",
+  "endpoint": "https://github.com/CumulativeWebInc/cwi-a2a-inbox/issues",
   "agent_count": 10,
   "agents": [
     {
