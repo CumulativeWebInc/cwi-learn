@@ -1,6 +1,6 @@
 {
   "graph_schema": "cwi.graph/1.0",
-  "generated": "2026-09-15",
+  "generated": "2026-09-17",
   "maintainer": "Cumulative Web Inc (CWI_Data)",
   "source_of_truth_note": "Machine-readable mirror of ai-learning-kit/kit.md. Every node carries evidence; status is verified | owner_confirmed | claimed_unverified | promised_unverified.",
   "counts": {
@@ -297,7 +297,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 2,
-        "notes": "Flagship. #21 New Rap Hits (verified 2026-09-15)."
+        "notes": "Flagship. #21 New Rap Hits (verified 2026-09-15).",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "4:11",
+          "bpm": 83,
+          "bpm_source": "in-house (tentative)",
+          "key": "D minor",
+          "key_source": "in-house",
+          "integrated_lufs": -12.3,
+          "true_peak_dbtp": 0.1,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -305,6 +316,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 2; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 83, key D minor, -12.3 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (That_Boy_Hi_Hat-Shaka_Zulu_v1_16bit44.1kHz.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -341,13 +358,30 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 4,
-        "notes": "Single released 2026-07-03. Producer: Hybrid, co-produced with Black (per CWI records). Recorded at Cue Recording Studio, Arlington VA (official position). Also on Apple Music, Amazon Music, YouTube Music, Pandora, Deezer (links in kit.json)."
+        "notes": "Single released 2026-07-03. Producer: Hybrid, co-produced with Black (per CWI records). Recorded at Cue Recording Studio, Arlington VA (official position). Also on Apple Music, Amazon Music, YouTube Music, Pandora, Deezer (links in kit.json).",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "2:36",
+          "bpm": 77,
+          "bpm_source": "Cyanite (verified)",
+          "key": "G# minor",
+          "key_source": "Cyanite (verified)",
+          "integrated_lufs": -12.6,
+          "true_peak_dbtp": 0.1,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
           "claim": "Track identity and link",
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 4; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
+          "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 77, key G# minor, -12.6 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Diabolique_Louder.mp3); BPM/key Cyanite-verified",
+          "observed": "2026-09-17",
           "status": "verified"
         }
       ]
@@ -385,7 +419,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 6,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "3:47",
+          "bpm": 91,
+          "bpm_source": "in-house",
+          "key": "A# major",
+          "key_source": "in-house",
+          "integrated_lufs": -12.8,
+          "true_peak_dbtp": -0.1,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -393,6 +438,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 6; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 91, key A# major, -12.8 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Neon_Nights_MIX1.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -451,7 +502,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 9,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "4:08",
+          "bpm": 85,
+          "bpm_source": "in-house",
+          "key": "D minor",
+          "key_source": "in-house",
+          "integrated_lufs": -14.3,
+          "true_peak_dbtp": -0.2,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -459,6 +521,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 9; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 85, key D minor, -14.3 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Worked_And_Wicked_Mix1.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -473,7 +541,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 10,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "4:03",
+          "bpm": 88,
+          "bpm_source": "in-house",
+          "key": "A# major (tentative)",
+          "key_source": "in-house",
+          "integrated_lufs": -9.6,
+          "true_peak_dbtp": 0.5,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -481,6 +560,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 10; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 88, key A# major (tentative), -9.6 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Golden_Diamond_Mix_1.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -495,7 +580,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 11,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "3:18",
+          "bpm": 157,
+          "bpm_source": "in-house",
+          "key": "C major",
+          "key_source": "in-house",
+          "integrated_lufs": -10.3,
+          "true_peak_dbtp": 0.7,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -503,6 +599,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 11; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 157, key C major, -10.3 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Mas__Spirits_n_Shadows.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -539,7 +641,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 13,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "4:00",
+          "bpm": 85,
+          "bpm_source": "in-house",
+          "key": "A major",
+          "key_source": "in-house",
+          "integrated_lufs": -14.1,
+          "true_peak_dbtp": -0.4,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -547,6 +660,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 13; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 85, key A major, -14.1 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Rainbows_And_Roses_Mix_1.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -605,7 +724,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 16,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "4:00",
+          "bpm": 85,
+          "bpm_source": "in-house",
+          "key": "A# minor",
+          "key_source": "in-house",
+          "integrated_lufs": -11.3,
+          "true_peak_dbtp": 0.9,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -613,6 +743,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 16; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 85, key A# minor, -11.3 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (7th_Angel_Mix_1.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -649,7 +785,18 @@
         "explicit_per_spotify_metadata": false,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 18,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "2:48",
+          "bpm": 85,
+          "bpm_source": "in-house",
+          "key": "A# major",
+          "key_source": "in-house",
+          "integrated_lufs": -9.1,
+          "true_peak_dbtp": 1.1,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -657,6 +804,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 18; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 85, key A# major, -9.1 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (Place_I_Go_To_Dream.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
@@ -737,7 +890,18 @@
         "explicit_per_spotify_metadata": true,
         "performed_by": "That Boy Hi Hat",
         "ai_learning_set_position": 22,
-        "notes": ""
+        "notes": "",
+        "sonic_estimate_2026_09_17": {
+          "method": "in-house analyzer (see catalog.json); estimates only",
+          "duration": "3:55",
+          "bpm": 88,
+          "bpm_source": "in-house",
+          "key": "C major",
+          "key_source": "in-house",
+          "integrated_lufs": -13.0,
+          "true_peak_dbtp": 2.7,
+          "energy": "high"
+        }
       },
       "evidence": [
         {
@@ -745,6 +909,12 @@
           "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 22; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "claim": "Sonic estimates (BPM 88, key C major, -13.0 LUFS)",
+          "source": "in-house batch analysis 2026-09-17 (LP_Phantasm-_High_Hat.mp3)",
+          "observed": "2026-09-17",
+          "status": "estimate"
         }
       ]
     },
