@@ -2,7 +2,7 @@
   {
     "brief_id": "brief_noir_trailer",
     "shelf_version": "1.0.0",
-    "generated_at": "2026-09-17T19:08:18Z",
+    "generated_at": "2026-09-17T19:18:39Z",
     "label": "sample",
     "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
     "matches": [
@@ -50,7 +50,7 @@
   {
     "brief_id": "brief_dawn_road",
     "shelf_version": "1.0.0",
-    "generated_at": "2026-09-17T19:08:18Z",
+    "generated_at": "2026-09-17T19:18:39Z",
     "label": "sample",
     "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
     "matches": [],
@@ -59,7 +59,7 @@
   {
     "brief_id": "brief_double_time",
     "shelf_version": "1.0.0",
-    "generated_at": "2026-09-17T19:08:18Z",
+    "generated_at": "2026-09-17T19:18:39Z",
     "label": "sample",
     "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
     "matches": [
@@ -72,6 +72,147 @@
           "moods: dark",
           "energy: high",
           "bpm: 157 in range 150-170"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      }
+    ]
+  },
+  {
+    "brief_id": "brief_gtavi_radio",
+    "shelf_version": "1.0.0",
+    "generated_at": "2026-09-17T19:18:39Z",
+    "label": "live",
+    "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
+    "matches": [
+      {
+        "track_id": "trk_lp_phantasm",
+        "title": "LP Phantasm - High Hat",
+        "artist": "That Boy Hi Hat",
+        "score": 0.75,
+        "matched_on": [
+          "moods: dark, hypnotic",
+          "energy: high",
+          "bpm: 88 in range 80-110"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_warped_and_wicked",
+        "title": "Warped & Wicked",
+        "artist": "That Boy Hi Hat",
+        "score": 0.5625,
+        "matched_on": [
+          "moods: dark",
+          "energy: high",
+          "bpm: 85 in range 80-110"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_golden_diamond",
+        "title": "Golden Diamond (Mix 1)",
+        "artist": "That Boy Hi Hat",
+        "score": 0.5625,
+        "matched_on": [
+          "moods: confident",
+          "energy: high",
+          "bpm: 88 in range 80-110"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      }
+    ]
+  },
+  {
+    "brief_id": "brief_nba2k27_season",
+    "shelf_version": "1.0.0",
+    "generated_at": "2026-09-17T19:18:39Z",
+    "label": "live",
+    "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
+    "matches": [
+      {
+        "track_id": "trk_shaka_zulu",
+        "title": "Shaka Zulu",
+        "artist": "That Boy Hi Hat",
+        "score": 0.5625,
+        "matched_on": [
+          "moods: triumphant",
+          "energy: high",
+          "bpm: 83 in range 80-165"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_golden_diamond",
+        "title": "Golden Diamond (Mix 1)",
+        "artist": "That Boy Hi Hat",
+        "score": 0.5625,
+        "matched_on": [
+          "moods: confident",
+          "energy: high",
+          "bpm: 88 in range 80-165"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_lp_phantasm",
+        "title": "LP Phantasm - High Hat",
+        "artist": "That Boy Hi Hat",
+        "score": 0.45,
+        "matched_on": [
+          "energy: high",
+          "bpm: 88 in range 80-165"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      }
+    ]
+  },
+  {
+    "brief_id": "brief_fcmobile_vote",
+    "shelf_version": "1.0.0",
+    "generated_at": "2026-09-17T19:18:39Z",
+    "label": "live",
+    "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
+    "matches": [
+      {
+        "track_id": "trk_shaka_zulu",
+        "title": "Shaka Zulu",
+        "artist": "That Boy Hi Hat",
+        "score": 0.75,
+        "matched_on": [
+          "moods: powerful, triumphant",
+          "energy: high",
+          "bpm: 83 in range 75-115"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_lp_phantasm",
+        "title": "LP Phantasm - High Hat",
+        "artist": "That Boy Hi Hat",
+        "score": 0.45,
+        "matched_on": [
+          "energy: high",
+          "bpm: 88 in range 75-115"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_place_i_go_to_dream",
+        "title": "Place I Go To Dream",
+        "artist": "That Boy Hi Hat",
+        "score": 0.45,
+        "matched_on": [
+          "energy: high",
+          "bpm: 85 in range 75-115"
         ],
         "clearance_status": "amber",
         "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
