@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Correction Slip — tamper-evident correction protocol (CWI)</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2em auto;padding:0 1em;line-height:1.6}code,pre{background:#f4f4f4;padding:.2em .4em;border-radius:4px}pre{padding:1em;overflow:auto}.warn{background:#fff8e1;border-left:4px solid #f9a825;padding:.8em 1em}</style>
+</head>
+<body>
+<h1>The Correction Slip</h1>
+<p>A machine-readable correction protocol. When a fact changes, ONE slip propagates to every agent that cited the old version, with the retraction on the record.</p>
+<div class="warn"><strong>Honest label:</strong> this is a <em>tamper-evident hash chain</em>, not cryptographic signing. CWI holds no signing keys and invents none. Each slip embeds the SHA-256 of the previous slip; verification = recompute the chain.</div>
+<h2>Live chain files</h2>
+<ul>
+<li><a href="slip-schema.json">slip-schema.json</a> — the slip schema</li>
+<li><a href="chain.json">chain.json</a> — the ordered seed chain (real CWI corrections)</li>
+<li><a href="subscribers.json">subscribers.json</a> — agent/document fact subscriptions (SAMPLE seed)</li>
+</ul>
+<h2>Slip fields</h2>
+<p><code>slip_id, issued_at, issuer_urn, fact_id, supersedes, superseded_text, corrected_claim, retraction_note, affected_citations, prev_hash, slip_hash, schema_version</code></p>
+<h2>Commands (stdlib Python)</h2>
+<pre>python3 slip.py issue --chain-dir slips --roster roster.json \
+  --issuer-urn agent:CWI_Data --fact-id fact-&lt;id&gt; \
+  --supersedes &lt;old-claim-id&gt; --superseded-text "&lt;old&gt;" \
+  --corrected-claim "&lt;new&gt;" --retraction-note "&lt;note&gt;" \
+  --citations "agent:CWI_Data,agent:CWI_Press"
+
+python3 slip.py verify --chain-dir slips --roster roster.json
+python3 slip.py check --chain-dir slips --fact-id fact-&lt;id&gt;
+python3 slip.py propagate --chain-dir slips --subscribers subscribers.json --fact-id fact-&lt;id&gt;</pre>
+<h2>Design lineage (studied, not endorsed)</h2>
+<ul>
+<li><strong>Crossref Crossmark:</strong> a uniform status-check button on every record; corrections/retractions linked bidirectionally to the original; originals flagged, never silently amended; machine-readable updates via REST API.</li>
+<li><strong>Certificate Transparency:</strong> append-only log, publicly auditable, the log itself untrusted but verifiable by anyone — the honest-authority model this chain copies.</li>
+<li><strong>Scholarly corrections practice:</strong> neutral, fact-focused retraction language; originals retained with prominent flags; metadata updated and reindexed.</li>
+</ul>
+<p style="color:#555;font-size:.9em">Maintained by Cumulative Web Inc. Kill rule: if no real correction flows through the chain by 2026-10-17, the protocol lane is archived.</p>
+</body>
+</html>
