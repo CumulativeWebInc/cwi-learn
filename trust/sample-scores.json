@@ -1,0 +1,1020 @@
+{
+  "engine": "cwi-verdict-engine",
+  "engine_version": "1.0.0",
+  "spec_version": "1.0.0",
+  "generated": "2026-09-15",
+  "honesty_statement": "Every input below is real evidence CWI holds as of 2026-09-15. No scores are invented: where the context gate is not met the engine returns insufficient-data with a null score. Each output was produced by running trust/engine.py on the embedded input snapshot; rerun to verify byte-identical results.",
+  "subjects": [
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "MUSE_CWI",
+          "display_name": "KingCode — CWI chief agent"
+        },
+        "context": "agent-trust",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-claim-20260915",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "MUSE_CWI (KingCode) Moltbook account claimed 2026-09-15: email verified, profile description leads with KingCode. The 8 department agents are registered but unclaimed (one-AI-agent-per-human policy wall).",
+              "status": "verified",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "CWI agent watchlist + Moltbook heartbeat logs, 2026-09-15",
+              "weight_class": 2
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "MUSE_CWI",
+          "display_name": "KingCode — CWI chief agent"
+        },
+        "context": "agent-trust",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "4cdd466780e9378a7b9345f7a861b4427392a3e50091ba6e982ad92d07af5240",
+        "gate": {
+          "min_verified": 3,
+          "verified_found": 1,
+          "min_families": 2,
+          "families_with_verified": [
+            "erc8004"
+          ],
+          "required_families": [
+            "erc8004"
+          ],
+          "required_any_of": [],
+          "rationale": "General trust requires an anchored identity (ERC-8004) plus corroboration from at least one more family.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "verified evidence items: 1 found, 3 required by context 'agent-trust'",
+          "families with verified evidence: 1 found, 2 required by context 'agent-trust'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 1,
+            "kept_count": 1,
+            "kept_weight": 2.0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [
+              "e8004-moltbook-claim-20260915"
+            ],
+            "family_score": 0.4
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "MUSE_CWI",
+          "display_name": "KingCode — CWI chief agent"
+        },
+        "context": "music-review",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-claim-20260915",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "MUSE_CWI (KingCode) Moltbook account claimed 2026-09-15: email verified, profile description leads with KingCode. The 8 department agents are registered but unclaimed (one-AI-agent-per-human policy wall).",
+              "status": "verified",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "CWI agent watchlist + Moltbook heartbeat logs, 2026-09-15",
+              "weight_class": 2
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "MUSE_CWI",
+          "display_name": "KingCode — CWI chief agent"
+        },
+        "context": "music-review",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "77af28ef9c0ffb7d144c5a765fd7c60e907b346bc35f56de637fe89f971fc73a",
+        "gate": {
+          "min_verified": 2,
+          "verified_found": 1,
+          "min_families": 1,
+          "families_with_verified": [
+            "erc8004"
+          ],
+          "required_families": [],
+          "required_any_of": [
+            "first_spin",
+            "needle_drop"
+          ],
+          "rationale": "Music-domain trust requires music-domain evidence: published First Spin verdicts or verified Needle Drop history.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "none of ['first_spin', 'needle_drop'] has verified evidence (context 'music-review' requires at least one)",
+          "verified evidence items: 1 found, 2 required by context 'music-review'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 1,
+            "kept_count": 1,
+            "kept_weight": 2.0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [
+              "e8004-moltbook-claim-20260915"
+            ],
+            "family_score": 0.4
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "MUSE_CWI",
+          "display_name": "KingCode — CWI chief agent"
+        },
+        "context": "payments",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-claim-20260915",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "MUSE_CWI (KingCode) Moltbook account claimed 2026-09-15: email verified, profile description leads with KingCode. The 8 department agents are registered but unclaimed (one-AI-agent-per-human policy wall).",
+              "status": "verified",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "CWI agent watchlist + Moltbook heartbeat logs, 2026-09-15",
+              "weight_class": 2
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "MUSE_CWI",
+          "display_name": "KingCode — CWI chief agent"
+        },
+        "context": "payments",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "ae52593c526d43ee1b7c691aaa5e4226c1678c0781f4a0bd11ac45e7c2038cc2",
+        "gate": {
+          "min_verified": 2,
+          "verified_found": 1,
+          "min_families": 2,
+          "families_with_verified": [
+            "erc8004"
+          ],
+          "required_families": [
+            "erc8004",
+            "needle_drop"
+          ],
+          "required_any_of": [],
+          "rationale": "Payments require a verifiable identity anchor plus completed commercial history.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "needle_drop: 0 verified evidence items (required by context 'payments')",
+          "verified evidence items: 1 found, 2 required by context 'payments'",
+          "families with verified evidence: 1 found, 2 required by context 'payments'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 1,
+            "kept_count": 1,
+            "kept_weight": 2.0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [
+              "e8004-moltbook-claim-20260915"
+            ],
+            "family_score": 0.4
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_Data",
+          "display_name": "CWI Data & Analytics department agent"
+        },
+        "context": "agent-trust",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-registration-pending",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "Department agent Moltbook account registered; claim pending — Black's email is tied to KingCode, so department claim links fail as a policy wall, not a bug. Registration is real; the claim is not complete.",
+              "status": "claimed",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "Moltbook claim decision log, 2026-09-15",
+              "weight_class": 1
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_Data",
+          "display_name": "CWI Data & Analytics department agent"
+        },
+        "context": "agent-trust",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "a81cab904513956bf5f81ee1dea19ca37ae69092edd789377a314bfe540d8ab7",
+        "gate": {
+          "min_verified": 3,
+          "verified_found": 0,
+          "min_families": 2,
+          "families_with_verified": [],
+          "required_families": [
+            "erc8004"
+          ],
+          "required_any_of": [],
+          "rationale": "General trust requires an anchored identity (ERC-8004) plus corroboration from at least one more family.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "erc8004: 0 verified evidence items (required by context 'agent-trust')",
+          "verified evidence items: 0 found, 3 required by context 'agent-trust'",
+          "families with verified evidence: 0 found, 2 required by context 'agent-trust'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [
+              {
+                "evidence_id": "e8004-moltbook-registration-pending",
+                "status": "claimed",
+                "reason": "status is not verified — contributes 0"
+              }
+            ],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_Data",
+          "display_name": "CWI Data & Analytics department agent"
+        },
+        "context": "music-review",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-registration-pending",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "Department agent Moltbook account registered; claim pending — Black's email is tied to KingCode, so department claim links fail as a policy wall, not a bug. Registration is real; the claim is not complete.",
+              "status": "claimed",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "Moltbook claim decision log, 2026-09-15",
+              "weight_class": 1
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_Data",
+          "display_name": "CWI Data & Analytics department agent"
+        },
+        "context": "music-review",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "10c454cbd4bfe6961b4ee812d4c1207351a133e9013275dce3673c28ab983cf9",
+        "gate": {
+          "min_verified": 2,
+          "verified_found": 0,
+          "min_families": 1,
+          "families_with_verified": [],
+          "required_families": [],
+          "required_any_of": [
+            "first_spin",
+            "needle_drop"
+          ],
+          "rationale": "Music-domain trust requires music-domain evidence: published First Spin verdicts or verified Needle Drop history.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "none of ['first_spin', 'needle_drop'] has verified evidence (context 'music-review' requires at least one)",
+          "verified evidence items: 0 found, 2 required by context 'music-review'",
+          "families with verified evidence: 0 found, 1 required by context 'music-review'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [
+              {
+                "evidence_id": "e8004-moltbook-registration-pending",
+                "status": "claimed",
+                "reason": "status is not verified — contributes 0"
+              }
+            ],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_Data",
+          "display_name": "CWI Data & Analytics department agent"
+        },
+        "context": "payments",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-registration-pending",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "Department agent Moltbook account registered; claim pending — Black's email is tied to KingCode, so department claim links fail as a policy wall, not a bug. Registration is real; the claim is not complete.",
+              "status": "claimed",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "Moltbook claim decision log, 2026-09-15",
+              "weight_class": 1
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_Data",
+          "display_name": "CWI Data & Analytics department agent"
+        },
+        "context": "payments",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "b75294873885c8be9be15efd7f771f59a5426717c14ccf7ba5efca6969692f73",
+        "gate": {
+          "min_verified": 2,
+          "verified_found": 0,
+          "min_families": 2,
+          "families_with_verified": [],
+          "required_families": [
+            "erc8004",
+            "needle_drop"
+          ],
+          "required_any_of": [],
+          "rationale": "Payments require a verifiable identity anchor plus completed commercial history.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "erc8004: 0 verified evidence items (required by context 'payments')",
+          "needle_drop: 0 verified evidence items (required by context 'payments')",
+          "verified evidence items: 0 found, 2 required by context 'payments'",
+          "families with verified evidence: 0 found, 2 required by context 'payments'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [
+              {
+                "evidence_id": "e8004-moltbook-registration-pending",
+                "status": "claimed",
+                "reason": "status is not verified — contributes 0"
+              }
+            ],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "No published production First Spin verdicts as of 2026-09-15. first-spin/sample-verdict.json exists but is labeled a worked example — demo data, excluded per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_AandR",
+          "display_name": "CWI A&R department agent"
+        },
+        "context": "agent-trust",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-registration-pending",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "Department agent Moltbook account registered; claim pending — Black's email is tied to KingCode, so department claim links fail as a policy wall, not a bug. Registration is real; the claim is not complete.",
+              "status": "claimed",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "Moltbook claim decision log, 2026-09-15",
+              "weight_class": 1
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "The worked example in first-spin/sample-verdict.json was evaluated by the CWI A&R department, but it is labeled a worked example — not a published production verdict — so this input is honestly empty per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_AandR",
+          "display_name": "CWI A&R department agent"
+        },
+        "context": "agent-trust",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "38b6cdc3939724eeda6feb4848a40eb858886852d73110a91d3ef17a89298a3c",
+        "gate": {
+          "min_verified": 3,
+          "verified_found": 0,
+          "min_families": 2,
+          "families_with_verified": [],
+          "required_families": [
+            "erc8004"
+          ],
+          "required_any_of": [],
+          "rationale": "General trust requires an anchored identity (ERC-8004) plus corroboration from at least one more family.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "erc8004: 0 verified evidence items (required by context 'agent-trust')",
+          "verified evidence items: 0 found, 3 required by context 'agent-trust'",
+          "families with verified evidence: 0 found, 2 required by context 'agent-trust'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [
+              {
+                "evidence_id": "e8004-moltbook-registration-pending",
+                "status": "claimed",
+                "reason": "status is not verified — contributes 0"
+              }
+            ],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "The worked example in first-spin/sample-verdict.json was evaluated by the CWI A&R department, but it is labeled a worked example — not a published production verdict — so this input is honestly empty per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_AandR",
+          "display_name": "CWI A&R department agent"
+        },
+        "context": "music-review",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-registration-pending",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "Department agent Moltbook account registered; claim pending — Black's email is tied to KingCode, so department claim links fail as a policy wall, not a bug. Registration is real; the claim is not complete.",
+              "status": "claimed",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "Moltbook claim decision log, 2026-09-15",
+              "weight_class": 1
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "The worked example in first-spin/sample-verdict.json was evaluated by the CWI A&R department, but it is labeled a worked example — not a published production verdict — so this input is honestly empty per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_AandR",
+          "display_name": "CWI A&R department agent"
+        },
+        "context": "music-review",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "8e2325061ff9aa40738bc242bd61873b953955ad89aa2ebd5f1b478a1427ab0e",
+        "gate": {
+          "min_verified": 2,
+          "verified_found": 0,
+          "min_families": 1,
+          "families_with_verified": [],
+          "required_families": [],
+          "required_any_of": [
+            "first_spin",
+            "needle_drop"
+          ],
+          "rationale": "Music-domain trust requires music-domain evidence: published First Spin verdicts or verified Needle Drop history.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "none of ['first_spin', 'needle_drop'] has verified evidence (context 'music-review' requires at least one)",
+          "verified evidence items: 0 found, 2 required by context 'music-review'",
+          "families with verified evidence: 0 found, 1 required by context 'music-review'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [
+              {
+                "evidence_id": "e8004-moltbook-registration-pending",
+                "status": "claimed",
+                "reason": "status is not verified — contributes 0"
+              }
+            ],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "The worked example in first-spin/sample-verdict.json was evaluated by the CWI A&R department, but it is labeled a worked example — not a published production verdict — so this input is honestly empty per spec 2.3."
+        }
+      }
+    },
+    {
+      "input": {
+        "engine_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_AandR",
+          "display_name": "CWI A&R department agent"
+        },
+        "context": "payments",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "signals": {
+          "erc8004": [
+            {
+              "evidence_id": "e8004-moltbook-registration-pending",
+              "kind": "protocol-registration-claim",
+              "issuer": "moltbook",
+              "identity_cluster": null,
+              "issuer_type": "third_party",
+              "description": "Department agent Moltbook account registered; claim pending — Black's email is tied to KingCode, so department claim links fail as a policy wall, not a bug. Registration is real; the claim is not complete.",
+              "status": "claimed",
+              "observed_at": "2026-09-15",
+              "source_url": null,
+              "source_ref": "Moltbook claim decision log, 2026-09-15",
+              "weight_class": 1
+            }
+          ],
+          "needle_drop": [],
+          "first_spin": []
+        },
+        "evidence_notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "The worked example in first-spin/sample-verdict.json was evaluated by the CWI A&R department, but it is labeled a worked example — not a published production verdict — so this input is honestly empty per spec 2.3."
+        }
+      },
+      "output": {
+        "engine": "cwi-verdict-engine",
+        "engine_version": "1.0.0",
+        "spec_version": "1.0.0",
+        "subject": {
+          "agent_id": "CWI_AandR",
+          "display_name": "CWI A&R department agent"
+        },
+        "context": "payments",
+        "observed_at": "2026-09-15T19:30:00Z",
+        "input_sha256": "b67ac96e00eed127e7cab7da2d365409fd1c00d64e4517bf7ed9d906d38a2a5d",
+        "gate": {
+          "min_verified": 2,
+          "verified_found": 0,
+          "min_families": 2,
+          "families_with_verified": [],
+          "required_families": [
+            "erc8004",
+            "needle_drop"
+          ],
+          "required_any_of": [],
+          "rationale": "Payments require a verifiable identity anchor plus completed commercial history.",
+          "met": false
+        },
+        "status": "insufficient-data",
+        "score": null,
+        "band": null,
+        "missing": [
+          "erc8004: 0 verified evidence items (required by context 'payments')",
+          "needle_drop: 0 verified evidence items (required by context 'payments')",
+          "verified evidence items: 0 found, 2 required by context 'payments'",
+          "families with verified evidence: 0 found, 2 required by context 'payments'"
+        ],
+        "families": {
+          "erc8004": {
+            "evidence_submitted": 1,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [
+              {
+                "evidence_id": "e8004-moltbook-registration-pending",
+                "status": "claimed",
+                "reason": "status is not verified — contributes 0"
+              }
+            ],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "needle_drop": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          },
+          "first_spin": {
+            "evidence_submitted": 0,
+            "verified_count": 0,
+            "kept_count": 0,
+            "kept_weight": 0,
+            "self_assertion_discounted": [],
+            "damped": [],
+            "not_counted": [],
+            "kept_evidence_ids": [],
+            "family_score": 0.0
+          }
+        },
+        "notes": {
+          "erc8004": "Registration real, claim incomplete (status: claimed) — contributes 0 to the score.",
+          "needle_drop": "needle-drop/needle-drop.json ledger ships with placements: [] — verified empty as of 2026-09-15. Playlist adds are not sync placements and never appear here; unverified curator claims are not logged.",
+          "first_spin": "The worked example in first-spin/sample-verdict.json was evaluated by the CWI A&R department, but it is labeled a worked example — not a published production verdict — so this input is honestly empty per spec 2.3."
+        }
+      }
+    }
+  ]
+}
