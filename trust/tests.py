@@ -211,5 +211,36 @@ try:
 except (OSError, KeyError, json.JSONDecodeError) as exc:
     check("sample-scores.json: readable and well-formed", False, str(exc))
 
+# --- 7. CLI argument handling (regression: file arg used to hang on stdin) ----
+# `main()` receives sys.argv[1:]; passing a file path must read that file,
+# never block on stdin. Timeout = hang detector.
+import tempfile as _tempfile
+
+_argv_doc = base_input()
+try:
+    with _tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as tf:
+        json.dump(_argv_doc, tf)
+        _argv_path = tf.name
+    p = subprocess.run([sys.executable, str(ENGINE), _argv_path],
+                       stdin=subprocess.DEVNULL,
+                       stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                       timeout=10)
+    _out = json.loads(p.stdout.decode())
+    check("file arg: reads the file, returns valid verdict JSON (no stdin hang)",
+          p.returncode == 0 and _out["status"] == "insufficient-data"
+          and _out["input_sha256"] is not None)
+except subprocess.TimeoutExpired:
+    check("file arg: reads the file, returns valid verdict JSON (no stdin hang)",
+          False, "engine hung waiting on stdin despite a file argument")
+except (OSError, json.JSONDecodeError, KeyError) as exc:
+    check("file arg: reads the file, returns valid verdict JSON (no stdin hang)",
+          False, str(exc))
+
+p2 = subprocess.run([sys.executable, str(ENGINE), "a.json", "b.json"],
+                    stdin=subprocess.DEVNULL,
+                    stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=10)
+check("two args: usage error, exit 2",
+      p2.returncode == 2 and b"usage:" in p2.stderr)
+
 print("\n%d passed, %d failed" % (len(PASS), len(FAIL)))
 sys.exit(1 if FAIL else 0)
