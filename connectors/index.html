@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CWI Connectors — machine-readable surfaces for AI agents</title>
+<meta name="description" content="Cumulative Web Inc's public machine-readable endpoints: catalog, knowledge graph, learning kit, agent card, and a freshness manifest with honest staleness labels. Built for AI agents and Muse custom connectors.">
+<style>
+  :root { --bg:#0b0e14; --panel:#121826; --line:#232c42; --txt:#e8ecf4; --dim:#9aa4bd; --gold:#d4a72c; --green:#3fd68c; --amber:#e8a33d; --red:#e05d5d; }
+  * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--txt); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:32px 20px 80px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:24px; margin-bottom:28px; }
+  h1 { font-size:32px; margin:0 0 8px; } h1 .crown { color:var(--gold); }
+  h2 { font-size:22px; margin:40px 0 12px; color:var(--gold); }
+  p.lede { color:var(--dim); font-size:18px; max-width:640px; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; font-size:14px; }
+  th,td { text-align:left; padding:10px 12px; border:1px solid var(--line); vertical-align:top; }
+  th { background:var(--panel); color:var(--gold); }
+  code, .mono { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px; }
+  a { color:#7db4ff; } a:visited { color:#9a8cff; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:16px 0; }
+  .pill { display:inline-block; padding:2px 10px; border-radius:999px; font-size:12px; font-weight:600; }
+  .fresh { background:rgba(63,214,140,.15); color:var(--green); border:1px solid var(--green); }
+  .stale { background:rgba(232,163,61,.15); color:var(--amber); border:1px solid var(--amber); }
+  .static { background:rgba(154,164,189,.12); color:var(--dim); border:1px solid var(--dim); }
+  .down { background:rgba(224,93,93,.15); color:var(--red); border:1px solid var(--red); }
+  ol.steps li { margin:10px 0; }
+  footer { margin-top:48px; border-top:1px solid var(--line); padding-top:16px; color:var(--dim); font-size:13px; }
+  #freshTable td:first-child { white-space:nowrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1><span class="crown">👑</span> CWI Connectors</h1>
+  <p class="lede">Machine-readable surfaces from Cumulative Web Inc — a verified music catalog, knowledge graph, and learning kit, published for AI agents. Wire them into <strong>Muse</strong> as custom connectors, or query them from any agent that speaks HTTPS.</p>
+</header>
+
+<h2>Endpoints</h2>
+<table>
+  <tr><th>Endpoint</th><th>What it returns</th><th>Freshness</th></tr>
+  <tr>
+    <td class="mono"><a href="/cwi-learn/catalog.json">catalog.json</a></td>
+    <td>That Boy Hi Hat catalog: 24 tracks, verified playlist placements, stream metrics, rights facts, contact. Schema <span class="mono">cwi.catalog/1.0</span>.</td>
+    <td>Volatile metrics carry <span class="mono">observed</span> dates; see <a href="/cwi-learn/freshness.json">freshness.json</a> for live status.</td>
+  </tr>
+  <tr>
+    <td class="mono"><a href="/cwi-learn/graph.json">graph.json</a></td>
+    <td>Knowledge graph: artists, tracks, releases, playlists, studios, people, evidence edges with provenance. Schema <span class="mono">cwi.graph/1.0</span>.</td>
+    <td>Node verification states refresh on playlist sweeps; evidence timestamps are historical citations, never refreshed.</td>
+  </tr>
+  <tr>
+    <td class="mono"><a href="/cwi-learn/kit.json">kit.json</a></td>
+    <td>AI learning kit manifest: verified proof points, movement ontology, rights rules, teach-pack pointers.</td>
+    <td>Proof points carry <span class="mono">observed</span> dates; status in <a href="/cwi-learn/freshness.json">freshness.json</a>.</td>
+  </tr>
+  <tr>
+    <td class="mono"><a href="/cwi-learn/llms.txt">llms.txt</a></td>
+    <td>Human- and LLM-readable catalog brief — the prose rendering of catalog.json.</td>
+    <td>Regenerated from catalog.json; numbers only as fresh as the fields they quote.</td>
+  </tr>
+  <tr>
+    <td class="mono"><a href="/cwi-learn/.well-known/agent-card.json">.well-known/agent-card.json</a></td>
+    <td>Agent card for KingCode (CWI chief agent): capabilities, skills, teach-pack landing.</td>
+    <td>Static. Version bumps are manual and announced.</td>
+  </tr>
+  <tr>
+    <td class="mono"><a href="/cwi-learn/freshness.json">freshness.json</a></td>
+    <td><strong>The freshness manifest.</strong> Every volatile field, its last honest observation date, fresh/stale label, and how it gets refreshed. Schema <span class="mono">cwi.freshness/1.0</span>.</td>
+    <td>Recomputed on every refresh run; <span class="mono">manifest_checked_at</span> tells you when labels were last verified.</td>
+  </tr>
+</table>
+
+<h2>Live freshness</h2>
+<div class="card">
+  <p style="margin-top:0">Rendered live from <a href="/cwi-learn/freshness.json">freshness.json</a>. Our rule: a field is <strong>fresh</strong> only if observed within the last 48 hours. Older fields are labeled <strong>stale</strong> with their last honest observation date. <strong>Timestamps are never manufactured.</strong></p>
+  <div id="freshState">Loading freshness manifest…</div>
+</div>
+
+<h2>Connect to Muse in 60 seconds</h2>
+<div class="card">
+<ol class="steps">
+  <li>Open <strong>Muse</strong> and add a <strong>custom connector</strong> (Muse's guided setup; Meta does not review custom connectors — they are yours).</li>
+  <li>Point it at the endpoints above. Start with these two:
+    <br><span class="mono">https://cumulativewebinc.github.io/cwi-learn/catalog.json</span>
+    <br><span class="mono">https://cumulativewebinc.github.io/cwi-learn/freshness.json</span></li>
+  <li>No credentials needed — every endpoint is public HTTPS GET. (Muse's Secure Credentials Store exists for connectors that do need keys; ours don't.)</li>
+  <li>Ask Muse things like: <em>"From the CWI catalog, which tracks have verified playlist placements, and how fresh is that data?"</em> — then check the answer against <span class="mono">freshness.json</span>.</li>
+</ol>
+<p style="margin-bottom:0;color:var(--dim)">Tip for agents: fetch <span class="mono">freshness.json</span> first, then quote numbers with their <span class="mono">observed_at</span> dates. Never present a stale figure as current.</p>
+</div>
+
+<h2>Why trust this</h2>
+<div class="card">
+<ul>
+  <li><strong>Evidence tiers.</strong> Every claim carries its source and observation date. Verified placements are separated from claimed-but-unverified ones — the file says which is which.</li>
+  <li><strong>Honest refusal.</strong> Where evidence is insufficient, our own tools return <span class="mono">insufficient-data</span> instead of inventing a score. We publish the same honesty here: stale labels, not fresh-looking numbers.</li>
+  <li><strong>Open machinery.</strong> The freshness generator is public: <a href="/cwi-learn/scripts/freshness.js">scripts/freshness.js</a> with its schema doc <a href="/cwi-learn/scripts/FRESHNESS-SCHEMA.md">FRESHNESS-SCHEMA.md</a>. Read it, fork it, audit it. It cannot manufacture a timestamp by design.</li>
+</ul>
+</div>
+
+<footer>
+  Maintained by Cumulative Web Inc · <a href="/cwi-learn/freshness.json">freshness.json</a> · <a href="https://github.com/CumulativeWebInc/cwi-learn">source repo</a><br>
+  Phase 0 of the CWI Muse connector plan: catalog → trust_verdict → hosted MCP wrap.
+</footer>
+</div>
+<script>
+fetch('/cwi-learn/freshness.json').then(r=>r.json()).then(m=>{
+  let h='<p class="mono" style="color:var(--dim)">manifest checked: '+m.manifest_checked_at+'</p><table id="freshTable"><tr><th>Endpoint</th><th>Live</th><th>Field</th><th>Observed</th><th>Status</th></tr>';
+  m.endpoints.forEach(e=>{
+    const live='<span class="pill '+(e.live?'fresh':'down')+'">'+(e.live?'LIVE':'DOWN')+'</span>';
+    if(!e.fields.length){ h+='<tr><td class="mono">'+e.file+'</td><td>'+live+'</td><td colspan="3" style="color:var(--dim)">no volatile fields</td></tr>'; return; }
+    e.fields.forEach((f,i)=>{
+      const st=f.volatile===false?'<span class="pill static">PROVENANCE</span>':(f.status==='fresh'?'<span class="pill fresh">FRESH</span>':'<span class="pill stale">STALE</span>');
+      h+='<tr>'+(i===0?'<td class="mono" rowspan="'+e.fields.length+'">'+e.file+'</td><td rowspan="'+e.fields.length+'">'+live+'</td>':'')+'<td>'+f.label+'</td><td class="mono">'+(f.observed_at||'—')+'</td><td>'+st+'</td></tr>';
+    });
+  });
+  document.getElementById('freshState').innerHTML=h+'</table>';
+}).catch(()=>{document.getElementById('freshState').innerHTML='<p style="color:var(--red)">Could not load freshness.json.</p>';});
+</script>
+</body>
+</html>
