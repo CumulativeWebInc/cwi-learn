@@ -1,21 +1,21 @@
 {
   "graph_schema": "cwi.graph/1.0",
-  "generated": "2026-09-17",
+  "generated": "2026-09-19",
   "maintainer": "Cumulative Web Inc (CWI_Data)",
-  "source_of_truth_note": "Machine-readable mirror of ai-learning-kit/kit.md. Every node carries evidence; status is verified | owner_confirmed | claimed_unverified | promised_unverified.",
+  "source_of_truth_note": "Catalog nodes (artist/track) and all ISRC facts are machine-regenerated from catalog-interop/catalog-index.json (52 track records, 2026-09-19). Non-catalog nodes/edges (organization, movement, people, studio, place, releases, playlists, evidence, media assets) are carried over from the prior edition. Status is verified | owner_confirmed | claimed_unverified | promised_unverified.",
   "counts": {
     "organization": 1,
-    "artist": 1,
     "movement": 1,
     "person": 4,
     "studio": 1,
     "place": 2,
-    "track": 24,
     "release": 4,
     "playlist": 5,
     "evidence": 5,
     "media_asset": 2,
-    "edges": 96
+    "edges": 151,
+    "artist": 7,
+    "track": 52
   },
   "nodes": [
     {
@@ -31,46 +31,6 @@
         {
           "claim": "CWI is the label/management entity",
           "source": "MEMORY.md / kit.md",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "artist:tbhh",
-      "type": "artist",
-      "name": "That Boy Hi Hat",
-      "status": "verified",
-      "attrs": {
-        "genre": [
-          "alternative rap",
-          "Post-Trap Futurism"
-        ],
-        "based_in": "place:frederick-md",
-        "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
-        "spotify_artist_url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
-        "monthly_listeners": 171,
-        "monthly_listeners_observed": "2026-09-14",
-        "last_verified": "2026-09-15",
-        "spotify_releases_count": 21,
-        "releases_audit_date": "2026-09-15"
-      },
-      "evidence": [
-        {
-          "claim": "Based in Frederick, Maryland",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "171 monthly listeners",
-          "source": "Spotify artist page",
-          "observed": "2026-09-14",
-          "status": "verified"
-        },
-        {
-          "claim": "21 releases on Spotify",
-          "source": "catalog audit",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -259,704 +219,6 @@
         {
           "claim": "Location of Cue Recording Studio",
           "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:0emH8ktA8x4DkOFLsG5xkW",
-      "type": "track",
-      "name": "Zooted Zone",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
-        "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 1,
-        "notes": "Flagship. Breakout record (owner-confirmed). 307,439 lifetime Spotify plays observed 2026-09-14. Mixed & mastered with Hybrid (NOT a co-production). #30 New Rap Hits (verified 2026-09-15)."
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 1; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:3pQEzg7xFqGIk0CK1Za1Kw",
-      "type": "track",
-      "name": "Shaka Zulu",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
-        "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 2,
-        "notes": "Flagship. #21 New Rap Hits (verified 2026-09-15).",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "4:11",
-          "bpm": 83,
-          "bpm_source": "in-house (tentative)",
-          "key": "D minor",
-          "key_source": "in-house",
-          "integrated_lufs": -12.3,
-          "true_peak_dbtp": 0.1,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 2; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 83, key D minor, -12.3 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (That_Boy_Hi_Hat-Shaka_Zulu_v1_16bit44.1kHz.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:4NAyd7rvnuG3DrPFqXo4eQ",
-      "type": "track",
-      "name": "Doves & Diamonds",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
-        "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 3,
-        "notes": "Flagship. #31 New Rap Hits (verified 2026-09-15)."
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 3; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:2eSyWmIdPzEMyWejLb2LBj",
-      "type": "track",
-      "name": "Diabolique",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
-        "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 4,
-        "notes": "Single released 2026-07-03. Producer: Hybrid, co-produced with Black (per CWI records). Recorded at Cue Recording Studio, Arlington VA (official position). Also on Apple Music, Amazon Music, YouTube Music, Pandora, Deezer (links in kit.json).",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "2:36",
-          "bpm": 77,
-          "bpm_source": "Cyanite (verified)",
-          "key": "G# minor",
-          "key_source": "Cyanite (verified)",
-          "integrated_lufs": -12.6,
-          "true_peak_dbtp": 0.1,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 4; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 77, key G# minor, -12.6 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Diabolique_Louder.mp3); BPM/key Cyanite-verified",
-          "observed": "2026-09-17",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:2MDHAUo4zJTHGXGQHUhNw0",
-      "type": "track",
-      "name": "Flamerz",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
-        "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 5,
-        "notes": "Producer: Jeck Da General (owner-confirmed)."
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 5; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:4XP56LZjeS0TJUd30kpGSK",
-      "type": "track",
-      "name": "Neon Nights Pt. 777",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
-        "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 6,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "3:47",
-          "bpm": 91,
-          "bpm_source": "in-house",
-          "key": "A# major",
-          "key_source": "in-house",
-          "integrated_lufs": -12.8,
-          "true_peak_dbtp": -0.1,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 6; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 91, key A# major, -12.8 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Neon_Nights_MIX1.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:2daugr3ni3r6jHH6UI57EK",
-      "type": "track",
-      "name": "Ultimate",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
-        "spotify_id": "2daugr3ni3r6jHH6UI57EK",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 7,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 7; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:6nhzq7P7x09aUbPts4ywFl",
-      "type": "track",
-      "name": "Painted Lady",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
-        "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 8,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 8; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:3w4RKguHAT2xd9K0w5CklC",
-      "type": "track",
-      "name": "Warped and Wicked",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
-        "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 9,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "4:08",
-          "bpm": 85,
-          "bpm_source": "in-house",
-          "key": "D minor",
-          "key_source": "in-house",
-          "integrated_lufs": -14.3,
-          "true_peak_dbtp": -0.2,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 9; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 85, key D minor, -14.3 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Worked_And_Wicked_Mix1.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:4RFWRhPn8NX0DTQPpl1swe",
-      "type": "track",
-      "name": "Golden Diamond",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
-        "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 10,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "4:03",
-          "bpm": 88,
-          "bpm_source": "in-house",
-          "key": "A# major (tentative)",
-          "key_source": "in-house",
-          "integrated_lufs": -9.6,
-          "true_peak_dbtp": 0.5,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 10; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 88, key A# major (tentative), -9.6 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Golden_Diamond_Mix_1.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:2tEdW6WKfcs2NGI6OIvAm6",
-      "type": "track",
-      "name": "Spirits n Shadows",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
-        "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 11,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "3:18",
-          "bpm": 157,
-          "bpm_source": "in-house",
-          "key": "C major",
-          "key_source": "in-house",
-          "integrated_lufs": -10.3,
-          "true_peak_dbtp": 0.7,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 11; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 157, key C major, -10.3 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Mas__Spirits_n_Shadows.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:7FQvcCS2CdTVsd6hb9jvHx",
-      "type": "track",
-      "name": "Flex My Flame",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
-        "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 12,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 12; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:2ZUYjQGsRLHRcsfgyeAWpo",
-      "type": "track",
-      "name": "Rainbows And Roses",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
-        "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 13,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "4:00",
-          "bpm": 85,
-          "bpm_source": "in-house",
-          "key": "A major",
-          "key_source": "in-house",
-          "integrated_lufs": -14.1,
-          "true_peak_dbtp": -0.4,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 13; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 85, key A major, -14.1 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Rainbows_And_Roses_Mix_1.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:6NfxhZ4NebIduGEKZeD2Lk",
-      "type": "track",
-      "name": "Tears and Scars",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
-        "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 14,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 14; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:2aTbpxiF2jNiB3PGi81oqa",
-      "type": "track",
-      "name": "Toxic Elements",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
-        "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 15,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 15; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:2dvfN5rFyQO69qmb5oYlRG",
-      "type": "track",
-      "name": "7th Angel",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
-        "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 16,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "4:00",
-          "bpm": 85,
-          "bpm_source": "in-house",
-          "key": "A# minor",
-          "key_source": "in-house",
-          "integrated_lufs": -11.3,
-          "true_peak_dbtp": 0.9,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 16; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 85, key A# minor, -11.3 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (7th_Angel_Mix_1.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:6YQq5GsaUmanh0XyHQIGoR",
-      "type": "track",
-      "name": "Scorpions & Sapphires",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
-        "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 17,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 17; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:3KX10tZBft6gp2Nea9HZOB",
-      "type": "track",
-      "name": "Place I Go to Dream",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
-        "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
-        "explicit_per_spotify_metadata": false,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 18,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "2:48",
-          "bpm": 85,
-          "bpm_source": "in-house",
-          "key": "A# major",
-          "key_source": "in-house",
-          "integrated_lufs": -9.1,
-          "true_peak_dbtp": 1.1,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 18; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 85, key A# major, -9.1 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (Place_I_Go_To_Dream.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:31MTBSMfWy4jGEYAilkaH8",
-      "type": "track",
-      "name": "Place I Go to Dream - Remastered",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
-        "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
-        "explicit_per_spotify_metadata": false,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 19,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 19; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:3tKoMnnlkcRr7wE3PUQ9bp",
-      "type": "track",
-      "name": "Place I Go to Dream - Instrumental",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
-        "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
-        "explicit_per_spotify_metadata": false,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 20,
-        "notes": "Title is metadata only; NOT an asserted licensable instrumental."
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 20; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:6jJpR9IhQ9PmRPJpxLlOmK",
-      "type": "track",
-      "name": "Smokin' Pain",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
-        "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 21,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 21; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:7xbS3rY8ZzCXNEPLPykf95",
-      "type": "track",
-      "name": "Phantasm",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
-        "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 22,
-        "notes": "",
-        "sonic_estimate_2026_09_17": {
-          "method": "in-house analyzer (see catalog.json); estimates only",
-          "duration": "3:55",
-          "bpm": 88,
-          "bpm_source": "in-house",
-          "key": "C major",
-          "key_source": "in-house",
-          "integrated_lufs": -13.0,
-          "true_peak_dbtp": 2.7,
-          "energy": "high"
-        }
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 22; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        },
-        {
-          "claim": "Sonic estimates (BPM 88, key C major, -13.0 LUFS)",
-          "source": "in-house batch analysis 2026-09-17 (LP_Phantasm-_High_Hat.mp3)",
-          "observed": "2026-09-17",
-          "status": "estimate"
-        }
-      ]
-    },
-    {
-      "id": "track:4Z5UCQLqWzpPeihPTZ9Gqg",
-      "type": "track",
-      "name": "Misfits and Hooligans",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
-        "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 23,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 23; Spotify oEmbed verification, 2026-09-15",
-          "observed": "2026-09-15",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "id": "track:3r86CjoxCNvvCz98h2btm1",
-      "type": "track",
-      "name": "Roses over Monaco",
-      "status": "verified",
-      "attrs": {
-        "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
-        "spotify_id": "3r86CjoxCNvvCz98h2btm1",
-        "explicit_per_spotify_metadata": true,
-        "performed_by": "That Boy Hi Hat",
-        "ai_learning_set_position": 24,
-        "notes": ""
-      },
-      "evidence": [
-        {
-          "claim": "Track identity and link",
-          "source": "ai-learning-kit/kit.md, audited 2026-09-15 §3 row 24; Spotify oEmbed verification, 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -1272,6 +534,1502 @@
           "status": "verified"
         }
       ]
+    },
+    {
+      "id": "artist:tbhh",
+      "type": "artist",
+      "name": "That Boy Hi Hat",
+      "status": "verified",
+      "attrs": {
+        "genre": [
+          "alternative rap",
+          "Post-Trap Futurism"
+        ],
+        "based_in": "place:frederick-md",
+        "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
+        "spotify_artist_url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+        "monthly_listeners": 171,
+        "monthly_listeners_observed": "2026-09-14",
+        "last_verified": "2026-09-15",
+        "spotify_releases_count": 21,
+        "releases_audit_date": "2026-09-15",
+        "catalog_track_count": 27,
+        "catalog_silver_records": 7,
+        "catalog_bronze_records": 20,
+        "catalog_isrc_on_file": 24,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Based in Frederick, Maryland",
+          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "observed": "2026-09-15",
+          "status": "verified"
+        },
+        {
+          "claim": "171 monthly listeners",
+          "source": "Spotify artist page",
+          "observed": "2026-09-14",
+          "status": "verified"
+        },
+        {
+          "claim": "21 releases on Spotify",
+          "source": "catalog audit",
+          "observed": "2026-09-15",
+          "status": "verified"
+        },
+        {
+          "claim": "Artist catalog footprint: 27 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "artist:black-lansky",
+      "type": "artist",
+      "name": "Black Lansky",
+      "status": "owner_confirmed",
+      "attrs": {
+        "catalog_track_count": 11,
+        "catalog_silver_records": 0,
+        "catalog_bronze_records": 11,
+        "catalog_isrc_on_file": 10,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Artist catalog footprint: 11 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "artist:king-akeem",
+      "type": "artist",
+      "name": "King Akeem",
+      "status": "owner_confirmed",
+      "attrs": {
+        "catalog_track_count": 7,
+        "catalog_silver_records": 0,
+        "catalog_bronze_records": 7,
+        "catalog_isrc_on_file": 7,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Artist catalog footprint: 7 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "artist:183-wildboi",
+      "type": "artist",
+      "name": "183 Wildboi",
+      "status": "owner_confirmed",
+      "attrs": {
+        "catalog_track_count": 2,
+        "catalog_silver_records": 0,
+        "catalog_bronze_records": 2,
+        "catalog_isrc_on_file": 2,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Artist catalog footprint: 2 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "artist:dre50",
+      "type": "artist",
+      "name": "Dre50",
+      "status": "owner_confirmed",
+      "attrs": {
+        "catalog_track_count": 1,
+        "catalog_silver_records": 1,
+        "catalog_bronze_records": 0,
+        "catalog_isrc_on_file": 1,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Artist catalog footprint: 1 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "artist:fleekz",
+      "type": "artist",
+      "name": "Fleekz",
+      "status": "owner_confirmed",
+      "attrs": {
+        "catalog_track_count": 2,
+        "catalog_silver_records": 0,
+        "catalog_bronze_records": 2,
+        "catalog_isrc_on_file": 2,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Artist catalog footprint: 2 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "artist:gregporn",
+      "type": "artist",
+      "name": "GregPorn",
+      "status": "owner_confirmed",
+      "attrs": {
+        "catalog_track_count": 2,
+        "catalog_silver_records": 0,
+        "catalog_bronze_records": 2,
+        "catalog_isrc_on_file": 0,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Artist catalog footprint: 2 tracks in CWI catalog",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-diabolique",
+      "type": "track",
+      "name": "Diabolique",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZ8EF2666377",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (Diabolique single: 'successfully processed and delivered to stores', ISRC shown on track row). NOTE: Deezer public API reports QT6EF2666377 for the same single — open discrepancy, dashboard authoritative.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com",
+        "isrc_conflict_note": "identity.isrc (DistroKid dashboard QZ8EF2666377 vs Deezer public API QT6EF2666377 — open discrepancy)"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-spirits-n-shadows",
+      "type": "track",
+      "name": "Spirits n Shadows",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377312",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon + Post Trap Futurism)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-painted-lady",
+      "type": "track",
+      "name": "Painted Lady",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZMEP2461120",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (The Alternative Theory)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-flamerz",
+      "type": "track",
+      "name": "Flamerz",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZMEP2456963",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (GTA VI EP, The Alternative Theory, single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-ultimate",
+      "type": "track",
+      "name": "Ultimate",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZMEM2484571",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-toxic-element",
+      "type": "track",
+      "name": "Toxic Element",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZWFE2309934",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory; Deezer spells 'Toxic Elements')",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-7th-angel",
+      "type": "track",
+      "name": "7th Angel",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZTB82306781",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (The Alternative Theory)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-phantasm",
+      "type": "track",
+      "name": "Phantasm",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377313",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-golden-diamond",
+      "type": "track",
+      "name": "Golden Diamond",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": null,
+        "isrc_status": "conflicted",
+        "isrc_source": "CONFLICT: Deezer reports QZK6J2376416 (single / NO SKIPS EP) vs QT3FH2549003 (GTA VI EP / Post Trap Futurism) for the same audio (identical preview hash). No dashboard value supplied — needs Black's arbitration.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com",
+        "isrc_conflict_note": "identity.isrc (QZK6J2376416 vs QT3FH2549003 — same audio, different codes)"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-flex-my-flame",
+      "type": "track",
+      "name": "Flex My Flame",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZHN32303575",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-broken-hearts-club",
+      "type": "track",
+      "name": "Broken Hearts Club",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZES92391782",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (single delivered to 30 stores). Deezer public API confirms the identical code.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-zooted-zone",
+      "type": "track",
+      "name": "Zooted Zone",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZDA52303345",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (single delivered to 32 stores). Deezer public API confirms the identical code on the single. NOTE: Deezer reports QT3FH2549001 for the same audio on the GTA VI EP — open discrepancy, dashboard authoritative.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com",
+        "isrc_conflict_note": "identity.isrc EP variant (dashboard QZDA52303345 vs Deezer GTA VI EP QT3FH2549001 — same audio)"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-neon-nights-pt-777",
+      "type": "track",
+      "name": "Neon Nights Pt. 777",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZTB92246281",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (The Alternative Theory)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-doves-and-diamonds",
+      "type": "track",
+      "name": "Doves & Diamonds",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZTB72282572",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (consistent across single, NO SKIPS, GTA VI EP, Post Trap Futurism)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-shaka-zulu",
+      "type": "track",
+      "name": "Shaka Zulu",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": null,
+        "isrc_status": "conflicted",
+        "isrc_source": "CONFLICT: Deezer reports THREE codes — QZMEM2252108 (single / NO SKIPS), QT3FH2549002 (GTA VI EP, same audio per preview hash), QT6FJ2542393 (Post Trap Futurism, different preview hash — possibly a distinct master). No dashboard value supplied — needs Black's arbitration.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com",
+        "isrc_conflict_note": "identity.isrc (QZMEM2252108 vs QT3FH2549002 vs QT6FJ2542393 — same audio on two, possible distinct master on third)"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-warped-and-wicked",
+      "type": "track",
+      "name": "Warped & Wicked",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZDA62200554",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 33 stores). Deezer public API confirms the identical code.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-warped-and-wicked-radio-edit",
+      "type": "track",
+      "name": "Warped & Wicked (Radio Edit)",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZDA62200555",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 33 stores, ISRC shown on the Radio Edit track row).",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-rainbows-and-roses",
+      "type": "track",
+      "name": "Rainbows And Roses",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZF222243412",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 35 stores). NOTE: Deezer public API reports QZFZ22243412 for the Post Trap Futurism album version — open discrepancy, dashboard authoritative.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com",
+        "isrc_conflict_note": "identity.isrc (dashboard QZF222243412 vs Deezer QZFZ22243412 — open discrepancy)"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-rainbows-and-roses-instrumental",
+      "type": "track",
+      "name": "Rainbows And Roses (Instrumental)",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "silver",
+        "isrc": "QZF222243413",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 35 stores, ISRC shown on the Instrumental track row).",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-place-i-go-to-dream-remastered",
+      "type": "track",
+      "name": "Place I Go to Dream (Remastered)",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA52227918",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Place I Go to Dream (Remastered) 2-track; same code as Idol or Icon / Alternative Theory versions)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-place-i-go-to-dream-instrumental",
+      "type": "track",
+      "name": "Place I Go to Dream (Instrumental)",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA52227919",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Place I Go to Dream (Remastered) 2-track)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-scorpions-and-sapphires",
+      "type": "track",
+      "name": "Scorpions & Sapphires",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377310",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon / Post Trap Futurism; Idol or Icon spells 'Scorpion & Sapphires')",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-tears-and-scars",
+      "type": "track",
+      "name": "Tears and Scars",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377309",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon / Post Trap Futurism)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-smokin-pain",
+      "type": "track",
+      "name": "Smokin' Pain",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377311",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-misfits-and-hooligans",
+      "type": "track",
+      "name": "Misfits and Hooligans",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377314",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-roses-over-monaco",
+      "type": "track",
+      "name": "Roses over Monaco",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA72377315",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:that-boy-hi-hat-piv-ot-al",
+      "type": "track",
+      "name": "piv-ot-al",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "That Boy Hi Hat",
+        "catalog_tier": "bronze",
+        "isrc": null,
+        "isrc_status": "unverified",
+        "isrc_source": null,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-tiempo",
+      "type": "track",
+      "name": "tiempo",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTB92317688",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single; Deezer lowercases 'tiempo')",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-lofi-2-0",
+      "type": "track",
+      "name": "LOFI 2.0",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTAU2364938",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-skateboard-team-sports",
+      "type": "track",
+      "name": "Skateboard Team Sports",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZES72391652",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-retro-vibe",
+      "type": "track",
+      "name": "Retro Vibe",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZES82338847",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-viral-beats",
+      "type": "track",
+      "name": "Viral Beats",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZES72321863",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-mosh-pit",
+      "type": "track",
+      "name": "Mosh Pit",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTAZ2200862",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-allegience",
+      "type": "track",
+      "name": "Allegience",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTAZ2200863",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP; Deezer spelling 'Allegience' [sic])",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-give-it-all",
+      "type": "track",
+      "name": "Give It All",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTAZ2200864",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-do-it-to-me",
+      "type": "track",
+      "name": "Do it to me",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTAZ2200865",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-streets-again",
+      "type": "track",
+      "name": "Streets Again",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": "QZTAZ2200866",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:black-lansky-sync-ready-tracks",
+      "type": "track",
+      "name": "Sync Ready Tracks",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Black Lansky",
+        "catalog_tier": "bronze",
+        "isrc": null,
+        "isrc_status": "unverified",
+        "isrc_source": null,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-star",
+      "type": "track",
+      "name": "Star",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZHN32363436",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single; Deezer artist spelling 'King Ahkeem')",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-super-solid",
+      "type": "track",
+      "name": "Super Solid",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZTB62301270",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-embiid",
+      "type": "track",
+      "name": "Embiid",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZNWW2269584",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single; DistroKid spells 'Embidd')",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-bluefaces-3-0",
+      "type": "track",
+      "name": "Bluefaces 3.0",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZHN32388169",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-goated",
+      "type": "track",
+      "name": "Goated",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZMEP2445736",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-element",
+      "type": "track",
+      "name": "Element",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZHN42322704",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:king-akeem-summer-night-fast",
+      "type": "track",
+      "name": "Summer Night FAST",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "King Akeem",
+        "catalog_tier": "bronze",
+        "isrc": "QZTB62312853",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:183-wildboi-stunt",
+      "type": "track",
+      "name": "Stunt",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "183 Wildboi",
+        "catalog_tier": "bronze",
+        "isrc": "QZMEP2463049",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:183-wildboi-full-moon",
+      "type": "track",
+      "name": "Full Moon",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "183 Wildboi",
+        "catalog_tier": "bronze",
+        "isrc": "QZNWS2289104",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:dre50-pix",
+      "type": "track",
+      "name": "Pix",
+      "status": "verified",
+      "attrs": {
+        "performed_by": "Dre50",
+        "catalog_tier": "silver",
+        "isrc": "QZFYZ2531105",
+        "isrc_status": "verified",
+        "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19. Deezer public API confirms the identical code.",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "track:fleekz-2k23-corner",
+      "type": "track",
+      "name": "2K23 Corner$ (feat. That Boy Hi Hat)",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Fleekz",
+        "catalog_tier": "bronze",
+        "isrc": "QZDA52309060",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:fleekz-2k23-corners",
+      "type": "track",
+      "name": "2k23 Corners",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "Fleekz",
+        "catalog_tier": "bronze",
+        "isrc": "QZK6L2263080",
+        "isrc_status": "verified",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:gregporn-on-edge",
+      "type": "track",
+      "name": "On Edge",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "GregPorn",
+        "catalog_tier": "bronze",
+        "isrc": null,
+        "isrc_status": "unverified",
+        "isrc_source": null,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "track:gregporn-pay-yourself",
+      "type": "track",
+      "name": "Pay Yourself",
+      "status": "owner_confirmed",
+      "attrs": {
+        "performed_by": "GregPorn",
+        "catalog_tier": "bronze",
+        "isrc": null,
+        "isrc_status": "unverified",
+        "isrc_source": null,
+        "label": "Cumulative Web Inc",
+        "distributor": "DistroKid",
+        "master_owner": "Cumulative Web Inc",
+        "license_contact": "hp@cumulativeweb.com"
+      },
+      "evidence": [
+        {
+          "claim": "Track identity and ISRC provenance",
+          "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
+          "observed": "2026-09-19",
+          "status": "owner_confirmed"
+        }
+      ]
     }
   ],
   "edges": [
@@ -1306,343 +2064,55 @@
       "note": "owner-confirmed"
     },
     {
-      "from": "track:0emH8ktA8x4DkOFLsG5xkW",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:0emH8ktA8x4DkOFLsG5xkW",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:3pQEzg7xFqGIk0CK1Za1Kw",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:3pQEzg7xFqGIk0CK1Za1Kw",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:4NAyd7rvnuG3DrPFqXo4eQ",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:4NAyd7rvnuG3DrPFqXo4eQ",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2eSyWmIdPzEMyWejLb2LBj",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2eSyWmIdPzEMyWejLb2LBj",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2MDHAUo4zJTHGXGQHUhNw0",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2MDHAUo4zJTHGXGQHUhNw0",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:4XP56LZjeS0TJUd30kpGSK",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:4XP56LZjeS0TJUd30kpGSK",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2daugr3ni3r6jHH6UI57EK",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2daugr3ni3r6jHH6UI57EK",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:6nhzq7P7x09aUbPts4ywFl",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:6nhzq7P7x09aUbPts4ywFl",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:3w4RKguHAT2xd9K0w5CklC",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:3w4RKguHAT2xd9K0w5CklC",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:4RFWRhPn8NX0DTQPpl1swe",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:4RFWRhPn8NX0DTQPpl1swe",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2tEdW6WKfcs2NGI6OIvAm6",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2tEdW6WKfcs2NGI6OIvAm6",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:7FQvcCS2CdTVsd6hb9jvHx",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:7FQvcCS2CdTVsd6hb9jvHx",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2ZUYjQGsRLHRcsfgyeAWpo",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2ZUYjQGsRLHRcsfgyeAWpo",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:6NfxhZ4NebIduGEKZeD2Lk",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:6NfxhZ4NebIduGEKZeD2Lk",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2aTbpxiF2jNiB3PGi81oqa",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2aTbpxiF2jNiB3PGi81oqa",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2dvfN5rFyQO69qmb5oYlRG",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:2dvfN5rFyQO69qmb5oYlRG",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:6YQq5GsaUmanh0XyHQIGoR",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:6YQq5GsaUmanh0XyHQIGoR",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:3KX10tZBft6gp2Nea9HZOB",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:3KX10tZBft6gp2Nea9HZOB",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:31MTBSMfWy4jGEYAilkaH8",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:31MTBSMfWy4jGEYAilkaH8",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:3tKoMnnlkcRr7wE3PUQ9bp",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:3tKoMnnlkcRr7wE3PUQ9bp",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:6jJpR9IhQ9PmRPJpxLlOmK",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:6jJpR9IhQ9PmRPJpxLlOmK",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:7xbS3rY8ZzCXNEPLPykf95",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:7xbS3rY8ZzCXNEPLPykf95",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:4Z5UCQLqWzpPeihPTZ9Gqg",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:4Z5UCQLqWzpPeihPTZ9Gqg",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:3r86CjoxCNvvCz98h2btm1",
-      "to": "artist:tbhh",
-      "rel": "performed_by",
-      "note": "kit.md credits rule"
-    },
-    {
-      "from": "artist:tbhh",
-      "to": "track:3r86CjoxCNvvCz98h2btm1",
-      "rel": "has_track",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:2eSyWmIdPzEMyWejLb2LBj",
+      "from": "track:that-boy-hi-hat-diabolique",
       "to": "person:hybrid",
       "rel": "produced_by",
       "note": "per CWI records; co-produced with Black"
     },
     {
-      "from": "track:2eSyWmIdPzEMyWejLb2LBj",
+      "from": "track:that-boy-hi-hat-diabolique",
       "to": "person:black-lansky",
       "rel": "co_produced_by",
       "note": "per CWI records"
     },
     {
-      "from": "track:2eSyWmIdPzEMyWejLb2LBj",
+      "from": "track:that-boy-hi-hat-diabolique",
       "to": "studio:cue-recording",
       "rel": "recorded_at",
       "note": "official position, owner-confirmed"
     },
     {
-      "from": "track:2MDHAUo4zJTHGXGQHUhNw0",
+      "from": "track:that-boy-hi-hat-flamerz",
       "to": "person:jeck-da-general",
       "rel": "produced_by",
       "note": "owner-confirmed"
     },
     {
-      "from": "track:0emH8ktA8x4DkOFLsG5xkW",
+      "from": "track:that-boy-hi-hat-zooted-zone",
       "to": "person:hybrid",
       "rel": "mixed_and_mastered_by",
       "note": "owner-confirmed; explicitly NOT a co-production credit"
     },
     {
-      "from": "track:0emH8ktA8x4DkOFLsG5xkW",
+      "from": "track:that-boy-hi-hat-zooted-zone",
       "to": "movement:ptf",
       "rel": "exemplar_of",
       "note": "flagship track per kit.md §3"
     },
     {
-      "from": "track:3pQEzg7xFqGIk0CK1Za1Kw",
+      "from": "track:that-boy-hi-hat-shaka-zulu",
       "to": "movement:ptf",
       "rel": "exemplar_of",
       "note": "flagship track per kit.md §3"
     },
     {
-      "from": "track:4NAyd7rvnuG3DrPFqXo4eQ",
+      "from": "track:that-boy-hi-hat-doves-and-diamonds",
       "to": "movement:ptf",
       "rel": "exemplar_of",
       "note": "flagship track per kit.md §3"
     },
     {
-      "from": "track:2eSyWmIdPzEMyWejLb2LBj",
+      "from": "track:that-boy-hi-hat-diabolique",
       "to": "release:diabolique-single",
       "rel": "released_on",
       "note": "kit.md §3"
@@ -1672,163 +2142,157 @@
       "note": "kit.md / owner-confirmed"
     },
     {
-      "from": "track:3pQEzg7xFqGIk0CK1Za1Kw",
+      "from": "track:that-boy-hi-hat-shaka-zulu",
       "to": "playlist:new-rap-hits",
       "rel": "placed_on",
       "note": "verified #21, 2026-09-15"
     },
     {
-      "from": "track:0emH8ktA8x4DkOFLsG5xkW",
+      "from": "track:that-boy-hi-hat-zooted-zone",
       "to": "playlist:new-rap-hits",
       "rel": "placed_on",
       "note": "verified #30, 2026-09-15"
     },
     {
-      "from": "track:4NAyd7rvnuG3DrPFqXo4eQ",
+      "from": "track:that-boy-hi-hat-doves-and-diamonds",
       "to": "playlist:new-rap-hits",
       "rel": "placed_on",
       "note": "verified #31, 2026-09-15"
     },
     {
-      "from": "track:0emH8ktA8x4DkOFLsG5xkW",
+      "from": "track:that-boy-hi-hat-zooted-zone",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:3pQEzg7xFqGIk0CK1Za1Kw",
+      "from": "track:that-boy-hi-hat-shaka-zulu",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:4NAyd7rvnuG3DrPFqXo4eQ",
+      "from": "track:that-boy-hi-hat-doves-and-diamonds",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2eSyWmIdPzEMyWejLb2LBj",
+      "from": "track:that-boy-hi-hat-diabolique",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2MDHAUo4zJTHGXGQHUhNw0",
+      "from": "track:that-boy-hi-hat-flamerz",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:4XP56LZjeS0TJUd30kpGSK",
+      "from": "track:that-boy-hi-hat-neon-nights-pt-777",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2daugr3ni3r6jHH6UI57EK",
+      "from": "track:that-boy-hi-hat-ultimate",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:6nhzq7P7x09aUbPts4ywFl",
+      "from": "track:that-boy-hi-hat-painted-lady",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:3w4RKguHAT2xd9K0w5CklC",
+      "from": "track:that-boy-hi-hat-warped-and-wicked",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:4RFWRhPn8NX0DTQPpl1swe",
+      "from": "track:that-boy-hi-hat-golden-diamond",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2tEdW6WKfcs2NGI6OIvAm6",
+      "from": "track:that-boy-hi-hat-spirits-n-shadows",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:7FQvcCS2CdTVsd6hb9jvHx",
+      "from": "track:that-boy-hi-hat-flex-my-flame",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2ZUYjQGsRLHRcsfgyeAWpo",
+      "from": "track:that-boy-hi-hat-rainbows-and-roses",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:6NfxhZ4NebIduGEKZeD2Lk",
+      "from": "track:that-boy-hi-hat-tears-and-scars",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2aTbpxiF2jNiB3PGi81oqa",
+      "from": "track:that-boy-hi-hat-toxic-element",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:2dvfN5rFyQO69qmb5oYlRG",
+      "from": "track:that-boy-hi-hat-7th-angel",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:6YQq5GsaUmanh0XyHQIGoR",
+      "from": "track:that-boy-hi-hat-scorpions-and-sapphires",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:3KX10tZBft6gp2Nea9HZOB",
+      "from": "track:that-boy-hi-hat-place-i-go-to-dream-remastered",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:31MTBSMfWy4jGEYAilkaH8",
+      "from": "track:that-boy-hi-hat-place-i-go-to-dream-instrumental",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:3tKoMnnlkcRr7wE3PUQ9bp",
+      "from": "track:that-boy-hi-hat-smokin-pain",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:6jJpR9IhQ9PmRPJpxLlOmK",
+      "from": "track:that-boy-hi-hat-phantasm",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:7xbS3rY8ZzCXNEPLPykf95",
+      "from": "track:that-boy-hi-hat-misfits-and-hooligans",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
     },
     {
-      "from": "track:4Z5UCQLqWzpPeihPTZ9Gqg",
-      "to": "playlist:ai-learning-set",
-      "rel": "included_in",
-      "note": "AI Learning Set"
-    },
-    {
-      "from": "track:3r86CjoxCNvvCz98h2btm1",
+      "from": "track:that-boy-hi-hat-roses-over-monaco",
       "to": "playlist:ai-learning-set",
       "rel": "included_in",
       "note": "AI Learning Set"
@@ -1841,7 +2305,7 @@
     },
     {
       "from": "media:ig-reel-2026-09-15",
-      "to": "track:4NAyd7rvnuG3DrPFqXo4eQ",
+      "to": "track:that-boy-hi-hat-doves-and-diamonds",
       "rel": "features_audio",
       "note": "publish record"
     },
@@ -1850,6 +2314,630 @@
       "to": "media:gtavi-artwork",
       "rel": "uses_artwork",
       "note": "publish record"
+    },
+    {
+      "from": "track:that-boy-hi-hat-diabolique",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-diabolique",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-spirits-n-shadows",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-spirits-n-shadows",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-painted-lady",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-painted-lady",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-flamerz",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-flamerz",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-ultimate",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-ultimate",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-toxic-element",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-toxic-element",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-7th-angel",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-7th-angel",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-phantasm",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-phantasm",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-golden-diamond",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-golden-diamond",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-flex-my-flame",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-flex-my-flame",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-broken-hearts-club",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-broken-hearts-club",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-zooted-zone",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-zooted-zone",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-neon-nights-pt-777",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-neon-nights-pt-777",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-doves-and-diamonds",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-doves-and-diamonds",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-shaka-zulu",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-shaka-zulu",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-warped-and-wicked",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-warped-and-wicked",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-warped-and-wicked-radio-edit",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-warped-and-wicked-radio-edit",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-rainbows-and-roses",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-rainbows-and-roses",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-rainbows-and-roses-instrumental",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-rainbows-and-roses-instrumental",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-place-i-go-to-dream-remastered",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-place-i-go-to-dream-remastered",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-place-i-go-to-dream-instrumental",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-place-i-go-to-dream-instrumental",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-scorpions-and-sapphires",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-scorpions-and-sapphires",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-tears-and-scars",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-tears-and-scars",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-smokin-pain",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-smokin-pain",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-misfits-and-hooligans",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-misfits-and-hooligans",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-roses-over-monaco",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-roses-over-monaco",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:that-boy-hi-hat-piv-ot-al",
+      "to": "artist:tbhh",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "track:that-boy-hi-hat-piv-ot-al",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-tiempo",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-tiempo",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-lofi-2-0",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-lofi-2-0",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-skateboard-team-sports",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-skateboard-team-sports",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-retro-vibe",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-retro-vibe",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-viral-beats",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-viral-beats",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-mosh-pit",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-mosh-pit",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-allegience",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-allegience",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-give-it-all",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-give-it-all",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-do-it-to-me",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-do-it-to-me",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-streets-again",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-streets-again",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:black-lansky-sync-ready-tracks",
+      "to": "artist:black-lansky",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:black-lansky",
+      "to": "track:black-lansky-sync-ready-tracks",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-star",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-star",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-super-solid",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-super-solid",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-embiid",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-embiid",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-bluefaces-3-0",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-bluefaces-3-0",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-goated",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-goated",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-element",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-element",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:king-akeem-summer-night-fast",
+      "to": "artist:king-akeem",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:king-akeem",
+      "to": "track:king-akeem-summer-night-fast",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:183-wildboi-stunt",
+      "to": "artist:183-wildboi",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:183-wildboi",
+      "to": "track:183-wildboi-stunt",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:183-wildboi-full-moon",
+      "to": "artist:183-wildboi",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:183-wildboi",
+      "to": "track:183-wildboi-full-moon",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:dre50-pix",
+      "to": "artist:dre50",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:dre50",
+      "to": "track:dre50-pix",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:fleekz-2k23-corner",
+      "to": "artist:fleekz",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:fleekz",
+      "to": "track:fleekz-2k23-corner",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:fleekz-2k23-corners",
+      "to": "artist:fleekz",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:fleekz",
+      "to": "track:fleekz-2k23-corners",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:gregporn-on-edge",
+      "to": "artist:gregporn",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:gregporn",
+      "to": "track:gregporn-on-edge",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
+    },
+    {
+      "from": "track:gregporn-pay-yourself",
+      "to": "artist:gregporn",
+      "rel": "performed_by",
+      "note": "catalog-index.json: parties[].roles includes artist"
+    },
+    {
+      "from": "artist:gregporn",
+      "to": "track:gregporn-pay-yourself",
+      "rel": "has_track",
+      "note": "catalog-index.json track listing"
     }
   ]
 }
