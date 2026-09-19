@@ -59,7 +59,7 @@
   "contact": {
     "business_and_sync": "hp@cumulativeweb.com"
   },
-  "generated": "2026-09-17",
+  "generated": "2026-09-19",
   "maintainer": "Cumulative Web Inc",
   "metrics": [
     {
@@ -77,395 +77,370 @@
   ],
   "tracks": [
     {
+      "title": "Zooted Zone",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA52303345",
+      "isrc_status": "dashboard-verified",
       "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
       "spotify_url_verified": true,
-      "title": "Zooted Zone",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/zooted-zone.json"
     },
     {
+      "title": "Shaka Zulu",
+      "artist": "That Boy Hi Hat",
+      "isrc": null,
+      "isrc_status": "conflicted",
       "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
       "spotify_url_verified": "2026-09-15, cross-checked with A&R catalog dossier",
-      "title": "Shaka Zulu",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "That_Boy_Hi_Hat-Shaka_Zulu_v1_16bit44.1kHz.mp3",
-        "duration": "4:11",
-        "bpm": {
-          "value": 83,
-          "source": "in-house (tentative)"
-        },
-        "key": {
-          "value": "D minor",
-          "source": "in-house"
-        },
-        "integrated_lufs": -12.3,
-        "true_peak_dbtp": 0.1,
-        "energy": "high",
-        "notes": "BPM low confidence (0.322); re-checked 2026-09-17 with autocorrelation candidate sweep — 83 confirmed strongest peak. Keep tentative."
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/shaka-zulu.json"
     },
     {
+      "title": "Doves & Diamonds",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZTB72282572",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
-      "spotify_url_verified": "2026-09-15 via Spotify oEmbed",
-      "title": "Doves & Diamonds"
+      "spotify_url_verified": "2026-09-15 via Spotify oEmbed"
     },
     {
-      "platforms": {
-        "amazon_music": "https://music.amazon.com/albums/B0H6XMJSNC?do=play&trackAsin=B0H6XJ3LBC",
-        "apple_music": "https://music.apple.com/us/album/diabolique/6785863611?i=6785863612",
-        "deezer": "https://link.deezer.com/s/34pbBaMFiqpyjOAdZU13M",
-        "pandora": "https://pandora.app.link/2qSIxv10r6b",
-        "spotify": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
-        "tidal_artist": "https://tidal.com/artist/28839612/u",
-        "youtube": "https://youtu.be/9AMZIQd47-A",
-        "youtube_music": "https://music.youtube.com/watch?v=5UWDNsmlHKw"
-      },
-      "platform_links_supplied_by": "Black, 2026-09-15",
-      "release_date": "2026-07-03",
+      "title": "Diabolique",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZ8EF2666377",
+      "isrc_status": "dashboard-verified",
       "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
       "spotify_url_verified": "2026-09-15 via Spotify oEmbed",
-      "title": "Diabolique",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "mixed (verified BPM/key, in-house loudness)",
-        "source_file": "Diabolique_Louder.mp3",
-        "duration": "2:36",
-        "bpm": {
-          "value": 77,
-          "source": "Cyanite (verified)"
-        },
-        "key": {
-          "value": "G# minor",
-          "source": "Cyanite (verified)"
-        },
-        "integrated_lufs": -12.6,
-        "true_peak_dbtp": 0.1,
-        "energy": "high",
-        "notes": "BPM/key from Cyanite verified analysis (supersedes conflicting in-house estimate of 102 BPM / D minor). Loudness in-house."
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/diabolique-louder.json"
     },
     {
       "title": "Flamerz",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZMEP2456963",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
-      "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "Producer: Jeck Da General (owner-confirmed)."
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Neon Nights Pt. 777",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZTB92246281",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
-      "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "Neon_Nights_MIX1.mp3",
-        "duration": "3:47",
-        "bpm": {
-          "value": 91,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "A# major",
-          "source": "in-house"
-        },
-        "integrated_lufs": -12.8,
-        "true_peak_dbtp": -0.1,
-        "energy": "high",
-        "notes": "File-to-track mapping TENTATIVE: filename 'Neon_Nights_MIX1' vs catalog title 'Neon Nights Pt. 777'."
-      }
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Ultimate",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZMEM2484571",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
-      "spotify_id": "2daugr3ni3r6jHH6UI57EK",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Painted Lady",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZMEP2461120",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
-      "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
-      "title": "Warped and Wicked",
+      "title": "Warped & Wicked",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA62200554",
+      "isrc_status": "dashboard-verified",
       "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
-      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
-      "explicit_per_spotify_metadata": true,
       "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "Worked_And_Wicked_Mix1.mp3",
-        "duration": "4:08",
-        "bpm": {
-          "value": 85,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "D minor",
-          "source": "in-house"
-        },
-        "integrated_lufs": -14.3,
-        "true_peak_dbtp": -0.2,
-        "energy": "high",
-        "notes": "TITLE LOCK 2026-09-17: Black corrected filename 'Worked_And_Wicked' -> 'Warped & Wicked'."
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/warped-and-wicked.json"
     },
     {
       "title": "Golden Diamond",
+      "artist": "That Boy Hi Hat",
+      "isrc": null,
+      "isrc_status": "conflicted",
       "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
-      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
-      "explicit_per_spotify_metadata": true,
       "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "Golden_Diamond_Mix_1.mp3",
-        "duration": "4:03",
-        "bpm": {
-          "value": 88,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "A# major (tentative)",
-          "source": "in-house"
-        },
-        "integrated_lufs": -9.6,
-        "true_peak_dbtp": 0.5,
-        "energy": "high",
-        "notes": "Key correlation low (0.351-class); tentative."
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/golden-diamond-mix-1.json"
     },
     {
       "title": "Spirits n Shadows",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377312",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
-      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
-      "explicit_per_spotify_metadata": true,
       "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "Mas__Spirits_n_Shadows.mp3",
-        "duration": "3:18",
-        "bpm": {
-          "value": 157,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "C major",
-          "source": "in-house"
-        },
-        "integrated_lufs": -10.3,
-        "true_peak_dbtp": 0.7,
-        "energy": "high",
-        "notes": ""
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/spirits-n-shadows.json"
     },
     {
       "title": "Flex My Flame",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZHN32303575",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
-      "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Rainbows And Roses",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZF222243412",
+      "isrc_status": "dashboard-verified",
       "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
-      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
-      "explicit_per_spotify_metadata": true,
       "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "Rainbows_And_Roses_Mix_1.mp3",
-        "duration": "4:00",
-        "bpm": {
-          "value": 85,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "A major",
-          "source": "in-house"
-        },
-        "integrated_lufs": -14.1,
-        "true_peak_dbtp": -0.4,
-        "energy": "high",
-        "notes": "Cleanest in-house read of the batch."
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/rainbows-and-roses-mix-1.json"
     },
     {
       "title": "Tears and Scars",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377309",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
-      "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
-      "title": "Toxic Elements",
+      "title": "Toxic Element",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZWFE2309934",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
-      "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "7th Angel",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZTB82306781",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
-      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
-      "explicit_per_spotify_metadata": true,
       "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "7th_Angel_Mix_1.mp3",
-        "duration": "4:00",
-        "bpm": {
-          "value": 85,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "A# minor",
-          "source": "in-house"
-        },
-        "integrated_lufs": -11.3,
-        "true_peak_dbtp": 0.9,
-        "energy": "high",
-        "notes": ""
-      },
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/7th-angel-mix-1.json"
     },
     {
       "title": "Scorpions & Sapphires",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377310",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
-      "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
-      "title": "Place I Go to Dream",
-      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
-      "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
-      "explicit_per_spotify_metadata": false,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "Place_I_Go_To_Dream.mp3",
-        "duration": "2:48",
-        "bpm": {
-          "value": 85,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "A# major",
-          "source": "in-house"
-        },
-        "integrated_lufs": -9.1,
-        "true_peak_dbtp": 1.1,
-        "energy": "high",
-        "notes": ""
-      },
-      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/place-i-go-to-dream.json"
-    },
-    {
-      "title": "Place I Go to Dream - Remastered",
+      "title": "Place I Go to Dream (Remastered)",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA52227918",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
-      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
-      "explicit_per_spotify_metadata": false,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
-      "title": "Place I Go to Dream - Instrumental",
+      "title": "Place I Go to Dream (Instrumental)",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA52227919",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
-      "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
-      "explicit_per_spotify_metadata": false,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "Title is metadata only; not an asserted licensable instrumental."
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Smokin' Pain",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377311",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
-      "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Phantasm",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377313",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
-      "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": "",
-      "sonic_measurements": {
-        "measured": "2026-09-17",
-        "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
-        "grade": "estimate",
-        "source_file": "LP_Phantasm-_High_Hat.mp3",
-        "duration": "3:55",
-        "bpm": {
-          "value": 88,
-          "source": "in-house"
-        },
-        "key": {
-          "value": "C major",
-          "source": "in-house"
-        },
-        "integrated_lufs": -13.0,
-        "true_peak_dbtp": 2.7,
-        "energy": "high",
-        "notes": "Clipping master (+2.7 dBTP). De-clipped fixed master exists (fixed-masters/LP_Phantasm-High_Hat-FIXED-TP-1.mp3, -0.5 dBTP, 2026-09-17)."
-      }
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Misfits and Hooligans",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377314",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
-      "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Roses over Monaco",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA72377315",
+      "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
-      "spotify_id": "3r86CjoxCNvvCz98h2btm1",
-      "explicit_per_spotify_metadata": true,
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
-      "notes": ""
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
+    },
+    {
+      "title": "Full Moon",
+      "artist": "183 Wildboi",
+      "isrc": "QZNWS2289104",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Stunt",
+      "artist": "183 Wildboi",
+      "isrc": "QZMEP2463049",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Allegience",
+      "artist": "Black Lansky",
+      "isrc": "QZTAZ2200863",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Do it to me",
+      "artist": "Black Lansky",
+      "isrc": "QZTAZ2200865",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Give It All",
+      "artist": "Black Lansky",
+      "isrc": "QZTAZ2200864",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "LOFI 2.0",
+      "artist": "Black Lansky",
+      "isrc": "QZTAU2364938",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Mosh Pit",
+      "artist": "Black Lansky",
+      "isrc": "QZTAZ2200862",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Retro Vibe",
+      "artist": "Black Lansky",
+      "isrc": "QZES82338847",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Skateboard Team Sports",
+      "artist": "Black Lansky",
+      "isrc": "QZES72391652",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Streets Again",
+      "artist": "Black Lansky",
+      "isrc": "QZTAZ2200866",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Sync Ready Tracks",
+      "artist": "Black Lansky",
+      "isrc": null,
+      "isrc_status": "unverified"
+    },
+    {
+      "title": "Viral Beats",
+      "artist": "Black Lansky",
+      "isrc": "QZES72321863",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "tiempo",
+      "artist": "Black Lansky",
+      "isrc": "QZTB92317688",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Pix",
+      "artist": "Dre50",
+      "isrc": "QZFYZ2531105",
+      "isrc_status": "dashboard-verified"
+    },
+    {
+      "title": "2K23 Corner$ (feat. That Boy Hi Hat)",
+      "artist": "Fleekz",
+      "isrc": "QZDA52309060",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "2k23 Corners",
+      "artist": "Fleekz",
+      "isrc": "QZK6L2263080",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "On Edge",
+      "artist": "GregPorn",
+      "isrc": null,
+      "isrc_status": "unverified"
+    },
+    {
+      "title": "Pay Yourself",
+      "artist": "GregPorn",
+      "isrc": null,
+      "isrc_status": "unverified"
+    },
+    {
+      "title": "Bluefaces 3.0",
+      "artist": "King Akeem",
+      "isrc": "QZHN32388169",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Element",
+      "artist": "King Akeem",
+      "isrc": "QZHN42322704",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Embiid",
+      "artist": "King Akeem",
+      "isrc": "QZNWW2269584",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Goated",
+      "artist": "King Akeem",
+      "isrc": "QZMEP2445736",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Star",
+      "artist": "King Akeem",
+      "isrc": "QZHN32363436",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Summer Night FAST",
+      "artist": "King Akeem",
+      "isrc": "QZTB62312853",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Super Solid",
+      "artist": "King Akeem",
+      "isrc": "QZTB62301270",
+      "isrc_status": "public-source"
+    },
+    {
+      "title": "Broken Hearts Club",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZES92391782",
+      "isrc_status": "dashboard-verified"
+    },
+    {
+      "title": "Rainbows And Roses (Instrumental)",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZF222243413",
+      "isrc_status": "dashboard-verified"
+    },
+    {
+      "title": "Warped & Wicked (Radio Edit)",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QZDA62200555",
+      "isrc_status": "dashboard-verified"
+    },
+    {
+      "title": "piv-ot-al",
+      "artist": "That Boy Hi Hat",
+      "isrc": null,
+      "isrc_status": "unverified"
     }
   ],
   "verified_placements": [
@@ -491,7 +466,7 @@
       }
     }
   ],
-  "track_count": 24,
+  "track_count": 52,
   "sonic_measurement_batch_2026_09_17": {
     "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
     "tracks_measured": 10,
@@ -707,5 +682,41 @@
         "views": 83
       }
     ]
+  },
+  "legacy_entries": [
+    {
+      "title": "Place I Go to Dream",
+      "note": "legacy entry",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
+      "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/place-i-go-to-dream.json"
+    }
+  ],
+  "legacy_note": "'Place I Go to Dream' (original) is carried from the 2026-09-17 edition; it has no catalog-index record and no ISRC on file. It is listed separately and not counted in track_count.",
+  "isrc_summary": {
+    "records": 52,
+    "isrc_on_file": 46,
+    "dashboard_verified": 8,
+    "public_source": 38,
+    "conflicted": [
+      "Golden Diamond",
+      "Shaka Zulu"
+    ],
+    "missing": [
+      "piv-ot-al",
+      "Sync Ready Tracks",
+      "On Edge",
+      "Pay Yourself"
+    ],
+    "note": "Dashboard values are authoritative; public-source ISRCs are Deezer-sourced and not distributor-confirmed. Conflicted/missing tracks need Black’s DistroKid dashboard screenshots.",
+    "artists": {
+      "That Boy Hi Hat": 27,
+      "Black Lansky": 11,
+      "King Akeem": 7,
+      "183 Wildboi": 2,
+      "Dre50": 1,
+      "Fleekz": 2,
+      "GregPorn": 2
+    }
   }
 }
