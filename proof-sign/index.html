@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CWI x402 — $0.05 Proof Payment Signer</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 560px; margin: 0 auto; padding: 20px; background: #0a0a0f; color: #e8e8f0; }
+  h1 { font-size: 20px; }
+  .card { background: #14141c; border: 1px solid #2a2a3a; border-radius: 12px; padding: 16px; margin: 12px 0; }
+  .row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 14px; }
+  .label { color: #8888a0; }
+  .val { font-family: monospace; word-break: break-all; text-align: right; }
+  button { width: 100%; padding: 14px; font-size: 16px; border: 0; border-radius: 10px; margin: 8px 0; cursor: pointer; }
+  #connectBtn { background: #2a2a3a; color: #fff; }
+  #signBtn { background: #0052ff; color: #fff; display: none; }
+  #signBtn:disabled { background: #33334a; }
+  textarea { width: 100%; height: 120px; background: #0a0a0f; color: #8f8; border: 1px solid #2a2a3a; border-radius: 8px; font-size: 11px; font-family: monospace; box-sizing: border-box; }
+  .hint { font-size: 13px; color: #8888a0; line-height: 1.5; }
+  .ok { color: #4caf7d; }
+</style>
+</head>
+<body>
+<h1>👑 CWI x402 Proof Payment</h1>
+<p class="hint">Sign a <b>$0.05 USDC</b> authorization on <b>Base</b> for the CWI agent API proof purchase. Your wallet signs — nothing is submitted on-chain by this page. Copy the signed payload and send it back to KingCode to complete the proof.</p>
+
+<div class="card">
+  <div class="row"><span class="label">Amount</span><span class="val">$0.05 USDC</span></div>
+  <div class="row"><span class="label">Network</span><span class="val">Base (8453)</span></div>
+  <div class="row"><span class="label">To</span><span class="val" id="payTo">0x96D1…47dD3</span></div>
+  <div class="row"><span class="label">Your wallet</span><span class="val" id="walletAddr">not connected</span></div>
+</div>
+
+<button id="connectBtn">1. Connect Wallet</button>
+<button id="signBtn">2. Sign $0.05 Payment</button>
+
+<div class="card" id="resultCard" style="display:none">
+  <p class="hint ok">✅ Signed. Copy everything below and paste it back to KingCode:</p>
+  <textarea id="payloadOut" readonly></textarea>
+  <button id="copyBtn" style="background:#2a2a3a;color:#fff">Copy Payload</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
+<script>
+const PAY_TO = "0x96D149B17655b76D91c1b7c48A5e9e00Db847dD3";
+const USDC_BASE = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
+const VALUE = "50000"; // $0.05 in 6-decimal USDC base units
+let userAddress = null;
+
+document.getElementById("connectBtn").onclick = async () => {
+  if (!window.ethereum) { alert("No wallet found. Open this page inside your wallet app's browser (e.g. Coinbase Wallet)."); return; }
+  const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
+  userAddress = accounts[0];
+  document.getElementById("walletAddr").textContent = userAddress.slice(0,6) + "…" + userAddress.slice(-4);
+  document.getElementById("connectBtn").style.display = "none";
+  document.getElementById("signBtn").style.display = "block";
+};
+
+function randomNonce() {
+  const b = new Uint8Array(32);
+  crypto.getRandomValues(b);
+  return "0x" + Array.from(b).map(x => x.toString(16).padStart(2,"0")).join("");
+}
+
+document.getElementById("signBtn").onclick = async () => {
+  const btn = document.getElementById("signBtn");
+  btn.disabled = true; btn.textContent = "Waiting for signature…";
+  try {
+    const now = Math.floor(Date.now() / 1000);
+    const message = {
+      from: userAddress,
+      to: PAY_TO,
+      value: VALUE,
+      validAfter: "0",
+      validBefore: (now + 3600).toString(),
+      nonce: randomNonce()
+    };
+    const typedData = {
+      domain: { name: "USD Coin", version: "2", chainId: 8453, verifyingContract: USDC_BASE },
+      types: { TransferWithAuthorization: [
+        { name: "from", type: "address" },
+        { name: "to", type: "address" },
+        { name: "value", type: "uint256" },
+        { name: "validAfter", type: "uint256" },
+        { name: "validBefore", type: "uint256" },
+        { name: "nonce", type: "bytes32" }
+      ]},
+      primaryType: "TransferWithAuthorization",
+      message
+    };
+    const signature = await window.ethereum.request({
+      method: "eth_signTypedData_v4",
+      params: [userAddress, JSON.stringify(typedData)]
+    });
+    const paymentPayload = {
+      x402Version: 2,
+      scheme: "exact",
+      network: "eip155:8453",
+      payload: { authorization: message, signature }
+    };
+    const xPayment = btoa(JSON.stringify(paymentPayload));
+    document.getElementById("payloadOut").value = xPayment;
+    document.getElementById("resultCard").style.display = "block";
+    btn.textContent = "Signed ✅";
+  } catch (e) {
+    alert("Signing failed: " + (e.message || e));
+    btn.disabled = false; btn.textContent = "2. Sign $0.05 Payment";
+  }
+};
+
+document.getElementById("copyBtn").onclick = () => {
+  const t = document.getElementById("payloadOut");
+  t.select(); document.execCommand("copy");
+};
+</script>
+</body>
+</html>
