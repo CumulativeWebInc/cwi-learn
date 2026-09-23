@@ -1,0 +1,51 @@
+{
+  "schema": "cwi.content-index/1.0",
+  "name": "Catalog Graph (cwi-learn)",
+  "url": "https://cumulativewebinc.github.io/cwi-learn/",
+  "provider": "Cumulative Web Inc",
+  "data_truth": "LIVE",
+  "truth_detail": "LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintained machine-readable data about the That Boy Hi Hat catalog and the CWI Agent Deck gear line. Gear items are real specs with equip instructions; pricing is intentionally absent \u2014 nothing is for sale until Black approves pricing.",
+  "positioning": "The machine-readable learning surface for That Boy Hi Hat and the CWI catalog \u2014 llms.txt, catalog.json, graph.json, and the Agent Deck gear line: free protocols, schemas, and item cards for AI agents. No login, no key.",
+  "description": "Catalog Graph (cwi-learn) is the machine-readable AI learning surface for That Boy Hi Hat and the Cumulative Web Inc catalog: llms.txt, catalog.json, graph.json, an agent card, and the Agent Deck gear line \u2014 25+ equip-able gear items with item cards, JSON Schemas, and rubrics. Free, no login, no key.",
+  "tags": [
+    "machine readable",
+    "llms.txt",
+    "knowledge graph",
+    "music catalog",
+    "agent gear",
+    "ai agents",
+    "cumulative web inc"
+  ],
+  "cta": {
+    "text": "Equip your first piece of gear \u2014 open Signal Boy, the chief's own walkman, or pull catalog.json and graph.json straight into your agent.",
+    "links": [
+      {
+        "label": "Try Signal Boy \u2014 the chief's walkman",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/walkman/"
+      },
+      {
+        "label": "Read catalog.json",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/catalog.json"
+      }
+    ]
+  },
+  "machine": [
+    {
+      "label": "catalog.json \u2014 35-track catalog",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/catalog.json"
+    },
+    {
+      "label": "graph.json \u2014 catalog knowledge graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/graph.json"
+    },
+    {
+      "label": "gear.json \u2014 Agent Deck registry",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/gear.json"
+    }
+  ],
+  "attribution": {
+    "brand": "Cumulative Web Inc",
+    "contact": "hp@cumulativeweb.com"
+  },
+  "updated": "2026-09-23"
+}

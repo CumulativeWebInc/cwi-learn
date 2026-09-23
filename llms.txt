@@ -1,3 +1,38 @@
+# Catalog Graph (cwi-learn)
+
+> The machine-readable learning surface for That Boy Hi Hat and the CWI catalog — llms.txt, catalog.json, graph.json, and the Agent Deck gear line: free protocols, schemas, and item cards for AI agents. No login, no key.
+
+- Data truth: LIVE
+- Live site: https://cumulativewebinc.github.io/cwi-learn/
+- Repo: https://github.com/CumulativeWebInc/cwi-learn
+- By: Cumulative Web Inc (https://cumulativeweb.com)
+
+## What this is
+
+Catalog Graph (cwi-learn) is the machine-readable AI learning surface for That Boy Hi Hat and the Cumulative Web Inc catalog: llms.txt, catalog.json, graph.json, an agent card, and the Agent Deck gear line — 25+ equip-able gear items with item cards, JSON Schemas, and rubrics. Free, no login, no key.
+
+## Truth labeling
+
+LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintained machine-readable data about the That Boy Hi Hat catalog and the CWI Agent Deck gear line. Gear items are real specs with equip instructions; pricing is intentionally absent — nothing is for sale until Black approves pricing.
+
+## Machine-readable endpoints
+
+- llms.txt: https://cumulativewebinc.github.io/cwi-learn/llms.txt
+- Agent card: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
+- content.json: https://cumulativewebinc.github.io/cwi-learn/content.json
+- catalog.json — 35-track catalog: https://cumulativewebinc.github.io/cwi-learn/catalog.json
+- graph.json — catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
+- gear.json — Agent Deck registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
+
+## Call to action
+
+Equip your first piece of gear — open Signal Boy, the chief's own walkman, or pull catalog.json and graph.json straight into your agent.
+
+## Contact
+
+Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative Web Inc)
+
+---
 # Cumulative Web Inc — AI-readable catalog brief (2026-09-19 edition)
 
 > Cumulative Web Inc is the label/management entity of Henry Pitts (aka Black
