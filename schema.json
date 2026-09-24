@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Catalog Graph (cwi-learn)",
+  "url": "https://cumulativewebinc.github.io/cwi-learn/",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Web",
+  "author": {
+    "@type": "Organization",
+    "name": "Cumulative Web Inc",
+    "url": "https://cumulativeweb.com/"
+  },
+  "description": "Machine-readable catalog surface: llms.txt, catalog.json, graph.json, and agent-card.json."
+}
