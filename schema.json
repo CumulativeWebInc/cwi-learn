@@ -10,5 +10,6 @@
     "name": "Cumulative Web Inc",
     "url": "https://cumulativeweb.com/"
   },
-  "description": "Machine-readable catalog surface: llms.txt, catalog.json, graph.json, and agent-card.json."
+  "description": "Machine-readable catalog surface: llms.txt, catalog.json, graph.json, and agent-card.json.",
+  "schema_version": "1.0.0"
 }
