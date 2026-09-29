@@ -34,18 +34,41 @@ code{color:#f5c445;font-size:.85em} footer{color:#9fb4d8;font-size:.78em;text-al
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Catalog Graph (cwi-learn)",
-  "url": "https://cumulativewebinc.github.io/cwi-learn/",
-  "applicationCategory": "MultimediaApplication",
-  "operatingSystem": "Web",
-  "author": {
-    "@type": "Organization",
-    "name": "Cumulative Web Inc",
-    "url": "https://cumulativeweb.com/"
-  },
-  "description": "Machine-readable catalog surface: llms.txt, catalog.json, graph.json, and agent-card.json.",
-  "schema_version": "1.0.0"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Cumulative Web Inc",
+      "url": "https://cumulativeweb.com/",
+      "email": "hp@cumulativeweb.com",
+      "logo": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg"
+    },
+    {
+      "@type": "WebSite",
+      "name": "Catalog Graph (cwi-learn)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cumulative Web Inc",
+        "url": "https://cumulativeweb.com/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Catalog Graph (cwi-learn)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Web",
+      "author": {
+        "@type": "Organization",
+        "name": "Cumulative Web Inc",
+        "url": "https://cumulativeweb.com/"
+      },
+      "description": "Machine-readable catalog surface: llms.txt, catalog.json, graph.json, and agent-card.json.",
+      "schema_version": "1.0.0"
+    }
+  ]
 }
 </script>
 </head><body>
