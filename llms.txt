@@ -47,7 +47,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 - Label: Cumulative Web Inc. Manager: Henry Pitts (Black Lansky)
 - Business & sync contact: hp@cumulativeweb.com
 - Distributor: DistroKid (verified from DistroKid account listing, 2026-09-19)
-- Roster: That Boy Hi Hat (27), Black Lansky (11), King Akeem (7), 183 Wildboi (2), Dre50 (1), Fleekz (2), GregPorn (2)
+- Roster: That Boy Hi Hat (27), Black Lansky (11), King Akeem (7), 183 Wildboi (2), Dre50 (2), Fleekz (2), GregPorn (2)
 - ISRC coverage: 46 of 52 on file (8 dashboard-verified, 38 Deezer-sourced);
   2 conflicted (Golden Diamond, Shaka Zulu — awaiting owner's dashboard
   arbitration); 4 missing (piv-ot-al, Sync Ready Tracks, On Edge,
@@ -139,8 +139,9 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 - "Stunt" — ISRC QZMEP2463049 (verified, Deezer-sourced (not distributor-confirmed))
 - "Full Moon" — ISRC QZNWS2289104 (verified, Deezer-sourced (not distributor-confirmed))
 
-### Dre50 (1 tracks)
+### Dre50 (2 tracks)
 - "Pix" — ISRC QZFYZ2531105 (verified, dashboard-verified)
+- "vai vem vem" — ISRC QTAZU2645608 (verified 2026-09-30, live on Spotify/Apple Music/Deezer). Single, 2:46, UPC 700573334051. Written & produced by Dre50, co-produced by Black Lansky. Label: Cumulative Web Inc. Campaign tag #brazil. Listen: https://open.spotify.com/album/3VjeH7Xagddg894HgFNHts
 
 ### Fleekz (2 tracks)
 - "2K23 Corner$ (feat. That Boy Hi Hat)" — ISRC QZDA52309060 (verified, Deezer-sourced (not distributor-confirmed))
