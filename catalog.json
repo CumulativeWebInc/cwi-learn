@@ -441,6 +441,28 @@
       "artist": "That Boy Hi Hat",
       "isrc": null,
       "isrc_status": "unverified"
+    },
+    {
+      "title": "vai vem vem",
+      "artist": "Dre50",
+      "isrc": "QTAZU2645608",
+      "isrc_status": "verified",
+      "upc": "700573334051",
+      "release_date": "2026-09-30",
+      "label": "Cumulative Web Inc",
+      "written_by": "Dre50",
+      "produced_by": "Dre50",
+      "co_produced_by": "Black Lansky",
+      "duration": "2:46",
+      "campaign_tag": "#brazil",
+      "streaming": {
+        "spotify": "https://open.spotify.com/album/3VjeH7Xagddg894HgFNHts",
+        "apple_music": "https://music.apple.com/us/album/vai-vem-vem-single/6817566689",
+        "deezer": "https://www.deezer.com/album/1109759012",
+        "amazon_music": "https://music.amazon.com/tracks/B0HLJHV8HB",
+        "tidal": "https://tidal.com/album/565618414/u"
+      },
+      "press_page": "https://cumulativeweb.com/press/releases/dre50-vai-vem-vem.html"
     }
   ],
   "verified_placements": [
@@ -466,7 +488,7 @@
       }
     }
   ],
-  "track_count": 52,
+  "track_count": 53,
   "sonic_measurement_batch_2026_09_17": {
     "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
     "tracks_measured": 10,
