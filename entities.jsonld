@@ -1029,6 +1029,64 @@
         "https://cumulativewebinc.github.io/cwi-learn/license/",
         "https://cumulativewebinc.github.io/cwi-learn/license/licensing.json"
       ]
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#dre50",
+      "name": "Dre50",
+      "url": "https://cumulativeweb.com/artists/dre50.html",
+      "location": {
+        "@type": "Place",
+        "name": "Jamaica"
+      },
+      "description": "Jamaican artist on the Cumulative Web Inc roster. Singles: 'Pix' (2026-01-07), 'vai vem vem' (2026-09-30, written & produced by Dre50, co-produced by Black Lansky, campaign tag #brazil).",
+      "sameAs": [
+        "https://cumulativeweb.com/artists/dre50.html"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-qtaZU2645608",
+      "name": "vai vem vem",
+      "url": "https://open.spotify.com/album/3VjeH7Xagddg894HgFNHts",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#dre50"
+      },
+      "isrcCode": "QTAZU2645608",
+      "duration": "PT2M46S",
+      "sameAs": [
+        "https://open.spotify.com/album/3VjeH7Xagddg894HgFNHts",
+        "https://music.apple.com/us/album/vai-vem-vem-single/6817566689",
+        "https://www.deezer.com/album/1109759012",
+        "https://music.amazon.com/tracks/B0HLJHV8HB",
+        "https://tidal.com/album/565618414/u"
+      ],
+      "description": "vai vem vem by Dre50 — single released 2026-09-30 via Cumulative Web Inc. Written & produced by Dre50, co-produced by Black Lansky. UPC 700573334051, ISRC QTAZU2645608, ℗ 2026 Cumulative Web Inc. Campaign tag #brazil. Verified live on Spotify, Apple Music, Deezer on release day (2026-09-30)."
+    },
+    {
+      "@type": "MusicRelease",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#release-vai-vem-vem",
+      "name": "vai vem vem",
+      "url": "https://cumulativeweb.com/press/releases/dre50-vai-vem-vem.html",
+      "byArtist": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#dre50"
+      },
+      "datePublished": "2026-09-30",
+      "catalogNumber": "700573334051",
+      "numTracks": 1,
+      "recordLabel": {
+        "@type": "Organization",
+        "name": "Cumulative Web Inc",
+        "url": "https://cumulativeweb.com/"
+      },
+      "releaseOf": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-qtaZU2645608"
+      },
+      "keywords": [
+        "brazil",
+        "#brazil",
+        "single"
+      ]
     }
   ],
   "cwi": {
