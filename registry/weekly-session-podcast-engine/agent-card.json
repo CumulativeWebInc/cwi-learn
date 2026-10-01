@@ -1,0 +1,41 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "weekly-session-podcast-engine",
+ "slug": "weekly-session-podcast-engine",
+ "display_name": "Weekly Session Podcast Engine",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Friday-night session-podcast production engine: records the artist session, ships an episode + press packet. Pilot: 183 Wilboi's Rock-Rap Night.",
+ "intended_use": "Listeners/followers of the weekly session series.",
+ "capabilities": [
+  "16/16 HTML files parse clean",
+  "press packet + 11-label music verifications ready"
+ ],
+ "limitations": "Pilot awaits Black's by-ear format sign-off; 0 episodes released, 0 verified listens.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "podcast",
+  "session-engine"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "0 episodes released (2026-10-01); smoke checks pass, no test suite (honest).",
+ "cta": "Follow / listen to the Friday-night episode",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

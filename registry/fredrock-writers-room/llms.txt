@@ -1,0 +1,48 @@
+# FredRock Writers Room — CWI Product Card (llms.txt)
+
+> Machine-readable product card for FredRock Writers Room by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/fredrock-writers-room/agent-card.json
+
+- Name: FredRock Writers Room (slug: fredrock-writers-room)
+- Version: 1.0.0 | Lineage: R2 | Stage: packaged
+
+## What it is
+
+Invite-gated private writing room for the FredRock writers circle: claim invite codes, record origin stories toward the Snowfall-style series.
+
+## Intended use
+
+The 9 FredRock writers (invite-gated cohort).
+
+## Capabilities
+
+- invite-code claim flow
+- CWI master-logo badge
+
+## Honest limitations
+
+0/9 verified writer signups (Supabase unconnected); iPhone E2E parked on Black's device.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+0/9 verified signups (2026-10-01). node --check 10/10, static QA 8/8.
+
+## Call to action
+
+Claim your invite code
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

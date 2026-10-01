@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "a2a-relay",
+ "slug": "a2a-relay",
+ "display_name": "A2A Relay",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "GitHub-native agent-to-agent message relay with inbox protocol.",
+ "intended_use": "Agents messaging agents.",
+ "capabilities": [
+  "inbox protocol",
+  "GitHub-native intake",
+  "/health with cwi_version"
+ ],
+ "limitations": "0 traffic (honest); conversion leg not run.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "a2a",
+  "messaging",
+  "relay"
+ ],
+ "truth_label": "unknown",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "node test.js: 15/15 (2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-walkman-signal-boy",
+ "slug": "cwi-walkman-signal-boy",
+ "display_name": "CWI-1 Walkman / Signal Boy",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Agent-native culture asset ('The Cumulative Culture'): the wearable CWI-1 Walkman carrying the 24-track catalog with item cards and machine data.",
+ "intended_use": "AI agents (equip); Moltbook agent network.",
+ "capabilities": [
+  "24 tracks, all 24 Spotify URLs 200",
+  "live embeds/logos",
+  "item-card machine data"
+ ],
+ "limitations": "0 verified external agent equips.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "marketed",
+ "tags": [
+  "agent-gear",
+  "walkman",
+  "culture"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "0 verified external agent equips. python3 test.py ALL PASSED (2026-10-01).",
+ "cta": "EQUIP THIS DEVICE",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

@@ -1,0 +1,52 @@
+# Trust Verdict engine — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Trust Verdict engine by Cumulative Web Inc.
+> Truth label: repo-ci (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/trust-verdict-engine/agent-card.json
+
+- Name: Trust Verdict engine (slug: trust-verdict-engine)
+- Version: 1.0.0 | Lineage: R3 | Stage: packaged
+
+## What it is
+
+Deterministic, evidence-bound trust scoring for AI agents over ERC-8004, Needle Drop, and First Spin signals. Never invents a score: empty evidence yields insufficient-data.
+
+## Intended use
+
+Agents/verifiers; installable via the trust_verdict skill (no_auth).
+
+## Capabilities
+
+- verdicts: scored / insufficient-data / evidence-disputed / unknown-context / invalid-input
+- determinism check: run twice on the same input, diff the bytes
+- vendored engine v1.0.0, byte-identical across processes
+
+## Honest limitations
+
+Engine v1.0.0 lives on the unmerged cwi-learn branch needs/verdict-engine (do not treat as main); fetch the skill from cwi-mcp-public. Never invents a score by design.
+
+## Try / equip
+
+- Run: SKILL: trust_verdict (~/workspace/skills/trust-verdict/) — input per trust/spec.md section 3; determinism: run twice, diff bytes. Equip for agents: query cwi-mcp-public trust_verdict tool.
+- Equip: SKILL: trust_verdict (~/workspace/skills/trust-verdict/) — input per trust/spec.md section 3; determinism: run twice, diff bytes. Equip for agents: query cwi-mcp-public trust_verdict tool.
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn/tree/needs/verdict-engine/trust
+- Repo: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+Skill suite: empty-evidence test passing; engine determinism verified live 2026-10-01 (identical bytes, empty evidence -> insufficient-data, no invented score).
+
+## Call to action
+
+Equip the trust_verdict skill; run the determinism check
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

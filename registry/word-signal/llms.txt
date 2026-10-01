@@ -1,0 +1,49 @@
+# Word Signal — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Word Signal by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/word-signal/agent-card.json
+
+- Name: Word Signal (slug: word-signal)
+- Version: 1.0.0 | Lineage: R2 | Stage: packaged
+
+## What it is
+
+CWI Arcade word game with a gesture engine: fat-finger recovery, trail geometry, fully deterministic seeded generation.
+
+## Intended use
+
+Arcade players.
+
+## Capabilities
+
+- gesture engine
+- deterministic seeded generation
+- 434/434 node tests stable across 3 runs
+
+## Honest limitations
+
+Staging deploy only; serves the R2 player-device funnel.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+434/434 green 2026-10-01; playtests pending Lansky.
+
+## Call to action
+
+Play free
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

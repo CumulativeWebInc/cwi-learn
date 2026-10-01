@@ -1,0 +1,56 @@
+# Cumulative Radio 365 — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Cumulative Radio 365 by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/radio-365/agent-card.json
+
+- Name: Cumulative Radio 365 (slug: radio-365)
+- Version: 1.0.0 | Lineage: R2 | Stage: live
+
+## What it is
+
+24/7 indie radio station for independent artists: live Icecast stream (128kbps stereo), song titles, station site, and directory listings (TuneIn, Streamitter, radio-browser.info, Airable).
+
+## Intended use
+
+Indie artists and listeners: submit music, tune in, join launch alerts.
+
+## Capabilities
+
+- live Icecast 2.4.4 source (verified live 2026-10-01)
+- directory listings across 5 directories
+- launch-alert signup on station site
+- server-side now-playing metadata
+
+## Honest limitations
+
+0/100 verified listener sessions (2026-10-01); site counters not yet verified with real users.
+
+## Try / equip
+
+- Try: https://cumulativeweb.com/radio.html
+- Run: workspace-only
+
+- Docs: https://cumulativeweb.com/radio.html
+
+## Conversion (honest numbers)
+
+0 verified listener sessions (target 100). Stream verified live 2026-10-01.
+
+## Call to action
+
+Tap play; submit your music
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/
+
+## Revenue DNA (worked scorecard)
+- Breaks at: ATTENTION then CONVERSION
+- Note: Radio 365 breaks at ATTENTION (0 verified listeners) then CONVERSION (no money path yet). Improvise leg: listener acquisition.

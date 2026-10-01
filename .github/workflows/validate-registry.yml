@@ -1,0 +1,28 @@
+name: validate-registry
+on:
+  push:
+    paths: ['registry/**']
+  pull_request:
+    paths: ['registry/**']
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Validate all registry cards
+        run: node registry/validate-cards.js
+      - name: Every product dir has llms.txt + agent-card.json
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+          cards = json.load(open('registry/registry.json'))['cards']
+          missing = [c['slug'] for c in cards
+                     if not (os.path.exists(f"registry/{c['slug']}/llms.txt")
+                             and os.path.exists(f"registry/{c['slug']}/agent-card.json")
+                             and os.path.exists(f"registry/{c['slug']}/index.html"))]
+          if missing:
+              print("MISSING per-product files:", missing); sys.exit(1)
+          print(f"OK: {len(cards)} products x 3 files")
+          EOF

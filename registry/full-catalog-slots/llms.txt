@@ -1,0 +1,47 @@
+# Full-Catalog Slots — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Full-Catalog Slots by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/full-catalog-slots/agent-card.json
+
+- Name: Full-Catalog Slots (slug: full-catalog-slots)
+- Version: 0.1.0 | Lineage: R2 | Stage: built
+
+## What it is
+
+Plan for a full-catalog slot game (catalog-slots-business-plan.md, 2026-09-21).
+
+## Intended use
+
+Future players.
+
+## Capabilities
+
+- business plan (2026-09-21)
+
+## Honest limitations
+
+Plan only: zero code; requires Black's approval before any build.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+Nothing to test (plan only).
+
+## Call to action
+
+Approval pending — no build yet
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

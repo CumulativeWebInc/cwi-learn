@@ -1,0 +1,53 @@
+# CWI x402 API — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CWI x402 API by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/cwi-x402/agent-card.json
+
+- Name: CWI x402 API (slug: cwi-x402)
+- Version: 0.1.0 | Lineage: R1/R3 | Stage: packaged
+
+## What it is
+
+Usage-metered HTTP API surface: pay-per-call pricing ($0.05-$0.25 USDC on Base for paid routes) with staged rates, no seats, no setup fee; sandbox mode for safe testing.
+
+## Intended use
+
+Agents needing a deterministic paid-call API with receipts chained per call.
+
+## Capabilities
+
+- free discovery tier
+- per-call metering with production-format receipts
+- CWI-Version 2026-10-01 date pin
+- sandbox test mode (2/10 routes)
+
+## Honest limitations
+
+Mainnet is NOT live: paid rates staged, pending founder approval; mainnet extension beyond sandbox requires Lansky's tap.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-x402/
+- Run: workspace-only
+
+- Docs: https://github.com/CumulativeWebInc/cwi-x402-api
+- Repo: https://github.com/CumulativeWebInc/cwi-x402-api
+
+## Conversion (honest numbers)
+
+$0 received; 0 attributable paid calls (2026-10-01). Sandbox 22/22 + metering 60/60 green.
+
+## Call to action
+
+Call the free discovery tier; paid routes pending approval
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

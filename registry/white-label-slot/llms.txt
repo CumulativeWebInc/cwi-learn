@@ -1,0 +1,50 @@
+# White-Label Slot Machine — CWI Product Card (llms.txt)
+
+> Machine-readable product card for White-Label Slot Machine by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/white-label-slot/agent-card.json
+
+- Name: White-Label Slot Machine (slug: white-label-slot)
+- Version: 1.0.0 | Lineage: R1 | Stage: built
+
+## What it is
+
+A slot machine that plays a label's catalog: white-label game engine licensed to artists/labels ($249 solo / $899 label / $2,500+ custom, one-time). Link engine resolves real Spotify/Apple Music/Amazon links.
+
+## Intended use
+
+Artists and labels wanting a catalog-playing slot game for promo/prize engagement.
+
+## Capabilities
+
+- white-label re-skin per catalog
+- prize-link engine (Spotify, Apple Music, Amazon verified live)
+- promo-prize mode — no gambling
+
+## Honest limitations
+
+Built, not yet licensed; pitches #1-#2 sent 2026-10-01, #3-#5 await Lansky's one-at-a-time approval.
+
+## Try / equip
+
+- Try: https://cumulativeweb.com/demo/neon-royale.html
+
+- Docs: https://cumulativeweb.com/
+
+## Conversion (honest numbers)
+
+$0 received; 0 licenses closed. resolve-links 7/7 green. Demo live; product licensable.
+
+## Call to action
+
+License the engine for your catalog
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

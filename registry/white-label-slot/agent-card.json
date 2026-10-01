@@ -1,0 +1,44 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "white-label-slot",
+ "slug": "white-label-slot",
+ "display_name": "White-Label Slot Machine",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "A slot machine that plays a label's catalog: white-label game engine licensed to artists/labels ($249 solo / $899 label / $2,500+ custom, one-time). Link engine resolves real Spotify/Apple Music/Amazon links.",
+ "intended_use": "Artists and labels wanting a catalog-playing slot game for promo/prize engagement.",
+ "capabilities": [
+  "white-label re-skin per catalog",
+  "prize-link engine (Spotify, Apple Music, Amazon verified live)",
+  "promo-prize mode \u2014 no gambling"
+ ],
+ "limitations": "Built, not yet licensed; pitches #1-#2 sent 2026-10-01, #3-#5 await Lansky's one-at-a-time approval.",
+ "try": {
+  "url": "https://cumulativeweb.com/demo/neon-royale.html",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://cumulativeweb.com/",
+ "repo_url": null,
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "built",
+ "tags": [
+  "slot-game",
+  "white-label",
+  "catalog-marketing",
+  "licensing"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received; 0 licenses closed. resolve-links 7/7 green. Demo live; product licensable.",
+ "cta": "License the engine for your catalog",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

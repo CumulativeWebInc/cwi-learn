@@ -1,0 +1,45 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "skill-sentinel",
+ "slug": "skill-sentinel",
+ "display_name": "Skill Sentinel",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Skill safety scanner: scan agent skills for prompt-injection and unsafe patterns, live in the browser.",
+ "intended_use": "Agent developers publishing skills.",
+ "capabilities": [
+  "browser try UI",
+  "unsafe-pattern scanning",
+  "honest limits documented"
+ ],
+ "limitations": "Conversion leg not run.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-skill-sentinel/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-skill-sentinel",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-skill-sentinel",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "skill-safety",
+  "scanner",
+  "prompt-injection"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "node tests/test.js: 28/28; live page renders (verified 2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": "cwi-skill-sentinel",
+  "ci_workflows": [
+   "pr-preview.yml"
+  ],
+  "card_in_repo": ".well-known/agent-card.json",
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

@@ -1,0 +1,45 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "results-dashboard",
+ "slug": "results-dashboard",
+ "display_name": "CWI Results Dashboard",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Public 30-minute-refreshed dashboard of CWI's verified results: 7 funnel stages, 65 receipts with evidence URLs. Hero metric: external_equips (honest 0).",
+ "intended_use": "Anyone verifying CWI's claims; R3 measurement infra.",
+ "capabilities": [
+  "7 funnel stages",
+  "65 receipts with evidence_url (newest-first)",
+  "30-min publisher cron"
+ ],
+ "limitations": "Hero metric still 0 verified external equips (2026-10-01).",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-results/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/cwi-results/",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-results",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "live",
+ "tags": [
+  "dashboard",
+  "results",
+  "evidence"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Canonical live-artifact assertions re-verified 2026-10-01.",
+ "cta": "View verified results",
+ "discovery": {
+  "repo": "cwi-results",
+  "ci_workflows": [
+   "reboot-witness-watch.yml"
+  ],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

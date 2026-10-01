@@ -1,0 +1,48 @@
+# Meta Global AI Developer Hackathon (watch) — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Meta Global AI Developer Hackathon (watch) by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/meta-global-hackathon-watch/agent-card.json
+
+- Name: Meta Global AI Developer Hackathon (watch) (slug: meta-global-hackathon-watch)
+- Version: 0.1.0 | Lineage: R3 | Stage: watch
+
+## What it is
+
+Daily watch on Meta's $1M global AI developer hackathon (10-day virtual, $150 API credits). Applications not open yet — notify-signup only.
+
+## Intended use
+
+CWI engineering (entry readiness).
+
+## Capabilities
+
+- daily watch cron (14:38 ET)
+- entry-readiness tracking
+
+## Honest limitations
+
+Research/watch only; no build to test. Nothing to equip.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+Last check 2026-09-30: applications still not open.
+
+## Call to action
+
+n/a
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

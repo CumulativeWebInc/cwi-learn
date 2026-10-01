@@ -1,0 +1,51 @@
+# CWI MCP Server — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CWI MCP Server by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/cwi-mcp-server/agent-card.json
+
+- Name: CWI MCP Server (slug: cwi-mcp-server)
+- Version: 0.1.0 | Lineage: R3 | Stage: packaged
+
+## What it is
+
+CWI MCP gateway: JSON-RPC tool surface over needle-drop, catalog, and trust-verdict signals with adversarial-tested error handling.
+
+## Intended use
+
+Agents connecting via MCP.
+
+## Capabilities
+
+- 9 tools
+- streamable HTTP (9/20)
+- adversarial-tested error handling
+
+## Honest limitations
+
+Conversion leg not run.
+
+## Try / equip
+
+- Try: https://github.com/CumulativeWebInc/cwi-mcp-server
+
+- Docs: https://github.com/CumulativeWebInc/cwi-mcp-server
+- Repo: https://github.com/CumulativeWebInc/cwi-mcp-server
+
+## Conversion (honest numbers)
+
+node test.js: 28/28 (2026-10-01). CWI-Version 2026-10-01 pinned.
+
+## Call to action
+
+try / equip
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

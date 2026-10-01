@@ -1,0 +1,49 @@
+# pull-distribution-stats (skill) — CWI Product Card (llms.txt)
+
+> Machine-readable product card for pull-distribution-stats (skill) by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/pull-distribution-stats/agent-card.json
+
+- Name: pull-distribution-stats (skill) (slug: pull-distribution-stats)
+- Version: 1.0.0 | Lineage: R3 | Stage: live
+
+## What it is
+
+Internal measurement skill: GitHub traffic (views/clones) + Hugging Face downloads + trust-log claim count -> one dashboard JSON.
+
+## Intended use
+
+CWI operators (internal).
+
+## Capabilities
+
+- GitHub traffic API
+- HF dataset API (BlackLansky/cwi-catalog: 128 downloads)
+- trust-log chain count (11 claims)
+
+## Honest limitations
+
+Internal only; not a public try.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+Smoke-verified healthy against live sources (2026-10-01).
+
+## Call to action
+
+n/a (internal measurement)
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

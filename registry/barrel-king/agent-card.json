@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "barrel-king",
+ "slug": "barrel-king",
+ "display_name": "Barrel King",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "CWI Arcade action game: swipe-driven barrel dodging with render-path verification (real canvas frames).",
+ "intended_use": "Arcade players; iPhone playtest sign-off pending.",
+ "capabilities": [
+  "swipe input engine",
+  "render-path verification (real IIFE frames)",
+  "fuzz-tested 6300 frames"
+ ],
+ "limitations": "Staging deploy only; Black's iPhone playtest re-test confirmation pending (fresh link).",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "arcade",
+  "action-game"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Playtests pending Lansky; end_number pending. Tests: logic 57/57, render 9/9, swipe 20/20, fuzz 6300 frames (2026-10-01).",
+ "cta": "Play free in the CWI Arcade",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

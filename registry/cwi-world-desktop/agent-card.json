@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-world-desktop",
+ "slug": "cwi-world-desktop",
+ "display_name": "CWI World Desktop",
+ "vendor": "Cumulative Web Inc",
+ "version": "2.0.2",
+ "description": "3D world desktop environment + voice command deck: win-portable 2.0.2 shipped 9/30 (129 files verified).",
+ "intended_use": "Lansky (operator); future external-agent command-deck access.",
+ "capabilities": [
+  "3D world desktop",
+  "voice command deck",
+  "win-portable build"
+ ],
+ "limitations": "Pre-cycle internal tool; no formal unit suite (honest smoke, not green); 0 external equips.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "desktop",
+  "3d",
+  "voice"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "node --check PASS; 2.0.2 zip opens (2026-10-01).",
+ "cta": "Run from operator machine",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

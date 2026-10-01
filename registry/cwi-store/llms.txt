@@ -1,0 +1,52 @@
+# CWI Store — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CWI Store by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/cwi-store/agent-card.json
+
+- Name: CWI Store (slug: cwi-store)
+- Version: 1.0.0 | Lineage: R1 | Stage: selling
+
+## What it is
+
+E-commerce storefront for CWI gear and products with Gumroad checkout on live slots and email-order pending slots.
+
+## Intended use
+
+Customers buying CWI products (gear, decks, digital).
+
+## Capabilities
+
+- Gumroad checkout on live slots
+- BUY_LINKS.json parity checks
+- email-order pending slots
+
+## Honest limitations
+
+0 orders (2026-10-01); some slots still pending.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-store/
+- Run: workspace-only
+
+- Docs: https://cumulativewebinc.github.io/cwi-store/
+- Repo: https://github.com/CumulativeWebInc/cwi-store
+
+## Conversion (honest numbers)
+
+$0 received; 0 orders. 136/136 local + 167/167 live tests green (2026-10-01).
+
+## Call to action
+
+Buy now (Gumroad) or order via email
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

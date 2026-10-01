@@ -1,0 +1,49 @@
+# Cover Pieces — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Cover Pieces by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/cover-pieces/agent-card.json
+
+- Name: Cover Pieces (slug: cover-pieces)
+- Version: 1.0.0 | Lineage: R2 | Stage: packaged
+
+## What it is
+
+CWI Arcade drag-and-drop puzzle game: drag, html, tray, slothint — 220/220 node tests.
+
+## Intended use
+
+Arcade players.
+
+## Capabilities
+
+- drag engine
+- slothint system
+- 220/220 node tests
+
+## Honest limitations
+
+Staging deploy only; serves the R2 player-device funnel.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+220/220 green 2026-10-01; playtests pending Lansky.
+
+## Call to action
+
+Play free
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

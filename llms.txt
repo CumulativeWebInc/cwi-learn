@@ -367,3 +367,14 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Learner's guide: https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md
 - License (CWI Teach-Forward License v1.0 — attribute, keep truth labels, no fake numbers): https://cumulativewebinc.github.io/cwi-learn/teach/LICENSE-TEACH-FORWARD.md
 - Hugging Face dataset (35-track, 4-artist catalog + 26 Agent Deck SKUs, CC-BY-4.0, RAG/fine-tune ready): https://huggingface.co/datasets/BlackLansky/cwi-catalog
+
+## CWI Public Registry (A9, 2026-10-01)
+
+> Searchable public registry of every CWI product and agent tool, in the HF model-card / Glama server-card pattern.
+>
+> - Registry page: https://cumulativewebinc.github.io/cwi-learn/registry/
+> - Registry JSON: https://cumulativewebinc.github.io/cwi-learn/registry/registry.json
+> - Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+> - Per product: https://cumulativewebinc.github.io/cwi-learn/registry/<slug>/ (index.html, agent-card.json, llms.txt)
+> - Truth labels: verified-live | repo-ci | repo-no-ci | staged-unshipped | no-public-repo | unknown
+> - Kill rule: <50 external registry hits in 30 days -> rework discovery, not the registry.

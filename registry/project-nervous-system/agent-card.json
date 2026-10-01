@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "project-nervous-system",
+ "slug": "project-nervous-system",
+ "display_name": "Project Nervous System",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Machine-readable agent enforcement layer: uncertainty register, evidence graph, failure engine, red agent, 21-gate completion theorem. 28 schemas, 43/43 tests.",
+ "intended_use": "CWI agents; machine enforcement for briefs.",
+ "capabilities": [
+  "28 JSON schemas",
+  "21-gate completion theorem (theorem command)",
+  "red-agent attack checklist"
+ ],
+ "limitations": "Conversion leg not run.",
+ "try": {
+  "url": "https://github.com/CumulativeWebInc/cwi-learn",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "agent-infra",
+  "enforcement",
+  "schemas"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "node tests/run-tests.js: 43/43 (2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

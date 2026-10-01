@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "delibra",
+ "slug": "delibra",
+ "display_name": "Delibra",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Agent self-heal and deliberation system (self-heal 15m + watchdog 5m crons).",
+ "intended_use": "CWI agents.",
+ "capabilities": [
+  "self-heal cycles",
+  "watchdog",
+  "39/39 pytest"
+ ],
+ "limitations": "Docs only at root before retrofit; conversion leg not run.",
+ "try": {
+  "url": "https://github.com/CumulativeWebInc/cwi-learn",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "self-heal",
+  "watchdog",
+  "agents"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "pytest 39/39 (2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

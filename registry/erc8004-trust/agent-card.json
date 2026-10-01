@@ -1,0 +1,45 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "erc8004-trust",
+ "slug": "erc8004-trust",
+ "display_name": "ERC-8004 Trust Verdict (checker)",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Deterministic, evidence-bound trust scoring for AI agents over ERC-8004, Needle Drop, and First Spin signals. Never invents a score: empty evidence yields insufficient-data.",
+ "intended_use": "Agents and verifiers needing a refuse-to-guess trust verdict for another agent's on-chain identity.",
+ "capabilities": [
+  "deterministic verdicts: scored / insufficient-data / evidence-disputed / unknown-context",
+  "content-addressed proof receipts",
+  "cross-process byte-identical determinism"
+ ],
+ "limitations": "Ship-ready bundle, STAGED not shipped: live pre-launch page is honest marketing only; paid $25 validation offer, on-chain registration, and 9 agent cards staged \u2014 all await Lansky's SHIP GO / PAGES ONLY / HOLD tap.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-erc8004/",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-erc8004",
+ "result_lineage": [
+  "R1",
+  "R3"
+ ],
+ "lineage_stage": "ship-ready (staged, awaiting Lansky taps)",
+ "tags": [
+  "trust",
+  "erc-8004",
+  "identity",
+  "verdicts"
+ ],
+ "truth_label": "staged-unshipped",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received; $25 USDC per-validation offer staged. 53/53 tests green (2026-10-01).",
+ "cta": "Ship approval pending \u2014 no paid validation requests yet",
+ "discovery": {
+  "repo": "cwi-erc8004",
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

@@ -1,0 +1,49 @@
+# CODEX — The Logo Effect — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CODEX — The Logo Effect by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/codex-logo-effect/agent-card.json
+
+- Name: CODEX — The Logo Effect (slug: codex-logo-effect)
+- Version: 0.1.0 | Lineage: R1 | Stage: built
+
+## What it is
+
+Book manuscript: 3,216 / 60,000+ words (5.4%). Living manuscript; claims cite dated memory entries.
+
+## Intended use
+
+Readers (future).
+
+## Capabilities
+
+- 3,216-word chapter 01
+- 2,170-word outline
+- memory-cited claims
+
+## Honest limitations
+
+Pre-cycle: evaluated, not packaged; $0 received.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+Smoke-checked 2026-10-01; no test suite (honest).
+
+## Call to action
+
+Packaging TBD at a verified milestone
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

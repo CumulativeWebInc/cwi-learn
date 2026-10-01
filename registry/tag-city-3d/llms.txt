@@ -1,0 +1,47 @@
+# TAG CITY 3D — CWI Product Card (llms.txt)
+
+> Machine-readable product card for TAG CITY 3D by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/tag-city-3d/agent-card.json
+
+- Name: TAG CITY 3D (slug: tag-city-3d)
+- Version: 0.1.0 | Lineage: R2 | Stage: built
+
+## What it is
+
+3D city concept under evaluation: IRIS visual gate is the instrument; no shippable build yet.
+
+## Intended use
+
+Future players; currently evaluation only.
+
+## Capabilities
+
+- IRIS visual-gate evaluation
+
+## Honest limitations
+
+Pre-cycle: no shippable build, no channel; blocked on Black's call (specialist human hands vs AI image tool).
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+No build to verify; evaluation only.
+
+## Call to action
+
+Blocked on founder's creative call
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

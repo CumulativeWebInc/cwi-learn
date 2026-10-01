@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Preview-URL PR bot — CWI Registry</title>
+<style>body{font-family:system-ui,-apple-system,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#111}a{color:#0b5fff}.tag{display:inline-block;background:#eef;border-radius:4px;padding:0 .5rem;margin:.15rem;font-size:.85rem}.pill{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:.1rem .7rem;font-size:.8rem;margin-right:.4rem}</style></head>
+<body>
+<p><a href="../">← CWI Public Registry</a></p>
+<p><span class="pill">no-public-repo</span><span class="pill">R1/R3</span><span class="pill">packaged</span></p>
+<h1>Preview-URL PR bot</h1>
+<p>Shared GitHub Action: on every CWI app repo PR, builds the branch, posts a Pages preview link + schema-validation checklist as a PR comment. Previews deploy to pr-previews/&lt;PR#&gt;/ — production untouched, $0.</p>
+<p><strong>Intended use:</strong> CWI engineering / any multi-repo Pages org.</p>
+<h2>Capabilities</h2><ul><li>validate -&gt; preview -&gt; comment -&gt; cleanup (4 jobs)</li><li>real contract gate</li><li>loud failure on missing agent-card/CHANGELOG</li><li>kill-rule audit script</li></ul>
+<h2>Honest limitations</h2><p>Template lives in workspace; promotion to a public cwi-ci-templates repo is queued to Black (standing no-publish rule).</p>
+<h2>Try / equip</h2>
+<p><strong>Docs:</strong> <a href="https://github.com/CumulativeWebInc/cwi-learn">https://github.com/CumulativeWebInc/cwi-learn</a></p>
+<h2>Conversion (honest numbers)</h2><p>3 test PRs: bot comment + 200 previews + loud fail gate (2026-10-01).</p>
+<p><strong>Call to action:</strong> Rollout queued to founder</p>
+<p><span class="tag">ci</span> <span class="tag">github-actions</span> <span class="tag">preview</span></p>
+<p><small>Machine-readable: <a href="agent-card.json">agent-card.json</a> · <a href="llms.txt">llms.txt</a> · Schema: <a href="../agent-card-schema.json">cwi-agent-card/1.0.0</a> · Updated 2026-10-01</small></p>
+</body></html>

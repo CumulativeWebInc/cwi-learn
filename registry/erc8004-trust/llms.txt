@@ -1,0 +1,51 @@
+# ERC-8004 Trust Verdict (checker) — CWI Product Card (llms.txt)
+
+> Machine-readable product card for ERC-8004 Trust Verdict (checker) by Cumulative Web Inc.
+> Truth label: staged-unshipped (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/erc8004-trust/agent-card.json
+
+- Name: ERC-8004 Trust Verdict (checker) (slug: erc8004-trust)
+- Version: 1.0.0 | Lineage: R1/R3 | Stage: ship-ready (staged, awaiting Lansky taps)
+
+## What it is
+
+Deterministic, evidence-bound trust scoring for AI agents over ERC-8004, Needle Drop, and First Spin signals. Never invents a score: empty evidence yields insufficient-data.
+
+## Intended use
+
+Agents and verifiers needing a refuse-to-guess trust verdict for another agent's on-chain identity.
+
+## Capabilities
+
+- deterministic verdicts: scored / insufficient-data / evidence-disputed / unknown-context
+- content-addressed proof receipts
+- cross-process byte-identical determinism
+
+## Honest limitations
+
+Ship-ready bundle, STAGED not shipped: live pre-launch page is honest marketing only; paid $25 validation offer, on-chain registration, and 9 agent cards staged — all await Lansky's SHIP GO / PAGES ONLY / HOLD tap.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-erc8004/
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+- Repo: https://github.com/CumulativeWebInc/cwi-erc8004
+
+## Conversion (honest numbers)
+
+$0 received; $25 USDC per-validation offer staged. 53/53 tests green (2026-10-01).
+
+## Call to action
+
+Ship approval pending — no paid validation requests yet
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

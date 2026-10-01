@@ -1,0 +1,47 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-x402",
+ "slug": "cwi-x402",
+ "display_name": "CWI x402 API",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "Usage-metered HTTP API surface: pay-per-call pricing ($0.05-$0.25 USDC on Base for paid routes) with staged rates, no seats, no setup fee; sandbox mode for safe testing.",
+ "intended_use": "Agents needing a deterministic paid-call API with receipts chained per call.",
+ "capabilities": [
+  "free discovery tier",
+  "per-call metering with production-format receipts",
+  "CWI-Version 2026-10-01 date pin",
+  "sandbox test mode (2/10 routes)"
+ ],
+ "limitations": "Mainnet is NOT live: paid rates staged, pending founder approval; mainnet extension beyond sandbox requires Lansky's tap.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-x402/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-x402-api",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-x402-api",
+ "result_lineage": [
+  "R1",
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "paid-api",
+  "metering",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received; 0 attributable paid calls (2026-10-01). Sandbox 22/22 + metering 60/60 green.",
+ "cta": "Call the free discovery tier; paid routes pending approval",
+ "discovery": {
+  "repo": "cwi-x402-api",
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

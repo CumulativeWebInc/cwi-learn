@@ -1,0 +1,49 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "radio-365",
+ "slug": "radio-365",
+ "display_name": "Cumulative Radio 365",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "24/7 indie radio station for independent artists: live Icecast stream (128kbps stereo), song titles, station site, and directory listings (TuneIn, Streamitter, radio-browser.info, Airable).",
+ "intended_use": "Indie artists and listeners: submit music, tune in, join launch alerts.",
+ "capabilities": [
+  "live Icecast 2.4.4 source (verified live 2026-10-01)",
+  "directory listings across 5 directories",
+  "launch-alert signup on station site",
+  "server-side now-playing metadata"
+ ],
+ "limitations": "0/100 verified listener sessions (2026-10-01); site counters not yet verified with real users.",
+ "try": {
+  "url": "https://cumulativeweb.com/radio.html",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativeweb.com/radio.html",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "live",
+ "tags": [
+  "radio",
+  "icecast",
+  "indie-music",
+  "broadcast"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "0 verified listener sessions (target 100). Stream verified live 2026-10-01.",
+ "cta": "Tap play; submit your music",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01",
+ "revenue_dna": {
+  "node_break": "ATTENTION then CONVERSION",
+  "scorecard": "Radio 365 breaks at ATTENTION (0 verified listeners) then CONVERSION (no money path yet). Improvise leg: listener acquisition."
+ }
+}

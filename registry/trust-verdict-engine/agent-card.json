@@ -1,0 +1,47 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "trust-verdict-engine",
+ "slug": "trust-verdict-engine",
+ "display_name": "Trust Verdict engine",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Deterministic, evidence-bound trust scoring for AI agents over ERC-8004, Needle Drop, and First Spin signals. Never invents a score: empty evidence yields insufficient-data.",
+ "intended_use": "Agents/verifiers; installable via the trust_verdict skill (no_auth).",
+ "capabilities": [
+  "verdicts: scored / insufficient-data / evidence-disputed / unknown-context / invalid-input",
+  "determinism check: run twice on the same input, diff the bytes",
+  "vendored engine v1.0.0, byte-identical across processes"
+ ],
+ "limitations": "Engine v1.0.0 lives on the unmerged cwi-learn branch needs/verdict-engine (do not treat as main); fetch the skill from cwi-mcp-public. Never invents a score by design.",
+ "try": {
+  "url": null,
+  "run": "SKILL: trust_verdict (~/workspace/skills/trust-verdict/) \u2014 input per trust/spec.md section 3; determinism: run twice, diff bytes. Equip for agents: query cwi-mcp-public trust_verdict tool."
+ },
+ "equip": "SKILL: trust_verdict (~/workspace/skills/trust-verdict/) \u2014 input per trust/spec.md section 3; determinism: run twice, diff bytes. Equip for agents: query cwi-mcp-public trust_verdict tool.",
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn/tree/needs/verdict-engine/trust",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "trust",
+  "scoring",
+  "skill",
+  "deterministic"
+ ],
+ "truth_label": "repo-ci",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Skill suite: empty-evidence test passing; engine determinism verified live 2026-10-01 (identical bytes, empty evidence -> insufficient-data, no invented score).",
+ "cta": "Equip the trust_verdict skill; run the determinism check",
+ "discovery": {
+  "repo": "cwi-learn",
+  "ci_workflows": [
+   "pr-preview.yml",
+   "validate-json.yml"
+  ],
+  "card_in_repo": ".well-known/agent-card.json",
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

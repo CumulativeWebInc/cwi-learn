@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "agent-a-thon-2026",
+ "slug": "agent-a-thon-2026",
+ "display_name": "Agent-a-thon 2026 (entry prep, shelved)",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "Sep-2026 Microsoft agent competition: entry materials staged (drafts, demo script, architecture, IP note). Shelved \u2014 every remaining step was Black's personal tap and the IP-license grant was unacceptable.",
+ "intended_use": "n/a (shelved).",
+ "capabilities": [
+  "entry drafts",
+  "demo script",
+  "architecture + IP note"
+ ],
+ "limitations": "Shelved. Cycle stopped at prep.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "shelved",
+ "tags": [
+  "competition",
+  "shelved"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Delibra entry system's 23/23 claimed tests not re-run (honest).",
+ "cta": "n/a",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

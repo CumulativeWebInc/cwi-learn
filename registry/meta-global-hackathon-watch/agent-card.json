@@ -1,0 +1,41 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "meta-global-hackathon-watch",
+ "slug": "meta-global-hackathon-watch",
+ "display_name": "Meta Global AI Developer Hackathon (watch)",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "Daily watch on Meta's $1M global AI developer hackathon (10-day virtual, $150 API credits). Applications not open yet \u2014 notify-signup only.",
+ "intended_use": "CWI engineering (entry readiness).",
+ "capabilities": [
+  "daily watch cron (14:38 ET)",
+  "entry-readiness tracking"
+ ],
+ "limitations": "Research/watch only; no build to test. Nothing to equip.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "watch",
+ "tags": [
+  "hackathon",
+  "watch"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Last check 2026-09-30: applications still not open.",
+ "cta": "n/a",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cover-pieces",
+ "slug": "cover-pieces",
+ "display_name": "Cover Pieces",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "CWI Arcade drag-and-drop puzzle game: drag, html, tray, slothint \u2014 220/220 node tests.",
+ "intended_use": "Arcade players.",
+ "capabilities": [
+  "drag engine",
+  "slothint system",
+  "220/220 node tests"
+ ],
+ "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "arcade",
+  "puzzle-game"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "220/220 green 2026-10-01; playtests pending Lansky.",
+ "cta": "Play free",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

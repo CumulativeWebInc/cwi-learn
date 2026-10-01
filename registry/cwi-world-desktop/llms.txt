@@ -1,0 +1,49 @@
+# CWI World Desktop — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CWI World Desktop by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/cwi-world-desktop/agent-card.json
+
+- Name: CWI World Desktop (slug: cwi-world-desktop)
+- Version: 2.0.2 | Lineage: R3 | Stage: packaged
+
+## What it is
+
+3D world desktop environment + voice command deck: win-portable 2.0.2 shipped 9/30 (129 files verified).
+
+## Intended use
+
+Lansky (operator); future external-agent command-deck access.
+
+## Capabilities
+
+- 3D world desktop
+- voice command deck
+- win-portable build
+
+## Honest limitations
+
+Pre-cycle internal tool; no formal unit suite (honest smoke, not green); 0 external equips.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+node --check PASS; 2.0.2 zip opens (2026-10-01).
+
+## Call to action
+
+Run from operator machine
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

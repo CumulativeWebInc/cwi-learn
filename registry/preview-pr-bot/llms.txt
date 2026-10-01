@@ -1,0 +1,50 @@
+# Preview-URL PR bot — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Preview-URL PR bot by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/preview-pr-bot/agent-card.json
+
+- Name: Preview-URL PR bot (slug: preview-pr-bot)
+- Version: 1.0.0 | Lineage: R1/R3 | Stage: packaged
+
+## What it is
+
+Shared GitHub Action: on every CWI app repo PR, builds the branch, posts a Pages preview link + schema-validation checklist as a PR comment. Previews deploy to pr-previews/<PR#>/ — production untouched, $0.
+
+## Intended use
+
+CWI engineering / any multi-repo Pages org.
+
+## Capabilities
+
+- validate -> preview -> comment -> cleanup (4 jobs)
+- real contract gate
+- loud failure on missing agent-card/CHANGELOG
+- kill-rule audit script
+
+## Honest limitations
+
+Template lives in workspace; promotion to a public cwi-ci-templates repo is queued to Black (standing no-publish rule).
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+3 test PRs: bot comment + 200 previews + loud fail gate (2026-10-01).
+
+## Call to action
+
+Rollout queued to founder
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

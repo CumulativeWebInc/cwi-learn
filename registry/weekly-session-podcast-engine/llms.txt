@@ -1,0 +1,48 @@
+# Weekly Session Podcast Engine — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Weekly Session Podcast Engine by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/weekly-session-podcast-engine/agent-card.json
+
+- Name: Weekly Session Podcast Engine (slug: weekly-session-podcast-engine)
+- Version: 1.0.0 | Lineage: R2 | Stage: packaged
+
+## What it is
+
+Friday-night session-podcast production engine: records the artist session, ships an episode + press packet. Pilot: 183 Wilboi's Rock-Rap Night.
+
+## Intended use
+
+Listeners/followers of the weekly session series.
+
+## Capabilities
+
+- 16/16 HTML files parse clean
+- press packet + 11-label music verifications ready
+
+## Honest limitations
+
+Pilot awaits Black's by-ear format sign-off; 0 episodes released, 0 verified listens.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+0 episodes released (2026-10-01); smoke checks pass, no test suite (honest).
+
+## Call to action
+
+Follow / listen to the Friday-night episode
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

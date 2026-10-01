@@ -1,0 +1,53 @@
+# 777 Neon Nights — CWI Product Card (llms.txt)
+
+> Machine-readable product card for 777 Neon Nights by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/neon-nights-777/agent-card.json
+
+- Name: 777 Neon Nights (slug: neon-nights-777)
+- Version: 1.0.0 | Lineage: R2 | Stage: marketed
+
+## What it is
+
+Free-to-spin neon slot cabinet in the CWI Agent Deck: win streaming links and Neon Credits. Anonymous player-device telemetry since 2026-09-21.
+
+## Intended use
+
+Players (free play); R2 target: 25 unique player devices.
+
+## Capabilities
+
+- free spins, no signup
+- streaming-link prizes
+- Neon Credits
+- anonymous device telemetry (privacy-safe)
+
+## Honest limitations
+
+25 unique player devices recorded — R2 named target lives here; end_number as reported 2026-10-01.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-777-neon-nights/
+- Run: workspace-only
+
+- Docs: https://cumulativewebinc.github.io/cwi-777-neon-nights/
+- Repo: https://github.com/CumulativeWebInc/cwi-777-neon-nights
+
+## Conversion (honest numbers)
+
+end_number: 25 (2026-10-01). 10 node suites green (2026-10-01).
+
+## Call to action
+
+Spin free — win streaming links + Neon Credits
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/
