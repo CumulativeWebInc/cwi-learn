@@ -67,6 +67,65 @@ code{color:#f5c445;font-size:.85em} footer{color:#9fb4d8;font-size:.78em;text-al
       },
       "description": "Machine-readable catalog surface: llms.txt, catalog.json, graph.json, and agent-card.json.",
       "schema_version": "1.0.0"
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+      "name": "That Boy Hi Hat",
+      "genre": [
+        "Alternative Rap",
+        "Post-Trap Futurism",
+        "Experimental Hip-Hop"
+      ],
+      "sameAs": [
+        "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+        "https://medium.com/@cumulativeweb"
+      ]
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "name": "Diabolique",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "@id": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+        "name": "That Boy Hi Hat"
+      },
+      "producer": {
+        "@type": "Person",
+        "name": "Hybrid"
+      },
+      "recordedAt": {
+        "@type": "RecordingStudio",
+        "name": "Cue Recording Studio",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Arlington",
+          "addressRegion": "VA"
+        }
+      }
+    },
+    {
+      "@type": "MusicRecording",
+      "@id": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "name": "Zooted Zone",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "@id": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+        "name": "That Boy Hi Hat"
+      },
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/ListenAction",
+        "userInteractionCount": 313290
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "streamCountVerifiedDate",
+          "value": "2026-10-01"
+        }
+      ]
     }
   ]
 }
