@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/gear-ledger",
+  "@type": "SoftwareApplication",
+  "name": "gear-ledger",
+  "description": "Gear Ledger: agent gear ledger CLI (Agent Deck).",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external AI agents | GitHub / Moltbook / model registries | CTA: try / equip",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "packaged",
+      "evidence": "node cli/ledger.test.js: 17 passed, 0 failed (verified 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "10",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "gear-ledger",
+      "result": "R3",
+      "who": "external AI agents",
+      "channel": "GitHub / Moltbook / model registries",
+      "cta": "try / equip",
+      "end_number": 10,
+      "cycle_stage": "packaged",
+      "tests": "node cli/ledger.test.js: 17 passed, 0 failed (verified 2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:30:00-04:00",
+      "notes": "Retrofit: added README.md + agent-card.json (was: no README). Heartbeat cron gear-ledger-heartbeat (10m) untouched and enabled. Conversion leg not yet run; R3 current = 0/10."
+    }
+  ]
+}

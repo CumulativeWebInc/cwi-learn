@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/radio-365",
+  "@type": "RadioStation",
+  "name": "radio-365",
+  "description": "Cumulative Radio 365: CWI's indie radio channel. Icecast 128 kbps live; listed across directories (TuneIn, Streamitter, radio-browser.info, Airable-confirmed, Live Online Radio).",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R2)",
+      "value": "independent artists/producers + general listeners | directories (TuneIn s361867, Streamitter, radio-browser.info, Airable-confirmed, Live Online Radio) + station site | CTA: tap play on station site/directory listing; launch-alert signup",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "2026-10-01 verified: Icecast 2.4.4 source live (128kbps stereo, playing Doves & Diamonds, peak 5 listeners); station site 200 ON AIR; Streamitter page live; TuneIn page live"
+    },
+    {
+      "claim": "conversion end number (R2)",
+      "value": "0",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    },
+    {
+      "claim": "lineage record (R1)",
+      "value": "businesses, companies, artists buying airwave reach | station site advertising section (cumulative-radio-365.pages.dev) | CTA: Ask about advertising (on-page placements, sponsored mentions, artist spotlights)",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "selling",
+      "evidence": "same 2026-10-01 stream+site verification as R2 record; ads copy live on page"
+    },
+    {
+      "claim": "conversion end number (R1)",
+      "value": "0",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "selling",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    },
+    {
+      "rel": "publishedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#publishedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "CWI's own station"
+    },
+    {
+      "rel": "distributedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#distributedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "CWI operates the stream"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "radio-365",
+      "result": "R2",
+      "who": "independent artists/producers + general listeners",
+      "channel": "directories (TuneIn s361867, Streamitter, radio-browser.info, Airable-confirmed, Live Online Radio) + station site",
+      "cta": "tap play on station site/directory listing; launch-alert signup",
+      "end_number": 0,
+      "cycle_stage": "live",
+      "tests": "2026-10-01 verified: Icecast 2.4.4 source live (128kbps stereo, playing Doves & Diamonds, peak 5 listeners); station site 200 ON AIR; Streamitter page live; TuneIn page live",
+      "packaged": "y",
+      "verified_at": "2026-10-01T18:09:24Z",
+      "notes": "Reference standard for all slices: build->package->market->directories->live completed. R2 gap: 0/100 verified listener sessions; site counters (launch alerts/submissions/views) start at zero."
+    },
+    {
+      "product": "radio-365",
+      "result": "R1",
+      "who": "businesses, companies, artists buying airwave reach",
+      "channel": "station site advertising section (cumulative-radio-365.pages.dev)",
+      "cta": "Ask about advertising (on-page placements, sponsored mentions, artist spotlights)",
+      "end_number": 0,
+      "cycle_stage": "selling",
+      "tests": "same 2026-10-01 stream+site verification as R2 record; ads copy live on page",
+      "packaged": "y",
+      "verified_at": "2026-10-01T18:09:24Z",
+      "notes": "Ads program parked with Lansky: tiers/pricing/vetting/fee collection are his taps. $1 x402 self-buy (2026-09-22) is test money, not customer revenue; R1 official = $0."
+    }
+  ],
+  "url": "https://cumulative-radio-365.pages.dev"
+}

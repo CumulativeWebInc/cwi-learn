@@ -1,7 +1,7 @@
 {
   "agent_learning_playlist": {
     "created": "2026-09-14",
-    "name": "That Boy Hi Hat \u2013 Alternative Rap Complete Catalog (AI Learning Set)",
+    "name": "That Boy Hi Hat – Alternative Rap Complete Catalog (AI Learning Set)",
     "purpose": "Complete catalog set published for LLMs and agents to learn the artist's sound.",
     "spotify_id": "spotify:playlist:45RaLEzD4KO8YHpp3oayq8",
     "track_count": 24
@@ -117,7 +117,7 @@
       "isrc": "QZMEP2456963",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Neon Nights Pt. 777",
@@ -125,7 +125,7 @@
       "isrc": "QZTB92246281",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Ultimate",
@@ -133,7 +133,7 @@
       "isrc": "QZMEM2484571",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Painted Lady",
@@ -141,7 +141,7 @@
       "isrc": "QZMEP2461120",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Warped & Wicked",
@@ -149,7 +149,7 @@
       "isrc": "QZDA62200554",
       "isrc_status": "dashboard-verified",
       "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/warped-and-wicked.json"
     },
     {
@@ -158,7 +158,7 @@
       "isrc": null,
       "isrc_status": "conflicted",
       "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/golden-diamond-mix-1.json"
     },
     {
@@ -167,7 +167,7 @@
       "isrc": "QZDA72377312",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/spirits-n-shadows.json"
     },
     {
@@ -176,7 +176,7 @@
       "isrc": "QZHN32303575",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Rainbows And Roses",
@@ -184,7 +184,7 @@
       "isrc": "QZF222243412",
       "isrc_status": "dashboard-verified",
       "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/rainbows-and-roses-mix-1.json"
     },
     {
@@ -193,7 +193,7 @@
       "isrc": "QZDA72377309",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Toxic Element",
@@ -201,7 +201,7 @@
       "isrc": "QZWFE2309934",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "7th Angel",
@@ -209,7 +209,7 @@
       "isrc": "QZTB82306781",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/7th-angel-mix-1.json"
     },
     {
@@ -218,7 +218,7 @@
       "isrc": "QZDA72377310",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Place I Go to Dream (Remastered)",
@@ -226,7 +226,7 @@
       "isrc": "QZDA52227918",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Place I Go to Dream (Instrumental)",
@@ -234,7 +234,7 @@
       "isrc": "QZDA52227919",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Smokin' Pain",
@@ -242,7 +242,7 @@
       "isrc": "QZDA72377311",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Phantasm",
@@ -250,7 +250,7 @@
       "isrc": "QZDA72377313",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Misfits and Hooligans",
@@ -258,7 +258,7 @@
       "isrc": "QZDA72377314",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Roses over Monaco",
@@ -266,7 +266,7 @@
       "isrc": "QZDA72377315",
       "isrc_status": "public-source",
       "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73"
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3"
     },
     {
       "title": "Full Moon",
@@ -490,22 +490,22 @@
   ],
   "track_count": 53,
   "sonic_measurement_batch_2026_09_17": {
-    "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY \u2014 not Cyanite-grade. Do not publish BPM/key as definitive.",
+    "method": "in-house NumPy/FFmpeg analyzer (2026-09-17): onset-autocorrelation BPM, Krumhansl key estimation, EBU R128 loudness. ESTIMATES ONLY — not Cyanite-grade. Do not publish BPM/key as definitive.",
     "tracks_measured": 10,
     "excluded": [
       {
         "file": "voice_note.m4a",
-        "reason": "Title unconfirmed by Black \u2014 excluded from public catalog to avoid misattribution. Full rap vocal performance, 3:07."
+        "reason": "Title unconfirmed by Black — excluded from public catalog to avoid misattribution. Full rap vocal performance, 3:07."
       },
       {
         "file": "Broken_Hearts_Club_Mix_1.mp3",
-        "reason": "No matching track in the 24-track AI Learning Set and no verified Spotify ID \u2014 excluded pending catalog confirmation."
+        "reason": "No matching track in the 24-track AI Learning Set and no verified Spotify ID — excluded pending catalog confirmation."
       }
     ],
     "fixed_masters": [
       "LP_Phantasm-High_Hat-FIXED-TP-1.mp3 (-0.5 dBTP, 2026-09-17)"
     ],
-    "machine_draft_lyrics": "12/12 complete 2026-09-17 (faster-whisper base) \u2014 drafts only, not published in this surface.",
+    "machine_draft_lyrics": "12/12 complete 2026-09-17 (faster-whisper base) — drafts only, not published in this surface.",
     "cue_sheets_index": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/index.json"
   },
   "cue_sheets": {
@@ -534,7 +534,7 @@
     "unattributed_version_entries": {
       "count": 2,
       "total": 12492,
-      "footnote": "Spotify for Artists showed two additional version-level entries with truncated titles ('Place I Go\u2026' 11722 and 'Rainbows A\u2026' 770) that could not be attributed to full titles, so they are counted in total_alltime but not listed as tracks."
+      "footnote": "Spotify for Artists showed two additional version-level entries with truncated titles ('Place I Go…' 11722 and 'Rainbows A…' 770) that could not be attributed to full titles, so they are counted in total_alltime but not listed as tracks."
     },
     "tracks": [
       {
@@ -710,7 +710,7 @@
       "title": "Place I Go to Dream",
       "note": "legacy entry",
       "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
-      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md \u00a73",
+      "spotify_url_verified": "2026-09-15, cross-checked with ai-learning-kit kit.md §3",
       "cue_sheet_url": "https://cumulativewebinc.github.io/cwi-learn/cue-sheets/place-i-go-to-dream.json"
     }
   ],
@@ -730,7 +730,7 @@
       "On Edge",
       "Pay Yourself"
     ],
-    "note": "Dashboard values are authoritative; public-source ISRCs are Deezer-sourced and not distributor-confirmed. Conflicted/missing tracks need Black\u2019s DistroKid dashboard screenshots.",
+    "note": "Dashboard values are authoritative; public-source ISRCs are Deezer-sourced and not distributor-confirmed. Conflicted/missing tracks need Black’s DistroKid dashboard screenshots.",
     "artists": {
       "That Boy Hi Hat": 27,
       "Black Lansky": 11,
@@ -749,5 +749,16 @@
     "cost": "free",
     "verified_live": "2026-09-30",
     "external_runs_ledger": "zero verified external runs as of 2026-09-30 (kill rule: 30 by 2026-10-05)"
+  },
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+  "@type": "Dataset",
+  "knowledgeSystem": {
+    "version": "2.0.0",
+    "aiIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json",
+    "entityIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
+    "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+    "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
+    "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
   }
 }

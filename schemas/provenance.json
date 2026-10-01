@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cumulativewebinc.github.io/cwi-learn/schemas/provenance.json",
+  "title": "CWI provenance entry",
+  "type": "object",
+  "required": [
+    "claim",
+    "value",
+    "source",
+    "dateCreated",
+    "dateModified",
+    "version",
+    "confidence",
+    "status"
+  ],
+  "properties": {
+    "claim": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "@id"
+      ],
+      "properties": {
+        "@id": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "dateCreated": {
+      "type": "string"
+    },
+    "dateModified": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "owner_confirmed",
+        "claimed_unverified",
+        "incomplete"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "string"
+    }
+  }
+}
