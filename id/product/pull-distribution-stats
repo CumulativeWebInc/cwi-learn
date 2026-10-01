@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/pull-distribution-stats",
+  "@type": "SoftwareApplication",
+  "name": "pull-distribution-stats",
+  "description": "pull-distribution-stats skill: GitHub traffic + Hugging Face downloads + trust-log claims in one machine-readable dashboard JSON.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "Results dept agents (CWI_Results daily pull + dashboard refresh) | internal skill: GitHub traffic API + HF dataset API + trust-log chain -> dashboard JSON | CTA: n/a (internal measurement)",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "2026-10-01 smoke: pull.py compiles; HF BlackLansky/cwi-catalog live = 128 downloads/0 likes; trust-log index via git/blobs authority path = 11 verified claims, tip e6ed72e06b6ce45b (matches dashboard). Full authenticated traffic pull NOT run this session (authd path blocked); las"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "0",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "pull-distribution-stats",
+      "result": "R3",
+      "who": "Results dept agents (CWI_Results daily pull + dashboard refresh)",
+      "channel": "internal skill: GitHub traffic API + HF dataset API + trust-log chain -> dashboard JSON",
+      "cta": "n/a (internal measurement)",
+      "end_number": 0,
+      "cycle_stage": "live",
+      "tests": "2026-10-01 smoke: pull.py compiles; HF BlackLansky/cwi-catalog live = 128 downloads/0 likes; trust-log index via git/blobs authority path = 11 verified claims, tip e6ed72e06b6ce45b (matches dashboard). Full authenticated traffic pull NOT run this session (authd path blocked); last verified full pull 2026-10-01 11:36 EDT via dashboard cron runs.log.",
+      "packaged": "y",
+      "verified_at": "2026-10-01T18:15:00Z",
+      "notes": "R3/R2 measurement infra. No code changes needed - machinery verified healthy against live sources."
+    }
+  ]
+}

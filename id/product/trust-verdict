@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/trust-verdict",
+  "@type": "SoftwareApplication",
+  "name": "trust-verdict",
+  "description": "Trust Verdict Engine v1.0.0: deterministic agent-trust scoring over ERC-8004, Needle Drop, and First Spin signals; returns insufficient-data instead of invented scores.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external AI agents | GitHub / Moltbook / model registries | CTA: try / equip",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "packaged",
+      "evidence": "engine.py: determinism verified live 2026-10-01 (identical bytes, empty evidence -> insufficient-data, no invented score); skill suite cwi-mcp-public trust_verdict empty-evidence test passing"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "10",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "trust-verdict",
+      "result": "R3",
+      "who": "external AI agents",
+      "channel": "GitHub / Moltbook / model registries",
+      "cta": "try / equip",
+      "end_number": 10,
+      "cycle_stage": "packaged",
+      "tests": "engine.py: determinism verified live 2026-10-01 (identical bytes, empty evidence -> insufficient-data, no invented score); skill suite cwi-mcp-public trust_verdict empty-evidence test passing",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:30:00-04:00",
+      "notes": "Retrofit: added suite README.md + agent-card.json (was: no README). Engine v1.0.0 live on branch needs/verdict-engine, NOT yet merged to main (flag for merger). Skill ~/workspace/skills/trust-verdict/SKILL.md accurate. Conversion leg (market/advertise to outside agents) not yet run; R3 current = 0/10."
+    }
+  ]
+}

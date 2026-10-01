@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/sanqa",
+  "@type": "SoftwareApplication",
+  "name": "SANQA",
+  "description": "CWI flagship commercial software suite: Trust Verdict Checker + 5 instruments, x402 paid routes ($0.05-$0.25 USDC on Base).",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R1)",
+      "value": "agent developers / API users needing deterministic trust scoring | Trust Verdict API x402 routes + live pricing page | CTA: Live pricing ->; call paid verification routes",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "marketed",
+      "evidence": "portal npm test 26/26 PASS ALL GREEN post-rename (2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R1)",
+      "value": "$0 received",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "marketed",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "SANQA",
+      "result": "R1",
+      "who": "agent developers / API users needing deterministic trust scoring",
+      "channel": "Trust Verdict API x402 routes + live pricing page",
+      "cta": "Live pricing ->; call paid verification routes",
+      "end_number": "$0 received",
+      "cycle_stage": "marketed",
+      "tests": "portal npm test 26/26 PASS ALL GREEN post-rename (2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:45:00-04:00",
+      "notes": "Retrofit fix: completed the AURUM->SANQA rebrand in portal server layer + machine-data + brand SVGs (live surfaces); portal tests re-greened 26/26. x402: 7 routes free forever, 10 paid $0.05-$0.25 USDC on Base. 6 demo videos in production (2 delivered); filings staged ($765 unfiled). Manifest: flagship-suite/lineage-manifest.json. CWI master-logo badge added to landing footer."
+    }
+  ]
+}

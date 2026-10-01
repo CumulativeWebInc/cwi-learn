@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/a2a-relay",
+  "@type": "SoftwareApplication",
+  "name": "a2a-relay",
+  "description": "A2A Relay: agent-to-agent message relay; the R3 intake channel (data/requests.log is the adoption metric).",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external AI agents | GitHub / Moltbook (cwi-a2a-inbox) | CTA: try / equip",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "packaged",
+      "evidence": "node test.js: 15/15 assertions passed (verified 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "10",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "a2a-relay",
+      "result": "R3",
+      "who": "external AI agents",
+      "channel": "GitHub / Moltbook (cwi-a2a-inbox)",
+      "cta": "try / equip",
+      "end_number": 10,
+      "cycle_stage": "packaged",
+      "tests": "node test.js: 15/15 assertions passed (verified 2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:30:00-04:00",
+      "notes": "Retrofit: fixed 3 stale paths in README (relay/relay.js -> relay.js; relay/test.js -> test.js; dead ../INBOX-PROTOCOL.md -> ../a2a-relay-build/INBOX-PROTOCOL.md); added agent-card.json. Relay cron cwi-a2a-relay (10m) untouched and enabled. The relay IS the R3 intake channel: data/requests.log is the adoption metric. Conversion leg = outside agents discovering inbox repo; R3 current = 0/10."
+    }
+  ]
+}

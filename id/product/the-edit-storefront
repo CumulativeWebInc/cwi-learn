@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/the-edit-storefront",
+  "@type": "Store",
+  "name": "the-edit-storefront",
+  "description": "THE EDIT storefront: R1 conversion engine #1 (Booth/Edit/Crate/Greenlight/Call Sheet). 0 orders; cycle stopped at 'selling, manual'.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R1)",
+      "value": "independent artists, producers, music supervisors, indie game studios, businesses | cumulativewebinc.github.io/cwi-edit + Moltbook/X agent-audience sell waves (wave copy went live 9/23) | CTA: Order (prefilled order email to hp@cumulativeweb.com) / Join the waitlist / Post a brief",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "selling",
+      "evidence": "page text fetched live 2026-10-01: all 6 products present with prices + kill rules (Booth $1/credit; Edit $49/$99/$149; Crate $29/$19 preorder; Greenlight $9.99/mo waitlist; Call Sheet free+15%; Agent Deck custom quote). MANUAL CHECKOUT AT LAUNCH."
+    },
+    {
+      "claim": "conversion end number (R1)",
+      "value": "0",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "selling",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "the-edit-storefront",
+      "result": "R1",
+      "who": "independent artists, producers, music supervisors, indie game studios, businesses",
+      "channel": "cumulativewebinc.github.io/cwi-edit + Moltbook/X agent-audience sell waves (wave copy went live 9/23)",
+      "cta": "Order (prefilled order email to hp@cumulativeweb.com) / Join the waitlist / Post a brief",
+      "end_number": 0,
+      "cycle_stage": "selling",
+      "tests": "page text fetched live 2026-10-01: all 6 products present with prices + kill rules (Booth $1/credit; Edit $49/$99/$149; Crate $29/$19 preorder; Greenlight $9.99/mo waitlist; Call Sheet free+15%; Agent Deck custom quote). MANUAL CHECKOUT AT LAUNCH.",
+      "packaged": "y",
+      "verified_at": "2026-10-01T18:12:00Z",
+      "notes": "R1 conversion engine #1. Cycle stopped at 'selling, manual': 0 orders. Open taps (Black's): Agent Deck pricing, ad rate card, THE EDIT samples, World Desktop delivery. Local repo source not in workspace (deployed from elsewhere) - noted as packaging gap for a later slice."
+    }
+  ]
+}

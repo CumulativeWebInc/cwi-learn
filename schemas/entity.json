@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cumulativewebinc.github.io/cwi-learn/schemas/entity.json",
+  "title": "CWI knowledge entity",
+  "type": "object",
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "description",
+    "dateCreated",
+    "dateModified",
+    "version",
+    "provenance"
+  ],
+  "properties": {
+    "@context": {
+      "type": "string"
+    },
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "dateCreated": {
+      "type": "string"
+    },
+    "dateModified": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "provenance.json"
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "rel",
+          "@id",
+          "target"
+        ],
+        "properties": {
+          "rel": {
+            "type": "string",
+            "enum": [
+              "developedBy",
+              "createdBy",
+              "usesSoftware",
+              "usesTechnology",
+              "partOf",
+              "contains",
+              "dependsOn",
+              "builtWith",
+              "publishedBy",
+              "distributedBy",
+              "relatedTo",
+              "derivedFrom",
+              "versionOf",
+              "precedes",
+              "follows",
+              "supports",
+              "implements"
+            ]
+          },
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "target": {
+            "type": "object",
+            "required": [
+              "@id"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

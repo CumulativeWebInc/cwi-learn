@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat",
+  "@type": "MusicGroup",
+  "name": "That Boy Hi Hat",
+  "description": "Alternative rap artist (Post-Trap Futurism), based in Frederick, MD. 27-track catalog; breakout record 'Zooted Zone'.",
+  "url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+  "genre": [
+    "alternative rap",
+    "Post-Trap Futurism"
+  ],
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "artist identity",
+      "value": "That Boy Hi Hat",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "active",
+      "evidence": "catalog.json / kit.json artist block; Spotify artist ID 2f9j460EwjfvjYp3trBcb7"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "relatedTo",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#relatedTo",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Label/management: Cumulative Web Inc"
+    }
+  ]
+}

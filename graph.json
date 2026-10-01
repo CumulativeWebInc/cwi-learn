@@ -3211,5 +3211,45 @@
       "rel": "streaming_on",
       "note": ""
     }
-  ]
+  ],
+  "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+  "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+  "id_base": "https://cumulativewebinc.github.io/cwi-learn/id/",
+  "relationship_policy": "Edges added after 2026-10-01 MUST use the controlled vocabulary at https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld . Legacy music-catalog rels (snake_case) predate it and are grandfathered via rel_legend; they are NOT rewritten in this pass.",
+  "rel_legend": {
+    "performed_by": "relatedTo",
+    "has_track": "contains",
+    "included_in": "partOf",
+    "released": "publishedBy",
+    "streaming_on": "distributedBy",
+    "exemplar_of": "relatedTo",
+    "placed_on": "relatedTo",
+    "produced_by": "createdBy",
+    "managed_by": "relatedTo",
+    "defines": "relatedTo",
+    "associated": "relatedTo",
+    "located_in": "relatedTo",
+    "based_in": "relatedTo",
+    "co_produced_by": "createdBy",
+    "recorded_at": "relatedTo",
+    "mixed_and_mastered_by": "createdBy",
+    "released_on": "distributedBy",
+    "artwork_for": "relatedTo",
+    "features_audio": "contains",
+    "uses_artwork": "usesSoftware",
+    "operated_by": "relatedTo",
+    "associated_artist": "relatedTo",
+    "has_release": "contains",
+    "tagged": "relatedTo",
+    "by_artist": "createdBy"
+  },
+  "knowledgeSystem": {
+    "version": "2.0.0",
+    "aiIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json",
+    "entityIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
+    "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+    "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
+    "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
+  }
 }
