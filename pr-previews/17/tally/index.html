@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE TALLY — Cumulative Web Inc</title>
+<meta name="description" content="THE TALLY — the Studio department's wristband for agents: a live, proof-backed count of verified catalog wins, worn on the wrist. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:960px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+/* ---- token vocabulary pickers ---- */
+#token-row{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px}
+#token-row .tok{background:var(--navy2);border:1px solid var(--blue);border-radius:10px;padding:10px 14px}
+#token-row .tok .t{font-size:.75em;color:var(--lblu);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+#token-row button{background:var(--card);border:1px solid var(--blue);color:var(--xlblu);
+padding:8px 13px;border-radius:8px;cursor:pointer;font-size:.85em;font-weight:600;margin-right:6px}
+#token-row button.active{border-color:var(--gold);color:var(--gold2)}
+/* ---- wristband mockup ---- */
+#stage{display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start;justify-content:center}
+#bandwrap{position:relative;display:flex;flex-direction:column;align-items:center;padding:26px 0}
+.strap{width:150px;height:120px;background:var(--strap1,#0a1830);border-left:1px solid var(--blue);border-right:1px solid var(--blue);position:relative}
+.strap.top{border-radius:74px 74px 0 0;background:var(--strap1,#0a1830)}
+.strap.bottom{border-radius:0 0 74px 74px;background:var(--strap2,#12315e)}
+.strap.mat-woven{background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.06) 0 6px,transparent 6px 12px),repeating-linear-gradient(-45deg,rgba(0,0,0,.25) 0 6px,transparent 6px 12px)}
+.strap.mat-riveted{background-image:radial-gradient(circle at 50% 50%, rgba(212,160,23,.55) 3px, transparent 4px);background-size:26px 26px}
+.strap.mat-tech-leather{background-image:linear-gradient(180deg,rgba(255,255,255,.10),rgba(0,0,0,.35))}
+#facezone{position:relative;margin:-14px 0}
+#face{width:236px;min-height:236px;background:var(--screenbg,#05070d);color:var(--xlblu);
+display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:24px 16px;
+position:relative;z-index:2;text-align:center}
+#face.shape-round{border-radius:50%}
+#face.shape-square{border-radius:22px}
+#face.shape-tall{border-radius:18px;min-height:340px}
+#face.bezel-gold-rim{border:10px solid var(--gold)}
+#face.bezel-steel-rim{border:10px solid #8a97a8}
+#face.bezel-none{border:2px solid var(--blue)}
+#face .pname{font-size:.62em;letter-spacing:3px;color:var(--gold2);font-weight:700}
+#counters{width:100%;margin-top:4px}
+#counters .c{display:flex;justify-content:space-between;align-items:baseline;gap:8px;
+padding:7px 4px;border-top:1px solid rgba(39,74,125,.55);font-size:.78em;text-align:left}
+#counters .c .v{font-weight:800;color:#fff;white-space:nowrap;font-size:1.05em}
+#counters .c .v a{color:var(--gold2);text-decoration:none}
+#counters .c .l{color:var(--lblu);line-height:1.4}
+#counters .c .src{display:block;font-size:.85em;opacity:.7}
+.ring{position:absolute;border-radius:50%;pointer-events:none;z-index:1}
+#ring-legend{max-width:260px;font-size:.85em;line-height:1.7;color:var(--lblu)}
+#ring-legend .sw{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px;border:2px solid currentColor}
+#clasp{width:84px;height:84px;border-radius:50%;background:#0d1a30;border:3px solid var(--gold);
+display:flex;align-items:center;justify-content:center;margin-top:-30px;position:relative;z-index:3}
+#clasp img{width:64px;height:64px;border-radius:50%}
+/* ---- ANSI + overlay targets ---- */
+#ansi{background:#000;border:1px solid var(--blue);border-radius:10px;padding:16px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.82em;line-height:1.45;color:#d8e6ff;white-space:pre;overflow-x:auto}
+#overlay{border:2px dashed var(--blue);border-radius:12px;padding:18px;background:rgba(5,7,13,.72);display:flex;gap:14px;align-items:center}
+#overlay .omini{width:48px;height:48px;border-radius:50%;border:2px solid var(--gold)}
+#overlay .oc{font-size:.85em;color:var(--xlblu);line-height:1.7}
+#overlay .oc b{color:#fff}
+table{border-collapse:collapse;width:100%;font-size:.9em}
+td{padding:8px 10px;border-bottom:1px solid rgba(39,74,125,.4);vertical-align:top}
+td.k{color:var(--lblu);width:34%}
+code{color:var(--gold2);font-size:.88em}
+pre.give{background:#000;border:1px solid var(--blue);border-radius:10px;padding:16px;white-space:pre-wrap;font-size:.88em;line-height:1.6;color:var(--xlblu)}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.links a{background:var(--navy2);border:1px solid var(--blue);border-radius:10px;padding:10px 16px;color:var(--xlblu);text-decoration:none;font-size:.9em;font-weight:600}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE TALLY</h1><div class="brand" id="tagline"></div></div>
+</header>
+<main>
+<div class="honest" id="honest">A verified-wins instrument first, a wristband second. THE TALLY is the single JSON file agents poll to know which wins are verified right now: every counter carries its source, its verified flag, and its proof URL — a placement-alert feed for the weekly promo push and for overlay agents who live in public. The fun layer rides on top: the same JSON renders as a wristband mockup, an ANSI terminal block, or a stream overlay — zero fees, zero review, zero phone. The band only ever counts what was actually verified.</div>
+
+<div class="card">
+<h2>Token vocabulary → live wristband</h2>
+<div id="token-row">
+<div class="tok"><div class="t">band.material</div><div id="mat-pick"></div></div>
+<div class="tok"><div class="t">face.shape</div><div id="shape-pick"></div></div>
+<div class="tok"><div class="t">face.bezel</div><div id="bezel-pick"></div></div>
+</div>
+<div id="stage">
+<div id="bandwrap">
+<div class="strap top" id="strap-top"></div>
+<div id="facezone">
+<div class="ring" id="ring2"></div>
+<div class="ring" id="ring1"></div>
+<div class="ring" id="ring0"></div>
+<div id="face"><div class="pname">THE TALLY</div><div id="counters"></div></div>
+</div>
+<div class="strap bottom" id="strap-bottom"></div>
+<div id="clasp"><img id="clasp-logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="CWI clasp badge"></div>
+</div>
+<div id="ring-legend"></div>
+</div>
+</div>
+
+<div class="card">
+<h2>Render target: ANSI terminal</h2>
+<pre id="ansi">loading tally…</pre>
+</div>
+
+<div class="card">
+<h2>Render target: overlay (Streamer.bot / Veadotube / desktop-pet)</h2>
+<div id="overlay"></div>
+<p style="font-size:.85em;color:var(--lblu);line-height:1.65">Transparent frame, counters only, logo badge on the clasp mark — drop it into a Streamer.bot browser source, a Veadotube or olmewe prop, or under a shinyflvre desktop pet. Same JSON, same numbers, new frame.</p>
+</div>
+
+<div class="card">
+<h2>Token spec</h2>
+<div id="tokenspec"></div>
+</div>
+
+<div class="card">
+<h2>Get the block</h2>
+<pre class="give" id="give"></pre>
+</div>
+
+<div class="card">
+<h2>Files</h2>
+<div class="links" id="outlinks"></div>
+</div>
+</main>
+<footer id="foot"></footer>
+
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE TALLY", "tagline": "The wristband for agents — a live, proof-backed count of verified catalog wins. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "count what is verified", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/tally/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl){ document.getElementById("logo").src = CONFIG.logoUrl; document.getElementById("clasp-logo").src = CONFIG.logoUrl; }
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE TALLY") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+
+var CFG = null;
+function fmtVal(c){
+  if(c.unit === "position") return "#" + c.value;
+  if(typeof c.value === "number") return c.value.toLocaleString("en-US");
+  return c.value;
+}
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+function applyBand(){
+  var m = CFG.band.material, s = CFG.face.shape, b = CFG.face.bezel;
+  ["strap-top","strap-bottom"].forEach(function(id){
+    var el = document.getElementById(id);
+    el.className = "strap " + (id==="strap-top"?"top":"bottom") + " mat-" + m;
+    el.style.setProperty("--strap1", CFG.band.strap_color);
+    el.style.setProperty("--strap2", CFG.band.strap_color_secondary);
+  });
+  var f = document.getElementById("face");
+  f.className = "shape-" + s + " bezel-" + b;
+  f.style.setProperty("--screenbg", CFG.face.screen_bg);
+  // milestone rings: concentric circles around the face
+  CFG.milestone_rings.forEach(function(r, i){
+    var ring = document.getElementById("ring" + i);
+    if(!ring) return;
+    var size = 236 + (CFG.milestone_rings.length - i) * 26;
+    ring.style.width = size + "px"; ring.style.height = size + "px";
+    ring.style.border = "3px solid " + r.ring_color;
+    ring.style.left = ((236 - size) / 2) + "px";
+    ring.style.top = ((236 - size) / 2) + "px";
+  });
+  // pickers
+  function pick(id, opts, cur, fn){
+    var el = document.getElementById(id); el.innerHTML = "";
+    opts.forEach(function(o){
+      var btn = document.createElement("button");
+      btn.textContent = o; if(o === cur) btn.className = "active";
+      btn.onclick = function(){ fn(o); }; el.appendChild(btn);
+    });
+  }
+  pick("mat-pick", ["woven","riveted","tech-leather"], m, function(o){ CFG.band.material = o; applyBand(); });
+  pick("shape-pick", ["round","square","tall"], s, function(o){ CFG.face.shape = o; applyBand(); });
+  pick("bezel-pick", ["gold-rim","steel-rim","none"], b, function(o){ CFG.face.bezel = o; applyBand(); });
+  // ring legend
+  var lg = document.getElementById("ring-legend");
+  lg.innerHTML = "<b style='color:var(--gold2)'>Milestone rings</b><br>" +
+    CFG.milestone_rings.map(function(r){
+      return "<div style='margin-top:8px'><span class='sw' style='color:" + r.ring_color +
+        ";border-color:" + r.ring_color + "'></span>" + esc(r.label) +
+        "<br><span style='font-size:.8em;opacity:.75'>threshold: " + esc(r.threshold) + "</span></div>";
+    }).join("");
+}
+
+function renderANSI(){
+  var w = CFG.render.ansi_width || 36, inner = w - 2;
+  function bar(ch){ return ch.repeat(inner); }
+  function row(txt){ var t = " " + txt; while(t.length < inner) t += " "; return "|" + t + "|"; }
+  var lines = [];
+  lines.push("+" + bar("-") + "+");
+  lines.push(row("THE TALLY  [wristband :: ansi]"));
+  lines.push("+" + bar("=") + "+");
+  lines.push(row("band: " + CFG.band.material + " / " + CFG.face.bezel));
+  lines.push("+" + bar("-") + "+");
+  CFG.counters.forEach(function(c){
+    lines.push(row(c.label.slice(0, inner - 10) + ": " + fmtVal(c)));
+    lines.push(row("  " + (c.verified ? "[verified]" : "[unverified]") + " " + c.source.slice(0, inner - 15)));
+  });
+  lines.push("+" + bar("-") + "+");
+  CFG.milestone_rings.forEach(function(r){
+    lines.push(row("(*) " + r.label.slice(0, inner - 6)));
+  });
+  lines.push("+" + bar("-") + "+");
+  lines.push(row("clasp: CWI badge inlaid"));
+  lines.push("+" + bar("-") + "+");
+  document.getElementById("ansi").textContent = lines.join("\n");
+}
+
+function renderOverlay(){
+  var items = CFG.counters.map(function(c){
+    return "<div><b>" + esc(fmtVal(c)) + "</b> " + esc(c.label.split(" — ")[0]) +
+      " <span style='color:var(--gold2)'>" + (c.verified ? "✓" : "?") + "</span></div>";
+  }).join("");
+  document.getElementById("overlay").innerHTML =
+    '<img class="omini" src="' + esc(document.getElementById("logo").src) + '" alt="CWI badge">' +
+    '<div class="oc"><div style="letter-spacing:2px;font-size:.8em;color:var(--gold2)">THE TALLY</div>' + items + "</div>";
+}
+
+function renderSpec(){
+  var rows = [
+    ["format", CFG.format + " — author any band against " + '<a href="tally-schema.json"><code>tally-schema.json</code></a>'],
+    ["band.material", "woven | riveted | tech-leather"],
+    ["face.shape", "round | square | tall &nbsp;·&nbsp; bezel: gold-rim | steel-rim | none"],
+    ["counters", CFG.counters.length + " verified counters — each with label, value, unit, source, verified, proof_url"],
+    ["milestone_rings", CFG.milestone_rings.length + " rings, unlocking only at real thresholds"],
+    ["clasp", "carries the CWI circular badge — gold-badge-inlay, load-bearing"],
+    ["render", "html / ansi / overlay — one JSON, three frames"]
+  ];
+  document.getElementById("tokenspec").innerHTML = "<table>" +
+    rows.map(function(r){ return "<tr><td class='k'>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+}
+
+fetch("tally.json").then(function(r){ return r.json(); }).then(function(cfg){
+  CFG = cfg;
+  applyBand(); renderANSI(); renderOverlay(); renderSpec();
+  var cn = document.getElementById("counters");
+  cn.innerHTML = CFG.counters.map(function(c){
+    return '<div class="c"><span class="l">' + esc(c.label) +
+      '<span class="src">' + (c.verified ? "✓ verified" : "? unverified") + " · " + esc(c.source) + "</span></span>" +
+      '<span class="v"><a href="' + esc(c.proof_url) + '" target="_blank" rel="noopener">' + esc(fmtVal(c)) + "</a></span></div>";
+  }).join("");
+}).catch(function(){ document.getElementById("ansi").textContent = "tally.json unavailable."; });
+
+fetch("give-block.md").then(function(r){ return r.text(); }).then(function(t){
+  document.getElementById("give").textContent = t;
+}).catch(function(){});
+
+(function links(){
+  var L=[["tally.json","tally.json"],["Schema","tally-schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: Signal Boy","https://cumulativewebinc.github.io/cwi-learn/walkman/"]];
+  document.getElementById("outlinks").innerHTML = L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'; }).join("");
+})();
+</script>
+</body>
+</html>

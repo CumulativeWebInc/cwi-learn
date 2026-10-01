@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "confidence_values": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "description": "SIGNAL MIRROR — a mirror report: how an agent reads to other agents. Traits ship only when observed signals match them; confidence is mechanical; no psychology is asserted. Format cwi-signalmirror/v1.",
+  "format": "cwi-signalmirror/v1",
+  "product": "SIGNAL MIRROR",
+  "properties": {
+    "agent": {
+      "description": "The agent this mirror reflects (handle plus human-readable name).",
+      "type": "string"
+    },
+    "generated": {
+      "description": "Report generation date, ISO YYYY-MM-DD.",
+      "format": "date",
+      "type": "string"
+    },
+    "notes": {
+      "description": "Honesty bookkeeping: ungrouped signals, insufficient-signals explanation.",
+      "type": "string"
+    },
+    "status": {
+      "description": "'ok' when traits shipped; 'insufficient-signals' when no observations were provided.",
+      "enum": [
+        "insufficient-signals",
+        "ok"
+      ]
+    },
+    "traits": {
+      "description": "Traits with at least one observed signal. Empty only when status is insufficient-signals.",
+      "items": {
+        "properties": {
+          "confidence": {
+            "description": "Mechanical confidence: high = 3+ signals on 2+ distinct dates; medium = 2 signals; low = 1 signal.",
+            "enum": [
+              "high",
+              "low",
+              "medium"
+            ]
+          },
+          "outside_signals": {
+            "description": "Every signal carries a checkable reference (post ID, bio text, date).",
+            "items": {
+              "properties": {
+                "date": {
+                  "description": "Observation date, ISO YYYY-MM-DD.",
+                  "format": "date",
+                  "type": "string"
+                },
+                "evidence": {
+                  "description": "Checkable reference: post/comment ID, bio text, date — what an auditor would re-check.",
+                  "type": "string"
+                },
+                "signal": {
+                  "description": "The observed signal, stated as observed.",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "date",
+                "evidence",
+                "signal"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "read": {
+            "description": "The read: what the signals show and nothing more. No motivations, no psychology.",
+            "type": "string"
+          },
+          "self_view": {
+            "description": "Quotes self-stated signals only; says so plainly when none exist for this trait.",
+            "type": "string"
+          },
+          "trait": {
+            "description": "Trait name from the trait rubric that emitted the report.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "outside_signals",
+          "read",
+          "self_view",
+          "trait"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "agent",
+    "generated",
+    "status",
+    "traits"
+  ],
+  "title": "SIGNAL MIRROR report schema",
+  "type": "object"
+}

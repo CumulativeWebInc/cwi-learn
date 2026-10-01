@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chain-of-Title Compass — Cumulative Web Inc</title>
+<meta name="description" content="Chain-of-Title Compass — the rights spine Sync and Press cite. A Rights Passport for every That Boy Hi Hat track: DOCUMENTED or PENDING, never invented. Advisory tooling only.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e8a13a;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+.shelf{color:var(--gold2);font-size:.8em;margin-top:3px;letter-spacing:.4px}
+main{max-width:980px;margin:0 auto;padding:20px 18px 40px}
+.advisory{background:#171106;border:2px solid var(--warn);border-radius:14px;
+padding:18px 20px;margin-bottom:18px;font-size:.95em;line-height:1.7}
+.advisory strong{color:var(--warn)}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:18px;margin-bottom:14px}
+.card h2{margin:0 0 4px;font-size:1.15em;color:#fff}
+.card .idx{color:var(--lblu);font-size:.82em;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;font-size:.9em}
+td{padding:6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5}
+td.k{color:var(--lblu);width:32%}
+.stamp{display:inline-block;padding:2px 10px;border-radius:20px;font-size:.75em;font-weight:700;letter-spacing:.5px;margin-right:8px}
+.doc{background:rgba(47,174,85,.16);color:#7be495;border:1px solid var(--ok)}
+.pen{background:rgba(232,161,58,.14);color:#f2c177;border:1px solid var(--warn)}
+.meta{color:var(--lblu);font-size:.82em;margin-top:2px}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+footer .shelf{font-size:1em}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6;padding:16px;border-radius:10px}
+.count{color:var(--gold2);font-weight:700}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="logo">
+<div>
+<h1 id="product-name">Chain-of-Title Compass</h1>
+<div class="brand" id="tagline">The rights spine Sync and Press cite.</div>
+<div class="shelf" id="shelf">part of the Agent Deck gear line by Cumulative Web Inc</div>
+</div>
+</header>
+<main>
+<div class="advisory" id="disclaimer"><strong>ADVISORY TOOLING ONLY.</strong> ADVISORY TOOLING ONLY: the Chain-of-Title Compass organizes rights facts; it is not legal advice and no field here substitutes for clearance. A licensed attorney still executes, advises, and signs.</div>
+<div class="card">
+<h2>HOW IT WORKS</h2>
+<div class="meta">
+Every track in the catalog carries a <strong>Rights Passport</strong>. Each field is stamped
+<span class="stamp doc">DOCUMENTED</span> with its source, or
+<span class="stamp pen">PENDING</span> with what's missing and who provides it.
+An equipped agent cites only DOCUMENTED facts — it refuses to assert PENDING ones.
+Registry: <a id="registry" href="#">gear.json</a> · Hub device: <a href="https://cumulativewebinc.github.io/cwi-learn/walkman/">Signal Boy</a>
+</div>
+<div class="links">
+<a href="passports.json">Rights Passports (JSON)</a>
+<a href="item-card.json">Item card</a>
+<a href="rubric.json">Rubric</a>
+<a href="give-block.md">Give block</a>
+<a href="announce.html">12-language announce</a>
+</div>
+</div>
+<div id="passports"></div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.<br><span class="shelf">part of the Agent Deck gear line by Cumulative Web Inc</span></footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "Chain-of-Title Compass", "tagline": "The rights spine Sync and Press cite — a Rights Passport for every That Boy Hi Hat track. DOCUMENTED or PENDING, never invented.", "motto": "rights you can audit", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/compass/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").childNodes[0].textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"Chain-of-Title Compass") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function stamp(f){
+  var cls = f.status === "DOCUMENTED" ? "doc" : "pen";
+  return '<span class="stamp '+cls+'">'+f.status+'</span>';
+}
+function fieldRow(label, f){
+  if(f == null) return "";
+  var val = f.value === null ? "<em>not yet documented</em>" :
+            (f.value === false ? "no" : (f.value === true ? "yes" : "<strong>"+esc(f.value)+"</strong>"));
+  var sub;
+  if(f.status === "DOCUMENTED") sub = "source: " + esc(f.source || "");
+  else sub = "missing: " + esc(f.whats_missing || "") + " — provided by " + esc(f.provided_by || "");
+  return "<tr><td class='k'>"+esc(label.replace(/_/g," "))+"</td><td>"+stamp(f)+" "+val+
+         '<div class="meta">'+sub+"</div></td></tr>";
+}
+fetch("passports.json").then(function(r){return r.json()}).then(function(c){
+  document.getElementById("disclaimer").innerHTML =
+    "<strong>ADVISORY TOOLING ONLY.</strong> " + esc(c.advisory_disclaimer);
+  document.getElementById("registry").href = c.registry;
+  var html = c.passports.map(function(p){
+    var rows = Object.keys(p.fields).map(function(k){ return fieldRow(k, p.fields[k]); }).join("");
+    var ndoc = Object.keys(p.fields).filter(function(k){return p.fields[k].status==="DOCUMENTED";}).length;
+    return '<div class="card"><h2>'+esc(p.title)+'</h2>'+
+      '<div class="idx">passport #'+p.index+' · <span class="count">'+ndoc+'</span> DOCUMENTED fields · '+
+      '<a href="'+p.spotify_url+'">Spotify</a></div>'+
+      "<table>"+rows+"</table></div>";
+  }).join("");
+  document.getElementById("passports").innerHTML = html;
+}).catch(function(){ document.getElementById("passports").textContent = "passport data unavailable."; });
+</script>
+</body>
+</html>

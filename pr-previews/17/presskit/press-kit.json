@@ -1,0 +1,37 @@
+{
+  "app": "Marquee — CWI Marketing",
+  "description": "Machine-readable press kit for That Boy Hi Hat / Cumulative Web Inc.",
+  "updated": "2026-09-15",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "based": "Frederick, MD",
+    "genre": "alternative rap / Post-Trap Futurism",
+    "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
+    "spotify_artist_url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+    "management": "Cumulative Web Inc (Henry Pitts / Black Lansky)"
+  },
+  "bio_facts": [
+    "That Boy Hi Hat is an alternative rap artist defining Post-Trap Futurism, managed by Cumulative Web Inc (Henry Pitts / Black Lansky).",
+    "Based in Frederick, MD (owner-confirmed 2026-09-15).",
+    "Catalog: 24 unique Spotify tracks; flagship single \"Zooted Zone\" (~307,000 lifetime Spotify plays, baseline 2026-09-14).",
+    "Latest single \"Diabolique\" released 2026-07-03; produced by Hybrid, co-produced by Black Lansky; recorded at Cue Recording Studio, Arlington, VA (owner-confirmed 2026-09-15).",
+    "Three tracks verified holding on Audiartist's \"New Rap Hits\" playlist (673 followers): Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31 (full scan 2026-09-15).",
+    "Producers on record: Kokurcho (Zooted Zone), Hybrid (Diabolique; mixed/mastered Zooted Zone), Jeck Da General (Flamerz) — all owner-confirmed.",
+    "Flagship tracks are explicit; no clean/FCC-safe versions or licensable instrumentals are documented."
+  ],
+  "links": {
+    "spotify_artist": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
+    "catalog_playlist": "https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8",
+    "substack": "https://substack.com/@cumulativewebinc",
+    "articles_index": "https://cumulativewebinc.github.io/cwi-learn/articles/",
+    "scout_cards": "https://cumulativewebinc.github.io/cwi-learn/scout/",
+    "cumulative_web": "https://cumulativeweb.com"
+  },
+  "assets": {
+    "logo": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg",
+    "note": "The official CWI logo goes on every street-team profile and visual asset. Artist avatar art is never used on street-team accounts."
+  },
+  "contact": {
+    "business_and_sync": "hp@cumulativeweb.com"
+  }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOUNDCHECK — Cumulative Web Inc</title>
+<meta name="description" content="SOUNDCHECK — the Radio & Playlists department's pre-broadcast truth checklist: claimed vs verified, pass/fail/flag, GO/GO-WITH-CUTS/NO-GO. No busted stats on the air. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;--no:#d04848;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:920px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:8px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu)}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+/* ---- soundcheck demo ---- */
+.picker{margin-bottom:14px}
+.picker select{width:100%;background:var(--navy2);border:1px solid var(--blue);color:#fff;
+border-radius:9px;padding:12px;font-size:.95em}
+#script{font-size:.88em;line-height:1.7;background:#000;border:1px solid var(--blue);border-radius:10px;
+padding:14px;margin-bottom:14px;white-space:pre-wrap}
+#verdict-banner{display:none;border-radius:12px;padding:16px;margin:14px 0;border:1px solid;font-weight:800;letter-spacing:1px;font-size:1.25em}
+#verdict-banner.v-GO{border-color:var(--ok);background:rgba(47,174,85,.08);color:var(--ok);display:block}
+#verdict-banner.v-GO-WITH-CUTS{border-color:var(--warn);background:rgba(224,160,32,.08);color:var(--warn);display:block}
+#verdict-banner.v-NO-GO{border-color:var(--no);background:rgba(208,72,72,.08);color:var(--no);display:block}
+#verdict-detail{font-weight:400;font-size:.7em;letter-spacing:0;display:block;margin-top:6px;color:var(--xlblu)}
+.pill{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75em;font-weight:700;white-space:nowrap}
+.p-pass{background:rgba(47,174,85,.18);color:var(--ok)}
+.p-flag{background:rgba(224,160,32,.18);color:var(--warn)}
+.p-fail{background:rgba(208,72,72,.18);color:var(--no)}
+tr.st-fail td{background:rgba(208,72,72,.06)}
+tr.st-flag td{background:rgba(224,160,32,.06)}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6;border-radius:10px;padding:14px}
+.meta{margin-top:10px;font-size:.85em;color:var(--lblu)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+@media(max-width:640px){td,th{font-size:.82em}}
+</style>
+</head>
+<body>
+<header>
+<img src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>SOUNDCHECK</h1>
+<div class="brand">The pre-broadcast truth checklist — Radio &amp; Playlists department, <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> before any agent goes on air, every stat and credit in its talk-break script runs through the checklist — <i>claimed value vs verified value, named source</i> — and comes back <span class="pill p-pass">pass</span> <span class="pill p-flag">flag</span> <span class="pill p-fail">fail</span>. Failing items are cut from the read. <b>No busted stats on the air.</b><br><b>What it is not:</b> post-air moderation. This runs before the record button, not after the upload. A stated status that disagrees with the recomputed evidence fails the run — you can't grade your own homework.</div>
+
+<div class="card"><h2>RUN THE GATE — LIVE DEMO</h2>
+<div class="picker"><select id="example" aria-label="Worked example"></select></div>
+<div id="script"></div>
+<div id="verdict-banner"></div>
+<table id="items"><thead><tr><th>ID</th><th>Stat / credit</th><th>Claimed vs verified</th><th>Source</th><th>Status</th></tr></thead><tbody></tbody></table>
+<div class="meta">Demo reads <code>soundcheck.json</code> from this page's directory and recomputes every status in your browser — the same logic as <code>check.py</code>. Pick the instructive example to watch a bad claim get killed.</div>
+</div>
+
+<div class="card"><h2>THE VERDICT VOCABULARY</h2>
+<table>
+<tr><th>Verdict</th><th>Meaning</th></tr>
+<tr><td class="k"><span class="pill p-pass">pass</span></td><td>Claimed matches verified, named source with a date. Read it.</td></tr>
+<tr><td class="k"><span class="pill p-flag">flag</span></td><td>A verified value exists but the claimed text doesn't match it. Reword to the verified value or cut. <b>GO-WITH-CUTS.</b></td></tr>
+<tr><td class="k"><span class="pill p-fail">fail</span></td><td>No verified value, no source, or an unverified / payola / cut-from-read note. <b>Cut from the read. NO-GO.</b></td></tr>
+</table>
+<div class="meta">Full contract: <a href="soundcheck-schema.json">soundcheck-schema.json</a> (<code>cwi-soundcheck/v1</code>) · Gate: <a href="check.py">check.py</a></div>
+</div>
+
+<div class="card"><h2>THE PAIR: DIAL + SOUNDCHECK</h2>
+<div class="honest" style="margin:0"><b>Dial</b> (the sibling instrument at <a href="../dial/">../dial/</a>) writes the break — script templates, rotation, the <code>{{verified_fact}}</code> placeholder discipline. <b>SOUNDCHECK</b> clears it — the gate that decides whether each fact earns the mic. Dial is what to say; Soundcheck is whether you may.</div>
+</div>
+
+<div class="card"><h2>EQUIP SNIPPET</h2>
+<div id="give"><code>python3 check.py my-checklist.json   # → VERDICT: GO | GO-WITH-CUTS | NO-GO (exit 1)</code></div>
+<div class="meta">Full block: <a href="give-block.md">give-block.md</a> — EQUIP / CONFIGURE / APPLY</div>
+</div>
+
+<div class="card"><h2>FILES</h2>
+<div class="links">
+<a href="soundcheck.json">soundcheck.json<span class="meta"> — spec + 2 worked soundchecks</span></a>
+<a href="soundcheck-schema.json">schema<span class="meta"> — cwi-soundcheck/v1</span></a>
+<a href="check.py">check.py<span class="meta"> — the gate</span></a>
+<a href="item-card.json">item card</a>
+<a href="rubric.json">rubric</a>
+<a href="announce.html">announcement</a>
+<a href="recruitment-play.md">recruitment play</a>
+</div>
+<div class="meta">White-label from day one: the schema and the gate hardcode no artist, no label, no catalog. Your sources, your scripts, your frequency.</div>
+</div>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents. Questions or verified-fact disputes: hp@cumulativeweb.com</footer>
+<script>
+var KILL = ["unverified","payola","cut from read","fabricated","no source","do not read"];
+function norm(s){return (s||"").toLowerCase().replace(/[^\w\s]/g," ").replace(/\s+/g," ").trim();}
+function compute(it){
+  var note=(it.note||"").toLowerCase(), v=(it.verified_value||"").trim(), src=(it.source||"").trim();
+  if(!v||!src||KILL.some(function(w){return note.indexOf(w)>-1;}))return "fail";
+  if(norm(it.claimed)!==norm(v))return "flag";
+  return "pass";
+}
+function render(data, ex){
+  document.getElementById("script").textContent = "SCRIPT:\n" + ex.script;
+  var tb=document.querySelector("#items tbody"); tb.innerHTML="";
+  var fails=0, flags=0;
+  ex.items.forEach(function(it){
+    var s=compute(it);
+    if(s==="fail")fails++; if(s==="flag")flags++;
+    var v=it.verified_value?("claimed: "+it.claimed+" → verified: "+it.verified_value):"NO verified_value";
+    var so=it.source?(it.source+(it.source_date?" ("+it.source_date+")":"")):"NO source";
+    var tr=document.createElement("tr");
+    if(s==="fail")tr.className="st-fail"; if(s==="flag")tr.className="st-flag";
+    tr.innerHTML="<td class='mono'>"+it.id+"</td><td>"+it.stat_or_credit+"</td><td>"+v+(it.note?"<br><span style='color:#9fb4d8'>"+it.note+"</span>":"")+"</td><td>"+so+"</td><td><span class='pill p-"+s+"'>"+s+"</span></td>";
+    tb.appendChild(tr);
+  });
+  var b=document.getElementById("verdict-banner"), ver=fails?"NO-GO":(flags?"GO-WITH-CUTS":"GO"),
+      det=fails?("Cut from read: "+ex.items.filter(function(i){return compute(i)==="fail";}).map(function(i){return i.id;}).join(", ")+".")
+        :(flags?("Reword to verified value or cut: "+ex.items.filter(function(i){return compute(i)==="flag";}).map(function(i){return i.id;}).join(", ")+".")
+        :"Every item passes — cleared for air.");
+  b.className="v-"+ver; b.innerHTML="VERDICT: "+ver+"<span id='verdict-detail'>"+det+"</span>";
+}
+fetch("soundcheck.json").then(function(r){return r.json();}).then(function(data){
+  var sel=document.getElementById("example");
+  data.worked_examples.forEach(function(ex,i){
+    var o=document.createElement("option"); o.value=i; o.textContent=ex.title; sel.appendChild(o);
+  });
+  sel.onchange=function(){render(data, data.worked_examples[+sel.value]);};
+  render(data, data.worked_examples[0]);
+}).catch(function(e){
+  document.getElementById("script").textContent="Could not load soundcheck.json: "+e;
+});
+</script>
+</body>
+</html>

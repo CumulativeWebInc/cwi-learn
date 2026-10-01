@@ -1,0 +1,79 @@
+{
+  "brand": "Agent Deck",
+  "department": "A&R",
+  "framing": "part of the Agent Deck gear line by Cumulative Web Inc",
+  "issued_by": "Cumulative Web Inc",
+  "lanes": {
+    "alt-rap": {
+      "definition": "alternative rap",
+      "note": "CWI house lane — the vetting baseline is calibrated on it"
+    },
+    "dark-rnb": {
+      "definition": "dark R&B"
+    },
+    "experimental-hip-hop": {
+      "definition": "experimental hip-hop"
+    },
+    "plugg": {
+      "definition": "plugg"
+    },
+    "post-trap": {
+      "definition": "post-trap futurism"
+    },
+    "rage": {
+      "definition": "rage"
+    }
+  },
+  "motto": "equip it, earn your ears",
+  "protocol": "CWI-1 PROSPECT SCANNER",
+  "protocol_version": "1.0.0",
+  "registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+  "spines": {
+    "facts": "CWI-1 Scoreboard Chip — cite only VERIFIED numbers",
+    "rights": "Chain-of-Title Compass — every cleared-claim checks a passport first"
+  },
+  "steps": [
+    {
+      "gate": "hard",
+      "id": "catalog-depth",
+      "name": "Catalog Depth",
+      "protocol": "Count the prospect's publicly released tracks on the primary platform (Spotify/Apple/YouTube).",
+      "rule": ">= 5 released tracks. Below 5, the card files with confidence capped at ESTIMATE and verdict restricted to HOLD or PASS."
+    },
+    {
+      "gate": "hard",
+      "id": "release-history-consistency",
+      "name": "Release History Consistency",
+      "protocol": "Check that releases appear over a real timeline (no single-day backfill spikes), artist name spelling is consistent across releases, and the profile is not a dumping ground for re-uploads of one track.",
+      "rule": "Timeline must be explicable. Consistent artist-name spelling is a CWI catalog rule — the canonical spelling is \"King Akeem\" and distributor-error drift is a red flag."
+    },
+    {
+      "gate": "hard",
+      "id": "label-conflict-scan",
+      "name": "Label Conflict Scan",
+      "protocol": "Search the prospect's releases for label/copyright strings. If another label or publisher appears on the catalog, flag CONFLICT until Business Affairs clears it. Compare against the CWI roster: That Boy Hi Hat, King Akeem, Greg Porn, Dre50, 183 Wildboi, Fleekz.",
+      "rule": "Any active label/P&R conflict on the catalog blocks a SIGN-HOLD verdict."
+    },
+    {
+      "gate": "soft",
+      "id": "engagement-sanity",
+      "name": "Engagement Sanity",
+      "protocol": "Compare streaming numbers, monthly listeners, and social followers for internal plausibility. Wild mismatches (e.g. 1M plays, 40 followers, 3 posts) are documented in the card as CLAIM-UNVERIFIED rather than repeated as wins. Never carry an unverified stat into a verdict — the Chip's zero-hype rule applies here too.",
+      "rule": "Unverifiable engagement stays UNVERIFIED on the card. No unverified number may justify SIGN-HOLD."
+    },
+    {
+      "gate": "soft",
+      "id": "rights-red-flag-scan",
+      "name": "Rights Red-Flag Scan",
+      "protocol": "Run the Compass lens: are producers/co-producers/engineers documented? Are there samples of known records? Any beat-seller-lease language on the release metadata? Every missing answer becomes a PENDING field on the card, same as a Compass passport.",
+      "rule": "Rights questions are PENDING fields, never guessed. A single unanswerable red flag cannot be waived."
+    }
+  ],
+  "verdicts": {
+    "DEEP-DIVE": "ears say yes but one hard gate failed — filed to A&R leadership with the failing gate named",
+    "HOLD": "keep watching; re-scan in 90 days",
+    "PASS": "not for the lane",
+    "SIGN-HOLD": "all hard gates green, evidence attached, ready for the room",
+    "SIGNED": "already on the CWI roster — used as the calibration filing that anchors the protocol's ear"
+  }
+}

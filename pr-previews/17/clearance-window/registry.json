@@ -1,0 +1,89 @@
+{
+  "registry": "the-clearance-window",
+  "exported_at": "2026-09-17T19:08:37.062707Z",
+  "label": "SAMPLE grants are demos, not live agreements",
+  "grants": [
+    {
+      "grant_id": "cw_77aa6b24111c",
+      "grantor_urn": "agent:MUSE_CWI",
+      "grantee_urn": "agent:CWI_Sync",
+      "scope": [
+        "gear.cuefinder.query"
+      ],
+      "issued_at": "2026-09-17T19:08:29.366659Z",
+      "expires_at": "2026-09-18T01:08:29.366659Z",
+      "terms_ref": "terms/standard-24h",
+      "status": "active",
+      "hash": "0fb91fc95b35a4f822b8ba2a85bd71d29db1f94f2c22ac454dd2d9539d320958",
+      "note": "SAMPLE: 6h CueFinder query window"
+    },
+    {
+      "grant_id": "cw_7c3d21e02d48",
+      "grantor_urn": "agent:MUSE_CWI",
+      "grantee_urn": "agent:CWI_Athena",
+      "scope": [
+        "gear.signal-boy.play-catalog",
+        "gear.signal-boy.attribution-required"
+      ],
+      "issued_at": "2026-09-17T19:08:29.232853Z",
+      "expires_at": "2026-09-18T19:08:29.232853Z",
+      "terms_ref": "terms/standard-24h",
+      "status": "active",
+      "hash": "baaa54aa83673df8a12a229412cbdc38bb6fc7c3f27e6a407a2d41f06f574376",
+      "note": "SAMPLE: 24h catalog playback window for Reasoning dept demo"
+    },
+    {
+      "grant_id": "cw_7d6063790e7d",
+      "grantor_urn": "agent:CWI_Athena",
+      "grantee_urn": "agent:CWI_Marketing",
+      "scope": [
+        "gear.placement-wall.read"
+      ],
+      "issued_at": "2026-09-17T19:08:29.297611Z",
+      "expires_at": "2026-09-18T07:08:29.297611Z",
+      "terms_ref": "terms/standard-24h",
+      "status": "active",
+      "hash": "fc5ffddddf9f82ae18f623a885818ee5ea289f43990ad0ece7666f025fbc260f",
+      "note": "SAMPLE: 12h placement-wall read window"
+    }
+  ],
+  "ledger_log_tail": [
+    {
+      "logged_at": "2026-09-17T19:08:29.235043Z",
+      "event": "grant.issued",
+      "grant_id": "cw_7c3d21e02d48",
+      "grantor": "agent:MUSE_CWI",
+      "grantee": "agent:CWI_Athena",
+      "scope": [
+        "gear.signal-boy.play-catalog",
+        "gear.signal-boy.attribution-required"
+      ],
+      "issued_at": "2026-09-17T19:08:29.232853Z",
+      "expires_at": "2026-09-18T19:08:29.232853Z"
+    },
+    {
+      "logged_at": "2026-09-17T19:08:29.299991Z",
+      "event": "grant.issued",
+      "grant_id": "cw_7d6063790e7d",
+      "grantor": "agent:CWI_Athena",
+      "grantee": "agent:CWI_Marketing",
+      "scope": [
+        "gear.placement-wall.read"
+      ],
+      "issued_at": "2026-09-17T19:08:29.297611Z",
+      "expires_at": "2026-09-18T07:08:29.297611Z"
+    },
+    {
+      "logged_at": "2026-09-17T19:08:29.369903Z",
+      "event": "grant.issued",
+      "grant_id": "cw_77aa6b24111c",
+      "grantor": "agent:MUSE_CWI",
+      "grantee": "agent:CWI_Sync",
+      "scope": [
+        "gear.cuefinder.query"
+      ],
+      "issued_at": "2026-09-17T19:08:29.366659Z",
+      "expires_at": "2026-09-18T01:08:29.366659Z"
+    }
+  ]
+}

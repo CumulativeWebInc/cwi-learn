@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/results-dashboard",
+  "@type": "WebApplication",
+  "name": "results-dashboard",
+  "description": "Results dashboard: R3 measurement infrastructure (evidence for R2/R3) — funnel stages, receipts, targets.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external observers, agents, Results dept | CumulativeWebInc/cwi-results public dashboard, 30-min publisher cron (cwi-results-dashboard-refresh, NOT disrupted) | CTA: view verified results; hero metric = external_equips (still honest 0)",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "Canonical live-artifact assertions (a)(b)(c) replicated 2026-10-01 vs live main blob via git/blobs authority path: (a) 7 funnel stages OK; (b) 65 receipts w/ evidence_url OK but NEWEST-FIRST ASSERTION FAILED - live tail oldest-first; (c) targets labeled OK. Official node suite no"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "0",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    },
+    {
+      "claim": "lineage record (R3)",
+      "value": "external observers, agents, Results dept | CumulativeWebInc/cwi-results public dashboard, 30-min publisher cron (cwi-results-dashboard-refresh, NOT disrupted) | CTA: view verified results; hero metric = external_equips (still honest 0)",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "live",
+      "evidence": "CORRECTION superseding earlier slice-D record: official suite DID run 2026-10-01 (node --test): 3/4 pass - (a) funnel stages OK, (b) receipts evidence_url OK, (d) idempotent publish OK; (c) FAILS: seedTargets() statuses 'active — owner-signed (DESTINATION-2026-10-28)' do not matc"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "0",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "live",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "results-dashboard",
+      "result": "R3",
+      "who": "external observers, agents, Results dept",
+      "channel": "CumulativeWebInc/cwi-results public dashboard, 30-min publisher cron (cwi-results-dashboard-refresh, NOT disrupted)",
+      "cta": "view verified results; hero metric = external_equips (still honest 0)",
+      "end_number": 0,
+      "cycle_stage": "live",
+      "tests": "Canonical live-artifact assertions (a)(b)(c) replicated 2026-10-01 vs live main blob via git/blobs authority path: (a) 7 funnel stages OK; (b) 65 receipts w/ evidence_url OK but NEWEST-FIRST ASSERTION FAILED - live tail oldest-first; (c) targets labeled OK. Official node suite not run this session: authd credential path blocked (public API works; authd exchange hung).",
+      "packaged": "y",
+      "verified_at": "2026-10-01T18:14:00Z",
+      "notes": "R3 measurement infra (evidence for R2/R3). Slice-D retrofits: (1) publish-results.js now sorts receipts+targets newest-first post-merge (stable, anti-clobber preserved; satisfies page header 'Append-only, newest first' + canonical test); next cron run republishes sorted. (2) revenue funnel note corrected: was 'no live sales channel (Gumroad unpublished)' -> now records 3 live Gumroad slots + THE EDIT manual checkout, 0 orders. Syntax OK, test-merge 5/5 green. Did NOT touch the running cron."
+    },
+    {
+      "product": "results-dashboard",
+      "result": "R3",
+      "who": "external observers, agents, Results dept",
+      "channel": "CumulativeWebInc/cwi-results public dashboard, 30-min publisher cron (cwi-results-dashboard-refresh, NOT disrupted)",
+      "cta": "view verified results; hero metric = external_equips (still honest 0)",
+      "end_number": 0,
+      "cycle_stage": "live",
+      "tests": "CORRECTION superseding earlier slice-D record: official suite DID run 2026-10-01 (node --test): 3/4 pass - (a) funnel stages OK, (b) receipts evidence_url OK, (d) idempotent publish OK; (c) FAILS: seedTargets() statuses 'active — owner-signed (DESTINATION-2026-10-28)' do not match test regex /target/i - cross-law conflict (October program vocabulary vs truth-label discipline), flagged for parent, not unilaterally fixed. Newest-first fix VERIFIED LIVE: suite's (d) publish landed blob 76be91bc06c8 @ 2026-10-01T18:17:52Z, 66 receipts newest-first (git/blobs authority path), revenue note carries corrected 2026-10-01 copy.",
+      "packaged": "y",
+      "verified_at": "2026-10-01T18:19:00Z",
+      "notes": "(c) is a known-red test owned by the Results lane: widen test regex (dilutes discipline) vs rewrite owner-signed vocabulary (edits binding October program) - both need a standing-law decision above this slice."
+    }
+  ]
+}

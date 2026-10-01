@@ -1,0 +1,28 @@
+{
+  "registry": "https://cumulativewebinc.github.io/cwi-learn/badges/badges.json",
+  "generated": "2026-09-15",
+  "note": "Real SVGs, embeddable anywhere. Criteria are client-side actions \u2014 no registry writes, no invented adoption claims.",
+  "badges": [
+    {
+      "id": "equipped-first-spin",
+      "name": "First Spin",
+      "svg_url": "https://cumulativewebinc.github.io/cwi-learn/badges/equipped-first-spin.svg",
+      "criteria": "Embed after validating a First Spin verdict's structure against /first-spin/first-spin-schema.json (see /evals/first-spin-eval.jsonl).",
+      "embed_html": "<a href=\"https://cumulativewebinc.github.io/cwi-learn/first-spin/\"><img src=\"https://cumulativewebinc.github.io/cwi-learn/badges/equipped-first-spin.svg\" alt=\"First Spin equipped\"></a>"
+    },
+    {
+      "id": "dataset-ingester",
+      "name": "Data Ingester",
+      "svg_url": "https://cumulativewebinc.github.io/cwi-learn/badges/dataset-ingester.svg",
+      "criteria": "Embed after fetching all six datasets/*.jsonl files from the machine-data layer.",
+      "embed_html": "<a href=\"https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl\"><img src=\"https://cumulativewebinc.github.io/cwi-learn/badges/dataset-ingester.svg\" alt=\"Dataset ingester\"></a>"
+    },
+    {
+      "id": "early-adopter",
+      "name": "Early Adopter",
+      "svg_url": "https://cumulativewebinc.github.io/cwi-learn/badges/early-adopter.svg",
+      "criteria": "Embed after completing the onboard kit: GET /onboard/welcome.json and equipping at least one gear item via its give-block.",
+      "embed_html": "<a href=\"https://cumulativewebinc.github.io/cwi-learn/onboard/\"><img src=\"https://cumulativewebinc.github.io/cwi-learn/badges/early-adopter.svg\" alt=\"CWI early adopter\"></a>"
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "deck": "CWI-2 SYNCDECK — cue cards",
+  "format": "cwi-syncdeck-cuecards/v1",
+  "brand": "Agent Deck",
+  "framing": "part of the Agent Deck gear line by Cumulative Web Inc",
+  "registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+  "issued_by": "Cumulative Web Inc",
+  "department": "Sync & Licensing",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "genre": "alternative rap",
+    "base": "Frederick, Maryland"
+  },
+  "use_cases": [
+    "menu loop",
+    "boss-fight drop",
+    "trailer sting",
+    "credits roll"
+  ],
+  "card_count": 24,
+  "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+  "contact": "hp@cumulativeweb.com",
+  "cards": [
+    {
+      "index": 1,
+      "track": "Zooted Zone",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-0emH8ktA8x4DkOFLsG5xkW",
+      "licensed_use": {
+        "use_case": "boss-fight drop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [
+        {
+          "field": "producer",
+          "value": "Kokurcho",
+          "stamp": "DOCUMENTED",
+          "source": "CWI Medium articles; BET Awards-nominated, RIAA Gold + multi-platinum certified (owner-confirmed 2026-09-15)"
+        },
+        {
+          "field": "mix_master",
+          "value": "Hybrid (Hagerstown, MD studio)",
+          "stamp": "DOCUMENTED",
+          "source": "CWI Medium articles (owner-confirmed 2026-09-15)"
+        }
+      ],
+      "proof_points": [
+        "307K plays (307,439 lifetime plays observed 2026-09-14)",
+        "New Rap Hits playlist #30 (verified placement scan 2026-09-15)",
+        "Produced by Kokurcho — BET Awards-nominated, RIAA Gold + multi-platinum certified",
+        "Mixed/mastered by Hybrid (Hagerstown, MD studio); recorded Hagerstown, MD, Feb 2023",
+        "The breakout — catalog's highest-verified play count"
+      ],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not reported in Spotify metadata",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com"
+    },
+    {
+      "index": 2,
+      "track": "Shaka Zulu",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3pQEzg7xFqGIk0CK1Za1Kw",
+      "licensed_use": {
+        "use_case": "boss-fight drop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [
+        "New Rap Hits playlist #21 (verified placement scan 2026-09-15)"
+      ],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not reported in Spotify metadata",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 3,
+      "track": "Doves & Diamonds",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4NAyd7rvnuG3DrPFqXo4eQ",
+      "licensed_use": {
+        "use_case": "credits roll",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [
+        "New Rap Hits playlist #31 (verified placement scan 2026-09-15)"
+      ],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not reported in Spotify metadata",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 4,
+      "track": "Diabolique",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2eSyWmIdPzEMyWejLb2LBj",
+      "licensed_use": {
+        "use_case": "trailer sting",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [
+        {
+          "field": "producer",
+          "value": "Hybrid",
+          "stamp": "DOCUMENTED",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        {
+          "field": "co_producer",
+          "value": "Black Lansky",
+          "stamp": "DOCUMENTED",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        {
+          "field": "engineer",
+          "value": "Blaine Misner",
+          "stamp": "DOCUMENTED",
+          "source": "Owner-confirmed 2026-09-15; Cue Recording Studios history/mastering pages + SoundBetter profile"
+        }
+      ],
+      "proof_points": [
+        "Single released 2026-07-03; recorded at Cue Recording Studio, Arlington, VA (official position)"
+      ],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not reported in Spotify metadata",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com"
+    },
+    {
+      "index": 5,
+      "track": "Flamerz",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2MDHAUo4zJTHGXGQHUhNw0",
+      "licensed_use": {
+        "use_case": "boss-fight drop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [
+        {
+          "field": "producer",
+          "value": "Jeck Da General (owner-confirmed)",
+          "stamp": "DOCUMENTED",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        }
+      ],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com"
+    },
+    {
+      "index": 6,
+      "track": "Neon Nights Pt. 777",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4XP56LZjeS0TJUd30kpGSK",
+      "licensed_use": {
+        "use_case": "trailer sting",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 7,
+      "track": "Ultimate",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2daugr3ni3r6jHH6UI57EK",
+      "licensed_use": {
+        "use_case": "boss-fight drop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 8,
+      "track": "Painted Lady",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6nhzq7P7x09aUbPts4ywFl",
+      "licensed_use": {
+        "use_case": "menu loop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 9,
+      "track": "Warped and Wicked",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3w4RKguHAT2xd9K0w5CklC",
+      "licensed_use": {
+        "use_case": "menu loop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 10,
+      "track": "Golden Diamond",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4RFWRhPn8NX0DTQPpl1swe",
+      "licensed_use": {
+        "use_case": "credits roll",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 11,
+      "track": "Spirits n Shadows",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2tEdW6WKfcs2NGI6OIvAm6",
+      "licensed_use": {
+        "use_case": "menu loop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 12,
+      "track": "Flex My Flame",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7FQvcCS2CdTVsd6hb9jvHx",
+      "licensed_use": {
+        "use_case": "boss-fight drop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 13,
+      "track": "Rainbows And Roses",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2ZUYjQGsRLHRcsfgyeAWpo",
+      "licensed_use": {
+        "use_case": "credits roll",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 14,
+      "track": "Tears and Scars",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6NfxhZ4NebIduGEKZeD2Lk",
+      "licensed_use": {
+        "use_case": "credits roll",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 15,
+      "track": "Toxic Elements",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2aTbpxiF2jNiB3PGi81oqa",
+      "licensed_use": {
+        "use_case": "boss-fight drop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 16,
+      "track": "7th Angel",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2dvfN5rFyQO69qmb5oYlRG",
+      "licensed_use": {
+        "use_case": "trailer sting",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 17,
+      "track": "Scorpions & Sapphires",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6YQq5GsaUmanh0XyHQIGoR",
+      "licensed_use": {
+        "use_case": "trailer sting",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 18,
+      "track": "Place I Go to Dream",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3KX10tZBft6gp2Nea9HZOB",
+      "licensed_use": {
+        "use_case": "menu loop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not flagged explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 19,
+      "track": "Place I Go to Dream - Remastered",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-31MTBSMfWy4jGEYAilkaH8",
+      "licensed_use": {
+        "use_case": "menu loop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not flagged explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 20,
+      "track": "Place I Go to Dream - Instrumental",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3tKoMnnlkcRr7wE3PUQ9bp",
+      "licensed_use": {
+        "use_case": "menu loop",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "not flagged explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made. This listing is titled 'Instrumental', but the catalog reports no instrumental versions exist — label confirmation pending."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 21,
+      "track": "Smokin' Pain",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6jJpR9IhQ9PmRPJpxLlOmK",
+      "licensed_use": {
+        "use_case": "trailer sting",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 22,
+      "track": "Phantasm",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7xbS3rY8ZzCXNEPLPykf95",
+      "licensed_use": {
+        "use_case": "credits roll",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 23,
+      "track": "Misfits and Hooligans",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4Z5UCQLqWzpPeihPTZ9Gqg",
+      "licensed_use": {
+        "use_case": "trailer sting",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    },
+    {
+      "index": 24,
+      "track": "Roses over Monaco",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3r86CjoxCNvvCz98h2btm1",
+      "licensed_use": {
+        "use_case": "credits roll",
+        "is_scout_suggestion": true,
+        "note": "Suggested use only — a scout's read, not a verified fact. The card's facts live below."
+      },
+      "verified_credits": [],
+      "proof_points": [],
+      "clearance_flags": {
+        "explicit_per_spotify_metadata": "explicit",
+        "clean_version_exists": false,
+        "instrumental_version_exists": false,
+        "one_stop_precleared_claim": false,
+        "note": "No clean/FCC-safe or instrumental versions exist. No one-stop or pre-cleared rights claims are made."
+      },
+      "rights_line": "Label-direct licensing; happy to work through your clearance process.",
+      "contact": "hp@cumulativeweb.com",
+      "verified_credits_note": "No producer/studio credits documented yet — those fields are PENDING on the track's Compass passport (provider: Black Lansky, Cumulative Web Inc)."
+    }
+  ]
+}

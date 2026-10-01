@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/777-neon-nights",
+  "@type": "VideoGame",
+  "name": "777 Neon Nights",
+  "description": "777 Neon Nights arcade game with anonymous player-device telemetry (R2 target: 25 unique player devices). Money-prize mode is compliance-gated.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R2)",
+      "value": "That Boy Hi Hat fans + casual slot players | GitHub Pages (cumulativewebinc.github.io/cwi-777-neon-nights) + CWI Agent Deck try-link + Threads/Instagram/X via content.json | CTA: Spin free — win streaming links + Neon Credits",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "marketed",
+      "evidence": "green: 10 node suites — game-logic 94/94, metrics 27/27, prize-providers 27/27, cache-bust 24/24, cabinet-anim 33/33, cabinet-error 10/10, install-i18n 7549/7549, payout-metrics 33/33, telemetry 40/40, cabinet3d-anim 56/56 (run 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R2)",
+      "value": "25",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "marketed",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "777 Neon Nights",
+      "result": "R2",
+      "who": "That Boy Hi Hat fans + casual slot players",
+      "channel": "GitHub Pages (cumulativewebinc.github.io/cwi-777-neon-nights) + CWI Agent Deck try-link + Threads/Instagram/X via content.json",
+      "cta": "Spin free — win streaming links + Neon Credits",
+      "end_number": 25,
+      "cycle_stage": "marketed",
+      "tests": "green: 10 node suites — game-logic 94/94, metrics 27/27, prize-providers 27/27, cache-bust 24/24, cabinet-anim 33/33, cabinet-error 10/10, install-i18n 7549/7549, payout-metrics 33/33, telemetry 40/40, cabinet3d-anim 56/56 (run 2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:20:00-04:00",
+      "notes": "R2 named target (25 unique player devices) lives on this product. Anonymous player-device telemetry pipeline operational since 2026-09-21. Secondary R3 leg: agent-card.json + llms.txt + Agent Deck try-link. Money-prize mode hard-gated (7 compliance gates)."
+    }
+  ]
+}

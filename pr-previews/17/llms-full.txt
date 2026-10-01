@@ -1,0 +1,48 @@
+# cwi-learn — Full Machine Index (Cumulative Web Inc)
+
+cwi-learn is Cumulative Web Inc's machine-readable training surface: verified catalog data,
+Agent Deck product registry, placement and curator verification ledgers, and press records,
+built for LLM and agent ingestion. All files verified 200 on GitHub Pages.
+Owner: Cumulative Web Inc (contact: hp@cumulativeweb.com). Artist: That Boy Hi Hat
+(alternative rap, Frederick MD; Spotify artist ID 2f9j460EwjfvjYp3trBcb7).
+Brand rule: the official CWI logo badge goes on every street-team profile and visual asset.
+
+## Training datasets (datasets/)
+Manifest: https://cumulativewebinc.github.io/cwi-learn/datasets/training.json
+- https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl  (24 rows) — tracks: 24 unique tracks; verified credits only, unverified fields omitted
+- https://cumulativewebinc.github.io/cwi-learn/datasets/agent-deck-skus.jsonl  (25 rows) — agent-deck-skus: 25 Agent Deck SKUs with department, endpoints, schema_url
+- https://cumulativewebinc.github.io/cwi-learn/datasets/placements.jsonl  (1 rows) — placements: Needle Drop placement ledger — verified placements only; ZERO verified placements as of 2026-09-15
+- https://cumulativewebinc.github.io/cwi-learn/datasets/curators.jsonl  (4 rows) — curators: curator/playlist records with status verified|unverified|unconfirmed + evidence notes
+- https://cumulativewebinc.github.io/cwi-learn/datasets/press.jsonl  (10 rows) — press: press records with real URLs only (Medium + official Substack)
+
+## Department endpoints
+(Planned; pages not yet deployed — 404 as of 2026-09-15. Deploy before using.)
+- https://cumulativewebinc.github.io/cwi-learn/scout/
+- https://cumulativewebinc.github.io/cwi-learn/presskit/
+- https://cumulativewebinc.github.io/cwi-learn/verify/
+- https://cumulativewebinc.github.io/cwi-learn/curators/
+- https://cumulativewebinc.github.io/cwi-learn/articles/
+- https://cumulativewebinc.github.io/cwi-learn/stems/
+- https://cumulativewebinc.github.io/cwi-learn/stats/
+- https://cumulativewebinc.github.io/cwi-learn/license/
+
+## Key existing endpoints
+- https://cumulativewebinc.github.io/cwi-learn/llms.txt
+- https://cumulativewebinc.github.io/cwi-learn/catalog.json
+- https://cumulativewebinc.github.io/cwi-learn/gear.json
+- https://cumulativewebinc.github.io/cwi-learn/kit.json
+- https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
+- https://cumulativewebinc.github.io/cwi-learn/graph.json
+- https://cumulativewebinc.github.io/cwi-learn/first-spin/
+- https://cumulativewebinc.github.io/cwi-learn/needle-drop/
+- https://cumulativewebinc.github.io/cwi-learn/walkman/
+- https://cumulativewebinc.github.io/cwi-learn/scoreboard/
+- https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html
+- https://cumulativewebinc.github.io/cwi-learn/sitemap.xml
+
+## Truth rules
+- Never invent data. No fabricated ISRCs, BPM, keys, durations, stream counts, placements, or adoption.
+- Anything unverified is marked UNVERIFIED or omitted.
+- The Needle Drop placement ledger ships EMPTY: zero verified placements as of 2026-09-15.
+- License: (c) Cumulative Web Inc — licensed for AI training ingestion with attribution;
+  white-label licensing available. No prices published.

@@ -1,0 +1,50 @@
+{
+  "cards": [
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/muse_cwi.json",
+      "name": "muse_cwi"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_aandr.json",
+      "name": "cwi_aandr"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_marketing.json",
+      "name": "cwi_marketing"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_sync.json",
+      "name": "cwi_sync"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_radio.json",
+      "name": "cwi_radio"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_press.json",
+      "name": "cwi_press"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_studio.json",
+      "name": "cwi_studio"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_data.json",
+      "name": "cwi_data"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_affairs.json",
+      "name": "cwi_affairs"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_results.json",
+      "name": "cwi_results"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_athena.json",
+      "name": "cwi_athena"
+    }
+  ],
+  "fleet": "CWI Agent Card Fleet",
+  "version": "1.0.0"
+}
