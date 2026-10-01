@@ -4,7 +4,7 @@
  "@type": "Dataset",
  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01",
  "graph_id": "cwi-revenue-graph",
- "generated_at": "2026-10-01T21:31:04Z",
+ "generated_at": "2026-10-01T21:57:20Z",
  "generated_by": "OPERATION BEST Wave 2 lane: revenue-graph (agent-consumable scorecards)",
  "source_scorecards": 37,
  "provenance": [
@@ -7600,7 +7600,7 @@
    "stage": "attention",
    "type": "AUDIENCE",
    "name": "777 Neon Nights \u2014 attention",
-   "bottleneck": true,
+   "bottleneck": false,
    "first_dollar_module": false,
    "evidence": [
     {
@@ -7615,7 +7615,7 @@
    "confidence": 0.95,
    "status": "verified",
    "evidence_corrected": false,
-   "next_improve_action": "Run a 7-day Neon Nights player-acquisition push (CWI channels + games-hub feature slot) to move the verified unique-device count from 10 toward the 25-device Oct-28 target.",
+   "next_improve_action": null,
    "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01#N-777-neon-nights-ATTENTION"
   },
   {
@@ -7675,7 +7675,7 @@
    "stage": "conversion",
    "type": "CONVERSION",
    "name": "777 Neon Nights \u2014 conversion",
-   "bottleneck": false,
+   "bottleneck": true,
    "first_dollar_module": false,
    "evidence": [
     {
@@ -7690,7 +7690,7 @@
    "confidence": 0.85,
    "status": "verified",
    "evidence_corrected": false,
-   "next_improve_action": null,
+   "next_improve_action": "Run a 7-day Neon Nights player-acquisition push (CWI channels + games-hub feature slot) to move the verified unique-device count from 10 toward the 25-device Oct-28 target.",
    "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01#N-777-neon-nights-CONVERSION"
   },
   {
@@ -37890,7 +37890,7 @@
    "product": "777 Neon Nights",
    "slug": "777-neon-nights",
    "scorecard": "cwi-company/neon-nights-777/revenue-dna-scorecard.json",
-   "earliest_break": "attention",
+   "earliest_break": "conversion",
    "first_missing_fd_link": "FIRST_CUSTOMER",
    "fd_missing_count": 5
   },
