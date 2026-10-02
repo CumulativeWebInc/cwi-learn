@@ -1,6 +1,6 @@
 {
   "graph_schema": "cwi.graph/1.0",
-  "generated": "2026-10-02T22:00:00Z",
+  "generated": "2026-10-02T22:05:00Z",
   "maintainer": "Cumulative Web Inc (CWI_Data)",
   "source_of_truth_note": "Catalog nodes (artist/track) and all ISRC facts are machine-regenerated from catalog-interop/catalog-index.json (52 track records, 2026-09-19). Non-catalog nodes/edges (organization, movement, people, studio, place, releases, playlists, evidence, media assets) are carried over from the prior edition. Status is verified | owner_confirmed | claimed_unverified | promised_unverified.",
   "counts": {
@@ -3380,37 +3380,37 @@
       "from": "track:that-boy-hi-hat-zooted-zone",
       "to": "person:kokurcho",
       "rel": "produced_by",
-      "note": "Zooted Zone produced by Kokurcho — owner-confirmed by Black (Henry Pitts), 2026-10-02"
+      "note": "Zooted Zone produced by Kokurcho — owner-confirmed 2026-10-02; Spotify credits panel: 'Kokurcho Beats — Composer'"
     },
     {
       "from": "track:that-boy-hi-hat-zooted-zone",
       "to": "person:black-lansky",
       "rel": "co_produced_by",
-      "note": "Zooted Zone co-produced by Black Lansky — owner-confirmed by Black (Henry Pitts), 2026-10-02"
+      "note": "Zooted Zone co-produced by Black Lansky — owner-confirmed 2026-10-02; Spotify credits panel: 'Black Lansky — Lyricist/Composer'"
     },
     {
       "from": "track:that-boy-hi-hat-flex-my-flame",
       "to": "person:kokurcho",
       "rel": "produced_by",
-      "note": "Flex My Flame produced by Kokurcho — owner-confirmed by Black (Henry Pitts), 2026-10-02"
+      "note": "Flex My Flame produced by Kokurcho — owner-confirmed 2026-10-02; Spotify credits panel: 'Kokurcho Beats — Composer'"
     },
     {
       "from": "track:that-boy-hi-hat-flex-my-flame",
       "to": "person:black-lansky",
       "rel": "co_produced_by",
-      "note": "Flex My Flame co-produced by Black Lansky — owner-confirmed by Black (Henry Pitts), 2026-10-02"
+      "note": "Flex My Flame co-produced by Black Lansky — owner-confirmed 2026-10-02; Spotify credits panel: 'Black Lansky — Composer'"
     },
     {
       "from": "track:that-boy-hi-hat-doves-and-diamonds",
       "to": "person:kokurcho",
       "rel": "produced_by",
-      "note": "Doves & Diamonds produced by Kokurcho — owner-confirmed by Black (Henry Pitts), 2026-10-02"
+      "note": "Doves & Diamonds produced by Kokurcho — owner-confirmed 2026-10-02; Spotify credits panel: 'Kokurcho — Executive Producer'"
     },
     {
       "from": "track:that-boy-hi-hat-doves-and-diamonds",
       "to": "person:black-lansky",
       "rel": "co_produced_by",
-      "note": "Doves & Diamonds co-produced by Black Lansky — owner-confirmed by Black (Henry Pitts), 2026-10-02"
+      "note": "Doves & Diamonds co-produced by Black Lansky — owner-confirmed 2026-10-02; Spotify credits panel: 'Black Lansky — Executive Producer'"
     }
   ],
   "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
