@@ -1,11 +1,11 @@
 {
   "graph_schema": "cwi.graph/1.0",
-  "generated": "2026-09-29T15:40:00Z",
+  "generated": "2026-10-02T21:45:00Z",
   "maintainer": "Cumulative Web Inc (CWI_Data)",
   "source_of_truth_note": "Catalog nodes (artist/track) and all ISRC facts are machine-regenerated from catalog-interop/catalog-index.json (52 track records, 2026-09-19). Non-catalog nodes/edges (organization, movement, people, studio, place, releases, playlists, evidence, media assets) are carried over from the prior edition. Status is verified | owner_confirmed | claimed_unverified | promised_unverified.",
   "counts": {
-    "nodes": 93,
-    "edges": 164
+    "nodes": 94,
+    "edges": 176
   },
   "nodes": [
     {
@@ -415,10 +415,11 @@
       "status": "verified",
       "attrs": {
         "metric": "lifetime_spotify_plays",
-        "value": 307439,
+        "value": 313290,
         "track": "track:0emH8ktA8x4DkOFLsG5xkW",
-        "note": "Lifetime plays far exceed 171 monthly listeners — converted at playlist scale before",
-        "last_verified": "2026-09-15"
+        "note": "313,290 lifetime plays observed 2026-10-01; supersedes 307,439 (observed 2026-09-14), kept as history",
+        "last_verified": "2026-09-15",
+        "observed": "2026-10-01"
       },
       "evidence": [
         {
@@ -538,8 +539,8 @@
         "based_in": "place:frederick-md",
         "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7",
         "spotify_artist_url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
-        "monthly_listeners": 171,
-        "monthly_listeners_observed": "2026-09-14",
+        "monthly_listeners": 8400,
+        "monthly_listeners_observed": "2026-10-02",
         "last_verified": "2026-09-15",
         "spotify_releases_count": 21,
         "releases_audit_date": "2026-09-15",
@@ -549,7 +550,8 @@
         "catalog_isrc_on_file": 24,
         "label": "Cumulative Web Inc",
         "distributor": "DistroKid",
-        "license_contact": "hp@cumulativeweb.com"
+        "license_contact": "hp@cumulativeweb.com",
+        "monthly_listeners_note": "Sep 2-29, 2026 window, Spotify for Artists (verified 2026-10-02)"
       },
       "evidence": [
         {
@@ -562,7 +564,8 @@
           "claim": "171 monthly listeners",
           "source": "Spotify artist page",
           "observed": "2026-09-14",
-          "status": "verified"
+          "status": "superseded",
+          "note": "superseded by 8,400 (2026-10-02); kept as history"
         },
         {
           "claim": "21 releases on Spotify",
@@ -575,6 +578,13 @@
           "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
           "observed": "2026-09-19",
           "status": "verified"
+        },
+        {
+          "claim": "8,400 monthly listeners (Sep 2-29, 2026 window)",
+          "source": "Spotify for Artists screenshots, verified 2026-10-02",
+          "observed": "2026-10-02",
+          "status": "verified",
+          "note": "supersedes 171 (observed 2026-09-14), kept as history"
         }
       ]
     },
@@ -852,7 +862,7 @@
         "catalog_tier": "bronze",
         "isrc": "QZWFE2309934",
         "isrc_status": "verified",
-        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory; Deezer spells 'Toxic Elements')",
+        "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory; Deezer spells 'Toxic Elements' (canonical title per owner 2026-10-02: 'Toxic Element'))",
         "label": "Cumulative Web Inc",
         "distributor": "DistroKid",
         "master_owner": "Cumulative Web Inc",
@@ -2224,6 +2234,89 @@
           "status": "verified"
         }
       ]
+    },
+    {
+      "id": "release:ptf-the-logo-effect",
+      "type": "release",
+      "name": "Post Trap Futurism: The Logo Effect",
+      "status": "verified",
+      "attrs": {
+        "kind": "album",
+        "release_year": "2025",
+        "spotify_album_id": "35buycAVHzNbIeKELvZmyk",
+        "spotify_album_url": "https://open.spotify.com/album/35buycAVHzNbIeKELvZmyk",
+        "anghami_album_id": "1079357623",
+        "anghami_album_url": "https://play.anghami.com/album/1079357623",
+        "num_tracks": 10,
+        "tracklist": [
+          {
+            "track": "track:that-boy-hi-hat-doves-and-diamonds",
+            "title": "Doves & Diamonds",
+            "duration": "3:01"
+          },
+          {
+            "track": "track:that-boy-hi-hat-shaka-zulu",
+            "title": "Shaka Zulu",
+            "duration": "4:11"
+          },
+          {
+            "track": "track:that-boy-hi-hat-spirits-n-shadows",
+            "title": "Spirits n Shadows",
+            "duration": "3:18"
+          },
+          {
+            "track": "track:that-boy-hi-hat-flex-my-flame",
+            "title": "Flex My Flame",
+            "duration": "3:03"
+          },
+          {
+            "track": "track:that-boy-hi-hat-rainbows-and-roses",
+            "title": "Rainbows And Roses",
+            "duration": "4:00"
+          },
+          {
+            "track": "track:that-boy-hi-hat-tears-and-scars",
+            "title": "Tears and Scars",
+            "duration": "4:40"
+          },
+          {
+            "track": "track:that-boy-hi-hat-toxic-element",
+            "title": "Toxic Element",
+            "duration": "3:23"
+          },
+          {
+            "track": "track:that-boy-hi-hat-ultimate",
+            "title": "Ultimate",
+            "duration": "3:16"
+          },
+          {
+            "track": "track:that-boy-hi-hat-warped-and-wicked",
+            "title": "Warped & Wicked",
+            "duration": "4:08"
+          },
+          {
+            "track": "track:that-boy-hi-hat-golden-diamond",
+            "title": "Golden Diamond",
+            "duration": "4:02"
+          }
+        ],
+        "tracklist_verified": "Spotify embed live read 2026-10-02",
+        "disambiguation": "This is the 2025 music ALBUM by That Boy Hi Hat. Not the book 'THE LOGO EFFECT' (CODEX manuscript) — a separate work."
+      },
+      "evidence": [
+        {
+          "claim": "10-track album 'Post Trap Futurism: The Logo Effect' (2025)",
+          "source": "Spotify embed live read 2026-10-02 (durations captured)",
+          "observed": "2026-10-02",
+          "status": "verified"
+        },
+        {
+          "claim": "Album is distinct from the book 'THE LOGO EFFECT' (CODEX manuscript)",
+          "source": "owner-confirmed 2026-10-02; Amazon.in ASIN B0G58HZ3GM is the book",
+          "observed": "2026-10-02",
+          "status": "verified"
+        }
+      ]
     }
   ],
   "edges": [
@@ -3210,6 +3303,78 @@
       "to": "media:stream-tidal-vvv",
       "rel": "streaming_on",
       "note": ""
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "released",
+      "note": "10-track album, Spotify embed live read 2026-10-02"
+    },
+    {
+      "from": "artist:tbhh",
+      "to": "movement:ptf",
+      "rel": "isCreatorOf",
+      "note": "canon triple — That Boy Hi Hat is the creator of Post-Trap Futurism"
+    },
+    {
+      "from": "track:that-boy-hi-hat-doves-and-diamonds",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (3:01)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-shaka-zulu",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (4:11)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-spirits-n-shadows",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (3:18)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-flex-my-flame",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (3:03)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-rainbows-and-roses",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (4:00)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-tears-and-scars",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (4:40)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-toxic-element",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (3:23)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-ultimate",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (3:16)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-warped-and-wicked",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (4:08)"
+    },
+    {
+      "from": "track:that-boy-hi-hat-golden-diamond",
+      "to": "release:ptf-the-logo-effect",
+      "rel": "included_in",
+      "note": "verified album track listing 2026-10-02 (4:02)"
     }
   ],
   "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
