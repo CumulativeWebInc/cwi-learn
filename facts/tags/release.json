@@ -1,0 +1,37 @@
+{
+  "tag": "release",
+  "facet": "role",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/release/diabolique-single",
+      "node": "Diabolique (single)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/diabolique-single.json"
+    },
+    {
+      "packet_id": "fact/release/gta-vi-ep",
+      "node": "GTA VI EP",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/gta-vi-ep.json"
+    },
+    {
+      "packet_id": "fact/release/no-skips",
+      "node": "NO SKIPS",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/no-skips.json"
+    },
+    {
+      "packet_id": "fact/release/post-trap-futurism-the-logo-effect",
+      "node": "Post Trap Futurism: The Logo Effect",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/post-trap-futurism-the-logo-effect.json"
+    },
+    {
+      "packet_id": "fact/release/the-alternative-theory",
+      "node": "The Alternative Theory",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/the-alternative-theory.json"
+    },
+    {
+      "packet_id": "fact/release/vai-vem-vem-single",
+      "node": "vai vem vem (single)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/vai-vem-vem-single.json"
+    }
+  ]
+}

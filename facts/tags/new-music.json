@@ -1,0 +1,32 @@
+{
+  "tag": "new-music",
+  "facet": "freshness",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/diabolique",
+      "node": "Diabolique",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.json"
+    },
+    {
+      "packet_id": "fact/artist/that-boy-hi-hat",
+      "node": "That Boy Hi Hat",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json"
+    },
+    {
+      "packet_id": "fact/release/diabolique-single",
+      "node": "Diabolique (single)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/diabolique-single.json"
+    },
+    {
+      "packet_id": "fact/release/the-alternative-theory",
+      "node": "The Alternative Theory",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/the-alternative-theory.json"
+    },
+    {
+      "packet_id": "fact/release/vai-vem-vem-single",
+      "node": "vai vem vem (single)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/vai-vem-vem-single.json"
+    }
+  ]
+}

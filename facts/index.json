@@ -1,0 +1,1233 @@
+{
+ "schema": "cwi-fact-packet/v1",
+ "manifest": "facts/index.json",
+ "updated": "2026-10-02T23:35:00Z",
+ "packets": [
+  {
+   "packet_id": "fact/artist/183-wildboi",
+   "node": "183 Wildboi",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/183-wildboi.json",
+   "tags": [
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/artist/black-lansky",
+   "node": "Black Lansky",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/black-lansky.json",
+   "tags": [
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/artist/dre50",
+   "node": "Dre50",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/dre50.json",
+   "tags": [
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/artist/fleekz",
+   "node": "Fleekz",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/fleekz.json",
+   "tags": [
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/artist/gregporn",
+   "node": "GregPorn",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/gregporn.json",
+   "tags": [
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/artist/king-akeem",
+   "node": "King Akeem",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/king-akeem.json",
+   "tags": [
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/artist/that-boy-hi-hat",
+   "node": "That Boy Hi Hat",
+   "type": "artist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "alternative-rap",
+    "post-trap-futurism",
+    "hip-hop",
+    "indie",
+    "underground",
+    "upcoming",
+    "discovery",
+    "recording-artist",
+    "new-music",
+    "black-lansky",
+    "hybrid",
+    "jeck-da-general",
+    "kokurcho",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/playlist/it-s-goin",
+   "node": "It's Goin",
+   "type": "playlist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/it-s-goin.json",
+   "tags": [
+    "playlist",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/playlist/new-rap-hits",
+   "node": "New Rap Hits",
+   "type": "playlist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/new-rap-hits.json",
+   "tags": [
+    "playlist",
+    "global",
+    "playlist-placed"
+   ]
+  },
+  {
+   "packet_id": "fact/playlist/no-label-needed-hip-hop-r-b-the-next-wave",
+   "node": "No Label Needed - Hip Hop & R&B | The Next Wave",
+   "type": "playlist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/no-label-needed-hip-hop-r-b-the-next-wave.json",
+   "tags": [
+    "playlist",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/playlist/that-boy-hi-hat-alternative-rap-complete-catalog-ai-learning-set",
+   "node": "That Boy Hi Hat \u2013 Alternative Rap Complete Catalog (AI Learning Set)",
+   "type": "playlist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/that-boy-hi-hat-alternative-rap-complete-catalog-ai-learning-set.json",
+   "tags": [
+    "playlist",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/playlist/watch-tha-gap-vol-5",
+   "node": "WATCH THA GAP VOL.5",
+   "type": "playlist",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/watch-tha-gap-vol-5.json",
+   "tags": [
+    "playlist",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/release/diabolique-single",
+   "node": "Diabolique (single)",
+   "type": "release",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/diabolique-single.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "release",
+    "new-music",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/release/gta-vi-ep",
+   "node": "GTA VI EP",
+   "type": "release",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/gta-vi-ep.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "release",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/release/no-skips",
+   "node": "NO SKIPS",
+   "type": "release",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/no-skips.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "release",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/release/post-trap-futurism-the-logo-effect",
+   "node": "Post Trap Futurism: The Logo Effect",
+   "type": "release",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/post-trap-futurism-the-logo-effect.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "release",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/release/the-alternative-theory",
+   "node": "The Alternative Theory",
+   "type": "release",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/the-alternative-theory.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "release",
+    "new-music",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/release/vai-vem-vem-single",
+   "node": "vai vem vem (single)",
+   "type": "release",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/vai-vem-vem-single.json",
+   "tags": [
+    "indie",
+    "release",
+    "new-music",
+    "global"
+   ]
+  },
+  {
+   "packet_id": "fact/track/2k23-corner-feat-that-boy-hi-hat",
+   "node": "2K23 Corner$ (feat. That Boy Hi Hat)",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corner-feat-that-boy-hi-hat.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/2k23-corners",
+   "node": "2k23 Corners",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corners.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/7th-angel",
+   "node": "7th Angel",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/7th-angel.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "ethereal",
+    "mystical",
+    "uplifting",
+    "cinematic",
+    "transcendent-moment",
+    "dream-sequence",
+    "spiritual-montage",
+    "heavenly-reveal",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/allegience",
+   "node": "Allegience",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/allegience.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/bluefaces-3-0",
+   "node": "Bluefaces 3.0",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/bluefaces-3-0.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/broken-hearts-club",
+   "node": "Broken Hearts Club",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/broken-hearts-club.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/diabolique",
+   "node": "Diabolique",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "new-music",
+    "hybrid",
+    "black-lansky",
+    "dark",
+    "seductive",
+    "cinematic",
+    "dangerous",
+    "nocturnal",
+    "villain-entrance",
+    "noir-club-scene",
+    "heist-setup",
+    "fashion-horror-crossover",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/do-it-to-me",
+   "node": "Do it to me",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/do-it-to-me.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/doves-diamonds",
+   "node": "Doves & Diamonds",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-diamonds.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "kokurcho",
+    "black-lansky",
+    "luxury",
+    "reflective",
+    "smooth",
+    "late-night",
+    "fashion-film",
+    "penthouse-scene",
+    "night-drive-sequence",
+    "luxury-brand-spot",
+    "worldwide",
+    "global",
+    "sync-ready",
+    "playlist-placed"
+   ]
+  },
+  {
+   "packet_id": "fact/track/element",
+   "node": "Element",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/element.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/embiid",
+   "node": "Embiid",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/embiid.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/flamerz",
+   "node": "Flamerz",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "kokurcho",
+    "high-energy",
+    "glitchy",
+    "cyberpunk",
+    "aggressive",
+    "fiery",
+    "cyberpunk-chase",
+    "arcade-fight-scene",
+    "esports-hype-reel",
+    "rave-sequence",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/flex-my-flame",
+   "node": "Flex My Flame",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "kokurcho",
+    "black-lansky",
+    "confident",
+    "fiery",
+    "swagger",
+    "high-energy",
+    "walkout-intro-scene",
+    "training-montage",
+    "flexing-montage",
+    "sports-hype",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/full-moon",
+   "node": "Full Moon",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/full-moon.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/give-it-all",
+   "node": "Give It All",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/give-it-all.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/goated",
+   "node": "Goated",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/goated.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/golden-diamond",
+   "node": "Golden Diamond",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "luxury",
+    "confident",
+    "shimmering",
+    "triumphant",
+    "luxury-brand-spot",
+    "red-carpet-sequence",
+    "triumph-montage",
+    "jewelry-fashion-film",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/lofi-2-0",
+   "node": "LOFI 2.0",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/lofi-2-0.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/misfits-and-hooligans",
+   "node": "Misfits and Hooligans",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/misfits-and-hooligans.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "rebellious",
+    "rowdy",
+    "underground",
+    "crew-anthem",
+    "crew-introduction-scene",
+    "street-takeover",
+    "rebellion-montage",
+    "youth-culture-spot",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/mosh-pit",
+   "node": "Mosh Pit",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/mosh-pit.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/neon-nights-pt-777",
+   "node": "Neon Nights Pt. 777",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/neon-nights-pt-777.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "neon",
+    "late-night",
+    "dreamy",
+    "nocturnal",
+    "synth-driven",
+    "neon-city-drive",
+    "rooftop-party-scene",
+    "nightclub-exterior",
+    "synthwave-inflected-montage",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/on-edge",
+   "node": "On Edge",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/on-edge.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/painted-lady",
+   "node": "Painted Lady",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "seductive",
+    "artful",
+    "smooth",
+    "mysterious",
+    "gallery-art-scene",
+    "seduction-sequence",
+    "fashion-editorial-film",
+    "mysterious-stranger-intro",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/pay-yourself",
+   "node": "Pay Yourself",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pay-yourself.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/phantasm",
+   "node": "Phantasm",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/phantasm.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "phantom",
+    "eerie",
+    "mid-tempo",
+    "haunting",
+    "supernatural-sequence",
+    "eerie-chase",
+    "haunted-montage",
+    "mystery-reveal",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/piv-ot-al",
+   "node": "piv-ot-al",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/piv-ot-al.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/pix",
+   "node": "Pix",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pix.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/place-i-go-to-dream-instrumental",
+   "node": "Place I Go to Dream (Instrumental)",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-instrumental.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/place-i-go-to-dream-remastered",
+   "node": "Place I Go to Dream (Remastered)",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-remastered.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/rainbows-and-roses",
+   "node": "Rainbows And Roses",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "black-lansky",
+    "uplifting",
+    "romantic",
+    "colorful",
+    "hopeful",
+    "romantic-montage",
+    "festival-scene",
+    "feel-good-ad",
+    "sunrise-sequence",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/rainbows-and-roses-instrumental",
+   "node": "Rainbows And Roses (Instrumental)",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses-instrumental.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/retro-vibe",
+   "node": "Retro Vibe",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/retro-vibe.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/roses-over-monaco",
+   "node": "Roses over Monaco",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/roses-over-monaco.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "luxury",
+    "european",
+    "romantic",
+    "opulent",
+    "riviera-yacht-scene",
+    "luxury-travel-spot",
+    "casino-sequence",
+    "romantic-getaway",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/scorpions-sapphires",
+   "node": "Scorpions & Sapphires",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/scorpions-sapphires.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "venomous",
+    "luxury",
+    "dangerous",
+    "sharp",
+    "power-play-scene",
+    "luxury-villain-moment",
+    "high-stakes-deal",
+    "fashion-noir",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/shaka-zulu",
+   "node": "Shaka Zulu",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/shaka-zulu.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "warrior",
+    "defiant",
+    "cinematic",
+    "tribal-rap",
+    "sports-hype-sequence",
+    "battle-preparation-montage",
+    "game-trailer",
+    "action-film-cold-open",
+    "worldwide",
+    "global",
+    "sync-ready",
+    "playlist-placed"
+   ]
+  },
+  {
+   "packet_id": "fact/track/skateboard-team-sports",
+   "node": "Skateboard Team Sports",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/skateboard-team-sports.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/smokin-pain",
+   "node": "Smokin' Pain",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/smokin-pain.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "smoky",
+    "painful",
+    "late-night",
+    "raw",
+    "late-night-drive",
+    "gritty-street-scene",
+    "smoke-filled-room",
+    "slow-burn-drama",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/spirits-n-shadows",
+   "node": "Spirits n Shadows",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/spirits-n-shadows.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "haunting",
+    "dark",
+    "introspective",
+    "ghostly",
+    "ghost-horror-sequence",
+    "introspective-night-scene",
+    "haunted-house-set-piece",
+    "dark-drama-underscore",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/star",
+   "node": "Star",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/star.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/streets-again",
+   "node": "Streets Again",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/streets-again.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/stunt",
+   "node": "Stunt",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/stunt.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/summer-night-fast",
+   "node": "Summer Night FAST",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/summer-night-fast.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/super-solid",
+   "node": "Super Solid",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/super-solid.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/sync-ready-tracks",
+   "node": "Sync Ready Tracks",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/sync-ready-tracks.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/tears-and-scars",
+   "node": "Tears and Scars",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "emotional",
+    "painful",
+    "raw",
+    "cathartic",
+    "emotional-breakdown-scene",
+    "loss-grief-sequence",
+    "gritty-drama-underscore",
+    "character-backstory",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/tiempo",
+   "node": "tiempo",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tiempo.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/toxic-element",
+   "node": "Toxic Element",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-element.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "kokurcho",
+    "black-lansky",
+    "toxic",
+    "dangerous",
+    "addictive",
+    "dark",
+    "toxic-relationship-scene",
+    "nightclub-confrontation",
+    "bad-decision-montage",
+    "dark-romance",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/ultimate",
+   "node": "Ultimate",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "jeck-da-general",
+    "black-lansky",
+    "victorious",
+    "anthemic",
+    "high-energy",
+    "confident",
+    "championship-montage",
+    "finale-walkout",
+    "sports-ad",
+    "victory-celebration-scene",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/vai-vem-vem",
+   "node": "vai vem vem",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/vai-vem-vem.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/viral-beats",
+   "node": "Viral Beats",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/viral-beats.json",
+   "tags": [
+    "indie",
+    "recording",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/warped-wicked",
+   "node": "Warped & Wicked",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/warped-wicked-radio-edit",
+   "node": "Warped & Wicked (Radio Edit)",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked-radio-edit.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "worldwide",
+    "global",
+    "sync-ready"
+   ]
+  },
+  {
+   "packet_id": "fact/track/zooted-zone",
+   "node": "Zooted Zone",
+   "type": "track",
+   "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json",
+   "tags": [
+    "frederick",
+    "maryland",
+    "dmv",
+    "usa",
+    "indie",
+    "recording",
+    "kokurcho",
+    "black-lansky",
+    "high-energy",
+    "hypnotic",
+    "club-ready",
+    "underground",
+    "aggressive",
+    "underground-club-scene",
+    "party-montage",
+    "video-game-trailer",
+    "street-race-sequence",
+    "worldwide",
+    "global",
+    "sync-ready",
+    "playlist-placed"
+   ]
+  }
+ ]
+}

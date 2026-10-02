@@ -1,0 +1,12 @@
+{
+  "tag": "jewelry-fashion-film",
+  "facet": "use",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/golden-diamond",
+      "node": "Golden Diamond",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.json"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "tag": "kokurcho",
+  "facet": "collaborator",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/doves-diamonds",
+      "node": "Doves & Diamonds",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-diamonds.json"
+    },
+    {
+      "packet_id": "fact/track/flamerz",
+      "node": "Flamerz",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.json"
+    },
+    {
+      "packet_id": "fact/track/flex-my-flame",
+      "node": "Flex My Flame",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.json"
+    },
+    {
+      "packet_id": "fact/track/toxic-element",
+      "node": "Toxic Element",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-element.json"
+    },
+    {
+      "packet_id": "fact/track/zooted-zone",
+      "node": "Zooted Zone",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json"
+    },
+    {
+      "packet_id": "fact/artist/that-boy-hi-hat",
+      "node": "That Boy Hi Hat",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json"
+    }
+  ]
+}

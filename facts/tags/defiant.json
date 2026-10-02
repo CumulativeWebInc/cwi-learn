@@ -1,0 +1,12 @@
+{
+  "tag": "defiant",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/shaka-zulu",
+      "node": "Shaka Zulu",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/shaka-zulu.json"
+    }
+  ]
+}

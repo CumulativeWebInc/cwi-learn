@@ -1,0 +1,17 @@
+{
+  "tag": "aggressive",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/flamerz",
+      "node": "Flamerz",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.json"
+    },
+    {
+      "packet_id": "fact/track/zooted-zone",
+      "node": "Zooted Zone",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json"
+    }
+  ]
+}
