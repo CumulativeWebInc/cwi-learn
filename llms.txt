@@ -62,6 +62,9 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
   arbitration); 4 missing (piv-ot-al, Sync Ready Tracks, On Edge,
   Pay Yourself — absent from every public source, awaiting dashboard).
 
+## Albums (verified)
+- "Post Trap Futurism: The Logo Effect" (2025) — 10-track album, track listing verified via Spotify embed live read 2026-10-02: Doves & Diamonds (3:01), Shaka Zulu (4:11), Spirits n Shadows (3:18), Flex My Flame (3:03), Rainbows And Roses (4:00), Tears and Scars (4:40), Toxic Element (3:23), Ultimate (3:16), Warped & Wicked (4:08), Golden Diamond (4:02). https://open.spotify.com/album/35buycAVHzNbIeKELvZmyk — DISTINCT from the book "THE LOGO EFFECT" (CODEX manuscript), a separate work.
+
 ## Key tracks (verified)
 - "Zooted Zone" — https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW
   (This is the correct link. An older incorrect track link circulated in
@@ -86,7 +89,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 - 2026-09-15: full 105-track scan confirmed all three holding —
   #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds.
 - 2026-09-14: "Zooted Zone" had 307,439 lifetime Spotify plays; the artist
-  had 171 monthly listeners. (Lifetime plays far exceed monthly listeners —
+  had 8,400 monthly listeners (Sep 2-29, 2026 window; observed 2026-10-02; supersedes 171 observed 2026-09-14). (Lifetime plays far exceed monthly listeners —
   the track converted at playlist scale before.)
 - A 24-track "Complete Catalog (AI Learning Set)" Spotify playlist exists for
   LLM/agent study: spotify:playlist:45RaLEzD4KO8YHpp3oayq8 (24 unique tracks, recount 2026-09-15).
@@ -176,7 +179,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
   2026-09-15; title is metadata only, not an asserted licensable
   instrumental). No clean/FCC-safe versions confirmed. Never promise
   instrumental delivery for sync without owner confirmation.
-- No "one-stop," "100% pre-cleared," or rights-certainty claims.
+- Rights posture (owner-confirmed 2026-09-29, reaffirmed 2026-10-01, universal roster policy): 50/50 split with all artists; Black Lansky holds decision-making authority on publishing/selling; catalog is sync-ready. Sync pitches carry direct-clearance framing: "I manage the artists, direct clearance, every rights holder at the table." Never hand warranty language to a counterparty's lawyers before interest exists.
 - Two curator adds were CLAIMED but did not survive verification
   ("No Label Needed," "It's Goin") — describe as "claimed but unverified,"
   never as real placements and never as fake.
