@@ -20,8 +20,8 @@
   "catalog_facts": {
     "clean_or_fcc_safe_versions_exist": false,
     "instrumental_versions_exist": false,
-    "note": "No clean/FCC-safe or instrumental versions exist. No 'one-stop' or pre-cleared rights claims are made.",
-    "rights_certainty_claimed": false
+    "note": "No clean/FCC-safe or instrumental versions exist. Rights posture (owner-confirmed 2026-09-29, reaffirmed 2026-10-01, universal roster policy): 50/50 split with all artists; Black Lansky (Henry Pitts) holds decision-making authority on publishing/selling; manager rights established; catalog is sync-ready. Sync pitches carry direct-clearance framing: 'I manage the artists, direct clearance, every rights holder at the table.' No clean/FCC-safe versions exist; no licensable instrumentals are asserted.",
+    "rights_certainty_claimed": true
   },
   "catalog_schema": "cwi.catalog/1.0",
   "label_presence": {
@@ -59,20 +59,16 @@
   "contact": {
     "business_and_sync": "hp@cumulativeweb.com"
   },
-  "generated": "2026-09-19",
+  "generated": "2026-10-02T21:45:00Z",
   "maintainer": "Cumulative Web Inc",
   "metrics": [
     {
       "metric": "lifetime_spotify_plays",
       "note": "Lifetime plays far exceed current monthly listeners; evidence the track converted at playlist scale before.",
-      "observed": "2026-09-14",
-      "track": "Zooted Zone",
-      "value": 307439
+      "observed": "2026-10-01", "track": "Zooted Zone", "value": 313290
     },
     {
-      "metric": "monthly_listeners",
-      "observed": "2026-09-14",
-      "value": 171
+      "metric": "monthly_listeners", "observed": "2026-10-02", "value": 8400
     }
   ],
   "tracks": [
