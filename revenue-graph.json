@@ -4,7 +4,7 @@
  "@type": "Dataset",
  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01",
  "graph_id": "cwi-revenue-graph",
- "generated_at": "2026-10-01T21:57:20Z",
+ "generated_at": "2026-10-02T07:50:00Z",
  "generated_by": "OPERATION BEST Wave 2 lane: revenue-graph (agent-consumable scorecards)",
  "source_scorecards": 37,
  "provenance": [
@@ -21294,7 +21294,7 @@
    "product_slug": "radio-365",
    "stage": "partnership",
    "type": "PARTNERSHIP",
-   "name": "Radio directories (radio-browser.info, Airable, Live Online Radio, TuneIn s361867; listenlive.nl + internet-radio.com pending)",
+   "name": "Radio directories (radio-browser.info, Airable, Live Online Radio, TuneIn s361867; listenlive.nl + internet-radio.com pending; Radio Garden approved 2026-10-02)",
    "bottleneck": false,
    "first_dollar_module": false,
    "evidence": [
@@ -21305,11 +21305,42 @@
      "grade_raw": "derived",
      "status": "verified",
      "confidence": 0.9
+    },
+    {
+     "source": "Radio Garden no-reply approval email (confirmed via Lansky screenshot 2026-10-02)",
+     "date": "2026-10-02",
+     "claim": "Radio Garden approval added to directory set 2026-10-02 (approval email 00:40 EDT). See N-radio-365-PARTNERSHIP-RADIO-GARDEN for full provenance.",
+     "grade_raw": "known",
+     "status": "verified",
+     "confidence": 0.95
     }
    ],
    "confidence": 0.9,
    "status": "verified",
    "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01#N-radio-365-PARTNERSHIP"
+  },
+  {
+   "node_id": "N-radio-365-PARTNERSHIP-RADIO-GARDEN",
+   "product": "radio-365",
+   "product_slug": "radio-365",
+   "stage": "partnership",
+   "type": "PARTNERSHIP",
+   "name": "Radio Garden (radio.garden listing \u2014 Cumulative Radio 365)",
+   "bottleneck": false,
+   "first_dollar_module": false,
+   "evidence": [
+    {
+     "source": "Radio Garden no-reply approval email (confirmed via Lansky screenshot 2026-10-02)",
+     "date": "2026-10-02",
+     "claim": "Radio Garden approval email sent 2026-10-02 00:40 EDT: 'Your radio station is now available on Radio Garden at http://radio.garden/listen/cumulative-radio-365/cHGXYOR8 \u2014 please share it with your listeners.' Listing page is a JS app (text fetch showed 'no station selected'); the approval email is the authoritative evidence.",
+     "grade_raw": "known",
+     "status": "verified",
+     "confidence": 0.95
+    }
+   ],
+   "confidence": 0.95,
+   "status": "verified",
+   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01#N-radio-365-PARTNERSHIP-RADIO-GARDEN"
   },
   {
    "node_id": "N-cwi-x402-api-PARTNERSHIP",
@@ -37759,6 +37790,23 @@
    "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01#E-radio-365-PARTNERSHIP-DISCOVERY"
   },
   {
+   "edge_id": "E-radio-365-PARTNERSHIP-RADIO-GARDEN-DISCOVERY",
+   "product": "radio-365",
+   "product_slug": "radio-365",
+   "source_node": "N-radio-365-PARTNERSHIP-RADIO-GARDEN",
+   "target_node": "N-radio-365-DISCOVERY",
+   "relationship": "DISTRIBUTES",
+   "strength": 0.5,
+   "evidence": [
+    "approval-email"
+   ],
+   "status": "verified",
+   "causal_language": "consistent-with",
+   "description": "Radio Garden listing distributes the station into discovery channels; 0 verified listener sessions so conversion is unobserved.",
+   "first_dollar_module": false,
+   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/revenue-graph-2026-10-01#E-radio-365-PARTNERSHIP-RADIO-GARDEN-DISCOVERY"
+  },
+  {
    "edge_id": "E-cwi-x402-api-PARTNERSHIP-PRODUCT",
    "product": "cwi-x402-api",
    "product_slug": "cwi-x402-api",
@@ -37778,8 +37826,8 @@
  ],
  "validation": {
   "errors": [],
-  "node_count": 855,
-  "edge_count": 967
+  "node_count": 856,
+  "edge_count": 968
  },
  "products": [
   {
