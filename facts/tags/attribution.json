@@ -1,17 +1,17 @@
 {
-  "tag": "attribution",
-  "facet": "function",
-  "updated": "2026-10-03T13:17:47Z",
+  "facet": "domain",
   "packets": [
     {
-      "packet_id": "fact/rebuild/cwi-attribution-layer",
-      "node": "CWI Attribution Layer",
-      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-attribution-layer.json"
+      "node": "fact/module/attribution-layer",
+      "packet_id": "fact/module/attribution-layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json"
     },
     {
-      "packet_id": "fact/module/campaign-reporting-module",
-      "node": "Campaign Reporting Module",
-      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-reporting-module.json"
+      "node": "fact/module/vote-hq-src-wire",
+      "packet_id": "fact/module/vote-hq-src-wire",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/vote-hq-src-wire.json"
     }
-  ]
+  ],
+  "tag": "attribution",
+  "updated": "2026-10-03T14:19:47Z"
 }
