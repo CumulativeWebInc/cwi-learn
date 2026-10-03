@@ -1,0 +1,88 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/twenty-minds-phase2.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/twenty-minds-phase2.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "build-order",
+      "tier": "verified",
+      "why": "mandatory Twenty Minds sequence"
+    },
+    {
+      "facet": "proof",
+      "tag": "twenty-minds",
+      "tier": "verified",
+      "why": "20 distinct verdicts on file"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "20/20 minds returned distinct verdicts 2026-10-03: Sequence A (measurement first) — carried by the data scientist, first-principles physicist, and Black's chair",
+      "evidence": {
+        "source": "research_notes/visibility-machine-twenty-minds-2026-10-03.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Dissent recorded: competitor analyst — the curated graph IS the proprietary asset; mitigation = manual-pitch lane alongside instrumentation",
+      "evidence": {
+        "source": "research_notes/visibility-machine-twenty-minds-2026-10-03.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Build order locked: attribution-layer -> scorecards -> curator-graph -> pitch-crm -> pr-graph -> creative-engine",
+      "evidence": {
+        "source": "cwi-company/visibility-machine/twenty-minds-phase2.md"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/twenty-minds-phase2.json"
+    },
+    "fan_qa": "What is Twenty Minds — Phase 2 build order decision? The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane."
+          },
+          "name": "What is Twenty Minds — Phase 2 build order decision?"
+        }
+      ]
+    },
+    "search_answer": "The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane.",
+    "social_caption": "Twenty Minds — Phase 2 build order decision — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Twenty Minds — Phase 2 build order decision: The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "a6590d3cc4c47195fc9759cde65817cd8349807bc09e254ee13b3f3ba43b71a2"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/decision/twenty-minds-phase2",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/decision/twenty-minds-phase2",
+    "name": "Twenty Minds — Phase 2 build order decision",
+    "status": "verified",
+    "type": "decision"
+  },
+  "packet_id": "fact/module/twenty-minds-phase2",
+  "relationships": [
+    {
+      "rel": "orders",
+      "target": "vm-module:attribution-layer"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
