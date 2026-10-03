@@ -1,0 +1,12 @@
+{
+  "facet": "use",
+  "packets": [
+    {
+      "node": "fact/module/curator-graph",
+      "packet_id": "fact/module/curator-graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.json"
+    }
+  ],
+  "tag": "playlist-pitching",
+  "updated": "2026-10-03T14:19:47Z"
+}
