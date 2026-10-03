@@ -1,0 +1,12 @@
+{
+  "facet": "role",
+  "packets": [
+    {
+      "node": "fact/module/manual-pitch",
+      "packet_id": "fact/module/manual-pitch",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/manual-pitch.json"
+    }
+  ],
+  "tag": "dissent-lane",
+  "updated": "2026-10-03T14:19:47Z"
+}
