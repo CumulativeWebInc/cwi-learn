@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/decision/twenty-minds-phase2",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/twenty-minds-phase2.json",
+  "name": "Twenty Minds \u2014 Phase 2 build order decision",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/decision/twenty-minds-phase2"
+      },
+      "value": "vm-decision:twenty-minds-phase2"
+    }
+  ]
+}
