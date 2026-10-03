@@ -53,7 +53,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -102,7 +102,7 @@
     "voice_answer": "Playlist Pitching Tool is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "842c5e1e691baf9b99562894838cb07899177b980189599fe9d6c8b5fd5cd985"
+    "sha256": "11e1bf4bd42f8bbf2f4b57a43f6e6a2a0fbb85c6a8803fcb03e876010d9f8cd2"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/playlist-pitching-tool",

@@ -67,7 +67,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -116,7 +116,7 @@
     "voice_answer": "Pitching Engine (Human) is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "96737b6651776f64f6bb93ca6482f64465636c6990294814d448e8ff335349ae"
+    "sha256": "ad5d02d3c8e5485d943774d3ee9ae0fcd76890fa257974aec310f7e2d817e00c"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/pitching-engine-human",

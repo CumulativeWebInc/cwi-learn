@@ -53,7 +53,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -102,7 +102,7 @@
     "voice_answer": "Curator-Side Console is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "6753cfcdd540fbdb5ced598bcc1c878beb4967784b13ed0e4b3c9fb8766bd883"
+    "sha256": "efbb0d8f5e21e175911ad9126733156a94d97771525c0fbc8797502549420b5e"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/curator-side-console",

@@ -1,6 +1,6 @@
 # Fact packet — Curator-Side Console
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `6753cfcdd540fbdb`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `efbb0d8f5e21e175`
 
 ## Discovery tags
 

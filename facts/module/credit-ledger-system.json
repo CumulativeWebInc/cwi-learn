@@ -76,7 +76,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -128,7 +128,7 @@
     "voice_answer": "Credit / Ledger System is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "994818471a4e195c719ad444acdfc5c20248a128b3757f7b07f065befe37e0d9"
+    "sha256": "e8dc45a6be2864c97486dac2bc5d451df3b4dd432e48ee9457b4f107b270b000"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/credit-ledger-system",

@@ -1,6 +1,6 @@
 # Fact packet — Marquee Delivery Module
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `049ed7db6315cbad`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `57138090edbfefc0`
 
 ## Discovery tags
 

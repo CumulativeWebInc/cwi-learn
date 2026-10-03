@@ -1,6 +1,6 @@
 # Fact packet — Monitoring + Reporting
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `ebb947ced717614a`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `71224d01baf7701b`
 
 ## Discovery tags
 

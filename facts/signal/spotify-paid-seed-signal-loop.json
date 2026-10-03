@@ -70,7 +70,7 @@
       "tier": "verified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -123,7 +123,7 @@
     "voice_answer": "Spotify Paid-Seed Signal Loop is a signal loop that amplifies marketing work. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "016e38e6b88ae722a88b629980a32e1d8429a5c15f1b441a7871a31e58ad8e16"
+    "sha256": "69861956944bfa7d49339a8b67747742e499edf97adede9b9fcae31258964cd8"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/signal/spotify-paid-seed-signal-loop",

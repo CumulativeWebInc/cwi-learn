@@ -1,6 +1,6 @@
 # Fact packet — Smart-Link Layer
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `1bc51b63aa82979d`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `6f47d85e2ab3605f`
 
 ## Discovery tags
 

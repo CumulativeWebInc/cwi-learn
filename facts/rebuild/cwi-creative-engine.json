@@ -67,7 +67,7 @@
       "tier": "owner_confirmed"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -118,7 +118,7 @@
     "voice_answer": "CWI Creative Engine is a CWI zero-cost rebuild module. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "08732867bf6d9dd009f5b4f356f2857aa97e6dc30df842f668f87ce293072a9b"
+    "sha256": "6345c1ba767170f7c91c1900f0d144fd00409d9d8acbe559dd3b9ce58fe5057b"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/rebuild/cwi-creative-engine",

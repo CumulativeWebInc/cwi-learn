@@ -182,7 +182,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -233,7 +233,7 @@
     "voice_answer": "Meta Ads for Musicians is a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "4ffe85b164d4c341b7a5cf289e6c2d9a3e364d320ad2ee7878e34a9dcee219b4"
+    "sha256": "8032e0eb3b62f88bba31523acd11011bed07df7dd272123a5272d7113bfc7600"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/machine/meta-ads-for-musicians",

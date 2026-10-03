@@ -60,7 +60,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -109,7 +109,7 @@
     "voice_answer": "PR Amplification Loop is a signal loop that amplifies marketing work. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "15759a9e233ce02e5e535bf264d2921d83b5724a64a97b482b1389d1fe666df4"
+    "sha256": "c1f95f94ad13a57fedc96c2d821f0029a2311fda9088c459b40c3f83833a42a4"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/signal/pr-amplification-loop",

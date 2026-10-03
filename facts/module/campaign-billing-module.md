@@ -1,6 +1,6 @@
 # Fact packet — Campaign Billing Module
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `a4fa917d67febce4`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `eb322a90d7b8bbc5`
 
 ## Discovery tags
 

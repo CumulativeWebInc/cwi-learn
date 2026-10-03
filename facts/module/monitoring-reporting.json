@@ -82,7 +82,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -137,7 +137,7 @@
     "voice_answer": "Monitoring + Reporting is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "ebb947ced717614a6ed84817f825b0e869007a15d333154784fbc6ba5736c1ae"
+    "sha256": "71224d01baf7701b5d2332ea8030edf900675d9339df944528408d429f61b891"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/monitoring-reporting",

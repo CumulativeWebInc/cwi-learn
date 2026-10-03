@@ -195,7 +195,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -244,25 +244,11 @@
       "source": "Cumulative Web Inc",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.json"
     },
-    "fan_qa": [
-      {
-        "a": "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
-        "q": "How big is the Spotify Campaign Kit catalog?"
-      }
-    ],
+    "fan_qa": [],
     "faq_jsonld": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform"
-          },
-          "name": "How big is the Spotify Campaign Kit catalog?"
-        }
-      ]
+      "mainEntity": []
     },
     "search_answer": "Spotify Campaign Kit is a music-marketing machine.  Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform.",
     "social_caption": "Spotify Campaign Kit  #marketing-machine #spotify #paid-promo #fan-acquisition #cpc #proprietary-inventory",
@@ -270,7 +256,7 @@
     "voice_answer": "Spotify Campaign Kit is a music-marketing machine.  Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "a69e24a15451a5762fff2e2eabb838d7d0977fc070867f12dad1d7421c6b3114"
+    "sha256": "268e69bb1ca0119b20e20b502d19f9f89bc7bdc4e3cd8e67bb027b9cb8c8b221"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/machine/spotify-campaign-kit",

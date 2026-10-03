@@ -78,7 +78,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -132,7 +132,7 @@
     "voice_answer": "Campaign Billing Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "a4fa917d67febce49b0edadd3598f7a9ad22cfc2e468b29448f986fced925d91"
+    "sha256": "eb322a90d7b8bbc51e6726d54ac4fe9a034f8100b147bd93fa59caa495d72fec"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/campaign-billing-module",

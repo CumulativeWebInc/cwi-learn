@@ -1,7 +1,7 @@
 {
   "tag": "listener-affinity",
   "facet": "data",
-  "updated": "2026-10-03T13:01:30Z",
+  "updated": "2026-10-03T13:17:47Z",
   "packets": [
     {
       "packet_id": "fact/moat/spotify-listener-affinity-graph",

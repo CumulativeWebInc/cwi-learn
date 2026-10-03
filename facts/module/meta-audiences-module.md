@@ -1,6 +1,6 @@
 # Fact packet — Meta Audiences Module
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `43858eaba3b5754b`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `1c783c1af262fe72`
 
 ## Discovery tags
 

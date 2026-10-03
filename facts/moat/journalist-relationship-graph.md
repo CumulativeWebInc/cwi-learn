@@ -1,6 +1,6 @@
 # Fact packet — Journalist Relationship Graph
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `3a9678ca5db2cbc1`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `78c25f897f871710`
 
 ## Discovery tags
 

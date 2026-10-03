@@ -1,6 +1,6 @@
 # Fact packet — Playlist Pitching Tool
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `842c5e1e691baf9b`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `11e1bf4bd42f8bbf`
 
 ## Discovery tags
 

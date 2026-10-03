@@ -1,6 +1,6 @@
 # Fact packet — Curator Acceptance + Reliability Dataset
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `bb3ab5f8b859ce99`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `43539f8068508474`
 
 ## Discovery tags
 

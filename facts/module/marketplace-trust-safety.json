@@ -75,7 +75,7 @@
       "tier": "verified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -127,7 +127,7 @@
     "voice_answer": "Marketplace Trust & Safety is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "e0364effef18faf31689473530e942bcfedc2a6f52fbf1927e7814a2a24b14c6"
+    "sha256": "3c597b2f9eec51e50e985e2732adb34ac757cc8b3809cef2dd4b78787b8bf9f5"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/marketplace-trust-safety",

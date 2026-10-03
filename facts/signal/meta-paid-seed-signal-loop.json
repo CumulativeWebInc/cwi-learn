@@ -61,7 +61,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -110,7 +110,7 @@
     "voice_answer": "Meta Paid-Seed Signal Loop is a signal loop that amplifies marketing work. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "c03aacff67e54638cc81888dda2864af706db414361173f0aa8870eb9a894bff"
+    "sha256": "3f6361719cd8a98f767df40cc2e1e91c4b2135ea640808ad62d70e772b973d75"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/signal/meta-paid-seed-signal-loop",

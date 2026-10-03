@@ -1,6 +1,6 @@
 # Fact packet — PR Amplification Loop
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `15759a9e233ce02e`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `c1f95f94ad13a57f`
 
 ## Discovery tags
 

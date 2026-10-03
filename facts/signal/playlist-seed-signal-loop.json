@@ -53,7 +53,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -102,7 +102,7 @@
     "voice_answer": "Playlist-Seed Signal Loop is a signal loop that amplifies marketing work. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "deb4a58c6d7d6f888945ea1c5364d56bf29029094394c47041476c54edfb147b"
+    "sha256": "a0c22bde27c57dd3b1fc8ae806b0ef3dddb477228217e3f848941edff08b3808"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/signal/playlist-seed-signal-loop",

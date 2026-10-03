@@ -63,7 +63,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -111,7 +111,7 @@
     "voice_answer": "Meta Identity Graph + Estimated Action Rate is a proprietary data moat. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "c8f20c210ba32899ac3fa565a5e917504d377168d1562df24d956a0ea6653f20"
+    "sha256": "8275a34c087694b34f06821897a061c4d0c60e9d7d3922a35568b44b9ee09deb"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/moat/meta-identity-graph-estimated-action-rate",

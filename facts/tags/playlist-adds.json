@@ -1,7 +1,7 @@
 {
   "tag": "playlist-adds",
   "facet": "output",
-  "updated": "2026-10-03T13:01:30Z",
+  "updated": "2026-10-03T13:17:47Z",
   "packets": [
     {
       "packet_id": "fact/signal/playlist-seed-signal-loop",

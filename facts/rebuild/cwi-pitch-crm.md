@@ -1,6 +1,6 @@
 # Fact packet — CWI Pitch CRM
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `ec97c55dacdfb323`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `1225ad20db7e5aa5`
 
 ## Discovery tags
 

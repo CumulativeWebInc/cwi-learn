@@ -54,7 +54,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -103,7 +103,7 @@
     "voice_answer": "Wire Distribution is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "8a186632f220546ec80d7d4a8532230d52cbb334cd25699ff1b4b2e9f42ec3ad"
+    "sha256": "aa1f15599058e50b5d6ea246f4325c68b5c456ddb06389086bb9d362a1567cbf"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/wire-distribution",

@@ -60,7 +60,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -109,7 +109,7 @@
     "voice_answer": "CWI Pitch CRM is a CWI zero-cost rebuild module. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "ec97c55dacdfb323a8386e240719b883e1c466cacaf587a24384605c558b2844"
+    "sha256": "1225ad20db7e5aa55646db548caf41d442d6bafcd83131c175b00fb8f33276ef"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/rebuild/cwi-pitch-crm",

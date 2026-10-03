@@ -1,6 +1,6 @@
 # Fact packet — Music PR Firms
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `46f6a17acb3d176e`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `c810a911c88a8be0`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — CWI Creative Engine
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `08732867bf6d9dd0`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `6345c1ba767170f7`
 
 ## Discovery tags
 

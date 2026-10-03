@@ -178,7 +178,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -232,7 +232,7 @@
     "voice_answer": "Music PR Firms is a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "46f6a17acb3d176eb4d68c083875e1ddeeca6ae36d5a910aa68c63b44d786adb"
+    "sha256": "c810a911c88a8be09496c83c9c5440423334706bd75be08cdf04d4eae5044216"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/machine/music-pr-firms",

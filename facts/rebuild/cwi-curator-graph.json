@@ -74,7 +74,7 @@
       "tier": "owner_confirmed"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -125,7 +125,7 @@
     "voice_answer": "CWI Curator Graph is a CWI zero-cost rebuild module. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "c7eb558d94c236568d84036a3df04b55b1e69d4e2d846488fe697014132e813f"
+    "sha256": "6cb54f27f5d2ebb3a705302c9eaca44bacf02f90f9a7d169e60bc87d7240f71a"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/rebuild/cwi-curator-graph",

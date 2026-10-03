@@ -47,7 +47,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -95,7 +95,7 @@
     "voice_answer": "Journalist Relationship Graph is a proprietary data moat. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "3a9678ca5db2cbc1351aeaec491a9422efe7d09f4e342c3612060cd2881af479"
+    "sha256": "78c25f897f871710bde1f4101f170c07bb6a179737a2a81db189cd51df48ea17"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/moat/journalist-relationship-graph",

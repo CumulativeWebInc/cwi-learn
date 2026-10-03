@@ -1,6 +1,6 @@
 # Fact packet — Pitching Engine (Human)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `96737b6651776f64`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `ad5d02d3c8e5485d`
 
 ## Discovery tags
 

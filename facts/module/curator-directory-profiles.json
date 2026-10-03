@@ -61,7 +61,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -110,7 +110,7 @@
     "voice_answer": "Curator Directory + Profiles is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "4f964937ee07ccc5649a2f6ae0f321d61a19d10949f77177fb3911ff636767d0"
+    "sha256": "564a401bfc7ced14ce95b30ac45a552e1e530d2fe7e61ce8264ac8be3165f131"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/curator-directory-profiles",

@@ -1,6 +1,6 @@
 # Fact packet — CWI Attribution Layer
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `0812370be9cb5783`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `c99cfabb0072e681`
 
 ## Discovery tags
 
