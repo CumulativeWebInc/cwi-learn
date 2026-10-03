@@ -1,0 +1,76 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/vote-hq-src-wire.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/vote-hq-src-wire.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "attribution",
+      "tier": "verified",
+      "why": "owned-surface wire verified live"
+    },
+    {
+      "facet": "proof",
+      "tag": "verified-live",
+      "tier": "verified",
+      "why": "HTTP checks run by attribute.py, not claimed"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "vote-diabolique.html HTTP 200 (6,732 bytes): inbound x/fb/wa/tg/copy + outbound cwi-votehq all present in HTML (raw + percent-encoded), zero drift vs the locked registry",
+      "evidence": {
+        "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "radio/now-playing.json live and fresh: staleness check PASS (updated seconds before the check)",
+      "evidence": {
+        "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/vote-hq-src-wire.json"
+    },
+    "fan_qa": "What is Vote HQ ?src= wire — live state 2026-10-03? Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed."
+          },
+          "name": "What is Vote HQ ?src= wire — live state 2026-10-03?"
+        }
+      ]
+    },
+    "search_answer": "Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed.",
+    "social_caption": "Vote HQ ?src= wire — live state 2026-10-03 — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Vote HQ ?src= wire — live state 2026-10-03: Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "64ba3dd14003d50dae15f844bcc62448e9e556761f0843fe1af50d94cdc8b542"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/vote-hq-src-wire",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/vote-hq-src-wire",
+    "name": "Vote HQ ?src= wire — live state 2026-10-03",
+    "status": "verified",
+    "type": "state"
+  },
+  "packet_id": "fact/module/vote-hq-src-wire",
+  "relationships": [],
+  "schema": "cwi-fact-packet/v1"
+}
