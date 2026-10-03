@@ -1,0 +1,12 @@
+{
+  "tag": "payouts",
+  "facet": "pricing",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/curator-side-console",
+      "node": "Curator-Side Console",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-side-console.json"
+    }
+  ]
+}

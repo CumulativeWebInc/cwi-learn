@@ -1,0 +1,153 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/submission-pipeline.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/submission-pipeline.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "marketplaces",
+      "tier": "claimed_unverified",
+      "why": "curator marketplaces"
+    },
+    {
+      "facet": "function",
+      "tag": "submission-pipeline",
+      "tier": "claimed_unverified",
+      "why": "submission-to-feedback flow"
+    },
+    {
+      "facet": "output",
+      "tag": "feedback",
+      "tier": "claimed_unverified",
+      "why": "written curator feedback"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Flow: upload/link track -> write pitch -> pay credits/budget -> curator inbox -> listen -> decision + feedback -> credit refund if SLA missed",
+      "evidence": {
+        "source": "report section C2 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Curator workflow: listen (>=~60s required on SubmitHub premium) -> approve (add to playlist, optionally share) or decline with written reason; low-effort declines hurt curator rating and future submission flow",
+      "evidence": {
+        "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026"
+      },
+      "note": "curator-side workflow per https://music.loop.fans/blog/submithub-curator",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "SubmitHub: per-curator submission -> decision + written feedback (>=10-20 words on decline) within the premium SLA window; credit refunded if SLA missed",
+      "evidence": {
+        "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Playlist Push: managed campaign (2-4 weeks) -> per-curator qualitative reviews; if Spotify for Artists is connected, a detailed report 30 days after the campaign ends",
+      "evidence": {
+        "source": "https://www.unhurdmusic.com/blog/best-playlist-pitching-services"
+      },
+      "note": "official pricing page: https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Dashboard: campaign status, per-curator decisions/feedback, approval rates, spend; Spotify-side verification happens in the artist's own Spotify for Artists (source-of-stream)",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/streaming/chartlex-vs-submithub-vs-playlist-push-vs-soundcampaign-2026"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "marketplaces",
+        "submission-pipeline",
+        "feedback"
+      ],
+      "entity": "Submission Pipeline",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/submission-pipeline.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Submission Pipeline is a system module of a music-marketing machine.",
+    "social_caption": "Submission Pipeline  #marketing-module #marketplaces #submission-pipeline #feedback",
+    "sync_pitch": "SYNC PITCH — Submission Pipeline.",
+    "voice_answer": "Submission Pipeline is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "af08b8612fd648060d5e21124d811ba022c5423579973cf016ab93375578e050"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/submission-pipeline",
+    "id": "module:marketplace-submission-pipeline",
+    "name": "Submission Pipeline",
+    "status": "claimed_unverified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/submission-pipeline",
+  "relationships": [
+    {
+      "note": "component of the playlist-pitching marketplace machine",
+      "rel": "part_of",
+      "target": "marketing-machine:playlist-marketplaces",
+      "target_name": "Playlist-Pitching Marketplaces"
+    },
+    {
+      "note": "$0: spreadsheet CRM + templated personalized emails; follow-up cadence replaces SLA ledger",
+      "rel": "rebuilds",
+      "target": "cwi-rebuild:pitch-crm",
+      "target_name": "CWI Pitch CRM"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

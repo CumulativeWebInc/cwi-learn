@@ -1,0 +1,12 @@
+{
+  "tag": "billing",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/campaign-billing-module",
+      "node": "Campaign Billing Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-billing-module.json"
+    }
+  ]
+}

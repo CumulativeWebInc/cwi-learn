@@ -1,0 +1,12 @@
+{
+  "tag": "matching",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/marketplace-matching-engine",
+      "node": "Marketplace Matching Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marketplace-matching-engine.json"
+    }
+  ]
+}

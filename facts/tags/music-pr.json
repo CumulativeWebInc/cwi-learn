@@ -1,0 +1,37 @@
+{
+  "tag": "music-pr",
+  "facet": "platform",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/media-database-rented",
+      "node": "Media Database (Rented)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/media-database-rented.json"
+    },
+    {
+      "packet_id": "fact/module/monitoring-reporting",
+      "node": "Monitoring + Reporting",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/monitoring-reporting.json"
+    },
+    {
+      "packet_id": "fact/module/pitching-engine-human",
+      "node": "Pitching Engine (Human)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitching-engine-human.json"
+    },
+    {
+      "packet_id": "fact/module/reactive-pitching",
+      "node": "Reactive Pitching",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/reactive-pitching.json"
+    },
+    {
+      "packet_id": "fact/module/wire-distribution",
+      "node": "Wire Distribution",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/wire-distribution.json"
+    },
+    {
+      "packet_id": "fact/machine/music-pr-firms",
+      "node": "Music PR Firms",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/music-pr-firms.json"
+    }
+  ]
+}

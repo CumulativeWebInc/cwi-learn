@@ -1,0 +1,12 @@
+{
+  "tag": "capi",
+  "facet": "tech",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/events-manager-pixel-capi",
+      "node": "Events Manager (Pixel + CAPI)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/events-manager-pixel-capi.json"
+    }
+  ]
+}

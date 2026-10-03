@@ -1,0 +1,123 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/journalist-relationship-graph.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/journalist-relationship-graph.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "data-moat",
+      "tier": "verified",
+      "why": "anatomy node type moat"
+    },
+    {
+      "facet": "status",
+      "tag": "proprietary",
+      "tier": "claimed_unverified",
+      "why": "unreplicable as software"
+    },
+    {
+      "facet": "data",
+      "tag": "journalist-relationships",
+      "tier": "claimed_unverified",
+      "why": "relationship graph"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Relationship data (who answers, what they cover, response history, warm introductions) stored in the firm's CRM/pitch logs, never public - the closest thing to proprietary data in PR",
+      "evidence": {
+        "source": "report section D3 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "The moats are (a) the journalist relationship graph in the publicist's head/CRM, (b) taste and news judgment, (c) reputation that gets emails opened - none of these are purchasable software",
+      "evidence": {
+        "source": "report section D8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "data-moat",
+        "proprietary",
+        "journalist-relationships"
+      ],
+      "entity": "Journalist Relationship Graph",
+      "owner_confirmed": [],
+      "type": "moat",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/journalist-relationship-graph.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Journalist Relationship Graph is a proprietary data moat.",
+    "social_caption": "Journalist Relationship Graph  #data-moat #proprietary #journalist-relationships",
+    "sync_pitch": "SYNC PITCH — Journalist Relationship Graph.",
+    "voice_answer": "Journalist Relationship Graph is a proprietary data moat. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "3a9678ca5db2cbc1351aeaec491a9422efe7d09f4e342c3612060cd2881af479"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/moat/journalist-relationship-graph",
+    "id": "moat:pr-relationship-graph",
+    "name": "Journalist Relationship Graph",
+    "status": "claimed_unverified",
+    "type": "moat"
+  },
+  "packet_id": "fact/moat/journalist-relationship-graph",
+  "relationships": [
+    {
+      "note": "relationships are the closest thing to proprietary data in PR",
+      "rel": "enables",
+      "target": "marketing-machine:music-pr-firms",
+      "target_name": "Music PR Firms"
+    },
+    {
+      "note": "the pitch itself and the relationship are human; open-rate comes from the graph",
+      "rel": "depends_on",
+      "target": "module:pr-pitching-engine",
+      "target_name": "Pitching Engine (Human)"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

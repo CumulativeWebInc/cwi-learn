@@ -1,0 +1,12 @@
+{
+  "tag": "home-feed",
+  "facet": "format",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/showcase-delivery-module",
+      "node": "Showcase Delivery Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/showcase-delivery-module.json"
+    }
+  ]
+}

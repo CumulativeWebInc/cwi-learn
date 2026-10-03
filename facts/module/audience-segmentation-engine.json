@@ -1,0 +1,167 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/audience-segmentation-engine.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/audience-segmentation-engine.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "spotify",
+      "tier": "verified",
+      "why": "inside Spotify's platform"
+    },
+    {
+      "facet": "function",
+      "tag": "targeting",
+      "tier": "verified",
+      "why": "audience targeting"
+    },
+    {
+      "facet": "data",
+      "tag": "listener-segments",
+      "tier": "verified",
+      "why": "six official segments"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Six official segments: super / moderate / light listeners (active, last 28 days by intensity), previously active (lapsed 28+ days), programmed (heard only via playlists/radio), potential (never heard, profile match)",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Segments are built from the listener behavior graph: stream counts, intentional vs. programmed streams, saves, playlist adds, skips, follows, recency/frequency/intensity per listener",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Buyer interface: Campaigns tab in Spotify for Artists (desktop, Admin/Editor roles) - campaign creation, audience-segment selection, market selection (40+ markets), scheduling, billing management",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Marquee explicitly targets listeners based on their listening history rather than broad demographics or interests",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Rebuildable: the segmentation logic is trivially replicable in a spreadsheet or self-hosted analytics from any first-party listener data; an indie team can manually approximate Marquee's targeting by exporting Spotify for Artists audience data and running segmented email/DM campaigns - but it will never reach 'potential listeners' Spotify has not identified to you, which is the whole point",
+      "evidence": {
+        "source": "report section A8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "spotify",
+        "targeting",
+        "listener-segments"
+      ],
+      "entity": "Audience Segmentation Engine",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": [
+        "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+        "Six official segments: super / moderate / light listeners (active, last 28 days by intensity), previously active (lapsed 28+ days), programmed (heard only via playlists/radio), potential (never heard, profile match)",
+        "Segments are built from the listener behavior graph: stream counts, intentional vs. programmed streams, saves, playlist adds, skips, follows, recency/frequency/intensity per listener",
+        "Buyer interface: Campaigns tab in Spotify for Artists (desktop, Admin/Editor roles) - campaign creation, audience-segment selection, market selection (40+ markets), scheduling, billing management",
+        "Marquee explicitly targets listeners based on their listening history rather than broad demographics or interests"
+      ]
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/audience-segmentation-engine.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Audience Segmentation Engine is a system module of a music-marketing machine.",
+    "social_caption": "Audience Segmentation Engine  #marketing-module #spotify #targeting #listener-segments",
+    "sync_pitch": "SYNC PITCH — Audience Segmentation Engine.",
+    "voice_answer": "Audience Segmentation Engine is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "5242692e1479b92e62b3ebe2623daf4dfb53ef3804cb57052697948e8721de0e"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/audience-segmentation-engine",
+    "id": "module:spotify-audience-segmentation",
+    "name": "Audience Segmentation Engine",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/audience-segmentation-engine",
+  "relationships": [
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "marketing-machine:spotify-campaign-kit",
+      "target_name": "Spotify Campaign Kit"
+    },
+    {
+      "note": "the six segments are computed from the behavior graph",
+      "rel": "depends_on",
+      "target": "moat:spotify-listener-affinity-graph",
+      "target_name": "Spotify Listener-Affinity Graph"
+    },
+    {
+      "note": "$0: super/moderate/light/lapsed/potential logic in a spreadsheet from first-party data",
+      "rel": "rebuilds",
+      "target": "cwi-rebuild:scorecards",
+      "target_name": "CWI Scorecards"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

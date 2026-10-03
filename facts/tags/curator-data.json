@@ -1,0 +1,12 @@
+{
+  "tag": "curator-data",
+  "facet": "data",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/moat/curator-acceptance-reliability-dataset",
+      "node": "Curator Acceptance + Reliability Dataset",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/curator-acceptance-reliability-dataset.json"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/wire-distribution.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/wire-distribution.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "music-pr",
+      "tier": "claimed_unverified",
+      "why": "PR firms"
+    },
+    {
+      "facet": "function",
+      "tag": "wire-distribution",
+      "tier": "claimed_unverified",
+      "why": "newswire distribution"
+    },
+    {
+      "facet": "channel",
+      "tag": "newswire",
+      "tier": "claimed_unverified",
+      "why": "press wires"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Wire workflow: draft release -> distribute via wire -> syndicated pickups create indexable URLs (low authority, but persistent entity corroboration)",
+      "evidence": {
+        "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Exact current per-release wire pricing (PR Newswire/Business Wire) for music announcements: tier confirmed to exist with published prices, but live numbers were not pulled",
+      "evidence": {
+        "source": "report section 'Could Not Verify' (2026-10-03)"
+      },
+      "note": "evidence gap: could not verify",
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "music-pr",
+        "wire-distribution",
+        "newswire"
+      ],
+      "entity": "Wire Distribution",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/wire-distribution.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Wire Distribution is a system module of a music-marketing machine.",
+    "social_caption": "Wire Distribution  #marketing-module #music-pr #wire-distribution #newswire",
+    "sync_pitch": "SYNC PITCH — Wire Distribution.",
+    "voice_answer": "Wire Distribution is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "8a186632f220546ec80d7d4a8532230d52cbb334cd25699ff1b4b2e9f42ec3ad"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/wire-distribution",
+    "id": "module:pr-wire-distribution",
+    "name": "Wire Distribution",
+    "status": "claimed_unverified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/wire-distribution",
+  "relationships": [
+    {
+      "note": "component of the music-PR machine",
+      "rel": "part_of",
+      "target": "marketing-machine:music-pr-firms",
+      "target_name": "Music PR Firms"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

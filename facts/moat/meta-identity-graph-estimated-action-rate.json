@@ -1,0 +1,145 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/meta-identity-graph-estimated-action-rate.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/meta-identity-graph-estimated-action-rate.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "data-moat",
+      "tier": "verified",
+      "why": "anatomy node type moat"
+    },
+    {
+      "facet": "status",
+      "tag": "proprietary",
+      "tier": "claimed_unverified",
+      "why": "unreplicable by third parties"
+    },
+    {
+      "facet": "data",
+      "tag": "identity-graph",
+      "tier": "claimed_unverified",
+      "why": "Meta identity/behavior graph"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Identity/behavior graph: the Estimated Action Rate predictor trained on billions of users (full behavior history, time-of-day/device, session context, cross-platform activity)",
+      "evidence": {
+        "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/"
+      },
+      "note": "mechanics mapped at https://github.com/hulkintherapy/meta-ads-research/blob/HEAD/workflow-mapping/19-meta-algorithm-mechanics.md",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "The auction and its inventory; modeled attribution - a meaningful share of reported conversions are modeled, not measured, with no flag distinguishing them",
+      "evidence": {
+        "source": "https://github.com/indexsy/skills/blob/HEAD/meta-ads/foundations/attribution.md"
+      },
+      "note": "also https://podvector.ai/articles/meta-ads/roas-and-attribution/what-is-roas-in-meta-ads",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Hashed identifiers (SHA-256 email/phone) are sent to Meta; Meta matches against its identity graph",
+      "evidence": {
+        "source": "https://github.com/boringmarketer/meta-ads-skill/blob/HEAD/reference/tracking.md"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "No open-source stack reproduces 'find people statistically likely to click through to Spotify'",
+      "evidence": {
+        "source": "report section B8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "data-moat",
+        "proprietary",
+        "identity-graph"
+      ],
+      "entity": "Meta Identity Graph + Estimated Action Rate",
+      "owner_confirmed": [],
+      "type": "moat",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/meta-identity-graph-estimated-action-rate.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Meta Identity Graph + Estimated Action Rate is a proprietary data moat.",
+    "social_caption": "Meta Identity Graph + Estimated Action Rate  #data-moat #proprietary #identity-graph",
+    "sync_pitch": "SYNC PITCH — Meta Identity Graph + Estimated Action Rate.",
+    "voice_answer": "Meta Identity Graph + Estimated Action Rate is a proprietary data moat. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "c8f20c210ba32899ac3fa565a5e917504d377168d1562df24d956a0ea6653f20"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/moat/meta-identity-graph-estimated-action-rate",
+    "id": "moat:meta-identity-graph",
+    "name": "Meta Identity Graph + Estimated Action Rate",
+    "status": "claimed_unverified",
+    "type": "moat"
+  },
+  "packet_id": "fact/moat/meta-identity-graph-estimated-action-rate",
+  "relationships": [
+    {
+      "note": "the identity graph powers the Estimated Action Rate predictor and the auction",
+      "rel": "enables",
+      "target": "marketing-machine:meta-ads",
+      "target_name": "Meta Ads for Musicians"
+    },
+    {
+      "note": "Estimated Action Rate is predicted from the identity/behavior graph",
+      "rel": "depends_on",
+      "target": "module:meta-auction",
+      "target_name": "Meta Delivery Auction"
+    },
+    {
+      "note": "Custom/lookalike audiences resolve against the identity graph",
+      "rel": "depends_on",
+      "target": "module:meta-audiences",
+      "target_name": "Meta Audiences Module"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

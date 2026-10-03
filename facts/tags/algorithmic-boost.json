@@ -1,0 +1,12 @@
+{
+  "tag": "algorithmic-boost",
+  "facet": "mechanism",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/discovery-mode-enrollment-module",
+      "node": "Discovery Mode Enrollment Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/discovery-mode-enrollment-module.json"
+    }
+  ]
+}

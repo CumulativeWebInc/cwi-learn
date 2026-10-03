@@ -1,0 +1,12 @@
+{
+  "tag": "campaign-structure",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/meta-campaign-ad-set-ad-structure",
+      "node": "Meta Campaign / Ad Set / Ad Structure",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-campaign-ad-set-ad-structure.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "curator-directory",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/curator-directory-profiles",
+      "node": "Curator Directory + Profiles",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-directory-profiles.json"
+    }
+  ]
+}

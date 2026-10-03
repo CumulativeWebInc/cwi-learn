@@ -1,0 +1,185 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marquee-delivery-module.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marquee-delivery-module.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "spotify",
+      "tier": "verified",
+      "why": "inside Spotify's platform"
+    },
+    {
+      "facet": "product",
+      "tag": "marquee",
+      "tier": "verified",
+      "why": "Marquee product"
+    },
+    {
+      "facet": "pricing",
+      "tag": "cpc",
+      "tier": "claimed_unverified",
+      "why": "CPC-billed"
+    },
+    {
+      "facet": "format",
+      "tag": "full-screen-ad",
+      "tier": "claimed_unverified",
+      "why": "app-open full-screen inventory"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Targets listeners based on their listening history rather than broad demographics or interests",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Filters out listeners who already intentionally streamed the release (automatic suppression of already-converted listeners)",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "New-release only; start date within the first 3 weeks of release, bookable up to 18 days post-release",
+      "evidence": {
+        "source": "report section A3 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "CPC pricing, $100 minimum per (sub-)campaign; typical CPC $0.55-$1.50 (Chartlex 2026 campaign data; older reports ~$0.50); 10-day window; pay only for clicks; unspent budget not charged",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+      },
+      "note": "$100 minimum and click-only charging per https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Reporting: listens, saves, playlist adds from exposed listeners; Spotify claims exposed listeners are >2x more likely to save/add and 3x more likely to stream the artist's other releases",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Halo effect: Marquee clicks produce saves, playlist adds, follows, and catalog streams - all inputs to Spotify's organic recommendation systems (Discover Weekly, Release Radar, Radio)",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "spotify",
+        "marquee",
+        "cpc",
+        "full-screen-ad"
+      ],
+      "entity": "Marquee Delivery Module",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": [
+        "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+        "Full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home",
+        "Targets listeners based on their listening history rather than broad demographics or interests",
+        "Filters out listeners who already intentionally streamed the release (automatic suppression of already-converted listeners)",
+        "Reporting: listens, saves, playlist adds from exposed listeners; Spotify claims exposed listeners are >2x more likely to save/add and 3x more likely to stream the artist's other releases",
+        "Halo effect: Marquee clicks produce saves, playlist adds, follows, and catalog streams - all inputs to Spotify's organic recommendation systems (Discover Weekly, Release Radar, Radio)"
+      ]
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marquee-delivery-module.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Marquee Delivery Module is a system module of a music-marketing machine.",
+    "social_caption": "Marquee Delivery Module  #marketing-module #spotify #marquee #cpc #full-screen-ad",
+    "sync_pitch": "SYNC PITCH — Marquee Delivery Module.",
+    "voice_answer": "Marquee Delivery Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "049ed7db6315cbad87e892ab74a2da8dbafb2b7b16d83e2b533f49671f65598b"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/marquee-delivery-module",
+    "id": "module:spotify-marquee",
+    "name": "Marquee Delivery Module",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/marquee-delivery-module",
+  "relationships": [
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "marketing-machine:spotify-campaign-kit",
+      "target_name": "Spotify Campaign Kit"
+    },
+    {
+      "note": "Marquee targeting reads listening history from the graph",
+      "rel": "depends_on",
+      "target": "moat:spotify-listener-affinity-graph",
+      "target_name": "Spotify Listener-Affinity Graph"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

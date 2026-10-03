@@ -1,0 +1,47 @@
+{
+  "tag": "spotify",
+  "facet": "platform",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/audience-segmentation-engine",
+      "node": "Audience Segmentation Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/audience-segmentation-engine.json"
+    },
+    {
+      "packet_id": "fact/module/campaign-billing-module",
+      "node": "Campaign Billing Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-billing-module.json"
+    },
+    {
+      "packet_id": "fact/module/campaign-reporting-module",
+      "node": "Campaign Reporting Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-reporting-module.json"
+    },
+    {
+      "packet_id": "fact/module/discovery-mode-enrollment-module",
+      "node": "Discovery Mode Enrollment Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/discovery-mode-enrollment-module.json"
+    },
+    {
+      "packet_id": "fact/module/marquee-delivery-module",
+      "node": "Marquee Delivery Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marquee-delivery-module.json"
+    },
+    {
+      "packet_id": "fact/module/playlist-pitching-tool",
+      "node": "Playlist Pitching Tool",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/playlist-pitching-tool.json"
+    },
+    {
+      "packet_id": "fact/module/showcase-delivery-module",
+      "node": "Showcase Delivery Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/showcase-delivery-module.json"
+    },
+    {
+      "packet_id": "fact/machine/spotify-campaign-kit",
+      "node": "Spotify Campaign Kit",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.json"
+    }
+  ]
+}

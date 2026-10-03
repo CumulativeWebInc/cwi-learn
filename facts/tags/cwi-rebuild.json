@@ -1,0 +1,37 @@
+{
+  "tag": "cwi-rebuild",
+  "facet": "type",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/rebuild/cwi-attribution-layer",
+      "node": "CWI Attribution Layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-attribution-layer.json"
+    },
+    {
+      "packet_id": "fact/rebuild/cwi-creative-engine",
+      "node": "CWI Creative Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-creative-engine.json"
+    },
+    {
+      "packet_id": "fact/rebuild/cwi-curator-graph",
+      "node": "CWI Curator Graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-curator-graph.json"
+    },
+    {
+      "packet_id": "fact/rebuild/cwi-pitch-crm",
+      "node": "CWI Pitch CRM",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-pitch-crm.json"
+    },
+    {
+      "packet_id": "fact/rebuild/cwi-pr-graph",
+      "node": "CWI PR Graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-pr-graph.json"
+    },
+    {
+      "packet_id": "fact/rebuild/cwi-scorecards",
+      "node": "CWI Scorecards",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-scorecards.json"
+    }
+  ]
+}

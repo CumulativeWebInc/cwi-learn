@@ -1,0 +1,169 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/spotify-paid-seed-signal-loop.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/spotify-paid-seed-signal-loop.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "signal-loop",
+      "tier": "verified",
+      "why": "anatomy node type signal"
+    },
+    {
+      "facet": "strategy",
+      "tag": "paid-seed",
+      "tier": "claimed_unverified",
+      "why": "paid reach seeds algorithmic surfaces"
+    },
+    {
+      "facet": "domain",
+      "tag": "algorithmic-surfaces",
+      "tier": "claimed_unverified",
+      "why": "Discover Weekly / Release Radar / Radio"
+    },
+    {
+      "facet": "mechanism",
+      "tag": "halo-effect",
+      "tier": "verified",
+      "why": "paid-to-organic halo"
+    },
+    {
+      "facet": "mechanism",
+      "tag": "flywheel",
+      "tier": "claimed_unverified",
+      "why": "Discovery Mode flywheel"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Why paid reach matters: Marquee/Showcase clicks produce saves, playlist adds, follows, and catalog streams - all inputs to Spotify's organic recommendation systems (Discover Weekly, Release Radar, Radio); paid reach seeds the signals the free algorithm feeds on",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "note": "the 'halo effect'",
+      "tier": "verified"
+    },
+    {
+      "claim": "Discovery Mode flywheel: boosted Radio/Autoplay exposure -> new listeners -> on-demand/catalog streams at full royalty (only DM-context streams take the 30% cut) -> stronger algorithmic profile; industry analyses estimate 100-400% stream lifts during active campaigns",
+      "evidence": {
+        "source": "https://www.thatericalper.com/2026/07/15/discovery-mode-on-spotify-should-artists-actually-use-it/"
+      },
+      "note": "also https://www.pophatch.com/blog/spotify-discovery-mode",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "The Kit's own page positions Discovery Mode as the tool for 'trending' songs; social/press signals (TikTok virality, editorial coverage) amplify by raising baseline demand that Marquee retargeting and Discovery Mode then harvest",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/campaign-kit"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "signal-loop",
+        "paid-seed",
+        "algorithmic-surfaces",
+        "halo-effect",
+        "flywheel"
+      ],
+      "entity": "Spotify Paid-Seed Signal Loop",
+      "owner_confirmed": [],
+      "type": "signal",
+      "verified_facts": [
+        "Why paid reach matters: Marquee/Showcase clicks produce saves, playlist adds, follows, and catalog streams - all inputs to Spotify's organic recommendation systems (Discover Weekly, Release Radar, Radio); paid reach seeds the signals the free algorithm feeds on",
+        "The Kit's own page positions Discovery Mode as the tool for 'trending' songs; social/press signals (TikTok virality, editorial coverage) amplify by raising baseline demand that Marquee retargeting and Discovery Mode then harvest"
+      ]
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/spotify-paid-seed-signal-loop.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Spotify Paid-Seed Signal Loop is a signal loop that amplifies marketing work.",
+    "social_caption": "Spotify Paid-Seed Signal Loop  #signal-loop #paid-seed #algorithmic-surfaces #halo-effect #flywheel",
+    "sync_pitch": "SYNC PITCH — Spotify Paid-Seed Signal Loop.",
+    "voice_answer": "Spotify Paid-Seed Signal Loop is a signal loop that amplifies marketing work. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "016e38e6b88ae722a88b629980a32e1d8429a5c15f1b441a7871a31e58ad8e16"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/signal/spotify-paid-seed-signal-loop",
+    "id": "signal:spotify-paid-seed-loop",
+    "name": "Spotify Paid-Seed Signal Loop",
+    "status": "claimed_unverified",
+    "type": "signal"
+  },
+  "packet_id": "fact/signal/spotify-paid-seed-signal-loop",
+  "relationships": [
+    {
+      "note": "paid reach seeds saves/follows/adds for the free algorithm",
+      "rel": "feeds",
+      "target": "marketing-machine:spotify-campaign-kit",
+      "target_name": "Spotify Campaign Kit"
+    },
+    {
+      "note": "Discovery Mode flywheel: boosted Radio/Autoplay -> new listeners -> full-royalty streams",
+      "rel": "feeds",
+      "target": "module:spotify-discovery-mode",
+      "target_name": "Discovery Mode Enrollment Module"
+    },
+    {
+      "note": "Meta-acquired savers/followers feed the same Spotify algorithmic surfaces; practitioners pair Meta ads with playlisting",
+      "rel": "feeds",
+      "target": "signal:meta-paid-seed-loop",
+      "target_name": "Meta Paid-Seed Signal Loop"
+    },
+    {
+      "note": "playlist-driven saves/follows feed the same algorithmic surfaces",
+      "rel": "feeds",
+      "target": "signal:playlist-seed-loop",
+      "target_name": "Playlist-Seed Signal Loop"
+    },
+    {
+      "note": "measurement discipline over the paid-seed -> algorithmic loop",
+      "rel": "enables",
+      "target": "cwi-rebuild:scorecards",
+      "target_name": "CWI Scorecards"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

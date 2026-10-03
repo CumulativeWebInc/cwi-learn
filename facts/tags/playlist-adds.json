@@ -1,0 +1,12 @@
+{
+  "tag": "playlist-adds",
+  "facet": "output",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/signal/playlist-seed-signal-loop",
+      "node": "Playlist-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/playlist-seed-signal-loop.json"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-audiences-module.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-audiences-module.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "meta",
+      "tier": "claimed_unverified",
+      "why": "Meta ad platform"
+    },
+    {
+      "facet": "function",
+      "tag": "audiences",
+      "tier": "claimed_unverified",
+      "why": "audience targeting"
+    },
+    {
+      "facet": "tech",
+      "tag": "lookalike",
+      "tier": "claimed_unverified",
+      "why": "lookalike expansion"
+    },
+    {
+      "facet": "tech",
+      "tag": "retargeting",
+      "tier": "claimed_unverified",
+      "why": "retargeting layers"
+    },
+    {
+      "facet": "tech",
+      "tag": "custom-audience",
+      "tier": "claimed_unverified",
+      "why": "pixel-based custom audiences"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Custom Audiences (pixel visitors, click-throughs), Lookalikes (1% US ~= 2.3M people), interest targeting (genre-level since Jan 2026 consolidation), retargeting layers with exclusions",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Practitioner workflow: prospecting ad sets (lookalike/interest) -> smart link -> retargeting ad set (visitors minus converters) with new creative -> lookalike expansion as seeds grow; retargeting converts at 2-3x cold",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "First-party seed data: email lists, past converter pools for lookalikes (>=1,000 click-throughs needed for a usable seed)",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Rebuildable: lookalike logic approximated by manually finding similar artists' audiences (interest targeting is now genre-level anyway, which anyone can select); retargeting logic replicable via email capture on the landing page - own the list instead of renting the pool",
+      "evidence": {
+        "source": "report section B8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "meta",
+        "audiences",
+        "lookalike",
+        "retargeting",
+        "custom-audience"
+      ],
+      "entity": "Meta Audiences Module",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-audiences-module.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Meta Audiences Module is a system module of a music-marketing machine.",
+    "social_caption": "Meta Audiences Module  #marketing-module #meta #audiences #lookalike #retargeting #custom-audience",
+    "sync_pitch": "SYNC PITCH — Meta Audiences Module.",
+    "voice_answer": "Meta Audiences Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "43858eaba3b5754b3c30f289fb816d4fdf3ddab136eb01f73d6ad6e0842596d3"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/meta-audiences-module",
+    "id": "module:meta-audiences",
+    "name": "Meta Audiences Module",
+    "status": "claimed_unverified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/meta-audiences-module",
+  "relationships": [
+    {
+      "note": "component of the Meta ads machine",
+      "rel": "part_of",
+      "target": "marketing-machine:meta-ads",
+      "target_name": "Meta Ads for Musicians"
+    },
+    {
+      "note": "Custom/lookalike audiences resolve against the identity graph",
+      "rel": "depends_on",
+      "target": "moat:meta-identity-graph",
+      "target_name": "Meta Identity Graph + Estimated Action Rate"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

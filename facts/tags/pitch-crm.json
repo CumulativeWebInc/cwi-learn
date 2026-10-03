@@ -1,0 +1,12 @@
+{
+  "tag": "pitch-crm",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/rebuild/cwi-pitch-crm",
+      "node": "CWI Pitch CRM",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-pitch-crm.json"
+    }
+  ]
+}
