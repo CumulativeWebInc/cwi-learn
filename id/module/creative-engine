@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/creative-engine",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/creative-engine.json",
+  "name": "Visibility Machine \u2014 Creative Engine (Module 6)",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/creative-engine"
+      },
+      "value": "vm-module:creative-engine"
+    }
+  ]
+}
