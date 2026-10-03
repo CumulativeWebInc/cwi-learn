@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/attribution-layer",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json",
+  "name": "Visibility Machine \u2014 Attribution Layer (Module 1)",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/attribution-layer"
+      },
+      "value": "vm-module:attribution-layer"
+    }
+  ]
+}
