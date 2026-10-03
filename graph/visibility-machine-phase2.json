@@ -1,0 +1,749 @@
+{
+  "counts": {
+    "edges": 14,
+    "nodes": 12
+  },
+  "edges": [
+    {
+      "evidence": "twenty-minds-phase2 order",
+      "from": "vm-module:attribution-layer",
+      "rel": "build_order_next",
+      "to": "vm-module:scorecards"
+    },
+    {
+      "evidence": "twenty-minds-phase2 order",
+      "from": "vm-module:scorecards",
+      "rel": "build_order_next",
+      "to": "vm-module:curator-graph"
+    },
+    {
+      "evidence": "twenty-minds-phase2 order",
+      "from": "vm-module:curator-graph",
+      "rel": "build_order_next",
+      "to": "vm-module:pitch-crm"
+    },
+    {
+      "evidence": "twenty-minds-phase2 order",
+      "from": "vm-module:pitch-crm",
+      "rel": "build_order_next",
+      "to": "vm-module:pr-graph"
+    },
+    {
+      "evidence": "twenty-minds-phase2 order",
+      "from": "vm-module:pr-graph",
+      "rel": "build_order_next",
+      "to": "vm-module:creative-engine"
+    },
+    {
+      "evidence": "pitch_sent event taxonomy",
+      "from": "vm-module:attribution-layer",
+      "rel": "feeds",
+      "to": "vm-module:pitch-crm"
+    },
+    {
+      "evidence": "pt-* tag registry",
+      "from": "vm-module:attribution-layer",
+      "rel": "feeds",
+      "to": "vm-lane:manual-pitch"
+    },
+    {
+      "evidence": "live wire verification",
+      "from": "vm-module:attribution-layer",
+      "rel": "measures",
+      "to": "vm-state:vote-hq-src-wire"
+    },
+    {
+      "evidence": "kill-rule states",
+      "from": "vm-module:attribution-layer",
+      "rel": "evaluates",
+      "to": "vm-state:attribution-cycle"
+    },
+    {
+      "evidence": "cycle state per front",
+      "from": "vm-module:scorecards",
+      "rel": "reports",
+      "to": "vm-state:attribution-cycle"
+    },
+    {
+      "evidence": "CRM state",
+      "from": "vm-module:curator-graph",
+      "rel": "indexes",
+      "to": "vm-state:curator-network"
+    },
+    {
+      "evidence": "coverage ledger",
+      "from": "vm-module:pr-graph",
+      "rel": "indexes",
+      "to": "vm-state:pr-coverage"
+    },
+    {
+      "evidence": "dissent lane alongside the build",
+      "from": "vm-lane:manual-pitch",
+      "rel": "parallel_to",
+      "to": "vm-module:curator-graph"
+    },
+    {
+      "evidence": "Sequence A decision",
+      "from": "vm-decision:twenty-minds-phase2",
+      "rel": "orders",
+      "to": "vm-module:attribution-layer"
+    }
+  ],
+  "generated": "2026-10-03T14:19:47Z",
+  "graph_schema": "cwi.graph/1.0",
+  "id_base": "https://cumulativewebinc.github.io/cwi-learn/id/",
+  "maintainer": "Cumulative Web Inc (CWI_Data)",
+  "nodes": [
+    {
+      "attrs": {
+        "description": "The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation.",
+        "key_facts": [
+          {
+            "claim": "attribute.py verifies the live vote-HQ ?src= wire end-to-end: 5 inbound share values (x/fb/wa/tg/copy) + cwi-votehq outbound, page HTTP 200, zero drift on 2026-10-03",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "Manual tally baseline 38-2-2 (Diabolique vs runner-up vs 3rd) parsed programmatically from tally-sheet.md, observed 2026-10-03 ~06:30 EDT",
+            "observed": "2026-10-03",
+            "source": "cwi-company/flywheel/front3/vote-hq-attribution/tally-sheet.md",
+            "tier": "observed"
+          },
+          {
+            "claim": "Icecast log-shipper ledger ingested: 6 sessions (unique Icecast sessions, IP+UA heuristic, unverified), 11 requests_200, shipped 2026-10-02T13:31Z",
+            "note": "Never reported as 'listeners'.",
+            "observed": "2026-10-03",
+            "source": "cwi-company/radio/log-shipper/shipped-aggregates.jsonl",
+            "tier": "observed"
+          },
+          {
+            "claim": "Click-beacon Worker not shipped: hq_visit/share_click/vote_click unmeasured; share-variant kill rule ARMED_NOT_MEASURABLE; next cycle ships the Worker",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json",
+            "tier": "observed"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "attribution",
+            "tier": "verified",
+            "why": "module wires every touchpoint to a measurable event"
+          },
+          {
+            "facet": "use",
+            "tag": "measurement",
+            "tier": "verified",
+            "why": "live HTTP checks + tally parsing + ledger ingestion in one CLI"
+          },
+          {
+            "facet": "role",
+            "tag": "kill-rules",
+            "tier": "verified",
+            "why": "share-variant retire, now-playing staleness, ?src= drift"
+          },
+          {
+            "facet": "proof",
+            "tag": "src-wire",
+            "tier": "verified",
+            "why": "page wire matches the locked registry, verified live"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/attribution-layer/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-module:attribution-layer",
+      "name": "Visibility Machine — Attribution Layer (Module 1)",
+      "status": "verified",
+      "type": "module"
+    },
+    {
+      "attrs": {
+        "description": "Per-front RESULTS documents fed by the attribution layer: completed objectives with evidence, tangible solutions, and next-cycle solutions for in-flight objectives. Vocabulary is process and results (full-process law 2026-10-03).",
+        "key_facts": [
+          {
+            "claim": "scorecard.py consolidates 5 fronts from the attribution scorecard + machine-readable front sources: 14 completed objectives, 5 in-flight with named next-cycle solutions",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/scorecards/output/front-results-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "Fronts: playlist-engine, discovery-mode-measurement, owned-channel-flywheel, content-funnel, release-cadence — every number parsed from source files, none hand-entered",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/scorecards/scorecard.py",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "results-reporting",
+            "tier": "verified",
+            "why": "front results consolidated from attribution"
+          },
+          {
+            "facet": "use",
+            "tag": "five-fronts",
+            "tier": "verified",
+            "why": "playlist engine, discovery, flywheel, content, cadence"
+          },
+          {
+            "facet": "role",
+            "tag": "revenue-dna",
+            "tier": "observed",
+            "why": "12-stage scorecard vocabulary applied per front"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/scorecards/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-module:scorecards",
+      "name": "Visibility Machine — Scorecards (Module 2)",
+      "status": "verified",
+      "type": "module"
+    },
+    {
+      "attrs": {
+        "description": "Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset.",
+        "key_facts": [
+          {
+            "claim": "81 nodes / 125 edges built from 29 verified CRM rows + faiss-ranking-2026-10-03.json + 24-track catalog manifest",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/curator-graph/output/curator-graph.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "CRM totals: 5 pitches, 7 placements, 4 holding (Audiartist, Eric Alper, DJ 6Rings, Flow)",
+            "observed": "2026-10-03",
+            "source": "cwi-company/radio/curator-crm.jsonl",
+            "tier": "observed"
+          },
+          {
+            "claim": "Kill-rule flags: 0 — no curator at >=20 pitches with zero placements",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/curator-graph/output/curator-graph.json",
+            "tier": "observed"
+          },
+          {
+            "claim": "Verified-only rule: no curator enters the graph without a CRM row",
+            "observed": "2026-10-03",
+            "source": "cwi-company/radio/curator-crm.schema.json",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "curator-network",
+            "tier": "verified",
+            "why": "29 verified curators as graph nodes"
+          },
+          {
+            "facet": "use",
+            "tag": "playlist-pitching",
+            "tier": "verified",
+            "why": "pitch/placement edges from CRM history"
+          },
+          {
+            "facet": "proof",
+            "tag": "faiss-matching",
+            "tier": "verified",
+            "why": "IndexFlatIP cosine matches over mood/energy/bpm/inst"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/curator-graph/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-module:curator-graph",
+      "name": "Visibility Machine — Curator Graph (Module 3)",
+      "status": "verified",
+      "type": "module"
+    },
+    {
+      "attrs": {
+        "description": "Working pitch queue: follow-up scheduling per the 2-nudge/park-90-days rule, draft inventory with the exact-copy gate enforced in code, reply-rate tracking. Nothing sends under Black's name without his exact-text approval.",
+        "key_facts": [
+          {
+            "claim": "29-curator queue computed as of 2026-10-03: 0 due followups; 14 drafts inventoried, all gated 'staged'",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/pitch-crm/output/pitch-queue-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "Reply rate 1.0 from verified history: 5 pitches -> 5 replied/placed (kill rule armed: <5% after 20 pitches -> rewrite angles)",
+            "observed": "2026-10-03",
+            "source": "cwi-company/radio/curator-crm.jsonl",
+            "tier": "observed"
+          },
+          {
+            "claim": "Black killed the Audiartist lane 2026-10-03 ('i am not paying for audioaritst'): follow-up draft PARKED, no send, no paid route until he reopens it; holdings on New Rap Hits stand as-is",
+            "observed": "2026-10-03",
+            "source": "MEMORY.md 2026-10-03",
+            "tier": "owner_confirmed"
+          },
+          {
+            "claim": "Exact-copy gate: draft staged->approved only with {approver, approved_at, exact_text_sha256}; send log empty until a real send happens",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/pitch-crm/queue.py",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "outreach-ops",
+            "tier": "verified",
+            "why": "follow-up queue computed from CRM history dates"
+          },
+          {
+            "facet": "role",
+            "tag": "exact-copy-gate",
+            "tier": "verified",
+            "why": "gate enforced in code, not in hope"
+          },
+          {
+            "facet": "use",
+            "tag": "followup-queue",
+            "tier": "verified",
+            "why": "2-nudge rule then park 90 days"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/pitch-crm/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-module:pitch-crm",
+      "name": "Visibility Machine — Pitch CRM (Module 4)",
+      "status": "verified",
+      "type": "module"
+    },
+    {
+      "attrs": {
+        "description": "Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger.",
+        "key_facts": [
+          {
+            "claim": "10 media targets parsed from media-targets.md with route status; 5 angles from press-angles.md; 10 drafts staged under the exact-copy gate",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/pr-graph/output/pr-graph.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "Verified coverage: 24Hip-Hop + Rolling Hype articles published 2026-09-24, placement emails on file",
+            "observed": "2026-10-03",
+            "source": "cwi-company/press/article-24hiphop-alternative-theory.md, article-rollinghype-alternative-theory.md",
+            "tier": "verified"
+          },
+          {
+            "claim": "Kill rule: <2% open-to-reply after 30 pitches -> angle rework; only DIRECT-verified routes may carry a pitch edge",
+            "observed": "2026-10-03",
+            "source": "cwi-company/press/media-targets.md",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "media-outreach",
+            "tier": "verified",
+            "why": "10 journalists with route status"
+          },
+          {
+            "facet": "use",
+            "tag": "press-angles",
+            "tier": "verified",
+            "why": "5 angles incl. the verified playlist-data story"
+          },
+          {
+            "facet": "proof",
+            "tag": "coverage",
+            "tier": "verified",
+            "why": "2 verified placements with emails on file"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/pr-graph/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-module:pr-graph",
+      "name": "Visibility Machine — PR Graph (Module 5)",
+      "status": "verified",
+      "type": "module"
+    },
+    {
+      "attrs": {
+        "description": "Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result.",
+        "key_facts": [
+          {
+            "claim": "7 front-4 content pieces registered as variants (0 live, 7 staged); 4 vote-HQ share variants registered (control live on page)",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/creative-engine/output/variant-status-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "Kill rules: format <0.1% view-to-stream after 10 pieces -> RETIRED; zero saves/shares after 10 pieces -> hook cut",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/creative-engine/CONTRACT.md",
+            "tier": "verified"
+          },
+          {
+            "claim": "Share-copy variants human-drafted 2026-10-03 from verified facts only; Jest suite 10/10 green on Meta arsenal Jest",
+            "observed": "2026-10-03",
+            "source": "cwi-company/flywheel/front3/vote-hq-attribution/share-copy-variants.json",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "creative-testing",
+            "tier": "verified",
+            "why": "variant registry + rotation + kill rules"
+          },
+          {
+            "facet": "use",
+            "tag": "variant-rotation",
+            "tier": "verified",
+            "why": "front-4 pieces and share-copy variants tracked"
+          },
+          {
+            "facet": "proof",
+            "tag": "hook-factory",
+            "tier": "observed",
+            "why": "hooks carry origin evidence per piece"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/creative-engine/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-module:creative-engine",
+      "name": "Visibility Machine — Creative Engine (Module 6)",
+      "status": "verified",
+      "type": "module"
+    },
+    {
+      "attrs": {
+        "description": "Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send.",
+        "key_facts": [
+          {
+            "claim": "24 staged pitches parsed from send-ready-2026-10-03.md: 23 tagged pt-*, 1 lane-killed (Audiartist), 1 ready (DJ 6Rings -> Ultimate)",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/manual-pitch/output/manual-pitch-manifest-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "pt-* tags are a namespaced extension of the Module 1 registry; never collide with locked vote-HQ values",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/manual-pitch/tag-pitches.py",
+            "tier": "verified"
+          },
+          {
+            "claim": "Nothing sends under Black's name without his exact-text approval — the manifest is staging, not sending",
+            "observed": "2026-10-03",
+            "source": "standing boundary 2026-09-14",
+            "tier": "owner_confirmed"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "role",
+            "tag": "dissent-lane",
+            "tier": "verified",
+            "why": "recorded dissent kept as a narrow parallel track"
+          },
+          {
+            "facet": "use",
+            "tag": "manual-outreach",
+            "tier": "verified",
+            "why": "tagged pitches feed the attribution layer"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/manual-pitch/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-lane:manual-pitch",
+      "name": "Manual-Pitch Lane (Twenty Minds dissent track)",
+      "status": "verified",
+      "type": "lane"
+    },
+    {
+      "attrs": {
+        "description": "Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed.",
+        "key_facts": [
+          {
+            "claim": "vote-diabolique.html HTTP 200 (6,732 bytes): inbound x/fb/wa/tg/copy + outbound cwi-votehq all present in HTML (raw + percent-encoded), zero drift vs the locked registry",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "radio/now-playing.json live and fresh: staleness check PASS (updated seconds before the check)",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "attribution",
+            "tier": "verified",
+            "why": "owned-surface wire verified live"
+          },
+          {
+            "facet": "proof",
+            "tag": "verified-live",
+            "tier": "verified",
+            "why": "HTTP checks run by attribute.py, not claimed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/vote-hq-src-wire/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-state:vote-hq-src-wire",
+      "name": "Vote HQ ?src= wire — live state 2026-10-03",
+      "status": "verified",
+      "type": "state"
+    },
+    {
+      "attrs": {
+        "description": "The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed.",
+        "key_facts": [
+          {
+            "claim": "Holding: Audiartist (New Rap Hits, 3 tracks — lane killed 2026-10-03, holdings stand), Eric Alper (360°, 2 tracks), DJ 6Rings (It's Goin, Flex My Flame), Flow (No Label Needed)",
+            "observed": "2026-10-03",
+            "source": "cwi-company/radio/curator-crm.jsonl + MEMORY.md 2026-10-03",
+            "tier": "owner_confirmed"
+          },
+          {
+            "claim": "25 cold curators staged; first pitches need Black's exact-copy approval",
+            "observed": "2026-10-03",
+            "source": "cwi-company/radio/curator-crm.jsonl",
+            "tier": "observed"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "curator-network",
+            "tier": "verified",
+            "why": "29 verified curators, 4 holding"
+          },
+          {
+            "facet": "proof",
+            "tag": "verified-placements",
+            "tier": "observed",
+            "why": "7 placements from verified history"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/curator-network/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-state:curator-network",
+      "name": "Curator network — state 2026-10-03",
+      "status": "verified",
+      "type": "state"
+    },
+    {
+      "attrs": {
+        "description": "Verified press coverage on file: two published articles with placement emails.",
+        "key_facts": [
+          {
+            "claim": "24Hip-Hop: 'That Boy Hi Hat Rewrites Rap's DNA With The Alternative Theory' — published 2026-09-24, placement email on file",
+            "observed": "2026-10-03",
+            "source": "cwi-company/press/article-24hiphop-alternative-theory.md",
+            "tier": "verified"
+          },
+          {
+            "claim": "Rolling Hype: 'That Boy Hi Hat Redefines the Future of Alternative Rap' — published 2026-09-24, placement email on file",
+            "observed": "2026-10-03",
+            "source": "cwi-company/press/article-rollinghype-alternative-theory.md",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "press-coverage",
+            "tier": "verified",
+            "why": "relevance-weighted reporting, never vanity counts"
+          },
+          {
+            "facet": "proof",
+            "tag": "verified-live",
+            "tier": "verified",
+            "why": "placement emails on file"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/pr-coverage/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-state:pr-coverage",
+      "name": "PR coverage — state 2026-10-03",
+      "status": "verified",
+      "type": "state"
+    },
+    {
+      "attrs": {
+        "description": "The measurement cycle's current kill-rule state and next actions.",
+        "key_facts": [
+          {
+            "claim": "share_variant_retire: ARMED_NOT_MEASURABLE — needs 500 hq_visit; next cycle ships the $0 click-beacon Worker",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json",
+            "tier": "observed"
+          },
+          {
+            "claim": "now_playing_staleness: PASS; src_wire_drift: PASS — both live-checked 2026-10-03",
+            "observed": "2026-10-03",
+            "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json",
+            "tier": "verified"
+          },
+          {
+            "claim": "First share-variant rotation week starts Mon 2026-10-05 (control); weekly tally cadence continues",
+            "observed": "2026-10-03",
+            "source": "cwi-company/flywheel/front3/vote-hq-attribution/tally-sheet.md",
+            "tier": "observed"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "role",
+            "tag": "kill-rules",
+            "tier": "verified",
+            "why": "armed rules with named measurement thresholds"
+          },
+          {
+            "facet": "use",
+            "tag": "measurement",
+            "tier": "verified",
+            "why": "cycle 1 measured; cycle 2 named"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/attribution-cycle/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-state:attribution-cycle",
+      "name": "Attribution cycle — kill-rule state 2026-10-03",
+      "status": "verified",
+      "type": "state"
+    },
+    {
+      "attrs": {
+        "description": "The mandated 20-mind run that sequenced the Phase 2 build: measurement/attribution first (Option A), outreach graphs second, with the competitor-analyst dissent kept as a narrow manual-pitch lane.",
+        "key_facts": [
+          {
+            "claim": "20/20 minds returned distinct verdicts 2026-10-03: Sequence A (measurement first) — carried by the data scientist, first-principles physicist, and Black's chair",
+            "observed": "2026-10-03",
+            "source": "research_notes/visibility-machine-twenty-minds-2026-10-03.md",
+            "tier": "verified"
+          },
+          {
+            "claim": "Dissent recorded: competitor analyst — the curated graph IS the proprietary asset; mitigation = manual-pitch lane alongside instrumentation",
+            "observed": "2026-10-03",
+            "source": "research_notes/visibility-machine-twenty-minds-2026-10-03.md",
+            "tier": "verified"
+          },
+          {
+            "claim": "Build order locked: attribution-layer -> scorecards -> curator-graph -> pitch-crm -> pr-graph -> creative-engine",
+            "observed": "2026-10-03",
+            "source": "cwi-company/visibility-machine/twenty-minds-phase2.md",
+            "tier": "verified"
+          }
+        ],
+        "tags_authored": [
+          {
+            "facet": "domain",
+            "tag": "build-order",
+            "tier": "verified",
+            "why": "mandatory Twenty Minds sequence"
+          },
+          {
+            "facet": "proof",
+            "tag": "twenty-minds",
+            "tier": "verified",
+            "why": "20 distinct verdicts on file"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Module output verified by executable check 2026-10-03",
+          "observed": "2026-10-03",
+          "source": "cwi-company/visibility-machine/modules/twenty-minds-phase2/",
+          "status": "verified"
+        }
+      ],
+      "id": "vm-decision:twenty-minds-phase2",
+      "name": "Twenty Minds — Phase 2 build order decision",
+      "status": "verified",
+      "type": "decision"
+    }
+  ],
+  "source_of_truth_note": "Phase 2 Visibility Machine build: 6 modules + manual-pitch dissent lane + 5 state nodes + the Twenty Minds build-order decision. All numbers parsed from module outputs — never hand-entered. Sibling file; graph.json untouched.",
+  "supplement_of": "graph.json"
+}
