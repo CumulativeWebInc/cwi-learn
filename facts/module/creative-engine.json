@@ -1,0 +1,89 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/creative-engine.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/creative-engine.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "creative-testing",
+      "tier": "verified",
+      "why": "variant registry + rotation + kill rules"
+    },
+    {
+      "facet": "use",
+      "tag": "variant-rotation",
+      "tier": "verified",
+      "why": "front-4 pieces and share-copy variants tracked"
+    },
+    {
+      "facet": "proof",
+      "tag": "hook-factory",
+      "tier": "observed",
+      "why": "hooks carry origin evidence per piece"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "7 front-4 content pieces registered as variants (0 live, 7 staged); 4 vote-HQ share variants registered (control live on page)",
+      "evidence": {
+        "source": "visibility-machine/modules/creative-engine/output/variant-status-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Kill rules: format <0.1% view-to-stream after 10 pieces -> RETIRED; zero saves/shares after 10 pieces -> hook cut",
+      "evidence": {
+        "source": "visibility-machine/modules/creative-engine/CONTRACT.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Share-copy variants human-drafted 2026-10-03 from verified facts only; Jest suite 10/10 green on Meta arsenal Jest",
+      "evidence": {
+        "source": "cwi-company/flywheel/front3/vote-hq-attribution/share-copy-variants.json"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/creative-engine.json"
+    },
+    "fan_qa": "What is Visibility Machine — Creative Engine (Module 6)? Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result."
+          },
+          "name": "What is Visibility Machine — Creative Engine (Module 6)?"
+        }
+      ]
+    },
+    "search_answer": "Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result.",
+    "social_caption": "Visibility Machine — Creative Engine (Module 6) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Creative Engine (Module 6): Creative testing loop: variant registry from content.json + share-copy-variants.json, measured outcomes from tracking-rows.json, kill-rule evaluation per format/variant. Every piece is a hypothesis with a baseline and a measured result. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "5ccd7b1cefd2fc7c3dbdfde311685219a00b48eaab3a65a9bd8d45b0e7af7f4f"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/creative-engine",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/creative-engine",
+    "name": "Visibility Machine — Creative Engine (Module 6)",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/creative-engine",
+  "relationships": [],
+  "schema": "cwi-fact-packet/v1"
+}
