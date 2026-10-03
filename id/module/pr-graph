@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/pr-graph",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.json",
+  "name": "Visibility Machine \u2014 PR Graph (Module 5)",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/pr-graph"
+      },
+      "value": "vm-module:pr-graph"
+    }
+  ]
+}
