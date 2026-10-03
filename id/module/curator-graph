@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/curator-graph",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.json",
+  "name": "Visibility Machine \u2014 Curator Graph (Module 3)",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/curator-graph"
+      },
+      "value": "vm-module:curator-graph"
+    }
+  ]
+}
