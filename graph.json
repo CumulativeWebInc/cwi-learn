@@ -3914,7 +3914,7 @@
   {
    "from": "artist:tbhh",
    "to": "movement:ptf",
-   "rel": "isCreatorOf",
+   "rel": "defines",
    "note": "canon triple — That Boy Hi Hat is the creator of Post-Trap Futurism"
   },
   {
