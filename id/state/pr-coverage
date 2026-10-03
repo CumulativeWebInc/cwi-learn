@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/pr-coverage",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "Verified press coverage on file: two published articles with placement emails.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-coverage.json",
+  "name": "PR coverage \u2014 state 2026-10-03",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/pr-coverage"
+      },
+      "value": "vm-state:pr-coverage"
+    }
+  ]
+}
