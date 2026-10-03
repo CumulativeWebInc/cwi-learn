@@ -1,0 +1,83 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "kill-rules",
+      "tier": "verified",
+      "why": "armed rules with named measurement thresholds"
+    },
+    {
+      "facet": "use",
+      "tag": "measurement",
+      "tier": "verified",
+      "why": "cycle 1 measured; cycle 2 named"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "share_variant_retire: ARMED_NOT_MEASURABLE — needs 500 hq_visit; next cycle ships the $0 click-beacon Worker",
+      "evidence": {
+        "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "now_playing_staleness: PASS; src_wire_drift: PASS — both live-checked 2026-10-03",
+      "evidence": {
+        "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "First share-variant rotation week starts Mon 2026-10-05 (control); weekly tally cadence continues",
+      "evidence": {
+        "source": "cwi-company/flywheel/front3/vote-hq-attribution/tally-sheet.md"
+      },
+      "tier": "observed"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "The measurement cycle's current kill-rule state and next actions.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.json"
+    },
+    "fan_qa": "What is Attribution cycle — kill-rule state 2026-10-03? The measurement cycle's current kill-rule state and next actions.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "The measurement cycle's current kill-rule state and next actions."
+          },
+          "name": "What is Attribution cycle — kill-rule state 2026-10-03?"
+        }
+      ]
+    },
+    "search_answer": "The measurement cycle's current kill-rule state and next actions.",
+    "social_caption": "Attribution cycle — kill-rule state 2026-10-03 — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Attribution cycle — kill-rule state 2026-10-03: The measurement cycle's current kill-rule state and next actions. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "efbe5db23b0236163bd63451982ea840687027f7d515f05dfd7549c6f7806f99"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/attribution-cycle",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/attribution-cycle",
+    "name": "Attribution cycle — kill-rule state 2026-10-03",
+    "status": "verified",
+    "type": "state"
+  },
+  "packet_id": "fact/module/attribution-cycle",
+  "relationships": [],
+  "schema": "cwi-fact-packet/v1"
+}
