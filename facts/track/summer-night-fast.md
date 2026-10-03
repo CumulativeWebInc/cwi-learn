@@ -1,6 +1,6 @@
 # Fact packet — Summer Night FAST
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `0da057bec273f60a`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `2ff9faa8f270b3f2`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Retro Vibe
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `1f3a39a40d3e7ca7`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `1d6f14f69e159ea4`
 
 ## Discovery tags
 

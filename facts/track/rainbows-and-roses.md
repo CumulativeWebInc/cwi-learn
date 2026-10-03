@@ -1,6 +1,6 @@
 # Fact packet — Rainbows And Roses
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `91c265d3858c1200`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `13ce84a197cca8a8`
 
 ## Discovery tags
 

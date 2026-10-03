@@ -1,6 +1,6 @@
 # Fact packet — Skateboard Team Sports
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `3c9780e9a8e6a0a8`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `33bcbaa980a075d7`
 
 ## Discovery tags
 

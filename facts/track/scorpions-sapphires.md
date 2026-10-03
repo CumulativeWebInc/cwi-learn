@@ -1,6 +1,6 @@
 # Fact packet — Scorpions & Sapphires
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `2d44e3f5dfad59b6`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `dd7daa1e385cc762`
 
 ## Discovery tags
 

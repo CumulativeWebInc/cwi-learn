@@ -1,6 +1,6 @@
 # Fact packet — Broken Hearts Club
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `79f1e5bcba58950a`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `9b58461a7103e301`
 
 ## Discovery tags
 

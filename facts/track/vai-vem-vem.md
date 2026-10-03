@@ -1,6 +1,6 @@
 # Fact packet — vai vem vem
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `9051061cac3ab7f6`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `46786adf56186bf3`
 
 ## Discovery tags
 

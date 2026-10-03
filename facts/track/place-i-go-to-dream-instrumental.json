@@ -41,6 +41,60 @@
       "why": "node type track"
     },
     {
+      "facet": "collaborator",
+      "tag": "jeck-da-general",
+      "tier": "observed",
+      "why": "catalog.csv producers for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "mood",
+      "tag": "dreamy",
+      "tier": "observed",
+      "why": "catalog.csv moods for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "mood",
+      "tag": "atmospheric",
+      "tier": "observed",
+      "why": "catalog.csv moods for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "mood",
+      "tag": "ambient",
+      "tier": "observed",
+      "why": "catalog.csv moods for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "mood",
+      "tag": "instrumental",
+      "tier": "observed",
+      "why": "catalog.csv moods for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "use",
+      "tag": "dialogue-underscore",
+      "tier": "observed",
+      "why": "catalog.csv scene_use_cases for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "use",
+      "tag": "ambient-scene-bed",
+      "tier": "observed",
+      "why": "catalog.csv scene_use_cases for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "use",
+      "tag": "documentary-transition",
+      "tier": "observed",
+      "why": "catalog.csv scene_use_cases for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
+      "facet": "use",
+      "tag": "dream-sequence-without-vocals",
+      "tier": "observed",
+      "why": "catalog.csv scene_use_cases for track 'Place I Go to Dream (Instrumental)'"
+    },
+    {
       "facet": "availability",
       "tag": "worldwide",
       "tier": "observed",
@@ -110,12 +164,62 @@
         "source": "graph.json performed_by edge"
       },
       "tier": "verified"
+    },
+    {
+      "claim": "Listen: https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "evidence": {
+        "ref": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+        "source": "catalog.csv spotify_url"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Producers: Jeck Da General",
+      "evidence": {
+        "source": "catalog.csv producers"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Moods: dreamy, atmospheric, ambient, instrumental",
+      "evidence": {
+        "source": "catalog.csv moods"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Scene use cases: dialogue underscore, ambient scene bed, documentary transition, dream sequence without vocals",
+      "evidence": {
+        "source": "catalog.csv scene_use_cases (sync targeting)"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Similar artists: Nujabes, Bonobo, ODESZA",
+      "evidence": {
+        "source": "catalog.csv similar_artists"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Pitch: The dream without words — atmospheric instrumental bed for dialogue-heavy scenes.",
+      "evidence": {
+        "source": "catalog.csv pitch_one_liner"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Instrumental available",
+      "evidence": {
+        "source": "catalog.csv instrumental_available"
+      },
+      "tier": "observed"
     }
   ],
-  "generated_at": "2026-10-02T23:26:58Z",
+  "generated_at": "2026-10-03T09:59:50Z",
   "generator": {
     "catalog_sha256": "5f775e3048e6981bc8edcf04ccca865ccf659b039726a1b748d4c3ab1e4f770c",
-    "graph_sha256": "649c214523502b12ad128e1faf684fa2f7947e7845e235458f813df94a60afba",
+    "graph_sha256": "79f1446da987aca8300331cfc34608c79050950ed1855c6341152600d6b7815e",
     "name": "cwi-fact-generator",
     "tag_rules": {
       "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
@@ -140,6 +244,15 @@
         "usa",
         "indie",
         "recording",
+        "jeck-da-general",
+        "dreamy",
+        "atmospheric",
+        "ambient",
+        "instrumental",
+        "dialogue-underscore",
+        "ambient-scene-bed",
+        "documentary-transition",
+        "dream-sequence-without-vocals",
         "worldwide",
         "global",
         "sync-ready"
@@ -153,7 +266,8 @@
         "Label: Cumulative Web Inc",
         "Licensing contact: hp@cumulativeweb.com",
         "Catalog tier: bronze",
-        "Performed by That Boy Hi Hat"
+        "Performed by That Boy Hi Hat",
+        "Listen: https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp"
       ]
     },
     "citation": {
@@ -162,6 +276,14 @@
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-instrumental.json"
     },
     "fan_qa": [
+      {
+        "a": "Moods: dreamy, atmospheric, ambient, instrumental",
+        "q": "What does Place I Go to Dream (Instrumental) sound like?"
+      },
+      {
+        "a": "On Spotify, worldwide: https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+        "q": "Where can I listen to Place I Go to Dream (Instrumental)?"
+      },
       {
         "a": "Licensing contact: hp@cumulativeweb.com",
         "q": "Is Place I Go to Dream (Instrumental) available for sync licensing?"
@@ -175,19 +297,45 @@
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
+            "text": "Moods: dreamy, atmospheric, ambient, instrumental"
+          },
+          "name": "What does Place I Go to Dream (Instrumental) sound like?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On Spotify, worldwide: https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp"
+          },
+          "name": "Where can I listen to Place I Go to Dream (Instrumental)?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
             "text": "Licensing contact: hp@cumulativeweb.com"
           },
           "name": "Is Place I Go to Dream (Instrumental) available for sync licensing?"
         }
       ]
     },
+    "listen": {
+      "spotify": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "worldwide": true
+    },
+    "platforms": {
+      "streaming": {
+        "note": "streams worldwide — Spotify mobile + desktop apps",
+        "spotify": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp"
+      }
+    },
     "search_answer": "Place I Go to Dream (Instrumental) is a recording by That Boy Hi Hat.",
-    "social_caption": "Place I Go to Dream (Instrumental)  #frederick #maryland #dmv #usa #indie #recording #worldwide #global #sync-ready",
+    "social_caption": "Place I Go to Dream (Instrumental)  #frederick #maryland #dmv #usa #indie #recording #jeck-da-general #dreamy #atmospheric #ambient #instrumental #dialogue-underscore",
     "sync_pitch": "SYNC PITCH — Place I Go to Dream (Instrumental).  Licensing contact: hp@cumulativeweb.com.",
-    "voice_answer": "Place I Go to Dream (Instrumental) is a recording by That Boy Hi Hat. Source: Cumulative Web Inc."
+    "voice_answer": "Place I Go to Dream (Instrumental) is a recording by That Boy Hi Hat. You can hear it on Spotify. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "f7f53f3bc382b306fa752d32926068b863ac5638d65fa3daa9b584604558fcf7"
+    "sha256": "9f94b4d2e9a89727365774748c3d16aada521573b44ea1317d65fb3f73eb6729"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/track/place-i-go-to-dream-instrumental",

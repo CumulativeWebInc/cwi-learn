@@ -1,6 +1,6 @@
 # Fact packet — Super Solid
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `5ff2e9685088e588`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `5efffdc17c4e3534`
 
 ## Discovery tags
 

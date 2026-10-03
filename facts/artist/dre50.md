@@ -1,6 +1,6 @@
 # Fact packet — Dre50
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `16da123ba0ae8f1f`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `60544b5b8be8c8a2`
 
 ## Discovery tags
 

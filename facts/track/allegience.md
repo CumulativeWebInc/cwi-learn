@@ -1,6 +1,6 @@
 # Fact packet — Allegience
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `be7369a5074c595c`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `94a5d62a17b1cf46`
 
 ## Discovery tags
 

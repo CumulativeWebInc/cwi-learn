@@ -1,6 +1,6 @@
 # Fact packet — Give It All
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `583954ab02f73475`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `6d4ad00bd5f04b74`
 
 ## Discovery tags
 

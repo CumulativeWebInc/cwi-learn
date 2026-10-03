@@ -1,6 +1,6 @@
 # Fact packet — Sync Ready Tracks
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `c411d51004bd6046`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `a7af3ab7cbb05596`
 
 ## Discovery tags
 

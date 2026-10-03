@@ -1,6 +1,6 @@
 # Fact packet — 7th Angel
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `0da585a79521f69a`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `b74897458e49d43f`
 
 ## Discovery tags
 

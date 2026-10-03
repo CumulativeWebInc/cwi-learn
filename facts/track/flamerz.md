@@ -1,6 +1,6 @@
 # Fact packet — Flamerz
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `edfe0452260f7bba`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `e966d34293d447da`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Goated
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `9a8b47971b433331`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `771b294fd30d3c41`
 
 ## Discovery tags
 

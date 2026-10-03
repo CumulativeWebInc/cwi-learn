@@ -1,6 +1,6 @@
 # Fact packet — 183 Wildboi
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `63f2e3863cb6fa18`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `a0c42c308c25681d`
 
 ## Discovery tags
 

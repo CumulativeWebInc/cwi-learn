@@ -1,6 +1,6 @@
 # Fact packet — Spirits n Shadows
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `6276c9f43e00aec8`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `98ffcea934abb3e0`
 
 ## Discovery tags
 

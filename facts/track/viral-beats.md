@@ -1,6 +1,6 @@
 # Fact packet — Viral Beats
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `35a5cb92499010a4`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `66303cc65dfdbdb2`
 
 ## Discovery tags
 

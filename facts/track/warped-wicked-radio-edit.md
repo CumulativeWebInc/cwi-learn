@@ -1,6 +1,6 @@
 # Fact packet — Warped & Wicked (Radio Edit)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `2907d17dbe9849d5`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `f07dc72e6364f4f4`
 
 ## Discovery tags
 

@@ -112,10 +112,10 @@
       "tier": "verified"
     }
   ],
-  "generated_at": "2026-10-02T23:26:58Z",
+  "generated_at": "2026-10-03T09:59:50Z",
   "generator": {
     "catalog_sha256": "5f775e3048e6981bc8edcf04ccca865ccf659b039726a1b748d4c3ab1e4f770c",
-    "graph_sha256": "649c214523502b12ad128e1faf684fa2f7947e7845e235458f813df94a60afba",
+    "graph_sha256": "79f1446da987aca8300331cfc34608c79050950ed1855c6341152600d6b7815e",
     "name": "cwi-fact-generator",
     "tag_rules": {
       "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
@@ -188,7 +188,7 @@
     "voice_answer": "Warped & Wicked (Radio Edit) is a recording by That Boy Hi Hat. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "2907d17dbe9849d531d1fb104cbc82ffbd3c4eead760fff355d4c350a2534e77"
+    "sha256": "f07dc72e6364f4f49d88691845895176052cabc2648d6f3e7f6e79f0a1306824"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/track/warped-wicked-radio-edit",

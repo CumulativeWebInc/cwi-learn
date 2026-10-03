@@ -1,6 +1,6 @@
 # Fact packet — Diabolique (single)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `3693aecea548648a`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `c6e6075b744da9e4`
 
 ## Discovery tags
 
@@ -16,6 +16,7 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `3693
 
 - **[verified]** Release date 2026-07-03 — _ai-learning-kit/kit.md, audited 2026-09-15_
 - **[observed]** Release date: 2026-07-03 — _dataset attrs_
+- **[verified]** Listen: https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj — _catalog.csv spotify_url_
 
 ## Instructions
 
@@ -30,6 +31,12 @@ Diabolique (single)  #frederick #maryland #dmv #usa #release #new-music #global
 ### Sync pitch
 
 SYNC PITCH — Diabolique (single).
+
+### Fan Q&A
+
+**Q: Where can I listen to Diabolique (single)?**
+
+On Spotify, worldwide: https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj
 
 ---
 Canonical: https://cumulativewebinc.github.io/cwi-learn/facts/release/diabolique-single.json

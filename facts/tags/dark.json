@@ -1,7 +1,7 @@
 {
   "tag": "dark",
   "facet": "mood",
-  "updated": "2026-10-02T23:26:58Z",
+  "updated": "2026-10-03T10:00:28Z",
   "packets": [
     {
       "packet_id": "fact/track/diabolique",
@@ -17,6 +17,11 @@
       "packet_id": "fact/track/toxic-element",
       "node": "Toxic Element",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-element.json"
+    },
+    {
+      "packet_id": "fact/track/warped-wicked",
+      "node": "Warped & Wicked",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked.json"
     }
   ]
 }

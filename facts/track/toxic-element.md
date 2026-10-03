@@ -1,6 +1,6 @@
 # Fact packet — Toxic Element
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `d1ce2cddf1178b5c`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `201557431e1b8f5e`
 
 ## Discovery tags
 

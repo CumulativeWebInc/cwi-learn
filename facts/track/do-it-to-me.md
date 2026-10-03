@@ -1,6 +1,6 @@
 # Fact packet — Do it to me
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `91960fb3168d262c`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `f7eeb9eb00a64db4`
 
 ## Discovery tags
 

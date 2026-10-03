@@ -1,6 +1,6 @@
 # Fact packet — Zooted Zone
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `1ec090bcb8a9bf59`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `37605df6b1529ce3`
 
 ## Discovery tags
 

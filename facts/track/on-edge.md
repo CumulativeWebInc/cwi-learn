@@ -1,6 +1,6 @@
 # Fact packet — On Edge
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `1c053049d7e65e21`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `9b5958dac702056c`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Painted Lady
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `73e9af79d7bad404`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `370d282dca7a6a45`
 
 ## Discovery tags
 
