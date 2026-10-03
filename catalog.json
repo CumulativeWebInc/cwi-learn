@@ -59,16 +59,20 @@
   "contact": {
     "business_and_sync": "hp@cumulativeweb.com"
   },
-  "generated": "2026-10-02T21:45:00Z",
+  "generated": "2026-10-03T18:00:00Z",
   "maintainer": "Cumulative Web Inc",
   "metrics": [
     {
       "metric": "lifetime_spotify_plays",
       "note": "Lifetime plays far exceed current monthly listeners; evidence the track converted at playlist scale before.",
-      "observed": "2026-10-01", "track": "Zooted Zone", "value": 313290
+      "observed": "2026-10-01",
+      "track": "Zooted Zone",
+      "value": 313290
     },
     {
-      "metric": "monthly_listeners", "observed": "2026-10-02", "value": 8400
+      "metric": "monthly_listeners",
+      "observed": "2026-10-02",
+      "value": 8400
     }
   ],
   "tracks": [
@@ -756,5 +760,330 @@
     "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
     "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
     "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
+  },
+  "placement_query_db": {
+    "status": "live",
+    "endpoint": "https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json",
+    "query_js": "https://cumulativewebinc.github.io/cwi-learn/placement/query.js",
+    "schema": "cwi.placement-query/1.0",
+    "description": "Generative query layer over the placement-engine data layer (31-track catalog graph, schema-valid 2026-10-03): filter by genre / mood / use-case, get ranked tracks with canonical Spotify IDs, scores, and match rationale. Static JSON on GitHub Pages — free, no login, no key. query.js runs the same filter client-side.",
+    "request_schema": {
+      "schema": "cwi.placement-query/1.0",
+      "fields": {
+        "genre": {
+          "type": "string | string[]",
+          "required": "one of genre/mood required",
+          "enum_source": "tracks.json 'genres' values (e.g. 'post trap', 'trap', 'alternative rap', 'rap', 'hip hop', 'underground', 'indie', 'cyberpunk', 'alt rap')"
+        },
+        "mood": {
+          "type": "string | string[]",
+          "required": "one of genre/mood required",
+          "enum_source": "tracks.json 'moods' values (e.g. 'dark', 'cinematic', 'late-night', 'hype', 'hypnotic', 'seductive')"
+        },
+        "use_case": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "playlist-pitch",
+            "sync-brief",
+            "radio-rotation",
+            "content-funnel",
+            "release-cadence"
+          ]
+        },
+        "limit": {
+          "type": "integer",
+          "required": false,
+          "default": 5,
+          "range": "1-31"
+        },
+        "min_score": {
+          "type": "number",
+          "required": false,
+          "default": 0,
+          "range": "0.0-1.0"
+        }
+      }
+    },
+    "response_schema": {
+      "schema": "cwi.placement-query/1.0",
+      "fields": {
+        "schema": {
+          "type": "string",
+          "value": "cwi.placement-query/1.0"
+        },
+        "query": {
+          "type": "object",
+          "description": "the request as received"
+        },
+        "results": {
+          "type": "array",
+          "item": {
+            "track_id": {
+              "type": "string",
+              "description": "placement-engine tracks.json node id"
+            },
+            "title": {
+              "type": "string"
+            },
+            "artist": {
+              "type": "string"
+            },
+            "spotify_id": {
+              "type": "string | null",
+              "description": "null for unreleased/unmapped tracks — never invented"
+            },
+            "spotify_url": {
+              "type": "string | null"
+            },
+            "score": {
+              "type": "number",
+              "range": "0.0-1.0",
+              "description": "rank score; higher = better match"
+            },
+            "matched_on": {
+              "type": "string[]",
+              "description": "which query dimensions matched"
+            },
+            "why": {
+              "type": "string",
+              "description": "one-line match rationale grounded in tracks.json fields"
+            }
+          }
+        },
+        "result_count": {
+          "type": "integer"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "live",
+            "live"
+          ]
+        },
+        "generated": {
+          "type": "string",
+          "format": "ISO 8601 date"
+        }
+      }
+    },
+    "worked_examples": [
+      {
+        "label": "Example 1 — sync brief: dark, cinematic post-trap",
+        "query": {
+          "genre": [
+            "post trap"
+          ],
+          "mood": [
+            "dark",
+            "cinematic"
+          ],
+          "use_case": "sync-brief",
+          "limit": 3
+        },
+        "answer_shape": {
+          "query": {
+            "genre": [
+              "post trap"
+            ],
+            "mood": [
+              "dark",
+              "cinematic"
+            ],
+            "use_case": "sync-brief",
+            "limit": 3
+          },
+          "results": [
+            {
+              "track_id": "diabolique",
+              "title": "Diabolique",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+              "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+              "score": 0.94,
+              "matched_on": [
+                "genre:post trap",
+                "mood:dark",
+                "mood:cinematic"
+              ],
+              "why": "Cyanite-verified 77 BPM G# minor; moods dark/seductive/cinematic/nocturnal per manager-approved lyric sheet 2026-10-03"
+            },
+            {
+              "track_id": "zooted-zone",
+              "title": "Zooted Zone",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+              "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+              "score": 0.81,
+              "matched_on": [
+                "genre:post trap"
+              ],
+              "why": "Genre matches; moods hype/hypnotic/aggressive/late-night — night-drive cinematic energy but brighter than the query"
+            },
+            {
+              "track_id": "doves-and-diamonds",
+              "title": "Doves & Diamonds",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+              "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+              "score": 0.76,
+              "matched_on": [
+                "genre:post trap",
+                "mood:late-night"
+              ],
+              "why": "Post-trap genre match; luxury/reflective/smooth moods — softer register than dark/cinematic"
+            }
+          ],
+          "result_count": 3,
+          "status": "live",
+          "generated": "2026-10-03"
+        },
+        "truth_label": "ILLUSTRATIVE answer shape — scores are staged examples, not live results. The endpoint is not yet published."
+      },
+      {
+        "label": "Example 2 — playlist pitch: trap, late-night",
+        "query": {
+          "genre": [
+            "trap"
+          ],
+          "mood": [
+            "late-night"
+          ],
+          "use_case": "playlist-pitch",
+          "limit": 3
+        },
+        "answer_shape": {
+          "query": {
+            "genre": [
+              "trap"
+            ],
+            "mood": [
+              "late-night"
+            ],
+            "use_case": "playlist-pitch",
+            "limit": 3
+          },
+          "results": [
+            {
+              "track_id": "zooted-zone",
+              "title": "Zooted Zone",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+              "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+              "score": 0.93,
+              "matched_on": [
+                "genre:trap",
+                "mood:late-night"
+              ],
+              "why": "Verified playlist hold: New Rap Hits #30 (2026-09-15 scan); ~313K lifetime Spotify plays — proven playlist-scale conversion"
+            },
+            {
+              "track_id": "flamerz",
+              "title": "Flamerz",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+              "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+              "score": 0.85,
+              "matched_on": [
+                "genre:trap"
+              ],
+              "why": "Genre match; co-produced with Jeck Da General"
+            },
+            {
+              "track_id": "toxic-elements",
+              "title": "Toxic Elements",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+              "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+              "score": 0.82,
+              "matched_on": [
+                "genre:trap"
+              ],
+              "why": "Genre match (post trap/trap/underground); mood tags pending — scored on genre fit"
+            }
+          ],
+          "result_count": 3,
+          "status": "live",
+          "generated": "2026-10-03"
+        },
+        "truth_label": "ILLUSTRATIVE answer shape — scores are staged examples, not live results. The endpoint is not yet published."
+      },
+      {
+        "label": "Example 3 — radio rotation: alternative rap, cinematic",
+        "query": {
+          "genre": [
+            "alternative rap"
+          ],
+          "mood": [
+            "cinematic"
+          ],
+          "use_case": "radio-rotation",
+          "limit": 3
+        },
+        "answer_shape": {
+          "query": {
+            "genre": [
+              "alternative rap"
+            ],
+            "mood": [
+              "cinematic"
+            ],
+            "use_case": "radio-rotation",
+            "limit": 3
+          },
+          "results": [
+            {
+              "track_id": "diabolique",
+              "title": "Diabolique",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+              "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+              "score": 0.95,
+              "matched_on": [
+                "genre:alternative rap",
+                "mood:cinematic"
+              ],
+              "why": "Newest single; October Discovery Mode control track; cinematic/dark/nocturnal moods from manager-verified lyric sheet"
+            },
+            {
+              "track_id": "7th-angel",
+              "title": "7th Angel",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+              "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+              "score": 0.88,
+              "matched_on": [
+                "genre:alternative rap",
+                "mood:cinematic"
+              ],
+              "why": "Moods ethereal/mystical/uplifting/cinematic — lighter cinematic register"
+            },
+            {
+              "track_id": "doves-and-diamonds",
+              "title": "Doves & Diamonds",
+              "artist": "That Boy Hi Hat",
+              "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+              "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+              "score": 0.72,
+              "matched_on": [
+                "genre:alternative rap"
+              ],
+              "why": "Genre match; luxury/reflective/smooth — cinematic-adjacent but not tagged cinematic"
+            }
+          ],
+          "result_count": 3,
+          "status": "live",
+          "generated": "2026-10-03"
+        },
+        "truth_label": "ILLUSTRATIVE answer shape — scores are staged examples, not live results. The endpoint is not yet published."
+      }
+    ],
+    "pricing": {
+      "status": "intent_only",
+      "per_query_price": null,
+      "currency": null,
+      "note": "PRICING-INTENT HOOK ONLY. The query DB is a static JSON file on GitHub Pages: free, no login, no key, until Black approves pricing. No paid middleware is wired and none is described here — the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
+    },
+    "status_note": "STAGED 2026-10-03 — query-db.json is not yet published. Do not describe as live until a live GET returns HTTP 200."
   }
 }
