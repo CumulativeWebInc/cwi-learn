@@ -1,0 +1,12 @@
+{
+  "facet": "proof",
+  "packets": [
+    {
+      "node": "fact/module/attribution-layer",
+      "packet_id": "fact/module/attribution-layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json"
+    }
+  ],
+  "tag": "src-wire",
+  "updated": "2026-10-03T14:19:47Z"
+}
