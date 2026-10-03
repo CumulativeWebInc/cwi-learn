@@ -1,0 +1,98 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "media-outreach",
+      "tier": "verified",
+      "why": "10 journalists with route status"
+    },
+    {
+      "facet": "use",
+      "tag": "press-angles",
+      "tier": "verified",
+      "why": "5 angles incl. the verified playlist-data story"
+    },
+    {
+      "facet": "proof",
+      "tag": "coverage",
+      "tier": "verified",
+      "why": "2 verified placements with emails on file"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "10 media targets parsed from media-targets.md with route status; 5 angles from press-angles.md; 10 drafts staged under the exact-copy gate",
+      "evidence": {
+        "source": "visibility-machine/modules/pr-graph/output/pr-graph.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Verified coverage: 24Hip-Hop + Rolling Hype articles published 2026-09-24, placement emails on file",
+      "evidence": {
+        "source": "cwi-company/press/article-24hiphop-alternative-theory.md, article-rollinghype-alternative-theory.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Kill rule: <2% open-to-reply after 30 pitches -> angle rework; only DIRECT-verified routes may carry a pitch edge",
+      "evidence": {
+        "source": "cwi-company/press/media-targets.md"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.json"
+    },
+    "fan_qa": "What is Visibility Machine — PR Graph (Module 5)? Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger."
+          },
+          "name": "What is Visibility Machine — PR Graph (Module 5)?"
+        }
+      ]
+    },
+    "search_answer": "Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger.",
+    "social_caption": "Visibility Machine — PR Graph (Module 5) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine PR Graph (Module 5): Media/PR graph: 10 journalists/outlets with DIRECT/UNVERIFIED route status, 5 press angles, 10 gated pitch drafts, and the verified coverage ledger. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "7e7fbb734c5f2f216d2ec2d794fd44980d0e75a8e3e352b8ecbcb46d355646e2"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/pr-graph",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/pr-graph",
+    "name": "Visibility Machine — PR Graph (Module 5)",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/pr-graph",
+  "relationships": [
+    {
+      "rel": "build_order_next",
+      "target": "vm-module:creative-engine"
+    },
+    {
+      "rel": "indexes",
+      "target": "vm-state:pr-coverage"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
