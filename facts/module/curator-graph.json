@@ -1,0 +1,105 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "curator-network",
+      "tier": "verified",
+      "why": "29 verified curators as graph nodes"
+    },
+    {
+      "facet": "use",
+      "tag": "playlist-pitching",
+      "tier": "verified",
+      "why": "pitch/placement edges from CRM history"
+    },
+    {
+      "facet": "proof",
+      "tag": "faiss-matching",
+      "tier": "verified",
+      "why": "IndexFlatIP cosine matches over mood/energy/bpm/inst"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "81 nodes / 125 edges built from 29 verified CRM rows + faiss-ranking-2026-10-03.json + 24-track catalog manifest",
+      "evidence": {
+        "source": "visibility-machine/modules/curator-graph/output/curator-graph.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "CRM totals: 5 pitches, 7 placements, 4 holding (Audiartist, Eric Alper, DJ 6Rings, Flow)",
+      "evidence": {
+        "source": "cwi-company/radio/curator-crm.jsonl"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Kill-rule flags: 0 — no curator at >=20 pitches with zero placements",
+      "evidence": {
+        "source": "visibility-machine/modules/curator-graph/output/curator-graph.json"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Verified-only rule: no curator enters the graph without a CRM row",
+      "evidence": {
+        "source": "cwi-company/radio/curator-crm.schema.json"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.json"
+    },
+    "fan_qa": "What is Visibility Machine — Curator Graph (Module 3)? Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset."
+          },
+          "name": "What is Visibility Machine — Curator Graph (Module 3)?"
+        }
+      ]
+    },
+    "search_answer": "Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset.",
+    "social_caption": "Visibility Machine — Curator Graph (Module 3) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Curator Graph (Module 3): Structured curator graph from verified data only: 29 CRM rows + FAISS ranking + 24-track catalog manifest. Nodes: curator/playlist/track. Edges: pitched/placed/faiss_match/holds/curates. The proprietary acceptance-dataset asset. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "071c757a091036768b5a03e49cb2da462b8489dbdf77b6bf4bf8a55d4105fa66"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/curator-graph",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/curator-graph",
+    "name": "Visibility Machine — Curator Graph (Module 3)",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/curator-graph",
+  "relationships": [
+    {
+      "rel": "build_order_next",
+      "target": "vm-module:pitch-crm"
+    },
+    {
+      "rel": "indexes",
+      "target": "vm-state:curator-network"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
