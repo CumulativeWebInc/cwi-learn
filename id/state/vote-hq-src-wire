@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/vote-hq-src-wire",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "Live verification state of the Vote HQ attribution wire and the Radio 365 now-playing feed.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/vote-hq-src-wire.json",
+  "name": "Vote HQ ?src= wire \u2014 live state 2026-10-03",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/vote-hq-src-wire"
+      },
+      "value": "vm-state:vote-hq-src-wire"
+    }
+  ]
+}
