@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/curator-network",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.json",
+  "name": "Curator network \u2014 state 2026-10-03",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/curator-network"
+      },
+      "value": "vm-state:curator-network"
+    }
+  ]
+}
