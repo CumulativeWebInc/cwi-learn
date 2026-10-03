@@ -1,0 +1,12 @@
+{
+  "facet": "domain",
+  "packets": [
+    {
+      "node": "fact/module/twenty-minds-phase2",
+      "packet_id": "fact/module/twenty-minds-phase2",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/twenty-minds-phase2.json"
+    }
+  ],
+  "tag": "build-order",
+  "updated": "2026-10-03T14:19:47Z"
+}
