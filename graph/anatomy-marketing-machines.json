@@ -1,0 +1,3318 @@
+{
+  "graph_schema": "cwi.graph/1.0",
+  "generated": "2026-10-03T13:00:08Z",
+  "maintainer": "Cumulative Web Inc (CWI_Data)",
+  "id_base": "https://cumulativewebinc.github.io/cwi-learn/id/",
+  "supplement_of": "graph.json",
+  "source_of_truth_note": "Full & dynamic first indexing of 'Digital Anatomy of Four Music-Marketing Machines' (research 2026-10-03). Node status is verified | owner_confirmed | claimed_unverified | promised_unverified. Per-fact evidence tiers live in attrs.key_facts. Evidence gaps from the report's 'Could Not Verify' section are recorded as facts with tier claimed_unverified and a note flagging the gap - never filled in. Sibling file: least-invasive option; graph.json untouched.",
+  "counts": {
+    "nodes": 41,
+    "edges": 56
+  },
+  "nodes": [
+    {
+      "id": "marketing-machine:spotify-campaign-kit",
+      "type": "machine",
+      "name": "Spotify Campaign Kit",
+      "status": "verified",
+      "attrs": {
+        "description": "Spotify's closed-loop, first-party promotion stack inside Spotify for Artists: Marquee, Showcase, Discovery Mode, and free editorial playlist pitching.",
+        "key_facts": [
+          {
+            "claim": "Marquee: full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home; targets listeners based on listening history, not demographics; reporting covers listens, saves, playlist adds from exposed listeners; Spotify claims exposed listeners are >2x more likely to save/add and 3x more likely to stream the artist's other releases",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Showcase: mobile banner card at the top of Spotify's Home feed with 7 customizable headlines (new music, recently released, on tour, release anniversary, getting buzz, seasonal vibes, releasing music soon); up to 14-day runtime",
+            "tier": "verified",
+            "source": "https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Spotify claims Showcase viewers are 6x more likely to stream the promoted release",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+          },
+          {
+            "claim": "Discovery Mode: increased likelihood of selected tracks being recommended in Radio, Autoplay, and algorithmic mixes; Spotify claims +50% saves, +44% playlist adds, +37% follows in the first month, and 31% of DM listeners brand-new to the artist",
+            "tier": "claimed_unverified",
+            "source": "https://www.thatericalper.com/2026/07/15/discovery-mode-on-spotify-should-artists-actually-use-it/"
+          },
+          {
+            "claim": "Playlist pitching (free, fourth Kit tool): submit unreleased music >=7 days before release for editorial playlist consideration; delivers a decision (accepted/declined) but no paid mechanics",
+            "tier": "claimed_unverified",
+            "source": "https://www.one-submit.com/spokes/playlist-streams"
+          },
+          {
+            "claim": "Audience segmentation engine: six official segments - super / moderate / light listeners (active last 28 days by intensity), previously active (lapsed 28+ days), programmed (heard only via playlists/radio), potential (never heard, profile match)",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Eligibility gates: Marquee requires 5,000 monthly active listeners in target markets and billing country in a supported market; Showcase/display campaigns require >=1,000 streams in the last 28 days in at least one target market",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026",
+            "note": "Marquee 5k-MAL and Showcase 1k-stream gates per Chartlex 2026 compilation of official docs"
+          },
+          {
+            "claim": "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Marquee/Showcase targeting automation: Spotify selects listeners most likely to stream after seeing the ad; suppression of already-converted listeners is automatic; no public cross-advertiser auction documented - CPC is posted/set by Spotify, not bid-based",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Discovery Mode: artist flags priority songs; Spotify's recommendation systems increase their likelihood of being served in Radio/Autoplay/mixes; increases likelihood but does not guarantee placement, and does not affect editorial playlists",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "All campaign, billing, targeting, and listening data lives on Spotify's infrastructure on Google Cloud Platform (2016 migration from owned data centers; stack: Pub/Sub, Dataflow, BigQuery, Dataproc, Bigtable/Cloud Storage/Compute Engine); the listener-affinity graph never leaves Spotify's tenant; artist-visible data surfaces only through Spotify for Artists",
+            "tier": "verified",
+            "source": "https://cloud.google.com/blog/products/gcp/spotify-chooses-google-cloud-platform-to-power-data-infrastructure",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Marquee money path: $100 minimum budget per (sub-)campaign, CPC ~$0.55-$1.50 (Chartlex 2026 campaign data; older reports ~$0.50); 10-day window; pay only for clicks; unspent budget is not charged",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026",
+            "note": "$100 minimum confirmed in official docs; CPC range from Chartlex 2026"
+          },
+          {
+            "claim": "Showcase money path: $100 minimum; CPC typically ~$0.40 (chartlex-cited data); 14-day window",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+          },
+          {
+            "claim": "Discovery Mode money path: $0 cash; 30% commission on recording royalties from streams of selected songs in Discovery Mode contexts only, deducted from future statements; at a ~$3-$5 per 1,000 streams royalty baseline, 1,000 DM streams net ~$2.10-$3.50 vs. $3-$5",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "note": "royalty baseline math per https://www.pophatch.com/blog/spotify-discovery-mode (claimed_unverified)",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Discovery Mode subtlety: the 30% commission applies to DM-context streams whether or not the algorithm would have served the track there anyway - tracks with existing Radio/Autoplay traffic pay a discount on listening they already had",
+            "tier": "claimed_unverified",
+            "source": "https://www.pophatch.com/blog/spotify-discovery-mode"
+          },
+          {
+            "claim": "Unit economics: at ~$0.003-$0.005/stream, one $0.50 Marquee click needs ~100-167 streams to pay back in royalties - the tool only makes sense as fan-acquisition spend, not royalty ROI",
+            "tier": "claimed_unverified",
+            "source": "https://www.digitalmusicnews.com/2021/09/24/spotify-campaigns-feature-for-artists/"
+          },
+          {
+            "claim": "$100 at $0.55 CPC = ~180 targeted clicks inside the app, one tap from the music, from listeners with demonstrated affinity - versus Meta's ~$0.15-$0.25 per click-through that still must cross the app boundary; the Kit monetizes Spotify's distribution bottleneck (the November 2025 'modern payola' class-action complaint alleges exactly this dynamic)",
+            "tier": "claimed_unverified",
+            "source": "https://notnoise.co/blog/spotify-marquee-vs-showcase-vs-discovery-mode"
+          },
+          {
+            "claim": "Genuinely proprietary (cannot rebuild): the listener-affinity graph (petabyte-scale behavioral data on Spotify's GCP tenant), the ad inventory itself (app-open full screen, Home-feed banner), and the algorithmic boost in Radio/Autoplay/mixes - no third party can serve a Marquee or trigger Discovery Mode's ranking signal",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis of official docs + infrastructure facts)"
+          },
+          {
+            "claim": "Rebuildable at zero cost: audience segmentation logic (super/moderate/light/lapsed/potential) trivially replicable from first-party data; CPC billing mechanics standard; reporting approximated with UTM-tagged smart links + Spotify for Artists source-of-stream data; replicate the measurement discipline (segment, suppress converted, track downstream saves/catalog halo) with free tools - reach and algorithmic leverage are unreplicable",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "machine runs inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "paid-promo",
+            "facet": "domain",
+            "why": "paid promotion stack",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "fan-acquisition",
+            "facet": "use",
+            "why": "unit economics only work as fan-acquisition spend",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "cpc",
+            "facet": "pricing",
+            "why": "Marquee/Showcase are CPC-billed",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "proprietary-inventory",
+            "facet": "moat-type",
+            "why": "ad inventory is Spotify-owned",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "marketing-machine:meta-ads",
+      "type": "machine",
+      "name": "Meta Ads for Musicians",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Paid social campaigns on Facebook/Instagram running the standard Campaign -> Ad Set -> Ad structure on the Meta auction, using the ad -> Pixel-equipped smart link -> Spotify funnel.",
+        "key_facts": [
+          {
+            "claim": "Deliverables: impressions/clicks on Facebook/Instagram (primarily Reels, Feed, Stories) optimized toward a custom conversion (smart-link click-through to Spotify); Ads Manager reporting on spend, reach, CPM, CPC, cost per conversion",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Benchmark funnel (Tier 1 markets, 2026): $0.15-$0.25 per Spotify click-through (good-great), $0.03-$0.08 effective cost per stream, CPM $8-$15; correct funnel structure yields 35-45% higher click-to-stream conversion than direct-to-Spotify ads (Chartlex, 2,400+ campaigns)",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Critical caveat: 'A Meta conversion is not a Spotify stream.' Meta records the click-through; what happens inside Spotify (skip, full play, save, follow) is invisible to Meta and differs wildly per listener - but those in-app actions feed Spotify's recommendation engine",
+            "tier": "claimed_unverified",
+            "source": "https://topcountry.ca/how-meta-ads-actually-help-grow-spotify-streams/"
+          },
+          {
+            "claim": "The auction (per impression): Total Value = (Advertiser Bid x Estimated Action Rate) + User Value/Ad Quality; highest total value wins - not highest bid; pricing is second-price-like (VCG), so winners pay below their bid",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/"
+          },
+          {
+            "claim": "Estimated Action Rate = est. CTR x est. click-to-conversion probability, predicted from the user's full behavior history, time-of-day/device patterns, session context, and cross-platform activity; bid strategies: Lowest Cost, Cost Cap, Bid Cap, ROAS Target",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/",
+            "note": "also documented in https://github.com/hulkintherapy/meta-ads-research/blob/HEAD/workflow-mapping/19-meta-algorithm-mechanics.md"
+          },
+          {
+            "claim": "Learning/optimization loop: the ad set needs conversion volume to exit learning (~1,000 conversions/month cited as the practical requirement); minimum viable music test is $10/day for 7-14 days",
+            "tier": "claimed_unverified",
+            "source": "https://www.youtube.com/shorts/XeUhZzcUW_Q",
+            "note": "agency pricing/resting on a single secondary video source; treat as indicative"
+          },
+          {
+            "claim": "Agent-like practitioner workflow: prospecting ad sets (lookalike/interest) -> smart link -> retargeting ad set (visitors minus converters) with new creative -> lookalike expansion as seeds grow; retargeting converts at 2-3x cold",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "The music-specific hack: ad -> Pixel-equipped smart link -> Spotify funnel, because no Pixel can live on Spotify - the fundamental constraint of music campaigns",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Pixel events (browser): PageView on smart-link landing; custom conversion on Spotify redirect-URL pageview; optional deeper events (pre-save, merch purchase)",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Conversions API (server): event_name, event_time, event_id (dedupe vs. browser), action_source, user_data with SHA-256 hashed email/phone and raw fbp/fbc/IP/user-agent; Event Match Quality below ~5.0 means the server path contributes little; Pixel+CAPI yields 15-25% more attributed conversions",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/boringmarketer/meta-ads-skill/blob/HEAD/reference/tracking.md"
+          },
+          {
+            "claim": "Attribution default: 7-day click + 1-day view (+1-day engage-through for likes/comments/5-sec video views since the 2026 model change); selectable at ad-set level; window choice changes reported numbers, not delivery",
+            "tier": "claimed_unverified",
+            "source": "https://www.jonloomer.com/meta-ads-attribution-reporting/",
+            "note": "also https://hawky.ai/blog/meta-new-attribution-model"
+          },
+          {
+            "claim": "iOS ATT reality: ~80%+ opt-out means view-through attribution is largely unavailable on iOS; a meaningful share of reported conversions are modeled, not measured, with no flag distinguishing them",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/indexsy/skills/blob/HEAD/meta-ads/foundations/attribution.md",
+            "note": "also https://podvector.ai/articles/meta-ads/roas-and-attribution/what-is-roas-in-meta-ads"
+          },
+          {
+            "claim": "All event, audience, and delivery data lives on Meta's servers (Ads Manager/Events Manager); the advertiser's only owned assets are the smart-link page and its server logs, plus any CAPI endpoint they run; hashed identifiers are sent to Meta for identity-graph matching",
+            "tier": "claimed_unverified",
+            "source": "report section B5 (synthesis)"
+          },
+          {
+            "claim": "Self-serve money path: pure auction; Tier-1 CPC $0.40-$0.80 good / $0.20-$0.40 great; cost per Spotify click-through $0.25-$0.50 good / $0.15-$0.25 great; effective cost per stream $0.08-$0.15 good / $0.03-$0.08 great; Tier 2/3 markets cut costs 40-60% but Spotify payouts are lower there too",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Managed services: agencies charge 10-20% of ad spend or $1,500-$8,000+/month retainers; managed beats DIY around $1,500+/mo spend",
+            "tier": "claimed_unverified",
+            "source": "https://www.youtube.com/shorts/XeUhZzcUW_Q",
+            "note": "evidence gap: rests on a single secondary video source; treat as indicative"
+          },
+          {
+            "claim": "Unit economics: at $0.20 per Spotify click-through and ~$0.004/stream royalty, the stream alone never pays back the click (~50 streams per click needed); the economics only work if a fraction of acquired listeners become savers/followers who generate algorithmic compounding - you are buying seeds for Spotify's algorithm, not streams",
+            "tier": "claimed_unverified",
+            "source": "synthesis of https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026 + https://topcountry.ca/how-meta-ads-actually-help-grow-spotify-streams/"
+          },
+          {
+            "claim": "Genuinely proprietary: Meta's identity/behavior graph (the Estimated Action Rate predictor trained on billions of users), the auction and its inventory, and modeled attribution - no open-source stack reproduces 'find people statistically likely to click through to Spotify'",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable at zero cost: self-hosted landing page (any static host) with open-source analytics snippet (e.g., self-hosted Plausible/Matomo) tracking pageview -> Spotify-click events; manual UTM tagging; lookalike logic approximated by manually finding similar artists' audiences; retargeting via email capture on the landing page (own the list instead of renting the pool); CAPI is just HTTPS POSTs - anyone can implement it, but Meta's matching identity graph on the other end is not replicable",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "meta",
+            "facet": "platform",
+            "why": "runs on Meta's ad platform",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "paid-promo",
+            "facet": "domain",
+            "why": "paid social promotion",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "paid-seed",
+            "facet": "strategy",
+            "why": "buys seeds for Spotify's algorithm, not streams",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "auction",
+            "facet": "pricing",
+            "why": "pure auction CPC/CPM",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "proprietary-inventory",
+            "facet": "moat-type",
+            "why": "inventory + identity graph are Meta-owned",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "marketing-machine:playlist-marketplaces",
+      "type": "machine",
+      "name": "Playlist-Pitching Marketplaces",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Two-sided pay-for-review (not pay-for-placement) machines: SubmitHub, Groover, Playlist Push, SoundCampaign - curator consideration + written feedback, enforced by SLAs and a credit ledger.",
+        "key_facts": [
+          {
+            "claim": "What is sold is a review, not a placement: curator consideration + written feedback; placement is the curator's independent decision - the legal/ToS line that keeps them clear of payola rules",
+            "tier": "verified",
+            "source": "https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "SubmitHub: premium credits ~$0.80-$1.00 each (100 for $80; bulk discounts); 1-3 credits per curator typical, 4-credit top tier new in 2026; typical 30-50 submission campaign = $30-$80; credits never expire; free Standard credits (2 per 4 hours) for testing",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/submithub-review-2026",
+            "note": "pricing also via https://www.dontpayfull.com/at/submithub.com"
+          },
+          {
+            "claim": "SubmitHub premium response SLA: SOURCES DISAGREE - 48 hours (submitlink.io) vs 72 hours (musicinminnesota, letssubmit); likely tier-dependent after the 2026 tier rework",
+            "tier": "claimed_unverified",
+            "source": "https://www.submitlink.io/compare/submithub",
+            "note": "evidence gap: flag rather than resolve; see https://www.musicinminnesota.com/best-spotify-playlist-service/"
+          },
+          {
+            "claim": "SubmitHub approvals: average ~24% all outlets, ~29% Spotify playlisters (Dynamoi citing 2025 data); free premium-credit routes: Hot or Not, Verified Reviewers, referrals",
+            "tier": "claimed_unverified",
+            "source": "https://dynamoi.com/vs/groover-vs-submithub"
+          },
+          {
+            "claim": "Groover: 2 Grooviz = EUR 2 per contact; top-tier 4-6 Grooviz; packs from EUR 46 with up to 20-24% volume discount; practical minimum ~EUR 100 (50 curators as Groover recommends); guaranteed listening + written feedback within 7 days or credits back; 90% reply rate; also connects to labels/radio/journalists",
+            "tier": "verified",
+            "source": "https://groover.co",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Playlist Push: from $280; example $630 to reach 79 playlists; average ~$450; price varies by genre/curators; genre-matching automation; purchases final, unused budget -> account credit; Artist Protection Fund auto-refunds unfulfilled reviews; detailed report 30 days after campaign if Spotify for Artists is connected",
+            "tier": "verified",
+            "source": "https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "SoundCampaign: from $80; Sept 2026 estimator: $150 -> ~17 projected curator reviews; pay only per completed review; budget can split across Spotify, TikTok creators, and Meta ads",
+            "tier": "claimed_unverified",
+            "source": "https://magneticmag.com/2026/10/top-5-online-music-promotion-platforms-to-grow-your-audience-in-2026/"
+          },
+          {
+            "claim": "Two-sided unit economics: artist pays ~$1-9 per human review; curator earns $1-$5 per review (SubmitHub, by tier/traffic); the platform keeps the spread plus breakage on unused credits/balances; curator payouts are the platform's COGS; margin is in aggregation - placements cannot be bought without violating Spotify's ToS, so the sellable unit is guaranteed human attention",
+            "tier": "claimed_unverified",
+            "source": "https://music.loop.fans/blog/submithub-curator",
+            "note": "curator $1-$5 figure per https://music.loop.fans/blog/submithub-curator"
+          },
+          {
+            "claim": "Playlist Push / SoundCampaign curator payout rates: only dated (2019, ~$0.75/review) or third-party figures; current platform-side payout schedules are not public",
+            "tier": "claimed_unverified",
+            "source": "https://medium.com/@colortheory/playlist-push-revisited-12ed8c6b10ef",
+            "note": "evidence gap: could not verify"
+          },
+          {
+            "claim": "Structural comparison: stream-target services instead sell a defined stream target (e.g., from $129 one-time or $149-$999/mo) verifiable in Spotify for Artists - headline prices are not comparable across the two structures",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/chartlex-vs-submithub-vs-playlist-push-vs-soundcampaign-2026"
+          },
+          {
+            "claim": "Trust & safety: SubmitHub free AI Song Checker (labels/blocks likely-AI tracks at 85%+), Groover self-declare checkbox + curator opt-out tags, Playlist Push monitoring for fake/inactive followers and multiple accounts, curator tiering with demotion for lapsed standards (SubmitHub 2026: 4-credit top tier is earned, 30-day grace before demotion)",
+            "tier": "claimed_unverified",
+            "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026"
+          },
+          {
+            "claim": "Matching: genre-tag similarity + historical acceptance data route tracks to curators (Playlist Push, SoundCampaign); filter sliders and genre-match scores assist manual selection (SubmitHub); none publish a true ML model - it is rules + historical stats",
+            "tier": "claimed_unverified",
+            "source": "https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+            "note": "manual-selection details per https://magneticmag.com/2026/10/top-5-online-music-promotion-platforms-to-grow-your-audience-in-2026/"
+          },
+          {
+            "claim": "Data moat: all submission, decision, feedback, pricing-tier, and reputation data lives on each platform's own servers; artists see only their own dashboards, curators only their queues; the cross-artist acceptance-rate dataset and curator reliability scores are the platforms' private moat; marketplaces have no independent stream measurement - downstream verification happens on Spotify's infrastructure via Spotify for Artists",
+            "tier": "claimed_unverified",
+            "source": "report section C5 (synthesis)"
+          },
+          {
+            "claim": "ROI logic: independent playlist placements generate real streams -> saves/follows -> feed Spotify's algorithmic systems (Release Radar, Discover Weekly, Radio); paid curator access buys seeds for algorithmic compounding; low-quality/botted playlists produce streams Spotify may discount or penalize - manipulation can get music removed (Playlist Push's own warning)",
+            "tier": "claimed_unverified",
+            "source": "https://www.yougrowpromo.com/pages/meta-ads",
+            "note": "penalty warning per https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com"
+          },
+          {
+            "claim": "Feedback as product: even declined submissions return written curator feedback - market intelligence on why a track isn't landing, reused across campaigns",
+            "tier": "claimed_unverified",
+            "source": "https://magneticmag.com/2026/10/top-5-online-music-promotion-platforms-to-grow-your-audience-in-2026/"
+          },
+          {
+            "claim": "Genuinely proprietary: the vetted curator network (thousands of relationships, historical acceptance/reliability data, tiering) and the SLA/refund trust infrastructure - you cannot conjure 3,000 responsive curators with track records; the platforms' cross-artist dataset is their compounding data moat",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable at zero cost: curator discovery via Spotify playlist search + Instagram/TikTok + blog hunting (this is what SubmitHub's directory productizes); outreach via spreadsheet CRM + templated personalized emails + tracking sheet; SLA guarantee as personal follow-up cadence; genre-match filtering by manual listening - DIY costs time instead of $1-$9/review; an indie team with 10-20 hours can replicate a $100 SubmitHub campaign's mechanics (but not instant access to curators who already trust the platform's queue)",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "two-sided curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "paid-promo",
+            "facet": "domain",
+            "why": "paid curator access",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "paid-seed",
+            "facet": "strategy",
+            "why": "playlist adds buy seeds for algorithmic compounding",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "pay-per-review",
+            "facet": "pricing",
+            "why": "sellable unit is guaranteed human attention",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "proprietary-network",
+            "facet": "moat-type",
+            "why": "vetted curator network is the moat",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "marketing-machine:music-pr-firms",
+      "type": "machine",
+      "name": "Music PR Firms",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Boutique and agency music publicists: skilled human labor (strategy, media-list building, pitching, follow-ups, reporting) plus access to rented data (Muck Rack/Cision media databases, wires, reactive-pitch feeds).",
+        "key_facts": [
+          {
+            "claim": "Deliverables: press coverage - reviews, features, interviews, premieres, playlist/blog placements; a press kit/bio (often an upfront fee); monthly reporting of clippings with outlet reach; budget blog-PR firms promise volume (Independent Music Promotions: month-to-month $895, typically 12+ reviews/month)",
+            "tier": "verified",
+            "source": "https://independentmusicpromotions.com/faq/",
+            "note": "publicist cost framing per https://djbooth.net/features/2023-02-20-costs-benefits-hiring-music-publicist",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "No ethical PR agency can guarantee independent editorial coverage",
+            "tier": "claimed_unverified",
+            "source": "https://www.swaggermagazine.com/style/how-much-does-pr-cost-2026/"
+          },
+          {
+            "claim": "Metrics: number of placements, outlet reach/readership, share of voice vs. competitors, sentiment, message pull-through; legacy metric AVE (advertising value equivalency) still auto-calculated by tools like Muck Rack but rejected by AMEC's Barcelona Principles 4.0 and banned by CIPR (2017)",
+            "tier": "verified",
+            "source": "https://muckrack.com/blog/2024/05/14/pr-metrics-to-measure/",
+            "note": "AVE rejection per https://collabstr.com/blog/earned-media-value",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Measurement guidance: replace AVE with sentiment trajectory, message pull-through, share of voice, and coverage quality weighted by outlet relevance - a big number in the wrong outlet is worthless",
+            "tier": "claimed_unverified",
+            "source": "https://delve.news/post/ave-is-dead-what-your-pr-report-should-measure-instead/"
+          },
+          {
+            "claim": "Media database is rented: Cision (1M+ journalist contacts, full PR suite - database, distribution, monitoring, analytics; expensive, annual contracts, complex) or Muck Rack (journalist profiles, pitch tracking, monitoring, AI list building; added press-release distribution in 2025)",
+            "tier": "claimed_unverified",
+            "source": "https://gist.github.com/williamhsu/b5576d9b0d5a137ee2fc71135f8f6888",
+            "note": "Muck Rack model per https://startupgrowthguide.com/comprehensive-muck-rack-case-study-the-growth-blueprint/"
+          },
+          {
+            "claim": "Pitching engine is human labor: personalized pitches, follow-up sequences, relationship management - the core labor; Muck Rack's pitch tracking + AI list building automate the plumbing, not the pitch itself",
+            "tier": "claimed_unverified",
+            "source": "report section D4 (synthesis)"
+          },
+          {
+            "claim": "Reactive pitching: HARO (now Connectively - free, journalists come to you, but reactive/competitive/no targeting) and paid feeds: Qwoted (free: 2 pitches/mo with 2-hour delay; Pro $149/mo), Featured.com (free: 3 submissions/mo; Pro $99/mo); the 2-hour free-tier delay is 'the whole game' for serious reactive PR",
+            "tier": "claimed_unverified",
+            "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+          },
+          {
+            "claim": "Wire distribution: press releases pushed to newswires for indexable pickup (low authority, but persistent entity corroboration)",
+            "tier": "claimed_unverified",
+            "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/",
+            "note": "evidence gap: exact current per-release wire pricing (PR Newswire/Business Wire) for music announcements not pulled from live pricing pages - could not verify"
+          },
+          {
+            "claim": "Pricing: music publicists charge flat fees from 'a few hundred to several thousand dollars monthly' (DJBooth); 2026 PR broadly: boutique agencies $3,000-$10,000/mo; freelancers $1,500-$3,500/mo retainer or $150-$500/hr; mid-size agencies $10,000-$25,000/mo; projects $5,000-$25,000",
+            "tier": "claimed_unverified",
+            "source": "https://www.swaggermagazine.com/style/how-much-does-pr-cost-2026/",
+            "note": "freelancer rates per https://subscribepr.com/blog/should-a-small-business-hire-a-freelance-publicist/"
+          },
+          {
+            "claim": "Unit economics: the retainer buys labor hours - at ~$333/hr billed for a senior AE, a $3,000/mo boutique retainer ~= ~9-15 hours of real work monthly (blended with junior time); tools are the smallest line item (Muck Rack $5,000+/user/yr, Qwoted Pro $149/mo); margin comes from leverage - one publicist runs multiple retainers",
+            "tier": "claimed_unverified",
+            "source": "https://subscribepr.com/blog/should-a-small-business-hire-a-freelance-publicist/"
+          },
+          {
+            "claim": "Retainer hour-split model (~20% strategy/angle work, 30% media-list research + pitch drafting, 30% sending + follow-ups + relationship maintenance, 20% monitoring + reporting) is a model, not a quote - firms do not publish hour splits",
+            "tier": "claimed_unverified",
+            "source": "report section D7 (synthesis)",
+            "note": "treat as a model, not a quote"
+          },
+          {
+            "claim": "Infrastructure: the PR firm owns almost no infrastructure - it is a labor + rented-data + relationships business; journalist data lives on the vendors' servers under annual SaaS contracts (when the contract ends, the data stays with the vendor); coverage artifacts live on publishers' domains",
+            "tier": "claimed_unverified",
+            "source": "report section D5 (synthesis)"
+          },
+          {
+            "claim": "Relationship data (who answers, what they cover, response history, warm introductions) in the firm's CRM/pitch logs is the closest thing to proprietary data in PR",
+            "tier": "claimed_unverified",
+            "source": "report section D3 (synthesis)"
+          },
+          {
+            "claim": "Genuinely proprietary: almost nothing technical - the moats are (a) the journalist relationship graph in the publicist's head/CRM, (b) taste and news judgment, (c) reputation that gets emails opened; none of these are purchasable software",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable at zero cost - nearly the entire stack: media-list building via free sources (outlet mastheads, journalist Twitter/X bios, Substack directories, Spotify editorial team pages); pitching via any email client with a tracking spreadsheet; press-kit assembly with free design tools; monitoring via Google Alerts + free Talkwalker alerts; reactive pitching via Connectively (free tier) and Featured.com (free tier); paid databases buy speed and completeness, not capability - a determined indie team can hand-build a 100-contact genre media list in a weekend",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "What you cannot replicate for free: the publicist's open-rate (relationships) and the judgment of which 10 of 100 contacts matter - that is the actual product; everything else is workflow anyone can copy",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "Amplification: press quotes become ad creative and pitch social proof (raising Meta auction quality scores); reviews/placements drive search visibility and Wikipedia/knowledge-panel eligibility; editorial co-signs feed Spotify editorial playlist consideration indirectly (editors read press); coverage gives playlist curators and radio programmers a reason to say yes",
+            "tier": "claimed_unverified",
+            "source": "report section D6 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "music-pr",
+            "facet": "platform",
+            "why": "publicist firms and rented PR data",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "earned-media",
+            "facet": "domain",
+            "why": "coverage is earned, never guaranteed",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "retainer",
+            "facet": "pricing",
+            "why": "labor-hour retainer economics",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "relationships",
+            "facet": "moat-type",
+            "why": "the journalist relationship graph is the moat",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost-rebuild",
+            "facet": "strategy",
+            "why": "nearly the entire stack is rebuildable at $0",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-marquee",
+      "type": "module",
+      "name": "Marquee Delivery Module",
+      "status": "verified",
+      "attrs": {
+        "description": "Full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home.",
+        "key_facts": [
+          {
+            "claim": "Full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Targets listeners based on their listening history rather than broad demographics or interests",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Filters out listeners who already intentionally streamed the release (automatic suppression of already-converted listeners)",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "New-release only; start date within the first 3 weeks of release, bookable up to 18 days post-release",
+            "tier": "claimed_unverified",
+            "source": "report section A3 (synthesis)"
+          },
+          {
+            "claim": "CPC pricing, $100 minimum per (sub-)campaign; typical CPC $0.55-$1.50 (Chartlex 2026 campaign data; older reports ~$0.50); 10-day window; pay only for clicks; unspent budget not charged",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026",
+            "note": "$100 minimum and click-only charging per https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/"
+          },
+          {
+            "claim": "Reporting: listens, saves, playlist adds from exposed listeners; Spotify claims exposed listeners are >2x more likely to save/add and 3x more likely to stream the artist's other releases",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Halo effect: Marquee clicks produce saves, playlist adds, follows, and catalog streams - all inputs to Spotify's organic recommendation systems (Discover Weekly, Release Radar, Radio)",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "marquee",
+            "facet": "product",
+            "why": "Marquee product",
+            "tier": "verified"
+          },
+          {
+            "tag": "cpc",
+            "facet": "pricing",
+            "why": "CPC-billed",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "full-screen-ad",
+            "facet": "format",
+            "why": "app-open full-screen inventory",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-showcase",
+      "type": "module",
+      "name": "Showcase Delivery Module",
+      "status": "verified",
+      "attrs": {
+        "description": "Mobile banner card at the top of Spotify's Home feed (Spotify's most-visited surface).",
+        "key_facts": [
+          {
+            "claim": "Mobile banner card at the top of Spotify's Home feed (Spotify's most-visited surface)",
+            "tier": "claimed_unverified",
+            "source": "https://techcrunch.com/2023/09/13/spotifys-new-showcase-tool-lets-artists-pay-to-promote-their-music-in-the-home-feed/"
+          },
+          {
+            "claim": "7 customizable headline templates: new music, recently released, on tour, release anniversary, getting buzz, seasonal vibes, releasing music soon",
+            "tier": "verified",
+            "source": "https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Up to 14-day runtime",
+            "tier": "verified",
+            "source": "https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "$100 minimum; CPC typically ~$0.40 per chartlex-cited data",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+          },
+          {
+            "claim": "Spotify claims viewers are 6x more likely to stream the promoted release",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "showcase",
+            "facet": "product",
+            "why": "Showcase product",
+            "tier": "verified"
+          },
+          {
+            "tag": "cpc",
+            "facet": "pricing",
+            "why": "CPC-billed",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "home-feed",
+            "facet": "format",
+            "why": "Home-feed banner inventory",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-discovery-mode",
+      "type": "module",
+      "name": "Discovery Mode Enrollment Module",
+      "status": "verified",
+      "attrs": {
+        "description": "Monthly song-level opt-in that buys algorithmic priority in Radio, Autoplay, and mixes for a 30% commission on recording royalties in those contexts only.",
+        "key_facts": [
+          {
+            "claim": "Monthly song-level opt-in (11th-last day of month, live the 1st of next month); auto-includes all track URIs/versions of a selected song",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Release metadata rules: album/EP/single, <=4 main artists, full/split rights, no compilations/remasters/re-recordings/karaoke/soundalikes/white noise/spoken word; Artist Profile Protection approval; licensor allowlist (Amuse, CD Baby, CmdShft, DistroKid, EmuBands, EVEARA, Feiyr, Horus Music, LANDR, Lanzadera Music, MyMusic Sp, OFFstep, Rebeat Digital, recordJet, Repost Network, Soundrop, Stem, UnitedMasters, Venice Music, Vydia); no AI Persona badge",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Cost: $0 cash; 30% commission on recording royalties from streams of selected songs in Discovery Mode contexts only, deducted from future statements",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "At a ~$3-$5 per 1,000 streams royalty baseline, 1,000 DM streams net ~$2.10-$3.50 vs. $3-$5",
+            "tier": "claimed_unverified",
+            "source": "https://www.pophatch.com/blog/spotify-discovery-mode"
+          },
+          {
+            "claim": "Key subtlety: the 30% commission applies to DM-context streams whether or not the algorithm would have served the track there anyway - tracks with existing Radio/Autoplay traffic pay a discount on listening they already had",
+            "tier": "claimed_unverified",
+            "source": "https://www.pophatch.com/blog/spotify-discovery-mode"
+          },
+          {
+            "claim": "Spotify claims: +50% saves, +44% playlist adds, +37% follows in the first month, and 31% of DM listeners brand-new to the artist",
+            "tier": "claimed_unverified",
+            "source": "https://www.thatericalper.com/2026/07/15/discovery-mode-on-spotify-should-artists-actually-use-it/"
+          },
+          {
+            "claim": "Spotify states it increases the likelihood of recommendation but does not guarantee it, and does not affect editorial playlists",
+            "tier": "verified",
+            "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Flywheel: boosted Radio/Autoplay exposure -> new listeners -> on-demand/catalog streams at full royalty (only DM-context streams take the 30% cut) -> stronger algorithmic profile; industry analyses estimate 100-400% stream lifts during active campaigns",
+            "tier": "claimed_unverified",
+            "source": "https://www.thatericalper.com/2026/07/15/discovery-mode-on-spotify-should-artists-actually-use-it/",
+            "note": "lift estimates also via https://www.pophatch.com/blog/spotify-discovery-mode"
+          },
+          {
+            "claim": "The November 2025 'modern payola' class-action complaint alleges Discovery Mode's dynamic (Spotify monetizing its distribution bottleneck)",
+            "tier": "claimed_unverified",
+            "source": "https://notnoise.co/blog/spotify-marquee-vs-showcase-vs-discovery-mode"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "discovery-mode",
+            "facet": "product",
+            "why": "Discovery Mode product",
+            "tier": "verified"
+          },
+          {
+            "tag": "algorithmic-boost",
+            "facet": "mechanism",
+            "why": "buys algorithmic priority",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "radio",
+            "facet": "context",
+            "why": "Radio/Autoplay/mixes contexts",
+            "tier": "verified"
+          },
+          {
+            "tag": "royalty-commission",
+            "facet": "pricing",
+            "why": "30% commission on recording royalties in DM contexts",
+            "tier": "verified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-audience-segmentation",
+      "type": "module",
+      "name": "Audience Segmentation Engine",
+      "status": "verified",
+      "attrs": {
+        "description": "The six-segment listener model (super/moderate/light, lapsed, programmed, potential) built from the listener behavior graph; buyers pick segments and markets in the Campaigns tab.",
+        "key_facts": [
+          {
+            "claim": "Six official segments: super / moderate / light listeners (active, last 28 days by intensity), previously active (lapsed 28+ days), programmed (heard only via playlists/radio), potential (never heard, profile match)",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Segments are built from the listener behavior graph: stream counts, intentional vs. programmed streams, saves, playlist adds, skips, follows, recency/frequency/intensity per listener",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Buyer interface: Campaigns tab in Spotify for Artists (desktop, Admin/Editor roles) - campaign creation, audience-segment selection, market selection (40+ markets), scheduling, billing management",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Marquee explicitly targets listeners based on their listening history rather than broad demographics or interests",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Rebuildable: the segmentation logic is trivially replicable in a spreadsheet or self-hosted analytics from any first-party listener data; an indie team can manually approximate Marquee's targeting by exporting Spotify for Artists audience data and running segmented email/DM campaigns - but it will never reach 'potential listeners' Spotify has not identified to you, which is the whole point",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "targeting",
+            "facet": "function",
+            "why": "audience targeting",
+            "tier": "verified"
+          },
+          {
+            "tag": "listener-segments",
+            "facet": "data",
+            "why": "six official segments",
+            "tier": "verified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-campaign-billing",
+      "type": "module",
+      "name": "Campaign Billing Module",
+      "status": "verified",
+      "attrs": {
+        "description": "Standard CPC billing mechanics: one payment card per team, daily charging at a billing threshold, invoices per team across sub-campaigns.",
+        "key_facts": [
+          {
+            "claim": "Payment card per team (one card per team); daily charging at billing threshold; invoices per team across sub-campaigns",
+            "tier": "verified",
+            "source": "https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "$100 minimum budget per (sub-)campaign for Marquee and Showcase",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "You pay only for clicks; unspent budget is not charged",
+            "tier": "verified",
+            "source": "https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Exact Marquee/Showcase CPC formula is not published by Spotify - pricing is posted/set by Spotify, not bid-based, per all official docs; any claim of a 'Marquee auction' would be speculation",
+            "tier": "claimed_unverified",
+            "source": "report section 'Could Not Verify' (2026-10-03)",
+            "note": "evidence gap: could not verify"
+          },
+          {
+            "claim": "The CPC billing mechanics are standard and replicable; nothing proprietary about the money movement itself",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "billing",
+            "facet": "function",
+            "why": "billing and invoicing",
+            "tier": "verified"
+          },
+          {
+            "tag": "cpc",
+            "facet": "pricing",
+            "why": "CPC-billed",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-campaign-reporting",
+      "type": "module",
+      "name": "Campaign Reporting Module",
+      "status": "verified",
+      "attrs": {
+        "description": "Post-campaign dashboards in Spotify for Artists: exposures, clicks, downstream listening, catalog halo.",
+        "key_facts": [
+          {
+            "claim": "Post-campaign dashboards in Spotify for Artists: exposures, clicks, downstream listening, catalog halo",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Reporting covers listens, saves, playlist adds from exposed listeners plus the catalog halo (listeners streaming the artist's other releases)",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Reporting can be approximated with UTM-tagged smart links + Spotify for Artists source-of-stream data - the measurement discipline (segment, suppress converted, track downstream saves/catalog halo) is replicable with free tools",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "reporting",
+            "facet": "function",
+            "why": "campaign reporting",
+            "tier": "verified"
+          },
+          {
+            "tag": "attribution",
+            "facet": "data",
+            "why": "downstream listening attribution",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "module:spotify-editorial-pitching",
+      "type": "module",
+      "name": "Playlist Pitching Tool",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Free, fourth tool in the Campaign Kit: submit unreleased music for editorial playlist consideration.",
+        "key_facts": [
+          {
+            "claim": "Submit unreleased music >=7 days before release for editorial playlist consideration",
+            "tier": "claimed_unverified",
+            "source": "https://www.one-submit.com/spokes/playlist-streams"
+          },
+          {
+            "claim": "Delivers a decision (accepted/declined) but no paid mechanics",
+            "tier": "claimed_unverified",
+            "source": "https://www.one-submit.com/spokes/playlist-streams"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "spotify",
+            "facet": "platform",
+            "why": "inside Spotify's platform",
+            "tier": "verified"
+          },
+          {
+            "tag": "editorial-pitching",
+            "facet": "function",
+            "why": "free editorial submission",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "playlists",
+            "facet": "domain",
+            "why": "playlist placement",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:meta-campaign-structure",
+      "type": "module",
+      "name": "Meta Campaign / Ad Set / Ad Structure",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The standard three-level Meta data model: Campaign (objective, budget, buying type, bid strategy), Ad Set (audience, placements, optimization goal, attribution_spec, learning stage), Ad (creative).",
+        "key_facts": [
+          {
+            "claim": "Campaign level: objective, budget, buying type, bid strategy",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/gquthier/leadfactory-oss/blob/HEAD/ecommerce/skills/meta-ads-audit/SKILL.md"
+          },
+          {
+            "claim": "Ad Set level: audience targeting, placements, optimization goal, billing event, bid controls, attribution_spec, learning stage",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/gquthier/leadfactory-oss/blob/HEAD/ecommerce/skills/meta-ads-audit/SKILL.md"
+          },
+          {
+            "claim": "Ad level: creative (video/image), primary text, headline, CTA",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/gquthier/leadfactory-oss/blob/HEAD/ecommerce/skills/meta-ads-audit/SKILL.md"
+          },
+          {
+            "claim": "Music advertisers optimize the ad set toward a custom conversion: the smart-link click-through to Spotify",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "meta",
+            "facet": "platform",
+            "why": "Meta ad platform",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "campaign-structure",
+            "facet": "function",
+            "why": "campaign/ad-set/ad hierarchy",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:meta-events-manager",
+      "type": "module",
+      "name": "Events Manager (Pixel + CAPI)",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Event ingestion for the music funnel: browser Pixel events plus server-side Conversions API, scored by Event Match Quality.",
+        "key_facts": [
+          {
+            "claim": "Events Manager: Pixel + Conversions API event ingestion, custom conversions, Event Match Quality scoring",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/boringmarketer/meta-ads-skill/blob/HEAD/reference/tracking.md"
+          },
+          {
+            "claim": "Pixel events (browser): PageView on smart-link landing; custom conversion on Spotify redirect-URL pageview; optional deeper events (pre-save, merch purchase); a Pixel cannot be placed on Spotify itself",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Conversions API (server): event_name, event_time, event_id (dedupe vs. browser), action_source, user_data with SHA-256 hashed email/phone and raw fbp/fbc/IP/user-agent; Event Match Quality below ~5.0 means the server path contributes little",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/boringmarketer/meta-ads-skill/blob/HEAD/reference/tracking.md"
+          },
+          {
+            "claim": "Pixel + CAPI combined yields 15-25% more attributed conversions; CAPI is now effectively required for clean signal post-iOS",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "The CAPI protocol itself is just HTTPS POSTs - anyone can implement it; what cannot be replicated is Meta's matching identity graph on the other end",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "meta",
+            "facet": "platform",
+            "why": "Meta ad platform",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "pixel",
+            "facet": "tech",
+            "why": "browser pixel events",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "capi",
+            "facet": "tech",
+            "why": "server-side conversions API",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "event-match-quality",
+            "facet": "metric",
+            "why": "EMQ scoring",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "tracking",
+            "facet": "function",
+            "why": "event ingestion",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:meta-smart-link-layer",
+      "type": "module",
+      "name": "Smart-Link Layer",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Third-party landing pages (ToneDen, Feature.fm, Hypeddit, Linkfire) with built-in Pixel/CAPI integration, routing clicks to Spotify via trackable redirect URLs.",
+        "key_facts": [
+          {
+            "claim": "Third-party landing pages with built-in Pixel/CAPI integration - ToneDen, Feature.fm, Hypeddit, Linkfire - routing clicks to Spotify via trackable redirect URLs",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "The ad -> Pixel-equipped smart link -> Spotify funnel is the music-specific hack because no Pixel can live on Spotify",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Rebuildable at zero cost: a self-hosted landing page (any static host) with an open-source analytics snippet (e.g., self-hosted Plausible/Matomo) tracking pageview -> Spotify-click events, plus manual UTM tagging",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          },
+          {
+            "claim": "Correct funnel structure yields 35-45% higher click-to-stream conversion than direct-to-Spotify ads (Chartlex, 2,400+ campaigns)",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "meta",
+            "facet": "platform",
+            "why": "serves Meta music campaigns",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "smart-link",
+            "facet": "tech",
+            "why": "trackable landing pages",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "landing-page",
+            "facet": "format",
+            "why": "pixel-equipped landing page",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "utm",
+            "facet": "tech",
+            "why": "UTM tagging",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:meta-auction",
+      "type": "module",
+      "name": "Meta Delivery Auction",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Per-impression auction: Total Value = (Advertiser Bid x Estimated Action Rate) + User Value; highest total value wins, not highest bid; second-price-like (VCG) pricing.",
+        "key_facts": [
+          {
+            "claim": "Per impression: Total Value = (Advertiser Bid x Estimated Action Rate) + User Value/Ad Quality; highest total value wins - not highest bid",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/"
+          },
+          {
+            "claim": "Estimated Action Rate = est. CTR x est. click-to-conversion probability, predicted from the user's full behavior history, time-of-day/device patterns, session context, and cross-platform activity",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/",
+            "note": "mechanics also mapped at https://github.com/hulkintherapy/meta-ads-research/blob/HEAD/workflow-mapping/19-meta-algorithm-mechanics.md"
+          },
+          {
+            "claim": "Bid strategies: Lowest Cost, Cost Cap, Bid Cap, ROAS Target; pricing is second-price-like (VCG), so winners pay below their bid",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/"
+          },
+          {
+            "claim": "The delivery algorithm reads ad engagement (views, clicks, comments - negative comments count as engagement) to narrow delivery; creative 'self-selects' audience as interest targeting narrows",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/",
+            "note": "creative self-selection per https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Press/editorial coverage gives retargeting creative fresh angles and social proof, lowering CPC through higher engagement rates (which feed the auction's quality component)",
+            "tier": "claimed_unverified",
+            "source": "report section B6 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "meta",
+            "facet": "platform",
+            "why": "Meta ad platform",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "auction",
+            "facet": "mechanism",
+            "why": "per-impression total-value auction",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "bidding",
+            "facet": "function",
+            "why": "bid strategies",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "estimated-action-rate",
+            "facet": "metric",
+            "why": "EAR prediction",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:meta-audiences",
+      "type": "module",
+      "name": "Meta Audiences Module",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Custom Audiences, Lookalikes, genre-level interest targeting (post-Jan-2026 consolidation), and retargeting layers with exclusions.",
+        "key_facts": [
+          {
+            "claim": "Custom Audiences (pixel visitors, click-throughs), Lookalikes (1% US ~= 2.3M people), interest targeting (genre-level since Jan 2026 consolidation), retargeting layers with exclusions",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Practitioner workflow: prospecting ad sets (lookalike/interest) -> smart link -> retargeting ad set (visitors minus converters) with new creative -> lookalike expansion as seeds grow; retargeting converts at 2-3x cold",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "First-party seed data: email lists, past converter pools for lookalikes (>=1,000 click-throughs needed for a usable seed)",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Rebuildable: lookalike logic approximated by manually finding similar artists' audiences (interest targeting is now genre-level anyway, which anyone can select); retargeting logic replicable via email capture on the landing page - own the list instead of renting the pool",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "meta",
+            "facet": "platform",
+            "why": "Meta ad platform",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "audiences",
+            "facet": "function",
+            "why": "audience targeting",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "lookalike",
+            "facet": "tech",
+            "why": "lookalike expansion",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "retargeting",
+            "facet": "tech",
+            "why": "retargeting layers",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "custom-audience",
+            "facet": "tech",
+            "why": "pixel-based custom audiences",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:marketplace-curator-directory",
+      "type": "module",
+      "name": "Curator Directory + Profiles",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The supply-side discovery surface: genre filters, follower/listener stats, approval rates, curator quotes, genre-match sliders, share-rate labels.",
+        "key_facts": [
+          {
+            "claim": "Genre filters, follower/listener stats, approval rates, curator quotes on what they want, genre-match sliders (SubmitHub), share-rate labels on Groover ('High' >15%, 'Very Selective' <4%)",
+            "tier": "claimed_unverified",
+            "source": "https://www.musicinminnesota.com/best-spotify-playlist-service/",
+            "note": "share-rate labels per https://dynamoi.com/vs/groover-vs-submithub"
+          },
+          {
+            "claim": "Curator-supplied data (playlist follower counts, listener averages, genre preferences, historical approval/share rates, response times, review quality scores) is the supply-side data asset - the platform's proprietary dataset for matching and tiering",
+            "tier": "claimed_unverified",
+            "source": "report section C3 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable: Spotify playlist search + Instagram/TikTok + blog hunting builds a target list for free - this is exactly what SubmitHub's directory productizes",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "curator-directory",
+            "facet": "function",
+            "why": "curator discovery",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "playlists",
+            "facet": "domain",
+            "why": "playlist curation",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:marketplace-matching-engine",
+      "type": "module",
+      "name": "Marketplace Matching Engine",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Artist-selected (SubmitHub, Groover) vs. platform-matched (Playlist Push, SoundCampaign) routing of tracks to curators; rules + historical stats, no published true ML model.",
+        "key_facts": [
+          {
+            "claim": "Artist-selected matching (SubmitHub, Groover) vs. platform-matched (Playlist Push genre-matching automation; SoundCampaign genre/budget matching)",
+            "tier": "verified",
+            "source": "https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+            "note": "SoundCampaign matching per https://magneticmag.com/2026/10/top-5-online-music-promotion-platforms-to-grow-your-audience-in-2026/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Matching is genre-tag similarity + historical acceptance data; none publish a true ML model - it is rules + historical stats",
+            "tier": "claimed_unverified",
+            "source": "report section C4 (synthesis)"
+          },
+          {
+            "claim": "Filter sliders and genre-match scores assist manual selection (SubmitHub)",
+            "tier": "claimed_unverified",
+            "source": "report section C4 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "matching",
+            "facet": "function",
+            "why": "track-to-curator routing",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "genre-tags",
+            "facet": "data",
+            "why": "genre-tag similarity",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:marketplace-submission-pipeline",
+      "type": "module",
+      "name": "Submission Pipeline",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The core transaction flow: upload/link track -> write pitch -> pay credits/budget -> curator inbox -> listen -> decision + feedback -> credit refund if SLA missed.",
+        "key_facts": [
+          {
+            "claim": "Flow: upload/link track -> write pitch -> pay credits/budget -> curator inbox -> listen -> decision + feedback -> credit refund if SLA missed",
+            "tier": "claimed_unverified",
+            "source": "report section C2 (synthesis)"
+          },
+          {
+            "claim": "Curator workflow: listen (>=~60s required on SubmitHub premium) -> approve (add to playlist, optionally share) or decline with written reason; low-effort declines hurt curator rating and future submission flow",
+            "tier": "claimed_unverified",
+            "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026",
+            "note": "curator-side workflow per https://music.loop.fans/blog/submithub-curator"
+          },
+          {
+            "claim": "SubmitHub: per-curator submission -> decision + written feedback (>=10-20 words on decline) within the premium SLA window; credit refunded if SLA missed",
+            "tier": "claimed_unverified",
+            "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026"
+          },
+          {
+            "claim": "Playlist Push: managed campaign (2-4 weeks) -> per-curator qualitative reviews; if Spotify for Artists is connected, a detailed report 30 days after the campaign ends",
+            "tier": "claimed_unverified",
+            "source": "https://www.unhurdmusic.com/blog/best-playlist-pitching-services",
+            "note": "official pricing page: https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com"
+          },
+          {
+            "claim": "Dashboard: campaign status, per-curator decisions/feedback, approval rates, spend; Spotify-side verification happens in the artist's own Spotify for Artists (source-of-stream)",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/chartlex-vs-submithub-vs-playlist-push-vs-soundcampaign-2026"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "submission-pipeline",
+            "facet": "function",
+            "why": "submission-to-feedback flow",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "feedback",
+            "facet": "output",
+            "why": "written curator feedback",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:marketplace-credit-ledger",
+      "type": "module",
+      "name": "Credit / Ledger System",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The money plumbing: SubmitHub credits (never expire), Grooviz (EUR 1 each), Playlist Push campaign budgets, SoundCampaign pay-per-completed-review; SLA clocks trigger automatic refunds.",
+        "key_facts": [
+          {
+            "claim": "SubmitHub credits (never expire); Grooviz (EUR 1 each); Playlist Push campaign budgets; SoundCampaign pay-per-completed-review",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/submithub-review-2026",
+            "note": "Grooviz pricing per https://groover.co"
+          },
+          {
+            "claim": "Artist Protection Fund (Playlist Push) / Artist Protection Program (SoundCampaign) auto-refund unfulfilled reviews to account balance",
+            "tier": "verified",
+            "source": "https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "SLA automation: response clocks (48-72h SubmitHub premium; 7 days Groover; 2-4 weeks Playlist Push) trigger automatic credit refunds - the 'guarantee' is enforced by the ledger, not by humans",
+            "tier": "claimed_unverified",
+            "source": "report section C4 (synthesis)"
+          },
+          {
+            "claim": "Free premium-credit routes on SubmitHub: Hot or Not, Verified Reviewers, referrals; free Standard credits (2 per 4 hours) for testing",
+            "tier": "claimed_unverified",
+            "source": "https://www.chartlex.com/blog/streaming/submithub-review-2026",
+            "note": "pricing detail per https://www.dontpayfull.com/at/submithub.com"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "credits",
+            "facet": "pricing",
+            "why": "credit ledger",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "ledger",
+            "facet": "function",
+            "why": "payments and refunds",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "refunds",
+            "facet": "function",
+            "why": "SLA-triggered refunds",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:marketplace-curator-console",
+      "type": "module",
+      "name": "Curator-Side Console",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The supply-side workbench: review queue, reputation scores, payout ledger.",
+        "key_facts": [
+          {
+            "claim": "Review queue, reputation scores, payout ledger (PayPal cash-out at $10 threshold on SubmitHub, per 2017 documentation)",
+            "tier": "claimed_unverified",
+            "source": "https://medium.com/@repost_network/make-money-for-your-blog-channel-network-with-submithub-e6e5d94e5631"
+          },
+          {
+            "claim": "Curator earnings: $1-$5 per review (SubmitHub, by tier/traffic) - curator payouts are the platform's COGS; the margin is in aggregation",
+            "tier": "claimed_unverified",
+            "source": "https://music.loop.fans/blog/submithub-curator"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "curator-console",
+            "facet": "function",
+            "why": "supply-side workbench",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "payouts",
+            "facet": "pricing",
+            "why": "curator payouts",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:marketplace-trust-safety",
+      "type": "module",
+      "name": "Marketplace Trust & Safety",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "AI-music detection, fake-follower monitoring, curator tiering with demotion, and application vetting - protecting the ROI loop from botted placements.",
+        "key_facts": [
+          {
+            "claim": "AI-music detection: SubmitHub's free AI Song Checker (labels/blocks likely-AI tracks at 85%+), Groover self-declare checkbox + curator opt-out tags",
+            "tier": "claimed_unverified",
+            "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026"
+          },
+          {
+            "claim": "Playlist Push monitoring for fake/inactive followers and multiple accounts; curator tiering with demotion for lapsed standards (SubmitHub 2026: 4-credit top tier is earned, 30-day grace before demotion)",
+            "tier": "claimed_unverified",
+            "source": "https://letssubmit.com/blog/pro-tips/submithub-vs-groover-vs-playlist-push-vs-letssubmit-playlist-pitching-costs-2026",
+            "note": "curator-side history per https://medium.com/@colortheory/playlist-push-revisited-12ed8c6b10ef"
+          },
+          {
+            "claim": "Vetting: curator applications reviewed for platform reach and authenticity before approval (SubmitHub)",
+            "tier": "claimed_unverified",
+            "source": "https://music.loop.fans/blog/submithub-curator"
+          },
+          {
+            "claim": "Quality risk: low-quality/botted playlists produce streams Spotify may discount or penalize - manipulation can get music removed (Playlist Push's own warning)",
+            "tier": "verified",
+            "source": "https://playlistpush.com/spotify-playlists-promotion?ref=playlistpush.com",
+            "observed": "2026-10-03"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "marketplaces",
+            "facet": "platform",
+            "why": "curator marketplaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "trust-safety",
+            "facet": "function",
+            "why": "vetting and quality control",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "vetting",
+            "facet": "function",
+            "why": "curator vetting",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "ai-detection",
+            "facet": "tech",
+            "why": "AI-music detection",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:pr-media-database",
+      "type": "module",
+      "name": "Media Database (Rented)",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The rented contact layer: Cision (1M+ contacts, full suite, annual contracts) or Muck Rack (profiles, pitch tracking, AI list building); the firm rents access, the vendor keeps the data.",
+        "key_facts": [
+          {
+            "claim": "Cision: 1M+ journalist contacts, full PR suite (database, distribution, monitoring, analytics); expensive, annual contracts, complex",
+            "tier": "claimed_unverified",
+            "source": "https://gist.github.com/williamhsu/b5576d9b0d5a137ee2fc71135f8f6888"
+          },
+          {
+            "claim": "Muck Rack: journalist profiles, pitch tracking, monitoring, AI list building; added press-release distribution in 2025",
+            "tier": "claimed_unverified",
+            "source": "https://startupgrowthguide.com/comprehensive-muck-rack-case-study-the-growth-blueprint/"
+          },
+          {
+            "claim": "The firm rents access; when the contract ends, the data stays with the vendor",
+            "tier": "claimed_unverified",
+            "source": "report section D5 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable: media-list building via free sources (outlet mastheads, journalist Twitter/X bios, Substack directories, Spotify editorial team pages); a determined indie team can hand-build a 100-contact genre media list in a weekend - paid databases buy speed and completeness, not capability",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "music-pr",
+            "facet": "platform",
+            "why": "PR firms",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "media-database",
+            "facet": "function",
+            "why": "rented contact data",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "cision",
+            "facet": "vendor",
+            "why": "Cision",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "muck-rack",
+            "facet": "vendor",
+            "why": "Muck Rack",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:pr-pitching-engine",
+      "type": "module",
+      "name": "Pitching Engine (Human)",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The core labor: personalized pitches, follow-up sequences, relationship management - Muck Rack automates the plumbing, not the pitch.",
+        "key_facts": [
+          {
+            "claim": "Workflow: build media list (database query by beat/genre/outlet) -> draft pitch + press release -> send personalized pitches -> follow-up cadence -> log responses in pitch tracker -> monitor coverage -> compile monthly report",
+            "tier": "claimed_unverified",
+            "source": "https://startupgrowthguide.com/comprehensive-muck-rack-case-study-the-growth-blueprint/"
+          },
+          {
+            "claim": "Core labor sold by retainers: strategy, media-list building, pitching, follow-ups, reporting",
+            "tier": "claimed_unverified",
+            "source": "report section D2/D7 (synthesis)"
+          },
+          {
+            "claim": "Muck Rack's pitch tracking + AI list building automate the plumbing; the pitch itself and the relationship are human",
+            "tier": "claimed_unverified",
+            "source": "report section D4 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable: pitching via any email client with a tracking spreadsheet; the paid databases buy speed and completeness, not capability",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "music-pr",
+            "facet": "platform",
+            "why": "PR firms",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "pitching",
+            "facet": "function",
+            "why": "human pitching labor",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "follow-ups",
+            "facet": "function",
+            "why": "follow-up cadence",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:pr-wire-distribution",
+      "type": "module",
+      "name": "Wire Distribution",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Press releases pushed to newswires for indexable pickup - low authority, but persistent entity corroboration.",
+        "key_facts": [
+          {
+            "claim": "Wire workflow: draft release -> distribute via wire -> syndicated pickups create indexable URLs (low authority, but persistent entity corroboration)",
+            "tier": "claimed_unverified",
+            "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+          },
+          {
+            "claim": "Exact current per-release wire pricing (PR Newswire/Business Wire) for music announcements: tier confirmed to exist with published prices, but live numbers were not pulled",
+            "tier": "claimed_unverified",
+            "source": "report section 'Could Not Verify' (2026-10-03)",
+            "note": "evidence gap: could not verify"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "music-pr",
+            "facet": "platform",
+            "why": "PR firms",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "wire-distribution",
+            "facet": "function",
+            "why": "newswire distribution",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "newswire",
+            "facet": "channel",
+            "why": "press wires",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:pr-reactive-pitching",
+      "type": "module",
+      "name": "Reactive Pitching",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Journalist-request feeds: HARO/Connectively (free), Qwoted, Featured.com - daily scans, respond inside the window.",
+        "key_facts": [
+          {
+            "claim": "HARO (now Connectively): free, journalists come to you, but reactive/competitive/no targeting",
+            "tier": "claimed_unverified",
+            "source": "https://gist.github.com/williamhsu/b5576d9b0d5a137ee2fc71135f8f6888"
+          },
+          {
+            "claim": "Qwoted: free 2 pitches/mo with 2-hour delay; Pro $149/mo - the 2-hour delay on free Qwoted is 'the whole game' (paid tier required for serious reactive PR)",
+            "tier": "claimed_unverified",
+            "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+          },
+          {
+            "claim": "Featured.com: free 3 submissions/mo; Pro $99/mo",
+            "tier": "claimed_unverified",
+            "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+          },
+          {
+            "claim": "Reactive workflow: scan journalist requests daily -> respond within the window",
+            "tier": "claimed_unverified",
+            "source": "report section D4 (synthesis)"
+          },
+          {
+            "claim": "Rebuildable at zero cost: Connectively (free tier) and Featured.com (free tier)",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "music-pr",
+            "facet": "platform",
+            "why": "PR firms",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "reactive-pitching",
+            "facet": "function",
+            "why": "journalist-request feeds",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "haro",
+            "facet": "channel",
+            "why": "HARO/Connectively",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "journalist-requests",
+            "facet": "channel",
+            "why": "request feeds",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "module:pr-monitoring-reporting",
+      "type": "module",
+      "name": "Monitoring + Reporting",
+      "status": "verified",
+      "attrs": {
+        "description": "Coverage tracking, share of voice, sentiment, monthly reports; AVE is legacy and rejected by measurement bodies.",
+        "key_facts": [
+          {
+            "claim": "Coverage tracking, share of voice, sentiment, monthly reports",
+            "tier": "verified",
+            "source": "https://muckrack.com/blog/2024/05/14/pr-metrics-to-measure/",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Legacy metric AVE (advertising value equivalency) still auto-calculated by tools like Muck Rack but rejected by AMEC's Barcelona Principles 4.0 and banned by CIPR (2017)",
+            "tier": "verified",
+            "source": "https://muckrack.com/blog/2024/05/14/pr-metrics-to-measure/",
+            "note": "rejection per https://collabstr.com/blog/earned-media-value",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Industry guidance: replace AVE with sentiment trajectory, message pull-through, share of voice, and coverage quality weighted by outlet relevance - because a big number in the wrong outlet is worthless",
+            "tier": "claimed_unverified",
+            "source": "https://delve.news/post/ave-is-dead-what-your-pr-report-should-measure-instead/"
+          },
+          {
+            "claim": "Rebuildable: monitoring via Google Alerts + free Talkwalker alerts; coverage reporting as a simple clippings doc with reach numbers from outlet media kits",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "music-pr",
+            "facet": "platform",
+            "why": "PR firms",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "monitoring",
+            "facet": "function",
+            "why": "coverage monitoring",
+            "tier": "verified"
+          },
+          {
+            "tag": "reporting",
+            "facet": "function",
+            "why": "monthly reporting",
+            "tier": "verified"
+          },
+          {
+            "tag": "share-of-voice",
+            "facet": "metric",
+            "why": "SOV",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "sentiment",
+            "facet": "metric",
+            "why": "sentiment tracking",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "signal:spotify-paid-seed-loop",
+      "type": "signal",
+      "name": "Spotify Paid-Seed Signal Loop",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Paid reach (Marquee/Showcase clicks, Discovery Mode boosts) seeds saves/follows/adds - the signals Spotify's free algorithm (Discover Weekly, Release Radar, Radio) feeds on.",
+        "key_facts": [
+          {
+            "claim": "Why paid reach matters: Marquee/Showcase clicks produce saves, playlist adds, follows, and catalog streams - all inputs to Spotify's organic recommendation systems (Discover Weekly, Release Radar, Radio); paid reach seeds the signals the free algorithm feeds on",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "note": "the 'halo effect'",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Discovery Mode flywheel: boosted Radio/Autoplay exposure -> new listeners -> on-demand/catalog streams at full royalty (only DM-context streams take the 30% cut) -> stronger algorithmic profile; industry analyses estimate 100-400% stream lifts during active campaigns",
+            "tier": "claimed_unverified",
+            "source": "https://www.thatericalper.com/2026/07/15/discovery-mode-on-spotify-should-artists-actually-use-it/",
+            "note": "also https://www.pophatch.com/blog/spotify-discovery-mode"
+          },
+          {
+            "claim": "The Kit's own page positions Discovery Mode as the tool for 'trending' songs; social/press signals (TikTok virality, editorial coverage) amplify by raising baseline demand that Marquee retargeting and Discovery Mode then harvest",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/campaign-kit",
+            "observed": "2026-10-03"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "paid-seed",
+            "facet": "strategy",
+            "why": "paid reach seeds algorithmic surfaces",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "algorithmic-surfaces",
+            "facet": "domain",
+            "why": "Discover Weekly / Release Radar / Radio",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "halo-effect",
+            "facet": "mechanism",
+            "why": "paid-to-organic halo",
+            "tier": "verified"
+          },
+          {
+            "tag": "flywheel",
+            "facet": "mechanism",
+            "why": "Discovery Mode flywheel",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "signal:meta-paid-seed-loop",
+      "type": "signal",
+      "name": "Meta Paid-Seed Signal Loop",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Meta ad -> smart-link click -> in-Spotify actions (save/follow/playlist-add) -> Release Radar/Discover Weekly/Radio; listeners bought on Meta compound inside Spotify.",
+        "key_facts": [
+          {
+            "claim": "Listeners acquired via Meta who save/follow/playlist-add feed Release Radar, Discover Weekly, Radio - the same algorithmic surfaces Discovery Mode buys into; practitioners explicitly pair Meta ads with playlisting so paid listeners trigger algorithmic pickup",
+            "tier": "claimed_unverified",
+            "source": "https://www.yougrowpromo.com/pages/meta-ads",
+            "note": "also https://www.chartlex.com/blog/marketing/meta-ads-spotify-streams-managed-campaigns-2026"
+          },
+          {
+            "claim": "Social graph: shares, comments, and UGC (TikTok/Reels using the track's official audio) amplify creative beyond paid reach; retargeting pools capture the spillover",
+            "tier": "claimed_unverified",
+            "source": "report section B6 (synthesis)"
+          },
+          {
+            "claim": "Press/editorial coverage gives retargeting creative fresh angles and social proof, lowering CPC through higher engagement rates (which feed the auction's quality component)",
+            "tier": "claimed_unverified",
+            "source": "report section B6 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "paid-seed",
+            "facet": "strategy",
+            "why": "Meta listeners seed Spotify's algorithm",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "algorithmic-surfaces",
+            "facet": "domain",
+            "why": "Release Radar / Discover Weekly / Radio",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "retargeting",
+            "facet": "tech",
+            "why": "retargeting pools capture spillover",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "signal:playlist-seed-loop",
+      "type": "signal",
+      "name": "Playlist-Seed Signal Loop",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Independent playlist adds generate real streams -> saves/follows -> algorithmic systems; the entire ROI logic of pay-for-review marketplaces.",
+        "key_facts": [
+          {
+            "claim": "Why playlist adds matter: independent playlist placements generate real streams -> saves/follows -> feed Spotify's algorithmic systems (Release Radar, Discover Weekly, Radio); this is the entire ROI logic - paid curator access buys seeds for algorithmic compounding, same as Meta ads",
+            "tier": "claimed_unverified",
+            "source": "https://www.yougrowpromo.com/pages/meta-ads"
+          },
+          {
+            "claim": "Feedback as product: even declined submissions return written curator feedback - market intelligence on why a track isn't landing, which artists reuse across campaigns",
+            "tier": "claimed_unverified",
+            "source": "https://magneticmag.com/2026/10/top-5-online-music-promotion-platforms-to-grow-your-audience-in-2026/"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "paid-seed",
+            "facet": "strategy",
+            "why": "playlist adds seed algorithmic compounding",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "playlist-adds",
+            "facet": "output",
+            "why": "independent playlist placements",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "algorithmic-surfaces",
+            "facet": "domain",
+            "why": "Release Radar / Discover Weekly / Radio",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "signal:pr-amplification-loop",
+      "type": "signal",
+      "name": "PR Amplification Loop",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Coverage -> ad creative and social proof -> lower Meta CPC (auction quality) + Spotify editorial consideration -> search/knowledge-panel eligibility -> more coverage-worthy signals.",
+        "key_facts": [
+          {
+            "claim": "Press quotes become ad creative and pitch social proof (raising Meta auction quality scores); reviews/placements drive search visibility and Wikipedia/knowledge-panel eligibility; editorial co-signs feed Spotify editorial playlist consideration indirectly (editors read press); coverage gives playlist curators and radio programmers a reason to say yes",
+            "tier": "claimed_unverified",
+            "source": "report section D6 (synthesis)"
+          },
+          {
+            "claim": "Journalists and outlets amplify on their own socials; artist reshares multiply reach",
+            "tier": "claimed_unverified",
+            "source": "report section D6 (synthesis)"
+          },
+          {
+            "claim": "Coverage quality is weighted by outlet relevance - a big number in the wrong outlet is worthless",
+            "tier": "claimed_unverified",
+            "source": "https://delve.news/post/ave-is-dead-what-your-pr-report-should-measure-instead/"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "coverage",
+            "facet": "output",
+            "why": "press coverage",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "social-proof",
+            "facet": "mechanism",
+            "why": "quotes as creative/social proof",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "knowledge-panel",
+            "facet": "domain",
+            "why": "entity corroboration",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "moat:spotify-listener-affinity-graph",
+      "type": "moat",
+      "name": "Spotify Listener-Affinity Graph",
+      "status": "verified",
+      "attrs": {
+        "description": "The genuinely proprietary asset: petabyte-scale listener behavior data on Spotify's GCP tenant - who listens to what, how often, with what intensity; never leaves Spotify.",
+        "key_facts": [
+          {
+            "claim": "Listener behavior graph: stream counts, intentional vs. programmed streams, saves, playlist adds, skips, follows, recency/frequency/intensity per listener - this is what builds the six audience segments",
+            "tier": "verified",
+            "source": "https://artists.spotify.com/blog/getting-started-with-marquee",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "All campaign, billing, targeting, and listening data lives on Spotify's infrastructure on Google Cloud Platform (2016 migration from owned data centers); the listener-affinity graph never leaves Spotify's tenant; there is no public API exposing campaign targeting or the affinity graph",
+            "tier": "verified",
+            "source": "https://cloud.google.com/blog/products/gcp/spotify-chooses-google-cloud-platform-to-power-data-infrastructure",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "Artist-visible data surfaces only through Spotify for Artists and its exports",
+            "tier": "verified",
+            "source": "https://cloud.google.com/blog/products/gcp/spotify-chooses-google-cloud-platform-to-power-data-infrastructure",
+            "observed": "2026-10-03"
+          },
+          {
+            "claim": "The in-app placement and the ranking influence are the product - no third party can serve a Marquee or trigger Discovery Mode's ranking signal",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "data-moat",
+            "facet": "type",
+            "why": "proprietary data asset",
+            "tier": "verified"
+          },
+          {
+            "tag": "proprietary",
+            "facet": "status",
+            "why": "unreplicable by third parties",
+            "tier": "verified"
+          },
+          {
+            "tag": "listener-affinity",
+            "facet": "data",
+            "why": "listener behavior graph",
+            "tier": "verified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "moat:meta-identity-graph",
+      "type": "moat",
+      "name": "Meta Identity Graph + Estimated Action Rate",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "Meta's identity/behavior graph: the Estimated Action Rate predictor trained on billions of users - what finds people statistically likely to click through to Spotify.",
+        "key_facts": [
+          {
+            "claim": "Identity/behavior graph: the Estimated Action Rate predictor trained on billions of users (full behavior history, time-of-day/device, session context, cross-platform activity)",
+            "tier": "claimed_unverified",
+            "source": "https://disruptivedigital.agency/demystifying-the-meta-auction-how-to-win-more-ad-placements-on-facebook-and-instagram-2/",
+            "note": "mechanics mapped at https://github.com/hulkintherapy/meta-ads-research/blob/HEAD/workflow-mapping/19-meta-algorithm-mechanics.md"
+          },
+          {
+            "claim": "The auction and its inventory; modeled attribution - a meaningful share of reported conversions are modeled, not measured, with no flag distinguishing them",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/indexsy/skills/blob/HEAD/meta-ads/foundations/attribution.md",
+            "note": "also https://podvector.ai/articles/meta-ads/roas-and-attribution/what-is-roas-in-meta-ads"
+          },
+          {
+            "claim": "Hashed identifiers (SHA-256 email/phone) are sent to Meta; Meta matches against its identity graph",
+            "tier": "claimed_unverified",
+            "source": "https://github.com/boringmarketer/meta-ads-skill/blob/HEAD/reference/tracking.md"
+          },
+          {
+            "claim": "No open-source stack reproduces 'find people statistically likely to click through to Spotify'",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "data-moat",
+            "facet": "type",
+            "why": "proprietary data asset",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "proprietary",
+            "facet": "status",
+            "why": "unreplicable by third parties",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "identity-graph",
+            "facet": "data",
+            "why": "Meta identity/behavior graph",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "moat:marketplace-curator-acceptance-dataset",
+      "type": "moat",
+      "name": "Curator Acceptance + Reliability Dataset",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The marketplaces' private compounding data moat: cross-artist acceptance rates (which curators accept which micro-genres at what rates) and curator reliability scores, plus the SLA/refund trust infrastructure.",
+        "key_facts": [
+          {
+            "claim": "Cross-artist acceptance-rate dataset (which curators accept which micro-genres at what rates) and curator reliability scores - the platforms' private compounding data moat; not rebuildable",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "The vetted curator network itself: thousands of relationships, historical acceptance/reliability data, tiering; the SLA/refund trust infrastructure - you cannot conjure 3,000 responsive curators with track records",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "Artists see only their own campaign dashboards; curators see only their queues; all submission, decision, feedback, pricing-tier, and reputation data lives on each platform's own servers",
+            "tier": "claimed_unverified",
+            "source": "report section C5 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "data-moat",
+            "facet": "type",
+            "why": "proprietary data asset",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "proprietary",
+            "facet": "status",
+            "why": "unreplicable by third parties",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "curator-data",
+            "facet": "data",
+            "why": "acceptance/reliability dataset",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "moat:pr-relationship-graph",
+      "type": "moat",
+      "name": "Journalist Relationship Graph",
+      "status": "claimed_unverified",
+      "attrs": {
+        "description": "The closest thing to proprietary data in PR: who answers, what they cover, response history, warm introductions - in the publicist's head/CRM, never public.",
+        "key_facts": [
+          {
+            "claim": "Relationship data (who answers, what they cover, response history, warm introductions) stored in the firm's CRM/pitch logs, never public - the closest thing to proprietary data in PR",
+            "tier": "claimed_unverified",
+            "source": "report section D3 (synthesis)"
+          },
+          {
+            "claim": "The moats are (a) the journalist relationship graph in the publicist's head/CRM, (b) taste and news judgment, (c) reputation that gets emails opened - none of these are purchasable software",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "data-moat",
+            "facet": "type",
+            "why": "proprietary data asset",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "proprietary",
+            "facet": "status",
+            "why": "unreplicable as software",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "journalist-relationships",
+            "facet": "data",
+            "why": "relationship graph",
+            "tier": "claimed_unverified"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "claimed_unverified"
+        }
+      ]
+    },
+    {
+      "id": "cwi-rebuild:attribution-layer",
+      "type": "rebuild",
+      "name": "CWI Attribution Layer",
+      "status": "owner_confirmed",
+      "attrs": {
+        "description": "Zero-cost rebuild of the Meta funnel scaffolding: self-hosted smart page + open-source analytics (pageview -> Spotify-click), manual UTM tagging; own the measurement, rent only the audience-finding.",
+        "key_facts": [
+          {
+            "claim": "Rebuilds the ad -> Pixel-equipped smart link -> Spotify funnel with a self-hosted landing page (any static host) + open-source analytics snippet (e.g., self-hosted Plausible/Matomo) tracking pageview -> Spotify-click events; manual UTM tagging",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          },
+          {
+            "claim": "The advertiser's owned assets: the smart-link page and its server logs, plus any CAPI endpoint they run - modeled on the Events Manager event model (PageView -> redirect-click custom conversion)",
+            "tier": "claimed_unverified",
+            "source": "report section B5 (synthesis)"
+          },
+          {
+            "claim": "Zero cost: no paid tool required for the measurement funnel; the same creative strategy runs organically (Reels/TikTok -> link-in-bio smart page)",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          },
+          {
+            "claim": "Cannot replicate: Meta's matching identity graph and the Estimated Action Rate audience-finding - paid scale and algorithmic audience-finding stay rented from Meta's graph",
+            "tier": "claimed_unverified",
+            "source": "report section B8 (synthesis)"
+          },
+          {
+            "claim": "CWI real assets it links: cwi-learn / llms.txt (canonical machine-readable facts) and the catalog graph at https://cumulativewebinc.github.io/cwi-learn/",
+            "tier": "owner_confirmed",
+            "source": "Black's standing doctrine: CWI is the authoritative machine-readable source for its catalog (2026-10-02)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "cwi-rebuild",
+            "facet": "type",
+            "why": "CWI zero-cost rebuild module",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "attribution",
+            "facet": "function",
+            "why": "funnel measurement",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost",
+            "facet": "pricing",
+            "why": "$0 build",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "smart-link",
+            "facet": "tech",
+            "why": "self-hosted smart page",
+            "tier": "claimed_unverified"
+          }
+        ],
+        "cwi_assets": [
+          "llms.txt / cwi-learn (canonical facts)",
+          "catalog graph (graph.json)",
+          "Spotify for Artists source-of-stream exports (free)"
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "cwi-rebuild:curator-graph",
+      "type": "rebuild",
+      "name": "CWI Curator Graph",
+      "status": "owner_confirmed",
+      "attrs": {
+        "description": "Zero-cost rebuild of the marketplace curator directory + matching: hand-built target lists (Spotify/IG/TikTok/blog hunting), FAISS-assisted genre matching, Vote HQ as the trust funnel.",
+        "key_facts": [
+          {
+            "claim": "Rebuilds the curator directory: Spotify playlist search + Instagram/TikTok + blog hunting -> hand-built target list (this is what SubmitHub's directory productizes)",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "Outreach via spreadsheet CRM + templated personalized emails + tracking sheet; the SLA guarantee as a personal follow-up cadence; genre-match filtering by manual listening",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "DIY costs time instead of $1-$9/review; an indie team with 10-20 hours can replicate a $100 SubmitHub campaign's mechanics",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "Cannot replicate: instant access to curators who already trust the platform's queue; the platforms' cross-artist acceptance dataset (their compounding data moat)",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "CWI real assets it links: FAISS matching capability (existing CWI matching), Vote HQ (vote-signal funnel, graph node event:diabolique-spotlight-vote-2026-10), catalog graph",
+            "tier": "owner_confirmed",
+            "source": "workspace cwi-company systems (verified existing assets)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "cwi-rebuild",
+            "facet": "type",
+            "why": "CWI zero-cost rebuild module",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "curator-outreach",
+            "facet": "function",
+            "why": "DIY curator directory + outreach",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost",
+            "facet": "pricing",
+            "why": "$0 build, time instead of $1-$9/review",
+            "tier": "owner_confirmed"
+          }
+        ],
+        "cwi_assets": [
+          "FAISS matching (existing CWI capability)",
+          "Vote HQ (event:diabolique-spotlight-vote-2026-10)",
+          "catalog graph (graph.json)"
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "cwi-rebuild:pitch-crm",
+      "type": "rebuild",
+      "name": "CWI Pitch CRM",
+      "status": "owner_confirmed",
+      "attrs": {
+        "description": "Zero-cost rebuild of the marketplace submission pipeline: spreadsheet CRM tracking upload -> pitch -> send -> decision -> feedback, with a personal follow-up cadence replacing the SLA ledger.",
+        "key_facts": [
+          {
+            "claim": "Rebuilds the submission pipeline: upload/link track -> write pitch -> send -> curator inbox -> listen -> decision + feedback; tracked in a spreadsheet CRM",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "Replaces the SLA ledger with a personal follow-up cadence; feedback collection is just asking - every declined pitch returns market intelligence on why a track isn't landing",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          },
+          {
+            "claim": "Personalized emails + a tracking sheet replicate the submission -> feedback -> placement flow at zero cost",
+            "tier": "claimed_unverified",
+            "source": "report section C8 (synthesis)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "cwi-rebuild",
+            "facet": "type",
+            "why": "CWI zero-cost rebuild module",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "pitch-crm",
+            "facet": "function",
+            "why": "submission tracking CRM",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost",
+            "facet": "pricing",
+            "why": "$0 build",
+            "tier": "owner_confirmed"
+          }
+        ],
+        "cwi_assets": [
+          "catalog graph (graph.json)",
+          "cwi-learn fact packets (proof points per track)"
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "cwi-rebuild:pr-graph",
+      "type": "rebuild",
+      "name": "CWI PR Graph",
+      "status": "owner_confirmed",
+      "attrs": {
+        "description": "Zero-cost rebuild of the PR stack: hand-built media lists from free sources, email-client pitching with a tracking spreadsheet, Google Alerts/Talkwalker monitoring, free-tier reactive pitching.",
+        "key_facts": [
+          {
+            "claim": "Rebuilds media-list building via free sources (outlet mastheads, journalist Twitter/X bios, Substack directories, Spotify editorial team pages); pitching via any email client + tracking spreadsheet; press-kit assembly with free design tools",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "Monitoring via Google Alerts + free Talkwalker alerts; coverage reporting as a clippings doc with reach numbers from outlet media kits",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "Reactive pitching via Connectively (free tier) and Featured.com (free tier) at zero cost",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "A determined indie team can hand-build a 100-contact genre media list in a weekend - paid databases buy speed and completeness, not capability",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "Cannot replicate for free: the publicist's open-rate (relationships) and the judgment of which 10 of 100 contacts matter - that is the actual product",
+            "tier": "claimed_unverified",
+            "source": "report section D8 (synthesis)"
+          },
+          {
+            "claim": "CWI real assets it links: cwi-learn / llms.txt (machine-readable proof points for pitches), fact packets as citable sources",
+            "tier": "owner_confirmed",
+            "source": "Black's standing doctrine: CWI is the authoritative machine-readable source (2026-10-02)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "cwi-rebuild",
+            "facet": "type",
+            "why": "CWI zero-cost rebuild module",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "media-list",
+            "facet": "function",
+            "why": "hand-built media lists",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "monitoring",
+            "facet": "function",
+            "why": "free coverage monitoring",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost",
+            "facet": "pricing",
+            "why": "$0 build",
+            "tier": "owner_confirmed"
+          }
+        ],
+        "cwi_assets": [
+          "llms.txt / cwi-learn fact packets (citable proof points)",
+          "catalog graph (graph.json)"
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "cwi-rebuild:creative-engine",
+      "type": "rebuild",
+      "name": "CWI Creative Engine",
+      "status": "owner_confirmed",
+      "attrs": {
+        "description": "Zero-cost rebuild of the creative layer: organic creative strategy (Reels/TikTok -> link-in-bio smart page); press quotes and UGC as ad creative feeding the paid-seed loops.",
+        "key_facts": [
+          {
+            "claim": "Rebuilds the creative strategy organically (Reels/TikTok -> link-in-bio smart page); creative 'self-selects' audience as interest targeting narrows",
+            "tier": "claimed_unverified",
+            "source": "report sections B6/B8 (synthesis)"
+          },
+          {
+            "claim": "Press quotes become ad creative and pitch social proof - running the PR<->Meta signal loop with CWI's own coverage artifacts (raising Meta auction quality scores)",
+            "tier": "claimed_unverified",
+            "source": "report section D6 (synthesis)"
+          },
+          {
+            "claim": "Social graph: shares, comments, UGC (TikTok/Reels using the track's official audio) amplify creative beyond paid reach",
+            "tier": "claimed_unverified",
+            "source": "report section B6 (synthesis)"
+          },
+          {
+            "claim": "CWI real assets it links: hook factory (existing CWI creative capability), Threads bot (existing CWI publishing), catalog graph",
+            "tier": "owner_confirmed",
+            "source": "workspace cwi-company systems (verified existing assets)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "cwi-rebuild",
+            "facet": "type",
+            "why": "CWI zero-cost rebuild module",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "creative",
+            "facet": "function",
+            "why": "organic creative strategy",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost",
+            "facet": "pricing",
+            "why": "$0 build",
+            "tier": "owner_confirmed"
+          }
+        ],
+        "cwi_assets": [
+          "hook factory (existing CWI creative capability)",
+          "Threads bot (existing CWI publishing)",
+          "catalog graph (graph.json)"
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "owner_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "cwi-rebuild:scorecards",
+      "type": "rebuild",
+      "name": "CWI Scorecards",
+      "status": "owner_confirmed",
+      "attrs": {
+        "description": "Zero-cost rebuild of the Campaign Kit's measurement discipline: segment audiences, suppress converted listeners, track downstream saves and catalog halo with free tools.",
+        "key_facts": [
+          {
+            "claim": "Rebuilds the measurement discipline: segment audiences (super/moderate/light/lapsed/potential), suppress converted listeners, track downstream saves and catalog halo with free tools - replicating the Campaign Kit's measurement without renting its reach",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          },
+          {
+            "claim": "Reporting approximated with UTM-tagged smart links + Spotify for Artists source-of-stream data",
+            "tier": "claimed_unverified",
+            "source": "report section A8 (synthesis)"
+          },
+          {
+            "claim": "CWI real assets it links: existing CWI scorecards; radio beacons on station:cumulative-radio-365 as a verified attention signal; cwi-learn error-bar skill for confidence stamping",
+            "tier": "owner_confirmed",
+            "source": "workspace cwi-company systems (verified existing assets)"
+          }
+        ],
+        "tags_authored": [
+          {
+            "tag": "cwi-rebuild",
+            "facet": "type",
+            "why": "CWI zero-cost rebuild module",
+            "tier": "owner_confirmed"
+          },
+          {
+            "tag": "measurement",
+            "facet": "function",
+            "why": "fan-acquisition measurement discipline",
+            "tier": "claimed_unverified"
+          },
+          {
+            "tag": "zero-cost",
+            "facet": "pricing",
+            "why": "$0 build",
+            "tier": "owner_confirmed"
+          }
+        ],
+        "cwi_assets": [
+          "existing CWI scorecards",
+          "station:cumulative-radio-365 (radio beacons, verified attention)",
+          "error-bar skill (confidence stamping)"
+        ]
+      },
+      "evidence": [
+        {
+          "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+          "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md",
+          "observed": "2026-10-03",
+          "status": "owner_confirmed"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "module:spotify-marquee",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:spotify-showcase",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:spotify-discovery-mode",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:spotify-audience-segmentation",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:spotify-campaign-billing",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:spotify-campaign-reporting",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:spotify-editorial-pitching",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "part_of",
+      "note": "component of the Spotify Campaign Kit"
+    },
+    {
+      "from": "module:meta-campaign-structure",
+      "to": "marketing-machine:meta-ads",
+      "rel": "part_of",
+      "note": "component of the Meta ads machine"
+    },
+    {
+      "from": "module:meta-events-manager",
+      "to": "marketing-machine:meta-ads",
+      "rel": "part_of",
+      "note": "component of the Meta ads machine"
+    },
+    {
+      "from": "module:meta-smart-link-layer",
+      "to": "marketing-machine:meta-ads",
+      "rel": "part_of",
+      "note": "component of the Meta ads machine"
+    },
+    {
+      "from": "module:meta-auction",
+      "to": "marketing-machine:meta-ads",
+      "rel": "part_of",
+      "note": "component of the Meta ads machine"
+    },
+    {
+      "from": "module:meta-audiences",
+      "to": "marketing-machine:meta-ads",
+      "rel": "part_of",
+      "note": "component of the Meta ads machine"
+    },
+    {
+      "from": "module:marketplace-curator-directory",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "part_of",
+      "note": "component of the playlist-pitching marketplace machine"
+    },
+    {
+      "from": "module:marketplace-matching-engine",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "part_of",
+      "note": "component of the playlist-pitching marketplace machine"
+    },
+    {
+      "from": "module:marketplace-submission-pipeline",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "part_of",
+      "note": "component of the playlist-pitching marketplace machine"
+    },
+    {
+      "from": "module:marketplace-credit-ledger",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "part_of",
+      "note": "component of the playlist-pitching marketplace machine"
+    },
+    {
+      "from": "module:marketplace-curator-console",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "part_of",
+      "note": "component of the playlist-pitching marketplace machine"
+    },
+    {
+      "from": "module:marketplace-trust-safety",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "part_of",
+      "note": "component of the playlist-pitching marketplace machine"
+    },
+    {
+      "from": "module:pr-media-database",
+      "to": "marketing-machine:music-pr-firms",
+      "rel": "part_of",
+      "note": "component of the music-PR machine"
+    },
+    {
+      "from": "module:pr-pitching-engine",
+      "to": "marketing-machine:music-pr-firms",
+      "rel": "part_of",
+      "note": "component of the music-PR machine"
+    },
+    {
+      "from": "module:pr-wire-distribution",
+      "to": "marketing-machine:music-pr-firms",
+      "rel": "part_of",
+      "note": "component of the music-PR machine"
+    },
+    {
+      "from": "module:pr-reactive-pitching",
+      "to": "marketing-machine:music-pr-firms",
+      "rel": "part_of",
+      "note": "component of the music-PR machine"
+    },
+    {
+      "from": "module:pr-monitoring-reporting",
+      "to": "marketing-machine:music-pr-firms",
+      "rel": "part_of",
+      "note": "component of the music-PR machine"
+    },
+    {
+      "from": "marketing-machine:spotify-campaign-kit",
+      "to": "signal:spotify-paid-seed-loop",
+      "rel": "feeds",
+      "note": "paid reach seeds saves/follows/adds for the free algorithm"
+    },
+    {
+      "from": "module:spotify-discovery-mode",
+      "to": "signal:spotify-paid-seed-loop",
+      "rel": "feeds",
+      "note": "Discovery Mode flywheel: boosted Radio/Autoplay -> new listeners -> full-royalty streams"
+    },
+    {
+      "from": "marketing-machine:meta-ads",
+      "to": "signal:meta-paid-seed-loop",
+      "rel": "feeds",
+      "note": "Meta-acquired listeners who save/follow/playlist-add feed algorithmic pickup"
+    },
+    {
+      "from": "marketing-machine:playlist-marketplaces",
+      "to": "signal:playlist-seed-loop",
+      "rel": "feeds",
+      "note": "independent playlist adds generate streams -> saves/follows -> algorithmic systems"
+    },
+    {
+      "from": "marketing-machine:music-pr-firms",
+      "to": "signal:pr-amplification-loop",
+      "rel": "feeds",
+      "note": "coverage -> ad creative/social proof -> editorial + search signals"
+    },
+    {
+      "from": "signal:meta-paid-seed-loop",
+      "to": "signal:spotify-paid-seed-loop",
+      "rel": "feeds",
+      "note": "Meta-acquired savers/followers feed the same Spotify algorithmic surfaces; practitioners pair Meta ads with playlisting"
+    },
+    {
+      "from": "signal:playlist-seed-loop",
+      "to": "signal:spotify-paid-seed-loop",
+      "rel": "feeds",
+      "note": "playlist-driven saves/follows feed the same algorithmic surfaces"
+    },
+    {
+      "from": "signal:pr-amplification-loop",
+      "to": "module:meta-auction",
+      "rel": "amplifies",
+      "note": "press quotes as social proof raise the auction's quality component, lowering CPC"
+    },
+    {
+      "from": "moat:spotify-listener-affinity-graph",
+      "to": "marketing-machine:spotify-campaign-kit",
+      "rel": "enables",
+      "note": "the affinity graph is what Campaign Kit targeting and delivery are built on"
+    },
+    {
+      "from": "module:spotify-audience-segmentation",
+      "to": "moat:spotify-listener-affinity-graph",
+      "rel": "depends_on",
+      "note": "the six segments are computed from the behavior graph"
+    },
+    {
+      "from": "module:spotify-marquee",
+      "to": "moat:spotify-listener-affinity-graph",
+      "rel": "depends_on",
+      "note": "Marquee targeting reads listening history from the graph"
+    },
+    {
+      "from": "moat:meta-identity-graph",
+      "to": "marketing-machine:meta-ads",
+      "rel": "enables",
+      "note": "the identity graph powers the Estimated Action Rate predictor and the auction"
+    },
+    {
+      "from": "module:meta-auction",
+      "to": "moat:meta-identity-graph",
+      "rel": "depends_on",
+      "note": "Estimated Action Rate is predicted from the identity/behavior graph"
+    },
+    {
+      "from": "module:meta-audiences",
+      "to": "moat:meta-identity-graph",
+      "rel": "depends_on",
+      "note": "Custom/lookalike audiences resolve against the identity graph"
+    },
+    {
+      "from": "moat:marketplace-curator-acceptance-dataset",
+      "to": "marketing-machine:playlist-marketplaces",
+      "rel": "enables",
+      "note": "acceptance + reliability data is the matching and tiering engine's fuel"
+    },
+    {
+      "from": "module:marketplace-matching-engine",
+      "to": "moat:marketplace-curator-acceptance-dataset",
+      "rel": "depends_on",
+      "note": "matching routes on historical acceptance data"
+    },
+    {
+      "from": "moat:pr-relationship-graph",
+      "to": "marketing-machine:music-pr-firms",
+      "rel": "enables",
+      "note": "relationships are the closest thing to proprietary data in PR"
+    },
+    {
+      "from": "module:pr-pitching-engine",
+      "to": "moat:pr-relationship-graph",
+      "rel": "depends_on",
+      "note": "the pitch itself and the relationship are human; open-rate comes from the graph"
+    },
+    {
+      "from": "cwi-rebuild:attribution-layer",
+      "to": "module:meta-smart-link-layer",
+      "rel": "rebuilds",
+      "note": "$0: self-hosted smart page + open-source analytics + manual UTM"
+    },
+    {
+      "from": "cwi-rebuild:attribution-layer",
+      "to": "module:meta-events-manager",
+      "rel": "rebuilds",
+      "note": "$0: self-hosted event model (PageView -> redirect-click); cannot rebuild Meta's matching identity graph"
+    },
+    {
+      "from": "cwi-rebuild:curator-graph",
+      "to": "module:marketplace-curator-directory",
+      "rel": "rebuilds",
+      "note": "$0: hand-built target lists via Spotify/IG/TikTok/blog hunting + FAISS matching"
+    },
+    {
+      "from": "cwi-rebuild:curator-graph",
+      "to": "module:marketplace-matching-engine",
+      "rel": "rebuilds",
+      "note": "$0: manual genre-match listening + Vote HQ trust funnel"
+    },
+    {
+      "from": "cwi-rebuild:pitch-crm",
+      "to": "module:marketplace-submission-pipeline",
+      "rel": "rebuilds",
+      "note": "$0: spreadsheet CRM + templated personalized emails; follow-up cadence replaces SLA ledger"
+    },
+    {
+      "from": "cwi-rebuild:pitch-crm",
+      "to": "module:marketplace-credit-ledger",
+      "rel": "rebuilds",
+      "note": "$0: personal follow-up cadence replaces the SLA/refund ledger mechanics"
+    },
+    {
+      "from": "cwi-rebuild:pr-graph",
+      "to": "module:pr-media-database",
+      "rel": "rebuilds",
+      "note": "$0: hand-built 100-contact genre media lists from free sources; paid DBs buy speed, not capability"
+    },
+    {
+      "from": "cwi-rebuild:pr-graph",
+      "to": "module:pr-pitching-engine",
+      "rel": "rebuilds",
+      "note": "$0: email client + tracking spreadsheet replicates the pitch workflow"
+    },
+    {
+      "from": "cwi-rebuild:pr-graph",
+      "to": "module:pr-reactive-pitching",
+      "rel": "rebuilds",
+      "note": "$0: Connectively + Featured.com free tiers"
+    },
+    {
+      "from": "cwi-rebuild:pr-graph",
+      "to": "module:pr-monitoring-reporting",
+      "rel": "rebuilds",
+      "note": "$0: Google Alerts + Talkwalker alerts + clippings doc"
+    },
+    {
+      "from": "cwi-rebuild:scorecards",
+      "to": "module:spotify-campaign-reporting",
+      "rel": "rebuilds",
+      "note": "$0: UTM-tagged smart links + Spotify for Artists source-of-stream; measurement discipline without renting reach"
+    },
+    {
+      "from": "cwi-rebuild:scorecards",
+      "to": "module:spotify-audience-segmentation",
+      "rel": "rebuilds",
+      "note": "$0: super/moderate/light/lapsed/potential logic in a spreadsheet from first-party data"
+    },
+    {
+      "from": "cwi-rebuild:creative-engine",
+      "to": "signal:meta-paid-seed-loop",
+      "rel": "amplifies",
+      "note": "organic creative (Reels/TikTok -> link-in-bio) seeds the same paid-seed loop without spend"
+    },
+    {
+      "from": "cwi-rebuild:creative-engine",
+      "to": "signal:pr-amplification-loop",
+      "rel": "feeds",
+      "note": "UGC/social creative feeds the coverage <-> ad-creative loop"
+    },
+    {
+      "from": "cwi-rebuild:scorecards",
+      "to": "signal:spotify-paid-seed-loop",
+      "rel": "enables",
+      "note": "measurement discipline over the paid-seed -> algorithmic loop"
+    }
+  ]
+}
