@@ -1,0 +1,12 @@
+{
+  "facet": "role",
+  "packets": [
+    {
+      "node": "fact/module/pitch-crm",
+      "packet_id": "fact/module/pitch-crm",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitch-crm.json"
+    }
+  ],
+  "tag": "exact-copy-gate",
+  "updated": "2026-10-03T14:19:47Z"
+}
