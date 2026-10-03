@@ -1,0 +1,12 @@
+{
+  "facet": "use",
+  "packets": [
+    {
+      "node": "fact/module/scorecards",
+      "packet_id": "fact/module/scorecards",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/scorecards.json"
+    }
+  ],
+  "tag": "five-fronts",
+  "updated": "2026-10-03T14:19:47Z"
+}
