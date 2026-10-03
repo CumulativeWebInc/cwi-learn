@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/lane/manual-pitch",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/manual-pitch.json",
+  "name": "Manual-Pitch Lane (Twenty Minds dissent track)",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/lane/manual-pitch"
+      },
+      "value": "vm-lane:manual-pitch"
+    }
+  ]
+}
