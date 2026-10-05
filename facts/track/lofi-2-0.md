@@ -1,6 +1,6 @@
 # Fact packet — LOFI 2.0
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `fd7fe2dc7d561162`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `2dcaef7430b26b51`
 
 ## Discovery tags
 

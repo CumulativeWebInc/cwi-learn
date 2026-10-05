@@ -1,6 +1,6 @@
 # Fact packet — King Akeem
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `780493e7de794840`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `ea9ec6fd544b4a09`
 
 ## Discovery tags
 

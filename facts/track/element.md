@@ -1,6 +1,6 @@
 # Fact packet — Element
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `3fd93ed330d14bdd`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `a393c1a913b64cec`
 
 ## Discovery tags
 

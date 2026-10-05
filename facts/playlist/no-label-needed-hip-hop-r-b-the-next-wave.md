@@ -1,6 +1,6 @@
 # Fact packet — No Label Needed - Hip Hop & R&B | The Next Wave
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `6f290589939b6143`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `111ce0449ab234d3`
 
 ## Discovery tags
 

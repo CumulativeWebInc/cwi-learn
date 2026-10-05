@@ -1,6 +1,6 @@
 # Fact packet — Roses over Monaco
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `312051b7e316e9d3`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `e47769fd6bb87958`
 
 ## Discovery tags
 

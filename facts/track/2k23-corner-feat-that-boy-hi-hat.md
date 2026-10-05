@@ -1,6 +1,6 @@
 # Fact packet — 2K23 Corner$ (feat. That Boy Hi Hat)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `b7b72d8bafed2cb6`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `d01d754f6661ffa5`
 
 ## Discovery tags
 

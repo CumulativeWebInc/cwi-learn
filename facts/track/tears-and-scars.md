@@ -1,6 +1,6 @@
 # Fact packet — Tears and Scars
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `ce39a25a827ebdce`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `fef5f895f2662ac0`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Misfits and Hooligans
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `a6a0c1f9a8f2da98`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `d2309ccf9d35cff3`
 
 ## Discovery tags
 

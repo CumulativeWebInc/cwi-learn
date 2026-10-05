@@ -1,6 +1,6 @@
 # Fact packet — Pix
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `fe6e069cb6fb1c61`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `2227ba3ff3bb0ab7`
 
 ## Discovery tags
 

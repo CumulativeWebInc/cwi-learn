@@ -1,6 +1,6 @@
 # Fact packet — WATCH THA GAP VOL.5
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `6e9f186c29029ba1`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `f2aa9c96a6fc2fae`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Doves & Diamonds
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `82a465428e06bd7f`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `a871fa977f0794b1`
 
 ## Discovery tags
 

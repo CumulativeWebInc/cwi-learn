@@ -1,6 +1,6 @@
 # Fact packet — Smokin' Pain
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `967abc20bef7a0b2`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `e68794c9c6e452f0`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Rainbows And Roses (Instrumental)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `0962bc02612d5e38`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `1dc55b47e8eb0d95`
 
 ## Discovery tags
 

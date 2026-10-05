@@ -1,6 +1,6 @@
 # Fact packet — 2k23 Corners
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `87a6286eb4ebb0bb`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `5ed5b25f90589232`
 
 ## Discovery tags
 

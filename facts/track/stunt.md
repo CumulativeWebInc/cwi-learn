@@ -1,6 +1,6 @@
 # Fact packet — Stunt
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `d694461e9a9c7941`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `df5df7ec058bc8ca`
 
 ## Discovery tags
 

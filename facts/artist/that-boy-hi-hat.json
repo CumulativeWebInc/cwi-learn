@@ -140,8 +140,7 @@
         "observed": "2026-09-14",
         "source": "Spotify artist page"
       },
-      "note": "superseded: superseded by 8,400 (2026-10-02); kept as history",
-      "tier": "observed"
+      "tier": "verified"
     },
     {
       "claim": "21 releases on Spotify",
@@ -157,15 +156,6 @@
         "observed": "2026-09-19",
         "source": "catalog-interop/catalog-index.json, generated 2026-09-19"
       },
-      "tier": "verified"
-    },
-    {
-      "claim": "8,400 monthly listeners (Sep 2-29, 2026 window)",
-      "evidence": {
-        "observed": "2026-10-02",
-        "source": "Spotify for Artists screenshots, verified 2026-10-02"
-      },
-      "note": "supersedes 171 (observed 2026-09-14), kept as history",
       "tier": "verified"
     },
     {
@@ -262,14 +252,6 @@
       "tier": "verified"
     },
     {
-      "claim": "Released 'Post Trap Futurism: The Logo Effect'",
-      "evidence": {
-        "ref": "release:ptf-the-logo-effect",
-        "source": "graph.json released edge"
-      },
-      "tier": "verified"
-    },
-    {
       "claim": "Rights posture: 50/50 with the artist; Black (manager) makes publishing/selling decisions; catalog is sync-ready",
       "evidence": {
         "source": "owner-confirmed by Black (Henry Pitts), 2026-09-29; reaffirmed roster-wide 2026-10-02"
@@ -277,10 +259,10 @@
       "tier": "owner_confirmed"
     }
   ],
-  "generated_at": "2026-10-02T23:26:58Z",
+  "generated_at": "2026-10-03T09:59:50Z",
   "generator": {
     "catalog_sha256": "5f775e3048e6981bc8edcf04ccca865ccf659b039726a1b748d4c3ab1e4f770c",
-    "graph_sha256": "649c214523502b12ad128e1faf684fa2f7947e7845e235458f813df94a60afba",
+    "graph_sha256": "79f1446da987aca8300331cfc34608c79050950ed1855c6341152600d6b7815e",
     "name": "cwi-fact-generator",
     "tag_rules": {
       "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
@@ -327,9 +309,9 @@
       "type": "artist",
       "verified_facts": [
         "Based in Frederick, Maryland",
+        "171 monthly listeners",
         "21 releases on Spotify",
         "Artist catalog footprint: 27 tracks in CWI catalog",
-        "8,400 monthly listeners (Sep 2-29, 2026 window)",
         "Genres: alternative rap, Post-Trap Futurism",
         "Spotify artist page: https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
         "Label: Cumulative Web Inc",
@@ -345,7 +327,7 @@
     },
     "fan_qa": [
       {
-        "a": "21 releases on Spotify",
+        "a": "171 monthly listeners",
         "q": "How big is the That Boy Hi Hat catalog?"
       },
       {
@@ -373,7 +355,7 @@
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "21 releases on Spotify"
+            "text": "171 monthly listeners"
           },
           "name": "How big is the That Boy Hi Hat catalog?"
         },
@@ -411,13 +393,13 @@
         }
       ]
     },
-    "search_answer": "That Boy Hi Hat is an alternative rap artist (Post-Trap Futurism). Based in Frederick, Maryland.  8,400 monthly listeners (Sep 2-29, 2026 window).",
+    "search_answer": "That Boy Hi Hat is an alternative rap artist (Post-Trap Futurism). Based in Frederick, Maryland.  171 monthly listeners.",
     "social_caption": "That Boy Hi Hat — alternative rap, Post-Trap Futurism #frederick #maryland #dmv #usa #alternative-rap #post-trap-futurism #hip-hop #indie #underground #upcoming #discovery #recording-artist",
     "sync_pitch": "SYNC PITCH — That Boy Hi Hat. Producers credited across 24 annotated tracks: Jeck Da General (14), Black Lansky (12), Kokurcho (5), Hybrid (1).  Licensing contact: hp@cumulativeweb.com.",
-    "voice_answer": "That Boy Hi Hat is an alternative rap artist (Post-Trap Futurism). Based in Frederick, Maryland.  8,400 monthly listeners (Sep 2-29, 2026 window). Source: Cumulative Web Inc."
+    "voice_answer": "That Boy Hi Hat is an alternative rap artist (Post-Trap Futurism). Based in Frederick, Maryland.  171 monthly listeners. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "dbc02a7afa6dccc55db342d635a5ae37005ffabd8f1f2e0c4249556c35cde683"
+    "sha256": "c6c0c4ce29942bf34b4bf35fd4c7202c2267329e2e29b0e616983dde6e7d7699"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat",
@@ -805,18 +787,6 @@
       "rel": "associated_artist",
       "target": "station:cumulative-radio-365",
       "target_name": "Cumulative Radio 365"
-    },
-    {
-      "note": "10-track album, Spotify embed live read 2026-10-02",
-      "rel": "released",
-      "target": "release:ptf-the-logo-effect",
-      "target_name": "Post Trap Futurism: The Logo Effect"
-    },
-    {
-      "note": "canon triple — That Boy Hi Hat is the creator of Post-Trap Futurism",
-      "rel": "isCreatorOf",
-      "target": "movement:ptf",
-      "target_name": "Post-Trap Futurism"
     }
   ],
   "schema": "cwi-fact-packet/v1"

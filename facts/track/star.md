@@ -1,6 +1,6 @@
 # Fact packet — Star
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `a280f81d05d1fbae`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `eae60cef0059eadf`
 
 ## Discovery tags
 

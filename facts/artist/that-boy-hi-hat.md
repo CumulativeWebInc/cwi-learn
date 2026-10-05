@@ -1,6 +1,6 @@
 # Fact packet — That Boy Hi Hat
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `dbc02a7afa6dccc5`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `c6c0c4ce29942bf3`
 
 ## Discovery tags
 
@@ -28,12 +28,9 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `dbc0
 ## Facts
 
 - **[verified]** Based in Frederick, Maryland — _owner-confirmed by Black (Henry Pitts), 2026-09-15_
-- **[observed]** 171 monthly listeners — _Spotify artist page_
-  - superseded: superseded by 8,400 (2026-10-02); kept as history
+- **[verified]** 171 monthly listeners — _Spotify artist page_
 - **[verified]** 21 releases on Spotify — _catalog audit_
 - **[verified]** Artist catalog footprint: 27 tracks in CWI catalog — _catalog-interop/catalog-index.json, generated 2026-09-19_
-- **[verified]** 8,400 monthly listeners (Sep 2-29, 2026 window) — _Spotify for Artists screenshots, verified 2026-10-02_
-  - supersedes 171 (observed 2026-09-14), kept as history
 - **[verified]** Genres: alternative rap, Post-Trap Futurism — _graph.json node attrs_
 - **[verified]** Spotify artist page: https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7 — _graph.json node attrs_
 - **[verified]** Label: Cumulative Web Inc — _graph.json node attrs_
@@ -46,14 +43,13 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `dbc0
 - **[verified]** Released 'GTA VI EP' — _graph.json released edge_
 - **[verified]** Released 'NO SKIPS' — _graph.json released edge_
 - **[verified]** Released 'Diabolique (single)' — _graph.json released edge_
-- **[verified]** Released 'Post Trap Futurism: The Logo Effect' — _graph.json released edge_
 - **[owner_confirmed]** Rights posture: 50/50 with the artist; Black (manager) makes publishing/selling decisions; catalog is sync-ready — _owner-confirmed by Black (Henry Pitts), 2026-09-29; reaffirmed roster-wide 2026-10-02_
 
 ## Instructions
 
 ### Search answer
 
-That Boy Hi Hat is an alternative rap artist (Post-Trap Futurism). Based in Frederick, Maryland.  8,400 monthly listeners (Sep 2-29, 2026 window).
+That Boy Hi Hat is an alternative rap artist (Post-Trap Futurism). Based in Frederick, Maryland.  171 monthly listeners.
 
 ### Social caption
 
@@ -67,7 +63,7 @@ SYNC PITCH — That Boy Hi Hat. Producers credited across 24 annotated tracks: J
 
 **Q: How big is the That Boy Hi Hat catalog?**
 
-21 releases on Spotify
+171 monthly listeners
 
 **Q: What genre is That Boy Hi Hat?**
 

@@ -1,6 +1,6 @@
 # Fact packet — The Alternative Theory
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `c91a3c6e834173d3`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `9609597d638de106`
 
 ## Discovery tags
 

@@ -1,12 +1,17 @@
 {
   "tag": "glitchy",
   "facet": "mood",
-  "updated": "2026-10-02T23:26:58Z",
+  "updated": "2026-10-03T10:00:28Z",
   "packets": [
     {
       "packet_id": "fact/track/flamerz",
       "node": "Flamerz",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.json"
+    },
+    {
+      "packet_id": "fact/track/warped-wicked",
+      "node": "Warped & Wicked",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked.json"
     }
   ]
 }

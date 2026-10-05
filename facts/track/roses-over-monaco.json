@@ -243,10 +243,10 @@
       "tier": "observed"
     }
   ],
-  "generated_at": "2026-10-02T23:26:58Z",
+  "generated_at": "2026-10-03T09:59:50Z",
   "generator": {
     "catalog_sha256": "5f775e3048e6981bc8edcf04ccca865ccf659b039726a1b748d4c3ab1e4f770c",
-    "graph_sha256": "649c214523502b12ad128e1faf684fa2f7947e7845e235458f813df94a60afba",
+    "graph_sha256": "79f1446da987aca8300331cfc34608c79050950ed1855c6341152600d6b7815e",
     "name": "cwi-fact-generator",
     "tag_rules": {
       "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
@@ -375,7 +375,7 @@
     "voice_answer": "Roses over Monaco is a recording by That Boy Hi Hat. You can hear it on Spotify. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "312051b7e316e9d38770746b15dc3e03e5c9c82b79bb60370060455b2ca859a8"
+    "sha256": "e47769fd6bb87958fc5ef85da836979e5e6f1c506ae166fe29d9891c7fd7eeb4"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/track/roses-over-monaco",

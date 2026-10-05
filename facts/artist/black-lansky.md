@@ -1,6 +1,6 @@
 # Fact packet — Black Lansky
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `62e66cf834f225b4`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `2c0ca170e66ab55e`
 
 ## Discovery tags
 

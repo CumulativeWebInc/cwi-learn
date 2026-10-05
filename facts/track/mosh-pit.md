@@ -1,6 +1,6 @@
 # Fact packet — Mosh Pit
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `5c351439511db5eb`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `9d41c219b0536894`
 
 ## Discovery tags
 

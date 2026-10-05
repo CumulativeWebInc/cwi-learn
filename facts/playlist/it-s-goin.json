@@ -41,10 +41,10 @@
       "tier": "observed"
     }
   ],
-  "generated_at": "2026-10-02T23:26:58Z",
+  "generated_at": "2026-10-03T09:59:50Z",
   "generator": {
     "catalog_sha256": "5f775e3048e6981bc8edcf04ccca865ccf659b039726a1b748d4c3ab1e4f770c",
-    "graph_sha256": "649c214523502b12ad128e1faf684fa2f7947e7845e235458f813df94a60afba",
+    "graph_sha256": "79f1446da987aca8300331cfc34608c79050950ed1855c6341152600d6b7815e",
     "name": "cwi-fact-generator",
     "tag_rules": {
       "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
@@ -90,7 +90,7 @@
     "voice_answer": "It's Goin is a playlist. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "bde1f7275b36c7d981a52a5263889a5e7a2d5d0b6c4f0f70514a4c95ee3445a7"
+    "sha256": "9ceffa8b8c440e1b4170aabbb242b68dded523f5dedbd8954fc910f10486aa5d"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/playlist/it-s-goin",

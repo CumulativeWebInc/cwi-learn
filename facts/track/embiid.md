@@ -1,6 +1,6 @@
 # Fact packet — Embiid
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `f031039f6c37f905`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `b0be7994dfdaba99`
 
 ## Discovery tags
 

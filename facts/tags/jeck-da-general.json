@@ -1,7 +1,7 @@
 {
   "tag": "jeck-da-general",
   "facet": "collaborator",
-  "updated": "2026-10-02T23:26:58Z",
+  "updated": "2026-10-03T10:00:28Z",
   "packets": [
     {
       "packet_id": "fact/track/flamerz",
@@ -22,6 +22,16 @@
       "packet_id": "fact/track/phantasm",
       "node": "Phantasm",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/phantasm.json"
+    },
+    {
+      "packet_id": "fact/track/place-i-go-to-dream-instrumental",
+      "node": "Place I Go to Dream (Instrumental)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-instrumental.json"
+    },
+    {
+      "packet_id": "fact/track/place-i-go-to-dream-remastered",
+      "node": "Place I Go to Dream (Remastered)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-remastered.json"
     },
     {
       "packet_id": "fact/track/roses-over-monaco",

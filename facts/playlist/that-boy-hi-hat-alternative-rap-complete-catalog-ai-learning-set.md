@@ -1,6 +1,6 @@
 # Fact packet — That Boy Hi Hat – Alternative Rap Complete Catalog (AI Learning Set)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `2de3b7cdca000a6d`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `99212629e1d4c2a8`
 
 ## Discovery tags
 

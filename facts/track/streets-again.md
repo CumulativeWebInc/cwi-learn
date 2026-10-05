@@ -1,6 +1,6 @@
 # Fact packet — Streets Again
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `b77c0eff5d497c93`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `6b0a2a820800b029`
 
 ## Discovery tags
 

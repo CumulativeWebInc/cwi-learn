@@ -112,10 +112,10 @@
       "tier": "verified"
     }
   ],
-  "generated_at": "2026-10-02T23:26:58Z",
+  "generated_at": "2026-10-03T09:59:50Z",
   "generator": {
     "catalog_sha256": "5f775e3048e6981bc8edcf04ccca865ccf659b039726a1b748d4c3ab1e4f770c",
-    "graph_sha256": "649c214523502b12ad128e1faf684fa2f7947e7845e235458f813df94a60afba",
+    "graph_sha256": "79f1446da987aca8300331cfc34608c79050950ed1855c6341152600d6b7815e",
     "name": "cwi-fact-generator",
     "tag_rules": {
       "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
@@ -188,7 +188,7 @@
     "voice_answer": "Rainbows And Roses (Instrumental) is a recording by That Boy Hi Hat. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "0962bc02612d5e38d09a0a3824499d197bc8547d22c64bb080dc1943d3b49a36"
+    "sha256": "1dc55b47e8eb0d95d21ee39c858094ca643dda537501a45b3223ab9fd5ff4508"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/track/rainbows-and-roses-instrumental",

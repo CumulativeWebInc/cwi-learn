@@ -1,6 +1,6 @@
 # Fact packet — NO SKIPS
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `b0b53e68df5ae52d`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `0d655b88b3df46f2`
 
 ## Discovery tags
 

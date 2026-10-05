@@ -1,6 +1,6 @@
 # Fact packet — Shaka Zulu
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `621f05f6b85c9711`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `0ab757c8b6931993`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Phantasm
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `849602eb55ee6c8c`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `d4937e63e69d997f`
 
 ## Discovery tags
 

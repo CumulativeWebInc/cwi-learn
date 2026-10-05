@@ -1,6 +1,6 @@
 # Fact packet — GTA VI EP
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `f7f9c41d6c533bde`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `522cf95b160d089d`
 
 ## Discovery tags
 

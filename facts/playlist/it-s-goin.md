@@ -1,6 +1,6 @@
 # Fact packet — It's Goin
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `bde1f7275b36c7d9`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `9ceffa8b8c440e1b`
 
 ## Discovery tags
 

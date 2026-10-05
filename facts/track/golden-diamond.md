@@ -1,6 +1,6 @@
 # Fact packet — Golden Diamond
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `4692c3d3ea226b2a`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `885611d2dc4c201e`
 
 ## Discovery tags
 

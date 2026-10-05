@@ -1,6 +1,6 @@
 # Fact packet — Flex My Flame
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-02T23:26:58Z · integrity `a26d5c24b9068775`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `c31c6ed2342d64b2`
 
 ## Discovery tags
 
