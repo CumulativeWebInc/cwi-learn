@@ -1,6 +1,6 @@
 # Fact packet — CWI Curator Graph
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `c7eb558d94c23656`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `6cb54f27f5d2ebb3`
 
 ## Discovery tags
 

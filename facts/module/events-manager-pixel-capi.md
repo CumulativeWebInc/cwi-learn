@@ -1,6 +1,6 @@
 # Fact packet — Events Manager (Pixel + CAPI)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `eeb887aff7362910`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `79c4a95a9adf6c6d`
 
 ## Discovery tags
 

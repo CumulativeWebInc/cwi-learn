@@ -1,6 +1,6 @@
 # Fact packet — Spotify Paid-Seed Signal Loop
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `016e38e6b88ae722`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `69861956944bfa7d`
 
 ## Discovery tags
 

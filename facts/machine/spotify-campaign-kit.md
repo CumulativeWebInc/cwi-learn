@@ -1,6 +1,6 @@
 # Fact packet — Spotify Campaign Kit
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `a69e24a15451a576`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `268e69bb1ca0119b`
 
 ## Discovery tags
 
@@ -50,12 +50,6 @@ Spotify Campaign Kit  #marketing-machine #spotify #paid-promo #fan-acquisition #
 ### Sync pitch
 
 SYNC PITCH — Spotify Campaign Kit.
-
-### Fan Q&A
-
-**Q: How big is the Spotify Campaign Kit catalog?**
-
-Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform
 
 ---
 Canonical: https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.json

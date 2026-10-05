@@ -82,7 +82,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -136,7 +136,7 @@
     "voice_answer": "Showcase Delivery Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "618cf54457265b4d6f471fee307547c716cc32e1fbc83379f8535dd10ba9f3fa"
+    "sha256": "257aff927eeee4427020021fc48b15a8acc27a7c761011824c3951456b908ae0"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/showcase-delivery-module",

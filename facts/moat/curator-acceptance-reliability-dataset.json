@@ -54,7 +54,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -102,7 +102,7 @@
     "voice_answer": "Curator Acceptance + Reliability Dataset is a proprietary data moat. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "bb3ab5f8b859ce99dc6f554db901d95006523b1b58a84c19fb4a92ec2b17571a"
+    "sha256": "43539f8068508474c62ddc96ba7d6616d53acc9d5cfc3d01f36c68f2c0107579"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/moat/curator-acceptance-reliability-dataset",

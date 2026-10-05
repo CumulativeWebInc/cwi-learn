@@ -1,6 +1,6 @@
 # Fact packet — Meta Campaign / Ad Set / Ad Structure
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `2fe5935d23a57dbf`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `d9a37eb60f972486`
 
 ## Discovery tags
 

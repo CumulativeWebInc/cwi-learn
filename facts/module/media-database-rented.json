@@ -73,7 +73,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -123,7 +123,7 @@
     "voice_answer": "Media Database (Rented) is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "b3bcb76d70b15e39d3a476427066e6c0e5e46f2d65b59c2bb06d456a17c2b043"
+    "sha256": "32a35061184669443703a8c8728bbfad6ad855b897907905bee6101ad41edd0e"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/media-database-rented",

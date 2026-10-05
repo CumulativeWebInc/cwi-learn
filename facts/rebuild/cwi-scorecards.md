@@ -1,6 +1,6 @@
 # Fact packet — CWI Scorecards
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `98db661d1cc3d198`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `e115f5f296f1767e`
 
 ## Discovery tags
 

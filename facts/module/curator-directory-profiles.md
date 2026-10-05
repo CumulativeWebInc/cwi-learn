@@ -1,6 +1,6 @@
 # Fact packet — Curator Directory + Profiles
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `4f964937ee07ccc5`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `564a401bfc7ced14`
 
 ## Discovery tags
 

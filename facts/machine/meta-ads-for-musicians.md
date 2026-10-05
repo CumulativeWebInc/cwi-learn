@@ -1,6 +1,6 @@
 # Fact packet — Meta Ads for Musicians
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `4ffe85b164d4c341`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `8032e0eb3b62f88b`
 
 ## Discovery tags
 

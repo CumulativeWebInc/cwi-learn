@@ -61,7 +61,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -109,7 +109,7 @@
     "voice_answer": "Meta Campaign / Ad Set / Ad Structure is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "2fe5935d23a57dbfdd4e213d7b19a500e7932e19d275aaf299c635c353ab3d59"
+    "sha256": "d9a37eb60f9724862785f6b361c525519a8ad9ecbbae58d9637ff1994429d4c6"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/meta-campaign-ad-set-ad-structure",

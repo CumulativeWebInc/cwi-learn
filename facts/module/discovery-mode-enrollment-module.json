@@ -127,7 +127,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -173,25 +173,11 @@
       "source": "Cumulative Web Inc",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/discovery-mode-enrollment-module.json"
     },
-    "fan_qa": [
-      {
-        "a": "Eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
-        "q": "How big is the Discovery Mode Enrollment Module catalog?"
-      }
-    ],
+    "fan_qa": [],
     "faq_jsonld": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform"
-          },
-          "name": "How big is the Discovery Mode Enrollment Module catalog?"
-        }
-      ]
+      "mainEntity": []
     },
     "search_answer": "Discovery Mode Enrollment Module is a system module of a music-marketing machine.  Eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform.",
     "social_caption": "Discovery Mode Enrollment Module  #marketing-module #spotify #discovery-mode #algorithmic-boost #radio #royalty-commission",
@@ -199,7 +185,7 @@
     "voice_answer": "Discovery Mode Enrollment Module is a system module of a music-marketing machine.  Eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "6700f73c806c5ab6bb5b66d2335c449b5300d75f7b6b3b81a0c33af57a20be53"
+    "sha256": "1a0cb1350737c3556121852fdc5dba53f00f1742cf53c49a3aa54253f3ed7093"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/discovery-mode-enrollment-module",

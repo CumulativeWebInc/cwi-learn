@@ -1,6 +1,6 @@
 # Fact packet — Reactive Pitching
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `9a63a4cb5e365c83`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `e11d3f0ff4c71b90`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Media Database (Rented)
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `b3bcb76d70b15e39`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `32a3506118466944`
 
 ## Discovery tags
 

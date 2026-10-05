@@ -1,6 +1,6 @@
 # Fact packet — Marketplace Matching Engine
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `40154c57148c7a13`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `14635b0997ae4c62`
 
 ## Discovery tags
 

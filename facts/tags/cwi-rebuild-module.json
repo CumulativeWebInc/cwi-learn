@@ -1,7 +1,7 @@
 {
   "tag": "cwi-rebuild-module",
   "facet": "role",
-  "updated": "2026-10-03T13:01:30Z",
+  "updated": "2026-10-03T13:17:47Z",
   "packets": [
     {
       "packet_id": "fact/rebuild/cwi-attribution-layer",

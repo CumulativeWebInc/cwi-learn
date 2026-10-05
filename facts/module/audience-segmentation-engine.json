@@ -78,7 +78,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -133,7 +133,7 @@
     "voice_answer": "Audience Segmentation Engine is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "5242692e1479b92e62b3ebe2623daf4dfb53ef3804cb57052697948e8721de0e"
+    "sha256": "1e66063a01a685c91fa45cdee7ff32569ec4ed0d1f2004c5566b5e12cc8d1747"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/audience-segmentation-engine",

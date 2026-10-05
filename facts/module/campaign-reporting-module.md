@@ -1,6 +1,6 @@
 # Fact packet — Campaign Reporting Module
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `986b193dd927fe64`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `4335af3500e93fb6`
 
 ## Discovery tags
 

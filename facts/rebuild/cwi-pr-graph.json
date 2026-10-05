@@ -87,7 +87,7 @@
       "tier": "owner_confirmed"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -139,7 +139,7 @@
     "voice_answer": "CWI PR Graph is a CWI zero-cost rebuild module. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "de79c9512c9bf89cc5326609fc06c7653544bd439907f299cd4b241694054b64"
+    "sha256": "3d60fc2d00948590a8c1da46ac7c259c6288a2639763cb55e6024f7cb05cfae3"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/rebuild/cwi-pr-graph",

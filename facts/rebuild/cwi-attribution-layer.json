@@ -80,7 +80,7 @@
       "tier": "owner_confirmed"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -132,7 +132,7 @@
     "voice_answer": "CWI Attribution Layer is a CWI zero-cost rebuild module. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "0812370be9cb57832a95681e5ad2ce9feba05600042fe793806ee6797161b78d"
+    "sha256": "c99cfabb0072e6819f7ec2ba5fb33575d91371f833ab178795b838568a578318"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/rebuild/cwi-attribution-layer",

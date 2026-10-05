@@ -1,6 +1,6 @@
 # Fact packet — Meta Delivery Auction
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `cc34739562f8f0f7`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `2410c7cc8b9be6d8`
 
 ## Discovery tags
 

@@ -64,7 +64,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -117,7 +117,7 @@
     "voice_answer": "Spotify Listener-Affinity Graph is a proprietary data moat. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "86095f17e0f47dcb20e7285097f38ce8b41da0e0bc6d5f790e7bb40bf1835c4a"
+    "sha256": "66c7aeb1569deb0ad06887541d8119a92424a6361a5e90004dfdd013f67a8b49"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/moat/spotify-listener-affinity-graph",

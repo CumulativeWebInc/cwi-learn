@@ -60,7 +60,7 @@
       "tier": "owner_confirmed"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:47Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -111,7 +111,7 @@
     "voice_answer": "CWI Scorecards is a CWI zero-cost rebuild module. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "98db661d1cc3d198881ade6e169929c2df55819c680a022a64dd51fc135c541e"
+    "sha256": "e115f5f296f1767ec1104b46dd213f38b85927a87d3ce16d649183dddd3a0482"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/rebuild/cwi-scorecards",

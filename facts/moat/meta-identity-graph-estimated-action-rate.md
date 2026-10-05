@@ -1,6 +1,6 @@
 # Fact packet — Meta Identity Graph + Estimated Action Rate
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `c8f20c210ba32899`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `8275a34c087694b3`
 
 ## Discovery tags
 

@@ -82,7 +82,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -132,7 +132,7 @@
     "voice_answer": "Meta Delivery Auction is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "cc34739562f8f0f71eec85204a9eda2065c5f09961135d12798b871cb5ea039c"
+    "sha256": "2410c7cc8b9be6d89d08bc3b416ce60f7b7d2846b54325891bd388a1cb3aa74b"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/meta-delivery-auction",

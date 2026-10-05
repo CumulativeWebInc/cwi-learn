@@ -62,7 +62,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -115,7 +115,7 @@
     "voice_answer": "Campaign Reporting Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "986b193dd927fe6495b6e3501bc2a417fdc14e158e8db772ea51a25fac73394b"
+    "sha256": "4335af3500e93fb6ab9806f2c57caef66ce98d0bd8bfb40e3869fa290ec603f0"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/campaign-reporting-module",

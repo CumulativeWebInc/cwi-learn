@@ -1,6 +1,6 @@
 # Fact packet — Playlist-Pitching Marketplaces
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `07407bacab91c86f`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `98e216c4acc7a215`
 
 ## Discovery tags
 

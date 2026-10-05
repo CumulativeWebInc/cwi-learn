@@ -179,7 +179,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -234,7 +234,7 @@
     "voice_answer": "Playlist-Pitching Marketplaces is a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "07407bacab91c86f1d2d812a1de7e60f83c191fd686666ca5640b5cb850fa707"
+    "sha256": "98e216c4acc7a2156000311a6439689293e19b9f62b3d1675a2c52375d3a3ab0"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/machine/playlist-pitching-marketplaces",

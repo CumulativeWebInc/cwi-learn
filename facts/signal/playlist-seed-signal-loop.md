@@ -1,6 +1,6 @@
 # Fact packet — Playlist-Seed Signal Loop
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `deb4a58c6d7d6f88`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `a0c22bde27c57dd3`
 
 ## Discovery tags
 

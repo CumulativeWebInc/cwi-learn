@@ -1,6 +1,6 @@
 # Fact packet — Submission Pipeline
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `af08b8612fd64806`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `2e93323ca3af5296`
 
 ## Discovery tags
 

@@ -1,6 +1,6 @@
 # Fact packet — Audience Segmentation Engine
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `5242692e1479b92e`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `1e66063a01a685c9`
 
 ## Discovery tags
 

@@ -86,7 +86,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -137,7 +137,7 @@
     "voice_answer": "Events Manager (Pixel + CAPI) is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "eeb887aff7362910814e6222981d00daa1a68d14126832ccbd1a05665764f7f5"
+    "sha256": "79c4a95a9adf6c6daba1ddec3bf672d39c237345f515c379a6dead656b890b62"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/events-manager-pixel-capi",

@@ -73,7 +73,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -123,7 +123,7 @@
     "voice_answer": "Smart-Link Layer is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "1bc51b63aa82979dbd34752828c779002032ce5cde987e961b38bdb9d62323d1"
+    "sha256": "6f47d85e2ab3605f2e864eb7e1d90415f4b9daafc1deba40047332e6505c96f2"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/smart-link-layer",

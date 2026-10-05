@@ -100,7 +100,7 @@
       "tier": "verified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -157,7 +157,7 @@
     "voice_answer": "Marquee Delivery Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "049ed7db6315cbad87e892ab74a2da8dbafb2b7b16d83e2b533f49671f65598b"
+    "sha256": "57138090edbfefc0e11c4ef163c43418a76b94163b1c37206203e14515f0e85e"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/marquee-delivery-module",

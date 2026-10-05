@@ -1,6 +1,6 @@
 # Fact packet — Spotify Listener-Affinity Graph
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `86095f17e0f47dcb`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `66c7aeb1569deb0a`
 
 ## Discovery tags
 

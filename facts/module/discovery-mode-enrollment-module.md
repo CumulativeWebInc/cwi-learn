@@ -1,6 +1,6 @@
 # Fact packet — Discovery Mode Enrollment Module
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `6700f73c806c5ab6`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `1a0cb1350737c355`
 
 ## Discovery tags
 
@@ -39,12 +39,6 @@ Discovery Mode Enrollment Module  #marketing-module #spotify #discovery-mode #al
 ### Sync pitch
 
 SYNC PITCH — Discovery Mode Enrollment Module.
-
-### Fan Q&A
-
-**Q: How big is the Discovery Mode Enrollment Module catalog?**
-
-Eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform
 
 ---
 Canonical: https://cumulativewebinc.github.io/cwi-learn/facts/module/discovery-mode-enrollment-module.json

@@ -1,6 +1,6 @@
 # Fact packet — Credit / Ledger System
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `994818471a4e195c`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `e8dc45a6be2864c9`
 
 ## Discovery tags
 

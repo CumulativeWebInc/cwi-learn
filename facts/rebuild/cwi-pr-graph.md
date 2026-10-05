@@ -1,6 +1,6 @@
 # Fact packet — CWI PR Graph
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `de79c9512c9bf89c`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `3d60fc2d00948590`
 
 ## Discovery tags
 

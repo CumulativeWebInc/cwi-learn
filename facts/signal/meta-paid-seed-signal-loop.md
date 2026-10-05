@@ -1,6 +1,6 @@
 # Fact packet — Meta Paid-Seed Signal Loop
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `c03aacff67e54638`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:47Z · integrity `3f6361719cd8a98f`
 
 ## Discovery tags
 

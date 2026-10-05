@@ -76,7 +76,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -125,7 +125,7 @@
     "voice_answer": "Submission Pipeline is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "af08b8612fd648060d5e21124d811ba022c5423579973cf016ab93375578e050"
+    "sha256": "2e93323ca3af52966957749e3692822cda391d06c5557defeb48238af6d91cef"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/submission-pipeline",

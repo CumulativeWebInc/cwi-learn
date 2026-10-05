@@ -1,6 +1,6 @@
 # Fact packet — Marketplace Trust & Safety
 
-Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:01:30Z · integrity `e0364effef18faf3`
+Schema `cwi-fact-packet/v1` · generated 2026-10-03T13:17:46Z · integrity `3c597b2f9eec51e5`
 
 ## Discovery tags
 

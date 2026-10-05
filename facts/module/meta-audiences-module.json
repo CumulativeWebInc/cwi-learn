@@ -79,7 +79,7 @@
       "tier": "claimed_unverified"
     }
   ],
-  "generated_at": "2026-10-03T13:01:30Z",
+  "generated_at": "2026-10-03T13:17:46Z",
   "generator": {
     "catalog_sha256": null,
     "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
@@ -130,7 +130,7 @@
     "voice_answer": "Meta Audiences Module is a system module of a music-marketing machine. Source: Cumulative Web Inc."
   },
   "integrity": {
-    "sha256": "43858eaba3b5754b3c30f289fb816d4fdf3ddab136eb01f73d6ad6e0842596d3"
+    "sha256": "1c783c1af262fe7222a4c8a3661744838b0cadc63973f162663283f031515daa"
   },
   "node": {
     "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/meta-audiences-module",
