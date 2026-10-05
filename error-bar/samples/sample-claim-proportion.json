@@ -1,0 +1,1 @@
+{"claim":"SAMPLE: 78% of 200 surveyed agents said they would re-run a stamped claim","claim_type":"proportion","evidence_tier":"single-source","label":"SAMPLE","observed_at":"2026-09-17T00:00:00Z","point_estimate":0.78,"sample_n":200,"seed":7,"sources":[{"kind":"document","ref":"SAMPLE SOURCE — fictitious survey, fabricated for the worked example"}],"unit":"share of respondents"}
