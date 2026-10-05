@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/full-catalog-slots",
+  "@type": "VideoGame",
+  "name": "Full-Catalog Slots",
+  "description": "Full-Catalog Slots: plan only (business plan 2026-09-21); awaiting Black's approval before any build begins.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R2)",
+      "value": "catalog superfans (prospective) | tbd — plan only | CTA: tbd",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "incomplete",
+      "status": "built",
+      "evidence": "no-suite: plan only, zero code; nothing to run"
+    },
+    {
+      "claim": "conversion end number (R2)",
+      "value": "pending_Lansky",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "built",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "Full-Catalog Slots",
+      "result": "R2",
+      "who": "catalog superfans (prospective)",
+      "channel": "tbd — plan only",
+      "cta": "tbd",
+      "end_number": "pending_Lansky",
+      "cycle_stage": "built",
+      "tests": "no-suite: plan only, zero code; nothing to run",
+      "packaged": "n",
+      "verified_at": "2026-10-01T14:20:00-04:00",
+      "notes": "PRE-CYCLE per Lansky's fair-metrics ruling: plan only (catalog-slots-business-plan.md, 2026-09-21), requires Black's approval before any build begins. cycle_stage uses the closest enum value; true state is planned/awaiting approval."
+    }
+  ]
+}

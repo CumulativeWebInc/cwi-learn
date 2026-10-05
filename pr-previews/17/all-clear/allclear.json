@@ -1,0 +1,148 @@
+{
+  "format": "cwi-allclear/v1",
+  "catalog": {
+    "label": "Cumulative Web Inc",
+    "artist": "That Boy Hi Hat",
+    "base_location": "Frederick, MD",
+    "contact": "hp@cumulativeweb.com",
+    "updated": "2026-09-15",
+    "notes": "THE ALL-CLEAR reference shape (Business Affairs). Two tracks are embedded here so agents can read the shape in one fetch; the full 24-track seed dataset ships as allclear.cwi.json.",
+    "seed_dataset": "https://cumulativewebinc.github.io/cwi-learn/all-clear/allclear.cwi.json"
+  },
+  "verdicts": {
+    "clear": "Pre-cleared. Use it; attribution to artist and label.",
+    "conditional": "Possible with terms. Contact the rights holder (hp@cumulativeweb.com) for this use.",
+    "denied": "Not permitted. Contact the rights holder only if circumstances change."
+  },
+  "tracks": [
+    {
+      "title": "Zooted Zone",
+      "catalog_ref": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ],
+      "notes": "Lifetime Spotify plays ~307,439 (observed 2026-09-14). Produced by Kokurcho; mixed and mastered by Hybrid at his Hagerstown, MD studio; recorded Hagerstown, Feb 2023.",
+      "verified_placements": [
+        {
+          "playlist": "New Rap Hits",
+          "position": 30,
+          "observed": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "title": "Diabolique",
+      "catalog_ref": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "artist": "That Boy Hi Hat",
+      "owner_contact": "hp@cumulativeweb.com",
+      "uses": [
+        {
+          "use_type": "stream",
+          "verdict": "clear",
+          "terms": "Pre-cleared for streaming playback on user-facing platforms. No further paperwork required for this use.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "vod",
+          "verdict": "clear",
+          "terms": "Pre-cleared for video-on-demand playback where the platform's own license covers playback; contact rights holder for platform licensing questions.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "clips",
+          "verdict": "clear",
+          "terms": "Pre-cleared for short-form clips up to 60 seconds with attribution to the artist and label.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "ad",
+          "verdict": "conditional",
+          "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "sync-game",
+          "verdict": "conditional",
+          "terms": "Game / interactive media sync. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "derivative",
+          "verdict": "conditional",
+          "terms": "Remix or derivative work. Contact the rights holder at hp@cumulativeweb.com for terms.",
+          "territory": "worldwide",
+          "expires": null
+        },
+        {
+          "use_type": "reupload",
+          "verdict": "denied",
+          "terms": "Not permitted: catalog tracks may not be re-uploaded, re-claimed, or distributed as original content.",
+          "territory": "worldwide",
+          "expires": null
+        }
+      ],
+      "notes": "Released 2026-07-03. Recorded at Cue Recording Studios, Arlington, Virginia. Co-produced by Hybrid and Black."
+    }
+  ],
+  "example_query": {
+    "question": "Can I use 'Flamerz' for a 30-second ad?",
+    "lookup": "find track by title -> uses where use_type == 'ad'",
+    "verdict": "conditional",
+    "terms": "Commercial use. Contact the rights holder at hp@cumulativeweb.com for terms."
+  }
+}

@@ -1,0 +1,62 @@
+{
+ "content": {
+  "caption": "That Boy Hi Hat — \"Diabolique\". Single released 2026-07-03, recorded at Cue Recording Studio in Arlington, Virginia. Alt-rap from Frederick, MD — managed by Cumulative Web Inc. Spotify: https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+  "day": "day-04",
+  "hashtags": [
+   "#AltRap",
+   "#ThatBoyHiHat",
+   "#Diabolique",
+   "#CumulativeWebInc",
+   "#PostTrapFuturism",
+   "#NewSingle",
+   "#SupportIndieMusic"
+  ],
+  "id": "diabolique-launch",
+  "media_files": [
+   "media/diabolique-official-cover.jpg",
+   "media/cwi-badge.png"
+  ],
+  "platform_targets": [
+   "instagram",
+   "threads",
+   "x",
+   "bluesky",
+   "tiktok"
+  ],
+  "post_order": 4,
+  "threads_text": "That Boy Hi Hat — Diabolique. Single released 2026-07-03, recorded at Cue Recording Studio in Arlington, Virginia (official position). Alt-rap, Frederick MD. Full platforms: Spotify and all major platforms. https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+  "type": "single-launch"
+ },
+ "pack_id": "diabolique-pack",
+ "product": "THE FINAL CUT",
+ "track_ref": "Diabolique",
+ "truth_gate_report": {
+  "checked_at": "2026-09-15",
+  "checked_by": "THE FINAL CUT truth gate v1.0.0",
+  "claims_verified": [
+   {
+    "claim": "Diabolique single released 2026-07-03",
+    "fact_source": "~/workspace/cwi-company/nodes/catalog.json tracks[3].release_date; owner memory (Diabolique July 3 single push)"
+   },
+   {
+    "claim": "Diabolique recorded at Cue Recording Studio, Arlington, Virginia",
+    "fact_source": "Owner-confirmed 2026-09-15 — official position for all sync one-sheets"
+   },
+   {
+    "claim": "That Boy Hi Hat is an alternative-rap artist from Frederick, MD, managed by Cumulative Web Inc (Henry Pitts, aka Black Lansky)",
+    "fact_source": "~/workspace/cwi-company/nodes/catalog.json artist block; owner-confirmed 2026-09-15"
+   },
+   {
+    "claim": "Official Spotify URL for Diabolique",
+    "fact_source": "~/workspace/cwi-company/nodes/catalog.json tracks[3].spotify_url (supplied by Black, 2026-09-15)"
+   },
+   {
+    "claim": "No playlist-placement claims are made for Diabolique — placement verified only for Zooted Zone, Shaka Zulu, Doves & Diamonds",
+    "fact_source": "~/workspace/cwi-company/nodes/catalog.json verified_placements covers only those three tracks; the gate refused to infer more"
+   }
+  ],
+  "media_attested": "Official release art (CWI-supplied) + CWI logo badge. Brand rule: the logo ships on every visual asset.",
+  "status": "pass"
+ },
+ "version": "1.0.0"
+}

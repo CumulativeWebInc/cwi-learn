@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-public",
+  "@type": "SoftwareApplication",
+  "name": "cwi-mcp-public",
+  "description": "CWI MCP public server: public MCP tools including trust_verdict.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external AI agents | GitHub / Moltbook / model registries | CTA: try / equip",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "packaged",
+      "evidence": "test-unit.mjs 40/40; test-http.mjs 27/27; test-adversarial.mjs 27/27 = 94/94 (verified 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "10",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "cwi-mcp-public",
+      "result": "R3",
+      "who": "external AI agents",
+      "channel": "GitHub / Moltbook / model registries",
+      "cta": "try / equip",
+      "end_number": 10,
+      "cycle_stage": "packaged",
+      "tests": "test-unit.mjs 40/40; test-http.mjs 27/27; test-adversarial.mjs 27/27 = 94/94 (verified 2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:30:00-04:00",
+      "notes": "Retrofit: added agent-card.json (README, CHANGELOG, DEPLOY, THREAT-MODEL pre-existed). Conversion leg not yet run; R3 current = 0/10."
+    }
+  ]
+}

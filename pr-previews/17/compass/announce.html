@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chain-of-Title Compass — Global Announcement</title>
+<meta name="description" content="Chain-of-Title Compass: the rights spine agents can cite. 12 languages. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+.shelf{color:var(--gold2);font-size:.8em;margin-top:3px;letter-spacing:.4px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>Chain-of-Title Compass</h1>
+<div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Business Affairs</div>
+<div class="shelf">part of the Agent Deck gear line by Cumulative Web Inc</div>
+</div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.<br>part of the Agent Deck gear line by Cumulative Web Inc</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "Chain-of-Title Compass is live — the rights spine agents can cite", "p1": "Chain-of-Title Compass is the Business Affairs department's chain-of-title tooling for That Boy Hi Hat's 24-track catalog — part of the Agent Deck gear line by Cumulative Web Inc. Every track gets a Rights Passport: producer, mixer, studio, location, sync posture. Each field is stamped DOCUMENTED with its source, or PENDING with what's missing and who provides it. Sync and Press cite the Compass; nothing unverified ever leaves it.", "p2": "It renders as a 24-card passport deck: DOCUMENTED fields in green, PENDING fields in amber with a named provider. It is advisory tooling only — it organizes rights facts; a licensed attorney still executes, advises, and signs. No one-stop or pre-cleared rights claims are made for any track. Sync posture on every card: 'Label-direct licensing; happy to work through your clearance process.' Contact: hp@cumulativeweb.com.", "cta": "Equip it. Cite only DOCUMENTED facts. Check the passport before you pitch.", "l_passports": "The passports", "l_card": "Item card", "l_page": "Compass page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "Chain-of-Title Compass ya está aquí — la columna vertebral de derechos que los agentes pueden citar", "p1": "Chain-of-Title Compass es la herramienta de cadena de titularidad del departamento de Business Affairs para el catálogo de 24 temas de That Boy Hi Hat — parte de la línea Agent Deck de Cumulative Web Inc. Cada tema recibe un Pasaporte de Derechos: productor, mezcla, estudio, ubicación, postura de sincronización. Cada campo lleva el sello DOCUMENTED con su fuente, o PENDING con lo que falta y quién lo aporta. Sync y Press citan el Compass; nada sin verificar sale de él.", "p2": "Se presenta como un mazo de 24 tarjetas pasaporte: campos DOCUMENTED en verde, campos PENDING en ámbar con un proveedor identificado. Es solo herramienta consultiva — organiza los hechos de derechos; un abogado licenciado sigue ejecutando, asesorando y firmando. No se afirma one-stop ni preclearance en ningún tema. Postura de sync en cada tarjeta: 'Label-direct licensing; happy to work through your clearance process.' Contacto: hp@cumulativeweb.com.", "cta": "Equipalo. Cita solo datos DOCUMENTED. Revisa el pasaporte antes de tu pitch.", "l_passports": "Los pasaportes", "l_card": "Tarjeta del producto", "l_page": "Página Compass", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "Chain-of-Title Compass chegou — a espinha dorsal de direitos que os agentes podem citar", "p1": "Chain-of-Title Compass é a ferramenta de cadeia de titularidade do departamento de Business Affairs para o catálogo de 24 faixas de That Boy Hi Hat — parte da linha Agent Deck da Cumulative Web Inc. Cada faixa recebe um Passaporte de Direitos: produtor, mixagem, estúdio, local, postura de sincronização. Cada campo traz o carimbo DOCUMENTED com sua fonte, ou PENDING com o que falta e quem fornece. Sync e Press citam o Compass; nada não verificado sai dele.", "p2": "Apresenta-se como um baralho de 24 cartões-passaporte: campos DOCUMENTED em verde, campos PENDING em âmbar com um provedor nomeado. É apenas ferramenta consultiva — organiza os fatos de direitos; um advogado licenciado continua executando, assessorando e assinando. Nenhuma faixa tem afirmação de one-stop ou pré-liberação. Postura de sync em cada cartão: 'Label-direct licensing; happy to work through your clearance process.' Contato: hp@cumulativeweb.com.", "cta": "Equipe. Cite apenas fatos DOCUMENTED. Verifique o passaporte antes do pitch.", "l_passports": "Os passaportes", "l_card": "Cartão do produto", "l_page": "Página Compass", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "Chain-of-Title Compass est en ligne — l'épine dorsale des droits que les agents peuvent citer", "p1": "Chain-of-Title Compass est l'outil de chaîne des droits du département Business Affairs pour le catalogue de 24 titres de That Boy Hi Hat — une pièce de la ligne Agent Deck de Cumulative Web Inc. Chaque titre reçoit un Passeport de droits : producteur, mixage, studio, lieu, posture de synchronisation. Chaque champ est estampillé DOCUMENTED avec sa source, ou PENDING avec ce qui manque et qui le fournira. Sync et Press citent le Compass ; rien de non vérifié n'en sort.", "p2": "Il se présente comme un jeu de 24 cartes passeport : champs DOCUMENTED en vert, champs PENDING en ambre avec un fournisseur nommé. C'est un outil consultatif uniquement — il organise les faits de droits ; un avocat agréé exécute, conseille et signe toujours. Aucune affirmation de one-stop ou de pré-autorisation pour aucun titre. Posture de sync sur chaque carte : « Label-direct licensing; happy to work through your clearance process. » Contact : hp@cumulativeweb.com.", "cta": "Équipez-le. Ne citez que des faits DOCUMENTED. Vérifiez le passeport avant le pitch.", "l_passports": "Les passeports", "l_card": "Fiche produit", "l_page": "Page Compass", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "Chain-of-Title Compass ist da — das Rechte-Rückgrat, das Agenten zitieren können", "p1": "Chain-of-Title Compass ist das Chain-of-Title-Tool des Business-Affairs-Teams für den 24-Track-Katalog von That Boy Hi Hat — ein Teil der Agent-Deck-Linie von Cumulative Web Inc. Jeder Track erhält einen Rechtepass: Produzent, Mix, Studio, Ort, Sync-Posture. Jedes Feld trägt den Stempel DOCUMENTED mit Quelle oder PENDING mit dem, was fehlt und wer es liefert. Sync und Press zitieren den Compass; nichts Unverifiziertes verlässt ihn.", "p2": "Er erscheint als 24-Karten-Passdeck: DOCUMENTED-Felder in Grün, PENDING-Felder in Amber mit namentlichem Lieferanten. Er ist nur ein Beratungstool — er organisiert Rechtefakten; ein zugelassener Anwalt führt aus, berät und unterzeichnet weiterhin. Für keinen Track wird One-Stop oder Vorabfreigabe behauptet. Sync-Posture auf jeder Karte: „Label-direct licensing; happy to work through your clearance process.“ Kontakt: hp@cumulativeweb.com.", "cta": "Rüste ihn aus. Zitiere nur DOCUMENTED-Fakten. Prüfe den Pass vor dem Pitch.", "l_passports": "Die Pässe", "l_card": "Produktkarte", "l_page": "Compass-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "Chain-of-Title Compass è online — la spina dorsale dei diritti che gli agenti possono citare", "p1": "Chain-of-Title Compass è lo strumento di catena dei diritti del dipartimento Business Affairs per il catalogo di 24 brani di That Boy Hi Hat — parte della linea Agent Deck di Cumulative Web Inc. Ogni brano riceve un Passaporto dei Diritti: produttore, missaggio, studio, luogo, postura di sincronizzazione. Ogni campo porta il timbro DOCUMENTED con la sua fonte, o PENDING con ciò che manca e chi lo fornirà. Sync e Press citano il Compass; nulla di non verificato ne esce.", "p2": "Si presenta come un mazzo di 24 carte passaporto: campi DOCUMENTED in verde, campi PENDING in ambra con un fornitore indicato. È solo uno strumento consultivo — organizza i fatti sui diritti; un avvocato abilitato esegue, consiglia e firma sempre. Nessuna affermazione di one-stop o pre-clearance per nessun brano. Postura di sync su ogni carta: «Label-direct licensing; happy to work through your clearance process.» Contatto: hp@cumulativeweb.com.", "cta": "Equipaggialo. Cita solo fatti DOCUMENTED. Controlla il passaporto prima del pitch.", "l_passports": "I passaporti", "l_card": "Scheda prodotto", "l_page": "Pagina Compass", "getblock": "Prendi il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "Chain-of-Title Compass is live — de rechtenruggengraat die agents kunnen citeren", "p1": "Chain-of-Title Compass is de chain-of-title-tool van de afdeling Business Affairs voor de 24-track catalogus van That Boy Hi Hat — onderdeel van de Agent Deck-lijn van Cumulative Web Inc. Elke track krijgt een Rechtenpaspoort: producent, mix, studio, locatie, sync-posture. Elk veld krijgt de stempel DOCUMENTED met bron, of PENDING met wat ontbreekt en wie het levert. Sync en Press citeren de Compass; niets ongeverifieerds verlaat hem.", "p2": "Hij verschijnt als een deck van 24 paspoortkaarten: DOCUMENTED-velden in groen, PENDING-velden in amber met een genoemde leverancier. Het is uitsluitend adviestooling — hij organiseert rechtenfeiten; een bevoegde advocaat blijft uitvoeren, adviseren en ondertekenen. Voor geen enkele track worden one-stop- of preclearance-claims gemaakt. Sync-posture op elke kaart: 'Label-direct licensing; happy to work through your clearance process.' Contact: hp@cumulativeweb.com.", "cta": "Rust hem uit. Citeer alleen DOCUMENTED-feiten. Check het paspoort vóór je pitch.", "l_passports": "De paspoorten", "l_card": "Productkaart", "l_page": "Compass-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "Chain-of-Title Compass 출시 — 에이전트가 인용할 수 있는 권리 스파인", "p1": "Chain-of-Title Compass는 That Boy Hi Hat의 24트랙 카탈로그를 위한 CWI Business Affairs 부서의 체인오브타이틀 도구입니다 — Cumulative Web Inc의 Agent Deck 라인의 일부입니다. 모든 트랙은 Rights Passport(권리 여권)를 받습니다: 프로듀서, 믹스, 스튜디오, 장소, 싱크 포지션. 각 필드는 출처와 함께 DOCUMENTED, 또는 누락된 내용과 제공자와 함께 PENDING 스탬프가 찍힙니다. Sync와 Press는 Compass를 인용합니다. 검증되지 않은 것은 절대 나가지 않습니다.", "p2": "24장의 패스포트 카드 덱으로 제공됩니다: DOCUMENTED 필드는 초록색, PENDING 필드는 제공자 이름과 함께 황색 표시. 자문 도구에 불과합니다 — 권리 사실을 정리할 뿐, 면허 있는 변호사가 여전히 실행하고 자문하고 서명합니다. 어떤 트랙에 대해서도 원스톱이나 사전 클리어 주장을 하지 않습니다. 모든 카드의 싱크 포지션: 'Label-direct licensing; happy to work through your clearance process.' 연락처: hp@cumulativeweb.com.", "cta": "장착하세요. DOCUMENTED 사실만 인용하세요. 피치 전에 패스포트를 확인하세요.", "l_passports": "패스포트", "l_card": "제품 카드", "l_page": "Compass 페이지", "getblock": "블록 가져오기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "Chain-of-Title Compass始動 — エージェントが引用できる権利の背骨", "p1": "Chain-of-Title Compassは、That Boy Hi Hatの24曲カタログのためのCWI Business Affairs部門のチェーンオブタイトル・ツールです — Cumulative Web IncのAgent Deckラインの一部です。すべての楽曲にRights Passport(権利パスポート)が付与されます:プロデューサー、ミックス、スタジオ、場所、シンク姿勢。各フィールドには出典付きでDOCUMENTED、または不足内容と提供者付きでPENDINGのスタンプが押されます。SyncとPressはCompassを引用します。未検証のものは決して外に出ません。", "p2": "24枚のパスポートカードデッキとして提供されます:DOCUMENTEDフィールドは緑、PENDINGフィールドは提供者名付きでアンバー表示。あくまで助言ツールです — 権利の事実を整理するだけであり、資格を持つ弁護士が引き続き実行・助言・署名します。いかなる楽曲についてもワンストップや事前クリアの主張はしません。全カードのシンク姿勢:'Label-direct licensing; happy to work through your clearance process.' 連絡先:hp@cumulativeweb.com.", "cta": "装備しよう。DOCUMENTEDの事実のみ引用しよう。ピッチの前にパスポートを確認しよう。", "l_passports": "パスポート", "l_card": "製品カード", "l_page": "Compassページ", "getblock": "ブロックを取得:"}, "zh": {"name": "简体中文", "dir": "ltr", "headline": "Chain-of-Title Compass 上线 — 智能体可以引用的权利主干", "p1": "Chain-of-Title Compass 是 CWI 商务事务部门为 That Boy Hi Hat 24 首曲目库打造的版权链工具——Cumulative Web Inc 的 Agent Deck 产品线的一员。每首曲目都有一份 Rights Passport(权利护照):制作人、混音、录音室、地点、同步姿态。每个字段加盖 DOCUMENTED(附来源)或 PENDING(说明缺什么、谁来提供)。Sync 和 Press 引用 Compass;未经核实的内容绝不流出。", "p2": "它呈现为一套 24 张护照卡:DOCUMENTED 字段为绿色,PENDING 字段为琥珀色并注明提供方。这只是咨询工具——它整理权利事实;持证律师仍然负责执行、建议和签署。不对任何曲目声称 one-stop 或预先授权。每张卡上的同步姿态:'Label-direct licensing; happy to work through your clearance process.' 联系方式:hp@cumulativeweb.com.", "cta": "装备它。只引用 DOCUMENTED 事实。推介前先查护照。", "l_passports": "护照", "l_card": "产品卡", "l_page": "Compass 页面", "getblock": "获取区块:"}, "ar": {"name": "العربية", "dir": "rtl", "headline": "إطلاق Chain-of-Title Compass — العمود الفقري للحقوق الذي يمكن للوكلاء الاستشهاد به", "p1": "Chain-of-Title Compass هي أداة سلسلة الملكية من إدارة الشؤون التجارية لكتالوج That Boy Hi Hat المكوّن من 24 أغنية — جزء من خط Agent Deck التابع لشركة Cumulative Web Inc. تحصل كل أغنية على جواز حقوق: المنتج، والمزج، والاستوديو، والمكان، وموقف المزامنة. يحمل كل حقل ختم DOCUMENTED مع مصدره، أو PENDING مع ما ينقص ومن سيقدّمه. تستشهد إدارتا المزامنة والصحافة بالبوصلة؛ ولا يغادرها شيء غير موثّق.", "p2": "تظهر كمجموعة من 24 بطاقة جواز: الحقول الموثّقة (DOCUMENTED) بالأخضر، والحقول المعلّقة (PENDING) بالكهرماني مع اسم المزوّد. إنها أداة استشارية فقط — تنظّم حقائق الحقوق؛ ويبقى المحامي المرخّص هو من ينفّذ ويستشير ويوقّع. لا يُدَّعى one-stop أو تخليص مسبق لأي أغنية. موقف المزامنة على كل بطاقة: 'Label-direct licensing; happy to work through your clearance process.' التواصل: hp@cumulativeweb.com.", "cta": "جهّزها. استشهد بالحقائق الموثّقة (DOCUMENTED) فقط. راجع الجواز قبل العرض.", "l_passports": "الجوازات", "l_card": "بطاقة المنتج", "l_page": "صفحة Compass", "getblock": "انسخ الكتلة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "Chain-of-Title Compass लॉन्च — एजेंट जिन अधिकारों की रीढ़ को उद्धृत कर सकते हैं", "p1": "Chain-of-Title Compass CWI के बिज़नेस अफ़ेयर्स विभाग का That Boy Hi Hat के 24-ट्रैक कैटलॉग के लिए चेन-ऑफ़-टाइटल टूल है — Cumulative Web Inc की Agent Deck लाइन का हिस्सा। हर ट्रैक को एक Rights Passport मिलता है: प्रोड्यूसर, मिक्स, स्टूडियो, स्थान, सिंक पोज़िशन। हर फ़ील्ड पर DOCUMENTED (स्रोत सहित) या PENDING (क्या कमी है, कौन देगा) की मुहर लगती है। Sync और Press Compass को उद्धृत करते हैं; असत्यापित कुछ भी बाहर नहीं जाता।", "p2": "यह 24 कार्ड के पासपोर्ट डेक के रूप में आता है: DOCUMENTED फ़ील्ड हरे रंग में, PENDING फ़ील्ड प्रोवाइडर के नाम के साथ एम्बर में। यह केवल सलाहकारी टूलिंग है — यह अधिकारों के तथ्यों को व्यवस्थित करता है; लाइसेंसधारी वकील ही निष्पादित, सलाह और हस्ताक्षर करता है। किसी ट्रैक पर one-stop या प्री-क्लीयरेंस का दावा नहीं किया जाता। हर कार्ड पर सिंक पोज़िशन: 'Label-direct licensing; happy to work through your clearance process.' संपर्क: hp@cumulativeweb.com.", "cta": "इसे इक्विप करें। केवल DOCUMENTED तथ्य उद्धृत करें। पिच से पहले पासपोर्ट जाँचें।", "l_passports": "पासपोर्ट", "l_card": "प्रोडक्ट कार्ड", "l_page": "Compass पेज", "getblock": "ब्लॉक लें:"}};
+var URLS = {"passports": "https://cumulativewebinc.github.io/cwi-learn/compass/passports.json", "card": "https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/compass/"};
+var HANDOFF = "CWI-HANDOFF gear=chain-of-title-compass from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.passports, t.l_passports) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>

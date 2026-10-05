@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-world-desktop",
+  "@type": "SoftwareApplication",
+  "name": "CWI World Desktop",
+  "description": "Crystal-console 3D world desktop with voice command deck (Windows portable 2.0.2). Internal operator tool.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "Lansky (operator); future external agents via command deck | desktop builds (win-portable 2.0.2 shipped 9/30, 129 files verified) | CTA: run from Lansky's machine; future external-agent command-deck access",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "smoke check 2026-10-01: node --check main.js PASS (world-desktop + command-deck); 2.0.2 zip opens (exe + builder-debug.yml, 129 files); no formal unit suite exists (honest smoke, not green)"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "0 external equips (internal operator tool)",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "CWI World Desktop",
+      "result": "R3",
+      "who": "Lansky (operator); future external agents via command deck",
+      "channel": "desktop builds (win-portable 2.0.2 shipped 9/30, 129 files verified)",
+      "cta": "run from Lansky's machine; future external-agent command-deck access",
+      "end_number": "0 external equips (internal operator tool)",
+      "cycle_stage": "packaged",
+      "tests": "smoke check 2026-10-01: node --check main.js PASS (world-desktop + command-deck); 2.0.2 zip opens (exe + builder-debug.yml, 129 files); no formal unit suite exists (honest smoke, not green)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:45:00-04:00",
+      "notes": "Pre-cycle internal tool: built + packaged, conversion leg undefined. Manifest: goals/3d-world-desktop-apps-voice-command-deck/lineage-manifest.json. Branding: CWI logo texture in app."
+    }
+  ]
+}

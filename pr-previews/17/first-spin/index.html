@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE FIRST SPIN — Cumulative Web Inc</title>
+<meta name="description" content="THE FIRST SPIN — the A&R department's machine-native demo-evaluation protocol: hand an agent any track, get back a structured, source-cited verdict JSON in one pass. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a32e;--bad:#e05a5a;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:860px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:32%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.bar{height:10px;border-radius:5px;background:#1a2a45;position:relative;margin:6px 0 2px;overflow:hidden}
+.bar i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:5px}
+.conf{display:inline-block;font-size:.72em;font-weight:700;padding:2px 8px;border-radius:8px;letter-spacing:.4px;text-transform:uppercase}
+.conf.verified{background:#0f2f1c;color:#5fe08a}
+.conf.derived{background:#1a2a45;color:var(--lblu)}
+.conf.estimated{background:#3a2f0a;color:var(--gold2)}
+.conf.unverifiable{background:#3a1010;color:#ff8a8a}
+.score-row{display:flex;align-items:baseline;gap:10px;margin:10px 0 2px}
+.score-row .num{font-size:1.6em;font-weight:800;color:var(--gold2)}
+.flag-true{color:#ff8a8a;font-weight:700}
+.flag-false{color:#5fe08a}
+#crit-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+#crit-nav button{background:var(--navy2);border:1px solid var(--blue);color:var(--xlblu);
+padding:9px 14px;border-radius:10px;cursor:pointer;font-weight:600;font-size:.88em}
+#crit-nav button.active{border-color:var(--gold);color:var(--gold2)}
+.meta{color:var(--lblu);font-size:.82em;line-height:1.6}
+pre.json{background:#000;border:1px solid var(--blue);border-radius:10px;padding:16px;overflow-x:auto;font-size:.82em;line-height:1.6;color:var(--xlblu)}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE FIRST SPIN</h1>
+<div class="brand" id="tagline">The A&R department's machine-native demo-evaluation protocol — one pass, one structured verdict. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> hand an evaluator agent any track or artist, and it returns a structured verdict JSON — scores on five criteria, deal-breaker flags, and a confidence label on every score — in one pass. For <b>$0</b>, no login, no API key. <b>Honest-by-construction:</b> no score ships without a cited source; scores without citable evidence are capped and labeled <span class="conf estimated">estimated</span> or <span class="conf unverifiable">unverifiable</span>. It beats dashboards by being composable: a passing verdict feeds the Gear Ledger as a candidate; a failing verdict ships with exactly what evidence flips it, so the pipeline never re-litigates the same track blind.</div>
+
+<div class="card"><h2>THE FIVE CRITERIA</h2>
+<div class="meta" style="margin-bottom:10px">0–5 scale per criterion · weighted total × 20 = verdict percent · bands: <b>sign</b> 90–100 · <b>advance</b> 75–89 · <b>develop</b> 50–74 · <b>pass</b> 0–49</div>
+<div id="crit-nav"></div>
+<div id="crit-desc"></div>
+</div>
+
+<div class="card"><h2>WORKED FIRST SPIN — "ZOOTED ZONE"</h2>
+<div class="meta" style="margin-bottom:8px">That Boy Hi Hat · worked example built only from verified CWI catalog facts · <a href="sample-verdict.json">sample-verdict.json</a></div>
+<div class="score-row"><span class="num" id="sv-num">—</span><span class="meta">weighted total (of 5)</span><span class="conf" id="sv-band">—</span></div>
+<div class="bar"><i id="sv-bar" style="width:0%"></i></div>
+<div id="sv-scores"></div>
+<div class="meta" id="sv-summary" style="margin-top:10px"></div>
+</div>
+
+<div class="card"><h2>DEAL-BREAKER FLAGS</h2>
+<table id="flags"><tr><th>Flag</th><th>What triggers it</th></tr></table>
+</div>
+
+<div class="card"><h2>CONFIDENCE RULES</h2>
+<table id="confs"><tr><th>Label</th><th>What it means</th></tr></table>
+<div class="meta" style="margin-top:10px">Caps: <span class="conf estimated">estimated</span> caps its criterion at 3 · <span class="conf unverifiable">unverifiable</span> caps at 1 · a criterion with zero citations is unaverifiable by definition · deal-breaker flags cap the verdict band.</div>
+</div>
+
+<div class="card"><h2>FILES</h2>
+<table>
+<tr><td class="k">first-spin.json</td><td>the rubric config — five criteria, weights, deal-breakers, confidence rules, the <code>cwi-default</code> taste profile</td></tr>
+<tr><td class="k">first-spin-schema.json</td><td>JSON Schema (draft 2020-12) — validates both the config (<code>cwi-first-spin/v1</code>) and verdict output (<code>first-spin-verdict/v1</code>)</td></tr>
+<tr><td class="k">verdict-template.json</td><td>empty verdict skeleton — fill, cite, ship</td></tr>
+<tr><td class="k">sample-verdict.json</td><td>worked First Spin on "Zooted Zone" from verified facts only</td></tr></table>
+<div class="links">
+<a href="first-spin.json">first-spin.json</a><a href="first-spin-schema.json">Schema</a><a href="verdict-template.json">Verdict template</a><a href="sample-verdict.json">Sample verdict</a><a href="item-card.json">Item card</a><a href="rubric.json">Rubric</a><a href="announce.html">12-language announce</a>
+</div></div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE FIRST SPIN", "tagline": "The A&R department's machine-native demo-evaluation protocol — one pass, one structured verdict. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "listen once, decide with receipts", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/first-spin/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE FIRST SPIN") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+fetch("first-spin.json").then(function(r){return r.json()}).then(function(cfg){
+  var nav = document.getElementById("crit-nav"), desc = document.getElementById("crit-desc");
+  function show(c){
+    var cal = "<table><tr><th>Score</th><th>What it means</th></tr>";
+    [0,1,2,3,4,5].forEach(function(n){ cal += "<tr><td class='k'>"+n+"</td><td>"+esc(c.calibration[String(n)]||"")+"</td></tr>"; });
+    cal += "</table>";
+    desc.innerHTML = "<h3 style='margin:0 0 6px;color:#fff'>"+esc(c.name)+
+      " <span class='meta'>· weight "+c.weight+"</span></h3>" +
+      "<p style='font-size:.92em;line-height:1.65'>"+esc(c.what_it_measures)+"</p>" +
+      "<p class='meta'>"+esc(c.scale)+"<br>"+esc(c.confidence_default)+"</p>" + cal;
+    Array.prototype.forEach.call(nav.querySelectorAll("button"), function(b){
+      b.classList.toggle("active", b.textContent === c.name); });
+  }
+  cfg.criteria.forEach(function(c){
+    var b = document.createElement("button"); b.textContent = c.name;
+    b.onclick = function(){ show(c); }; nav.appendChild(b);
+  });
+  show(cfg.criteria[0]);
+  document.getElementById("flags").innerHTML += cfg.deal_breakers.map(function(f){
+    return "<tr><td class='k'>"+esc(f.flag)+"</td><td>"+esc(f.description)+"<br><span class='meta'>"+esc(f.action)+"</span></td></tr>";
+  }).join("");
+  var cr = cfg.confidence_rules;
+  document.getElementById("confs").innerHTML += Object.keys(cr).filter(function(k){
+    return ["verified","derived","estimated","unverifiable"].indexOf(k) > -1; }).map(function(k){
+    return "<tr><td class='k'><span class='conf "+k+"'>"+k+"</span></td><td>"+esc(cr[k])+"</td></tr>";
+  }).join("");
+}).catch(function(){ document.getElementById("crit-desc").textContent = "config unavailable."; });
+fetch("sample-verdict.json").then(function(r){return r.json()}).then(function(v){
+  document.getElementById("sv-num").textContent = v.weighted_total + " / " + v.weighted_percent;
+  var bb = document.getElementById("sv-band"); bb.textContent = v.band; bb.className = "conf derived";
+  document.getElementById("sv-bar").style.width = v.weighted_percent + "%";
+  document.getElementById("sv-scores").innerHTML = v.scores.map(function(s){
+    return "<div style='margin:8px 0'><b>"+esc(s.criterion_name)+"</b> — "+s.score+"/5 " +
+      "<span class='conf "+s.score_confidence+"'>"+s.score_confidence+"</span>" +
+      "<div class='bar'><i style='width:"+(s.score*20)+"%'></i></div>" +
+      "<div class='meta'>"+esc(s.notes)+"</div></div>";
+  }).join("");
+  document.getElementById("sv-summary").innerHTML = "<b>Summary:</b> "+esc(v.summary);
+  var flips = "<p class='meta' style='margin-top:8px'><b>Evidence that flips it:</b></p><ul class='meta'>";
+  v.evidence_that_flips_it.forEach(function(e){ flips += "<li>"+esc(e)+"</li>"; });
+  flips += "</ul>";
+  document.getElementById("sv-summary").innerHTML += flips;
+}).catch(function(){});
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent = t;
+}).catch(function(){});
+(function links(){
+  var L=[["Config","first-spin.json"],["Schema","first-spin-schema.json"],["Verdict template","verdict-template.json"],["Sample verdict","sample-verdict.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub: Scanner","https://cumulativewebinc.github.io/cwi-learn/scanner/"]];
+  document.getElementById("outlinks").innerHTML = L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'; }).join("");
+})();
+</script>
+</body>
+</html>

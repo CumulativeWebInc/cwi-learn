@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Sync Shelf — CWI open sync-brief board</title>
+<style>
+  :root{--bg:#0b0e14;--card:#141926;--ink:#e8ecf4;--dim:#9aa3b8;--amber:#f0a53a;--green:#3ddc84;--red:#ff5c5c;--line:#232b40}
+  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  header{padding:28px 20px;border-bottom:1px solid var(--line)}
+  header h1{margin:0 0 6px;font-size:1.6rem}
+  header p{margin:4px 0;color:var(--dim);max-width:60rem}
+  .notice{margin:16px 20px;padding:12px 16px;border:1px solid var(--amber);border-radius:10px;background:#1d1607;color:#f5d9a8}
+  main{padding:20px;max-width:72rem;margin:0 auto}
+  .brief{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:18px 0}
+  .brief h2{margin:0 0 4px;font-size:1.15rem}
+  .meta{color:var(--dim);font-size:.85rem;margin-bottom:10px}
+  .tags span{display:inline-block;background:#0f1522;border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin:2px 4px 2px 0;font-size:.8rem}
+  .scene{color:var(--dim);font-style:italic;margin:10px 0}
+  .sample{display:inline-block;background:#3a2b10;color:#f0a53a;border-radius:6px;padding:2px 8px;font-size:.72rem;font-weight:700;letter-spacing:.06em;margin-left:8px;vertical-align:middle}
+  .match{border-top:1px solid var(--line);padding:12px 0 4px}
+  .match h3{margin:0 0 4px;font-size:1rem}
+  .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+  .dot.amber{background:var(--amber)}.dot.green{background:var(--green)}.dot.red{background:var(--red)}
+  .why{color:var(--dim);font-size:.85rem}
+  .score{color:var(--dim);font-size:.8rem}
+  .none{color:var(--dim);border-top:1px solid var(--line);padding-top:12px;font-style:italic}
+  footer{padding:24px 20px;color:var(--dim);font-size:.8rem;border-top:1px solid var(--line)}
+  a{color:#7cc4ff}
+</style>
+</head>
+<body>
+<header>
+  <h1>The Sync Shelf <span style="color:var(--dim);font-size:1rem">— an open sync-brief board</span></h1>
+  <p>Supervisors and agents post sync briefs in structured form; the CWI catalog answers with clearance <b>status</b> attached. Browse the board, read the briefs, see which tracks fit.</p>
+  <p>Schemas: <a href="brief-schema.json">brief-schema.json</a> · <a href="response-schema.json">response-schema.json</a> ·
+  Data: <a href="briefs.json">briefs.json</a> · <a href="responses.json">responses.json</a> · <a href="catalog-tracks.json">catalog-tracks.json</a></p>
+</header>
+<div class="notice"><b>Important:</b> clearance status (green / amber / red) describes CWI's <b>internal readiness posture only</b>. It is <b>not a legal clearance determination</b> — CWI does not infer or assert rights, splits, ownership, or legal clearances. Terms are never published on this board; status only.</div>
+<main id="board"><p style="color:var(--dim)">Loading the shelf…</p></main>
+<footer>
+  Sync Shelf v1.0.0 · Cumulative Web Inc · All seeded briefs are SAMPLE seeds, not real supervisor briefs. BPM/key figures are CWI in-house estimates (2026-09-17), not authoritative.
+</footer>
+<script>
+(async function(){
+  const board = document.getElementById('board');
+  const [briefs, responses] = await Promise.all([
+    fetch('briefs.json').then(r=>r.json()),
+    fetch('responses.json').then(r=>r.json())
+  ]);
+  const byBrief = Object.fromEntries(responses.map(r=>[r.brief_id, r]));
+  board.innerHTML = '';
+  for (const b of briefs) {
+    const r = byBrief[b.brief_id];
+    const el = document.createElement('section');
+    el.className = 'brief';
+    const tag = t => `<span>${t}</span>`;
+    el.innerHTML = `
+      <h2>${b.title}${b.status==='sample'?'<span class="sample">SAMPLE</span>':''}</h2>
+      <div class="meta">${b.project_type.toUpperCase()} · budget band: ${b.budget_band||'undisclosed'} · deadline ${b.deadline||'—'} · via ${b.contact_channel||'—'}</div>
+      <div class="tags">${(b.moods||[]).map(tag).join('')}${b.energy?tag('energy: '+b.energy):''}${(b.bpm_min&&b.bpm_max)?tag(b.bpm_min+'–'+b.bpm_max+' BPM'):''}</div>
+      <p class="scene">“${b.scene_use||''}”</p>
+      <div class="answers"><b>Catalog answers (${r.matches.length}):</b></div>`;
+    const ans = el.querySelector('.answers');
+    if (!r.matches.length) {
+      ans.insertAdjacentHTML('beforeend', `<div class="none">${r.no_match_note||'No matches.'}</div>`);
+    } else {
+      for (const m of r.matches) {
+        ans.insertAdjacentHTML('beforeend', `
+          <div class="match">
+            <h3>${m.title} <span class="score">— ${m.artist} · score ${m.score}</span></h3>
+            <div><span class="dot ${m.clearance_status}"></span><b>${m.clearance_status.toUpperCase()}</b> <span class="why">${m.status_note||''}</span></div>
+            <div class="why">Matched on: ${(m.matched_on||[]).join(' · ')}</div>
+          </div>`);
+      }
+    }
+    board.appendChild(el);
+  }
+})();
+</script>
+</body>
+</html>

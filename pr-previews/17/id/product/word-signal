@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/word-signal",
+  "@type": "VideoGame",
+  "name": "Word Signal",
+  "description": "Word Signal word game with deterministic seeded generation (serves the R2 player-device funnel).",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R2)",
+      "value": "word-puzzle players | CWI portfolio / arcade placement | CTA: Play free",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "packaged",
+      "evidence": "green: 434/434 node tests (real <script> via node:vm; gesture engine, fat-finger recovery, trail, capsule geometry), stable across 3 runs (run 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R2)",
+      "value": "pending_Lansky",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "Word Signal",
+      "result": "R2",
+      "who": "word-puzzle players",
+      "channel": "CWI portfolio / arcade placement",
+      "cta": "Play free",
+      "end_number": "pending_Lansky",
+      "cycle_stage": "packaged",
+      "tests": "green: 434/434 node tests (real <script> via node:vm; gesture engine, fat-finger recovery, trail, capsule geometry), stable across 3 runs (run 2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:20:00-04:00",
+      "notes": "Retrofit 2026-10-01: fixed non-deterministic direction shuffle in generate() (seeded generation now fully deterministic; live play unchanged) and made test section 11 scan seeds deterministically — suite was flaky (1-4 failures across runs), now stable green."
+    }
+  ]
+}

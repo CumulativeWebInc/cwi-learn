@@ -1,0 +1,57 @@
+{
+  "claim": "SAMPLE: 78% of 200 surveyed agents said they would re-run a stamped claim",
+  "claim_type": "proportion",
+  "confidence_tier": "weak",
+  "input_sha256": "3a58b7bfd787c05c74baadb0cca52565931b072c12f52538c451630250e86558",
+  "interval": {
+    "high": 0.8242663310264922,
+    "low": 0.7282592590068335,
+    "method_id": "eb-wilson/1.0",
+    "nominal_coverage": 0.9
+  },
+  "label": "SAMPLE",
+  "output_sha256": "89c562a5104790b26618bd97f8a77c703fc0883ad35681ef68779f82dc6591e9",
+  "point_estimate": 0.78,
+  "provenance": {
+    "checks": [
+      {
+        "detail": "claim_type 'proportion' routed to an interval method",
+        "name": "claim_type_known",
+        "ok": true
+      },
+      {
+        "detail": "evidence tier 'single-source'",
+        "name": "evidence_tier_known",
+        "ok": true
+      },
+      {
+        "detail": "1 source(s) listed",
+        "name": "sources_present",
+        "ok": true
+      },
+      {
+        "detail": "tier 'single-source' needs >=1 source(s), has 1",
+        "name": "tier_source_minimum",
+        "ok": true
+      },
+      {
+        "detail": "all sources have a url or ref",
+        "name": "sources_identifiable",
+        "ok": true
+      },
+      {
+        "detail": "observed_at 2026-09-17T00:00:00Z",
+        "name": "observed_at_sane",
+        "ok": true
+      }
+    ],
+    "source_count": 1,
+    "status": "pass"
+  },
+  "reproducibility": "Re-run: python3 errorbar.py stamp --in <claim.json> --seed 1337 --at 2026-09-17T15:00:00Z  ->  byte-identical output expected. Method eb-wilson/1.0: Wilson score interval, z=1.6449 (90%), n=200. Deterministic; seed carried but unused. Fields stamped_at and output_sha256 are run metadata and are excluded from the recompute comparison performed by `errorbar.py verify`. An output that cannot be re-run is void.",
+  "seed": 1337,
+  "stamped_at": "2026-09-17T15:00:00Z",
+  "tool": "error-bar",
+  "tool_version": "1.0.0",
+  "unit": "share of respondents"
+}

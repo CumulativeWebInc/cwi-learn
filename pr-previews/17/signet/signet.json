@@ -1,0 +1,104 @@
+{
+  "format": "cwi-signet/v1",
+  "product": "THE SIGNET",
+  "issuer": "Cumulative Web Inc — Business Affairs department",
+  "contact": "hp@cumulativeweb.com",
+  "description": "The agent's seal for sworn-signing rights assertions. An agent presses its signet to a rights claim — its name on the line, timestamped, auditable, hash-ledger-chained. If the Chain-of-Title Compass is the passport, the Signet is the visa stamp in the agent's own hand.",
+  "how_it_works": [
+    "An agent asserts a rights fact: (agent_name, work, claim, evidence[]).",
+    "The sealer (seal.py) canonicalizes the record (sorted keys, compact JSON), stamps an ISO-8601 UTC timestamp, and binds it to the previous record's hash.",
+    "record_hash = sha256(prev_hash + newline + canonical_body). Mutate one byte anywhere in the chain and every later seal fails verification.",
+    "Anyone holding the ledger file can verify every seal and every link offline with `python3 seal.py verify signet.json`. No login, no API, no per-call cost."
+  ],
+  "chain_rules": {
+    "genesis": "The genesis block's prev_hash is the literal string GENESIS and its claim is the ledger opening — it makes no rights claim. Any block making a claim with prev_hash GENESIS is dishonest and fails the honesty check.",
+    "record_hash_algorithm": "sha256(prev_hash + \"\\n\" + canonical_body); canonical_body = json.dumps(body, sort_keys=True, separators=(',', ':'), ensure_ascii=False)",
+    "evidence_requirement": "Every assertion carries at least one evidence entry {source, date}; claims with no evidence are superstition, not assertions.",
+    "retraction": "Ledgers are append-only. A claim is never edited; a correction is a new sealed record that references the superseded assertion_id in its claim."
+  },
+  "assertion_fields": {
+    "format": "format tag, always cwi-signet/v1",
+    "assertion_id": "signet-genesis for the anchor; signet-YYYY-NNNN for assertions",
+    "agent": "the signing agent's public name (e.g. MUSE_CWI)",
+    "work": "the track / work the claim is about",
+    "claim": "the sworn statement, plain language",
+    "evidence": "array of {source, date} — at least one; no evidence, no seal",
+    "timestamp": "ISO-8601 UTC, e.g. 2026-09-15T18:05:00Z",
+    "prev_hash": "record_hash of the previous block, or the literal GENESIS for the anchor",
+    "record_hash": "sha256 over (prev_hash + newline + canonical record body)"
+  },
+  "sample_ledger": {
+    "note": "A real sworn run, produced by seal.py on 2026-09-15 from verified CWI facts only. Verify it: `python3 seal.py verify signet.json`. The run is small on purpose — a ledger is proved by its math, not its length.",
+    "sealed_by": "MUSE_CWI (KingCode)",
+    "assertions": [
+      {
+        "format": "cwi-signet/v1",
+        "assertion_id": "signet-genesis",
+        "agent": "MUSE_CWI",
+        "work": "(ledger opening)",
+        "claim": "GENESIS: the Signet assertion ledger opens. Records sealed after this block are agent-sworn rights assertions; this block itself is the anchor and makes no rights claim.",
+        "evidence": [
+          {
+            "source": "Cumulative Web Inc — Business Affairs department",
+            "date": "2026-09-15"
+          }
+        ],
+        "timestamp": "2026-09-15T18:00:00Z",
+        "prev_hash": "GENESIS",
+        "record_hash": "e15e872d0f31638d9c2c3b42b3549bee726fed960a1135c34ce8946be6f6895b"
+      },
+      {
+        "format": "cwi-signet/v1",
+        "assertion_id": "signet-2026-0001",
+        "agent": "MUSE_CWI",
+        "work": "Zooted Zone",
+        "claim": "Zooted Zone was produced by Kokurcho, mixed/mastered by Hybrid (Hagerstown MD), and recorded in Hagerstown MD in February 2023.",
+        "evidence": [
+          {
+            "source": "CWI Medium articles — Zooted Zone credits",
+            "date": "2026-09-15"
+          },
+          {
+            "source": "Memory import 2026-09-15 — credits cross-checked",
+            "date": "2026-09-15"
+          }
+        ],
+        "timestamp": "2026-09-15T18:05:00Z",
+        "prev_hash": "e15e872d0f31638d9c2c3b42b3549bee726fed960a1135c34ce8946be6f6895b",
+        "record_hash": "f7afc8588f304cf370fd967f40e8a929632077ab730dcd62f5b48e2091b576a9"
+      },
+      {
+        "format": "cwi-signet/v1",
+        "assertion_id": "signet-2026-0002",
+        "agent": "MUSE_CWI",
+        "work": "Diabolique",
+        "claim": "Diabolique was recorded at Cue Recording Studio, Arlington VA, and produced by Hybrid. Official CWI position per the artist manager.",
+        "evidence": [
+          {
+            "source": "Owner-confirmed 2026-09-15 — official position for all sync one-sheets",
+            "date": "2026-09-15"
+          }
+        ],
+        "timestamp": "2026-09-15T18:10:00Z",
+        "prev_hash": "f7afc8588f304cf370fd967f40e8a929632077ab730dcd62f5b48e2091b576a9",
+        "record_hash": "a62e496ca3ac118104b00485397421a60272b23a0de3cd60903cf38df889eac4"
+      },
+      {
+        "format": "cwi-signet/v1",
+        "assertion_id": "signet-2026-0003",
+        "agent": "MUSE_CWI",
+        "work": "New Rap Hits playlist",
+        "claim": "That Boy Hi Hat holds three verified positions on the New Rap Hits playlist: #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds (observed 2026-09-15).",
+        "evidence": [
+          {
+            "source": "Verified placement scan 2026-09-15 — all three tracks confirmed present",
+            "date": "2026-09-15"
+          }
+        ],
+        "timestamp": "2026-09-15T18:15:00Z",
+        "prev_hash": "a62e496ca3ac118104b00485397421a60272b23a0de3cd60903cf38df889eac4",
+        "record_hash": "cd8d4b9904bb061637c10b280dc03bb1da22f7f7b5b4af05fc8600c8fdc13972"
+      }
+    ]
+  }
+}

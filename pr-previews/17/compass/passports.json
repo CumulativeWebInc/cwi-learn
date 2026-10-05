@@ -1,0 +1,2083 @@
+{
+  "compass": "CHAIN-OF-TITLE COMPASS",
+  "format": "cwi-compass/v1",
+  "brand": "Agent Deck",
+  "framing": "part of the Agent Deck gear line by Cumulative Web Inc",
+  "registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+  "issued_by": "Cumulative Web Inc",
+  "department": "Business Affairs",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "genre": "alternative rap",
+    "base": "Frederick, Maryland"
+  },
+  "advisory_disclaimer": "ADVISORY TOOLING ONLY: the Chain-of-Title Compass organizes rights facts; it is not legal advice and no field here substitutes for clearance. A licensed attorney still executes, advises, and signs.",
+  "sync_posture_note": "Sync posture is a business fact, not a rights grant. Every pitch still checks this passport before it goes out.",
+  "passport_count": 24,
+  "documented_passports": [
+    "Diabolique",
+    "Flamerz",
+    "Zooted Zone"
+  ],
+  "passports": [
+    {
+      "index": 1,
+      "title": "Zooted Zone",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-0emH8ktA8x4DkOFLsG5xkW",
+      "fields": {
+        "producer": {
+          "status": "DOCUMENTED",
+          "value": "Kokurcho",
+          "source": "CWI Medium articles; BET Awards-nominated, RIAA Gold + multi-platinum certified (owner-confirmed 2026-09-15)"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "DOCUMENTED",
+          "value": "Hybrid (Hagerstown, MD studio)",
+          "source": "CWI Medium articles (owner-confirmed 2026-09-15)"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "DOCUMENTED",
+          "value": "Hagerstown, MD",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        "recording_date": {
+          "status": "DOCUMENTED",
+          "value": "February 2023",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "unknown",
+          "source": "Spotify metadata not reported in cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        },
+        "lifetime_plays": {
+          "status": "DOCUMENTED",
+          "value": "307K plays",
+          "source": "Spotify; 307,439 lifetime plays observed 2026-09-14"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "title": "Shaka Zulu",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3pQEzg7xFqGIk0CK1Za1Kw",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "unknown",
+          "source": "Spotify metadata not reported in cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "title": "Doves & Diamonds",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4NAyd7rvnuG3DrPFqXo4eQ",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "unknown",
+          "source": "Spotify metadata not reported in cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "title": "Diabolique",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2eSyWmIdPzEMyWejLb2LBj",
+      "fields": {
+        "producer": {
+          "status": "DOCUMENTED",
+          "value": "Hybrid",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        "co_producer": {
+          "status": "DOCUMENTED",
+          "value": "Black Lansky",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "DOCUMENTED",
+          "value": "Blaine Misner",
+          "source": "Owner-confirmed 2026-09-15; Cue Recording Studios history/mastering pages + SoundBetter profile"
+        },
+        "studio": {
+          "status": "DOCUMENTED",
+          "value": "Cue Recording Studio, Arlington, VA",
+          "source": "Official position 2026-09-15 (Black Lansky)"
+        },
+        "recording_location": {
+          "status": "DOCUMENTED",
+          "value": "Arlington, Virginia",
+          "source": "Official position 2026-09-15 (Black Lansky)"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "DOCUMENTED",
+          "value": "2026-07-03",
+          "source": "Single release date, owner-confirmed 2026-09-15"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "unknown",
+          "source": "Spotify metadata not reported in cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "title": "Flamerz",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2MDHAUo4zJTHGXGQHUhNw0",
+      "fields": {
+        "producer": {
+          "status": "DOCUMENTED",
+          "value": "Jeck Da General",
+          "source": "Owner-confirmed 2026-09-15 (Black Lansky)"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "title": "Neon Nights Pt. 777",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4XP56LZjeS0TJUd30kpGSK",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "title": "Ultimate",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2daugr3ni3r6jHH6UI57EK",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "title": "Painted Lady",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6nhzq7P7x09aUbPts4ywFl",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "title": "Warped and Wicked",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3w4RKguHAT2xd9K0w5CklC",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "title": "Golden Diamond",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4RFWRhPn8NX0DTQPpl1swe",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "title": "Spirits n Shadows",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2tEdW6WKfcs2NGI6OIvAm6",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "title": "Flex My Flame",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7FQvcCS2CdTVsd6hb9jvHx",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "title": "Rainbows And Roses",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2ZUYjQGsRLHRcsfgyeAWpo",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "title": "Tears and Scars",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6NfxhZ4NebIduGEKZeD2Lk",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "title": "Toxic Elements",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2aTbpxiF2jNiB3PGi81oqa",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "title": "7th Angel",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-2dvfN5rFyQO69qmb5oYlRG",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "title": "Scorpions & Sapphires",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6YQq5GsaUmanh0XyHQIGoR",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "title": "Place I Go to Dream",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3KX10tZBft6gp2Nea9HZOB",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "not explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "title": "Place I Go to Dream - Remastered",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-31MTBSMfWy4jGEYAilkaH8",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "not explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "title": "Place I Go to Dream - Instrumental",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3tKoMnnlkcRr7wE3PUQ9bp",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "not explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "cartridge.json sync_flags report no instrumental versions exist, but this catalog entry is itself the Instrumental listing — label confirmation needed",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "title": "Smokin' Pain",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-6jJpR9IhQ9PmRPJpxLlOmK",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "title": "Phantasm",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-7xbS3rY8ZzCXNEPLPykf95",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "title": "Misfits and Hooligans",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-4Z5UCQLqWzpPeihPTZ9Gqg",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "title": "Roses over Monaco",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "entity_id": "https://cumulativewebinc.github.io/cwi-learn/entities#track-3r86CjoxCNvvCz98h2btm1",
+      "fields": {
+        "producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "co_producer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "co-producer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "mix_master": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "mix/master credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "engineer": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "engineer credit not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "studio": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording studio not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_location": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording location not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "recording_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "recording date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "release_date": {
+          "status": "PENDING",
+          "value": null,
+          "whats_missing": "release date not yet documented",
+          "provided_by": "Black Lansky, Cumulative Web Inc"
+        },
+        "explicit_flag": {
+          "status": "DOCUMENTED",
+          "value": "explicit",
+          "source": "Spotify metadata via cartridge.json"
+        },
+        "clean_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no clean/FCC-safe versions exist"
+        },
+        "instrumental_version_exists": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no instrumental versions exist"
+        },
+        "one_stop_precleared": {
+          "status": "DOCUMENTED",
+          "value": false,
+          "source": "cartridge.json rights_note: no one-stop or pre-cleared rights claims are made"
+        },
+        "sync_posture": {
+          "status": "DOCUMENTED",
+          "value": "Label-direct licensing; happy to work through your clearance process.",
+          "source": "Cumulative Web Inc sync posture (owner position, 2026-09-15)"
+        },
+        "public_contact": {
+          "status": "DOCUMENTED",
+          "value": "hp@cumulativeweb.com",
+          "source": "Official public contact, Cumulative Web Inc"
+        }
+      }
+    }
+  ]
+}

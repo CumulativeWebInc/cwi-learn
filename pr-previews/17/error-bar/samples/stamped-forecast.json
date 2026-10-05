@@ -1,0 +1,57 @@
+{
+  "claim": "That Boy Hi Hat will reach 1,000,000 Spotify monthly listeners by 2027-06-30",
+  "claim_type": "forecast",
+  "confidence_tier": "weak",
+  "input_sha256": "2b9e314ccbf3729c596745e529abc739cc0e89221ac9ed32116430695b9bb896",
+  "interval": {
+    "high": 9682377.769626169,
+    "low": -7705508.969160408,
+    "method_id": "eb-mc-forecast/1.0",
+    "nominal_coverage": 0.9
+  },
+  "label": "SAMPLE",
+  "output_sha256": "6a74a1123c70c657d9993edc8f8d750d398547bcd1e8b4ff0968cc537d487f87",
+  "point_estimate": 1000000,
+  "provenance": {
+    "checks": [
+      {
+        "detail": "claim_type 'forecast' routed to an interval method",
+        "name": "claim_type_known",
+        "ok": true
+      },
+      {
+        "detail": "evidence tier 'anecdotal'",
+        "name": "evidence_tier_known",
+        "ok": true
+      },
+      {
+        "detail": "1 source(s) listed",
+        "name": "sources_present",
+        "ok": true
+      },
+      {
+        "detail": "tier 'anecdotal' needs >=1 source(s), has 1",
+        "name": "tier_source_minimum",
+        "ok": true
+      },
+      {
+        "detail": "all sources have a url or ref",
+        "name": "sources_identifiable",
+        "ok": true
+      },
+      {
+        "detail": "observed_at 2026-09-17T00:00:00Z",
+        "name": "observed_at_sane",
+        "ok": true
+      }
+    ],
+    "source_count": 1,
+    "status": "pass"
+  },
+  "reproducibility": "Re-run: python3 errorbar.py stamp --in <claim.json> --seed 1337 --at 2026-09-17T15:00:00Z  ->  byte-identical output expected. Method eb-mc-forecast/1.0: 4096 seeded draws from Normal(mean=point_estimate, sd=|point|*tier_rel_sd*(1+horizon_days/30)); 5th/95th percentiles. horizon_days=287. Fields stamped_at and output_sha256 are run metadata and are excluded from the recompute comparison performed by `errorbar.py verify`. An output that cannot be re-run is void.",
+  "seed": 1337,
+  "stamped_at": "2026-09-17T15:00:00Z",
+  "tool": "error-bar",
+  "tool_version": "1.0.0",
+  "unit": "monthly listeners"
+}

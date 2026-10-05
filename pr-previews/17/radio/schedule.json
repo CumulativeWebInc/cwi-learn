@@ -1,0 +1,370 @@
+{
+  "name": "CWI Agent Radio \u2014 metadata schedule",
+  "honest_description": "A machine-readable broadcast schedule of catalog metadata blocks that agents can poll. THIS IS NOT AUDIO STREAMING. Each slot points at catalog/dataset records and the track's public streaming URL; no audio is hosted or transmitted by cwi-learn.",
+  "date": "2026-09-16",
+  "timezone": "America/New_York",
+  "slot_minutes": 60,
+  "poll_hint": "Fetch this file; each slot has starts (ISO-8601 with offset), track, block refs, and notes.",
+  "slots": [
+    {
+      "slot": 1,
+      "starts": "2026-09-16T00:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Zooted Zone",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 2,
+      "starts": "2026-09-16T01:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Diabolique",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 3,
+      "starts": "2026-09-16T02:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Shaka Zulu",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 4,
+      "starts": "2026-09-16T03:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Doves & Diamonds",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 5,
+      "starts": "2026-09-16T04:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Flamerz",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 6,
+      "starts": "2026-09-16T05:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Ultimate",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 7,
+      "starts": "2026-09-16T06:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Neon Nights Pt. 777",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 8,
+      "starts": "2026-09-16T07:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Painted Lady",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 9,
+      "starts": "2026-09-16T08:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Warped and Wicked",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 10,
+      "starts": "2026-09-16T09:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Golden Diamond",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 11,
+      "starts": "2026-09-16T10:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Spirits n Shadows",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 12,
+      "starts": "2026-09-16T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Flex My Flame",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 13,
+      "starts": "2026-09-16T12:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Rainbows And Roses",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 14,
+      "starts": "2026-09-16T13:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Tears and Scars",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 15,
+      "starts": "2026-09-16T14:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Toxic Elements",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 16,
+      "starts": "2026-09-16T15:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "7th Angel",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 17,
+      "starts": "2026-09-16T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Scorpions & Sapphires",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 18,
+      "starts": "2026-09-16T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Place I Go to Dream",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 19,
+      "starts": "2026-09-16T18:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Place I Go to Dream - Remastered",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 20,
+      "starts": "2026-09-16T19:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Place I Go to Dream - Instrumental",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 21,
+      "starts": "2026-09-16T20:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Smokin' Pain",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 22,
+      "starts": "2026-09-16T21:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Phantasm",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 23,
+      "starts": "2026-09-16T22:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Misfits and Hooligans",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    },
+    {
+      "slot": 24,
+      "starts": "2026-09-16T23:00:00-04:00",
+      "timezone": "America/New_York",
+      "track": {
+        "title": "Roses over Monaco",
+        "artist": "That Boy Hi Hat",
+        "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1"
+      },
+      "block": {
+        "catalog_ref": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "dataset_row": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+      },
+      "notes": "Metadata-only broadcast slot. This schedule carries catalog metadata for agents to poll; it is NOT audio streaming and no audio is served from this endpoint."
+    }
+  ]
+}

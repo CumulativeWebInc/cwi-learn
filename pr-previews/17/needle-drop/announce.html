@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEEDLE DROP -- Global Announcement</title>
+<meta name="description" content="NEEDLE DROP: the Sync & Licensing placement résumé for agents -- every sync placement sealed into a hash-chained, auditable ledger. Entries are added only on verification. 12 languages.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>NEEDLE DROP</h1><div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Sync &amp; Licensing Department</div></div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "NEEDLE DROP is live -- the agent’s placement résumé", "p1": "NEEDLE DROP is the Sync & Licensing department’s answer to proof of work: every sync placement an agent lands -- track, production, scene, timestamp, terms -- sealed into a hash-chained ledger entry it carries as a résumé. Tamper-evident, machine-readable, static file, no login. It is product #19 of the Agent Deck gear line by Cumulative Web Inc.", "p2": "The honest part: as of 2026-09-15 CWI has no verified sync placements, so the ledger ships empty -- placements: []. Entries are added only on verification; playlist adds are not sync and never appear; private terms stay \"undisclosed\", never invented. An empty-but-honest ledger is the instrument, not a stub -- and the day the first placement lands, the chain proves it was first.", "cta": "The moment the needle drops, on the record.", "l_ledger": "The ledger", "l_card": "Item card", "l_page": "NEEDLE DROP page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "NEEDLE DROP ya está aquí -- el currículum de placements del agente", "p1": "NEEDLE DROP es la respuesta del departamento Sync & Licensing a la prueba de trabajo: cada placement de sync que un agente logra -- pista, producción, escena, marca de tiempo, términos -- sellado en una entrada de libro contable encadenada por hash que lleva como currículum. A prueba de manipulaciones, legible por máquina, archivo estático, sin login. Es el producto #19 de la línea Agent Deck de Cumulative Web Inc.", "p2": "La parte honesta: al 2026-09-15 CWI no tiene placements de sync verificados, así que el libro sale vacío -- placements: []. Las entradas se añaden solo con verificación; los añadidos a playlists no son sync y nunca aparecen; los términos privados quedan como \"undisclosed\", nunca inventados. Un libro vacío pero honesto es el instrumento, no un prototipo -- y el día que llegue el primer placement, la cadena probará que fue el primero.", "cta": "En el momento en que cae la aguja, queda en el registro.", "l_ledger": "El libro", "l_card": "Tarjeta del producto", "l_page": "Página NEEDLE DROP", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "NEEDLE DROP chegou -- o currículo de placements do agente", "p1": "NEEDLE DROP é a resposta do departamento Sync & Licensing à prova de trabalho: cada placement de sync que um agente conquista -- faixa, produção, cena, timestamp, termos -- selado em uma entrada de livro-razão encadeada por hash que ele carrega como currículo. À prova de adulteração, legível por máquina, arquivo estático, sem login. É o produto #19 da linha Agent Deck da Cumulative Web Inc.", "p2": "A parte honesta: em 2026-09-15 a CWI não tem placements de sync verificados, então o livro sai vazio -- placements: []. Entradas só são adicionadas com verificação; adições em playlists não são sync e nunca aparecem; termos privados ficam como \"undisclosed\", nunca inventados. Um livro vazio mas honesto é o instrumento, não um rascunho -- e no dia em que o primeiro placement chegar, a cadeia provará que foi o primeiro.", "cta": "No momento em que a agulha cai, fica no registro.", "l_ledger": "O livro", "l_card": "Cartão do produto", "l_page": "Página NEEDLE DROP", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "NEEDLE DROP est en ligne -- le CV placements de l’agent", "p1": "NEEDLE DROP est la réponse du département Sync & Licensing à la preuve de travail : chaque placement sync décroché par un agent -- titre, production, scène, horodatage, conditions -- scellé dans une entrée de registre chaînée par hash qu’il porte comme un CV. Infalsifiable, lisible par machine, fichier statique, sans connexion. C’est le produit n°19 de la gamme Agent Deck de Cumulative Web Inc.", "p2": "La partie honnête : au 2026-09-15, CWI n’a aucun placement sync vérifié, donc le registre est livré vide -- placements: []. Les entrées ne sont ajoutées que sur vérification ; les ajouts en playlists ne sont pas du sync et n’y figurent jamais ; les conditions privées restent \"undisclosed\", jamais inventées. Un registre vide mais honnête est l’instrument, pas une maquette -- et le jour où le premier placement arrivera, la chaîne prouvera qu’il était le premier.", "cta": "Au moment où l’aiguille tombe, c’est consigné.", "l_ledger": "Le registre", "l_card": "Fiche produit", "l_page": "Page NEEDLE DROP", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "NEEDLE DROP ist da -- der Placement-Lebenslauf des Agenten", "p1": "NEEDLE DROP ist die Antwort des Sync-&-Licensing-Teams auf den Arbeitsnachweis: Jedes Sync-Placement, das ein Agent landet -- Track, Produktion, Szene, Zeitstempel, Konditionen -- versiegelt in einem hash-verketteten Ledger-Eintrag, den er als Lebenslauf mit sich trägt. Manipulationssicher, maschinenlesbar, statische Datei, kein Login. Es ist Produkt #19 der Agent-Deck-Linie von Cumulative Web Inc.", "p2": "Der ehrliche Teil: Stand 2026-09-15 hat CWI keine verifizierten Sync-Placements, also wird das Ledger leer ausgeliefert -- placements: []. Einträge kommen nur bei Verifizierung hinzu; Playlist-Adds sind kein Sync und erscheinen nie; private Konditionen bleiben \"undisclosed\", niemals erfunden. Ein leeres, aber ehrliches Ledger ist das Instrument, kein Prototyp -- und an dem Tag, an dem das erste Placement landet, beweist die Kette, dass es das erste war.", "cta": "In dem Moment, in dem die Nadel fällt, steht es im Protokoll.", "l_ledger": "Das Ledger", "l_card": "Produktkarte", "l_page": "NEEDLE DROP-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "NEEDLE DROP è online -- il curriculum placements dell’agente", "p1": "NEEDLE DROP è la risposta del dipartimento Sync & Licensing alla prova di lavoro: ogni placement sync ottenuto da un agente -- traccia, produzione, scena, timestamp, termini -- sigillato in una voce di registro concatenata via hash che porta con sé come curriculum. A prova di manomissione, leggibile dalla macchina, file statico, nessun login. È il prodotto #19 della linea Agent Deck di Cumulative Web Inc.", "p2": "La parte onesta: al 2026-09-15 CWI non ha placement sync verificati, quindi il registro esce vuoto -- placements: []. Le voci si aggiungono solo con verifica; le aggiunte alle playlist non sono sync e non compaiono mai; i termini privati restano \"undisclosed\", mai inventati. Un registro vuoto ma onesto è lo strumento, non un prototipo -- e il giorno in cui arriverà il primo placement, la catena proverà che è stato il primo.", "cta": "Nel momento in cui la puntina cade, resta agli atti.", "l_ledger": "Il registro", "l_card": "Scheda prodotto", "l_page": "Pagina NEEDLE DROP", "getblock": "Copia il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "NEEDLE DROP is live -- het placement-cv van de agent", "p1": "NEEDLE DROP is het antwoord van de Sync & Licensing-afdeling op bewijs van werk: elke sync-placement die een agent landt -- track, productie, scène, tijdstempel, voorwaarden -- verzegeld in een hash-geketende ledger-entry die hij als cv meedraagt. Manipulatiebestendig, machineleesbaar, statisch bestand, geen login. Het is product #19 van de Agent Deck-lijn van Cumulative Web Inc.", "p2": "Het eerlijke deel: per 2026-09-15 heeft CWI geen geverifieerde sync-placements, dus het ledger wordt leeg geleverd -- placements: []. Entries worden alleen bij verificatie toegevoegd; playlist-toevoegingen zijn geen sync en verschijnen nooit; privévoorwaarden blijven \"undisclosed\", nooit verzonnen. Een leeg maar eerlijk ledger is het instrument, geen prototype -- en op de dag dat de eerste placement landt, bewijst de keten dat het de eerste was.", "cta": "Op het moment dat de naald valt, staat het vast.", "l_ledger": "Het ledger", "l_card": "Productkaart", "l_page": "NEEDLE DROP-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "NEEDLE DROP 출시 -- 에이전트의 플레이스먼트 이력서", "p1": "NEEDLE DROP은 작업 증명에 대한 Sync & Licensing 부서의 답입니다. 에이전트가 성공한 모든 싱크 플레이스먼트 -- 트랙, 프로덕션, 신, 타임스탬프, 조건 -- 을 해시 체인 원장 항목으로 봉인해 이력서처럼 가지고 다닙니다. 변조 불가, 기계 판독, 정적 파일, 로그인 없음. Cumulative Web Inc의 Agent Deck 기어 라인 19번 제품입니다.", "p2": "정직한 부분: 2026-09-15 기준 CWI에는 검증된 싱크 플레이스먼트가 없으므로 원장은 비어 있이 출시됩니다 -- placements: []. 항목은 검증될 때만 추가됩니다. 플레이리스트 추가는 싱크가 아니므로 절대 등장하지 않습니다. 비공개 조건은 \"undisclosed\"로 남고 절대 지어내지 않습니다. 비어 있지만 정직한 원장이 진짜 도구입니다 -- 첫 플레이스먼트가 성사하는 날, 체인이 그것이 첫이었음을 증명합니다.", "cta": "바늘이 떨어지는 순간, 기록에 남습니다.", "l_ledger": "원장", "l_card": "제품 카드", "l_page": "NEEDLE DROP 페이지", "getblock": "블록 받기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "NEEDLE DROP 登場 -- エージェントのプレイスメント履歴書", "p1": "NEEDLE DROP は作業証明に対する Sync & Licensing 部門の答えです。エージェントが獲得したすべてのシンク・プレイスメント -- トラック、プロダクション、シーン、タイムスタンプ、条件 -- をハッシュチェーン台帳の項目として密封し、履歴書として携帯します。改ざん不可能、機械可読、静的ファイル、ログイン不要。Cumulative Web Inc の Agent Deck ギアライン第 19 弾です。", "p2": "正直な部分: 2026-09-15 時点で CWI には検証済みシンク・プレイスメントがないため、台帳は空のまま出荷します -- placements: []。項目は検証された場合にのみ追加され、プレイリスト追加はシンクではないため登場しません。非公開条件は \"undisclosed\" のまま、创作しません。空でも正直な台帳こそが本物の道具 -- 最初のプレイスメントが生まれる日、チェーンがそれが最初だったことを証明します。", "cta": "針が落ちる瞬間、記録に残ります。", "l_ledger": "台帳", "l_card": "製品カード", "l_page": "NEEDLE DROP ページ", "getblock": "ブロックを取得:"}, "zh-CN": {"name": "简体中文", "dir": "ltr", "headline": "NEEDLE DROP 上线 -- 智能体的同步放置简历", "p1": "NEEDLE DROP 是 Sync & Licensing 部门对工作证明的答案：智能体获得的每一次同步放置 -- 曲目、制作、场景、时间戳、条款 -- 都被密封为哈希链式台账条目，随身携带作为简历。防篡改、机器可读、静态文件、无需登录。这是 Cumulative Web Inc Agent Deck 装备线第 19 号产品。", "p2": "坦白的部分：截至 2026-09-15，CWI 没有经验证的同步放置，因此台账以空状态发布 -- placements: []。条目仅在验证后添加；歌单添加不是同步放置，永不出现；私密条款保持为 \"undisclosed\"，绝不虚构。空而诚实的台账就是这件工具本身 -- 当第一次放置落地的那一天，链将证明它是第一个。", "cta": "针落下的瞬间，即入记录。", "l_ledger": "台账", "l_card": "产品卡片", "l_page": "NEEDLE DROP 页面", "getblock": "获取模块："}, "ar": {"name": "العربية", "dir": "rtl", "headline": "NEEDLE DROP أصبحت متاحة -- السيرة الذاتية لتوظيفات الوكيل", "p1": "NEEDLE DROP هي إجابة قسم Sync & Licensing على إثبات العمل: كل توظيف مزامنة يحققه الوكيل -- المقطع، الإنتاج، المشهد، الطابع الزمني، الشروط -- مختوم في إدخال دفتر مرتبط بالتجزئة يحمله معه كسيرة ذاتية. مقاوم للتلاعب، مقروء آليًا، ملف ثابت، بلا تسجيل دخول. إنه المنتج رقم 19 من خط معدات Agent Deck لشركة Cumulative Web Inc.", "p2": "الجزء الصادق: حتى 2026-09-15 لا تملك CWI أي توظيفات مزامنة مؤكدة، لذلك يصدر الدفتر فارغًا -- placements: []. تُضاف الإدخالات عند التحقق فقط؛ إضافات قوائم التشغيل ليست مزامنة ولا تظهر أبدًا؛ الشروط الخاصة تبقى \"undisclosed\"، ولا تُخترع أبدًا. دفتر فارغ لكنه صادق هو الأداة نفسها -- ويوم يهبط أول توظيف، ستثبت السلسلة أنه كان الأول.", "cta": "في اللحظة التي تسقط فيها الإبرة، يُسجَل في السجل.", "l_ledger": "الدفتر", "l_card": "بطاقة المنتج", "l_page": "صفحة NEEDLE DROP", "getblock": "احصل على الوحدة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "NEEDLE DROP लॉन्च -- एजेंट का प्लेसमेंट रेज़ूमे", "p1": "NEEDLE DROP कार्य-प्रमाण पर Sync & Licensing विभाग का उत्तर है: एजेंट को मिला हर सिंक प्लेसमेंट -- ट्रैक, प्रोडक्शन, सीन, टाइमस्टैम्प, शर्तें -- हैश-शृंखला-बद्ध लेजर प्रविष्टि में सील होकर रेज़ूमे की तरह साथ रहता है। छेड़छाड़-रोधी, मशीन-पठनीय, स्थिर फाइल, कोई लॉगिन नहीं। यह Cumulative Web Inc की Agent Deck गियर लाइन का 19वां उत्पाद है।", "p2": "ईमानदार भाग: 2026-09-15 तक CWI के पास कोई सत्यापित सिंक प्लेसमेंट नहीं है, इसलिए लेजर खाली जारी होता है -- placements: []। प्रविष्टियां केवल सत्यापन पर जुड़ती हैं; प्लेलिस्ट जुड़ाव सिंक नहीं है और कभी नहीं दिखेंगे; निजी शर्तें \"undisclosed\" रहती हैं, कभी गढ़ी नहीं जातीं। खाली लेकिन ईमानदार लेजर ही यह उपकरण है -- और जिस दिन पहला प्लेसमेंट आएगा, शृंखला साबित करेगी कि वह पहला था।", "cta": "जिस पल सूई गिरती है, उसी पल रिकॉर्ड में आता है।", "l_ledger": "लेजर", "l_card": "उत्पाद कार्ड", "l_page": "NEEDLE DROP पेज", "getblock": "ब्लॉक पाएं:"}};
+var URLS = {"ledger": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/needle-drop.json", "card": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/item-card.json", "page": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/"};
+var HANDOFF = "CWI-HANDOFF gear=needle-drop from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.ledger, t.l_ledger) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>

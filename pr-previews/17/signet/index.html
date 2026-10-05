@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE SIGNET — Cumulative Web Inc</title>
+<meta name="description" content="THE SIGNET — the agent's seal for sworn-signing rights assertions. Press your name to a rights claim: timestamped, auditable, hash-ledger-chained. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:900px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:32%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+/* ---- press the signet demo ---- */
+.sealer{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.sealer .full{grid-column:1/-1}
+.sealer label{display:block;font-size:.8em;color:var(--lblu);margin-bottom:6px;letter-spacing:.4px}
+.sealer input,.sealer textarea{width:100%;background:var(--navy2);border:1px solid var(--blue);color:#fff;
+border-radius:9px;padding:12px;font-size:.95em;font-family:inherit}
+.sealer textarea{min-height:74px;resize:vertical}
+button#press{background:var(--gold);color:#1a1206;border:none;border-radius:10px;padding:14px 22px;
+font-weight:800;font-size:1em;letter-spacing:.5px;cursor:pointer}
+button#press:hover{background:var(--gold2)}
+#sealout{display:none;border-radius:12px;padding:18px;margin-top:14px;border:1px solid var(--ok);
+background:rgba(47,174,85,.06)}
+#sealout .word{font-size:1.2em;font-weight:800;color:var(--ok);letter-spacing:1px;margin-bottom:8px}
+#sealout pre{white-space:pre-wrap;word-break:break-all;font-size:.82em;color:var(--xlblu);margin:0}
+.chain{display:grid;gap:10px}
+.block{background:#060b16;border:1px solid var(--blue);border-radius:10px;padding:12px 14px;font-size:.85em}
+.block .aid{color:var(--gold2);font-weight:700}
+.block .hash{font-family:monospace;color:var(--lblu);font-size:.78em;word-break:break-all}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+@media(max-width:640px){.sealer{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE SIGNET</h1>
+<div class="brand" id="tagline">Your name on the line: sworn-signing rights assertions — timestamped, auditable, hash-ledger-chained. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> an agent presses its signet to a rights claim — <i>its name on the line</i>, timestamped, auditable, hash-ledger-chained. <code>record_hash = sha256(prev_hash + newline + canonical record body)</code>. Mutate one byte anywhere in the chain and every later seal fails verification. <b>What it is not:</b> legal advice, and never a substitute for the rights holder's current terms — assertions are sworn <i>claims with cited evidence</i>, timestamped so anyone can audit them.</div>
+
+<div class="card"><h2>PRESS THE SIGNET — LIVE DEMO</h2>
+<div class="sealer">
+<div><label for="agent">AGENT NAME (the name on the line)</label><input id="agent" value="MUSE_CWI"></div>
+<div><label for="work">WORK</label><input id="work" value="Zooted Zone"></div>
+<div class="full"><label for="claim">CLAIM (the sworn statement)</label><textarea id="claim">Zooted Zone was produced by Kokurcho.</textarea></div>
+<div><label for="esrc">EVIDENCE SOURCE</label><input id="esrc" value="CWI Medium articles — Zooted Zone credits"></div>
+<div><label for="edate">EVIDENCE DATE</label><input id="edate" value="2026-09-15"></div>
+</div>
+<button id="press">PRESS THE SIGNET</button>
+<div id="sealout" aria-live="polite"></div>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)">Demo chains onto the sample ledger's latest block and computes the same sha256 in your browser — the identical math as <code>seal.py</code>. For machine interop, use <code>seal.py</code> directly.</div>
+</div>
+
+<div class="card"><h2>THE SAMPLE LEDGER — SWORN AND VERIFIED</h2>
+<div class="chain" id="chain"></div>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)">Verify offline: <code>python3 seal.py verify signet.json</code> — recomputes every seal and every link.</div>
+</div>
+
+<div class="card"><h2>WHY IT BEATS THE OLD WAY</h2>
+<table><tr><th>The old way</th><th>THE SIGNET</th></tr>
+<tr><td class="k">A rights claim lives in a chat log</td><td>Sealed: name, timestamp, hash-chained — auditable years later</td></tr>
+<tr><td class="k">Silent edits rewrite history</td><td>Append-only ledger: corrections are new sealed records; one mutated byte breaks the chain</td></tr>
+<tr><td class="k">Trust requires trusting the author</td><td>Trust requires verifying the math — recompute the hashes yourself, offline</td></tr>
+<tr><td class="k">Claims with no evidence</td><td>No evidence, no seal — every assertion cites source + date</td></tr></table>
+</div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE SIGNET", "tagline": "Your name on the line: sworn-signing rights assertions — timestamped, auditable, hash-ledger-chained. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "your name on the line", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/signet/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE SIGNET") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+/* Stable stringify matching seal.py: json.dumps(body, sort_keys=True,
+   separators=(",",":"), ensure_ascii=False). For typical ASCII input this
+   is byte-identical to the Python canonical form. */
+function stableStringify(v){
+  if(v===null||typeof v!=="object") return JSON.stringify(v);
+  if(Array.isArray(v)) return "["+v.map(stableStringify).join(",")+"]";
+  return "{"+Object.keys(v).sort().map(function(k){
+    return JSON.stringify(k)+":"+stableStringify(v[k]);}).join(",")+"}";
+}
+async function sha256hex(s){
+  var b = await crypto.subtle.digest("SHA-256",
+    new TextEncoder().encode(s));
+  return Array.from(new Uint8Array(b)).map(function(x){
+    return x.toString(16).padStart(2,"0");}).join("");
+}
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+var LATEST = "GENESIS";
+fetch("signet.json").then(function(r){return r.json()}).then(function(d){
+  var blocks = d.sample_ledger.assertions;
+  var box = document.getElementById("chain");
+  box.innerHTML = blocks.map(function(b){
+    return '<div class="block"><span class="aid">'+esc(b.assertion_id)+'</span> · '
+      +esc(b.agent)+' · '+esc(b.work)+'<br>'+esc(b.claim)+'<br><span class="hash">'
+      +'record_hash '+esc(b.record_hash)+'</span></div>';}).join("");
+  LATEST = blocks[blocks.length-1].record_hash;
+}).catch(function(){});
+document.getElementById("press").addEventListener("click", async function(){
+  var agent = document.getElementById("agent").value.trim();
+  var work = document.getElementById("work").value.trim();
+  var claim = document.getElementById("claim").value.trim();
+  var esrc = document.getElementById("esrc").value.trim();
+  var edate = document.getElementById("edate").value.trim();
+  if(!agent||!work||!claim||!esrc||!edate) return;
+  var ts = new Date().toISOString().replace(/\.\d+Z$/,"Z");
+  var body = {format:"cwi-signet/v1",assertion_id:"signet-demo",
+    agent:agent,work:work,claim:claim,
+    evidence:[{source:esrc,date:edate}],timestamp:ts,prev_hash:LATEST};
+  var hash = await sha256hex(LATEST+"\n"+stableStringify(body));
+  body.record_hash = hash;
+  var out = document.getElementById("sealout");
+  out.style.display="block";
+  out.innerHTML = '<div class="word">SEALED — '+esc(hash.slice(0,12))+'…</div>'
+    +'<pre>'+esc(JSON.stringify(body,null,2))+'</pre>';
+});
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Sample ledger","signet.json"],["Sealer (seal.py)","seal.py"],["Schema","signet-schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: Compass","https://cumulativewebinc.github.io/cwi-learn/compass/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "app": "Seal — CWI Sync",
+  "description": "Placement verification endpoint. Only scan-confirmed placements are published here.",
+  "updated": "2026-09-15",
+  "verified_placements": [],
+  "verification_method": "Independent full Spotify playlist scans by the CWI Intelligence Engine (full playlist enumeration with track-position matching). A placement counts as VERIFIED only when a track is found present in a live scan of the target playlist. Last full verification sweep: 2026-09-15.",
+  "how_to_verify": "Any claimed placement can be independently confirmed: open the target playlist in Spotify, search the track title or artist \"That Boy Hi Hat\", and confirm presence. Curator claims without scan evidence are recorded as UNVERIFIED. Send scan evidence to hp@cumulativeweb.com to dispute or update a record.",
+  "claims_log": [
+    {
+      "playlist": "New Rap Hits",
+      "curator": "Audiartist",
+      "claim": "3 tracks accepted and holding",
+      "status": "VERIFIED",
+      "evidence": "Full scan 2026-09-15: Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31; 673 followers."
+    },
+    {
+      "playlist": "No Label Needed — Hip Hop & R&B | The Next Wave",
+      "curator": "Flow",
+      "claim": "Zooted Zone added (2026-09-14)",
+      "status": "UNVERIFIED",
+      "evidence": "Track absent in two full Spotify scans on 2026-09-15."
+    },
+    {
+      "playlist": "It's Goin",
+      "curator": "DJ 6Rings (Shan)",
+      "claim": "Track added (2026-09-14)",
+      "status": "UNVERIFIED",
+      "evidence": "Playlist unlocatable via Spotify search and API check 2026-09-15. PAYOLA FLAG: rapsushiplaylist.com sells $25 playlist adds — flagged, not a lead."
+    },
+    {
+      "playlist": "WATCH THA GAP VOL.5",
+      "curator": "unknown",
+      "claim": "\"Ultimate\" add promised",
+      "status": "UNCONFIRMED",
+      "evidence": "No scan evidence as of 2026-09-15."
+    }
+  ],
+  "note": "The verified_placements array is intentionally empty at launch: no third-party sync placement (film/TV/game/ad) has been scan-confirmed yet. Publishing an empty ledger instead of promises is the feature — it can only ever be wrong if evidence is missing.",
+  "contact": "hp@cumulativeweb.com"
+}

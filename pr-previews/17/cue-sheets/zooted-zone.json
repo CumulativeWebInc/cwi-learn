@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "cue_id": "cue-zooted-zone",
+  "title": "Zooted Zone",
+  "artist": {
+    "name": "That Boy Hi Hat",
+    "tier": "VERIFIED",
+    "note": "Artist of record."
+  },
+  "spotify": {
+    "id": "0emH8ktA8x4DkOFLsG5xkW",
+    "url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+    "verified": true,
+    "tier": "VERIFIED",
+    "note": "Verified against the live Spotify API 2026-09-16. Correction slip-0001 on record: an older outreach link carried Diabolique's ID; this is the correct one."
+  },
+  "mix": null,
+  "duration_s": null,
+  "duration_note": "Duration not measured in the 2026-09-17 batch. Not stated.",
+  "audio": {},
+  "genre": [
+    {
+      "value": "alternative rap",
+      "tier": "VERIFIED",
+      "note": "Genre per user (That Boy Hi Hat). Post-Trap Futurism is the artist's self-description."
+    }
+  ],
+  "mood_tags": [],
+  "mood_note": "Descriptive mood tags pending human annotation. Not machine-inferred. Measured energy and third-party audio features are provided as numbers for machine interpretation.",
+  "scene_use": {
+    "status": "unassessed",
+    "note": "scene_use not assessed. Do not infer; sync availability requires rights review."
+  },
+  "instrumentation": {
+    "status": "unassessed",
+    "note": "instrumentation not assessed. Do not infer; sync availability requires rights review."
+  },
+  "lyrics": {
+    "status": "withheld",
+    "note": "Machine-draft transcriptions exist for some tracks but are rough and unpublished. Lyrics require Black's ear before publication. No lyric text is carried in this cue sheet."
+  },
+  "credits": [
+    {
+      "role": "producer",
+      "name": "Kokurcho",
+      "tier": "VERIFIED",
+      "source": "cwi-learn/llms.txt verified-collaborators (2026-09-15); CWI Medium articles",
+      "note": "BET Awards-nominated; RIAA Gold and multi-platinum certified (owner-confirmed 2026-09-15)."
+    },
+    {
+      "role": "mix/master",
+      "name": "Hybrid",
+      "tier": "VERIFIED",
+      "source": "cwi-learn/llms.txt verified-collaborators (2026-09-15); CWI Medium articles",
+      "note": "Mixed/mastered at his Hagerstown, MD studio."
+    },
+    {
+      "role": "recording",
+      "name": "Hagerstown, MD — February 2023",
+      "tier": "VERIFIED",
+      "source": "CWI Medium articles (per 2026-09-15 memory import)",
+      "note": "Recording location/date as published by CWI."
+    }
+  ],
+  "placements": [
+    {
+      "playlist": "New Rap Hits",
+      "position": 30,
+      "observed_at": "2026-09-17",
+      "tier": "VERIFIED",
+      "note": "Via Audiartist submission #25818; holding per 2026-09-17 scan."
+    },
+    {
+      "playlist": "No Label Needed",
+      "position": 21,
+      "observed_at": "2026-09-16",
+      "tier": "VERIFIED",
+      "note": "Curator Flow; confirmed by full scan 2026-09-16 (late delivery after absent 9/15 scans)."
+    },
+    {
+      "playlist": "360°: The Best Indie Music (Eric Alper)",
+      "position": 216,
+      "observed_at": "2026-09-17",
+      "tier": "VERIFIED",
+      "note": "Added 2026-09-17 in reply to Black's 2026-09-14 pitch."
+    }
+  ],
+  "clearance": {
+    "status": "amber",
+    "meaning": "Clearance status unknown. Sync licensing requires rights review with the rights holder before any use. This cue sheet states no terms and makes no one-stop or pre-cleared claim.",
+    "terms": "Not stated here. Contact the rights contact for terms.",
+    "rights_contact": "hp@cumulativeweb.com"
+  },
+  "related": [],
+  "provenance": {
+    "cue_sheet_issued": "2026-09-17",
+    "issuer": "agent:CWI_AandR (Lane D, Operation Conversion)",
+    "measurement_method": "CWI in-house analyzer 2026-09-17: numpy onset-autocorrelation BPM, Krumhansl key, EBU R128 loudness. ESTIMATES, not Cyanite-grade.",
+    "canonical_refs": [
+      "llms.txt",
+      "catalog.json",
+      "entities.jsonld"
+    ]
+  },
+  "notes": [
+    "The breakout: 307,439 lifetime Spotify plays observed 2026-09-14 (tier VERIFIED, published proof point)."
+  ],
+  "third_party_audio_features": {
+    "source": "ReccoBeats API v1 (third-party audio analysis of the Spotify track — NOT Spotify's own analysis), fetched 2026-09-16",
+    "tier": "VERIFIED",
+    "note": "Every number traced to a live ReccoBeats API response; independent third party, values may differ from other analyzers.",
+    "values": {
+      "tempo_bpm": 162.993,
+      "key": "C#",
+      "mode": "major",
+      "danceability": 0.784,
+      "energy": 0.329,
+      "valence": 0.411,
+      "acousticness": 0.0153,
+      "instrumentalness": 0.0,
+      "liveness": 0.108,
+      "speechiness": 0.241,
+      "loudness_db": -15.549
+    }
+  }
+}

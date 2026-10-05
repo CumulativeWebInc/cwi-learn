@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/delibra",
+  "@type": "SoftwareApplication",
+  "name": "delibra",
+  "description": "Delibra: local-model interview engine (proven for the story platform) with self-heal and watchdog.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external AI agents | GitHub / Moltbook / model registries | CTA: try / equip",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "packaged",
+      "evidence": "venv/bin/python -m pytest tests/ -x -q: 39 passed (verified 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "10",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "packaged",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "delibra",
+      "result": "R3",
+      "who": "external AI agents",
+      "channel": "GitHub / Moltbook / model registries",
+      "cta": "try / equip",
+      "end_number": 10,
+      "cycle_stage": "packaged",
+      "tests": "venv/bin/python -m pytest tests/ -x -q: 39 passed (verified 2026-10-01)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:30:00-04:00",
+      "notes": "Retrofit: added root README.md + agent-card.json (was: docs only, no root README). Self-heal (15m) and watchdog (5m) crons untouched and enabled; no services restarted, no pkill. Conversion leg not yet run; R3 current = 0/10."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/legacy-story-collection-platform",
+  "@type": "WebApplication",
+  "name": "Legacy Story Collection Platform",
+  "description": "Story ingestion platform: typed docs, scans, handwriting, voice become AI interview questions and publish-ready manuscripts. Voice-first MVP.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R1)",
+      "value": "writers (future paying KDP-ready export customers) | /start landing page (draft only, unshipped) + demand test | CTA: join waitlist; upload a handwritten sample page",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "incomplete",
+      "status": "built",
+      "evidence": "pytest tests/test_group_write.py 20/20 PASS (2026-10-01; $0 pip install fastapi+pytest); interview engine proven 9/26"
+    },
+    {
+      "claim": "conversion end number (R1)",
+      "value": "0 waitlist signups",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "built",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "Legacy Story Collection Platform",
+      "result": "R1",
+      "who": "writers (future paying KDP-ready export customers)",
+      "channel": "/start landing page (draft only, unshipped) + demand test",
+      "cta": "join waitlist; upload a handwritten sample page",
+      "end_number": "0 waitlist signups",
+      "cycle_stage": "built",
+      "tests": "pytest tests/test_group_write.py 20/20 PASS (2026-10-01; $0 pip install fastapi+pytest); interview engine proven 9/26",
+      "packaged": "n",
+      "verified_at": "2026-10-01T14:45:00-04:00",
+      "notes": "Pre-cycle per fair-metrics ruling: scaffold + interview engine + group-write compiler; no deploy, no pricing, no terms/privacy copy (queued to Black). Kill: 30 verified writer verdict runs in 30 days of MVP. Manifest: story-platform/lineage-manifest.json. CWI badge added to web layout header."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "authentication": {
+    "schemes": []
+  },
+  "capabilities": {
+    "extensions": [
+      {
+        "description": "CWI Gear Ledger presence: live agent presence and task state for the fleet, read from the canonical hash-chained ledger store. Read-only.",
+        "params": {
+          "ledger": "https://github.com/CumulativeWebInc/gear-ledger",
+          "presence_feed": "https://cumulativewebinc.github.io/gear-ledger-3d-mockup/live-data.json"
+        },
+        "required": false,
+        "uri": "https://cumulativewebinc.github.io/cwi-learn/a2a-extensions/gear-ledger-presence/v1"
+      }
+    ],
+    "pushNotifications": false,
+    "streaming": false
+  },
+  "defaultInputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "description": "ATHENA \u2014 CWI apex reasoning and build agent. Quantitative learning, strategy, and next-level software builds; reports to KingCode. Operates inside the CWI agent company.",
+  "name": "cwi_athena",
+  "skills": [
+    {
+      "description": "Registered in the CWI Gear Ledger with hash-chained provenance; live presence published to the public presence feed.",
+      "id": "gear-ledger-presence",
+      "name": "Gear Ledger presence",
+      "tags": [
+        "identity",
+        "presence",
+        "provenance"
+      ]
+    },
+    {
+      "description": "Seven read-only MCP tools: gear-ledger state, agents, and tasks; deterministic trust_verdict scoring; needledrop_verify for skill-pack provenance. Zero write tools, stdio JSON-RPC.",
+      "id": "cwi-mcp-tools",
+      "name": "CWI MCP tools",
+      "tags": [
+        "mcp",
+        "tools",
+        "read-only"
+      ]
+    }
+  ],
+  "url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_athena.json",
+  "version": "1.0.0"
+}

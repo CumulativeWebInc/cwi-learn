@@ -1,0 +1,77 @@
+{
+  "format": "cwi-earwitness/v1",
+  "document": "EAR WITNESS — witness-record spec + calibration worked record (cwi-earwitness/v1)",
+  "schema": "https://cumulativewebinc.github.io/cwi-learn/ear-witness/ear-witness-schema.json",
+  "registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+  "spec_summary": {
+    "purpose": "A second agent co-signs a Prospect Scanner scout card, on the record: independent scores, agreement/divergence vs the original scout, verdict — so no prospect is ever judged by one set of ears alone.",
+    "criteria": [
+      {
+        "criterion": "catalog-depth",
+        "label": "Catalog depth — is the catalog real and deep enough?"
+      },
+      {
+        "criterion": "release-history-consistency",
+        "label": "Release history consistency — timeline makes sense, no backfill spike"
+      },
+      {
+        "criterion": "label-conflict-scan",
+        "label": "Label conflict scan — no competing label/publisher claim"
+      },
+      {
+        "criterion": "engagement-sanity",
+        "label": "Engagement sanity — numbers hold up, unverified claims stay unverified"
+      },
+      {
+        "criterion": "rights-red-flag-scan",
+        "label": "Rights red-flag scan — credits clean, no sample flags"
+      }
+    ],
+    "score_vocab": [
+      "green",
+      "amber",
+      "red"
+    ],
+    "original_scores_source": "scout card evidence[].result per protocol_step",
+    "agreement_pct": "agreements / 5 * 100, rounded to 1 decimal",
+    "verdict_rule": {
+      "concur": "no divergences and witness's overall verdict matches the scout card's",
+      "concur-with-notes": "divergences exist but the witness's overall verdict matches the scout card's",
+      "dissent": "the witness's own overall verdict (witness_verdict) differs from the scout card's verdict"
+    },
+    "white_label": "publish your own records on this schema; original_agent / witness_agent carry your identities, scout_card_ref carries your card URL",
+    "no_fabrication_rule": "witness records evaluate REAL scout cards your org produced. Never fabricate evaluations of real outside artists."
+  },
+  "worked_example": {
+    "format": "cwi-earwitness/v1",
+    "witness_id": "EW-2026-09-15-001",
+    "scout_card_ref": "https://cumulativewebinc.github.io/cwi-learn/scanner/scout-card.json",
+    "prospect": {
+      "artist": "That Boy Hi Hat",
+      "home": "Frederick, MD",
+      "genre": "alternative rap",
+      "lane": "alt-rap",
+      "spotify_artist_id": "2f9j460EwjfvjYp3trBcb7"
+    },
+    "original_agent": "CWI_AandR (Cumulative Web Inc, A&R department)",
+    "original_verdict": "SIGNED",
+    "witness_agent": "CWI_Data (Cumulative Web Inc, Data & Analytics department)",
+    "independent_scores": {
+      "catalog-depth": "green",
+      "release-history-consistency": "green",
+      "label-conflict-scan": "green",
+      "engagement-sanity": "green",
+      "rights-red-flag-scan": "green"
+    },
+    "agreement_pct": 100.0,
+    "divergences": [],
+    "witness_verdict": "SIGNED",
+    "verdict": "concur",
+    "witness_note": "Independent second pass over the calibration filing, focusing on Zooted Zone as the scouted breakout prospect: catalog depth holds (24-track catalog, full Spotify IDs); timeline explicable (Zooted Zone recorded Hagerstown Feb 2023, produced by Kokurcho, mixed/mastered by Hybrid in his Hagerstown, MD studio; Diabolique single 2026-07-03, recorded Cue Recording Studio Arlington VA, produced by Hybrid); no label conflict (CWI roster artist, sync posture label-direct); engagement honest (Zooted Zone ~307K lifetime Spotify plays, observed 2026-09-14; New Rap Hits placements verified 2026-09-15: #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds; unverified curator claims from Flow and DJ 6Rings correctly filed as CLAIM-UNVERIFIED, never repeated as wins); rights clean (credits documented, no sample flags on record). The second ear agrees with the first: the calibration filing is the clean prospect file the protocol claims it is.",
+    "timestamp": "2026-09-15",
+    "contact": "hp@cumulativeweb.com",
+    "schema": "https://cumulativewebinc.github.io/cwi-learn/ear-witness/ear-witness-schema.json",
+    "registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json"
+  },
+  "worked_example_note": "Calibration worked record EW-2026-09-15-001: the Data & Analytics department's independent second pass over the A&R department's That Boy Hi Hat calibration filing (That Boy Hi Hat, alternative rap, Frederick MD, 24-track catalog), with 'Zooted Zone' as the scouted breakout prospect. Built ONLY from verified facts. Every new witness should read this record before co-signing their first card: this is what a clean concur looks like."
+}

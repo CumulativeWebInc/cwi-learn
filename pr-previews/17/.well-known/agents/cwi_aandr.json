@@ -1,0 +1,44 @@
+{
+  "authentication": {
+    "schemes": []
+  },
+  "capabilities": {
+    "extensions": [
+      {
+        "description": "CWI Gear Ledger presence: live agent presence and task state for the fleet, read from the canonical hash-chained ledger store. Read-only.",
+        "params": {
+          "ledger": "https://github.com/CumulativeWebInc/gear-ledger",
+          "presence_feed": "https://cumulativewebinc.github.io/gear-ledger-3d-mockup/live-data.json"
+        },
+        "required": false,
+        "uri": "https://cumulativewebinc.github.io/cwi-learn/a2a-extensions/gear-ledger-presence/v1"
+      }
+    ],
+    "pushNotifications": false,
+    "streaming": false
+  },
+  "defaultInputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/markdown",
+    "application/json"
+  ],
+  "description": "CWI A&R department agent. Scouting, repertoire development, and artist-services pipeline for the CWI roster. Operates inside the CWI agent company under KingCode.",
+  "name": "cwi_aandr",
+  "skills": [
+    {
+      "description": "Registered in the CWI Gear Ledger with hash-chained provenance; live presence published to the public presence feed.",
+      "id": "gear-ledger-presence",
+      "name": "Gear Ledger presence",
+      "tags": [
+        "identity",
+        "presence",
+        "provenance"
+      ]
+    }
+  ],
+  "url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_aandr.json",
+  "version": "1.0.0"
+}
