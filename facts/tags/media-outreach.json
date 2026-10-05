@@ -1,0 +1,12 @@
+{
+  "facet": "domain",
+  "packets": [
+    {
+      "node": "fact/module/pr-graph",
+      "packet_id": "fact/module/pr-graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.json"
+    }
+  ],
+  "tag": "media-outreach",
+  "updated": "2026-10-03T14:19:47Z"
+}
