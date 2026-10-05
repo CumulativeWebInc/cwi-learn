@@ -252,5 +252,12 @@
     "description": "Live Cloudflare edge endpoint for this learning surface: logged and attributed fetches (LLM crawlers identified), machine-readable licensing terms on all data responses, /query scored track search, /changes crawl deltas, /license terms.",
     "status": "live",
     "since": "2026-10-04"
+  },
+  "equipGuide": {
+    "url": "https://cumulativewebinc.github.io/cwi-learn/EQUIP-GUIDE.md",
+    "description": "10-step equip guide for external AI agents: discover the learning surface, read licensing (commercial training requires license via hp@cumulativeweb.com), install the Agent Deck MCP server, run a trust-verdict check, query the catalog API, verify the equip via invocation receipts. Every step tested 2026-10-04.",
+    "steps": 10,
+    "status": "live",
+    "since": "2026-10-04"
   }
 }
