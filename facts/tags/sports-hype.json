@@ -1,0 +1,12 @@
+{
+  "tag": "sports-hype",
+  "facet": "use",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/flex-my-flame",
+      "node": "Flex My Flame",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.json"
+    }
+  ]
+}

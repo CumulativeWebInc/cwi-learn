@@ -1,0 +1,12 @@
+{
+  "tag": "street-takeover",
+  "facet": "use",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/misfits-and-hooligans",
+      "node": "Misfits and Hooligans",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/misfits-and-hooligans.json"
+    }
+  ]
+}

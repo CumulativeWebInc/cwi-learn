@@ -1,0 +1,12 @@
+{
+  "tag": "fashion-horror-crossover",
+  "facet": "use",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/diabolique",
+      "node": "Diabolique",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.json"
+    }
+  ]
+}

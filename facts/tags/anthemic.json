@@ -1,0 +1,12 @@
+{
+  "tag": "anthemic",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/ultimate",
+      "node": "Ultimate",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.json"
+    }
+  ]
+}

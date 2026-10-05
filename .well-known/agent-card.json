@@ -68,6 +68,17 @@
         "verification",
         "agents"
       ]
+    },
+    {
+      "name": "fact-packets",
+      "description": "Fetch a provenance-tiered fact packet for any catalog node (71: tracks, artists, releases, playlists). Each packet carries discovery tags, five instruction templates (search answer, social caption, sync pitch, agent briefing, fan Q&A), and platform lanes (gaming, film/TV, ads, worldwide streaming). Tiers: verified | owner_confirmed | observed | claimed_unverified.",
+      "manifest": "https://cumulativewebinc.github.io/cwi-learn/facts/index.json",
+      "urlPattern": "https://cumulativewebinc.github.io/cwi-learn/facts/<type>/<slug>.json",
+      "tagIndex": "https://cumulativewebinc.github.io/cwi-learn/facts/tags/<tag>.json",
+      "examples": [
+        "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json",
+        "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json"
+      ]
     }
   ],
   "url": "https://muse.ai/s/post-trap-futurism-ai-learning-surface-xuxe5xpb7qsvxwu",

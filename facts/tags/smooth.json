@@ -1,0 +1,17 @@
+{
+  "tag": "smooth",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/doves-diamonds",
+      "node": "Doves & Diamonds",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-diamonds.json"
+    },
+    {
+      "packet_id": "fact/track/painted-lady",
+      "node": "Painted Lady",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.json"
+    }
+  ]
+}

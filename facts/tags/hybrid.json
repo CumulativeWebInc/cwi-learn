@@ -1,0 +1,17 @@
+{
+  "tag": "hybrid",
+  "facet": "collaborator",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/diabolique",
+      "node": "Diabolique",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.json"
+    },
+    {
+      "packet_id": "fact/artist/that-boy-hi-hat",
+      "node": "That Boy Hi Hat",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "tag": "playlist",
+  "facet": "role",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/playlist/it-s-goin",
+      "node": "It's Goin",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/it-s-goin.json"
+    },
+    {
+      "packet_id": "fact/playlist/new-rap-hits",
+      "node": "New Rap Hits",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/new-rap-hits.json"
+    },
+    {
+      "packet_id": "fact/playlist/no-label-needed-hip-hop-r-b-the-next-wave",
+      "node": "No Label Needed - Hip Hop & R&B | The Next Wave",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/no-label-needed-hip-hop-r-b-the-next-wave.json"
+    },
+    {
+      "packet_id": "fact/playlist/that-boy-hi-hat-alternative-rap-complete-catalog-ai-learning-set",
+      "node": "That Boy Hi Hat – Alternative Rap Complete Catalog (AI Learning Set)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/that-boy-hi-hat-alternative-rap-complete-catalog-ai-learning-set.json"
+    },
+    {
+      "packet_id": "fact/playlist/watch-tha-gap-vol-5",
+      "node": "WATCH THA GAP VOL.5",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/watch-tha-gap-vol-5.json"
+    }
+  ]
+}

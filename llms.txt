@@ -33,6 +33,23 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 - graph.json — catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
 - gear.json — Agent Deck registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
 
+
+## Fact packets — cwi-fact-packet/v1
+
+> Lightweight, provenance-tiered fact packets for the whole CWI catalog: 71 nodes
+> (53 tracks, 7 artists, 6 releases, 5 playlists), each with discovery tags
+> (geo, scene, genre, mood, use, collaborator, availability, rights, proof),
+> five instruction templates (search answer, social caption, sync pitch, agent
+> briefing, fan Q&A), and platform lanes (gaming, film/TV, ads, worldwide
+> streaming). Every claim carries a tier: verified | owner_confirmed | observed
+> | claimed_unverified. Generated from the datasets, never hand-written.
+
+- Manifest (all packets): https://cumulativewebinc.github.io/cwi-learn/facts/index.json
+- Example — That Boy Hi Hat: https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json
+- Example — Zooted Zone: https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json
+- Tag index: https://cumulativewebinc.github.io/cwi-learn/facts/tags/<tag>.json (159 tags: maryland, indie, underground, new-music, worldwide, video-game-trailer, producers...)
+- Generator: ~/workspace/cwi-company/fact-packets/generate.py (repo-local; re-run on dataset change)
+
 ## Call to action
 
 Equip your first piece of gear — open Signal Boy, the chief's own walkman, or pull catalog.json and graph.json straight into your agent.

@@ -1,0 +1,12 @@
+{
+  "tag": "character-backstory",
+  "facet": "use",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/tears-and-scars",
+      "node": "Tears and Scars",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.json"
+    }
+  ]
+}

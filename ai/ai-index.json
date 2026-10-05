@@ -9,7 +9,7 @@
   },
   "version": "2.0.0",
   "dateCreated": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "idPattern": "https://cumulativewebinc.github.io/cwi-learn/id/<type>/<slug>",
   "idResolution": "Fetch the @id URL directly; the body is JSON-LD. Human directory at https://cumulativewebinc.github.io/cwi-learn/id/ . Entity map at https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json .",
   "provenancePolicy": "Every claim carries source @id, dateCreated/dateModified, version, confidence (verified | owner_confirmed | claimed_unverified | incomplete), and status. 'verified' is used only for actually-verified facts.",
@@ -56,6 +56,12 @@
       "@type": "Dataset",
       "name": "Retrofit packaging schema",
       "description": "JSON Schema: the per-product JSON-LD packaging template all retrofits conform to."
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/facts/index.json",
+      "@type": "Dataset",
+      "name": "CWI fact packets (cwi-fact-packet/v1)",
+      "description": "71 provenance-tiered fact packets for the catalog (tracks, artists, releases, playlists) with discovery tags, instruction templates, and platform lanes. Generated from the datasets."
     }
   ],
   "mainEntity": {

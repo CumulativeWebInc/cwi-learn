@@ -1,0 +1,12 @@
+{
+  "tag": "addictive",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/toxic-element",
+      "node": "Toxic Element",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-element.json"
+    }
+  ]
+}

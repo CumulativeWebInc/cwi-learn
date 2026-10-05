@@ -1,0 +1,17 @@
+{
+  "tag": "painful",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/smokin-pain",
+      "node": "Smokin' Pain",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/smokin-pain.json"
+    },
+    {
+      "packet_id": "fact/track/tears-and-scars",
+      "node": "Tears and Scars",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.json"
+    }
+  ]
+}

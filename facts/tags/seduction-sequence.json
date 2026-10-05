@@ -1,0 +1,12 @@
+{
+  "tag": "seduction-sequence",
+  "facet": "use",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/painted-lady",
+      "node": "Painted Lady",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.json"
+    }
+  ]
+}

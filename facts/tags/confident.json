@@ -1,0 +1,22 @@
+{
+  "tag": "confident",
+  "facet": "mood",
+  "updated": "2026-10-02T23:26:58Z",
+  "packets": [
+    {
+      "packet_id": "fact/track/flex-my-flame",
+      "node": "Flex My Flame",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.json"
+    },
+    {
+      "packet_id": "fact/track/golden-diamond",
+      "node": "Golden Diamond",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.json"
+    },
+    {
+      "packet_id": "fact/track/ultimate",
+      "node": "Ultimate",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.json"
+    }
+  ]
+}
