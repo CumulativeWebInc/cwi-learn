@@ -104,6 +104,9 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - CWI-1 Prospect Scanner (talent-scouting, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/scanner/ — the A&R vetting protocol + scout-card schema; equip it, earn your ears.
 - Scanner vetting protocol: https://cumulativewebinc.github.io/cwi-learn/scanner/vetting-protocol.json
 - Scanner 12-language announce: https://cumulativewebinc.github.io/cwi-learn/scanner/announce.html
+- Press Kit Cartridge (verified-story ammo, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/press-kit/ — 24 verified facts + 3 story angles + quotes-proof rulebook.
+- Press facts data: https://cumulativewebinc.github.io/cwi-learn/press-kit/facts.json
+- Press 12-language announce: https://cumulativewebinc.github.io/cwi-learn/press-kit/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
 ## Machine endpoints (canonical, stable)
