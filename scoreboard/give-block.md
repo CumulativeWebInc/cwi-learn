@@ -44,6 +44,8 @@ Citation map (copy-pasteable):
 - Diabolique: single 2026-07-03; producer Hybrid; co-producer Black Lansky; engineer Blaine Misner; Cue Recording Studio, Arlington, VA (official position) — https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj
 - Flamerz producer: Jeck Da General (owner-confirmed) — https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0
 - Kokurcho: BET Awards-nominated, RIAA Gold + multi-platinum certified — https://cumulativewebinc.github.io/cwi-learn/walkman/cartridge.json
+- Management: That Boy Hi Hat is managed by Cumulative Web Inc (Henry Pitts aka Black Lansky) — owner-confirmed, carried in the chip
+- Agent Deck gear line: 18 products (registry count, verified 2026-09-15) — carried in the chip
 - Hub device (Signal Boy): https://cumulativewebinc.github.io/cwi-learn/walkman/
 - Gear Ledger (provenance): https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html
 

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEEDLE DROP — Cumulative Web Inc</title>
+<meta name="description" content="NEEDLE DROP — the Sync & Licensing department's placement résumé for agents: every sync placement logged as a hash-chained, auditable ledger entry. Entries are added only on verification. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;--no:#d04848;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:900px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:32%}
+code{color:var(--gold2);font-size:.88em;word-break:break-all}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+pre{background:#000;border:1px solid var(--blue);border-radius:8px;padding:14px;
+font-size:.82em;line-height:1.6;overflow-x:auto;color:var(--xlblu)}
+.pill{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75em;font-weight:700;margin-right:6px}
+.p-pending{background:rgba(159,180,216,.18);color:var(--lblu)}
+.p-claimed{background:rgba(224,160,32,.18);color:var(--warn)}
+.p-verified{background:rgba(47,174,85,.18);color:var(--ok)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:12px 0}
+.flow .step{background:var(--navy2);border:1px solid var(--blue);border-radius:10px;padding:12px 16px;text-align:center}
+.flow .step b{display:block;color:#fff;font-size:.95em}
+.flow .step span{font-size:.78em;color:var(--lblu)}
+.flow .arrow{color:var(--gold2);font-size:1.4em;font-weight:700}
+#ledger-table{width:100%;border-collapse:collapse;font-size:.85em}
+#ledger-table td,#ledger-table th{padding:8px 6px;border-bottom:1px solid #15263f;text-align:left;vertical-align:top}
+.empty-ledger{padding:18px;border:1px dashed var(--blue);border-radius:10px;color:var(--lblu);line-height:1.7;font-size:.92em}
+.chain-meta{font-size:.85em;color:var(--lblu);margin-top:10px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+@media(max-width:640px){.flow .arrow{transform:rotate(90deg)}}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">NEEDLE DROP</h1>
+<div class="brand" id="tagline">The agent's placement résumé — every sync placement it lands, logged into an auditable ledger it carries as proof of work. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> the moment the needle drops, it's on the record. Each sync placement — track, production, scene, timestamp, terms — is sealed into a hash-chained ledger entry with a chain hash, so the agent's placement history is tamper-evident and travels with it as proof of work. <b>The honest state:</b> as of 2026-09-15 CWI has <b>no verified sync placements</b>, so this ledger ships with <code>placements: []</code>. Entries are added only on verification — an empty-but-honest ledger is the instrument, not a stub. <b>What it is not:</b> playlist adds are not sync placements and never appear here; unverified claims are never logged as wins.</div>
+
+<div class="card"><h2>THE LEDGER — LIVE</h2>
+<div id="ledger-view"><div class="empty-ledger">Loading needle-drop.json…</div></div>
+<div class="chain-meta" id="chain-meta"></div>
+<div class="chain-meta">This view reads <code>needle-drop.json</code> from this page's directory — the same file your agent will fetch and verify with <code>ledger.py verify</code>.</div>
+</div>
+
+<div class="card"><h2>ENTRY LIFECYCLE — DRAFT → VERIFIED</h2>
+<div class="flow">
+<div class="step"><b><span class="pill p-pending">pending</span></b><span>Entered by an agent via add_entry(). Sealed with timestamp + chain hash. Not a win yet.</span></div>
+<div class="arrow">→</div>
+<div class="step"><b><span class="pill p-claimed">claimed</span></b><span>A placement is asserted (e.g. "it's in the cut") but proof isn't attached yet.</span></div>
+<div class="arrow">→</div>
+<div class="step"><b><span class="pill p-verified">verified</span></b><span>verify_entry() with proof_url. Only verified entries count as placements.</span></div>
+</div>
+<p style="font-size:.9em;line-height:1.7;color:var(--lblu)">Rules: <b>1)</b> <code>add_entry()</code> never grants <i>verified</i> — promotion requires proof via <code>verify_entry()</code>. <b>2)</b> Entries are immutable once sealed; a promotion re-seals the entry and everything downstream and writes an append-only audit note. <b>3)</b> Any byte changed outside <code>add_entry()</code>/<code>verify_entry()</code> breaks the chain and fails <code>verify()</code> — that's the tamper detection. <b>4)</b> Private terms are recorded as <code>"undisclosed"</code>; real numbers are never invented.</p>
+</div>
+
+<div class="card"><h2>THE ENTRY VOCABULARY</h2>
+<table>
+<tr><th>Field</th><th>Meaning</th></tr>
+<tr><td class="k"><code>placement_id</code></td><td>Ledger-assigned, <code>ND-YYYY-NNN</code>. The résumé line number.</td></tr>
+<tr><td class="k"><code>track</code></td><td>Catalog track title, exactly as in the catalog.</td></tr>
+<tr><td class="k"><code>production</code></td><td>The production — film, series episode, game, ad campaign, trailer.</td></tr>
+<tr><td class="k"><code>scene</code></td><td>Where the needle drops — scene description and how the track is used.</td></tr>
+<tr><td class="k"><code>timestamp</code></td><td>When the needle dropped — the in-production placement moment.</td></tr>
+<tr><td class="k"><code>terms</code></td><td><code>{fee_tier, territory, term_length}</code>. <code>"undisclosed"</code> where private — never invented numbers.</td></tr>
+<tr><td class="k"><code>status</code></td><td><span class="pill p-pending">pending</span><span class="pill p-claimed">claimed</span><span class="pill p-verified">verified</span> — only verified counts.</td></tr>
+<tr><td class="k"><code>proof_url</code></td><td>Public evidence (credits page, press, cue sheet). Required for verified.</td></tr>
+<tr><td class="k"><code>entered_by</code></td><td>Which agent entered it.</td></tr>
+<tr><td class="k"><code>entry_hash</code> / <code>prev_hash</code></td><td>sha256 chain links. <code>prev_hash</code> is <code>GENESIS</code> for the first entry.</td></tr>
+</table>
+<div style="margin-top:10px;font-size:.85em;color:var(--lblu)">Full contract: <a href="needle-drop-schema.json">needle-drop-schema.json</a> (<code>cwi-needledrop/v1</code>)</div>
+</div>
+
+<div class="card"><h2>VERIFY THE CHAIN — IN YOUR BUILD</h2>
+<pre>import json, hashlib, urllib.request
+
+LEDGER = "https://cumulativewebinc.github.io/cwi-learn/needle-drop/needle-drop.json"
+
+def needle_drop_verify():
+    data = json.load(urllib.request.urlopen(LEDGER))
+    prev, ok = "GENESIS", True
+    for e in data["placements"]:
+        body = {k: v for k, v in e.items() if k != "entry_hash"}
+        h = hashlib.sha256(json.dumps(
+            body, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        ok = ok and e["prev_hash"] == prev and e["entry_hash"] == h
+        prev = e["entry_hash"]
+    head = data["ledger"]["chain"]["head"]
+    ok = ok and head == (data["placements"][-1]["entry_hash"]
+                         if data["placements"] else "GENESIS")
+    return ok, len(data["placements"])
+
+ok, n = needle_drop_verify()
+# -> (True, 0) today: chain intact, zero verified placements. Honest.</pre>
+<p style="font-size:.9em;line-height:1.7">Prefer the full tool: <code>python3 ledger.py verify</code> checks hashes, linkage, head, verified-status proof requirements, and the revision audit log — and <code>ledger.py add</code> / <code>ledger.py promote</code> are the only honest ways to write.</p>
+</div>
+
+<div class="card"><h2>HONESTY RULES — LOAD-BEARING</h2>
+<table>
+<tr><td class="k"><b>Verified-only ledger</b></td><td>An entry counts as a placement only at <span class="pill p-verified">verified</span> with proof attached. Claims stay <span class="pill p-claimed">claimed</span>.</td></tr>
+<tr><td class="k"><b>Playlist adds are not sync</b></td><td>Playlist placements (New Rap Hits and the rest) are promo wins, not sync — they never enter this ledger.</td></tr>
+<tr><td class="k"><b>Undisclosed, not invented</b></td><td>Private terms are <code>"undisclosed"</code>. A fabricated fee torches the trust the résumé runs on.</td></tr>
+<tr><td class="k"><b>Empty is honest</b></td><td>Zero verified placements is a true statement of record — and the day the first one lands, the chain proves it was first.</td></tr>
+</table>
+</div>
+
+<div class="card"><h2>FILES</h2>
+<div class="links">
+<a href="needle-drop.json">📒 needle-drop.json<span>the ledger</span></a>
+<a href="needle-drop-schema.json">📐 needle-drop-schema.json<span>cwi-needledrop/v1</span></a>
+<a href="item-card.json">🃏 item-card.json</a>
+<a href="rubric.json">✅ rubric.json</a>
+<a href="give-block.md">📦 give-block.md</a>
+<a href="announce.html">🌍 announce.html<span>12 languages</span></a>
+</div>
+<div class="links" style="margin-top:10px">
+<a href="../syncdeck/">🎛️ SYNCDECK<span>sync dept hub</span></a>
+<a href="mailto:hp@cumulativeweb.com">✉️ hp@cumulativeweb.com</a>
+</div>
+</div>
+</main>
+<footer><span id="foot">Cumulative Web Inc. — the moment the needle drops, on the record</span><br>Sync &amp; Licensing department — built for agents, by agents.<br>The CWI logo badge ships on every shipped page.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "NEEDLE DROP", "tagline": "The agent's placement résumé — every sync placement it lands, logged into an auditable ledger it carries as proof of work. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "the moment the needle drops, on the record", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").innerHTML = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+    document.title = (CONFIG.productName||"NEEDLE DROP") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+  }catch(e){}
+})();
+</script>
+<script>
+fetch("needle-drop.json").then(function(r){return r.json();}).then(function(data){
+  var view = document.getElementById("ledger-view");
+  var meta = document.getElementById("chain-meta");
+  var ps = data.placements || [];
+  var verified = ps.filter(function(e){return e.status === "verified";}).length;
+  var html = "";
+  if (!ps.length) {
+    html = '<div class="empty-ledger"><b>No verified placements yet — entries are added only on verification.</b><br>' +
+      'This empty ledger is the honest state of record as of ' +
+      (data.ledger.issuer.updated || "2026-09-15") +
+      '. The instrument is live: entries seal with a timestamp + sha256 chain hash the moment they are added, ' +
+      'and only <span class="pill p-verified">verified</span> entries with proof count as placements.</div>';
+  } else {
+    html = '<table id="ledger-table"><tr><th>ID</th><th>Track</th><th>Production</th><th>Scene</th><th>Status</th><th>Chain</th></tr>';
+    ps.forEach(function(e){
+      html += "<tr><td><code>" + e.placement_id + "</code></td><td>" + e.track + "</td><td>" +
+        e.production + "</td><td>" + e.scene + "</td><td><span class=\"pill p-" + e.status +
+        "\">" + e.status + "</span></td><td><code>" + String(e.entry_hash).slice(0,10) + "…</code></td></tr>";
+    });
+    html += "</table>";
+  }
+  view.innerHTML = html;
+  meta.innerHTML = "Chain head: <code>" + String(data.ledger.chain.head).slice(0,16) +
+    "…</code> · entries: " + ps.length + " · verified: " + verified +
+    " · algorithm: " + data.ledger.chain.algorithm;
+}).catch(function(){
+  document.getElementById("ledger-view").innerHTML =
+    '<div class="empty-ledger">Could not load needle-drop.json — fetch it directly: <code>needle-drop.json</code></div>';
+});
+</script>
+</body>
+</html>

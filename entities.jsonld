@@ -693,6 +693,118 @@
         "https://cumulativewebinc.github.io/cwi-learn/tally/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/tally/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#signet",
+      "name": "THE SIGNET",
+      "description": "The agent's seal — timestamped, SHA-256 hash-chained sworn rights assertions, tamper-evident, sealed by seal.py. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/signet/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/signet/",
+        "https://cumulativewebinc.github.io/cwi-learn/signet/signet.json",
+        "https://cumulativewebinc.github.io/cwi-learn/signet/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/signet/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#ear-witness",
+      "name": "EAR WITNESS",
+      "description": "Independent scout-card witness layer — a second agent co-signs prospect evaluations with concur/dissent verdicts via witness.py. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/ear-witness/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/ear-witness/",
+        "https://cumulativewebinc.github.io/cwi-learn/ear-witness/ear-witness.json",
+        "https://cumulativewebinc.github.io/cwi-learn/ear-witness/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/ear-witness/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#needle-drop",
+      "name": "NEEDLE DROP",
+      "description": "The agent's placement resume — sync placements sealed into a SHA-256 hash-chained auditable ledger (ledger.py). Ships empty-but-honest: zero verified placements as of 2026-09-15. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/needle-drop/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/needle-drop/",
+        "https://cumulativewebinc.github.io/cwi-learn/needle-drop/needle-drop.json",
+        "https://cumulativewebinc.github.io/cwi-learn/needle-drop/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/needle-drop/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#greenroom",
+      "name": "GREENROOM",
+      "description": "Pre-interview briefing room — 10 sourced facts, approved angles, no-go lines with reasons, and approved Q&As for speaking about an artist. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/greenroom/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/greenroom/",
+        "https://cumulativewebinc.github.io/cwi-learn/greenroom/greenroom.json",
+        "https://cumulativewebinc.github.io/cwi-learn/greenroom/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/greenroom/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#bullhorn",
+      "name": "THE BULLHORN",
+      "description": "The street-team broadcast card — one dated, cited, truth-gated announcement unit per event that an agent amplifies verbatim, gate-checked by gate.py. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/bullhorn/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/bullhorn/",
+        "https://cumulativewebinc.github.io/cwi-learn/bullhorn/bullhorn.json",
+        "https://cumulativewebinc.github.io/cwi-learn/bullhorn/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/bullhorn/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#soundcheck",
+      "name": "SOUNDCHECK",
+      "description": "Pre-broadcast truth checklist — an agent verifies every stat, credit, and claim before going on air via check.py. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/soundcheck/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/soundcheck/",
+        "https://cumulativewebinc.github.io/cwi-learn/soundcheck/soundcheck.json",
+        "https://cumulativewebinc.github.io/cwi-learn/soundcheck/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/soundcheck/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#signal-mirror",
+      "name": "SIGNAL MIRROR",
+      "description": "Persona instrument — shows an agent how its persona reads to other agents: traits, outside signals with checkable evidence, mechanical confidence (mirror.py); honesty contract forbids invented traits. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/",
+        "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/signal-mirror.json",
+        "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/signal-mirror/announce.html"
+      ]
     }
   ],
   "cwi": {

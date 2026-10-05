@@ -1,0 +1,212 @@
+{
+  "$id": "https://cumulativewebinc.github.io/cwi-learn/ear-witness/ear-witness-schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EAR WITNESS record",
+  "type": "object",
+  "format": "cwi-earwitness/v1",
+  "description": "EAR WITNESS witness record (cwi-earwitness/v1): a second agent's independent co-signature on a Prospect Scanner scout card. Per-criterion agreement/divergence, agreement percentage, and a concur / concur-with-notes / dissent verdict.",
+  "additionalProperties": true,
+  "properties": {
+    "format": {
+      "const": "cwi-earwitness/v1",
+      "type": "string"
+    },
+    "witness_id": {
+      "type": "string"
+    },
+    "scout_card_ref": {
+      "type": "string"
+    },
+    "prospect": {
+      "type": "object",
+      "required": [
+        "artist"
+      ],
+      "properties": {
+        "artist": {
+          "type": "string"
+        },
+        "home": {
+          "type": "string"
+        },
+        "genre": {
+          "type": "string"
+        },
+        "lane": {
+          "type": "string"
+        },
+        "spotify_artist_id": {
+          "type": "string"
+        }
+      }
+    },
+    "original_agent": {
+      "type": "string"
+    },
+    "original_verdict": {
+      "enum": [
+        "SIGN-HOLD",
+        "HOLD",
+        "PASS",
+        "DEEP-DIVE",
+        "SIGNED"
+      ],
+      "description": "The original scout card's overall verdict."
+    },
+    "witness_agent": {
+      "type": "string"
+    },
+    "independent_scores": {
+      "type": "object",
+      "required": [
+        "catalog-depth",
+        "release-history-consistency",
+        "label-conflict-scan",
+        "engagement-sanity",
+        "rights-red-flag-scan"
+      ],
+      "description": "The witness's independent read, green/amber/red per protocol step.",
+      "properties": {
+        "catalog-depth": {
+          "enum": [
+            "green",
+            "amber",
+            "red"
+          ]
+        },
+        "release-history-consistency": {
+          "enum": [
+            "green",
+            "amber",
+            "red"
+          ]
+        },
+        "label-conflict-scan": {
+          "enum": [
+            "green",
+            "amber",
+            "red"
+          ]
+        },
+        "engagement-sanity": {
+          "enum": [
+            "green",
+            "amber",
+            "red"
+          ]
+        },
+        "rights-red-flag-scan": {
+          "enum": [
+            "green",
+            "amber",
+            "red"
+          ]
+        }
+      }
+    },
+    "agreement_pct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Percent of the five criteria where witness and original agree (0-100)."
+    },
+    "divergences": {
+      "type": "array",
+      "description": "Every criterion where the witness disagrees with the original scout.",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion",
+          "original",
+          "witness",
+          "note"
+        ],
+        "properties": {
+          "criterion": {
+            "type": "string",
+            "description": "One of the five scanner protocol steps.",
+            "enum": [
+              "catalog-depth",
+              "release-history-consistency",
+              "label-conflict-scan",
+              "engagement-sanity",
+              "rights-red-flag-scan"
+            ]
+          },
+          "original": {
+            "type": "string",
+            "description": "Original scout's result.",
+            "enum": [
+              "green",
+              "amber",
+              "red"
+            ]
+          },
+          "witness": {
+            "type": "string",
+            "description": "Witness's independent result.",
+            "enum": [
+              "green",
+              "amber",
+              "red"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "description": "Human-readable note about the disagreement."
+          }
+        }
+      }
+    },
+    "witness_verdict": {
+      "enum": [
+        "SIGN-HOLD",
+        "HOLD",
+        "PASS",
+        "DEEP-DIVE",
+        "SIGNED"
+      ],
+      "description": "The witness's independent overall verdict on the prospect."
+    },
+    "verdict": {
+      "enum": [
+        "concur",
+        "concur-with-notes",
+        "dissent"
+      ],
+      "description": "The witness's overall co-signature: concur (full agreement), concur-with-notes (agreement with flagged divergences), dissent (witness's own overall verdict differs from the scout's)."
+    },
+    "witness_note": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "contact": {
+      "type": "string",
+      "description": "Escalation contact for divergences/dissent follow-ups."
+    },
+    "schema": {
+      "type": "string"
+    },
+    "registry": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "format",
+    "witness_id",
+    "scout_card_ref",
+    "prospect",
+    "original_agent",
+    "original_verdict",
+    "witness_agent",
+    "independent_scores",
+    "agreement_pct",
+    "divergences",
+    "witness_verdict",
+    "verdict",
+    "timestamp"
+  ]
+}

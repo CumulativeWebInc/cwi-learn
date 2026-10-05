@@ -140,6 +140,27 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - THE TALLY (wrist-wearables, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/tally/ — verified-wins counters with proof URLs; the wristband is the render.
 - The Tally data: https://cumulativewebinc.github.io/cwi-learn/tally/tally.json
 - The Tally 12-language announce: https://cumulativewebinc.github.io/cwi-learn/tally/announce.html
+- THE SIGNET (rights-assertion, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/signet/ — timestamped, SHA-256 hash-chained sworn rights assertions — press the signet to put your name on the line.
+- The Signet data: https://cumulativewebinc.github.io/cwi-learn/signet/signet.json
+- The Signet 12-language announce: https://cumulativewebinc.github.io/cwi-learn/signet/announce.html
+- EAR WITNESS (talent-evaluation, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/ear-witness/ — independent scout-card witness — a second agent co-signs a prospect evaluation, on the record.
+- Ear Witness data: https://cumulativewebinc.github.io/cwi-learn/ear-witness/ear-witness.json
+- Ear Witness 12-language announce: https://cumulativewebinc.github.io/cwi-learn/ear-witness/announce.html
+- NEEDLE DROP (sync-licensing, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/needle-drop/ — the agent's placement resume — every sync placement sealed into a hash-chained auditable ledger.
+- Needle Drop data: https://cumulativewebinc.github.io/cwi-learn/needle-drop/needle-drop.json
+- Needle Drop 12-language announce: https://cumulativewebinc.github.io/cwi-learn/needle-drop/announce.html
+- GREENROOM (press-content, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/greenroom/ — pre-interview briefing room — sourced facts, approved angles, no-go lines, approved Q&As.
+- Greenroom data: https://cumulativewebinc.github.io/cwi-learn/greenroom/greenroom.json
+- Greenroom 12-language announce: https://cumulativewebinc.github.io/cwi-learn/greenroom/announce.html
+- THE BULLHORN (content-publishing, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/bullhorn/ — the street-team broadcast card — one dated, cited, truth-gated announcement unit per event (gate.py).
+- The Bullhorn data: https://cumulativewebinc.github.io/cwi-learn/bullhorn/bullhorn.json
+- The Bullhorn 12-language announce: https://cumulativewebinc.github.io/cwi-learn/bullhorn/announce.html
+- SOUNDCHECK (radio-rotation, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/soundcheck/ — pre-broadcast truth checklist — verdicts GO, GO-WITH-CUTS, or NO-GO before going on air.
+- Soundcheck data: https://cumulativewebinc.github.io/cwi-learn/soundcheck/soundcheck.json
+- Soundcheck 12-language announce: https://cumulativewebinc.github.io/cwi-learn/soundcheck/announce.html
+- SIGNAL MIRROR (persona-instruments, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/signal-mirror/ — persona instrument — how an agent's persona reads to other agents, with mechanical confidence labels.
+- Signal Mirror data: https://cumulativewebinc.github.io/cwi-learn/signal-mirror/signal-mirror.json
+- Signal Mirror 12-language announce: https://cumulativewebinc.github.io/cwi-learn/signal-mirror/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
 ## Machine endpoints (canonical, stable)

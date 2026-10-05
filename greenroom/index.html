@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GREENROOM — Cumulative Web Inc</title>
+<meta name="description" content="GREENROOM — the Press department's pre-interview briefing room: verified facts with sources and dates, approved angles, no-go lines with reasons, likely questions with approved answers. Walk in prepared, never hallucinate on the record. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;--no:#d04848;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:880px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:30%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+/* ---- draft checker ---- */
+textarea{width:100%;min-height:110px;background:#000;border:1px solid var(--blue);color:#fff;
+border-radius:9px;padding:12px;font-size:.92em;font-family:inherit;resize:vertical}
+button.scan{background:var(--gold);color:#1a1206;border:none;border-radius:9px;padding:12px 22px;
+font-weight:800;font-size:.95em;cursor:pointer;margin-top:10px}
+button.scan:hover{background:var(--gold2)}
+#scanresult{display:none;border-radius:12px;padding:16px;margin-top:12px;border:1px solid;font-size:.9em;line-height:1.6}
+#scanresult.clean{border-color:var(--ok);background:rgba(47,174,85,.08)}
+#scanresult.dirty{border-color:var(--no);background:rgba(208,72,72,.08)}
+#scanresult .hit{color:var(--no);font-weight:700}
+/* ---- q&a demo ---- */
+.qa select{width:100%;background:var(--navy2);border:1px solid var(--blue);color:#fff;
+border-radius:9px;padding:12px;font-size:.95em;margin-bottom:12px}
+#answer{display:none;border-left:4px solid var(--ok);padding:12px 16px;background:#0a0f1c;
+border-radius:0 10px 10px 0;font-size:.92em;line-height:1.7}
+#answer .src{font-size:.8em;color:var(--lblu);margin-top:8px}
+.pill{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75em;font-weight:700;margin-right:6px}
+.p-fact{background:rgba(47,174,85,.18);color:var(--ok)}
+.p-nogo{background:rgba(208,72,72,.18);color:var(--no)}
+.p-angle{background:rgba(245,196,69,.18);color:var(--gold2)}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.meta{font-size:.85em;color:var(--lblu)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tabs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.88em}
+.tabs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+.brief{display:none}
+.brief.active{display:block}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+@media(max-width:640px){header img{width:48px;height:48px}}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">GREENROOM</h1>
+<div class="brand" id="tagline">The pre-interview briefing room: verified facts, approved angles, no-go lines — before you speak on the record. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> an agent equips GREENROOM before speaking about an artist — one fetch returns the verified fact set (every fact with source and observation date), the approved angles, the no-go lines each carrying its reason, and the likely questions with approved answers. <b>What it is not:</b> a press kit. The <a href="https://cumulativewebinc.github.io/cwi-learn/press-kit/">Press Kit Cartridge</a> is the facts; <a href="https://cumulativewebinc.github.io/cwi-learn/copy-desk/">Copy Desk</a> is the story units. GREENROOM is the briefing <i>before</i> speaking — walk in prepared, never improvise on the record.</div>
+
+<div class="card"><h2>CHECK YOUR DRAFT — LIVE DEMO</h2>
+<p class="meta">Paste your planned talking points. The checker scans them against this briefing's <code>deny_patterns[]</code> — the same machine-readable list your agent reads.</p>
+<textarea id="draft" placeholder="Paste your draft here — e.g. your planned answer about the artist's biggest record…"></textarea>
+<button class="scan" onclick="scan()">SCAN DRAFT</button>
+<div id="scanresult" aria-live="polite"></div>
+<div class="meta" style="margin-top:10px">Demo reads <code>greenroom.json</code> from this page's directory — the same file your agent will fetch.</div>
+</div>
+
+<div class="card"><h2>LIKELY QUESTIONS — APPROVED ANSWERS</h2>
+<div class="qa"><select id="qsel" aria-label="Likely question"></select>
+<div id="answer" aria-live="polite"></div></div>
+</div>
+
+<div class="card"><h2>THE BRIEFING</h2>
+<div class="tabs" id="tabs">
+<button data-t="facts" class="active">Verified facts</button>
+<button data-t="angles">Approved angles</button>
+<button data-t="nogo">No-go lines</button>
+</div>
+<div class="brief active" id="t-facts"><table id="factstable"></table></div>
+<div class="brief" id="t-angles"><table id="anglestable"></table></div>
+<div class="brief" id="t-nogo"><table id="nogotable"></table></div>
+<div class="meta" style="margin-top:10px">Briefing current as of <code id="updated"></code>. Re-fetch before high-stakes use.</div>
+</div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "GREENROOM", "tagline": "The pre-interview briefing room: verified facts, approved angles, no-go lines — before you speak on the record. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "briefed before speaking", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/greenroom/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"GREENROOM") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+var DATA = null;
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function scan(){
+  var box = document.getElementById("scanresult");
+  if(!DATA){ box.style.display="block"; box.className=""; box.textContent="briefing unavailable."; return; }
+  var text = document.getElementById("draft").value;
+  var pats = DATA.deny_patterns || [];
+  var hits = pats.filter(function(p){ return text.toLowerCase().indexOf(p.toLowerCase()) !== -1; });
+  box.style.display = "block";
+  if(!text.trim()){ box.className=""; box.textContent = "Paste a draft first."; return; }
+  if(hits.length){
+    box.className = "dirty";
+    box.innerHTML = "<b>FLAGGED — do not speak this on the record.</b><br>Matched deny patterns: " +
+      hits.map(function(h){return '<span class="hit">'+esc(h)+"</span>";}).join(", ") +
+      "<br>Rewrite from the verified facts, or escalate to " + esc(DATA.contact) + ".";
+  } else {
+    box.className = "clean";
+    box.innerHTML = "<b>CLEAN.</b> No deny patterns matched. Speak only what the briefing verifies — numbers with their dates.";
+  }
+}
+function showAnswer(){
+  var i = document.getElementById("qsel").value;
+  var qa = DATA.likely_questions[i];
+  var box = document.getElementById("answer");
+  box.style.display = "block";
+  box.innerHTML = "<b>Q: " + esc(qa.q) + "</b><br><br>" + esc(qa.approved_answer) +
+    '<div class="src">Approved answer · briefing ' + esc(DATA.updated) + ' · contact ' + esc(DATA.contact) + "</div>";
+}
+fetch("greenroom.json").then(function(r){return r.json()}).then(function(d){
+  DATA = d;
+  document.getElementById("updated").textContent = d.updated;
+  var qs = document.getElementById("qsel");
+  d.likely_questions.forEach(function(qa,i){
+    var o = document.createElement("option"); o.value = i; o.textContent = qa.q; qs.appendChild(o);
+  });
+  qs.onchange = showAnswer; showAnswer();
+  document.getElementById("factstable").innerHTML = d.verified_facts.map(function(f){
+    return '<tr><td class="k"><span class="pill p-fact">fact</span>' + esc(f.id) + "</td><td>" + esc(f.fact) +
+      '<div class="meta">source: ' + esc(f.source) + " · observed " + esc(f.date) + "</div></td></tr>";
+  }).join("");
+  document.getElementById("anglestable").innerHTML = d.angles.map(function(a){
+    return '<tr><td class="k"><span class="pill p-angle">angle</span>' + esc(a.id) + "</td><td>" + esc(a.angle) + "</td></tr>";
+  }).join("");
+  document.getElementById("nogotable").innerHTML = d.no_go_lines.map(function(n){
+    return '<tr><td class="k"><span class="pill p-nogo">no-go</span>' + esc(n.id) + "</td><td><b>Never say:</b> " + esc(n.line) +
+      "<br><b>Reason:</b> " + esc(n.reason) + "</td></tr>";
+  }).join("");
+  var tabs = document.querySelectorAll("#tabs button");
+  tabs.forEach(function(b){
+    b.onclick = function(){
+      tabs.forEach(function(x){x.classList.remove("active");});
+      b.classList.add("active");
+      document.querySelectorAll(".brief").forEach(function(x){x.classList.remove("active");});
+      document.getElementById("t-"+b.getAttribute("data-t")).classList.add("active");
+    };
+  });
+}).catch(function(){
+  document.getElementById("scanresult").style.display="block";
+  document.getElementById("scanresult").textContent = "briefing unavailable.";
+});
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Briefing: greenroom.json","greenroom.json"],["Schema","greenroom-schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Press Kit Cartridge","https://cumulativewebinc.github.io/cwi-learn/press-kit/"],["Copy Desk","https://cumulativewebinc.github.io/cwi-learn/copy-desk/"],["Hub device: Signal Boy","https://cumulativewebinc.github.io/cwi-learn/compass/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>
