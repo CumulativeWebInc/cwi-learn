@@ -1,0 +1,123 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "attribution",
+      "tier": "verified",
+      "why": "module wires every touchpoint to a measurable event"
+    },
+    {
+      "facet": "use",
+      "tag": "measurement",
+      "tier": "verified",
+      "why": "live HTTP checks + tally parsing + ledger ingestion in one CLI"
+    },
+    {
+      "facet": "role",
+      "tag": "kill-rules",
+      "tier": "verified",
+      "why": "share-variant retire, now-playing staleness, ?src= drift"
+    },
+    {
+      "facet": "proof",
+      "tag": "src-wire",
+      "tier": "verified",
+      "why": "page wire matches the locked registry, verified live"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "attribute.py verifies the live vote-HQ ?src= wire end-to-end: 5 inbound share values (x/fb/wa/tg/copy) + cwi-votehq outbound, page HTTP 200, zero drift on 2026-10-03",
+      "evidence": {
+        "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Manual tally baseline 38-2-2 (Diabolique vs runner-up vs 3rd) parsed programmatically from tally-sheet.md, observed 2026-10-03 ~06:30 EDT",
+      "evidence": {
+        "source": "cwi-company/flywheel/front3/vote-hq-attribution/tally-sheet.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Icecast log-shipper ledger ingested: 6 sessions (unique Icecast sessions, IP+UA heuristic, unverified), 11 requests_200, shipped 2026-10-02T13:31Z",
+      "evidence": {
+        "source": "cwi-company/radio/log-shipper/shipped-aggregates.jsonl"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Click-beacon Worker not shipped: hq_visit/share_click/vote_click unmeasured; share-variant kill rule ARMED_NOT_MEASURABLE; next cycle ships the Worker",
+      "evidence": {
+        "source": "visibility-machine/modules/attribution/output/attribution-scorecard-2026-10-03.json"
+      },
+      "tier": "observed"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json"
+    },
+    "fan_qa": "What is Visibility Machine — Attribution Layer (Module 1)? The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation."
+          },
+          "name": "What is Visibility Machine — Attribution Layer (Module 1)?"
+        }
+      ]
+    },
+    "search_answer": "The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation.",
+    "social_caption": "Visibility Machine — Attribution Layer (Module 1) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Attribution Layer (Module 1): The single wire that makes every Visibility Machine module killable by number: locked ?src= registry, live surface verification, manual tally parsing, beacon-event ingestion, kill-rule evaluation. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "c7169f0d9b277efcd640d33c100e35e366f8f289f798a47b8a5c0e49b654c710"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/attribution-layer",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/attribution-layer",
+    "name": "Visibility Machine — Attribution Layer (Module 1)",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/attribution-layer",
+  "relationships": [
+    {
+      "rel": "build_order_next",
+      "target": "vm-module:scorecards"
+    },
+    {
+      "rel": "feeds",
+      "target": "vm-module:pitch-crm"
+    },
+    {
+      "rel": "feeds",
+      "target": "vm-lane:manual-pitch"
+    },
+    {
+      "rel": "measures",
+      "target": "vm-state:vote-hq-src-wire"
+    },
+    {
+      "rel": "evaluates",
+      "target": "vm-state:attribution-cycle"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
