@@ -2986,8 +2986,8 @@
   {
    "from": "station:cumulative-radio-365",
    "to": "artist:tbhh",
-   "rel": "programs",
-   "note": "CWI catalog artist; station programs independent artists incl. label roster"
+   "rel": "associated_artist",
+   "note": "CWI catalog artist; station off air for now — first broadcast forthcoming"
   }
  ]
 }
