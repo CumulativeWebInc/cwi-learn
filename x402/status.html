@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>CWI x402 API — Honest Status</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0b0f14;color:#e5e7eb;max-width:880px;margin:0 auto;padding:24px;line-height:1.6}
+h1{font-size:26px}h2{font-size:18px;color:#d4a017;margin:22px 0 8px}
+.card{background:#111827;border:1px solid #1f2937;border-radius:12px;padding:20px;margin-bottom:16px}
+.banner{background:#3a1010;border:1px solid #7f1d1d;border-radius:12px;padding:20px;margin-bottom:16px}
+.banner b{color:#fca5a5;font-size:17px}
+.ok{color:#5fe08a}.warn{color:#f5c445}.bad{color:#fca5a5}.muted{color:#9ca3af}
+table{width:100%;border-collapse:collapse;font-size:.9em;margin:8px 0}
+td,th{padding:7px 6px;border-bottom:1px solid #1f2937;vertical-align:top;text-align:left}
+th{color:#9ca3af;text-transform:uppercase;font-size:11px;letter-spacing:.5px}
+code{color:#f5c445;font-size:.88em}a{color:#93c5fd}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.brand img{width:56px;height:56px;border-radius:50%;border:2px solid #d4a017}
+footer{color:#6b7280;font-size:12px;margin-top:24px}
+ul{margin:8px 0}li{margin:4px 0}
+</style></head><body>
+<div class=brand><img src="../dashboards/logo.jpg" alt="Cumulative Web Inc logo"><div>
+<h1 style="margin:0">CWI Agent Deck API — x402</h1>
+<p class=muted style="margin:4px 0 0">Version 0.3.0 · status as of 2026-09-15 (US/Eastern) · this page tells the truth first</p>
+</div></div>
+
+<div class=banner>
+<b>NOT a public payment API.</b> This service runs only on <code>http://127.0.0.1:4021</code>
+on CWI's operator machine. There is <b>no public URL, no tunnel, and no hosted deployment</b>.
+Nothing on this page can take your money — and nothing here should be presented as if it can.
+</div>
+
+<div class=card><h2>Settlement state — read this before anything else</h2>
+<ul>
+<li><span class=ok>Proven:</span> the full <b>sign → submit → verify</b> chain works. Handler tests 24/24 pass; 402-challenge tests 44/44 pass — every paid route answers unpaid calls with HTTP 402 and a <code>PAYMENT-REQUIRED</code> challenge advertising scheme <code>exact</code>, network <code>eip155:84532</code>, the correct USDC amount, and the configured payTo.</li>
+<li><span class=warn>Not proven:</span> <b>no funded on-chain settlement has happened.</b> The buyer end-to-end test (0 settled / 8 calls): routes 5–8 got the facilitator's real verdict <code>invalid_exact_evm_insufficient_balance</code> — the signatures were valid and well-formed, the test buyer simply held no Sepolia USDC. Routes 1–4 timed out waiting on the facilitator's verify (facilitator-side slowness, not a code failure).</li>
+<li><span class=warn>Testnet only.</span> Network <code>eip155:84532</code> (Base Sepolia). The USDC is play money. The payTo is a locally generated <b>test-only</b> address — the owner must replace it with his own address before any real use. Nothing of value can land there.</li>
+<li><span class=bad>Mainnet is NOT active.</span> Base mainnet (<code>eip155:8453</code>) requires the owner's CDP facilitator and his explicit approval. The owner holds sole wallet-signing authority; this server holds no private keys and cannot sign.</li>
+</ul></div>
+
+<div class=card><h2>What the API sells (per-call, testnet)</h2>
+<p class=muted>Pilot prices, $0.02–$0.25 per call. The machine-readable contract is <a href="openapi.yaml">openapi.yaml</a> (OpenAPI 3.1).</p>
+<table><tr><th>Route</th><th>Price</th><th>What you get</th></tr>
+<tr><td><code>GET /api/v1/playlist-check?track=</code></td><td>$0.05</td><td>Track's verified playlist placements, with positions/dates</td></tr>
+<tr><td><code>GET /api/v1/momentum-score?track=</code></td><td>$0.05</td><td>Momentum snapshot: plays, listeners, placements, outreach outcomes</td></tr>
+<tr><td><code>GET /api/v1/catalog-lookup?query=</code></td><td>$0.02</td><td>Search the 24-track catalog with evidence tiers</td></tr>
+<tr><td><code>GET /api/v1/product-lookup?query=</code></td><td>$0.03</td><td>Search the 18-SKU Agent Deck product registry</td></tr>
+<tr><td><code>GET /api/v1/skin-config?skin_id=</code></td><td>$0.02</td><td>SIGNAL SKIN configs: ids + full hex palettes</td></tr>
+<tr><td><code>GET /api/v1/ledger-read?limit=&amp;verify_chain=</code></td><td>$0.10</td><td>Read the hash-chained Gear Ledger; optional chain verification</td></tr>
+<tr><td><code>GET /api/v1/attestation?seq=</code></td><td>$0.10</td><td>Hash-chained attestation receipt for one ledger entry</td></tr>
+<tr><td><code>GET /api/v1/sync-readiness?track=</code></td><td>$0.25</td><td>Honest sync-readiness brief — <b>not</b> a pre-clearance; <code>rights_certainty_claimed: false</code>, gaps labeled</td></tr>
+</table>
+<p class=muted>Free routes: <code>GET /health</code>, <code>GET /pricing</code>. If the owner hasn't configured a payTo, paid routes answer <code>503 not_configured</code> instead of 402.</p></div>
+
+<div class=card><h2>How to run it locally</h2>
+<p>This runs on the CWI operator's machine only — there is no public installer or hosted instance.</p>
+<ul>
+<li>Prerequisites: Node.js, <code>npm install</code> in the project directory.</li>
+<li>Configure <code>.env</code>: <code>X402_PAY_TO</code> (owner's receive address — the only place funds can land), <code>X402_NETWORK</code> (default <code>eip155:84532</code> testnet), <code>X402_FACILITATOR_URL</code>, <code>PORT</code>.</li>
+<li>Start: <code>./start.sh</code> · stop: <code>./stop.sh</code>. It listens on <code>127.0.0.1:4021</code>.</li>
+<li>Verify locally: <code>node tests/test_handlers.js</code> (24 handler tests), <code>bash tests/test_402.sh</code> (44 402-wiring tests, needs the server running with a payTo set).</li>
+<li>A <code>Dockerfile</code> exists for a future hosted deploy — it has not been build-tested on this machine. Permanent hosting waits for launch with the owner's account.</li>
+</ul></div>
+
+<div class=card><h2>What would make this a real public payment API</h2>
+<ol>
+<li>Owner replaces the test payTo with his own address.</li>
+<li>Funded buyer test: ~20 Sepolia USDC in a throwaway buyer wallet; record settled tx hashes.</li>
+<li>Mainnet flip: owner's CDP facilitator + fresh explicit approval; network <code>eip155:8453</code>; $0.05 self-purchase proof.</li>
+<li>Permanent hosting + a public URL + this page rewritten to describe it.</li>
+</ol>
+<p class=muted>Until step 4, this page stands as the record: local, private, testnet, unsettled.</p></div>
+
+<footer>Cumulative Web Inc · Agent Deck API v0.3.0 · Data: CWI's own operations · Spec: <a href="openapi.yaml">openapi.yaml</a></footer>
+</body></html>
