@@ -1,1 +1,151 @@
-[{"bpm_max":110,"bpm_min":80,"brief_id":"brief_noir_trailer","budget_band":"indie","contact_channel":"@cumulativeweb (CWI public)","deadline":"2026-10-15","energy":"high","lyrical_themes":["mirrors","disappearing","noir"],"moods":["dark","hypnotic","tense"],"posted_at":"2026-09-17","project_type":"trailer","scene_use":"Late-night city pursuit sequence for a neo-noir indie thriller: rain-slicked streets, headlights in the mirror, a protagonist who may not make it out. Needs a dark, hypnotic pulse that can sit under dialogue.","status":"sample","title":"SAMPLE — Neo-noir trailer pulse","vocal_preference":"vocal"},{"bpm_max":120,"bpm_min":90,"brief_id":"brief_dawn_road","budget_band":"micro","contact_channel":"@cumulativeweb (CWI public)","deadline":"2026-10-01","energy":"medium","lyrical_themes":["freedom","open road"],"moods":["hopeful","warm"],"posted_at":"2026-09-17","project_type":"tv","scene_use":"SAMPLE brief deliberately placed against a catalog that runs dark and high-energy: a dawn road-trip montage needing medium-energy warmth. Expected result: zero matches — the honest answer.","status":"sample","title":"SAMPLE — Dawn road-trip montage (no-match control)","vocal_preference":"either"},{"bpm_max":170,"bpm_min":150,"brief_id":"brief_double_time","budget_band":"indie","contact_channel":"@cumulativeweb (CWI public)","deadline":"2026-11-01","energy":"high","lyrical_themes":["shadows","spirits"],"moods":["dark","aggressive"],"posted_at":"2026-09-17","project_type":"game","scene_use":"Boss-fight intro for a dark-fantasy action game: double-time drums, menacing energy, vocals that sound like they crawled out of the ground. No horror-comedy, no EDM-cheese.","status":"sample","title":"SAMPLE — Dark-fantasy boss fight","vocal_preference":"vocal"}]
+[
+  {
+    "bpm_max": 110,
+    "bpm_min": 80,
+    "brief_id": "brief_noir_trailer",
+    "budget_band": "indie",
+    "contact_channel": "@cumulativeweb (CWI public)",
+    "deadline": "2026-10-15",
+    "energy": "high",
+    "lyrical_themes": [
+      "mirrors",
+      "disappearing",
+      "noir"
+    ],
+    "moods": [
+      "dark",
+      "hypnotic",
+      "tense"
+    ],
+    "posted_at": "2026-09-17",
+    "project_type": "trailer",
+    "scene_use": "Late-night city pursuit sequence for a neo-noir indie thriller: rain-slicked streets, headlights in the mirror, a protagonist who may not make it out. Needs a dark, hypnotic pulse that can sit under dialogue.",
+    "status": "sample",
+    "title": "SAMPLE \u2014 Neo-noir trailer pulse",
+    "vocal_preference": "vocal"
+  },
+  {
+    "bpm_max": 120,
+    "bpm_min": 90,
+    "brief_id": "brief_dawn_road",
+    "budget_band": "micro",
+    "contact_channel": "@cumulativeweb (CWI public)",
+    "deadline": "2026-10-01",
+    "energy": "medium",
+    "lyrical_themes": [
+      "freedom",
+      "open road"
+    ],
+    "moods": [
+      "hopeful",
+      "warm"
+    ],
+    "posted_at": "2026-09-17",
+    "project_type": "tv",
+    "scene_use": "SAMPLE brief deliberately placed against a catalog that runs dark and high-energy: a dawn road-trip montage needing medium-energy warmth. Expected result: zero matches \u2014 the honest answer.",
+    "status": "sample",
+    "title": "SAMPLE \u2014 Dawn road-trip montage (no-match control)",
+    "vocal_preference": "either"
+  },
+  {
+    "bpm_max": 170,
+    "bpm_min": 150,
+    "brief_id": "brief_double_time",
+    "budget_band": "indie",
+    "contact_channel": "@cumulativeweb (CWI public)",
+    "deadline": "2026-11-01",
+    "energy": "high",
+    "lyrical_themes": [
+      "shadows",
+      "spirits"
+    ],
+    "moods": [
+      "dark",
+      "aggressive"
+    ],
+    "posted_at": "2026-09-17",
+    "project_type": "game",
+    "scene_use": "Boss-fight intro for a dark-fantasy action game: double-time drums, menacing energy, vocals that sound like they crawled out of the ground. No horror-comedy, no EDM-cheese.",
+    "status": "sample",
+    "title": "SAMPLE \u2014 Dark-fantasy boss fight",
+    "vocal_preference": "vocal"
+  },
+  {
+    "brief_id": "brief_gtavi_radio",
+    "title": "RESEARCH-SOURCED \u2014 GTA VI radio discovery lane (alt-rap / Leonida)",
+    "project_type": "game",
+    "moods": [
+      "dark",
+      "hypnotic",
+      "confident"
+    ],
+    "energy": "high",
+    "bpm_min": 80,
+    "bpm_max": 110,
+    "lyrical_themes": [
+      "nightlife",
+      "vice-city",
+      "hustle"
+    ],
+    "vocal_preference": "vocal",
+    "budget_band": "undisclosed",
+    "deadline": "2026-11-19",
+    "posted_at": "2026-09-17",
+    "status": "live",
+    "contact_channel": "@cumulativeweb (CWI public; research-sourced brief \u2014 not supervisor-posted)",
+    "scene_use": "Rockstar's GTA VI (launch Nov 19, 2026, modern-day Leonida) continues the series' radio tradition: genre-spanning in-game stations mixing established hits with indie up-and-comers. Public reporting lists a contemporary hip-hop lane among the rumored stations, and Rockstar has used stations hosted/curated by artists with exclusive recordings (GTA V/GTA Online). Seeking dark, hypnotic, high-energy rap that fits a neon Vice City night drive.",
+    "source_note": "Sourced from public reporting (GameSpot radio-station list; beebom confirmed-song list; Jermaine Dupri on artist-upload feature), Sept 2026. Not posted by Rockstar or a Rockstar supervisor; no contact with the music team exists."
+  },
+  {
+    "brief_id": "brief_nba2k27_season",
+    "title": "RESEARCH-SOURCED \u2014 NBA 2K27 seasonal soundtrack refresh (emerging rap)",
+    "project_type": "game",
+    "moods": [
+      "confident",
+      "triumphant",
+      "energetic"
+    ],
+    "energy": "high",
+    "bpm_min": 80,
+    "bpm_max": 165,
+    "lyrical_themes": [
+      "winning",
+      "grind",
+      "celebration"
+    ],
+    "vocal_preference": "vocal",
+    "budget_band": "undisclosed",
+    "deadline": "2026-12-31",
+    "posted_at": "2026-09-17",
+    "status": "live",
+    "contact_channel": "@cumulativeweb (CWI public; research-sourced brief \u2014 not supervisor-posted)",
+    "scene_use": "NBA 2K27 (launched Sept 4, 2026) refreshes its 57-song launch soundtrack each season; season programming is selected by musicians, producers and 2K's music team. Director of Partnerships & Licensing David Kelley has said the team scours SoundCloud/Bandcamp for emerging artists (NME interview, Sept 2026), and a 2K spot can multiply an artist's Spotify listeners several-fold. Seeking confident, high-energy rap with anthemic swagger for the seasonal menu/playlist rotation.",
+    "source_note": "Sourced from public reporting (NME David Kelley interview; NME launch-soundtrack list), Sept 2026. Not posted by 2K or David Kelley; no direct channel verified."
+  },
+  {
+    "brief_id": "brief_fcmobile_vote",
+    "title": "RESEARCH-SOURCED \u2014 EA Sports FC Mobile community-track window (Oct 2026)",
+    "project_type": "game",
+    "moods": [
+      "powerful",
+      "triumphant",
+      "anthemic"
+    ],
+    "energy": "high",
+    "bpm_min": 75,
+    "bpm_max": 115,
+    "lyrical_themes": [
+      "stadium",
+      "glory",
+      "momentum"
+    ],
+    "vocal_preference": "vocal",
+    "budget_band": "undisclosed",
+    "deadline": "2026-10-12",
+    "posted_at": "2026-09-17",
+    "status": "live",
+    "contact_channel": "@cumulativeweb (CWI public; research-sourced brief \u2014 not supervisor-posted)",
+    "scene_use": "EA Sports FC 27 (launch Sept 25, 2026; Steve Schnur, Worldwide President of Music & Marketing) adds community-selected tracks into FC Mobile \u2014 the community's favorite FC 27 track arrives Oct 12, 2026, and a retro-track vote lands Sept 24 (EA.com, Sept 2026). The FC franchise has broken left-field artists to a global player base for two decades; 120 artists from 36 countries this year. Seeking powerful, anthemic high-energy music for the community-vote track pipeline.",
+    "source_note": "Sourced from EA's official FC 27 soundtrack announcement (ea.com/news), Sept 2026. Not posted by EA or Steve Schnur; community-vote channels are the documented route, not a direct submission inbox."
+  }
+]
