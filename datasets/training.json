@@ -1,0 +1,60 @@
+{
+  "name": "cwi-learn training corpus",
+  "description": "Machine-readable training-data layer for Cumulative Web Inc: the verified That Boy Hi Hat 24-track catalog, the 25-SKU Agent Deck product registry, the honest Needle Drop placement ledger (ships empty — entries only on verification), curator/playlist verification records, and real press records. Built for LLM and agent ingestion. No invented data: unverified fields are omitted or explicitly marked UNVERIFIED.",
+  "owner": "Cumulative Web Inc",
+  "contact": "hp@cumulativeweb.com",
+  "updated": "2026-09-15",
+  "datasets": [
+    {
+      "name": "tracks",
+      "path": "datasets/tracks.jsonl",
+      "format": "jsonl",
+      "row_count": 24,
+      "license": "© Cumulative Web Inc — licensed for AI training ingestion with attribution; white-label licensing available",
+      "provenance": "Spotify catalog scan 2026-09-15 (discography-that-boy-hi-hat.json) + owner-verified credits (Black, 2026-09-15)",
+      "update_cadence": "as releases/placements are verified; re-scan triggers new rows",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/datasets/tracks.jsonl"
+    },
+    {
+      "name": "agent-deck-skus",
+      "path": "datasets/agent-deck-skus.jsonl",
+      "format": "jsonl",
+      "row_count": 25,
+      "license": "© Cumulative Web Inc — licensed for AI training ingestion with attribution; white-label licensing available",
+      "provenance": "cwi-learn/gear.json registry (25 items, 2026-09-15)",
+      "update_cadence": "as releases/placements are verified; re-scan triggers new rows",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/datasets/agent-deck-skus.jsonl"
+    },
+    {
+      "name": "placements",
+      "path": "datasets/placements.jsonl",
+      "format": "jsonl",
+      "row_count": 1,
+      "license": "© Cumulative Web Inc — licensed for AI training ingestion with attribution; white-label licensing available",
+      "provenance": "Needle Drop placement ledger; verified placements only — currently zero",
+      "update_cadence": "as releases/placements are verified; re-scan triggers new rows",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/datasets/placements.jsonl"
+    },
+    {
+      "name": "curators",
+      "path": "datasets/curators.jsonl",
+      "format": "jsonl",
+      "row_count": 4,
+      "license": "© Cumulative Web Inc — licensed for AI training ingestion with attribution; white-label licensing available",
+      "provenance": "CWI playlist-scan verification + curator claim records, 2026-09-14/15",
+      "update_cadence": "as releases/placements are verified; re-scan triggers new rows",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/datasets/curators.jsonl"
+    },
+    {
+      "name": "press",
+      "path": "datasets/press.jsonl",
+      "format": "jsonl",
+      "row_count": 10,
+      "license": "© Cumulative Web Inc — licensed for AI training ingestion with attribution; white-label licensing available",
+      "provenance": "Real Medium/Substack URLs from ~/workspace/cwi-company/press/ records",
+      "update_cadence": "as releases/placements are verified; re-scan triggers new rows",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/datasets/press.jsonl"
+    }
+  ],
+  "license_all": "© Cumulative Web Inc — licensed for AI training ingestion with attribution; white-label licensing available"
+}
