@@ -1,11 +1,11 @@
 {
  "graph_schema": "cwi.graph/1.0",
- "generated": "2026-10-02T22:05:00Z",
+ "generated": "2026-10-03T10:45:00Z",
  "maintainer": "Cumulative Web Inc (CWI_Data)",
  "source_of_truth_note": "Catalog nodes (artist/track) and all ISRC facts are machine-regenerated from catalog-interop/catalog-index.json (52 track records, 2026-09-19). Non-catalog nodes/edges (organization, movement, people, studio, place, releases, playlists, evidence, media assets) are carried over from the prior edition. Status is verified | owner_confirmed | claimed_unverified | promised_unverified.",
  "counts": {
-  "nodes": 94,
-  "edges": 182
+  "nodes": 99,
+  "edges": 191
  },
  "nodes": [
   {
@@ -2814,6 +2814,110 @@
      "status": "verified"
     }
    ]
+  },
+  {
+   "id": "org:distrokid",
+   "type": "organization",
+   "name": "DistroKid",
+   "status": "verified",
+   "attrs": {
+    "role": "music distributor; runs Playlist Spotlight voting and official Spotify playlists",
+    "spotlight_url": "https://distrokid.com/spotlight"
+   },
+   "evidence": [
+    {
+     "claim": "DistroKid account signed in as Cumulative Web Inc; Playlist Spotlight + Playlister explored live 2026-10-03",
+     "source": "DistroKid dashboard (browser exploration)",
+     "observed": "2026-10-03",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "playlist:distrokid-rap-scallion",
+   "type": "playlist",
+   "name": "DistroKid Rap Scallion",
+   "status": "verified",
+   "attrs": {
+    "spotify_url": "https://open.spotify.com/user/bxv6myddmviz546hlcxia9t5g",
+    "followers": 499142,
+    "followers_observed": "2026-10-03",
+    "curator_channel": "DistroKid Playlist Spotlight voting",
+    "verification_status": "verified"
+   },
+   "evidence": [
+    {
+     "claim": "DistroKid Rap Scallion: 499,142 Spotify followers; placement via weekly Playlist Spotlight vote wins",
+     "source": "DistroKid / Spotify (browser exploration)",
+     "observed": "2026-10-03",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "playlist:distrokid-spotlight",
+   "type": "playlist",
+   "name": "DistroKid Spotlight",
+   "status": "verified",
+   "attrs": {
+    "followers": 596315,
+    "followers_observed": "2026-10-03",
+    "curator_channel": "DistroKid Playlist Spotlight voting",
+    "verification_status": "verified"
+   },
+   "evidence": [
+    {
+     "claim": "DistroKid Spotlight: 596,315 Spotify followers; placement via weekly Playlist Spotlight vote wins",
+     "source": "DistroKid / Spotify (browser exploration)",
+     "observed": "2026-10-03",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "playlist:distrokid-alternative",
+   "type": "playlist",
+   "name": "DistroKid Alternative",
+   "status": "verified",
+   "attrs": {
+    "followers": 413646,
+    "followers_observed": "2026-10-03",
+    "curator_channel": "DistroKid Playlist Spotlight voting",
+    "verification_status": "verified"
+   },
+   "evidence": [
+    {
+     "claim": "DistroKid Alternative: 413,646 Spotify followers; placement via weekly Playlist Spotlight vote wins",
+     "source": "DistroKid / Spotify (browser exploration)",
+     "observed": "2026-10-03",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "event:diabolique-spotlight-vote-2026-10",
+   "type": "event",
+   "name": "Diabolique — DistroKid Playlist Spotlight vote (Oct 2026)",
+   "status": "verified",
+   "attrs": {
+    "schema_org_type": "MusicVotingEvent",
+    "vote_url": "https://distrokid.com/spotlight/thatboyhihat/vote/",
+    "track_spotify": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+    "matchup_baseline": "Diabolique 38 vs My Body Is Broken 4.0 (2) vs You Got To Show Me (2) — leading",
+    "baseline_votes": 38,
+    "baseline_observed": "2026-10-03 ~06:30 EDT",
+    "reset_cadence": "weekly — votes reset to zero, playlists updated weekly, max one song per artist",
+    "prize": "placement on DistroKid official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers)",
+    "rules": "real human votes only — no bots, scripts, fake accounts, or incentivized fraud (Rally Code)"
+   },
+   "evidence": [
+    {
+     "claim": "Diabolique submitted 2026-09-14, 38 matchups, leading its matchup 38-2-2 as of 2026-10-03 ~06:30 EDT",
+     "source": "distrokid.com/spotlight (browser exploration)",
+     "observed": "2026-10-03",
+     "status": "verified"
+    }
+   ]
   }
  ],
  "edges": [
@@ -3908,6 +4012,60 @@
    "to": "person:black-lansky",
    "rel": "co_produced_by",
    "note": "Doves & Diamonds co-produced by Black Lansky — owner-confirmed 2026-10-02; Spotify credits panel: 'Black Lansky — Executive Producer'"
+  },
+  {
+   "from": "event:diabolique-spotlight-vote-2026-10",
+   "to": "track:that-boy-hi-hat-diabolique",
+   "rel": "associated",
+   "note": "Vote target: Diabolique in DistroKid Playlist Spotlight"
+  },
+  {
+   "from": "event:diabolique-spotlight-vote-2026-10",
+   "to": "artist:tbhh",
+   "rel": "associated",
+   "note": "Artist behind the voted track"
+  },
+  {
+   "from": "event:diabolique-spotlight-vote-2026-10",
+   "to": "playlist:distrokid-rap-scallion",
+   "rel": "associated",
+   "note": "Prize lane: placement via weekly vote win"
+  },
+  {
+   "from": "event:diabolique-spotlight-vote-2026-10",
+   "to": "playlist:distrokid-spotlight",
+   "rel": "associated",
+   "note": "Prize lane: placement via weekly vote win"
+  },
+  {
+   "from": "event:diabolique-spotlight-vote-2026-10",
+   "to": "playlist:distrokid-alternative",
+   "rel": "associated",
+   "note": "Prize lane: placement via weekly vote win"
+  },
+  {
+   "from": "event:diabolique-spotlight-vote-2026-10",
+   "to": "org:cwi",
+   "rel": "associated",
+   "note": "CWI running the visibility blitz + Rally Crew first cascade"
+  },
+  {
+   "from": "playlist:distrokid-rap-scallion",
+   "to": "org:distrokid",
+   "rel": "operated_by",
+   "note": "DistroKid official playlist"
+  },
+  {
+   "from": "playlist:distrokid-spotlight",
+   "to": "org:distrokid",
+   "rel": "operated_by",
+   "note": "DistroKid official playlist"
+  },
+  {
+   "from": "playlist:distrokid-alternative",
+   "to": "org:distrokid",
+   "rel": "operated_by",
+   "note": "DistroKid official playlist"
   }
  ],
  "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
