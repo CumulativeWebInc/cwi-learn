@@ -1,0 +1,17 @@
+{
+  "facet": "role",
+  "packets": [
+    {
+      "node": "fact/module/attribution-cycle",
+      "packet_id": "fact/module/attribution-cycle",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.json"
+    },
+    {
+      "node": "fact/module/attribution-layer",
+      "packet_id": "fact/module/attribution-layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json"
+    }
+  ],
+  "tag": "kill-rules",
+  "updated": "2026-10-03T14:19:47Z"
+}
