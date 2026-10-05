@@ -1,0 +1,88 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/manual-pitch.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/manual-pitch.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "dissent-lane",
+      "tier": "verified",
+      "why": "recorded dissent kept as a narrow parallel track"
+    },
+    {
+      "facet": "use",
+      "tag": "manual-outreach",
+      "tier": "verified",
+      "why": "tagged pitches feed the attribution layer"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "24 staged pitches parsed from send-ready-2026-10-03.md: 23 tagged pt-*, 1 lane-killed (Audiartist), 1 ready (DJ 6Rings -> Ultimate)",
+      "evidence": {
+        "source": "visibility-machine/modules/manual-pitch/output/manual-pitch-manifest-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "pt-* tags are a namespaced extension of the Module 1 registry; never collide with locked vote-HQ values",
+      "evidence": {
+        "source": "visibility-machine/modules/manual-pitch/tag-pitches.py"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Nothing sends under Black's name without his exact-text approval — the manifest is staging, not sending",
+      "evidence": {
+        "source": "standing boundary 2026-09-14"
+      },
+      "tier": "owner_confirmed"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/manual-pitch.json"
+    },
+    "fan_qa": "What is Manual-Pitch Lane (Twenty Minds dissent track)? Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send."
+          },
+          "name": "What is Manual-Pitch Lane (Twenty Minds dissent track)?"
+        }
+      ]
+    },
+    "search_answer": "Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send.",
+    "social_caption": "Manual-Pitch Lane (Twenty Minds dissent track) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Manual-Pitch Lane (Twenty Minds dissent track): Narrow parallel lane from the recorded dissent: staged pitches carry namespaced pt-* attribution tags so the loop is never a vacuum. Tags fire only on Black's exact-copy approval + real send. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "7604b3b52d1abf4da38f0263d890ec72306d047cdbe86b5b391868b2e229c344"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/lane/manual-pitch",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/lane/manual-pitch",
+    "name": "Manual-Pitch Lane (Twenty Minds dissent track)",
+    "status": "verified",
+    "type": "lane"
+  },
+  "packet_id": "fact/module/manual-pitch",
+  "relationships": [
+    {
+      "rel": "parallel_to",
+      "target": "vm-module:curator-graph"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
