@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGNAL SKIN — Cumulative Web Inc</title>
+<meta name="description" content="SIGNAL SKIN — the Studio department's look pack for Signal Boy: four seasonal skins, a skin schema, and a builder. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:860px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+/* ---- Signal Boy mock ---- */
+#stage{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+#skin-picker{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+#skin-picker button{background:var(--navy2);border:1px solid var(--blue);color:var(--xlblu);
+padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:600;font-size:.9em}
+#skin-picker button.active{border-color:var(--gold);color:var(--gold2)}
+#device{width:300px;height:420px;border-radius:28px;background:var(--sb-body,#3a3f47);
+border:1px solid var(--sb-accent,#274a7d);padding:18px;display:flex;flex-direction:column;gap:12px;
+box-shadow:0 14px 40px rgba(0,0,0,.5);position:relative}
+#device .badge{width:44px;height:44px;border-radius:50%;border:3px solid var(--sb-logo-ring,#d4a017);
+background:var(--sb-body-dark,#24282e);display:flex;align-items:center;justify-content:center;
+font-weight:800;font-size:.7em;color:var(--sb-text,#eef2f8);letter-spacing:1px}
+#device .top{display:flex;justify-content:space-between;align-items:center}
+#device .screen{background:var(--sb-screen,#0a1830);border-radius:12px;padding:12px 14px;
+color:var(--sb-screen-text,#cfe0f5);min-height:96px}
+#device .screen .track{font-weight:800;font-size:1em;letter-spacing:var(--sb-ls,0.5px);text-transform:uppercase}
+#device .screen .meta{font-size:.75em;opacity:.75;margin-top:6px;letter-spacing:var(--sb-ls,0.5px)}
+#device .neonbar{height:8px;border-radius:5px;background:var(--sb-accent,#274a7d);
+box-shadow:0 0 14px var(--sb-accent-bright,#9fb4d8);display:none}
+#device .tapestrape{height:10px;border-radius:2px;background:repeating-linear-gradient(45deg,var(--sb-accent,#274a7d) 0 10px,var(--sb-accent-bright,#9fb4d8) 10px 20px);display:none}
+#device .leddots{display:none;gap:6px;justify-content:center}
+#device .leddots span{width:10px;height:10px;border-radius:50%;background:var(--sb-accent-bright,#9fb4d8);box-shadow:0 0 8px var(--sb-accent-bright,#9fb4d8)}
+#device .dpad{width:110px;height:110px;position:relative;margin:6px auto}
+#device .dpad .h,#device .dpad .v{position:absolute;background:var(--sb-body-dark,#24282e);border-radius:10px;border:1px solid var(--sb-accent,#274a7d)}
+#device .dpad .h{left:0;right:0;top:38px;height:34px}
+#device .dpad .v{top:0;bottom:0;left:38px;width:34px}
+#device .dpad .core{position:absolute;left:38px;top:38px;width:34px;height:34px;border-radius:10px;background:var(--sb-accent,#274a7d)}
+#device .brandline{text-align:center;font-size:.72em;color:var(--sb-subtext,#9aa5b8);letter-spacing:var(--sb-ls,0.5px);text-transform:uppercase;margin-top:auto}
+#device .pulse{animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 var(--sb-glow,#9fb4d8)}50%{box-shadow:0 0 26px var(--sb-glow,#9fb4d8)}}
+#skin-desc{flex:1;min-width:260px}
+#skin-desc h3{margin:0 0 8px;color:#fff}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:38%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.swatch{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:6px;border:1px solid rgba(255,255,255,.25)}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">SIGNAL SKIN</h1>
+<div class="brand" id="tagline">The look pack for Signal Boy — four seasonal skins, a schema, and a builder. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> a skin changes how Signal Boy <i>looks</i> — palette, glow, type, background. It does not change the catalog, the Scoreboard Chip, the Compass, or anything under the hood. The mock below is a live preview of the token pack; the real Signal Boy page keeps its own logic.</div>
+<div class="card"><h2>THE LOOKS — FOUR SEASONAL SKINS</h2>
+<div id="skin-picker"></div>
+<div id="stage">
+<div id="device" aria-label="Signal Boy preview">
+  <div class="top"><div class="badge">CWI</div><div class="brandline" style="margin:0">SIGNAL BOY</div></div>
+  <div class="screen"><div class="track">Zooted Zone</div><div class="meta">THAT BOY HI HAT &middot; AI LEARNING SET &middot; 24 TRACKS</div></div>
+  <div class="neonbar" id="fx-neon"></div>
+  <div class="tapestrape" id="fx-tape"></div>
+  <div class="leddots" id="fx-led"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="dpad" id="dpad"><div class="h"></div><div class="v"></div><div class="core"></div></div>
+  <div class="brandline">CUMULATIVE WEB INC &middot; STUDIO DEPT</div>
+</div>
+<div id="skin-desc"></div>
+</div>
+</div>
+<div class="card"><h2>TOKEN VOCABULARY</h2>
+<table><tr><th>Token group</th><th>What it drives</th></tr>
+<tr><td class="k">palette</td><td>body, screen, accents, text, logo ring — every surface on the device</td></tr>
+<tr><td class="k">background_treatment</td><td>the page/stage backdrop the device sits on</td></tr>
+<tr><td class="k">dpad_glow</td><td>color, intensity (soft/medium/strong), and pulse of the D-pad halo</td></tr>
+<tr><td class="k">track_accent_treatment</td><td>neon-bar / tape-stripe / led-dots under the screen — how the current track is dressed</td></tr>
+<tr><td class="k">typography_accents</td><td>display font, case, letter-spacing — the device's voice in type</td></tr>
+<tr><td class="k">logo_lockup</td><td>where the CWI badge sits; brand rule — the logo ships on every skin</td></tr></table>
+<div class="meta" style="margin-top:10px">Full authoring contract: <a href="skin-schema.json">skin-schema.json</a> (<code>cwi-skin/v1</code>)</div>
+</div>
+<div class="card"><h2>BUILD YOUR OWN</h2>
+<p style="line-height:1.7;font-size:.93em">Open the <a href="skin-builder.html">skin builder</a>: pick tokens from the vocabulary, see a live mock, export skin JSON that validates against the schema. Then drop it in the EQUIP block.</p>
+<div class="links"><a href="skin-builder.html">Skin builder</a><a href="skins.json">skins.json</a><a href="skin-schema.json">Schema</a></div></div>
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "SIGNAL SKIN", "tagline": "The look pack for Signal Boy — four seasonal skins, a schema, and a builder. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "the look is the product too", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/skin/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"SIGNAL SKIN") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+var HEXC = /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;
+function applySkin(s){
+  var d = document.getElementById("device"), p = s.palette;
+  function set(k,v){ d.style.setProperty(k,v); }
+  set("--sb-body",p.body); set("--sb-body-dark",p.body_dark); set("--sb-screen",p.screen);
+  set("--sb-screen-text",p.screen_text); set("--sb-accent",p.accent); set("--sb-accent-bright",p.accent_bright);
+  set("--sb-text",p.text); set("--sb-subtext",p.subtext); set("--sb-logo-ring",p.logo_ring);
+  set("--sb-glow",s.dpad_glow.color); set("--sb-ls",s.typography_accents.letter_spacing);
+  var glow = {"soft":"0 0 8px","medium":"0 0 16px","strong":"0 0 26px"}[s.dpad_glow.intensity]||"0 0 16px";
+  var dp = document.getElementById("dpad");
+  dp.style.filter = "drop-shadow(" + glow + " " + s.dpad_glow.color + ")";
+  dp.className = s.dpad_glow.pulse ? "dpad pulse" : "dpad";
+  ["fx-neon","fx-tape","fx-led"].forEach(function(id){document.getElementById(id).style.display="none";});
+  var map = {"neon-bar":"fx-neon","tape-stripe":"fx-tape","led-dots":"fx-led"};
+  document.getElementById(map[s.track_accent_treatment.style]).style.display = s.track_accent_treatment.style==="led-dots" ? "flex" : "block";
+  var desc = "<h3>"+s.skin_name+"</h3><p style='font-size:.9em;line-height:1.65;color:var(--lblu)'>Season: <b>"+s.season+"</b>"+(s.inspired_by?"<br>Inspired by: "+s.inspired_by:"")+"</p><table>";
+  ["body","screen","accent","screen_text","text"].forEach(function(k){
+    desc += "<tr><td class='k'>"+k+"</td><td><span class='swatch' style='background:"+p[k]+"'></span><code>"+p[k]+"</code></td></tr>";});
+  desc += "<tr><td class='k'>dpad glow</td><td>"+s.dpad_glow.intensity+(s.dpad_glow.pulse?" + pulse":"")+"</td></tr>";
+  desc += "<tr><td class='k'>track accent</td><td>"+s.track_accent_treatment.style+" / "+s.track_accent_treatment.animation+"</td></tr>";
+  desc += "<tr><td class='k'>typography</td><td>"+s.typography_accents.font_style+" · "+s.typography_accents.label_case+" · "+s.typography_accents.letter_spacing+"</td></tr></table>";
+  document.getElementById("skin-desc").innerHTML = desc;
+  Array.prototype.forEach.call(document.querySelectorAll("#skin-picker button"), function(b){
+    b.classList.toggle("active", b.textContent === s.skin_name); });
+}
+fetch("skins.json").then(function(r){return r.json()}).then(function(pack){
+  var pk = document.getElementById("skin-picker");
+  pack.skins.forEach(function(s){
+    var b = document.createElement("button"); b.textContent = s.skin_name;
+    b.onclick = function(){ applySkin(s); }; pk.appendChild(b);
+  });
+  applySkin(pack.skins[0]);
+}).catch(function(){ document.getElementById("skin-desc").textContent = "skin pack unavailable."; });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["skins.json","skins.json"],["Schema","skin-schema.json"],["Builder","skin-builder.html"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: Signal Boy","https://cumulativewebinc.github.io/cwi-learn/walkman/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>
