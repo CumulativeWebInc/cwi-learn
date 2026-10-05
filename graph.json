@@ -23,6 +23,15 @@
           "source": "MEMORY.md / kit.md",
           "observed": "2026-09-15",
           "status": "verified"
+        },
+        {
+          "publisher": "Rap Nerd",
+          "author": "Derek 'D-Sick' Moore",
+          "url": "https://www.rapnerd.com/post/why-cumulative-web-inc-understands-indie-hip-hop-as-infrastructure",
+          "published": "2026-01-08",
+          "observed": "2026-10-05",
+          "status": "published",
+          "claim": "Cumulative Web Inc understands indie hip hop as infrastructure (company-level coverage)"
         }
       ]
     },
@@ -3483,6 +3492,29 @@
         ],
         "verdict": "independent editorial confirmation of Post-Trap Futurism and That Boy Hi Hat as its founder/architect"
       }
+    },
+    {
+      "id": "evidence:rapnerd-cwi-infrastructure-editorial",
+      "type": "evidence",
+      "title": "Rap Nerd editorial on Cumulative Web Inc",
+      "description": "Rap Nerd (Derek 'D-Sick' Moore, Program Director / Editor in Chief) editorial: Cumulative Web Inc understands indie hip hop as infrastructure. Company-level third-party coverage; article does not mention That Boy Hi Hat or Post-Trap Futurism.",
+      "attrs": {
+        "publisher": "Rap Nerd (Rap Nerd Radio & Magazine)",
+        "author": "Derek 'D-Sick' Moore",
+        "author_role": "Program Director / Editor in Chief, Rap Nerd Radio & Magazine",
+        "url": "https://www.rapnerd.com/post/why-cumulative-web-inc-understands-indie-hip-hop-as-infrastructure",
+        "published": "2026-01-08",
+        "updated": "2026-09-23",
+        "observed": "2026-10-05",
+        "status": "published",
+        "quotes": [
+          "Cumulative Web Inc understands that platforms like Rap Nerd aren't just media outlets—they're infrastructure.",
+          "Cumulative Web Inc doesn't treat hip hop like a marketing aesthetic. They respect it as a blueprint.",
+          "Owning your platform. Owning your audience. Owning your narrative."
+        ],
+        "scope": "Cumulative Web Inc (company-level). Does not mention That Boy Hi Hat or Post-Trap Futurism.",
+        "verdict": "independent third-party editorial coverage of Cumulative Web Inc"
+      }
     }
   ],
   "edges": [
@@ -4764,6 +4796,11 @@
       "from": "movement:ptf",
       "to": "evidence:rollinghype-ptf-editorial",
       "relation": "confirmed_by"
+    },
+    {
+      "from": "org:cwi",
+      "to": "evidence:rapnerd-cwi-infrastructure-editorial",
+      "relation": "covered_by"
     }
   ],
   "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",

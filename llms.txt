@@ -142,6 +142,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 - Business & sync contact: hp@cumulativeweb.com
 - Distributor: DistroKid (verified from DistroKid account listing, 2026-09-19)
 - Roster: That Boy Hi Hat (27), Black Lansky (11), King Akeem (7), 183 Wildboi (2), Dre50 (2), Fleekz (2), GregPorn (2)
+- Third-party editorial: Rap Nerd (Derek "D-Sick" Moore, Program Director / Editor in Chief), "Why Cumulative Web Inc Understands Indie Hip Hop as Infrastructure" — "Cumulative Web Inc understands that platforms like Rap Nerd aren't just media outlets—they're infrastructure." Published 2026-01-08 on rapnerd.com, observed 2026-10-05: https://www.rapnerd.com/post/why-cumulative-web-inc-understands-indie-hip-hop-as-infrastructure
 - ISRC coverage: 46 of 52 on file (8 dashboard-verified, 38 Deezer-sourced);
   2 conflicted (Golden Diamond, Shaka Zulu — awaiting owner's dashboard
   arbitration); 4 missing (piv-ot-al, Sync Ready Tracks, On Edge,
