@@ -1,0 +1,81 @@
+[
+  {
+    "brief_id": "brief_noir_trailer",
+    "shelf_version": "1.0.0",
+    "generated_at": "2026-09-17T19:08:18Z",
+    "label": "sample",
+    "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
+    "matches": [
+      {
+        "track_id": "trk_lp_phantasm",
+        "title": "LP Phantasm - High Hat",
+        "artist": "That Boy Hi Hat",
+        "score": 0.75,
+        "matched_on": [
+          "moods: dark, hypnotic",
+          "energy: high",
+          "bpm: 88 in range 80-110"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_warped_and_wicked",
+        "title": "Warped & Wicked",
+        "artist": "That Boy Hi Hat",
+        "score": 0.5625,
+        "matched_on": [
+          "moods: dark",
+          "energy: high",
+          "bpm: 85 in range 80-110"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      },
+      {
+        "track_id": "trk_7th_angel",
+        "title": "7th Angel (Mix 1)",
+        "artist": "That Boy Hi Hat",
+        "score": 0.5625,
+        "matched_on": [
+          "moods: dark",
+          "energy: high",
+          "bpm: 85 in range 80-110"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      }
+    ]
+  },
+  {
+    "brief_id": "brief_dawn_road",
+    "shelf_version": "1.0.0",
+    "generated_at": "2026-09-17T19:08:18Z",
+    "label": "sample",
+    "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
+    "matches": [],
+    "no_match_note": "No catalog tracks scored above the 0.40 threshold for this brief \u2014 no forced fit was made."
+  },
+  {
+    "brief_id": "brief_double_time",
+    "shelf_version": "1.0.0",
+    "generated_at": "2026-09-17T19:08:18Z",
+    "label": "sample",
+    "disclaimer": "Clearance status (green/amber/red) describes CWI's internal readiness posture ONLY. It is NOT a legal clearance determination: CWI does not infer or assert rights, splits, ownership, or legal clearances. Status defaults to amber unless stated otherwise.",
+    "matches": [
+      {
+        "track_id": "trk_spirits_n_shadows",
+        "title": "Mas - Spirits n Shadows",
+        "artist": "Mas",
+        "score": 0.675,
+        "matched_on": [
+          "moods: dark",
+          "energy: high",
+          "bpm: 157 in range 150-170"
+        ],
+        "clearance_status": "amber",
+        "status_note": "Amber default \u2014 internal readiness under review; not a legal clearance."
+      }
+    ]
+  }
+]
