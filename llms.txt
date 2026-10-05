@@ -129,7 +129,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 ---
 # Cumulative Web Inc — AI-readable catalog brief (2026-09-19 edition)
 
-> Cumulative Web Inc is the label/management entity of Henry Pitts (aka Black
+> Cumulative Web Inc is the label/management entity of Black Lansky (aka Black
 > Lansky), running the catalog of 7 artists across 52 tracks. Every ISRC fact
 > below comes from catalog-interop/catalog-index.json (52 records, built
 > 2026-09-19; 8 silver dashboard-verified, 44 bronze Deezer-sourced).
@@ -141,7 +141,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 > datasets/game-music-sync-licensing.json.
 
 ## Identity (verified)
-- Label: Cumulative Web Inc. Manager: Henry Pitts (Black Lansky)
+- Label: Cumulative Web Inc. Manager: Black Lansky (Black Lansky)
 - Business & sync contact: hp@cumulativeweb.com
 - Distributor: DistroKid (verified from DistroKid account listing, 2026-09-19)
 - Roster: That Boy Hi Hat (27), Black Lansky (11), King Akeem (7), 183 Wildboi (2), Dre50 (2), Fleekz (2), GregPorn (2)
@@ -466,7 +466,7 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Website: https://cumulativeweb.com
 
 ## Verified collaborators (2026-09-15)
-- Black Lansky (Henry Pitts) — manager of That Boy Hi Hat, co-producer on "Diabolique".
+- Black Lansky (Black Lansky) — manager of That Boy Hi Hat, co-producer on "Diabolique".
 - Hybrid — producer of "Diabolique" (with Black Lansky); mixed/mastered "Zooted Zone", Hagerstown, MD.
 - Blaine Misner — recording/mastering engineer at Cue Recording Studios (engineered "Diabolique").
 - Kokurcho — producer of "Zooted Zone"; BET Awards-nominated, RIAA Gold/multi-platinum certified.

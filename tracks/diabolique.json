@@ -1,0 +1,15 @@
+{
+  "title": "Diabolique",
+  "artist": "That Boy Hi Hat",
+  "slug": "diabolique",
+  "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+  "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/diabolique.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/diabolique.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

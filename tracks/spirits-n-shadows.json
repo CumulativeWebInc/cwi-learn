@@ -1,0 +1,15 @@
+{
+  "title": "Spirits n Shadows",
+  "artist": "That Boy Hi Hat",
+  "slug": "spirits-n-shadows",
+  "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+  "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/spirits-n-shadows.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/spirits-n-shadows.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

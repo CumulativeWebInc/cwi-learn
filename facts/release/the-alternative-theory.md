@@ -14,7 +14,7 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `9609
 
 ## Facts
 
-- **[verified]** Dated 2025-11-20 — _owner-confirmed by Black (Henry Pitts), 2026-09-15_
+- **[verified]** Dated 2025-11-20 — _owner-confirmed by Black (Black Lansky), 2026-09-15_
 - **[observed]** Release date: 2025-11-20 — _dataset attrs_
 
 ## Instructions

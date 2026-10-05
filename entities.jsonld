@@ -34,7 +34,7 @@
         "name": "Frederick, Maryland, USA"
       },
       "url": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
-      "description": "Alternative rap artist managed by Henry Pitts (aka Black Lansky) via Cumulative Web Inc. 307,439 lifetime Spotify plays on 'Zooted Zone' (observed 2026-09-14). Three tracks verified holding on Spotify playlist 'New Rap Hits' as of 2026-09-15: #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds.",
+      "description": "Alternative rap artist managed by Black Lansky via Cumulative Web Inc. 307,439 lifetime Spotify plays on 'Zooted Zone' (observed 2026-09-14). Three tracks verified holding on Spotify playlist 'New Rap Hits' as of 2026-09-15: #21 Shaka Zulu, #30 Zooted Zone, #31 Doves & Diamonds.",
       "sameAs": [
         "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7",
         "https://open.spotify.com/playlist/45RaLEzD4KO8YHpp3oayq8",
@@ -46,8 +46,8 @@
       "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#black-lansky",
       "name": "Black Lansky",
       "jobTitle": "Manager and co-producer; runs Cumulative Web Inc.",
-      "description": "Henry Pitts, aka Black Lansky. Manager of That Boy Hi Hat and operator of Cumulative Web Inc. Co-producer on Diabolique.",
-      "alternateName": "Henry Pitts"
+      "description": "Black Lansky. Manager of That Boy Hi Hat and operator of Cumulative Web Inc. Co-producer on Diabolique.",
+      "alternateName": "Black Lansky"
     },
     {
       "@type": "Person",

@@ -1,0 +1,15 @@
+{
+  "title": "Scorpions & Sapphires",
+  "artist": "That Boy Hi Hat",
+  "slug": "scorpions-sapphires",
+  "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+  "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/scorpions-sapphires.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/scorpions-sapphires.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

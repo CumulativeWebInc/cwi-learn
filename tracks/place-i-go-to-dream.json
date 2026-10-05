@@ -1,0 +1,15 @@
+{
+  "title": "Place I Go to Dream",
+  "artist": "That Boy Hi Hat",
+  "slug": "place-i-go-to-dream",
+  "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+  "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

@@ -18,7 +18,7 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `f782
 - **[verified]** Label: Cumulative Web Inc — _graph.json node attrs_
 - **[verified]** Distributor: DistroKid — _graph.json node attrs_
 - **[verified]** Licensing contact: hp@cumulativeweb.com — _graph.json node attrs_
-- **[owner_confirmed]** Rights posture: 50/50 with the artist; Black (manager) makes publishing/selling decisions; catalog is sync-ready — _owner-confirmed by Black (Henry Pitts), 2026-09-29; reaffirmed roster-wide 2026-10-02_
+- **[owner_confirmed]** Rights posture: 50/50 with the artist; Black (manager) makes publishing/selling decisions; catalog is sync-ready — _owner-confirmed by Black (Black Lansky), 2026-09-29; reaffirmed roster-wide 2026-10-02_
 
 ## Instructions
 

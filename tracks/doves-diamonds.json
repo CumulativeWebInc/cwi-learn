@@ -1,0 +1,15 @@
+{
+  "title": "Doves & Diamonds",
+  "artist": "That Boy Hi Hat",
+  "slug": "doves-diamonds",
+  "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+  "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/doves-diamonds.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/doves-diamonds.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

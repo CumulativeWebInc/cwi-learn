@@ -1,0 +1,15 @@
+{
+  "title": "Painted Lady",
+  "artist": "That Boy Hi Hat",
+  "slug": "painted-lady",
+  "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+  "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/painted-lady.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/painted-lady.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

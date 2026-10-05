@@ -1,0 +1,15 @@
+{
+  "title": "Ultimate",
+  "artist": "That Boy Hi Hat",
+  "slug": "ultimate",
+  "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+  "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/ultimate.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/ultimate.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

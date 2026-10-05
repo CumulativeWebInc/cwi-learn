@@ -1,0 +1,15 @@
+{
+  "title": "Roses over Monaco",
+  "artist": "That Boy Hi Hat",
+  "slug": "roses-over-monaco",
+  "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+  "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/roses-over-monaco.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/roses-over-monaco.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

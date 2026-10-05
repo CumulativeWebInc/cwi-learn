@@ -1,0 +1,15 @@
+{
+  "title": "Misfits and Hooligans",
+  "artist": "That Boy Hi Hat",
+  "slug": "misfits-and-hooligans",
+  "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+  "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/misfits-and-hooligans.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/misfits-and-hooligans.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

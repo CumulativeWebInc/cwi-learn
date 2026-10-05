@@ -27,7 +27,7 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `c6c0
 
 ## Facts
 
-- **[verified]** Based in Frederick, Maryland — _owner-confirmed by Black (Henry Pitts), 2026-09-15_
+- **[verified]** Based in Frederick, Maryland — _owner-confirmed by Black (Black Lansky), 2026-09-15_
 - **[verified]** 171 monthly listeners — _Spotify artist page_
 - **[verified]** 21 releases on Spotify — _catalog audit_
 - **[verified]** Artist catalog footprint: 27 tracks in CWI catalog — _catalog-interop/catalog-index.json, generated 2026-09-19_
@@ -43,7 +43,7 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `c6c0
 - **[verified]** Released 'GTA VI EP' — _graph.json released edge_
 - **[verified]** Released 'NO SKIPS' — _graph.json released edge_
 - **[verified]** Released 'Diabolique (single)' — _graph.json released edge_
-- **[owner_confirmed]** Rights posture: 50/50 with the artist; Black (manager) makes publishing/selling decisions; catalog is sync-ready — _owner-confirmed by Black (Henry Pitts), 2026-09-29; reaffirmed roster-wide 2026-10-02_
+- **[owner_confirmed]** Rights posture: 50/50 with the artist; Black (manager) makes publishing/selling decisions; catalog is sync-ready — _owner-confirmed by Black (Black Lansky), 2026-09-29; reaffirmed roster-wide 2026-10-02_
 
 ## Instructions
 

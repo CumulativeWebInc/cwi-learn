@@ -15,7 +15,7 @@
       "status": "verified",
       "attrs": {
         "contact_business_sync": "hp@cumulativeweb.com",
-        "manager": "Henry Pitts (aka Black Lansky)"
+        "manager": "Black Lansky"
       },
       "evidence": [
         {
@@ -222,7 +222,7 @@
     {
       "id": "person:black-lansky",
       "type": "person",
-      "name": "Henry Pitts (aka Black Lansky)",
+      "name": "Black Lansky",
       "status": "verified",
       "attrs": {
         "roles": [
@@ -260,7 +260,7 @@
         },
         {
           "claim": "Mixed & mastered Zooted Zone; NOT a co-production credit",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -279,7 +279,7 @@
       "evidence": [
         {
           "claim": "Producer of 'Flamerz'",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -300,7 +300,7 @@
       "evidence": [
         {
           "claim": "BET-nominated; RIAA Gold and multi-platinum certified",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -317,7 +317,7 @@
       "evidence": [
         {
           "claim": "Diabolique recorded here — official position",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -332,7 +332,7 @@
       "evidence": [
         {
           "claim": "That Boy Hi Hat is based in Frederick, MD",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -347,7 +347,7 @@
       "evidence": [
         {
           "claim": "Location of Cue Recording Studio",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -395,7 +395,7 @@
       "evidence": [
         {
           "claim": "Dated 2025-11-20",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -419,7 +419,7 @@
       "evidence": [
         {
           "claim": "NO SKIPS and GTA VI EP are separate releases, not a rename",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -443,7 +443,7 @@
       "evidence": [
         {
           "claim": "NO SKIPS and GTA VI EP are separate releases, not a rename",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         }
@@ -765,7 +765,7 @@
       "evidence": [
         {
           "claim": "Based in Frederick, Maryland",
-          "source": "owner-confirmed by Black (Henry Pitts), 2026-09-15",
+          "source": "owner-confirmed by Black (Black Lansky), 2026-09-15",
           "observed": "2026-09-15",
           "status": "verified"
         },

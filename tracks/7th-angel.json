@@ -1,0 +1,15 @@
+{
+  "title": "7th Angel",
+  "artist": "That Boy Hi Hat",
+  "slug": "7th-angel",
+  "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+  "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/7th-angel.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/7th-angel.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

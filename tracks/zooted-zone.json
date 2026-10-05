@@ -1,0 +1,15 @@
+{
+  "title": "Zooted Zone",
+  "artist": "That Boy Hi Hat",
+  "slug": "zooted-zone",
+  "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+  "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/zooted-zone.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/zooted-zone.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

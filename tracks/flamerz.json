@@ -1,0 +1,15 @@
+{
+  "title": "Flamerz",
+  "artist": "That Boy Hi Hat",
+  "slug": "flamerz",
+  "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+  "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/flamerz.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/flamerz.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

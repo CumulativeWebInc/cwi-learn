@@ -1,0 +1,15 @@
+{
+  "title": "Smokin' Pain",
+  "artist": "That Boy Hi Hat",
+  "slug": "smokin-pain",
+  "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+  "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/smokin-pain.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/smokin-pain.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

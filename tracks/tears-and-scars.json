@@ -1,0 +1,15 @@
+{
+  "title": "Tears and Scars",
+  "artist": "That Boy Hi Hat",
+  "slug": "tears-and-scars",
+  "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+  "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/tears-and-scars.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/tears-and-scars.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

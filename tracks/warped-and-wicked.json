@@ -1,0 +1,15 @@
+{
+  "title": "Warped and Wicked",
+  "artist": "That Boy Hi Hat",
+  "slug": "warped-and-wicked",
+  "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+  "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/warped-and-wicked.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/warped-and-wicked.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

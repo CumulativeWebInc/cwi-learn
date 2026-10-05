@@ -1,0 +1,15 @@
+{
+  "title": "Phantasm",
+  "artist": "That Boy Hi Hat",
+  "slug": "phantasm",
+  "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+  "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/phantasm.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/phantasm.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

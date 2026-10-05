@@ -1,0 +1,221 @@
+{
+  "count": 24,
+  "tracks": [
+    {
+      "slug": "zooted-zone",
+      "title": "Zooted Zone",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/zooted-zone.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/zooted-zone.json"
+    },
+    {
+      "slug": "diabolique",
+      "title": "Diabolique",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/diabolique.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/diabolique.json"
+    },
+    {
+      "slug": "shaka-zulu",
+      "title": "Shaka Zulu",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/shaka-zulu.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/shaka-zulu.json"
+    },
+    {
+      "slug": "doves-diamonds",
+      "title": "Doves & Diamonds",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/doves-diamonds.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/doves-diamonds.json"
+    },
+    {
+      "slug": "flamerz",
+      "title": "Flamerz",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/flamerz.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/flamerz.json"
+    },
+    {
+      "slug": "ultimate",
+      "title": "Ultimate",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/ultimate.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/ultimate.json"
+    },
+    {
+      "slug": "neon-nights-pt-777",
+      "title": "Neon Nights Pt. 777",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/neon-nights-pt-777.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/neon-nights-pt-777.json"
+    },
+    {
+      "slug": "painted-lady",
+      "title": "Painted Lady",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/painted-lady.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/painted-lady.json"
+    },
+    {
+      "slug": "warped-and-wicked",
+      "title": "Warped and Wicked",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/warped-and-wicked.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/warped-and-wicked.json"
+    },
+    {
+      "slug": "golden-diamond",
+      "title": "Golden Diamond",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/golden-diamond.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/golden-diamond.json"
+    },
+    {
+      "slug": "spirits-n-shadows",
+      "title": "Spirits n Shadows",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/spirits-n-shadows.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/spirits-n-shadows.json"
+    },
+    {
+      "slug": "flex-my-flame",
+      "title": "Flex My Flame",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/flex-my-flame.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/flex-my-flame.json"
+    },
+    {
+      "slug": "rainbows-and-roses",
+      "title": "Rainbows And Roses",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/rainbows-and-roses.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/rainbows-and-roses.json"
+    },
+    {
+      "slug": "tears-and-scars",
+      "title": "Tears and Scars",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/tears-and-scars.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/tears-and-scars.json"
+    },
+    {
+      "slug": "toxic-elements",
+      "title": "Toxic Elements",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/toxic-elements.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/toxic-elements.json"
+    },
+    {
+      "slug": "7th-angel",
+      "title": "7th Angel",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/7th-angel.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/7th-angel.json"
+    },
+    {
+      "slug": "scorpions-sapphires",
+      "title": "Scorpions & Sapphires",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/scorpions-sapphires.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/scorpions-sapphires.json"
+    },
+    {
+      "slug": "place-i-go-to-dream",
+      "title": "Place I Go to Dream",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.json"
+    },
+    {
+      "slug": "place-i-go-to-dream-remastered",
+      "title": "Place I Go to Dream - Remastered",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream-remastered.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream-remastered.json"
+    },
+    {
+      "slug": "place-i-go-to-dream-instrumental",
+      "title": "Place I Go to Dream - Instrumental",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream-instrumental.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream-instrumental.json"
+    },
+    {
+      "slug": "smokin-pain",
+      "title": "Smokin' Pain",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/smokin-pain.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/smokin-pain.json"
+    },
+    {
+      "slug": "phantasm",
+      "title": "Phantasm",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/phantasm.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/phantasm.json"
+    },
+    {
+      "slug": "misfits-and-hooligans",
+      "title": "Misfits and Hooligans",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/misfits-and-hooligans.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/misfits-and-hooligans.json"
+    },
+    {
+      "slug": "roses-over-monaco",
+      "title": "Roses over Monaco",
+      "artist": "That Boy Hi Hat",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+      "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/roses-over-monaco.html",
+      "data": "https://cumulativewebinc.github.io/cwi-learn/tracks/roses-over-monaco.json"
+    }
+  ]
+}

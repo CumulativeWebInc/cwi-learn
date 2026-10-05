@@ -13,7 +13,7 @@ Schema `cwi-fact-packet/v1` · generated 2026-10-03T09:59:50Z · integrity `0d65
 
 ## Facts
 
-- **[verified]** NO SKIPS and GTA VI EP are separate releases, not a rename — _owner-confirmed by Black (Henry Pitts), 2026-09-15_
+- **[verified]** NO SKIPS and GTA VI EP are separate releases, not a rename — _owner-confirmed by Black (Black Lansky), 2026-09-15_
 - **[observed]** Note: Separate release from GTA VI EP (owner-confirmed) — _dataset attrs_
 
 ## Instructions

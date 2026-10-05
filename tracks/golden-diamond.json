@@ -1,0 +1,15 @@
+{
+  "title": "Golden Diamond",
+  "artist": "That Boy Hi Hat",
+  "slug": "golden-diamond",
+  "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+  "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/golden-diamond.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/golden-diamond.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

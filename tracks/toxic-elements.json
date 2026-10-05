@@ -1,0 +1,15 @@
+{
+  "title": "Toxic Elements",
+  "artist": "That Boy Hi Hat",
+  "slug": "toxic-elements",
+  "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+  "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/toxic-elements.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/toxic-elements.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

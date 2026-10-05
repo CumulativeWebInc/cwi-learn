@@ -1,0 +1,15 @@
+{
+  "title": "Rainbows And Roses",
+  "artist": "That Boy Hi Hat",
+  "slug": "rainbows-and-roses",
+  "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+  "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/rainbows-and-roses.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/rainbows-and-roses.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

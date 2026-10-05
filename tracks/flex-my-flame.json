@@ -1,0 +1,15 @@
+{
+  "title": "Flex My Flame",
+  "artist": "That Boy Hi Hat",
+  "slug": "flex-my-flame",
+  "spotify_url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+  "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/flex-my-flame.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/flex-my-flame.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Shaka Zulu",
+  "artist": "That Boy Hi Hat",
+  "slug": "shaka-zulu",
+  "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+  "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+  "page": "https://cumulativewebinc.github.io/cwi-learn/tracks/shaka-zulu.html",
+  "self": "https://cumulativewebinc.github.io/cwi-learn/tracks/shaka-zulu.json",
+  "radio365": {
+    "in_rotation": true,
+    "program": "https://cumulativewebinc.github.io/cwi-learn/radio/",
+    "station": "https://cumulativeweb.com/radio.html"
+  },
+  "publisher": "Cumulative Web Inc"
+}
