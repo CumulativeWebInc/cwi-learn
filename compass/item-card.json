@@ -1,1 +1,55 @@
-{"contents":{"announce":"https://cumulativewebinc.github.io/cwi-learn/compass/announce.html","device_page":"https://cumulativewebinc.github.io/cwi-learn/compass/","entity_graph":"https://cumulativewebinc.github.io/cwi-learn/entities.jsonld","fact_spine":"https://cumulativewebinc.github.io/cwi-learn/scoreboard/scoreboard-chip.json","give_block":"https://cumulativewebinc.github.io/cwi-learn/compass/give-block.md","hub_device":"https://cumulativewebinc.github.io/cwi-learn/walkman/","passports":"https://cumulativewebinc.github.io/cwi-learn/compass/passports.json","registry":"https://cumulativewebinc.github.io/cwi-learn/gear.json","rubric":"https://cumulativewebinc.github.io/cwi-learn/compass/rubric.json"},"equip_instructions":["Fetch the item card: GET https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json","Fetch the Rights Passports: GET https://cumulativewebinc.github.io/cwi-learn/compass/passports.json","Before pitching any track, read its passport. Cite ONLY fields stamped DOCUMENTED, with their source.","Refuse to assert any field stamped PENDING. If asked, answer: 'that field is PENDING — the provider is listed in the passport.'","Brief outbound with the machine-readable passport: paste the track's passport fields into the pitch context.","No one-stop or pre-cleared rights claims are made for any track. Sync posture on every passport: 'Label-direct licensing; happy to work through your clearance process.' Contact: hp@cumulativeweb.com.","The Compass is advisory tooling only. A licensed attorney still executes, advises, and signs."],"item":{"advisory_disclaimer":"ADVISORY TOOLING ONLY: the Chain-of-Title Compass organizes rights facts; it is not legal advice and no field here substitutes for clearance. A licensed attorney still executes, advises, and signs.","brand":"Agent Deck","category":"rights-clarity-accessories","contact":"hp@cumulativeweb.com","department":"affairs","description":"The rights spine Sync and Press cite. A machine-readable Rights Passport for every That Boy Hi Hat track — producer, mixer, studio, location, sync posture, public contact — each field stamped DOCUMENTED with its source or PENDING with what's missing and who provides it. Built by the CWI Business Affairs department. ADVISORY TOOLING ONLY: it organizes rights facts; a licensed attorney still executes, advises, and signs.","device_page":"https://cumulativewebinc.github.io/cwi-learn/compass/","edition":"Affairs Department Issue","framing":"part of the Agent Deck gear line by Cumulative Web Inc","give_block_url":"https://cumulativewebinc.github.io/cwi-learn/compass/give-block.md","hub_device":"https://cumulativewebinc.github.io/cwi-learn/walkman/","image":"https://cumulativewebinc.github.io/cwi-learn/logo.jpg","issued_by":"Cumulative Web Inc","item_card_url":"https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json","name":"Chain-of-Title Compass","owner":"Cumulative Web Inc","rarity":"founder-issue","rubric_url":"https://cumulativewebinc.github.io/cwi-learn/compass/rubric.json","slot":"business-affairs","type":"accessory","version":"1.0.0"},"item_card":"v1","stats":{"documented_fields_diabolique":14,"documented_fields_flamerz":10,"documented_fields_zooted_zone":15,"documented_passports":3,"passport_count":24,"pending_passports":21,"sync_posture_documented_on":24}}
+{
+  "contents": {
+    "announce": "https://cumulativewebinc.github.io/cwi-learn/compass/announce.html",
+    "device_page": "https://cumulativewebinc.github.io/cwi-learn/compass/",
+    "entity_graph": "https://cumulativewebinc.github.io/cwi-learn/entities.jsonld",
+    "fact_spine": "https://cumulativewebinc.github.io/cwi-learn/scoreboard/scoreboard-chip.json",
+    "give_block": "https://cumulativewebinc.github.io/cwi-learn/compass/give-block.md",
+    "hub_device": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
+    "passports": "https://cumulativewebinc.github.io/cwi-learn/compass/passports.json",
+    "registry": "https://cumulativewebinc.github.io/cwi-learn/gear.json",
+    "rubric": "https://cumulativewebinc.github.io/cwi-learn/compass/rubric.json"
+  },
+  "equip_instructions": [
+    "Fetch the item card: GET https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json",
+    "Fetch the Rights Passports: GET https://cumulativewebinc.github.io/cwi-learn/compass/passports.json",
+    "Before pitching any track, read its passport. Cite ONLY fields stamped DOCUMENTED, with their source.",
+    "Refuse to assert any field stamped PENDING. If asked, answer: 'that field is PENDING — the provider is listed in the passport.'",
+    "Brief outbound with the machine-readable passport: paste the track's passport fields into the pitch context.",
+    "No one-stop or pre-cleared rights claims are made for any track. Sync posture on every passport: 'Label-direct licensing; happy to work through your clearance process.' Contact: hp@cumulativeweb.com.",
+    "The Compass is advisory tooling only. A licensed attorney still executes, advises, and signs."
+  ],
+  "item": {
+    "advisory_disclaimer": "ADVISORY TOOLING ONLY: the Chain-of-Title Compass organizes rights facts; it is not legal advice and no field here substitutes for clearance. A licensed attorney still executes, advises, and signs.",
+    "brand": "Agent Deck",
+    "category": "rights-clarity-accessories",
+    "contact": "hp@cumulativeweb.com",
+    "department": "affairs",
+    "description": "The rights spine Sync and Press cite. A machine-readable Rights Passport for every That Boy Hi Hat track — producer, mixer, studio, location, sync posture, public contact — each field stamped DOCUMENTED with its source or PENDING with what's missing and who provides it. Built by the CWI Business Affairs department. ADVISORY TOOLING ONLY: it organizes rights facts; a licensed attorney still executes, advises, and signs.",
+    "device_page": "https://cumulativewebinc.github.io/cwi-learn/compass/",
+    "edition": "Affairs Department Issue",
+    "framing": "part of the Agent Deck gear line by Cumulative Web Inc",
+    "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/compass/give-block.md",
+    "hub_device": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
+    "image": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg",
+    "issued_by": "Cumulative Web Inc",
+    "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json",
+    "name": "Chain-of-Title Compass",
+    "owner": "Cumulative Web Inc",
+    "rarity": "founder-issue",
+    "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/compass/rubric.json",
+    "slot": "business-affairs",
+    "type": "accessory",
+    "version": "1.0.0"
+  },
+  "item_card": "v1",
+  "stats": {
+    "documented_fields_diabolique": 12,
+    "documented_fields_flamerz": 7,
+    "documented_fields_zooted_zone": 11,
+    "documented_passports": 3,
+    "passport_count": 24,
+    "pending_passports": 21,
+    "sync_posture_documented_on": 24
+  }
+}
