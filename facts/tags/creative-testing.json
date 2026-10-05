@@ -1,0 +1,12 @@
+{
+  "facet": "domain",
+  "packets": [
+    {
+      "node": "fact/module/creative-engine",
+      "packet_id": "fact/module/creative-engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/creative-engine.json"
+    }
+  ],
+  "tag": "creative-testing",
+  "updated": "2026-10-03T14:19:47Z"
+}
