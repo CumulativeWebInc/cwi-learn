@@ -1,0 +1,123 @@
+{
+  "schema": "cwi.freshness/1.0",
+  "freshness_rule": "A field is FRESH when observed within the last 48 hours. Older fields are labeled STALE with their last honest observation date. Timestamps are never manufactured — observed_at is written only by real verification events.",
+  "manifest_checked_at": "2026-09-19T07:49:35.391Z",
+  "endpoints": [
+    {
+      "file": "catalog.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+      "live": true,
+      "http_status": 200,
+      "fields": [
+        {
+          "path": "metrics.lifetime_spotify_plays",
+          "label": "Zooted Zone lifetime Spotify plays (307,439)",
+          "observed_at": "2026-09-14",
+          "status": "stale",
+          "age_hours": 127.8,
+          "refresh": "analytics sweep (Spotify / Viberate / Songstats)",
+          "source": "analytics pull 2026-09-14",
+          "note": "Lifetime figure grows slowly; treat as approximate between sweeps."
+        },
+        {
+          "path": "metrics.monthly_listeners",
+          "label": "Artist monthly listeners (171)",
+          "observed_at": "2026-09-14",
+          "status": "stale",
+          "age_hours": 127.8,
+          "refresh": "analytics sweep (Spotify / Viberate / Songstats)",
+          "source": "analytics pull 2026-09-14",
+          "note": "Monthly listeners are volatile; the honest value is the last sweep's value."
+        },
+        {
+          "path": "label_presence",
+          "label": "CWI label Spotify presence (followers / following / DistroKid saves)",
+          "observed_at": "2026-09-15",
+          "status": "stale",
+          "age_hours": 103.8,
+          "refresh": "label screenshot or manual re-verification",
+          "source": "screenshot supplied by Black, 2026-09-15",
+          "note": "Follower counts change daily; last honest observation 2026-09-15."
+        },
+        {
+          "path": "claimed_but_unverified[].status",
+          "label": "Playlist claim verification states",
+          "observed_at": "2026-09-17",
+          "status": "stale",
+          "age_hours": 55.8,
+          "refresh": "playlist sweep (intelligence engine)",
+          "source": "playlist sweep 2026-09-17",
+          "note": "A claim flips to verified only on a full scan that finds the track; absence across two scans keeps it claimed_unverified."
+        }
+      ]
+    },
+    {
+      "file": "graph.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+      "live": true,
+      "http_status": 200,
+      "fields": [
+        {
+          "path": "nodes[].attrs.last_verified",
+          "label": "Node verification states (incl. playlist positions)",
+          "observed_at": "2026-09-15",
+          "status": "stale",
+          "age_hours": 103.8,
+          "refresh": "playlist sweep (intelligence engine)",
+          "source": "playlist sweep 2026-09-15",
+          "note": "Playlist positions decay fast; positions older than 48h are stale by definition."
+        },
+        {
+          "path": "evidence[].observed",
+          "label": "Evidence provenance timestamps",
+          "volatile": false,
+          "note": "These are WHEN evidence was seen, not current-state claims. They are never refreshed or relabeled; rewriting them would be fabrication."
+        }
+      ]
+    },
+    {
+      "file": "kit.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/kit.json",
+      "live": true,
+      "http_status": 200,
+      "fields": [
+        {
+          "path": "verified_proof_points[].observed",
+          "label": "Verified proof points",
+          "observed_at": "2026-09-14",
+          "status": "stale",
+          "age_hours": 127.8,
+          "refresh": "verification sweep",
+          "source": "verification sweep 2026-09-14",
+          "note": "Proof points are point-in-time; re-verify before citing as current."
+        }
+      ]
+    },
+    {
+      "file": "llms.txt",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/llms.txt",
+      "live": true,
+      "http_status": 200,
+      "fields": [
+        {
+          "path": "(prose)",
+          "label": "Volatile prose figures (stream counts, positions, dates)",
+          "observed_at": "2026-09-15",
+          "status": "stale",
+          "age_hours": 103.8,
+          "refresh": "regenerated from catalog.json on the same pipeline",
+          "source": "generated from catalog.json 2026-09-15",
+          "note": "llms.txt is a human/LLM-readable rendering of catalog.json; its numbers are only as fresh as the catalog fields they quote."
+        }
+      ]
+    },
+    {
+      "file": ".well-known/agent-card.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
+      "live": true,
+      "http_status": 200,
+      "note": "No volatile fields. Identity, capabilities, and endpoint URLs are stable; version bumps are manual and announced.",
+      "fields": []
+    }
+  ]
+}
