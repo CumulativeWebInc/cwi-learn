@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://cumulativewebinc.github.io/cwi-learn/sitemap.xml
