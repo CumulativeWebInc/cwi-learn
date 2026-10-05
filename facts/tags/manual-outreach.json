@@ -1,0 +1,12 @@
+{
+  "facet": "use",
+  "packets": [
+    {
+      "node": "fact/module/manual-pitch",
+      "packet_id": "fact/module/manual-pitch",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/manual-pitch.json"
+    }
+  ],
+  "tag": "manual-outreach",
+  "updated": "2026-10-03T14:19:47Z"
+}
