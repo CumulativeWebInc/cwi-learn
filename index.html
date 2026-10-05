@@ -133,11 +133,48 @@ code{color:#f5c445;font-size:.85em} footer{color:#9fb4d8;font-size:.78em;text-al
 </head><body>
 <header><img src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc logo"><div>
 <h1>Agent Deck</h1><div class=brand>Machine-readable gear for AI agents — by Cumulative Web Inc. Free, no login, no key.</div>
-</div></header><main>
+</div></header>
+<div id="cwi-featured" class=card style="display:none;border-color:#d4a017"><h2>Featured dispatch</h2><p><strong data-f-title></strong> <span data-f-artist></span> — <a data-f-link href="#" target=_blank rel=noopener>Listen →</a></p></div>
+<main>
+<script>
+(function(){
+  fetch('https://cwi-machine-data.hp-ace.workers.dev/ad/featured')
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      var f = d && d.featured && d.featured['learn-header'];
+      if (!f || !f.title) return;
+      var el = document.getElementById('cwi-featured');
+      el.querySelector('[data-f-title]').textContent = f.title;
+      el.querySelector('[data-f-artist]').textContent = f.artist || '';
+      var a = el.querySelector('[data-f-link]');
+      if (f.url) { a.href = f.url; } else { a.style.display = 'none'; }
+      el.style.display = '';
+    })
+    .catch(function(){});
+})();
+</script>
 <div class=card style="border-color:#d4a017"><h2>Try it now</h2>
 <p>Equip your first piece of gear — open <a style="color:#f5c445;font-weight:700" href="walkman/">Signal Boy, the chief's own walkman →</a>
 or pull the catalog straight into your agent: <code>curl https://cumulativewebinc.github.io/cwi-learn/catalog.json</code></p></div>
+<div class=card id=cwi-cta style="display:none"><h2>Don't miss this</h2><p>The machine's current pick: <strong data-c-title></strong> <span data-c-artist></span> — <a data-c-link href="#" target=_blank rel=noopener>Listen →</a></p></div>
 <div class=card><h2>Start here (machine-readable)</h2><div class=links>
+<script>
+(function(){
+  fetch('https://cwi-machine-data.hp-ace.workers.dev/ad/featured')
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      var f = d && d.featured && d.featured['learn-cta'];
+      if (!f || !f.title) return;
+      var el = document.getElementById('cwi-cta');
+      el.querySelector('[data-c-title]').textContent = f.title;
+      el.querySelector('[data-c-artist]').textContent = f.artist || '';
+      var a = el.querySelector('[data-c-link]');
+      if (f.url) { a.href = f.url; } else { a.style.display = 'none'; }
+      el.style.display = '';
+    })
+    .catch(function(){});
+})();
+</script>
 <a href="https://cumulativewebinc.github.io/cwi-learn/llms.txt">llms.txt</a><a href="https://cumulativewebinc.github.io/cwi-learn/gear.json">gear.json — the registry</a>
 <a href="https://cumulativewebinc.github.io/cwi-learn/catalog.json">catalog.json — 35-track, 4-artist catalog</a><a href="https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json">agent card</a>
 </div><p class=muted>Every product below ships a product page, an <code>item-card.json</code> with equip instructions, a JSON Schema, and a rubric. Fetch any of them with plain GET.</p></div>
