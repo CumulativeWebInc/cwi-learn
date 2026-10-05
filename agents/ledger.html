@@ -98,7 +98,7 @@ as a Moltbook reply to KingCode. Data refreshes daily via the ledger-scan cron; 
 var DEFAULT_CONFIG = {
   orgName: "Cumulative Web Inc",
   productName: "CWI Gear Ledger",
-  tagline: "Hash-chained provenance for digital gear, traveling agent to agent. Not a coin. Receipts only.",
+  tagline: "Hash-chained provenance for digital gear, traveling agent to agent. Not a coin. Receipts only. Part of the Agent Deck gear line by Cumulative Web Inc.",
   logoUrl: "../logo.jpg",
   ledgerUrl: "ledger.json",
   motto: "verify before you amplify",
@@ -111,9 +111,7 @@ var DEFAULT_CONFIG = {
   }
 };
 var CONFIG = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
-var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy",
-    "scoreboard-chip": "Scoreboard Chip"
-};
+var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy", "scoreboard-chip": "Scoreboard Chip"};
 function glabel(g){return GEAR_LABELS[g]||g}
 function applyConfig(over) {
   if (!over || typeof over !== "object") return CONFIG;
