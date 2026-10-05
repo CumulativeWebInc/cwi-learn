@@ -1,0 +1,12 @@
+{
+  "tag": "targeting",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/audience-segmentation-engine",
+      "node": "Audience Segmentation Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/audience-segmentation-engine.json"
+    }
+  ]
+}

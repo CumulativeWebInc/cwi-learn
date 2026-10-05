@@ -1,0 +1,12 @@
+{
+  "tag": "identity-graph",
+  "facet": "data",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/moat/meta-identity-graph-estimated-action-rate",
+      "node": "Meta Identity Graph + Estimated Action Rate",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/meta-identity-graph-estimated-action-rate.json"
+    }
+  ]
+}

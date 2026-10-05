@@ -1,0 +1,17 @@
+{
+  "tag": "attribution",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/rebuild/cwi-attribution-layer",
+      "node": "CWI Attribution Layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-attribution-layer.json"
+    },
+    {
+      "packet_id": "fact/module/campaign-reporting-module",
+      "node": "Campaign Reporting Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-reporting-module.json"
+    }
+  ]
+}

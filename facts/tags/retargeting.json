@@ -1,0 +1,17 @@
+{
+  "tag": "retargeting",
+  "facet": "tech",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/signal/meta-paid-seed-signal-loop",
+      "node": "Meta Paid-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/meta-paid-seed-signal-loop.json"
+    },
+    {
+      "packet_id": "fact/module/meta-audiences-module",
+      "node": "Meta Audiences Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-audiences-module.json"
+    }
+  ]
+}

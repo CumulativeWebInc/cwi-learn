@@ -1,0 +1,165 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/monitoring-reporting.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/monitoring-reporting.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "music-pr",
+      "tier": "claimed_unverified",
+      "why": "PR firms"
+    },
+    {
+      "facet": "function",
+      "tag": "monitoring",
+      "tier": "verified",
+      "why": "coverage monitoring"
+    },
+    {
+      "facet": "function",
+      "tag": "reporting",
+      "tier": "verified",
+      "why": "monthly reporting"
+    },
+    {
+      "facet": "metric",
+      "tag": "share-of-voice",
+      "tier": "claimed_unverified",
+      "why": "SOV"
+    },
+    {
+      "facet": "metric",
+      "tag": "sentiment",
+      "tier": "claimed_unverified",
+      "why": "sentiment tracking"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Coverage tracking, share of voice, sentiment, monthly reports",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://muckrack.com/blog/2024/05/14/pr-metrics-to-measure/"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Legacy metric AVE (advertising value equivalency) still auto-calculated by tools like Muck Rack but rejected by AMEC's Barcelona Principles 4.0 and banned by CIPR (2017)",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://muckrack.com/blog/2024/05/14/pr-metrics-to-measure/"
+      },
+      "note": "rejection per https://collabstr.com/blog/earned-media-value",
+      "tier": "verified"
+    },
+    {
+      "claim": "Industry guidance: replace AVE with sentiment trajectory, message pull-through, share of voice, and coverage quality weighted by outlet relevance - because a big number in the wrong outlet is worthless",
+      "evidence": {
+        "source": "https://delve.news/post/ave-is-dead-what-your-pr-report-should-measure-instead/"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Rebuildable: monitoring via Google Alerts + free Talkwalker alerts; coverage reporting as a simple clippings doc with reach numbers from outlet media kits",
+      "evidence": {
+        "source": "report section D8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "music-pr",
+        "monitoring",
+        "reporting",
+        "share-of-voice",
+        "sentiment"
+      ],
+      "entity": "Monitoring + Reporting",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": [
+        "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+        "Coverage tracking, share of voice, sentiment, monthly reports",
+        "Legacy metric AVE (advertising value equivalency) still auto-calculated by tools like Muck Rack but rejected by AMEC's Barcelona Principles 4.0 and banned by CIPR (2017)"
+      ]
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/monitoring-reporting.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Monitoring + Reporting is a system module of a music-marketing machine.",
+    "social_caption": "Monitoring + Reporting  #marketing-module #music-pr #monitoring #reporting #share-of-voice #sentiment",
+    "sync_pitch": "SYNC PITCH — Monitoring + Reporting.",
+    "voice_answer": "Monitoring + Reporting is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "ebb947ced717614a6ed84817f825b0e869007a15d333154784fbc6ba5736c1ae"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/monitoring-reporting",
+    "id": "module:pr-monitoring-reporting",
+    "name": "Monitoring + Reporting",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/monitoring-reporting",
+  "relationships": [
+    {
+      "note": "component of the music-PR machine",
+      "rel": "part_of",
+      "target": "marketing-machine:music-pr-firms",
+      "target_name": "Music PR Firms"
+    },
+    {
+      "note": "$0: Google Alerts + Talkwalker alerts + clippings doc",
+      "rel": "rebuilds",
+      "target": "cwi-rebuild:pr-graph",
+      "target_name": "CWI PR Graph"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

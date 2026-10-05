@@ -1,0 +1,12 @@
+{
+  "tag": "measurement",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/rebuild/cwi-scorecards",
+      "node": "CWI Scorecards",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-scorecards.json"
+    }
+  ]
+}

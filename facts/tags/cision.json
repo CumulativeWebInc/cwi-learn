@@ -1,0 +1,12 @@
+{
+  "tag": "cision",
+  "facet": "vendor",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/media-database-rented",
+      "node": "Media Database (Rented)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/media-database-rented.json"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "tag": "meta",
+  "facet": "platform",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/events-manager-pixel-capi",
+      "node": "Events Manager (Pixel + CAPI)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/events-manager-pixel-capi.json"
+    },
+    {
+      "packet_id": "fact/module/meta-audiences-module",
+      "node": "Meta Audiences Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-audiences-module.json"
+    },
+    {
+      "packet_id": "fact/module/meta-campaign-ad-set-ad-structure",
+      "node": "Meta Campaign / Ad Set / Ad Structure",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-campaign-ad-set-ad-structure.json"
+    },
+    {
+      "packet_id": "fact/module/meta-delivery-auction",
+      "node": "Meta Delivery Auction",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-delivery-auction.json"
+    },
+    {
+      "packet_id": "fact/module/smart-link-layer",
+      "node": "Smart-Link Layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/smart-link-layer.json"
+    },
+    {
+      "packet_id": "fact/machine/meta-ads-for-musicians",
+      "node": "Meta Ads for Musicians",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/meta-ads-for-musicians.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "landing-page",
+  "facet": "format",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/smart-link-layer",
+      "node": "Smart-Link Layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/smart-link-layer.json"
+    }
+  ]
+}

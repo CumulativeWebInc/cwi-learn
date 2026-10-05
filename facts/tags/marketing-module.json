@@ -1,0 +1,122 @@
+{
+  "tag": "marketing-module",
+  "facet": "role",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/audience-segmentation-engine",
+      "node": "Audience Segmentation Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/audience-segmentation-engine.json"
+    },
+    {
+      "packet_id": "fact/module/campaign-billing-module",
+      "node": "Campaign Billing Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-billing-module.json"
+    },
+    {
+      "packet_id": "fact/module/campaign-reporting-module",
+      "node": "Campaign Reporting Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/campaign-reporting-module.json"
+    },
+    {
+      "packet_id": "fact/module/credit-ledger-system",
+      "node": "Credit / Ledger System",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/credit-ledger-system.json"
+    },
+    {
+      "packet_id": "fact/module/curator-directory-profiles",
+      "node": "Curator Directory + Profiles",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-directory-profiles.json"
+    },
+    {
+      "packet_id": "fact/module/curator-side-console",
+      "node": "Curator-Side Console",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-side-console.json"
+    },
+    {
+      "packet_id": "fact/module/discovery-mode-enrollment-module",
+      "node": "Discovery Mode Enrollment Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/discovery-mode-enrollment-module.json"
+    },
+    {
+      "packet_id": "fact/module/events-manager-pixel-capi",
+      "node": "Events Manager (Pixel + CAPI)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/events-manager-pixel-capi.json"
+    },
+    {
+      "packet_id": "fact/module/marketplace-matching-engine",
+      "node": "Marketplace Matching Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marketplace-matching-engine.json"
+    },
+    {
+      "packet_id": "fact/module/marketplace-trust-safety",
+      "node": "Marketplace Trust & Safety",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marketplace-trust-safety.json"
+    },
+    {
+      "packet_id": "fact/module/marquee-delivery-module",
+      "node": "Marquee Delivery Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marquee-delivery-module.json"
+    },
+    {
+      "packet_id": "fact/module/media-database-rented",
+      "node": "Media Database (Rented)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/media-database-rented.json"
+    },
+    {
+      "packet_id": "fact/module/meta-audiences-module",
+      "node": "Meta Audiences Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-audiences-module.json"
+    },
+    {
+      "packet_id": "fact/module/meta-campaign-ad-set-ad-structure",
+      "node": "Meta Campaign / Ad Set / Ad Structure",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-campaign-ad-set-ad-structure.json"
+    },
+    {
+      "packet_id": "fact/module/meta-delivery-auction",
+      "node": "Meta Delivery Auction",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-delivery-auction.json"
+    },
+    {
+      "packet_id": "fact/module/monitoring-reporting",
+      "node": "Monitoring + Reporting",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/monitoring-reporting.json"
+    },
+    {
+      "packet_id": "fact/module/pitching-engine-human",
+      "node": "Pitching Engine (Human)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitching-engine-human.json"
+    },
+    {
+      "packet_id": "fact/module/playlist-pitching-tool",
+      "node": "Playlist Pitching Tool",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/playlist-pitching-tool.json"
+    },
+    {
+      "packet_id": "fact/module/reactive-pitching",
+      "node": "Reactive Pitching",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/reactive-pitching.json"
+    },
+    {
+      "packet_id": "fact/module/showcase-delivery-module",
+      "node": "Showcase Delivery Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/showcase-delivery-module.json"
+    },
+    {
+      "packet_id": "fact/module/smart-link-layer",
+      "node": "Smart-Link Layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/smart-link-layer.json"
+    },
+    {
+      "packet_id": "fact/module/submission-pipeline",
+      "node": "Submission Pipeline",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/submission-pipeline.json"
+    },
+    {
+      "packet_id": "fact/module/wire-distribution",
+      "node": "Wire Distribution",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/wire-distribution.json"
+    }
+  ]
+}

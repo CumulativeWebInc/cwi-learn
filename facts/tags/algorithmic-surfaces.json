@@ -1,0 +1,22 @@
+{
+  "tag": "algorithmic-surfaces",
+  "facet": "domain",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/signal/meta-paid-seed-signal-loop",
+      "node": "Meta Paid-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/meta-paid-seed-signal-loop.json"
+    },
+    {
+      "packet_id": "fact/signal/playlist-seed-signal-loop",
+      "node": "Playlist-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/playlist-seed-signal-loop.json"
+    },
+    {
+      "packet_id": "fact/signal/spotify-paid-seed-signal-loop",
+      "node": "Spotify Paid-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/spotify-paid-seed-signal-loop.json"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-side-console.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-side-console.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "marketplaces",
+      "tier": "claimed_unverified",
+      "why": "curator marketplaces"
+    },
+    {
+      "facet": "function",
+      "tag": "curator-console",
+      "tier": "claimed_unverified",
+      "why": "supply-side workbench"
+    },
+    {
+      "facet": "pricing",
+      "tag": "payouts",
+      "tier": "claimed_unverified",
+      "why": "curator payouts"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Review queue, reputation scores, payout ledger (PayPal cash-out at $10 threshold on SubmitHub, per 2017 documentation)",
+      "evidence": {
+        "source": "https://medium.com/@repost_network/make-money-for-your-blog-channel-network-with-submithub-e6e5d94e5631"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Curator earnings: $1-$5 per review (SubmitHub, by tier/traffic) - curator payouts are the platform's COGS; the margin is in aggregation",
+      "evidence": {
+        "source": "https://music.loop.fans/blog/submithub-curator"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "marketplaces",
+        "curator-console",
+        "payouts"
+      ],
+      "entity": "Curator-Side Console",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-side-console.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Curator-Side Console is a system module of a music-marketing machine.",
+    "social_caption": "Curator-Side Console  #marketing-module #marketplaces #curator-console #payouts",
+    "sync_pitch": "SYNC PITCH — Curator-Side Console.",
+    "voice_answer": "Curator-Side Console is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "6753cfcdd540fbdb5ced598bcc1c878beb4967784b13ed0e4b3c9fb8766bd883"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/curator-side-console",
+    "id": "module:marketplace-curator-console",
+    "name": "Curator-Side Console",
+    "status": "claimed_unverified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/curator-side-console",
+  "relationships": [
+    {
+      "note": "component of the playlist-pitching marketplace machine",
+      "rel": "part_of",
+      "target": "marketing-machine:playlist-marketplaces",
+      "target_name": "Playlist-Pitching Marketplaces"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

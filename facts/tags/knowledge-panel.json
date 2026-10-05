@@ -1,0 +1,12 @@
+{
+  "tag": "knowledge-panel",
+  "facet": "domain",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/signal/pr-amplification-loop",
+      "node": "PR Amplification Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/pr-amplification-loop.json"
+    }
+  ]
+}

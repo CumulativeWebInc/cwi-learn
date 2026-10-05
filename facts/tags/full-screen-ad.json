@@ -1,0 +1,12 @@
+{
+  "tag": "full-screen-ad",
+  "facet": "format",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/marquee-delivery-module",
+      "node": "Marquee Delivery Module",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/marquee-delivery-module.json"
+    }
+  ]
+}

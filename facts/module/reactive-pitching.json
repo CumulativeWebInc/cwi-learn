@@ -1,0 +1,158 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/reactive-pitching.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/reactive-pitching.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-module",
+      "tier": "verified",
+      "why": "anatomy node type module"
+    },
+    {
+      "facet": "platform",
+      "tag": "music-pr",
+      "tier": "claimed_unverified",
+      "why": "PR firms"
+    },
+    {
+      "facet": "function",
+      "tag": "reactive-pitching",
+      "tier": "claimed_unverified",
+      "why": "journalist-request feeds"
+    },
+    {
+      "facet": "channel",
+      "tag": "haro",
+      "tier": "claimed_unverified",
+      "why": "HARO/Connectively"
+    },
+    {
+      "facet": "channel",
+      "tag": "journalist-requests",
+      "tier": "claimed_unverified",
+      "why": "request feeds"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "HARO (now Connectively): free, journalists come to you, but reactive/competitive/no targeting",
+      "evidence": {
+        "source": "https://gist.github.com/williamhsu/b5576d9b0d5a137ee2fc71135f8f6888"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Qwoted: free 2 pitches/mo with 2-hour delay; Pro $149/mo - the 2-hour delay on free Qwoted is 'the whole game' (paid tier required for serious reactive PR)",
+      "evidence": {
+        "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Featured.com: free 3 submissions/mo; Pro $99/mo",
+      "evidence": {
+        "source": "https://subscribepr.com/blog/how-much-does-a-newsjacking-program-cost/"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Reactive workflow: scan journalist requests daily -> respond within the window",
+      "evidence": {
+        "source": "report section D4 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Rebuildable at zero cost: Connectively (free tier) and Featured.com (free tier)",
+      "evidence": {
+        "source": "report section D8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-module",
+        "music-pr",
+        "reactive-pitching",
+        "haro",
+        "journalist-requests"
+      ],
+      "entity": "Reactive Pitching",
+      "owner_confirmed": [],
+      "type": "module",
+      "verified_facts": []
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/reactive-pitching.json"
+    },
+    "fan_qa": [],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "search_answer": "Reactive Pitching is a system module of a music-marketing machine.",
+    "social_caption": "Reactive Pitching  #marketing-module #music-pr #reactive-pitching #haro #journalist-requests",
+    "sync_pitch": "SYNC PITCH — Reactive Pitching.",
+    "voice_answer": "Reactive Pitching is a system module of a music-marketing machine. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "9a63a4cb5e365c83d9df91d65539f1f759a29902bc535add72a12279d20a0b85"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/module/reactive-pitching",
+    "id": "module:pr-reactive-pitching",
+    "name": "Reactive Pitching",
+    "status": "claimed_unverified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/reactive-pitching",
+  "relationships": [
+    {
+      "note": "component of the music-PR machine",
+      "rel": "part_of",
+      "target": "marketing-machine:music-pr-firms",
+      "target_name": "Music PR Firms"
+    },
+    {
+      "note": "$0: Connectively + Featured.com free tiers",
+      "rel": "rebuilds",
+      "target": "cwi-rebuild:pr-graph",
+      "target_name": "CWI PR Graph"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

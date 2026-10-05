@@ -1,0 +1,12 @@
+{
+  "tag": "credits",
+  "facet": "pricing",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/credit-ledger-system",
+      "node": "Credit / Ledger System",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/credit-ledger-system.json"
+    }
+  ]
+}

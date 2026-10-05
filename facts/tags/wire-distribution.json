@@ -1,0 +1,12 @@
+{
+  "tag": "wire-distribution",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/wire-distribution",
+      "node": "Wire Distribution",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/wire-distribution.json"
+    }
+  ]
+}

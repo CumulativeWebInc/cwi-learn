@@ -1,0 +1,17 @@
+{
+  "tag": "monitoring",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/rebuild/cwi-pr-graph",
+      "node": "CWI PR Graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-pr-graph.json"
+    },
+    {
+      "packet_id": "fact/module/monitoring-reporting",
+      "node": "Monitoring + Reporting",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/monitoring-reporting.json"
+    }
+  ]
+}

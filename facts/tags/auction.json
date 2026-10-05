@@ -1,0 +1,17 @@
+{
+  "tag": "auction",
+  "facet": "mechanism",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/meta-delivery-auction",
+      "node": "Meta Delivery Auction",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/meta-delivery-auction.json"
+    },
+    {
+      "packet_id": "fact/machine/meta-ads-for-musicians",
+      "node": "Meta Ads for Musicians",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/meta-ads-for-musicians.json"
+    }
+  ]
+}

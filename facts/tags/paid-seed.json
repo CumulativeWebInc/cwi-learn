@@ -1,0 +1,32 @@
+{
+  "tag": "paid-seed",
+  "facet": "strategy",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/signal/meta-paid-seed-signal-loop",
+      "node": "Meta Paid-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/meta-paid-seed-signal-loop.json"
+    },
+    {
+      "packet_id": "fact/signal/playlist-seed-signal-loop",
+      "node": "Playlist-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/playlist-seed-signal-loop.json"
+    },
+    {
+      "packet_id": "fact/signal/spotify-paid-seed-signal-loop",
+      "node": "Spotify Paid-Seed Signal Loop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/spotify-paid-seed-signal-loop.json"
+    },
+    {
+      "packet_id": "fact/machine/meta-ads-for-musicians",
+      "node": "Meta Ads for Musicians",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/meta-ads-for-musicians.json"
+    },
+    {
+      "packet_id": "fact/machine/playlist-pitching-marketplaces",
+      "node": "Playlist-Pitching Marketplaces",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/playlist-pitching-marketplaces.json"
+    }
+  ]
+}

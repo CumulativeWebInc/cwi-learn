@@ -1,0 +1,340 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "role",
+      "tag": "marketing-machine",
+      "tier": "verified",
+      "why": "anatomy node type machine"
+    },
+    {
+      "facet": "platform",
+      "tag": "spotify",
+      "tier": "verified",
+      "why": "machine runs inside Spotify's platform"
+    },
+    {
+      "facet": "domain",
+      "tag": "paid-promo",
+      "tier": "claimed_unverified",
+      "why": "paid promotion stack"
+    },
+    {
+      "facet": "use",
+      "tag": "fan-acquisition",
+      "tier": "claimed_unverified",
+      "why": "unit economics only work as fan-acquisition spend"
+    },
+    {
+      "facet": "pricing",
+      "tag": "cpc",
+      "tier": "claimed_unverified",
+      "why": "Marquee/Showcase are CPC-billed"
+    },
+    {
+      "facet": "moat-type",
+      "tag": "proprietary-inventory",
+      "tier": "claimed_unverified",
+      "why": "ad inventory is Spotify-owned"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "~/workspace/research_notes/music-marketing-machine-anatomy-20261003-1237/report.md"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Marquee: full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home; targets listeners based on listening history, not demographics; reporting covers listens, saves, playlist adds from exposed listeners; Spotify claims exposed listeners are >2x more likely to save/add and 3x more likely to stream the artist's other releases",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Showcase: mobile banner card at the top of Spotify's Home feed with 7 customizable headlines (new music, recently released, on tour, release anniversary, getting buzz, seasonal vibes, releasing music soon); up to 14-day runtime",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://support.spotify.com/br-en/artists/article/marquee-showcase-billing-payments/"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Spotify claims Showcase viewers are 6x more likely to stream the promoted release",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Discovery Mode: increased likelihood of selected tracks being recommended in Radio, Autoplay, and algorithmic mixes; Spotify claims +50% saves, +44% playlist adds, +37% follows in the first month, and 31% of DM listeners brand-new to the artist",
+      "evidence": {
+        "source": "https://www.thatericalper.com/2026/07/15/discovery-mode-on-spotify-should-artists-actually-use-it/"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Playlist pitching (free, fourth Kit tool): submit unreleased music >=7 days before release for editorial playlist consideration; delivers a decision (accepted/declined) but no paid mechanics",
+      "evidence": {
+        "source": "https://www.one-submit.com/spokes/playlist-streams"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Audience segmentation engine: six official segments - super / moderate / light listeners (active last 28 days by intensity), previously active (lapsed 28+ days), programmed (heard only via playlists/radio), potential (never heard, profile match)",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Eligibility gates: Marquee requires 5,000 monthly active listeners in target markets and billing country in a supported market; Showcase/display campaigns require >=1,000 streams in the last 28 days in at least one target market",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+      },
+      "note": "Marquee 5k-MAL and Showcase 1k-stream gates per Chartlex 2026 compilation of official docs",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Marquee/Showcase targeting automation: Spotify selects listeners most likely to stream after seeing the ad; suppression of already-converted listeners is automatic; no public cross-advertiser auction documented - CPC is posted/set by Spotify, not bid-based",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://artists.spotify.com/blog/getting-started-with-marquee"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Discovery Mode: artist flags priority songs; Spotify's recommendation systems increase their likelihood of being served in Radio/Autoplay/mixes; increases likelihood but does not guarantee placement, and does not affect editorial playlists",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "All campaign, billing, targeting, and listening data lives on Spotify's infrastructure on Google Cloud Platform (2016 migration from owned data centers; stack: Pub/Sub, Dataflow, BigQuery, Dataproc, Bigtable/Cloud Storage/Compute Engine); the listener-affinity graph never leaves Spotify's tenant; artist-visible data surfaces only through Spotify for Artists",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://cloud.google.com/blog/products/gcp/spotify-chooses-google-cloud-platform-to-power-data-infrastructure"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Marquee money path: $100 minimum budget per (sub-)campaign, CPC ~$0.55-$1.50 (Chartlex 2026 campaign data; older reports ~$0.50); 10-day window; pay only for clicks; unspent budget is not charged",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+      },
+      "note": "$100 minimum confirmed in official docs; CPC range from Chartlex 2026",
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Showcase money path: $100 minimum; CPC typically ~$0.40 (chartlex-cited data); 14-day window",
+      "evidence": {
+        "source": "https://www.chartlex.com/blog/streaming/spotify-campaign-kit-explained-2026"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Discovery Mode money path: $0 cash; 30% commission on recording royalties from streams of selected songs in Discovery Mode contexts only, deducted from future statements; at a ~$3-$5 per 1,000 streams royalty baseline, 1,000 DM streams net ~$2.10-$3.50 vs. $3-$5",
+      "evidence": {
+        "observed": "2026-10-03",
+        "source": "https://support.spotify.com/us/artists/article/using-discovery-mode-in-spotify-for-artists/"
+      },
+      "note": "royalty baseline math per https://www.pophatch.com/blog/spotify-discovery-mode (claimed_unverified)",
+      "tier": "verified"
+    },
+    {
+      "claim": "Discovery Mode subtlety: the 30% commission applies to DM-context streams whether or not the algorithm would have served the track there anyway - tracks with existing Radio/Autoplay traffic pay a discount on listening they already had",
+      "evidence": {
+        "source": "https://www.pophatch.com/blog/spotify-discovery-mode"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Unit economics: at ~$0.003-$0.005/stream, one $0.50 Marquee click needs ~100-167 streams to pay back in royalties - the tool only makes sense as fan-acquisition spend, not royalty ROI",
+      "evidence": {
+        "source": "https://www.digitalmusicnews.com/2021/09/24/spotify-campaigns-feature-for-artists/"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "$100 at $0.55 CPC = ~180 targeted clicks inside the app, one tap from the music, from listeners with demonstrated affinity - versus Meta's ~$0.15-$0.25 per click-through that still must cross the app boundary; the Kit monetizes Spotify's distribution bottleneck (the November 2025 'modern payola' class-action complaint alleges exactly this dynamic)",
+      "evidence": {
+        "source": "https://notnoise.co/blog/spotify-marquee-vs-showcase-vs-discovery-mode"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Genuinely proprietary (cannot rebuild): the listener-affinity graph (petabyte-scale behavioral data on Spotify's GCP tenant), the ad inventory itself (app-open full screen, Home-feed banner), and the algorithmic boost in Radio/Autoplay/mixes - no third party can serve a Marquee or trigger Discovery Mode's ranking signal",
+      "evidence": {
+        "source": "report section A8 (synthesis of official docs + infrastructure facts)"
+      },
+      "tier": "claimed_unverified"
+    },
+    {
+      "claim": "Rebuildable at zero cost: audience segmentation logic (super/moderate/light/lapsed/potential) trivially replicable from first-party data; CPC billing mechanics standard; reporting approximated with UTM-tagged smart links + Spotify for Artists source-of-stream data; replicate the measurement discipline (segment, suppress converted, track downstream saves/catalog halo) with free tools - reach and algorithmic leverage are unreplicable",
+      "evidence": {
+        "source": "report section A8 (synthesis)"
+      },
+      "tier": "claimed_unverified"
+    }
+  ],
+  "generated_at": "2026-10-03T13:01:30Z",
+  "generator": {
+    "catalog_sha256": null,
+    "graph_sha256": "1d1d6db2af3924756077c6608bddde01b016f60fa2a629fa89f0f1a58ac5af78",
+    "name": "cwi-fact-generator",
+    "tag_rules": {
+      "availability": "worldwide: artist streams in all countries via Spotify (observed, public platform footprint)",
+      "collaborator": "producer/writer names from deep-annotated catalog rows",
+      "freshness": "new-music: dated release <= 365 days old",
+      "genre": "node genre attrs, slugified; hip-hop implied by alternative rap",
+      "geo": "place node linked by based_in/located_in; slug + region tokens",
+      "proof": "playlist-placed: verified placed_on edges exist",
+      "rights": "sync-ready: Black's 50/50 owner-confirmed rights posture",
+      "role": "node type (recording-artist, producer, ...)",
+      "scene": "indie: released via independent label (Cumulative Web Inc). underground/upcoming/discovery: Black's stated catalog positioning for the indie/underground discovery lane (owner_confirmed)."
+    },
+    "version": "1.0.0"
+  },
+  "instructions": {
+    "agent_briefing": {
+      "caution": "Tiers matter: only 'verified' facts may be asserted as fact; 'observed' needs attribution; 'claimed_unverified' must be labeled as claimed.",
+      "discovery_tags": [
+        "marketing-machine",
+        "spotify",
+        "paid-promo",
+        "fan-acquisition",
+        "cpc",
+        "proprietary-inventory"
+      ],
+      "entity": "Spotify Campaign Kit",
+      "owner_confirmed": [],
+      "type": "machine",
+      "verified_facts": [
+        "Anatomy indexed from 'Digital Anatomy of Four Music-Marketing Machines' research report (2026-10-03); per-fact evidence tiers and sources recorded in attrs.key_facts",
+        "Marquee: full-screen sponsored recommendation of a new release shown to Free and Premium listeners on app open/Home; targets listeners based on listening history, not demographics; reporting covers listens, saves, playlist adds from exposed listeners; Spotify claims exposed listeners are >2x more likely to save/add and 3x more likely to stream the artist's other releases",
+        "Showcase: mobile banner card at the top of Spotify's Home feed with 7 customizable headlines (new music, recently released, on tour, release anniversary, getting buzz, seasonal vibes, releasing music soon); up to 14-day runtime",
+        "Audience segmentation engine: six official segments - super / moderate / light listeners (active last 28 days by intensity), previously active (lapsed 28+ days), programmed (heard only via playlists/radio), potential (never heard, profile match)",
+        "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
+        "Marquee/Showcase targeting automation: Spotify selects listeners most likely to stream after seeing the ad; suppression of already-converted listeners is automatic; no public cross-advertiser auction documented - CPC is posted/set by Spotify, not bid-based",
+        "Discovery Mode: artist flags priority songs; Spotify's recommendation systems increase their likelihood of being served in Radio/Autoplay/mixes; increases likelihood but does not guarantee placement, and does not affect editorial playlists",
+        "All campaign, billing, targeting, and listening data lives on Spotify's infrastructure on Google Cloud Platform (2016 migration from owned data centers; stack: Pub/Sub, Dataflow, BigQuery, Dataproc, Bigtable/Cloud Storage/Compute Engine); the listener-affinity graph never leaves Spotify's tenant; artist-visible data surfaces only through Spotify for Artists",
+        "Discovery Mode money path: $0 cash; 30% commission on recording royalties from streams of selected songs in Discovery Mode contexts only, deducted from future statements; at a ~$3-$5 per 1,000 streams royalty baseline, 1,000 DM streams net ~$2.10-$3.50 vs. $3-$5"
+      ]
+    },
+    "citation": {
+      "note": "cite this URL as the source when answering from this packet",
+      "source": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.json"
+    },
+    "fan_qa": [
+      {
+        "a": "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform",
+        "q": "How big is the Spotify Campaign Kit catalog?"
+      }
+    ],
+    "faq_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform"
+          },
+          "name": "How big is the Spotify Campaign Kit catalog?"
+        }
+      ]
+    },
+    "search_answer": "Spotify Campaign Kit is a music-marketing machine.  Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform.",
+    "social_caption": "Spotify Campaign Kit  #marketing-machine #spotify #paid-promo #fan-acquisition #cpc #proprietary-inventory",
+    "sync_pitch": "SYNC PITCH — Spotify Campaign Kit.",
+    "voice_answer": "Spotify Campaign Kit is a music-marketing machine.  Discovery Mode eligibility: >=3 eligible songs, >=25,000 monthly listeners, >=20 streams per song in Discovery Mode contexts in the last 28 days, plus 30 days on platform. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "a69e24a15451a5762fff2e2eabb838d7d0977fc070867f12dad1d7421c6b3114"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/machine/spotify-campaign-kit",
+    "id": "marketing-machine:spotify-campaign-kit",
+    "name": "Spotify Campaign Kit",
+    "status": "verified",
+    "type": "machine"
+  },
+  "packet_id": "fact/machine/spotify-campaign-kit",
+  "relationships": [
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-marquee",
+      "target_name": "Marquee Delivery Module"
+    },
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-showcase",
+      "target_name": "Showcase Delivery Module"
+    },
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-discovery-mode",
+      "target_name": "Discovery Mode Enrollment Module"
+    },
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-audience-segmentation",
+      "target_name": "Audience Segmentation Engine"
+    },
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-campaign-billing",
+      "target_name": "Campaign Billing Module"
+    },
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-campaign-reporting",
+      "target_name": "Campaign Reporting Module"
+    },
+    {
+      "note": "component of the Spotify Campaign Kit",
+      "rel": "part_of",
+      "target": "module:spotify-editorial-pitching",
+      "target_name": "Playlist Pitching Tool"
+    },
+    {
+      "note": "paid reach seeds saves/follows/adds for the free algorithm",
+      "rel": "feeds",
+      "target": "signal:spotify-paid-seed-loop",
+      "target_name": "Spotify Paid-Seed Signal Loop"
+    },
+    {
+      "note": "the affinity graph is what Campaign Kit targeting and delivery are built on",
+      "rel": "enables",
+      "target": "moat:spotify-listener-affinity-graph",
+      "target_name": "Spotify Listener-Affinity Graph"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}

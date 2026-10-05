@@ -1,0 +1,12 @@
+{
+  "tag": "pitching",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/pitching-engine-human",
+      "node": "Pitching Engine (Human)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitching-engine-human.json"
+    }
+  ]
+}

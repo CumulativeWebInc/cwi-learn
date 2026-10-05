@@ -1,0 +1,12 @@
+{
+  "tag": "zero-cost-rebuild",
+  "facet": "strategy",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/machine/music-pr-firms",
+      "node": "Music PR Firms",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/music-pr-firms.json"
+    }
+  ]
+}

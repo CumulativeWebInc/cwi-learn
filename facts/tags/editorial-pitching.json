@@ -1,0 +1,12 @@
+{
+  "tag": "editorial-pitching",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/module/playlist-pitching-tool",
+      "node": "Playlist Pitching Tool",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/playlist-pitching-tool.json"
+    }
+  ]
+}

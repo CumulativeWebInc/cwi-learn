@@ -1,0 +1,27 @@
+{
+  "tag": "proprietary",
+  "facet": "status",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/moat/curator-acceptance-reliability-dataset",
+      "node": "Curator Acceptance + Reliability Dataset",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/curator-acceptance-reliability-dataset.json"
+    },
+    {
+      "packet_id": "fact/moat/journalist-relationship-graph",
+      "node": "Journalist Relationship Graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/journalist-relationship-graph.json"
+    },
+    {
+      "packet_id": "fact/moat/meta-identity-graph-estimated-action-rate",
+      "node": "Meta Identity Graph + Estimated Action Rate",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/meta-identity-graph-estimated-action-rate.json"
+    },
+    {
+      "packet_id": "fact/moat/spotify-listener-affinity-graph",
+      "node": "Spotify Listener-Affinity Graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/spotify-listener-affinity-graph.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "creative",
+  "facet": "function",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/rebuild/cwi-creative-engine",
+      "node": "CWI Creative Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-creative-engine.json"
+    }
+  ]
+}

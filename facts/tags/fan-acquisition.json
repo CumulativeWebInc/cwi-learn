@@ -1,0 +1,12 @@
+{
+  "tag": "fan-acquisition",
+  "facet": "use",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/machine/spotify-campaign-kit",
+      "node": "Spotify Campaign Kit",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/spotify-campaign-kit.json"
+    }
+  ]
+}

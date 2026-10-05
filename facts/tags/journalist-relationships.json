@@ -1,0 +1,12 @@
+{
+  "tag": "journalist-relationships",
+  "facet": "data",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/moat/journalist-relationship-graph",
+      "node": "Journalist Relationship Graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/moat/journalist-relationship-graph.json"
+    }
+  ]
+}

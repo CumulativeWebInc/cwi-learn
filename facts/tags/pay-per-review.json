@@ -1,0 +1,12 @@
+{
+  "tag": "pay-per-review",
+  "facet": "pricing",
+  "updated": "2026-10-03T13:01:30Z",
+  "packets": [
+    {
+      "packet_id": "fact/machine/playlist-pitching-marketplaces",
+      "node": "Playlist-Pitching Marketplaces",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/machine/playlist-pitching-marketplaces.json"
+    }
+  ]
+}
