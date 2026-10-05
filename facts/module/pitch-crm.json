@@ -1,0 +1,101 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitch-crm.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitch-crm.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "outreach-ops",
+      "tier": "verified",
+      "why": "follow-up queue computed from CRM history dates"
+    },
+    {
+      "facet": "role",
+      "tag": "exact-copy-gate",
+      "tier": "verified",
+      "why": "gate enforced in code, not in hope"
+    },
+    {
+      "facet": "use",
+      "tag": "followup-queue",
+      "tier": "verified",
+      "why": "2-nudge rule then park 90 days"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "29-curator queue computed as of 2026-10-03: 0 due followups; 14 drafts inventoried, all gated 'staged'",
+      "evidence": {
+        "source": "visibility-machine/modules/pitch-crm/output/pitch-queue-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Reply rate 1.0 from verified history: 5 pitches -> 5 replied/placed (kill rule armed: <5% after 20 pitches -> rewrite angles)",
+      "evidence": {
+        "source": "cwi-company/radio/curator-crm.jsonl"
+      },
+      "tier": "observed"
+    },
+    {
+      "claim": "Black killed the Audiartist lane 2026-10-03 ('i am not paying for audioaritst'): follow-up draft PARKED, no send, no paid route until he reopens it; holdings on New Rap Hits stand as-is",
+      "evidence": {
+        "source": "MEMORY.md 2026-10-03"
+      },
+      "tier": "owner_confirmed"
+    },
+    {
+      "claim": "Exact-copy gate: draft staged->approved only with {approver, approved_at, exact_text_sha256}; send log empty until a real send happens",
+      "evidence": {
+        "source": "visibility-machine/modules/pitch-crm/queue.py"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Working pitch queue: follow-up scheduling per the 2-nudge/park-90-days rule, draft inventory with the exact-copy gate enforced in code, reply-rate tracking. Nothing sends under Black's name without his exact-text approval.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitch-crm.json"
+    },
+    "fan_qa": "What is Visibility Machine — Pitch CRM (Module 4)? Working pitch queue: follow-up scheduling per the 2-nudge/park-90-days rule, draft inventory with the exact-copy gate enforced in code, reply-rate tracking. Nothing sends under Black's name without his exact-text approval.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Working pitch queue: follow-up scheduling per the 2-nudge/park-90-days rule, draft inventory with the exact-copy gate enforced in code, reply-rate tracking. Nothing sends under Black's name without his exact-text approval."
+          },
+          "name": "What is Visibility Machine — Pitch CRM (Module 4)?"
+        }
+      ]
+    },
+    "search_answer": "Working pitch queue: follow-up scheduling per the 2-nudge/park-90-days rule, draft inventory with the exact-copy gate enforced in code, reply-rate tracking. Nothing sends under Black's name without his exact-text approval.",
+    "social_caption": "Visibility Machine — Pitch CRM (Module 4) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Pitch CRM (Module 4): Working pitch queue: follow-up scheduling per the 2-nudge/park-90-days rule, draft inventory with the exact-copy gate enforced in code, reply-rate tracking. Nothing sends under Black's name without his exact-text approval. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "a6ec3c402acb55495fb4a4f685e0d954cf3af752f2e4d107b34c2ac6d7a67466"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/pitch-crm",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/pitch-crm",
+    "name": "Visibility Machine — Pitch CRM (Module 4)",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/pitch-crm",
+  "relationships": [
+    {
+      "rel": "build_order_next",
+      "target": "vm-module:pr-graph"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
