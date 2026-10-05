@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/attribution-cycle",
+  "@type": "CreativeWork",
+  "dateCreated": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "description": "The measurement cycle's current kill-rule state and next actions.",
+  "mainEntityOfPage": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.json",
+  "name": "Attribution cycle \u2014 kill-rule state 2026-10-03",
+  "provenance": [
+    {
+      "claim": "phase-2 module indexed",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/attribution-cycle"
+      },
+      "value": "vm-state:attribution-cycle"
+    }
+  ]
+}
