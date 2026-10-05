@@ -1,0 +1,76 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "curator-network",
+      "tier": "verified",
+      "why": "29 verified curators, 4 holding"
+    },
+    {
+      "facet": "proof",
+      "tag": "verified-placements",
+      "tier": "observed",
+      "why": "7 placements from verified history"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Holding: Audiartist (New Rap Hits, 3 tracks — lane killed 2026-10-03, holdings stand), Eric Alper (360°, 2 tracks), DJ 6Rings (It's Goin, Flex My Flame), Flow (No Label Needed)",
+      "evidence": {
+        "source": "cwi-company/radio/curator-crm.jsonl + MEMORY.md 2026-10-03"
+      },
+      "tier": "owner_confirmed"
+    },
+    {
+      "claim": "25 cold curators staged; first pitches need Black's exact-copy approval",
+      "evidence": {
+        "source": "cwi-company/radio/curator-crm.jsonl"
+      },
+      "tier": "observed"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed.",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.json"
+    },
+    "fan_qa": "What is Curator network — state 2026-10-03? The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed.",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed."
+          },
+          "name": "What is Curator network — state 2026-10-03?"
+        }
+      ]
+    },
+    "search_answer": "The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed.",
+    "social_caption": "Curator network — state 2026-10-03 — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Curator network — state 2026-10-03: The verified curator relationship state: 4 holding curators with placements, 25 cold, one lane killed. Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "0ec844ecdd451e140117b69c6bd57e8c7ede3c1178ef4db8fed399ee73b7a006"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/curator-network",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/state/curator-network",
+    "name": "Curator network — state 2026-10-03",
+    "status": "verified",
+    "type": "state"
+  },
+  "packet_id": "fact/module/curator-network",
+  "relationships": [],
+  "schema": "cwi-fact-packet/v1"
+}
