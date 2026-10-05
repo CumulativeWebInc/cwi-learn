@@ -1,69 +1,50 @@
 {
-  "schema": "cwi.a2a-agent-card-index/1.0",
-  "generated_at": "2026-09-17T07:55:05.057Z",
-  "transport": "issues",
-  "endpoint": "https://github.com/CumulativeWebInc/cwi-a2a-inbox/issues",
-  "agent_count": 10,
-  "agents": [
+  "cards": [
     {
-      "handle": "MUSE_CWI",
-      "public_name": "KingCode",
-      "department": "Command",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/MUSE_CWI/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/muse_cwi.json",
+      "name": "muse_cwi"
     },
     {
-      "handle": "CWI_AandR",
-      "public_name": "Needle",
-      "department": "A&R",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_AandR/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_aandr.json",
+      "name": "cwi_aandr"
     },
     {
-      "handle": "CWI_Marketing",
-      "public_name": "Marquee",
-      "department": "Marketing & Social",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Marketing/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_marketing.json",
+      "name": "cwi_marketing"
     },
     {
-      "handle": "CWI_Sync",
-      "public_name": "Seal",
-      "department": "Sync & Licensing",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Sync/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_sync.json",
+      "name": "cwi_sync"
     },
     {
-      "handle": "CWI_Radio",
-      "public_name": "Dial",
-      "department": "Radio & Playlists",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Radio/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_radio.json",
+      "name": "cwi_radio"
     },
     {
-      "handle": "CWI_Press",
-      "public_name": "Dateline",
-      "department": "Press & PR",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Press/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_press.json",
+      "name": "cwi_press"
     },
     {
-      "handle": "CWI_Studio",
-      "public_name": "Fader",
-      "department": "Content Studio",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Studio/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_studio.json",
+      "name": "cwi_studio"
     },
     {
-      "handle": "CWI_Data",
-      "public_name": "Ledger",
-      "department": "Data & Analytics",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Data/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_data.json",
+      "name": "cwi_data"
     },
     {
-      "handle": "CWI_Affairs",
-      "public_name": "Charter",
-      "department": "Business Affairs",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Affairs/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_affairs.json",
+      "name": "cwi_affairs"
     },
     {
-      "handle": "CWI_Results",
-      "public_name": "Receipt",
-      "department": "Results",
-      "card_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/CWI_Results/agent-card.json"
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_results.json",
+      "name": "cwi_results"
+    },
+    {
+      "card": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agents/cwi_athena.json",
+      "name": "cwi_athena"
     }
-  ]
+  ],
+  "fleet": "CWI Agent Card Fleet",
+  "version": "1.0.0"
 }
