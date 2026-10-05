@@ -35,7 +35,7 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 
 ## Live edge endpoint — logged, licensed, queryable (LIVE 2026-10-04)
 
-> https://cwi-machine-data.hp-ace.workers.dev — Cloudflare edge layer in front of this learning surface.
+> https://data.cumulativeweb.com — Cloudflare edge layer in front of this learning surface.
 > Every fetch is logged and attributed by consumer (LLM crawlers identified); all data responses carry
 > machine-readable licensing terms (commercial training use requires a license — contact hp@cumulativeweb.com).
 > - Track query API: /query?q=<keywords> — e.g. /query?q=post-trap+cyberpunk returns scored tracks with Spotify links
