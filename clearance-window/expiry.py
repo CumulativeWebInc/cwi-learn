@@ -193,3 +193,21 @@ def mint_grant(
     }
     grant["hash"] = compute_hash(grant)
     return grant
+
+
+if __name__ == "__main__":
+    # Read-only verify mode for shell-out callers (e.g. the CWI MCP server).
+    # Reads ONE JSON object from stdin:
+    #   {"grant": {...}, "at": "ISO-8601|null", "required_scope": "str|null",
+    #    "leeway_seconds": 60}
+    # Prints the verdict JSON to stdout. No side effects.
+    import sys as _sys
+
+    payload = json.load(_sys.stdin)
+    result = verify_grant(
+        payload.get("grant"),
+        at=payload.get("at"),
+        required_scope=payload.get("required_scope"),
+        leeway_seconds=payload.get("leeway_seconds", 60),
+    )
+    print(json.dumps(result))
