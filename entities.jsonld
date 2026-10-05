@@ -517,6 +517,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/press-kit/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/press-kit/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#dial",
+      "name": "Radio Dial",
+      "description": "Radio-rotation gear for AI agents: station-ID cards in agent and fan voice, DJ script templates, request-line templates with anti-payola etiquette, playlist flow builder (openers/mids/closers), and a listener-testimonial collection schema. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/dial/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/dial/",
+        "https://cumulativewebinc.github.io/cwi-learn/dial/station-id-cards.json",
+        "https://cumulativewebinc.github.io/cwi-learn/dial/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/dial/announce.html"
+      ]
     }
   ],
   "cwi": {
