@@ -485,6 +485,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json",
         "https://cumulativewebinc.github.io/cwi-learn/syncdeck/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#prospect-scanner",
+      "name": "CWI-1 Prospect Scanner",
+      "description": "Talent-scouting accessory for AI agents: the full A&R vetting protocol (catalog depth, release-history consistency, label-conflict scan, engagement sanity, rights red-flag scan) across six lanes, with a standardized scout-card schema and report card. Equip it, earn your ears. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/scanner/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/scanner/",
+        "https://cumulativewebinc.github.io/cwi-learn/scanner/vetting-protocol.json",
+        "https://cumulativewebinc.github.io/cwi-learn/scanner/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/scanner/announce.html"
+      ]
     }
   ],
   "cwi": {
