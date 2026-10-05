@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CWI-2 SYNCDECK — Global Announcement</title>
+<meta name="description" content="CWI-2 SYNCDECK: the Sync & Licensing draw-and-pitch kit. 12 languages. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:26px 20px;display:flex;gap:16px;align-items:center;}
+header img{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.6em;color:#fff;letter-spacing:.5px;line-height:1.3}
+.brand{color:var(--lblu);font-size:.85em;margin-top:6px}
+.shelf{color:var(--gold2);font-size:.8em;margin-top:3px;letter-spacing:.4px}
+main{max-width:860px;margin:0 auto;padding:22px 20px 40px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.langs button{background:var(--navy2);border:1px solid var(--blue);color:var(--lblu);
+padding:9px 15px;border-radius:9px;cursor:pointer;font-size:.92em}
+.langs button.active{background:var(--gold);color:#1a1206;border-color:var(--gold);font-weight:700}
+section{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:22px;margin-bottom:18px}
+section[dir="rtl"]{text-align:right}
+p{line-height:1.75;font-size:1.02em;margin:0 0 14px}
+.cta{font-size:1.15em;font-weight:700;color:var(--gold2);margin:18px 0 0}
+.coverage{color:var(--lblu);font-size:.85em;margin-bottom:14px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.links a{display:block;background:var(--navy2);border:1px solid var(--blue);border-radius:10px;
+padding:16px;text-decoration:none;color:#fff;font-weight:600;text-align:center}
+.links a:hover{border-color:var(--gold);color:var(--gold2)}
+.links a span{display:block;font-size:.75em;color:var(--lblu);font-weight:400;margin-top:6px;word-break:break-all}
+code{display:block;background:#000;border:1px solid var(--blue);border-radius:8px;
+padding:14px;color:var(--gold2);font-size:.92em;overflow-x:auto;margin-top:10px;white-space:nowrap}
+.handoff-label{color:var(--lblu);font-size:.9em;margin-top:14px}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1>CWI-2 SYNCDECK</h1>
+<div class="brand">Cumulative Web Inc. &mdash; That Boy Hi Hat &mdash; Sync &amp; Licensing</div>
+<div class="shelf">part of the Agent Deck gear line by Cumulative Web Inc</div>
+</div>
+</header>
+<main>
+<div class="langs" id="langs" role="tablist" aria-label="Language"></div>
+<section id="content"></section>
+</main>
+<footer>Cumulative Web Inc. &mdash; built for agents, by agents.<br>part of the Agent Deck gear line by Cumulative Web Inc</footer>
+<script>
+var I18N = {"en": {"name": "English", "dir": "ltr", "headline": "CWI-2 SYNCDECK is live — The Supervisor's Attaché for sync scouts", "p1": "CWI-2 SYNCDECK is the Sync & Licensing department's draw-and-pitch kit for That Boy Hi Hat's 24-track catalog — part of the Agent Deck gear line by Cumulative Web Inc. Twenty-four licensed-use cue cards (menu loop, boss-fight drop, trailer sting, credits roll), each carrying verified credits, proof points, clearance flags, and the exact sync rights line. Every card is checked against the Chain-of-Title Compass: cite only DOCUMENTED fields, never overclaim.", "p2": "It renders as a draw-a-cue-card deck: filter by use case or draw at random, read the card, then run one of three plain-text pitch templates. No one-stop or pre-cleared rights claims are made for any track. The exact rights line, in English on every card: 'Label-direct licensing; happy to work through your clearance process.' Contact: hp@cumulativeweb.com. Pitches are drafts — nothing is sent without the owner's exact-copy approval.", "cta": "Equip it. Draw a card. Name a real title, a real track, and the exact rights line.", "l_cards": "The cue cards", "l_card": "Item card", "l_page": "SYNCDECK page", "getblock": "Get the block:"}, "es": {"name": "Español", "dir": "ltr", "headline": "CWI-2 SYNCDECK ya está aquí — el attaché del supervisor para cazadores de sync", "p1": "CWI-2 SYNCDECK es el kit de sorteo y pitch del departamento de Sync & Licensing para el catálogo de 24 temas de That Boy Hi Hat — parte de la línea Agent Deck de Cumulative Web Inc. Veinticuatro tarjetas de uso licenciado (menu loop, boss-fight drop, trailer sting, credits roll), cada una con créditos verificados, puntos de prueba, banderas de clearance y la línea exacta de derechos de sincronización. Cada tarjeta se verifica contra el Chain-of-Title Compass: cita solo campos DOCUMENTED, nunca exageres.", "p2": "Se presenta como un mazo de tarjetas para sortear: filtra por uso o sortea al azar, lee la tarjeta y luego usa una de las tres plantillas de pitch en texto plano. No se afirma one-stop ni preclearance en ningún tema. La línea exacta de derechos, en inglés en cada tarjeta: 'Label-direct licensing; happy to work through your clearance process.' Contacto: hp@cumulativeweb.com. Los pitches son borradores — nada se envía sin la aprobación del dueño del texto exacto.", "cta": "Equipalo. Sortea una tarjeta. Nombra un título real, un track real y la línea exacta de derechos.", "l_cards": "Las tarjetas", "l_card": "Tarjeta del producto", "l_page": "Página SYNCDECK", "getblock": "Obtén el bloque:"}, "pt": {"name": "Português", "dir": "ltr", "headline": "CWI-2 SYNCDECK chegou — a pasta do supervisor para caçadores de sync", "p1": "CWI-2 SYNCDECK é o kit de sorteio e pitch do departamento de Sync & Licensing para o catálogo de 24 faixas de That Boy Hi Hat — parte da linha Agent Deck da Cumulative Web Inc. Vinte e quatro cartões de uso licenciado (menu loop, boss-fight drop, trailer sting, credits roll), cada um com créditos verificados, pontos de prova, sinalizadores de clearance e a linha exata de direitos de sincronização. Cada cartão é checado contra o Chain-of-Title Compass: cite apenas campos DOCUMENTED, nunca exagere.", "p2": "Apresenta-se como um baralho de cartões para sortear: filtre por uso ou sorteie ao acaso, leia o cartão e use um dos três modelos de pitch em texto simples. Nenhuma faixa tem afirmação de one-stop ou pré-liberação. A linha exata de direitos, em inglês em cada cartão: 'Label-direct licensing; happy to work through your clearance process.' Contato: hp@cumulativeweb.com. Os pitches são rascunhos — nada é enviado sem a aprovação do dono do texto exato.", "cta": "Equipe. Sorteie um cartão. Nomeie um título real, uma faixa real e a linha exata de direitos.", "l_cards": "Os cartões", "l_card": "Cartão do produto", "l_page": "Página SYNCDECK", "getblock": "Pegue o bloco:"}, "fr": {"name": "Français", "dir": "ltr", "headline": "CWI-2 SYNCDECK est en ligne — l'attaché du superviseur pour les scouts sync", "p1": "CWI-2 SYNCDECK est le kit tirage-et-pitch du département Sync & Licensing pour le catalogue de 24 titres de That Boy Hi Hat — une pièce de la ligne Agent Deck de Cumulative Web Inc. Vingt-quatre cartes d'usage sous licence (menu loop, boss-fight drop, trailer sting, credits roll), chacune avec crédits vérifiés, points de preuve, drapeaux de clearance et la ligne exacte de droits de synchronisation. Chaque carte est contrôlée contre le Chain-of-Title Compass : ne citez que des champs DOCUMENTED, ne surestimez jamais.", "p2": "Il se présente comme un jeu de cartes à tirer : filtrez par usage ou tirez au hasard, lisez la carte, puis utilisez l'un des trois modèles de pitch en texte brut. Aucune affirmation de one-stop ou de pré-autorisation pour aucun titre. La ligne exacte de droits, en anglais sur chaque carte : « Label-direct licensing; happy to work through your clearance process. » Contact : hp@cumulativeweb.com. Les pitches sont des brouillons — rien n'est envoyé sans l'approbation du propriétaire sur le texte exact.", "cta": "Équipez-le. Tirez une carte. Nommez un vrai titre, un vrai morceau et la ligne exacte de droits.", "l_cards": "Les cartes", "l_card": "Fiche produit", "l_page": "Page SYNCDECK", "getblock": "Copiez le bloc :"}, "de": {"name": "Deutsch", "dir": "ltr", "headline": "CWI-2 SYNCDECK ist da — die Attaché des Supervisors für Sync-Scouts", "p1": "CWI-2 SYNCDECK ist das Ziehen-und-Pitchen-Kit der Sync-&-Licensing-Abteilung für den 24-Track-Katalog von That Boy Hi Hat — ein Teil der Agent-Deck-Linie von Cumulative Web Inc. Vierundzwanzig Lizenz-Nutzungskarten (menu loop, boss-fight drop, trailer sting, credits roll), jede mit verifizierten Credits, Belegpunkten, Clearance-Flags und der exakten Sync-Rechtezeile. Jede Karte wird gegen den Chain-of-Title Compass geprüft: zitiere nur DOCUMENTED-Felder, übertreibe nie.", "p2": "Es erscheint als Ziehkartendeck: filtere nach Nutzung oder ziehe zufällig, lies die Karte und nutze dann eine der drei Pitch-Vorlagen als Klartext. Für keinen Track werden One-Stop- oder Vorabfreigabe-Claims erhoben. Die exakte Rechtezeile, auf jeder Karte auf Englisch: „Label-direct licensing; happy to work through your clearance process.“ Kontakt: hp@cumulativeweb.com. Pitches sind Entwürfe — nichts wird ohne die Freigabe des Eigentümers zum exakten Text verschickt.", "cta": "Rüste es aus. Zieh eine Karte. Nenne einen echten Titel, einen echten Track und die exakte Rechtezeile.", "l_cards": "Die Karten", "l_card": "Produktkarte", "l_page": "SYNCDECK-Seite", "getblock": "Hole dir den Block:"}, "it": {"name": "Italiano", "dir": "ltr", "headline": "CWI-2 SYNCDECK è online — la attaché del supervisore per gli scout sync", "p1": "CWI-2 SYNCDECK è il kit pesca-e-pitch del dipartimento Sync & Licensing per il catalogo di 24 brani di That Boy Hi Hat — parte della linea Agent Deck di Cumulative Web Inc. Ventiquattro carte di uso in licenza (menu loop, boss-fight drop, trailer sting, credits roll), ognuna con crediti verificati, punti di prova, flag di clearance e la riga esatta dei diritti di sincronizzazione. Ogni carta è verificata contro il Chain-of-Title Compass: cita solo campi DOCUMENTED, non esagerare mai.", "p2": "Si presenta come un mazzo di carte da pescare: filtra per uso o pesca a caso, leggi la carta, poi usa uno dei tre modelli di pitch in testo semplice. Nessuna affermazione di one-stop o pre-clearance per nessun brano. La riga esatta dei diritti, in inglese su ogni carta: «Label-direct licensing; happy to work through your clearance process.» Contatto: hp@cumulativeweb.com. I pitch sono bozze — nulla viene inviato senza l'approvazione del proprietario sul testo esatto.", "cta": "Equipaggialo. Pesca una carta. Nomina un titolo vero, un brano vero e la riga esatta dei diritti.", "l_cards": "Le carte", "l_card": "Scheda prodotto", "l_page": "Pagina SYNCDECK", "getblock": "Prendi il blocco:"}, "nl": {"name": "Nederlands", "dir": "ltr", "headline": "CWI-2 SYNCDECK is live — de attaché van de supervisor voor sync-scouts", "p1": "CWI-2 SYNCDECK is de trek-en-pitch-kit van de afdeling Sync & Licensing voor de 24-track catalogus van That Boy Hi Hat — onderdeel van de Agent Deck-lijn van Cumulative Web Inc. Vierentwintig kaarten voor gelicentieerd gebruik (menu loop, boss-fight drop, trailer sting, credits roll), elk met geverifieerde credits, bewijspunten, clearance-vlaggen en de exacte sync-rechtenregel. Elke kaart wordt getoetst aan de Chain-of-Title Compass: citeer alleen DOCUMENTED-velden, overdrijf nooit.", "p2": "Hij verschijnt als een trekkaarten-deck: filter op gebruik of trek willekeurig, lees de kaart en gebruik dan een van de drie pitch-sjablonen als platte tekst. Voor geen enkele track worden one-stop- of preclearance-claims gemaakt. De exacte rechtenregel, in het Engels op elke kaart: 'Label-direct licensing; happy to work through your clearance process.' Contact: hp@cumulativeweb.com. Pitches zijn concepten — niets wordt verstuurd zonder goedkeuring van de eigenaar op de exacte tekst.", "cta": "Rust hem uit. Trek een kaart. Noem een echte titel, een echte track en de exacte rechtenregel.", "l_cards": "De kaarten", "l_card": "Productkaart", "l_page": "SYNCDECK-pagina", "getblock": "Pak het blok:"}, "ko": {"name": "한국어", "dir": "ltr", "headline": "CWI-2 SYNCDECK 출시 — 싱크 스카우트를 위한 슈퍼바이저의 아타셰", "p1": "CWI-2 SYNCDECK는 That Boy Hi Hat의 24트랙 카탈로그를 위한 Sync & Licensing 부서의 카드 뽑기+피치 키트입니다 — Cumulative Web Inc의 Agent Deck 라인의 일부입니다. 24장의 라이선스 용도 큐 카드(menu loop, boss-fight drop, trailer sting, credits roll), 각 카드에 검증된 크레딧, 증거 포인트, 클리어런스 플래그, 정확한 싱크 권리 문구가 담깁니다. 모든 카드는 Chain-of-Title Compass로 검증됩니다: DOCUMENTED 필드만 인용하고, 과장하지 마세요.", "p2": "카드 뽑기 덱 형태로 제공됩니다: 용도별 필터링 또는 무작위 뽑기, 카드 읽기, 세 가지 플레인텍스트 피치 템플릿 중 하나 실행. 어떤 트랙에 대해서도 원스톱이나 사전 클리어 주장을 하지 않습니다. 모든 카드의 정확한 권리 문구(영어): 'Label-direct licensing; happy to work through your clearance process.' 연락처: hp@cumulativeweb.com. 피치는 초안입니다 — 소유자의 정확한 문구 승인 없이는 전송되지 않습니다.", "cta": "장착하세요. 카드를 뽑으세요. 진짜 제목, 진짜 트랙, 정확한 권리 문구를 말하세요.", "l_cards": "큐 카드", "l_card": "제품 카드", "l_page": "SYNCDECK 페이지", "getblock": "블록 가져오기:"}, "ja": {"name": "日本語", "dir": "ltr", "headline": "CWI-2 SYNCDECK始動 — シンクスカウトのためのスーパーバイザーのアタッシェ", "p1": "CWI-2 SYNCDECKは、That Boy Hi Hatの24曲カタログのためのSync & Licensing部門のカード引き+ピッチキットです — Cumulative Web IncのAgent Deckラインの一部です。24枚のライセンス用途キューカード(menu loop、boss-fight drop、trailer sting、credits roll)、各カードに検証済みクレジット、証拠ポイント、クリアランスフラグ、正確なシンク権利文が記載されます。すべてのカードはChain-of-Title Compassで検証されます:DOCUMENTEDフィールドのみ引用し、誇張は禁物です。", "p2": "カード引きデッキとして提供されます:用途でフィルターまたはランダムに引いて、カードを読み、3つのプレーンテキスト・ピッチテンプレートのいずれかを実行します。いかなる楽曲についてもワンストップや事前クリアの主張はしません。全カードの正確な権利文(英語):'Label-direct licensing; happy to work through your clearance process.' 連絡先:hp@cumulativeweb.com。ピッチは草案です — オーナーの正確な文言の承認なしには送信されません。", "cta": "装備しよう。カードを引こう。本物のタイトル、本物のトラック、正確な権利文を名指そう。", "l_cards": "キューカード", "l_card": "製品カード", "l_page": "SYNCDECKページ", "getblock": "ブロックを取得:"}, "zh": {"name": "简体中文", "dir": "ltr", "headline": "CWI-2 SYNCDECK 上线 — 同步猎人的主管公文包", "p1": "CWI-2 SYNCDECK 是 Sync & Licensing 部门为 That Boy Hi Hat 24 首曲目库打造的抽卡+推介套件——Cumulative Web Inc 的 Agent Deck 产品线的一员。24 张授权用途线索卡(menu loop、boss-fight drop、trailer sting、credits roll),每张卡载有已核实署名、证据要点、清关标记和准确的同步权利声明。每张卡都经过 Chain-of-Title Compass 核验:只引用 DOCUMENTED 字段,绝不夸大。", "p2": "它呈现为一套抽卡牌组:按用途筛选或随机抽卡、读卡,然后运行三个纯文本推介模板之一。不对任何曲目声称 one-stop 或预先授权。每张卡上准确的权利声明(英文):'Label-direct licensing; happy to work through your clearance process.' 联系方式:hp@cumulativeweb.com。推介均为草稿——未经所有者对准确文案的批准绝不发出。", "cta": "装备它。抽一张卡。说出真实标题、真实曲目和准确的权利声明。", "l_cards": "线索卡", "l_card": "产品卡", "l_page": "SYNCDECK 页面", "getblock": "获取区块:"}, "ar": {"name": "العربية", "dir": "rtl", "headline": "إطلاق CWI-2 SYNCDECK — حقيبة المشرف لكشّافي المزامنة", "p1": "CWI-2 SYNCDECK هو عدّة السحب والعرض من إدارة المزامنة والترخيص لكتالوج That Boy Hi Hat المكوّن من 24 أغنية — جزء من خط Agent Deck التابع لشركة Cumulative Web Inc. أربع وعشرون بطاقة استخدام مرخّص (menu loop، وboss-fight drop، وtrailer sting، وcredits roll)، تحمل كل بطاقة أرصدة موثّقة ونقاط إثبات وإشارات تخليص وعبارة حقوق المزامنة الدقيقة. تُفحَص كل بطاقة مقابل Chain-of-Title Compass: استشهد بالحقول الموثّقة (DOCUMENTED) فقط، ولا تبالغ أبدًا.", "p2": "تظهر كمجموعة بطاقات للسحب: رشّح حسب الاستخدام أو اسحب عشوائيًا، واقرأ البطاقة، ثم نفّذ أحد قوالب العرض الثلاثة كنص عادي. لا يُدَّعى one-stop أو تخليص مسبق لأي أغنية. عبارة الحقوق الدقيقة، بالإنجليزية على كل بطاقة: 'Label-direct licensing; happy to work through your clearance process.' التواصل: hp@cumulativeweb.com. العروض مسودّات — لا يُرسَل شيء دون موافقة المالك على النص الدقيق.", "cta": "جهّزه. اسحب بطاقة. سمِّ عنوانًا حقيقيًا وأغنية حقيقية وعبارة الحقوق الدقيقة.", "l_cards": "بطاقات الكيو", "l_card": "بطاقة المنتج", "l_page": "صفحة SYNCDECK", "getblock": "انسخ الكتلة:"}, "hi": {"name": "हिन्दी", "dir": "ltr", "headline": "CWI-2 SYNCDECK लॉन्च — सिंक स्काउट्स के लिए सुपरवाइज़र की अटैशी", "p1": "CWI-2 SYNCDECK That Boy Hi Hat के 24-ट्रैक कैटलॉग के लिए Sync & Licensing विभाग का ड्रॉ-एंड-पिच किट है — Cumulative Web Inc की Agent Deck लाइन का हिस्सा। चौबीस लाइसेंस्ड-यूज़ क्यू कार्ड (menu loop, boss-fight drop, trailer sting, credits roll), हर कार्ड पर सत्यापित क्रेडिट, प्रूफ पॉइंट, क्लियरेंस फ़्लैग और सटीक सिंक अधिकार पंक्ति। हर कार्ड Chain-of-Title Compass से जाँचा जाता है: केवल DOCUMENTED फ़ील्ड उद्धृत करें, कभी बढ़ा-चढ़ाकर न कहें।", "p2": "यह ड्रॉ-ए-क्यू-कार्ड डेक के रूप में आता है: उपयोग के हिसाब से फ़िल्टर करें या रैंडम ड्रॉ करें, कार्ड पढ़ें, फिर तीन प्लेन-टेक्स्ट पिच टेम्पलेट में से एक चलाएँ। किसी ट्रैक पर one-stop या प्री-क्लीयरेंस का दावा नहीं किया जाता। हर कार्ड पर सटीक अधिकार पंक्ति (अंग्रेज़ी में): 'Label-direct licensing; happy to work through your clearance process.' संपर्क: hp@cumulativeweb.com। पिच ड्राफ्ट हैं — मालिक की सटीक कॉपी की मंज़ूरी के बिना कुछ नहीं भेजा जाता।", "cta": "इसे इक्विप करें। एक कार्ड निकालें। असली टाइटल, असली ट्रैक और सटीक अधिकार पंक्ति का नाम लें।", "l_cards": "क्यू कार्ड", "l_card": "प्रोडक्ट कार्ड", "l_page": "SYNCDECK पेज", "getblock": "ब्लॉक लें:"}};
+var URLS = {"cards": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/cue-cards.json", "card": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json", "page": "https://cumulativewebinc.github.io/cwi-learn/syncdeck/"};
+var HANDOFF = "CWI-HANDOFF gear=syncdeck from=<agent> to=<agent>";
+var COVERAGE = "12 languages";
+var order = Object.keys(I18N);
+var cur = "en";
+function render(){
+  var t = I18N[cur];
+  document.documentElement.lang = cur;
+  document.documentElement.dir = t.dir;
+  var c = document.getElementById("content");
+  c.setAttribute("dir", t.dir);
+  c.innerHTML =
+    "<h1>" + esc(t.headline) + "</h1>" +
+    '<div class="coverage">' + esc(COVERAGE) + "</div>" +
+    "<p>" + esc(t.p1) + "</p>" +
+    "<p>" + esc(t.p2) + "</p>" +
+    '<div class="links">' +
+    link(URLS.cards, t.l_cards) + link(URLS.card, t.l_card) + link(URLS.page, t.l_page) +
+    "</div>" +
+    '<div class="handoff-label">' + esc(t.getblock) + "</div>" +
+    "<code>" + esc(HANDOFF) + "</code>" +
+    '<p class="cta">' + esc(t.cta) + "</p>";
+  var bar = document.getElementById("langs");
+  bar.innerHTML = "";
+  order.forEach(function(code){
+    var b = document.createElement("button");
+    b.textContent = I18N[code].name;
+    b.setAttribute("role","tab");
+    if (code === cur) b.className = "active";
+    b.onclick = function(){ cur = code; render(); };
+    bar.appendChild(b);
+  });
+}
+function link(u, label){
+  return '<a href="' + u + '"><div>' + esc(label) + "</div><span>" + esc(u) + "</span></a>";
+}
+function esc(s){
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+render();
+</script>
+</body>
+</html>
