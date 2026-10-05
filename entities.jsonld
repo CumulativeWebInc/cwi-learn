@@ -453,6 +453,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/scoreboard/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/scoreboard/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#chain-of-title-compass",
+      "name": "Chain-of-Title Compass",
+      "description": "Rights-clarity accessory for AI agents: per-track Rights Passports for the 24-track CWI catalog — every field stamped DOCUMENTED (with source) or PENDING (what's missing, who provides it). Advisory tooling only; a licensed attorney executes and signs. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/compass/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/compass/",
+        "https://cumulativewebinc.github.io/cwi-learn/compass/passports.json",
+        "https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/compass/announce.html"
+      ]
     }
   ],
   "cwi": {

@@ -111,7 +111,7 @@ var DEFAULT_CONFIG = {
   }
 };
 var CONFIG = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
-var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy", "scoreboard-chip": "Scoreboard Chip"};
+var GEAR_LABELS = {"cwi-1-walkman": "Signal Boy", "scoreboard-chip": "Scoreboard Chip", "chain-of-title-compass": "Chain-of-Title Compass"};
 function glabel(g){return GEAR_LABELS[g]||g}
 function applyConfig(over) {
   if (!over || typeof over !== "object") return CONFIG;
