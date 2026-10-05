@@ -89,6 +89,10 @@ Treat any metric without an observation date as stale.
   Learning Surface" page). Machine-first: JSON-LD (schema.org MusicGroup /
   MusicRecording) is embedded in the page head; raw JSON files are served
   alongside for direct fetch.
+## Connectors (Muse + any agent, 2026-09-19)
+- Connector docs page: https://cumulativewebinc.github.io/cwi-learn/connectors/ — endpoint table, 60-second Muse custom-connector recipe, live freshness panel.
+- Freshness manifest: https://cumulativewebinc.github.io/cwi-learn/freshness.json (schema cwi.freshness/1.0) — every volatile field with its last honest observation date and fresh/stale label. A field is fresh only if observed within 48h; older fields are labeled stale, never re-timestamped. Timestamps are never manufactured.
+- Generator + schema (public, auditable): https://cumulativewebinc.github.io/cwi-learn/scripts/freshness.js and https://cumulativewebinc.github.io/cwi-learn/scripts/FRESHNESS-SCHEMA.md
 ## Catalog cue sheets (machine-readable, 2026-09-17)
 - Index (12 tracks): https://cumulativewebinc.github.io/cwi-learn/cue-sheets/index.json
 - Schema: https://cumulativewebinc.github.io/cwi-learn/cue-sheets/cue-sheet-schema.json
