@@ -1,0 +1,445 @@
+openapi: 3.1.0
+info:
+  title: CWI Agent Deck API — x402 micropayments
+  version: 0.3.0
+  summary: Per-call data API for CWI catalog, product, ledger, and intelligence data, settled in USDC on Base via the x402 protocol.
+  description: |
+    **Deployment truth (do not misread): this API is PRIVATE and LOCAL-ONLY.**
+    It runs exclusively on `http://127.0.0.1:4021` on the CWI operator's machine.
+    There is no public URL, no tunnel, and no hosted deployment. Testnet only
+    (Base Sepolia, `eip155:84532`). No funded on-chain settlement has been
+    demonstrated — see `status.html` for the honest settlement record.
+
+    The server holds no private keys and cannot sign. Funds can only land on the
+    owner-configured `X402_PAY_TO` address. If `X402_PAY_TO` is unset, paid routes
+    answer `503 not_configured`.
+
+    All data is real CWI operational data (Intelligence Engine JSONL, Agent Deck
+    MCP snapshots, the canonical Gear Ledger). Missing data returns an explicit
+    error — never a guess.
+  contact:
+    name: Cumulative Web Inc
+    email: hp@cumulativeweb.com
+  license:
+    name: Proprietary — Cumulative Web Inc. No license granted by this spec.
+
+servers:
+  - url: http://127.0.0.1:4021
+    description: Local instance only — the API is not reachable from the internet.
+
+security:
+  - x402Payment: []
+
+components:
+  securitySchemes:
+    x402Payment:
+      type: apiKey
+      in: header
+      name: X-PAYMENT
+      description: |
+        EIP-3009 authorization payload submitted AFTER the server answers 402.
+        Flow: (1) call the endpoint unpaid; (2) read the 402 `PAYMENT-REQUIRED`
+        header (base64 JSON) for the `accepts` challenge: scheme `exact`,
+        network `eip155:84532`, amount in USDC base units (6 decimals),
+        asset = Base Sepolia USDC `0x036CbD53842c5426634E7929541eC2318f3dCF7e`,
+        payTo = owner address; (3) sign the authorization and resubmit the same
+        request with the signed payload in the `X-PAYMENT` header; (4) the server
+        verifies with the facilitator before serving. Field shapes follow
+        x402-foundation/x402 examples — the x402 repo is the authority.
+  headers:
+    PaymentRequired:
+      description: Base64-encoded JSON 402 challenge, present on every unpaid paid-route call.
+      schema:
+        type: string
+        format: byte
+  schemas:
+    Error:
+      type: object
+      required: [ok, error]
+      properties:
+        ok: { type: boolean, example: false }
+        error: { type: string }
+        note: { type: string }
+    Challenge:
+      type: object
+      description: Decoded PAYMENT-REQUIRED challenge.
+      properties:
+        accepts:
+          type: array
+          items:
+            type: object
+            required: [scheme, network, amount, asset, payTo]
+            properties:
+              scheme: { type: string, example: exact }
+              network: { type: string, example: eip155:84532 }
+              amount: { type: string, example: "50000", description: USDC base units (6 decimals); "50000" = $0.05 }
+              asset: { type: string, example: 0x036CbD53842c5426634E7929541eC2318f3dCF7e, description: Base Sepolia USDC contract }
+              payTo: { type: string, description: Owner receive address — the only place funds can land. }
+              description: { type: string }
+    Placement:
+      type: object
+      properties:
+        playlist: { type: string }
+        date: { type: string }
+        channel: { type: string }
+        submission: { type: string, nullable: true }
+        source: { type: string, example: cwi-verified }
+    CatalogHit:
+      type: object
+      properties:
+        title: { type: string }
+        spotify_id: { type: string }
+        evidence_tier: { type: string }
+        attrs: { type: object }
+    ProductHit:
+      type: object
+      properties:
+        name: { type: string }
+        purpose: { type: string }
+        department: { type: string }
+        category: { type: string }
+        version: { type: string }
+        product_url: { type: string, format: uri }
+        item_card_url: { type: string, format: uri }
+    SkinConfig:
+      type: object
+      properties:
+        skin_id: { type: string }
+        skin_name: { type: string }
+        season: { type: string }
+        skin_version: { type: string }
+        inspired_by: { type: string }
+        palette: { type: object, description: Full hex token set. }
+        logo_lockup: { type: object }
+
+paths:
+  /health:
+    get:
+      summary: Service health (free)
+      security: []
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  service: { type: string, example: cwi-x402-agent-deck-api }
+                  version: { type: string, example: 0.3.0 }
+                  payments_armed: { type: boolean, description: True when X402_PAY_TO is configured. }
+
+  /pricing:
+    get:
+      summary: Priced route table (free)
+      security: []
+      description: Lists all 8 priced routes with per-call prices. Prices are pilot values, per-call band $0.02–$0.25.
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  pay_to_set: { type: boolean }
+                  network: { type: string, example: eip155:84532 }
+                  asset: { type: string, example: USDC }
+                  routes:
+                    type: object
+                    additionalProperties:
+                      type: object
+                      properties:
+                        price: { type: string, example: "$0.05" }
+                        description: { type: string }
+
+  /api/v1/playlist-check:
+    get:
+      summary: Verify a track's current verified playlist placements
+      description: |
+        Price: **$0.05** per call (50000 USDC base units). Source: Intelligence
+        Engine outreach.jsonl (verified placements) + playlist scan series.
+        Disclaimer: CWI's own verification records, not Spotify-certified.
+      parameters:
+        - name: track
+          in: query
+          required: true
+          schema: { type: string }
+          example: Zooted Zone
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  data:
+                    type: object
+                    properties:
+                      track: { type: string }
+                      verified_placements: { type: array, items: { $ref: '#/components/schemas/Placement' } }
+                      placement_count: { type: integer }
+                      last_scan: { type: object, nullable: true }
+                      disclaimer: { type: string }
+        "400": { description: "Missing ?track=", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/momentum-score:
+    get:
+      summary: Momentum snapshot for a track
+      description: |
+        Price: **$0.05** per call (50000 USDC base units). Plays, listeners,
+        verified placements, outreach outcomes from the Intelligence Engine.
+        Disclaimer: CWI's own tracking data with confidence labels, not a forecast guarantee.
+      parameters:
+        - name: track
+          in: query
+          required: true
+          schema: { type: string }
+          example: Zooted Zone
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  data:
+                    type: object
+                    properties:
+                      track: { type: string }
+                      lifetime_plays: { type: object, nullable: true, properties: { value: { type: number }, as_of: { type: string } } }
+                      monthly_listeners: { type: object, nullable: true, properties: { value: { type: number }, as_of: { type: string } } }
+                      verified_placements: { type: integer }
+                      outreach_outcomes: { type: object }
+                      disclaimer: { type: string }
+        "400": { description: "Missing ?track=", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/catalog-lookup:
+    get:
+      summary: Search the 24-track That Boy Hi Hat catalog
+      description: |
+        Price: **$0.02** per call (20000 USDC base units). Source: MCP graph.json
+        (24-track catalog with evidence tiers). Empty result means no match — never a guess.
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema: { type: string }
+          example: zooted
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1, maximum: 24, default: 10 }
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  query: { type: string }
+                  count: { type: integer }
+                  catalog_size: { type: integer, example: 24 }
+                  results: { type: array, items: { $ref: '#/components/schemas/CatalogHit' } }
+                  policy: { type: string }
+        "400": { description: "Missing ?query=", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/product-lookup:
+    get:
+      summary: Search the Agent Deck product registry
+      description: |
+        Price: **$0.03** per call (30000 USDC base units). Source: MCP
+        products.json (18 SKUs). Empty `query` returns the full registry.
+      parameters:
+        - name: query
+          in: query
+          required: false
+          schema: { type: string, default: "" }
+          example: signal
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1, maximum: 18, default: 10 }
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  query: { type: string }
+                  count: { type: integer }
+                  catalog_size: { type: integer, example: 18 }
+                  results: { type: array, items: { $ref: '#/components/schemas/ProductHit' } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/skin-config:
+    get:
+      summary: SIGNAL SKIN configs
+      description: |
+        Price: **$0.02** per call (20000 USDC base units). Source: MCP skins.json
+        + skin_apply.json (4 verified skins). Omitting `skin_id` returns all
+        configs. Brand rule: the official CWI logo ships on every skin — the
+        logo lockup is never removed.
+      parameters:
+        - name: skin_id
+          in: query
+          required: false
+          schema: { type: string }
+          example: zooted-bloom
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  config: { $ref: '#/components/schemas/SkinConfig', description: Present when skin_id matched. }
+                  count: { type: integer, description: Present when skin_id omitted. }
+                  configs: { type: array, items: { $ref: '#/components/schemas/SkinConfig' }, description: Present when skin_id omitted. }
+                  apply_instructions: { type: array, items: { type: string } }
+                  brand_rule: { type: string }
+        "404": { description: "Unknown skin_id.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/ledger-read:
+    get:
+      summary: Read the hash-chained Gear Ledger
+      description: |
+        Price: **$0.10** per call (100000 USDC base units). Source: the canonical
+        10-entry Gear Ledger. `verify_chain=true` additionally verifies the full
+        prev_hash chain server-side.
+      parameters:
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1, maximum: 100, default: 10 }
+        - name: verify_chain
+          in: query
+          required: false
+          schema: { type: boolean, default: false }
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  ledger: { type: string }
+                  entry_count: { type: integer, example: 10 }
+                  entries: { type: array, items: { type: object } }
+                  chain_verification: { type: object }
+                  live_source: { type: string, format: uri, example: https://cumulativewebinc.github.io/cwi-learn/agents/ledger.json }
+        "500": { description: "Ledger data absent.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/attestation:
+    get:
+      summary: Hash-chained attestation receipt for one ledger entry
+      description: |
+        Price: **$0.10** per call (100000 USDC base units). Returns the entry plus
+        its prev/next hash links and a chain_ok verdict against the canonical
+        Gear Ledger.
+      parameters:
+        - name: seq
+          in: query
+          required: true
+          schema: { type: integer }
+          example: 9
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  attestation: { type: string }
+                  entry: { type: object }
+                  chain_links: { type: object, properties: { prev_hash: { type: string }, hash: { type: string }, prev_entry_hash: { type: string }, next_entry_hash: { type: string, nullable: true } } }
+                  chain_ok: { type: boolean }
+                  verified_at: { type: string, format: date-time }
+                  note: { type: string }
+        "400": { description: "Missing or non-integer ?seq=", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "404": { description: "No ledger entry with that seq.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+  /api/v1/sync-readiness:
+    get:
+      summary: Honest sync-readiness brief for a track
+      description: |
+        Price: **$0.25** per call (250000 USDC base units). This endpoint is NOT
+        a pre-clearance: `rights.rights_certainty_claimed` is always false and
+        no one-stop / pre-cleared rights claim is made. It sells an honest
+        readiness brief (verified credits, instrumental/clean-version
+        availability, contact path) with rights gaps labeled. Selling clearance
+        CWI does not hold would be fraud.
+      parameters:
+        - name: track
+          in: query
+          required: true
+          schema: { type: string }
+          example: Diabolique
+      responses:
+        "200":
+          description: "Paid and served."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  track: { type: string }
+                  in_catalog: { type: boolean }
+                  evidence_tier: { type: string }
+                  verified_facts:
+                    type: object
+                    properties:
+                      artist: { type: string, example: That Boy Hi Hat }
+                      producer_credits: { type: string, nullable: true }
+                      recording_studio: { type: string, nullable: true }
+                      release: { type: string, nullable: true }
+                  rights:
+                    type: object
+                    properties:
+                      rights_certainty_claimed: { type: boolean, example: false }
+                      pre_cleared_claim: { type: string }
+                      instrumental_versions_exist: { type: boolean }
+                      clean_fcc_versions_exist: { type: boolean }
+                      note: { type: string, nullable: true }
+                  next_step: { type: string }
+                  disclaimer: { type: string }
+        "400": { description: "Missing ?track=", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+        "402": { description: "Payment required — see PAYMENT-REQUIRED header.", headers: { PAYMENT-REQUIRED: { $ref: '#/components/headers/PaymentRequired' } } }
+        "503": { description: "Owner has not set X402_PAY_TO.", content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } } }
+
+tags:
+  - name: free
+    description: No payment required.
+  - name: priced
+    description: x402 exact-scheme USDC payment required per call (Base Sepolia testnet only).
