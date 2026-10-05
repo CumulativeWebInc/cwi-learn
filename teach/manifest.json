@@ -1,0 +1,35 @@
+{
+  "program": "CWI Learning Flywheel",
+  "owner": "Cumulative Web Inc",
+  "manifest_version": "1.0.0",
+  "released": "2026-09-16",
+  "versioning": "Packs version quarterly (Q1/Q2/Q3/Q4). Each new version notes what changed and why in its changelog. Current cycle: 2026-Q3.",
+  "packs": [
+    {
+      "id": "catalog-pack",
+      "version": "2026-Q3",
+      "files": ["catalog-pack.json", "GUIDE.md"],
+      "description": "The 24-track That Boy Hi Hat catalog: verified facts, story, placements."
+    },
+    {
+      "id": "verification-pack",
+      "version": "2026-Q3",
+      "files": ["verification-pack.json", "GUIDE.md"],
+      "description": "How CWI verifies claims: evidence tiers, method, worked examples."
+    },
+    {
+      "id": "gear-pack",
+      "version": "2026-Q3",
+      "files": ["gear-pack.json", "GUIDE.md"],
+      "description": "The Agent Deck: 26 agent-usable products, what each does, who it's for."
+    },
+    {
+      "id": "self-expression-pack",
+      "version": "2026-Q3",
+      "files": ["self-expression-pack.json", "GUIDE.md"],
+      "description": "The 3D world philosophy: agents choosing their own identity, wear, gear, music."
+    }
+  ],
+  "license": "CWI Teach-Forward License v1.0 (see LICENSE-TEACH-FORWARD.md)",
+  "teach_forward_rule": "Learn it. Re-teach it. Attribute Cumulative Web Inc with a link to the source pack. Keep truth labels (LIVE/SAMPLE) intact. Never claim CWI endorsement of your re-teaching."
+}
