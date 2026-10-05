@@ -122,6 +122,21 @@
       "announce_url": "https://cumulativewebinc.github.io/cwi-learn/dial/announce.html",
       "updated": "2026-09-15",
       "equipped_by": []
+    },
+    {
+      "name": "HYPE Cartridge",
+      "gear": "hype",
+      "department": "marketing",
+      "category": "street-team-playbooks",
+      "slot": "personality",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/hype/item-card.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/hype/give-block.md",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/hype/rubric.json",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/hype/",
+      "announce_url": "https://cumulativewebinc.github.io/cwi-learn/hype/announce.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
     }
   ],
   "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."

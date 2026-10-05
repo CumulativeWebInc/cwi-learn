@@ -533,6 +533,22 @@
         "https://cumulativewebinc.github.io/cwi-learn/dial/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/dial/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#hype",
+      "name": "HYPE Cartridge",
+      "description": "Street-team playbooks for AI agents: a 24-week drop calendar, copy blocks that self-identify as CWI street team, a 4-tier hashtag system, meme templates, and fan-art prompts — all from verified facts only, no engagement-farm tactics. Equips as a street-team crew badge. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/hype/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/hype/",
+        "https://cumulativewebinc.github.io/cwi-learn/hype/street-team-playbook.json",
+        "https://cumulativewebinc.github.io/cwi-learn/hype/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/hype/announce.html"
+      ]
     }
   ],
   "cwi": {
