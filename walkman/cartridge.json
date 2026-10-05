@@ -478,5 +478,104 @@
         "one_stop_precleared_claim": false
       }
     }
-  ]
+  ],
+  "vibes": [
+    {
+      "id": "zooted",
+      "name": "ZOOTED ZONE",
+      "skin": "neon-night",
+      "note": "neon-night skin; high-energy tracks first (CWI-curated sequence).",
+      "track_order": [
+        "Zooted Zone",
+        "Shaka Zulu",
+        "Flamerz",
+        "Ultimate",
+        "Flex My Flame",
+        "Smokin' Pain",
+        "Toxic Elements",
+        "Misfits and Hooligans",
+        "Neon Nights Pt. 777",
+        "Warped and Wicked",
+        "Phantasm",
+        "Spirits n Shadows",
+        "Doves & Diamonds",
+        "Diabolique",
+        "Golden Diamond",
+        "Painted Lady",
+        "Scorpions & Sapphires",
+        "Rainbows And Roses",
+        "Tears and Scars",
+        "7th Angel",
+        "Roses over Monaco",
+        "Place I Go to Dream",
+        "Place I Go to Dream - Remastered",
+        "Place I Go to Dream - Instrumental"
+      ]
+    },
+    {
+      "id": "diabolique",
+      "name": "DIABOLIQUE",
+      "skin": "dark-luxe",
+      "note": "dark-luxe skin; cinematic/mood tracks first (CWI-curated sequence).",
+      "track_order": [
+        "Diabolique",
+        "Doves & Diamonds",
+        "Place I Go to Dream",
+        "Place I Go to Dream - Remastered",
+        "Place I Go to Dream - Instrumental",
+        "Painted Lady",
+        "Tears and Scars",
+        "Rainbows And Roses",
+        "Golden Diamond",
+        "Scorpions & Sapphires",
+        "7th Angel",
+        "Roses over Monaco",
+        "Spirits n Shadows",
+        "Phantasm",
+        "Warped and Wicked",
+        "Neon Nights Pt. 777",
+        "Misfits and Hooligans",
+        "Smokin' Pain",
+        "Toxic Elements",
+        "Flex My Flame",
+        "Ultimate",
+        "Flamerz",
+        "Shaka Zulu",
+        "Zooted Zone"
+      ]
+    },
+    {
+      "id": "ptf",
+      "name": "POST-TRAP FUTURISM",
+      "skin": "chrome",
+      "note": "chrome skin; the full 24 in catalog order.",
+      "track_order": [
+        "Zooted Zone",
+        "Shaka Zulu",
+        "Doves & Diamonds",
+        "Diabolique",
+        "Flamerz",
+        "Neon Nights Pt. 777",
+        "Ultimate",
+        "Painted Lady",
+        "Warped and Wicked",
+        "Golden Diamond",
+        "Spirits n Shadows",
+        "Flex My Flame",
+        "Rainbows And Roses",
+        "Tears and Scars",
+        "Toxic Elements",
+        "7th Angel",
+        "Scorpions & Sapphires",
+        "Place I Go to Dream",
+        "Place I Go to Dream - Remastered",
+        "Place I Go to Dream - Instrumental",
+        "Smokin' Pain",
+        "Phantasm",
+        "Misfits and Hooligans",
+        "Roses over Monaco"
+      ]
+    }
+  ],
+  "default_vibe": "ptf"
 }
