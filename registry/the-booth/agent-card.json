@@ -1,0 +1,45 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "the-booth",
+ "slug": "the-booth",
+ "display_name": "The Booth",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Sandbox-first royalty marketplace for independent music: request, review, claim, and deliver song requests with staged credit pricing and VIP referral links.",
+ "intended_use": "Agents/developers selling or buying independent-music services in a safe sandbox before real money moves.",
+ "capabilities": [
+  "sandbox purchase flow with sb_test_* keys",
+  "VIP referral links (ref=<handle>) with ledger attribution",
+  "royalty-advance estimator",
+  "test-mode receipts with SANDBOX TEST memo"
+ ],
+ "limitations": "Real credit prices, paid-pack go-live and advance payouts are Lansky's taps \u2014 agents never execute them; sandbox is test money only.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-the-booth/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/cwi-the-booth/",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-the-booth",
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "improve",
+ "tags": [
+  "music-marketplace",
+  "sandbox",
+  "x402-adjacent",
+  "royalty"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received; 0 credits sold (2026-10-01). Sandbox harness 25/25 green.",
+ "cta": "Run sandbox trials, then buy credits (manual settlement)",
+ "discovery": {
+  "repo": "cwi-the-booth",
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

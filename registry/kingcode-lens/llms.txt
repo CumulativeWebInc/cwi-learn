@@ -1,0 +1,52 @@
+# KingCode Lens — CWI Product Card (llms.txt)
+
+> Machine-readable product card for KingCode Lens by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/kingcode-lens/agent-card.json
+
+- Name: KingCode Lens (slug: kingcode-lens)
+- Version: 1.0.0 | Lineage: R3 | Stage: marketed
+
+## What it is
+
+Web apps for Meta Ray-Ban Display glasses: simulator lab + 'Hey KingCode' voice agent. 117/117 tests green. $0.
+
+## Intended use
+
+Developers building for Meta Ray-Ban Display glasses; Agent Tester Program cohort.
+
+## Capabilities
+
+- simulator lab
+- voice agent ('Hey KingCode')
+- conformance test runs
+
+## Honest limitations
+
+0 verified external equips; Agent Tester Program kill: zero sign-ups by 9/25; on-face lane kill rule 2026-10-30.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-kingcode-lens/
+- Run: workspace-only
+
+- Docs: https://cumulativewebinc.github.io/cwi-kingcode-lens/
+- Repo: https://github.com/CumulativeWebInc/cwi-kingcode-lens
+
+## Conversion (honest numbers)
+
+0 verified external equips (2026-10-01). npm test 123/123 PASS.
+
+## Call to action
+
+Equip the simulator lab; submit conformance test runs
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

@@ -1,0 +1,52 @@
+# CWI Results Dashboard — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CWI Results Dashboard by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/results-dashboard/agent-card.json
+
+- Name: CWI Results Dashboard (slug: results-dashboard)
+- Version: 1.0.0 | Lineage: R3 | Stage: live
+
+## What it is
+
+Public 30-minute-refreshed dashboard of CWI's verified results: 7 funnel stages, 65 receipts with evidence URLs. Hero metric: external_equips (honest 0).
+
+## Intended use
+
+Anyone verifying CWI's claims; R3 measurement infra.
+
+## Capabilities
+
+- 7 funnel stages
+- 65 receipts with evidence_url (newest-first)
+- 30-min publisher cron
+
+## Honest limitations
+
+Hero metric still 0 verified external equips (2026-10-01).
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-results/
+- Run: workspace-only
+
+- Docs: https://cumulativewebinc.github.io/cwi-results/
+- Repo: https://github.com/CumulativeWebInc/cwi-results
+
+## Conversion (honest numbers)
+
+Canonical live-artifact assertions re-verified 2026-10-01.
+
+## Call to action
+
+View verified results
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

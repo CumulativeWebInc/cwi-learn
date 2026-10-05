@@ -1,0 +1,50 @@
+# SANQA — CWI Product Card (llms.txt)
+
+> Machine-readable product card for SANQA by Cumulative Web Inc.
+> Truth label: unknown (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/sanqa/agent-card.json
+
+- Name: SANQA (slug: sanqa)
+- Version: 1.0.0 | Lineage: R1 | Stage: marketed
+
+## What it is
+
+Trust-verdict API gateway: paid verification routes under live pricing with staged x402 routes and a trust portal.
+
+## Intended use
+
+Agent developers / API users needing deterministic trust scoring per call.
+
+## Capabilities
+
+- trust-verdict x402 routes
+- live pricing page
+- trust portal
+
+## Honest limitations
+
+Rename AURUM->SANQA just completed 2026-10-01; $0 received; paid routes pending founder approval.
+
+## Try / equip
+
+- Run: workspace-only
+
+- Docs: https://github.com/CumulativeWebInc/cwi-sanqa
+
+## Conversion (honest numbers)
+
+$0 received (2026-10-01). Portal npm test 26/26 green post-rename.
+
+## Call to action
+
+See live pricing; paid routes pending approval
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

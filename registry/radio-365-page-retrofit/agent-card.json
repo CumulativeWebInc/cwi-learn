@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "radio-365-page-retrofit",
+ "slug": "radio-365-page-retrofit",
+ "display_name": "Radio 365 station page",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Retrofitted station page: server-side now-playing metadata polling, real stream titles, artwork matching.",
+ "intended_use": "Radio 365 listeners.",
+ "capabilities": [
+  "2-min server-side status-json poll",
+  "real titles verified 2026-10-01 (Diabolique; Doves & Diamonds)",
+  "now-playing.json published on change"
+ ],
+ "limitations": "Browser can't read stream metadata (no CORS on Icecast) \u2014 metadata is server-side.",
+ "try": {
+  "url": "https://cumulativeweb.com/radio.html",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativeweb.com/radio.html",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "live",
+ "tags": [
+  "radio",
+  "station-page"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Stream titles verified live 2026-10-01.",
+ "cta": "Listen live; see verified proof; submit music",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

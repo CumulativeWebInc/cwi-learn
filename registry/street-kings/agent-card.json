@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "street-kings",
+ "slug": "street-kings",
+ "display_name": "Street Kings",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "CWI Arcade portrait street game: 218/218 logic tests, 78/78 render tests (390x844, zero letterbox, IP-clean art scan).",
+ "intended_use": "Arcade players.",
+ "capabilities": [
+  "portrait-first rendering",
+  "IP-clean art verification",
+  "input 43/43, freeze 12/12"
+ ],
+ "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "arcade",
+  "street-game"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Tests all green 2026-10-01; playtests pending Lansky.",
+ "cta": "Play free in the CWI Arcade",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

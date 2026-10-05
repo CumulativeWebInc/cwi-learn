@@ -1,0 +1,46 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "neon-nights-777",
+ "slug": "neon-nights-777",
+ "display_name": "777 Neon Nights",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Free-to-spin neon slot cabinet in the CWI Agent Deck: win streaming links and Neon Credits. Anonymous player-device telemetry since 2026-09-21.",
+ "intended_use": "Players (free play); R2 target: 25 unique player devices.",
+ "capabilities": [
+  "free spins, no signup",
+  "streaming-link prizes",
+  "Neon Credits",
+  "anonymous device telemetry (privacy-safe)"
+ ],
+ "limitations": "25 unique player devices recorded \u2014 R2 named target lives here; end_number as reported 2026-10-01.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-777-neon-nights/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/cwi-777-neon-nights/",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-777-neon-nights",
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "marketed",
+ "tags": [
+  "slot-game",
+  "free-play",
+  "telemetry"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "end_number: 25 (2026-10-01). 10 node suites green (2026-10-01).",
+ "cta": "Spin free \u2014 win streaming links + Neon Credits",
+ "discovery": {
+  "repo": "cwi-777-neon-nights",
+  "ci_workflows": [
+   "pr-preview.yml"
+  ],
+  "card_in_repo": "agent-card.json",
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

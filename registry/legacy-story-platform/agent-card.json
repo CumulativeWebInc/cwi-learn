@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "legacy-story-platform",
+ "slug": "legacy-story-platform",
+ "display_name": "Legacy Story Collection Platform",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "Story-collection platform: interview engine (proven 9/26) + group-write compiler. Draft landing page unshipped.",
+ "intended_use": "Writers (future paying KDP-ready export customers).",
+ "capabilities": [
+  "interview engine",
+  "group-write compiler",
+  "pytest 20/20"
+ ],
+ "limitations": "Pre-cycle: no deploy, no pricing, no terms/privacy (queued to Black); 0 waitlist signups.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "built",
+ "tags": [
+  "writing",
+  "platform"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "pytest tests/test_group_write.py 20/20 (2026-10-01).",
+ "cta": "Join the waitlist when it ships",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

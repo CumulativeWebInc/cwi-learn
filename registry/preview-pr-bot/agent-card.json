@@ -1,0 +1,45 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "preview-pr-bot",
+ "slug": "preview-pr-bot",
+ "display_name": "Preview-URL PR bot",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Shared GitHub Action: on every CWI app repo PR, builds the branch, posts a Pages preview link + schema-validation checklist as a PR comment. Previews deploy to pr-previews/<PR#>/ \u2014 production untouched, $0.",
+ "intended_use": "CWI engineering / any multi-repo Pages org.",
+ "capabilities": [
+  "validate -> preview -> comment -> cleanup (4 jobs)",
+  "real contract gate",
+  "loud failure on missing agent-card/CHANGELOG",
+  "kill-rule audit script"
+ ],
+ "limitations": "Template lives in workspace; promotion to a public cwi-ci-templates repo is queued to Black (standing no-publish rule).",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R1",
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "ci",
+  "github-actions",
+  "preview"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "3 test PRs: bot comment + 200 previews + loud fail gate (2026-10-01).",
+ "cta": "Rollout queued to founder",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

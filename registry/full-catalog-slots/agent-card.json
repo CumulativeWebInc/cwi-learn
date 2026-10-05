@@ -1,0 +1,40 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "full-catalog-slots",
+ "slug": "full-catalog-slots",
+ "display_name": "Full-Catalog Slots",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "Plan for a full-catalog slot game (catalog-slots-business-plan.md, 2026-09-21).",
+ "intended_use": "Future players.",
+ "capabilities": [
+  "business plan (2026-09-21)"
+ ],
+ "limitations": "Plan only: zero code; requires Black's approval before any build.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "built",
+ "tags": [
+  "slot-game",
+  "plan"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Nothing to test (plan only).",
+ "cta": "Approval pending \u2014 no build yet",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

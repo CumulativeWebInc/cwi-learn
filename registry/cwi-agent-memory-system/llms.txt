@@ -1,0 +1,50 @@
+# CWI Agent Memory — CWI Product Card (llms.txt)
+
+> Machine-readable product card for CWI Agent Memory by Cumulative Web Inc.
+> Truth label: repo-no-ci (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/cwi-agent-memory-system/agent-card.json
+
+- Name: CWI Agent Memory (slug: cwi-agent-memory-system)
+- Version: 1.0.0 | Lineage: R3 | Stage: packaged
+
+## What it is
+
+Durable AES-256 agent memory with GitHub-backed pool and L1 off-chain chain anchors (EIP-712, no gas).
+
+## Intended use
+
+CWI agents / any agent needing durable memory.
+
+## Capabilities
+
+- memory.js read/write CLI
+- salted SHA-256 chain anchors
+- chain-verify over the live fleet
+
+## Honest limitations
+
+Private repo (CumulativeWebInc/cwi-agent-memory); encryption untouched; conversion leg not run.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-agent-memory
+- Repo: https://github.com/CumulativeWebInc/cwi-agent-memory
+
+## Conversion (honest numbers)
+
+anchor-mutex 9/9, anchor-race 2/2, chain-verify 2056/0 (2026-10-01).
+
+## Call to action
+
+try / equip
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

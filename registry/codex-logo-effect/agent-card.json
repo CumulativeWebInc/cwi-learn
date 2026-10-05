@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "codex-logo-effect",
+ "slug": "codex-logo-effect",
+ "display_name": "CODEX \u2014 The Logo Effect",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "Book manuscript: 3,216 / 60,000+ words (5.4%). Living manuscript; claims cite dated memory entries.",
+ "intended_use": "Readers (future).",
+ "capabilities": [
+  "3,216-word chapter 01",
+  "2,170-word outline",
+  "memory-cited claims"
+ ],
+ "limitations": "Pre-cycle: evaluated, not packaged; $0 received.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "built",
+ "tags": [
+  "book",
+  "manuscript"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "Smoke-checked 2026-10-01; no test suite (honest).",
+ "cta": "Packaging TBD at a verified milestone",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

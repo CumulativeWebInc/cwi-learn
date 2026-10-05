@@ -1,0 +1,41 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "fredrock-writers-room",
+ "slug": "fredrock-writers-room",
+ "display_name": "FredRock Writers Room",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Invite-gated private writing room for the FredRock writers circle: claim invite codes, record origin stories toward the Snowfall-style series.",
+ "intended_use": "The 9 FredRock writers (invite-gated cohort).",
+ "capabilities": [
+  "invite-code claim flow",
+  "CWI master-logo badge"
+ ],
+ "limitations": "0/9 verified writer signups (Supabase unconnected); iPhone E2E parked on Black's device.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "writers-room",
+  "invite-gated"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "0/9 verified signups (2026-10-01). node --check 10/10, static QA 8/8.",
+ "cta": "Claim your invite code",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

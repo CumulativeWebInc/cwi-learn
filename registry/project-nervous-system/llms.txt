@@ -1,0 +1,50 @@
+# Project Nervous System — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Project Nervous System by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/project-nervous-system/agent-card.json
+
+- Name: Project Nervous System (slug: project-nervous-system)
+- Version: 1.0.0 | Lineage: R3 | Stage: packaged
+
+## What it is
+
+Machine-readable agent enforcement layer: uncertainty register, evidence graph, failure engine, red agent, 21-gate completion theorem. 28 schemas, 43/43 tests.
+
+## Intended use
+
+CWI agents; machine enforcement for briefs.
+
+## Capabilities
+
+- 28 JSON schemas
+- 21-gate completion theorem (theorem command)
+- red-agent attack checklist
+
+## Honest limitations
+
+Conversion leg not run.
+
+## Try / equip
+
+- Try: https://github.com/CumulativeWebInc/cwi-learn
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+node tests/run-tests.js: 43/43 (2026-10-01).
+
+## Call to action
+
+try / equip
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

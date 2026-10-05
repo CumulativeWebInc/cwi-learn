@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-mcp-server",
+ "slug": "cwi-mcp-server",
+ "display_name": "CWI MCP Server",
+ "vendor": "Cumulative Web Inc",
+ "version": "0.1.0",
+ "description": "CWI MCP gateway: JSON-RPC tool surface over needle-drop, catalog, and trust-verdict signals with adversarial-tested error handling.",
+ "intended_use": "Agents connecting via MCP.",
+ "capabilities": [
+  "9 tools",
+  "streamable HTTP (9/20)",
+  "adversarial-tested error handling"
+ ],
+ "limitations": "Conversion leg not run.",
+ "try": {
+  "url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "mcp",
+  "tools",
+  "gateway"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "node test.js: 28/28 (2026-10-01). CWI-Version 2026-10-01 pinned.",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": "cwi-mcp-server",
+  "ci_workflows": [],
+  "card_in_repo": "agent-card.json",
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

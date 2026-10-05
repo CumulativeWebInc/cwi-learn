@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "the-edit-storefront",
+ "slug": "the-edit-storefront",
+ "display_name": "THE EDIT \u2014 CWI software storefront",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Selling-mode storefront for CWI software products: Booth credits, Edit services ($49/$99/$149), Crate ($29/$19), Greenlight ($9.99/mo waitlist), Call Sheet, Agent Deck.",
+ "intended_use": "Independent musicians/labels buying CWI software and services.",
+ "capabilities": [
+  "6 products with prices and kill rules",
+  "order via prefilled email to hp@cumulativeweb.com",
+  "waitlist + brief posting"
+ ],
+ "limitations": "Selling, manual: 0 orders (2026-10-01). Pricing items still Lansky's open taps.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-edit/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/cwi-edit/",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-edit",
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "selling",
+ "tags": [
+  "storefront",
+  "music-services",
+  "software"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received; 0 orders (2026-10-01).",
+ "cta": "Order via prefilled email; join the waitlist",
+ "discovery": {
+  "repo": "cwi-edit",
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

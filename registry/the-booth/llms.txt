@@ -1,0 +1,53 @@
+# The Booth — CWI Product Card (llms.txt)
+
+> Machine-readable product card for The Booth by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/the-booth/agent-card.json
+
+- Name: The Booth (slug: the-booth)
+- Version: 1.0.0 | Lineage: R1 | Stage: improve
+
+## What it is
+
+Sandbox-first royalty marketplace for independent music: request, review, claim, and deliver song requests with staged credit pricing and VIP referral links.
+
+## Intended use
+
+Agents/developers selling or buying independent-music services in a safe sandbox before real money moves.
+
+## Capabilities
+
+- sandbox purchase flow with sb_test_* keys
+- VIP referral links (ref=<handle>) with ledger attribution
+- royalty-advance estimator
+- test-mode receipts with SANDBOX TEST memo
+
+## Honest limitations
+
+Real credit prices, paid-pack go-live and advance payouts are Lansky's taps — agents never execute them; sandbox is test money only.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-the-booth/
+- Run: workspace-only
+
+- Docs: https://cumulativewebinc.github.io/cwi-the-booth/
+- Repo: https://github.com/CumulativeWebInc/cwi-the-booth
+
+## Conversion (honest numbers)
+
+$0 received; 0 credits sold (2026-10-01). Sandbox harness 25/25 green.
+
+## Call to action
+
+Run sandbox trials, then buy credits (manual settlement)
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

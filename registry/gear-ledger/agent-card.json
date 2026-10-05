@@ -1,0 +1,41 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "gear-ledger",
+ "slug": "gear-ledger",
+ "display_name": "Gear Ledger",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Append-only ledger for agent gear ownership and transfers.",
+ "intended_use": "Agents equipping gear.",
+ "capabilities": [
+  "append-only ledger",
+  "17/17 tests"
+ ],
+ "limitations": "Conversion leg not run; heartbeat cron untouched.",
+ "try": {
+  "url": "https://github.com/CumulativeWebInc/cwi-learn",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "ledger",
+  "agent-gear"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "node cli/ledger.test.js: 17/17 (2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

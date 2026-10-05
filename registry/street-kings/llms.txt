@@ -1,0 +1,49 @@
+# Street Kings — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Street Kings by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/street-kings/agent-card.json
+
+- Name: Street Kings (slug: street-kings)
+- Version: 1.0.0 | Lineage: R2 | Stage: packaged
+
+## What it is
+
+CWI Arcade portrait street game: 218/218 logic tests, 78/78 render tests (390x844, zero letterbox, IP-clean art scan).
+
+## Intended use
+
+Arcade players.
+
+## Capabilities
+
+- portrait-first rendering
+- IP-clean art verification
+- input 43/43, freeze 12/12
+
+## Honest limitations
+
+Staging deploy only; serves the R2 player-device funnel.
+
+## Try / equip
+
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+Tests all green 2026-10-01; playtests pending Lansky.
+
+## Call to action
+
+Play free in the CWI Arcade
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

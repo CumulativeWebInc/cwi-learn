@@ -1,0 +1,51 @@
+# Radio 365 station page — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Radio 365 station page by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/radio-365-page-retrofit/agent-card.json
+
+- Name: Radio 365 station page (slug: radio-365-page-retrofit)
+- Version: 1.0.0 | Lineage: R3 | Stage: live
+
+## What it is
+
+Retrofitted station page: server-side now-playing metadata polling, real stream titles, artwork matching.
+
+## Intended use
+
+Radio 365 listeners.
+
+## Capabilities
+
+- 2-min server-side status-json poll
+- real titles verified 2026-10-01 (Diabolique; Doves & Diamonds)
+- now-playing.json published on change
+
+## Honest limitations
+
+Browser can't read stream metadata (no CORS on Icecast) — metadata is server-side.
+
+## Try / equip
+
+- Try: https://cumulativeweb.com/radio.html
+- Run: workspace-only
+
+- Docs: https://cumulativeweb.com/radio.html
+
+## Conversion (honest numbers)
+
+Stream titles verified live 2026-10-01.
+
+## Call to action
+
+Listen live; see verified proof; submit music
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

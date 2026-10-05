@@ -1,0 +1,42 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "word-signal",
+ "slug": "word-signal",
+ "display_name": "Word Signal",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "CWI Arcade word game with a gesture engine: fat-finger recovery, trail geometry, fully deterministic seeded generation.",
+ "intended_use": "Arcade players.",
+ "capabilities": [
+  "gesture engine",
+  "deterministic seeded generation",
+  "434/434 node tests stable across 3 runs"
+ ],
+ "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+ "repo_url": null,
+ "result_lineage": [
+  "R2"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "arcade",
+  "word-game"
+ ],
+ "truth_label": "no-public-repo",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "434/434 green 2026-10-01; playtests pending Lansky.",
+ "cta": "Play free",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

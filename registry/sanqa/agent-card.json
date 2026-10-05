@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "sanqa",
+ "slug": "sanqa",
+ "display_name": "SANQA",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Trust-verdict API gateway: paid verification routes under live pricing with staged x402 routes and a trust portal.",
+ "intended_use": "Agent developers / API users needing deterministic trust scoring per call.",
+ "capabilities": [
+  "trust-verdict x402 routes",
+  "live pricing page",
+  "trust portal"
+ ],
+ "limitations": "Rename AURUM->SANQA just completed 2026-10-01; $0 received; paid routes pending founder approval.",
+ "try": {
+  "url": null,
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-sanqa",
+ "repo_url": null,
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "marketed",
+ "tags": [
+  "trust-api",
+  "x402",
+  "verification"
+ ],
+ "truth_label": "unknown",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received (2026-10-01). Portal npm test 26/26 green post-rename.",
+ "cta": "See live pricing; paid routes pending approval",
+ "discovery": {
+  "repo": null,
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

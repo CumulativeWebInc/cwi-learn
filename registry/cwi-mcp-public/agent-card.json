@@ -1,0 +1,45 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-mcp-public",
+ "slug": "cwi-mcp-public",
+ "display_name": "CWI MCP Public",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Public MCP gateway: trust_verdict and catalog tools for external agents, no auth.",
+ "intended_use": "External agents.",
+ "capabilities": [
+  "trust_verdict tool",
+  "catalog tools",
+  "CWI-Version 2026-10-01 on every response"
+ ],
+ "limitations": "Conversion leg not run.",
+ "try": {
+  "url": "https://github.com/CumulativeWebInc/cwi-mcp-public",
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-mcp-public",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-mcp-public",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "mcp",
+  "public",
+  "trust"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "test-unit 40/40, test-http 27/27, test-adversarial 27/27 (2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": "cwi-mcp-public",
+  "ci_workflows": [
+   "ci.yml"
+  ],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

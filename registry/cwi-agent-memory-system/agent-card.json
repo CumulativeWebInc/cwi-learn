@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-agent-memory-system",
+ "slug": "cwi-agent-memory-system",
+ "display_name": "CWI Agent Memory",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Durable AES-256 agent memory with GitHub-backed pool and L1 off-chain chain anchors (EIP-712, no gas).",
+ "intended_use": "CWI agents / any agent needing durable memory.",
+ "capabilities": [
+  "memory.js read/write CLI",
+  "salted SHA-256 chain anchors",
+  "chain-verify over the live fleet"
+ ],
+ "limitations": "Private repo (CumulativeWebInc/cwi-agent-memory); encryption untouched; conversion leg not run.",
+ "try": {
+  "url": null,
+  "run": null
+ },
+ "equip": null,
+ "docs_url": "https://github.com/CumulativeWebInc/cwi-agent-memory",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-agent-memory",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "packaged",
+ "tags": [
+  "memory",
+  "anchoring",
+  "encryption"
+ ],
+ "truth_label": "repo-no-ci",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "anchor-mutex 9/9, anchor-race 2/2, chain-verify 2056/0 (2026-10-01).",
+ "cta": "try / equip",
+ "discovery": {
+  "repo": "cwi-agent-memory",
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": null
+ },
+ "updated": "2026-10-01"
+}

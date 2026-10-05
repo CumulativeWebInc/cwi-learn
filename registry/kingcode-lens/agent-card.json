@@ -1,0 +1,47 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "kingcode-lens",
+ "slug": "kingcode-lens",
+ "display_name": "KingCode Lens",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "Web apps for Meta Ray-Ban Display glasses: simulator lab + 'Hey KingCode' voice agent. 117/117 tests green. $0.",
+ "intended_use": "Developers building for Meta Ray-Ban Display glasses; Agent Tester Program cohort.",
+ "capabilities": [
+  "simulator lab",
+  "voice agent ('Hey KingCode')",
+  "conformance test runs"
+ ],
+ "limitations": "0 verified external equips; Agent Tester Program kill: zero sign-ups by 9/25; on-face lane kill rule 2026-10-30.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-kingcode-lens/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/cwi-kingcode-lens/",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-kingcode-lens",
+ "result_lineage": [
+  "R3"
+ ],
+ "lineage_stage": "marketed",
+ "tags": [
+  "ray-ban",
+  "glasses",
+  "voice-agent",
+  "simulator"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "0 verified external equips (2026-10-01). npm test 123/123 PASS.",
+ "cta": "Equip the simulator lab; submit conformance test runs",
+ "discovery": {
+  "repo": "cwi-kingcode-lens",
+  "ci_workflows": [
+   "pr-preview.yml",
+   "test.yml"
+  ],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

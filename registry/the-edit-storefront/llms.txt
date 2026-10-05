@@ -1,0 +1,52 @@
+# THE EDIT — CWI software storefront — CWI Product Card (llms.txt)
+
+> Machine-readable product card for THE EDIT — CWI software storefront by Cumulative Web Inc.
+> Truth label: verified-live (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/the-edit-storefront/agent-card.json
+
+- Name: THE EDIT — CWI software storefront (slug: the-edit-storefront)
+- Version: 1.0.0 | Lineage: R1 | Stage: selling
+
+## What it is
+
+Selling-mode storefront for CWI software products: Booth credits, Edit services ($49/$99/$149), Crate ($29/$19), Greenlight ($9.99/mo waitlist), Call Sheet, Agent Deck.
+
+## Intended use
+
+Independent musicians/labels buying CWI software and services.
+
+## Capabilities
+
+- 6 products with prices and kill rules
+- order via prefilled email to hp@cumulativeweb.com
+- waitlist + brief posting
+
+## Honest limitations
+
+Selling, manual: 0 orders (2026-10-01). Pricing items still Lansky's open taps.
+
+## Try / equip
+
+- Try: https://cumulativewebinc.github.io/cwi-edit/
+- Run: workspace-only
+
+- Docs: https://cumulativewebinc.github.io/cwi-edit/
+- Repo: https://github.com/CumulativeWebInc/cwi-edit
+
+## Conversion (honest numbers)
+
+$0 received; 0 orders (2026-10-01).
+
+## Call to action
+
+Order via prefilled email; join the waitlist
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/

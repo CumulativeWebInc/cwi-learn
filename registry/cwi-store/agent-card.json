@@ -1,0 +1,43 @@
+{
+ "schema_version": "cwi-agent-card/1.0.0",
+ "name": "cwi-store",
+ "slug": "cwi-store",
+ "display_name": "CWI Store",
+ "vendor": "Cumulative Web Inc",
+ "version": "1.0.0",
+ "description": "E-commerce storefront for CWI gear and products with Gumroad checkout on live slots and email-order pending slots.",
+ "intended_use": "Customers buying CWI products (gear, decks, digital).",
+ "capabilities": [
+  "Gumroad checkout on live slots",
+  "BUY_LINKS.json parity checks",
+  "email-order pending slots"
+ ],
+ "limitations": "0 orders (2026-10-01); some slots still pending.",
+ "try": {
+  "url": "https://cumulativewebinc.github.io/cwi-store/",
+  "run": "workspace-only"
+ },
+ "equip": "workspace-only",
+ "docs_url": "https://cumulativewebinc.github.io/cwi-store/",
+ "repo_url": "https://github.com/CumulativeWebInc/cwi-store",
+ "result_lineage": [
+  "R1"
+ ],
+ "lineage_stage": "selling",
+ "tags": [
+  "ecommerce",
+  "gumroad",
+  "merch"
+ ],
+ "truth_label": "verified-live",
+ "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+ "conversion_note": "$0 received; 0 orders. 136/136 local + 167/167 live tests green (2026-10-01).",
+ "cta": "Buy now (Gumroad) or order via email",
+ "discovery": {
+  "repo": "cwi-store",
+  "ci_workflows": [],
+  "card_in_repo": null,
+  "try_url_status": 200
+ },
+ "updated": "2026-10-01"
+}

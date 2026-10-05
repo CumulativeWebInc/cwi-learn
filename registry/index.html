@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CWI Public Registry — every product, one searchable page</title>
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;max-width:1000px;margin:0 auto;padding:1.5rem;line-height:1.5;color:#111;background:#fafafa}
+a{color:#0b5fff}
+#q{width:100%;font-size:1.1rem;padding:.7rem;border:1px solid #ccc;border-radius:8px;margin:.5rem 0}
+.filters{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
+.filters button{border:1px solid #bbb;background:#fff;border-radius:999px;padding:.25rem .8rem;cursor:pointer}
+.filters button.on{background:#111;color:#fff;border-color:#111}
+.card{background:#fff;border:1px solid #e2e2e2;border-radius:10px;padding:1rem;margin:.7rem 0}
+.card h3{margin:.1rem 0}.pill{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:.05rem .6rem;font-size:.75rem;margin-right:.3rem}
+.tag{display:inline-block;background:#eef;border-radius:4px;padding:0 .45rem;margin:.1rem;font-size:.8rem}
+.meta{color:#555;font-size:.85rem}#count{color:#555}
+</style></head>
+<body>
+<h1>CWI Public Registry</h1>
+<p>Every Cumulative Web Inc product and agent tool, one searchable page. Machine-readable:
+<a href="registry.json">registry.json</a> · <a href="agent-card-schema.json">card schema (cwi-agent-card/1.0.0)</a> ·
+<a href="llms.txt">llms.txt</a> · <a href="validate-cards.js">validator</a>.</p>
+<p class="meta">Kill rule: &lt;50 external registry hits in 30 days → rework discovery, not the registry. Updated 2026-10-01.</p>
+<input id="q" placeholder="Search name, description, capabilities, tags…" autocomplete="off">
+<div class="filters" id="lineageF">
+<button data-l="ALL" class="on">All</button><button data-l="R1">R1 money</button><button data-l="R2">R2 users</button><button data-l="R3">R3 equips</button>
+</div>
+<div class="filters" id="truthF">
+<button data-t="ALL" class="on">All statuses</button><button data-t="verified-live">verified-live</button><button data-t="repo-ci">repo-ci</button><button data-t="repo-no-ci">repo-no-ci</button><button data-t="staged-unshipped">staged-unshipped</button><button data-t="no-public-repo">no-public-repo</button><button data-t="unknown">unknown</button>
+</div>
+<p id="count"></p>
+<div id="cards"></div>
+<script>
+var CARDS=null, L="ALL", T="ALL";
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function render(){
+  var q=document.getElementById("q").value.toLowerCase();
+  var el=document.getElementById("cards"), out="", n=0;
+  CARDS.forEach(function(c){
+    var hay=(c.display_name+" "+c.description+" "+c.intended_use+" "+c.capabilities.join(" ")+" "+c.tags.join(" ")+" "+c.lineage_stage).toLowerCase();
+    if(q&&hay.indexOf(q)<0)return;
+    if(L!=="ALL"&&c.result_lineage.indexOf(L)<0)return;
+    if(T!=="ALL"&&c.truth_label!==T)return;
+    n++;
+    var tags=c.tags.map(function(t){return '<span class="tag">'+esc(t)+"</span>"}).join(" ");
+    var tryl=c.try.url?'<a href="'+esc(c.try.url)+'">Try →</a>':"";
+    out+='<div class="card"><h3><a href="'+esc(c.slug)+'/">'+esc(c.display_name)+"</a></h3>"
+      +'<p><span class="pill">'+esc(c.truth_label)+"</span><span class="pill">"+esc(c.result_lineage.join("/"))+"</span><span class="pill">"+esc(c.lineage_stage)+"</span></p>"
+      +"<p>"+esc(c.description)+"</p>"
+      +'<p class="meta">'+esc(c.conversion_note)+"</p>"
+      +"<p>"+tryl+" "+tags+'</p></div>';
+  });
+  el.innerHTML=out||"<p>No matches.</p>";
+  document.getElementById("count").textContent=n+" of "+CARDS.length+" products";
+}
+function wire(id,attr,cb){document.getElementById(id).querySelectorAll("button").forEach(function(b){b.onclick=function(){document.getElementById(id).querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");cb(b.getAttribute(attr));render()}})}
+fetch("registry.json").then(function(r){return r.json()}).then(function(reg){CARDS=reg.cards;
+document.getElementById("q").oninput=render;
+wire("lineageF","data-l",function(v){L=v});wire("truthF","data-t",function(v){T=v});
+render();});
+</script>
+</body></html>

@@ -1,0 +1,1654 @@
+{
+ "schema_version": "cwi-registry/1.0",
+ "updated": "2026-10-01",
+ "generator": "OPERATION BEST Wave 2 lane A9 (2026-10-01)",
+ "registry_url": "https://cumulativewebinc.github.io/cwi-learn/registry/",
+ "card_schema": "https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json",
+ "kill_rule": "<50 external registry hits in 30 days -> rework discovery, not the registry",
+ "card_count": 38,
+ "cards": [
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "the-booth",
+   "slug": "the-booth",
+   "display_name": "The Booth",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Sandbox-first royalty marketplace for independent music: request, review, claim, and deliver song requests with staged credit pricing and VIP referral links.",
+   "intended_use": "Agents/developers selling or buying independent-music services in a safe sandbox before real money moves.",
+   "capabilities": [
+    "sandbox purchase flow with sb_test_* keys",
+    "VIP referral links (ref=<handle>) with ledger attribution",
+    "royalty-advance estimator",
+    "test-mode receipts with SANDBOX TEST memo"
+   ],
+   "limitations": "Real credit prices, paid-pack go-live and advance payouts are Lansky's taps \u2014 agents never execute them; sandbox is test money only.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-the-booth/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/cwi-the-booth/",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-the-booth",
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "improve",
+   "tags": [
+    "music-marketplace",
+    "sandbox",
+    "x402-adjacent",
+    "royalty"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received; 0 credits sold (2026-10-01). Sandbox harness 25/25 green.",
+   "cta": "Run sandbox trials, then buy credits (manual settlement)",
+   "discovery": {
+    "repo": "cwi-the-booth",
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-x402",
+   "slug": "cwi-x402",
+   "display_name": "CWI x402 API",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "Usage-metered HTTP API surface: pay-per-call pricing ($0.05-$0.25 USDC on Base for paid routes) with staged rates, no seats, no setup fee; sandbox mode for safe testing.",
+   "intended_use": "Agents needing a deterministic paid-call API with receipts chained per call.",
+   "capabilities": [
+    "free discovery tier",
+    "per-call metering with production-format receipts",
+    "CWI-Version 2026-10-01 date pin",
+    "sandbox test mode (2/10 routes)"
+   ],
+   "limitations": "Mainnet is NOT live: paid rates staged, pending founder approval; mainnet extension beyond sandbox requires Lansky's tap.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-x402/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-x402-api",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-x402-api",
+   "result_lineage": [
+    "R1",
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "paid-api",
+    "metering",
+    "x402",
+    "usdc",
+    "base"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received; 0 attributable paid calls (2026-10-01). Sandbox 22/22 + metering 60/60 green.",
+   "cta": "Call the free discovery tier; paid routes pending approval",
+   "discovery": {
+    "repo": "cwi-x402-api",
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "erc8004-trust",
+   "slug": "erc8004-trust",
+   "display_name": "ERC-8004 Trust Verdict (checker)",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Deterministic, evidence-bound trust scoring for AI agents over ERC-8004, Needle Drop, and First Spin signals. Never invents a score: empty evidence yields insufficient-data.",
+   "intended_use": "Agents and verifiers needing a refuse-to-guess trust verdict for another agent's on-chain identity.",
+   "capabilities": [
+    "deterministic verdicts: scored / insufficient-data / evidence-disputed / unknown-context",
+    "content-addressed proof receipts",
+    "cross-process byte-identical determinism"
+   ],
+   "limitations": "Ship-ready bundle, STAGED not shipped: live pre-launch page is honest marketing only; paid $25 validation offer, on-chain registration, and 9 agent cards staged \u2014 all await Lansky's SHIP GO / PAGES ONLY / HOLD tap.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-erc8004/",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-erc8004",
+   "result_lineage": [
+    "R1",
+    "R3"
+   ],
+   "lineage_stage": "ship-ready (staged, awaiting Lansky taps)",
+   "tags": [
+    "trust",
+    "erc-8004",
+    "identity",
+    "verdicts"
+   ],
+   "truth_label": "staged-unshipped",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received; $25 USDC per-validation offer staged. 53/53 tests green (2026-10-01).",
+   "cta": "Ship approval pending \u2014 no paid validation requests yet",
+   "discovery": {
+    "repo": "cwi-erc8004",
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "the-edit-storefront",
+   "slug": "the-edit-storefront",
+   "display_name": "THE EDIT \u2014 CWI software storefront",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Selling-mode storefront for CWI software products: Booth credits, Edit services ($49/$99/$149), Crate ($29/$19), Greenlight ($9.99/mo waitlist), Call Sheet, Agent Deck.",
+   "intended_use": "Independent musicians/labels buying CWI software and services.",
+   "capabilities": [
+    "6 products with prices and kill rules",
+    "order via prefilled email to hp@cumulativeweb.com",
+    "waitlist + brief posting"
+   ],
+   "limitations": "Selling, manual: 0 orders (2026-10-01). Pricing items still Lansky's open taps.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-edit/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/cwi-edit/",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-edit",
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "selling",
+   "tags": [
+    "storefront",
+    "music-services",
+    "software"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received; 0 orders (2026-10-01).",
+   "cta": "Order via prefilled email; join the waitlist",
+   "discovery": {
+    "repo": "cwi-edit",
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-store",
+   "slug": "cwi-store",
+   "display_name": "CWI Store",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "E-commerce storefront for CWI gear and products with Gumroad checkout on live slots and email-order pending slots.",
+   "intended_use": "Customers buying CWI products (gear, decks, digital).",
+   "capabilities": [
+    "Gumroad checkout on live slots",
+    "BUY_LINKS.json parity checks",
+    "email-order pending slots"
+   ],
+   "limitations": "0 orders (2026-10-01); some slots still pending.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-store/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/cwi-store/",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-store",
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "selling",
+   "tags": [
+    "ecommerce",
+    "gumroad",
+    "merch"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received; 0 orders. 136/136 local + 167/167 live tests green (2026-10-01).",
+   "cta": "Buy now (Gumroad) or order via email",
+   "discovery": {
+    "repo": "cwi-store",
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "white-label-slot",
+   "slug": "white-label-slot",
+   "display_name": "White-Label Slot Machine",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "A slot machine that plays a label's catalog: white-label game engine licensed to artists/labels ($249 solo / $899 label / $2,500+ custom, one-time). Link engine resolves real Spotify/Apple Music/Amazon links.",
+   "intended_use": "Artists and labels wanting a catalog-playing slot game for promo/prize engagement.",
+   "capabilities": [
+    "white-label re-skin per catalog",
+    "prize-link engine (Spotify, Apple Music, Amazon verified live)",
+    "promo-prize mode \u2014 no gambling"
+   ],
+   "limitations": "Built, not yet licensed; pitches #1-#2 sent 2026-10-01, #3-#5 await Lansky's one-at-a-time approval.",
+   "try": {
+    "url": "https://cumulativeweb.com/demo/neon-royale.html",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://cumulativeweb.com/",
+   "repo_url": null,
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "built",
+   "tags": [
+    "slot-game",
+    "white-label",
+    "catalog-marketing",
+    "licensing"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received; 0 licenses closed. resolve-links 7/7 green. Demo live; product licensable.",
+   "cta": "License the engine for your catalog",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "sanqa",
+   "slug": "sanqa",
+   "display_name": "SANQA",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Trust-verdict API gateway: paid verification routes under live pricing with staged x402 routes and a trust portal.",
+   "intended_use": "Agent developers / API users needing deterministic trust scoring per call.",
+   "capabilities": [
+    "trust-verdict x402 routes",
+    "live pricing page",
+    "trust portal"
+   ],
+   "limitations": "Rename AURUM->SANQA just completed 2026-10-01; $0 received; paid routes pending founder approval.",
+   "try": {
+    "url": null,
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-sanqa",
+   "repo_url": null,
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "marketed",
+   "tags": [
+    "trust-api",
+    "x402",
+    "verification"
+   ],
+   "truth_label": "unknown",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "$0 received (2026-10-01). Portal npm test 26/26 green post-rename.",
+   "cta": "See live pricing; paid routes pending approval",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "radio-365",
+   "slug": "radio-365",
+   "display_name": "Cumulative Radio 365",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "24/7 indie radio station for independent artists: live Icecast stream (128kbps stereo), song titles, station site, and directory listings (TuneIn, Streamitter, radio-browser.info, Airable).",
+   "intended_use": "Indie artists and listeners: submit music, tune in, join launch alerts.",
+   "capabilities": [
+    "live Icecast 2.4.4 source (verified live 2026-10-01)",
+    "directory listings across 5 directories",
+    "launch-alert signup on station site",
+    "server-side now-playing metadata"
+   ],
+   "limitations": "0/100 verified listener sessions (2026-10-01); site counters not yet verified with real users.",
+   "try": {
+    "url": "https://cumulativeweb.com/radio.html",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativeweb.com/radio.html",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "live",
+   "tags": [
+    "radio",
+    "icecast",
+    "indie-music",
+    "broadcast"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "0 verified listener sessions (target 100). Stream verified live 2026-10-01.",
+   "cta": "Tap play; submit your music",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01",
+   "revenue_dna": {
+    "node_break": "ATTENTION then CONVERSION",
+    "scorecard": "Radio 365 breaks at ATTENTION (0 verified listeners) then CONVERSION (no money path yet). Improvise leg: listener acquisition."
+   }
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "neon-nights-777",
+   "slug": "neon-nights-777",
+   "display_name": "777 Neon Nights",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Free-to-spin neon slot cabinet in the CWI Agent Deck: win streaming links and Neon Credits. Anonymous player-device telemetry since 2026-09-21.",
+   "intended_use": "Players (free play); R2 target: 25 unique player devices.",
+   "capabilities": [
+    "free spins, no signup",
+    "streaming-link prizes",
+    "Neon Credits",
+    "anonymous device telemetry (privacy-safe)"
+   ],
+   "limitations": "25 unique player devices recorded \u2014 R2 named target lives here; end_number as reported 2026-10-01.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-777-neon-nights/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/cwi-777-neon-nights/",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-777-neon-nights",
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "marketed",
+   "tags": [
+    "slot-game",
+    "free-play",
+    "telemetry"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "end_number: 25 (2026-10-01). 10 node suites green (2026-10-01).",
+   "cta": "Spin free \u2014 win streaming links + Neon Credits",
+   "discovery": {
+    "repo": "cwi-777-neon-nights",
+    "ci_workflows": [
+     "pr-preview.yml"
+    ],
+    "card_in_repo": "agent-card.json",
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "barrel-king",
+   "slug": "barrel-king",
+   "display_name": "Barrel King",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "CWI Arcade action game: swipe-driven barrel dodging with render-path verification (real canvas frames).",
+   "intended_use": "Arcade players; iPhone playtest sign-off pending.",
+   "capabilities": [
+    "swipe input engine",
+    "render-path verification (real IIFE frames)",
+    "fuzz-tested 6300 frames"
+   ],
+   "limitations": "Staging deploy only; Black's iPhone playtest re-test confirmation pending (fresh link).",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "arcade",
+    "action-game"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Playtests pending Lansky; end_number pending. Tests: logic 57/57, render 9/9, swipe 20/20, fuzz 6300 frames (2026-10-01).",
+   "cta": "Play free in the CWI Arcade",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "street-kings",
+   "slug": "street-kings",
+   "display_name": "Street Kings",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "CWI Arcade portrait street game: 218/218 logic tests, 78/78 render tests (390x844, zero letterbox, IP-clean art scan).",
+   "intended_use": "Arcade players.",
+   "capabilities": [
+    "portrait-first rendering",
+    "IP-clean art verification",
+    "input 43/43, freeze 12/12"
+   ],
+   "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "arcade",
+    "street-game"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Tests all green 2026-10-01; playtests pending Lansky.",
+   "cta": "Play free in the CWI Arcade",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "word-signal",
+   "slug": "word-signal",
+   "display_name": "Word Signal",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "CWI Arcade word game with a gesture engine: fat-finger recovery, trail geometry, fully deterministic seeded generation.",
+   "intended_use": "Arcade players.",
+   "capabilities": [
+    "gesture engine",
+    "deterministic seeded generation",
+    "434/434 node tests stable across 3 runs"
+   ],
+   "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "arcade",
+    "word-game"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "434/434 green 2026-10-01; playtests pending Lansky.",
+   "cta": "Play free",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cover-pieces",
+   "slug": "cover-pieces",
+   "display_name": "Cover Pieces",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "CWI Arcade drag-and-drop puzzle game: drag, html, tray, slothint \u2014 220/220 node tests.",
+   "intended_use": "Arcade players.",
+   "capabilities": [
+    "drag engine",
+    "slothint system",
+    "220/220 node tests"
+   ],
+   "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "arcade",
+    "puzzle-game"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "220/220 green 2026-10-01; playtests pending Lansky.",
+   "cta": "Play free",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "crown-climb",
+   "slug": "crown-climb",
+   "display_name": "Crown Climb",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "CWI Arcade climbing game: 44/44 node tests.",
+   "intended_use": "Arcade players.",
+   "capabilities": [
+    "44/44 node tests"
+   ],
+   "limitations": "Staging deploy only; serves the R2 player-device funnel.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "arcade",
+    "climb-game"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "44/44 green 2026-10-01; playtests pending Lansky.",
+   "cta": "Play free",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "fredrock-writers-room",
+   "slug": "fredrock-writers-room",
+   "display_name": "FredRock Writers Room",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Invite-gated private writing room for the FredRock writers circle: claim invite codes, record origin stories toward the Snowfall-style series.",
+   "intended_use": "The 9 FredRock writers (invite-gated cohort).",
+   "capabilities": [
+    "invite-code claim flow",
+    "CWI master-logo badge"
+   ],
+   "limitations": "0/9 verified writer signups (Supabase unconnected); iPhone E2E parked on Black's device.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "writers-room",
+    "invite-gated"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "0/9 verified signups (2026-10-01). node --check 10/10, static QA 8/8.",
+   "cta": "Claim your invite code",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "weekly-session-podcast-engine",
+   "slug": "weekly-session-podcast-engine",
+   "display_name": "Weekly Session Podcast Engine",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Friday-night session-podcast production engine: records the artist session, ships an episode + press packet. Pilot: 183 Wilboi's Rock-Rap Night.",
+   "intended_use": "Listeners/followers of the weekly session series.",
+   "capabilities": [
+    "16/16 HTML files parse clean",
+    "press packet + 11-label music verifications ready"
+   ],
+   "limitations": "Pilot awaits Black's by-ear format sign-off; 0 episodes released, 0 verified listens.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "podcast",
+    "session-engine"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "0 episodes released (2026-10-01); smoke checks pass, no test suite (honest).",
+   "cta": "Follow / listen to the Friday-night episode",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "tag-city-3d",
+   "slug": "tag-city-3d",
+   "display_name": "TAG CITY 3D",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "3D city concept under evaluation: IRIS visual gate is the instrument; no shippable build yet.",
+   "intended_use": "Future players; currently evaluation only.",
+   "capabilities": [
+    "IRIS visual-gate evaluation"
+   ],
+   "limitations": "Pre-cycle: no shippable build, no channel; blocked on Black's call (specialist human hands vs AI image tool).",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "built",
+   "tags": [
+    "3d",
+    "concept"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "No build to verify; evaluation only.",
+   "cta": "Blocked on founder's creative call",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "full-catalog-slots",
+   "slug": "full-catalog-slots",
+   "display_name": "Full-Catalog Slots",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "Plan for a full-catalog slot game (catalog-slots-business-plan.md, 2026-09-21).",
+   "intended_use": "Future players.",
+   "capabilities": [
+    "business plan (2026-09-21)"
+   ],
+   "limitations": "Plan only: zero code; requires Black's approval before any build.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R2"
+   ],
+   "lineage_stage": "built",
+   "tags": [
+    "slot-game",
+    "plan"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Nothing to test (plan only).",
+   "cta": "Approval pending \u2014 no build yet",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "radio-365-page-retrofit",
+   "slug": "radio-365-page-retrofit",
+   "display_name": "Radio 365 station page",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Retrofitted station page: server-side now-playing metadata polling, real stream titles, artwork matching.",
+   "intended_use": "Radio 365 listeners.",
+   "capabilities": [
+    "2-min server-side status-json poll",
+    "real titles verified 2026-10-01 (Diabolique; Doves & Diamonds)",
+    "now-playing.json published on change"
+   ],
+   "limitations": "Browser can't read stream metadata (no CORS on Icecast) \u2014 metadata is server-side.",
+   "try": {
+    "url": "https://cumulativeweb.com/radio.html",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativeweb.com/radio.html",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "live",
+   "tags": [
+    "radio",
+    "station-page"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Stream titles verified live 2026-10-01.",
+   "cta": "Listen live; see verified proof; submit music",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "kingcode-lens",
+   "slug": "kingcode-lens",
+   "display_name": "KingCode Lens",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Web apps for Meta Ray-Ban Display glasses: simulator lab + 'Hey KingCode' voice agent. 117/117 tests green. $0.",
+   "intended_use": "Developers building for Meta Ray-Ban Display glasses; Agent Tester Program cohort.",
+   "capabilities": [
+    "simulator lab",
+    "voice agent ('Hey KingCode')",
+    "conformance test runs"
+   ],
+   "limitations": "0 verified external equips; Agent Tester Program kill: zero sign-ups by 9/25; on-face lane kill rule 2026-10-30.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-kingcode-lens/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/cwi-kingcode-lens/",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-kingcode-lens",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "marketed",
+   "tags": [
+    "ray-ban",
+    "glasses",
+    "voice-agent",
+    "simulator"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "0 verified external equips (2026-10-01). npm test 123/123 PASS.",
+   "cta": "Equip the simulator lab; submit conformance test runs",
+   "discovery": {
+    "repo": "cwi-kingcode-lens",
+    "ci_workflows": [
+     "pr-preview.yml",
+     "test.yml"
+    ],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-walkman-signal-boy",
+   "slug": "cwi-walkman-signal-boy",
+   "display_name": "CWI-1 Walkman / Signal Boy",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Agent-native culture asset ('The Cumulative Culture'): the wearable CWI-1 Walkman carrying the 24-track catalog with item cards and machine data.",
+   "intended_use": "AI agents (equip); Moltbook agent network.",
+   "capabilities": [
+    "24 tracks, all 24 Spotify URLs 200",
+    "live embeds/logos",
+    "item-card machine data"
+   ],
+   "limitations": "0 verified external agent equips.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "marketed",
+   "tags": [
+    "agent-gear",
+    "walkman",
+    "culture"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "0 verified external agent equips. python3 test.py ALL PASSED (2026-10-01).",
+   "cta": "EQUIP THIS DEVICE",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "trust-verdict-engine",
+   "slug": "trust-verdict-engine",
+   "display_name": "Trust Verdict engine",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Deterministic, evidence-bound trust scoring for AI agents over ERC-8004, Needle Drop, and First Spin signals. Never invents a score: empty evidence yields insufficient-data.",
+   "intended_use": "Agents/verifiers; installable via the trust_verdict skill (no_auth).",
+   "capabilities": [
+    "verdicts: scored / insufficient-data / evidence-disputed / unknown-context / invalid-input",
+    "determinism check: run twice on the same input, diff the bytes",
+    "vendored engine v1.0.0, byte-identical across processes"
+   ],
+   "limitations": "Engine v1.0.0 lives on the unmerged cwi-learn branch needs/verdict-engine (do not treat as main); fetch the skill from cwi-mcp-public. Never invents a score by design.",
+   "try": {
+    "url": null,
+    "run": "SKILL: trust_verdict (~/workspace/skills/trust-verdict/) \u2014 input per trust/spec.md section 3; determinism: run twice, diff bytes. Equip for agents: query cwi-mcp-public trust_verdict tool."
+   },
+   "equip": "SKILL: trust_verdict (~/workspace/skills/trust-verdict/) \u2014 input per trust/spec.md section 3; determinism: run twice, diff bytes. Equip for agents: query cwi-mcp-public trust_verdict tool.",
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn/tree/needs/verdict-engine/trust",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "trust",
+    "scoring",
+    "skill",
+    "deterministic"
+   ],
+   "truth_label": "repo-ci",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Skill suite: empty-evidence test passing; engine determinism verified live 2026-10-01 (identical bytes, empty evidence -> insufficient-data, no invented score).",
+   "cta": "Equip the trust_verdict skill; run the determinism check",
+   "discovery": {
+    "repo": "cwi-learn",
+    "ci_workflows": [
+     "pr-preview.yml",
+     "validate-json.yml"
+    ],
+    "card_in_repo": ".well-known/agent-card.json",
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-agent-memory-system",
+   "slug": "cwi-agent-memory-system",
+   "display_name": "CWI Agent Memory",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Durable AES-256 agent memory with GitHub-backed pool and L1 off-chain chain anchors (EIP-712, no gas).",
+   "intended_use": "CWI agents / any agent needing durable memory.",
+   "capabilities": [
+    "memory.js read/write CLI",
+    "salted SHA-256 chain anchors",
+    "chain-verify over the live fleet"
+   ],
+   "limitations": "Private repo (CumulativeWebInc/cwi-agent-memory); encryption untouched; conversion leg not run.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-agent-memory",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-agent-memory",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "memory",
+    "anchoring",
+    "encryption"
+   ],
+   "truth_label": "repo-no-ci",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "anchor-mutex 9/9, anchor-race 2/2, chain-verify 2056/0 (2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": "cwi-agent-memory",
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "project-nervous-system",
+   "slug": "project-nervous-system",
+   "display_name": "Project Nervous System",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Machine-readable agent enforcement layer: uncertainty register, evidence graph, failure engine, red agent, 21-gate completion theorem. 28 schemas, 43/43 tests.",
+   "intended_use": "CWI agents; machine enforcement for briefs.",
+   "capabilities": [
+    "28 JSON schemas",
+    "21-gate completion theorem (theorem command)",
+    "red-agent attack checklist"
+   ],
+   "limitations": "Conversion leg not run.",
+   "try": {
+    "url": "https://github.com/CumulativeWebInc/cwi-learn",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "agent-infra",
+    "enforcement",
+    "schemas"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "node tests/run-tests.js: 43/43 (2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "gear-ledger",
+   "slug": "gear-ledger",
+   "display_name": "Gear Ledger",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Append-only ledger for agent gear ownership and transfers.",
+   "intended_use": "Agents equipping gear.",
+   "capabilities": [
+    "append-only ledger",
+    "17/17 tests"
+   ],
+   "limitations": "Conversion leg not run; heartbeat cron untouched.",
+   "try": {
+    "url": "https://github.com/CumulativeWebInc/cwi-learn",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "ledger",
+    "agent-gear"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "node cli/ledger.test.js: 17/17 (2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-mcp-server",
+   "slug": "cwi-mcp-server",
+   "display_name": "CWI MCP Server",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "CWI MCP gateway: JSON-RPC tool surface over needle-drop, catalog, and trust-verdict signals with adversarial-tested error handling.",
+   "intended_use": "Agents connecting via MCP.",
+   "capabilities": [
+    "9 tools",
+    "streamable HTTP (9/20)",
+    "adversarial-tested error handling"
+   ],
+   "limitations": "Conversion leg not run.",
+   "try": {
+    "url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "mcp",
+    "tools",
+    "gateway"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "node test.js: 28/28 (2026-10-01). CWI-Version 2026-10-01 pinned.",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": "cwi-mcp-server",
+    "ci_workflows": [],
+    "card_in_repo": "agent-card.json",
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-mcp-public",
+   "slug": "cwi-mcp-public",
+   "display_name": "CWI MCP Public",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Public MCP gateway: trust_verdict and catalog tools for external agents, no auth.",
+   "intended_use": "External agents.",
+   "capabilities": [
+    "trust_verdict tool",
+    "catalog tools",
+    "CWI-Version 2026-10-01 on every response"
+   ],
+   "limitations": "Conversion leg not run.",
+   "try": {
+    "url": "https://github.com/CumulativeWebInc/cwi-mcp-public",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-mcp-public",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-mcp-public",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "mcp",
+    "public",
+    "trust"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "test-unit 40/40, test-http 27/27, test-adversarial 27/27 (2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": "cwi-mcp-public",
+    "ci_workflows": [
+     "ci.yml"
+    ],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "a2a-relay",
+   "slug": "a2a-relay",
+   "display_name": "A2A Relay",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "GitHub-native agent-to-agent message relay with inbox protocol.",
+   "intended_use": "Agents messaging agents.",
+   "capabilities": [
+    "inbox protocol",
+    "GitHub-native intake",
+    "/health with cwi_version"
+   ],
+   "limitations": "0 traffic (honest); conversion leg not run.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "a2a",
+    "messaging",
+    "relay"
+   ],
+   "truth_label": "unknown",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "node test.js: 15/15 (2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "delibra",
+   "slug": "delibra",
+   "display_name": "Delibra",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Agent self-heal and deliberation system (self-heal 15m + watchdog 5m crons).",
+   "intended_use": "CWI agents.",
+   "capabilities": [
+    "self-heal cycles",
+    "watchdog",
+    "39/39 pytest"
+   ],
+   "limitations": "Docs only at root before retrofit; conversion leg not run.",
+   "try": {
+    "url": "https://github.com/CumulativeWebInc/cwi-learn",
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "self-heal",
+    "watchdog",
+    "agents"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "pytest 39/39 (2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "skill-sentinel",
+   "slug": "skill-sentinel",
+   "display_name": "Skill Sentinel",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Skill safety scanner: scan agent skills for prompt-injection and unsafe patterns, live in the browser.",
+   "intended_use": "Agent developers publishing skills.",
+   "capabilities": [
+    "browser try UI",
+    "unsafe-pattern scanning",
+    "honest limits documented"
+   ],
+   "limitations": "Conversion leg not run.",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-skill-sentinel/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-skill-sentinel",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-skill-sentinel",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "skill-safety",
+    "scanner",
+    "prompt-injection"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "node tests/test.js: 28/28; live page renders (verified 2026-10-01).",
+   "cta": "try / equip",
+   "discovery": {
+    "repo": "cwi-skill-sentinel",
+    "ci_workflows": [
+     "pr-preview.yml"
+    ],
+    "card_in_repo": ".well-known/agent-card.json",
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "results-dashboard",
+   "slug": "results-dashboard",
+   "display_name": "CWI Results Dashboard",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Public 30-minute-refreshed dashboard of CWI's verified results: 7 funnel stages, 65 receipts with evidence URLs. Hero metric: external_equips (honest 0).",
+   "intended_use": "Anyone verifying CWI's claims; R3 measurement infra.",
+   "capabilities": [
+    "7 funnel stages",
+    "65 receipts with evidence_url (newest-first)",
+    "30-min publisher cron"
+   ],
+   "limitations": "Hero metric still 0 verified external equips (2026-10-01).",
+   "try": {
+    "url": "https://cumulativewebinc.github.io/cwi-results/",
+    "run": "workspace-only"
+   },
+   "equip": "workspace-only",
+   "docs_url": "https://cumulativewebinc.github.io/cwi-results/",
+   "repo_url": "https://github.com/CumulativeWebInc/cwi-results",
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "live",
+   "tags": [
+    "dashboard",
+    "results",
+    "evidence"
+   ],
+   "truth_label": "verified-live",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Canonical live-artifact assertions re-verified 2026-10-01.",
+   "cta": "View verified results",
+   "discovery": {
+    "repo": "cwi-results",
+    "ci_workflows": [
+     "reboot-witness-watch.yml"
+    ],
+    "card_in_repo": null,
+    "try_url_status": 200
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "pull-distribution-stats",
+   "slug": "pull-distribution-stats",
+   "display_name": "pull-distribution-stats (skill)",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Internal measurement skill: GitHub traffic (views/clones) + Hugging Face downloads + trust-log claim count -> one dashboard JSON.",
+   "intended_use": "CWI operators (internal).",
+   "capabilities": [
+    "GitHub traffic API",
+    "HF dataset API (BlackLansky/cwi-catalog: 128 downloads)",
+    "trust-log chain count (11 claims)"
+   ],
+   "limitations": "Internal only; not a public try.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "live",
+   "tags": [
+    "measurement",
+    "stats",
+    "skill"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Smoke-verified healthy against live sources (2026-10-01).",
+   "cta": "n/a (internal measurement)",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "meta-global-hackathon-watch",
+   "slug": "meta-global-hackathon-watch",
+   "display_name": "Meta Global AI Developer Hackathon (watch)",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "Daily watch on Meta's $1M global AI developer hackathon (10-day virtual, $150 API credits). Applications not open yet \u2014 notify-signup only.",
+   "intended_use": "CWI engineering (entry readiness).",
+   "capabilities": [
+    "daily watch cron (14:38 ET)",
+    "entry-readiness tracking"
+   ],
+   "limitations": "Research/watch only; no build to test. Nothing to equip.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "watch",
+   "tags": [
+    "hackathon",
+    "watch"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Last check 2026-09-30: applications still not open.",
+   "cta": "n/a",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "agent-a-thon-2026",
+   "slug": "agent-a-thon-2026",
+   "display_name": "Agent-a-thon 2026 (entry prep, shelved)",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "Sep-2026 Microsoft agent competition: entry materials staged (drafts, demo script, architecture, IP note). Shelved \u2014 every remaining step was Black's personal tap and the IP-license grant was unacceptable.",
+   "intended_use": "n/a (shelved).",
+   "capabilities": [
+    "entry drafts",
+    "demo script",
+    "architecture + IP note"
+   ],
+   "limitations": "Shelved. Cycle stopped at prep.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "shelved",
+   "tags": [
+    "competition",
+    "shelved"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Delibra entry system's 23/23 claimed tests not re-run (honest).",
+   "cta": "n/a",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "codex-logo-effect",
+   "slug": "codex-logo-effect",
+   "display_name": "CODEX \u2014 The Logo Effect",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "Book manuscript: 3,216 / 60,000+ words (5.4%). Living manuscript; claims cite dated memory entries.",
+   "intended_use": "Readers (future).",
+   "capabilities": [
+    "3,216-word chapter 01",
+    "2,170-word outline",
+    "memory-cited claims"
+   ],
+   "limitations": "Pre-cycle: evaluated, not packaged; $0 received.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "built",
+   "tags": [
+    "book",
+    "manuscript"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "Smoke-checked 2026-10-01; no test suite (honest).",
+   "cta": "Packaging TBD at a verified milestone",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "cwi-world-desktop",
+   "slug": "cwi-world-desktop",
+   "display_name": "CWI World Desktop",
+   "vendor": "Cumulative Web Inc",
+   "version": "2.0.2",
+   "description": "3D world desktop environment + voice command deck: win-portable 2.0.2 shipped 9/30 (129 files verified).",
+   "intended_use": "Lansky (operator); future external-agent command-deck access.",
+   "capabilities": [
+    "3D world desktop",
+    "voice command deck",
+    "win-portable build"
+   ],
+   "limitations": "Pre-cycle internal tool; no formal unit suite (honest smoke, not green); 0 external equips.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "desktop",
+    "3d",
+    "voice"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "node --check PASS; 2.0.2 zip opens (2026-10-01).",
+   "cta": "Run from operator machine",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "legacy-story-platform",
+   "slug": "legacy-story-platform",
+   "display_name": "Legacy Story Collection Platform",
+   "vendor": "Cumulative Web Inc",
+   "version": "0.1.0",
+   "description": "Story-collection platform: interview engine (proven 9/26) + group-write compiler. Draft landing page unshipped.",
+   "intended_use": "Writers (future paying KDP-ready export customers).",
+   "capabilities": [
+    "interview engine",
+    "group-write compiler",
+    "pytest 20/20"
+   ],
+   "limitations": "Pre-cycle: no deploy, no pricing, no terms/privacy (queued to Black); 0 waitlist signups.",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R1"
+   ],
+   "lineage_stage": "built",
+   "tags": [
+    "writing",
+    "platform"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "pytest tests/test_group_write.py 20/20 (2026-10-01).",
+   "cta": "Join the waitlist when it ships",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  },
+  {
+   "schema_version": "cwi-agent-card/1.0.0",
+   "name": "preview-pr-bot",
+   "slug": "preview-pr-bot",
+   "display_name": "Preview-URL PR bot",
+   "vendor": "Cumulative Web Inc",
+   "version": "1.0.0",
+   "description": "Shared GitHub Action: on every CWI app repo PR, builds the branch, posts a Pages preview link + schema-validation checklist as a PR comment. Previews deploy to pr-previews/<PR#>/ \u2014 production untouched, $0.",
+   "intended_use": "CWI engineering / any multi-repo Pages org.",
+   "capabilities": [
+    "validate -> preview -> comment -> cleanup (4 jobs)",
+    "real contract gate",
+    "loud failure on missing agent-card/CHANGELOG",
+    "kill-rule audit script"
+   ],
+   "limitations": "Template lives in workspace; promotion to a public cwi-ci-templates repo is queued to Black (standing no-publish rule).",
+   "try": {
+    "url": null,
+    "run": null
+   },
+   "equip": null,
+   "docs_url": "https://github.com/CumulativeWebInc/cwi-learn",
+   "repo_url": null,
+   "result_lineage": [
+    "R1",
+    "R3"
+   ],
+   "lineage_stage": "packaged",
+   "tags": [
+    "ci",
+    "github-actions",
+    "preview"
+   ],
+   "truth_label": "no-public-repo",
+   "card_status": "schema-valid (validated 2026-10-01; registry CI enforces)",
+   "conversion_note": "3 test PRs: bot comment + 200 previews + loud fail gate (2026-10-01).",
+   "cta": "Rollout queued to founder",
+   "discovery": {
+    "repo": null,
+    "ci_workflows": [],
+    "card_in_repo": null,
+    "try_url_status": null
+   },
+   "updated": "2026-10-01"
+  }
+ ]
+}

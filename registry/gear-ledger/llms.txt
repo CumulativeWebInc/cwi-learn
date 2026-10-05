@@ -1,0 +1,49 @@
+# Gear Ledger — CWI Product Card (llms.txt)
+
+> Machine-readable product card for Gear Ledger by Cumulative Web Inc.
+> Truth label: no-public-repo (see definitions below). Agent card JSON: https://cumulativewebinc.github.io/cwi-learn/registry/gear-ledger/agent-card.json
+
+- Name: Gear Ledger (slug: gear-ledger)
+- Version: 1.0.0 | Lineage: R3 | Stage: packaged
+
+## What it is
+
+Append-only ledger for agent gear ownership and transfers.
+
+## Intended use
+
+Agents equipping gear.
+
+## Capabilities
+
+- append-only ledger
+- 17/17 tests
+
+## Honest limitations
+
+Conversion leg not run; heartbeat cron untouched.
+
+## Try / equip
+
+- Try: https://github.com/CumulativeWebInc/cwi-learn
+
+- Docs: https://github.com/CumulativeWebInc/cwi-learn
+
+## Conversion (honest numbers)
+
+node cli/ledger.test.js: 17/17 (2026-10-01).
+
+## Call to action
+
+try / equip
+
+## Truth labels
+
+- verified-live: try URL returned HTTP 200 on 2026-10-01 and card is schema-valid.
+- repo-ci / repo-no-ci: public GitHub repo exists (with / without CI workflows); try URL not 200.
+- staged-unshipped: built/staged, not live — awaits founder taps.
+- no-public-repo: workspace or goal-directory only; no public repo probed.
+- unknown: not verified; treat all claims as unverified.
+
+Card schema: https://cumulativewebinc.github.io/cwi-learn/registry/agent-card-schema.json
+Full registry: https://cumulativewebinc.github.io/cwi-learn/registry/
