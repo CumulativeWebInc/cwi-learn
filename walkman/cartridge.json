@@ -1,7 +1,7 @@
 {
-  "cartridge": "CWI-1 LOGO CARTRIDGE",
+  "cartridge": "SIGNAL BOY CARTRIDGE",
   "format": "cwi-cartridge/v1",
-  "device": "CWI-1 Logo Walkman (Agent Edition)",
+  "device": "Signal Boy (Agent Edition)",
   "device_page": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
   "issued_by": "Cumulative Web Inc",
   "artist": {
