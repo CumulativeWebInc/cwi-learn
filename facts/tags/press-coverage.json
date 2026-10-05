@@ -1,0 +1,12 @@
+{
+  "facet": "domain",
+  "packets": [
+    {
+      "node": "fact/module/pr-coverage",
+      "packet_id": "fact/module/pr-coverage",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-coverage.json"
+    }
+  ],
+  "tag": "press-coverage",
+  "updated": "2026-10-03T14:19:47Z"
+}
