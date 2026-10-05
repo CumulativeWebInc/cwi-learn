@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-09-16T13:20:16.051185Z",
+  "method_summary": "Spotify's /v1/audio-features and /v1/audio-analysis Web API endpoints were removed on 27 Nov 2024 (403 Forbidden for apps created after that date), so no Spotify-computed values exist here. Documented fallback: compute features with librosa from each track's 30-second Spotify preview MP3 (analyze_previews.py: tempo via beat tracking, key/mode via Krumhansl-Schumann chroma template matching, energy via mean RMS, brightness via spectral centroid, percussiveness via onset-envelope strength). danceability, valence and speechiness are omitted \u2014 they need Spotify's proprietary models and are never estimated. On 2026-09-16 the connected partner API exposed no preview_url for any of the 27 ID-resolved tracks (full per-track response scan), so no real audio could be downloaded and all feature values are null rather than fabricated.",
+  "coverage": {
+    "ok": 0,
+    "total": 35
+  },
+  "status_breakdown": {
+    "ok": 0,
+    "no_spotify_id": 8,
+    "no_preview": 27,
+    "analysis_failed": 0
+  },
+  "honest_limits": "Zero tracks carry computed audio features in this run: the 27 tracks with verified Spotify IDs returned no preview_url from the connected Spotify API (Spotify stripped preview URLs from API responses for newer apps alongside the Nov 2024 audio-features deprecation), so there was no real audio to analyze and every features object is null instead of invented. The 8 remaining tracks (all 7 King Akeem singles plus 183 Wildboi \"Stunt\") have no verified Spotify track ID \u2014 search candidates resolved to other artists on their track pages, so they were marked no_spotify_id rather than guessed. When previews become available, features will be computed with librosa from the actual 30-second preview waveform only (tempo, key/mode, energy, brightness, percussiveness) and will describe the preview clip, not the full track; danceability, valence and speechiness will remain absent because they require Spotify's proprietary models.",
+  "tracks": [
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Zooted Zone",
+      "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Shaka Zulu",
+      "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Doves & Diamonds",
+      "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Diabolique",
+      "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Flamerz",
+      "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Neon Nights Pt. 777",
+      "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Ultimate",
+      "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Painted Lady",
+      "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Warped and Wicked",
+      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Golden Diamond",
+      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Spirits n Shadows",
+      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Flex My Flame",
+      "spotify_id": "7FQvcCS2CdTVsd6hb9jvHx",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Rainbows And Roses",
+      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Tears and Scars",
+      "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Toxic Elements",
+      "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "7th Angel",
+      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Scorpions & Sapphires",
+      "spotify_id": "6YQq5GsaUmanh0XyHQIGoR",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Place I Go to Dream",
+      "spotify_id": "3KX10tZBft6gp2Nea9HZOB",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Place I Go to Dream - Remastered",
+      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Place I Go to Dream - Instrumental",
+      "spotify_id": "3tKoMnnlkcRr7wE3PUQ9bp",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Smokin' Pain",
+      "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Phantasm",
+      "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Misfits and Hooligans",
+      "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "That Boy Hi Hat",
+      "title": "Roses over Monaco",
+      "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "183 Wildboi",
+      "title": "Full Moon",
+      "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "183 Wildboi",
+      "title": "Everything Greezy",
+      "spotify_id": "5bkucneeyJHE2FepYKfYZ7",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "Dre50",
+      "title": "Pix",
+      "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_preview"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Star",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Super Solid",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Embiid",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Bluefaces 3.0",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Goated",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Element",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "King Akeem",
+      "title": "Summer Night FAST",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    },
+    {
+      "artist": "183 Wildboi",
+      "title": "Stunt",
+      "spotify_id": null,
+      "features": null,
+      "method": null,
+      "source_audio": null,
+      "fetched_at": "2026-09-16T13:20:16.051185Z",
+      "status": "no_spotify_id"
+    }
+  ]
+}
