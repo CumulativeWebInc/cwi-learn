@@ -29,7 +29,7 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 - llms.txt: https://cumulativewebinc.github.io/cwi-learn/llms.txt
 - Agent card: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
 - content.json: https://cumulativewebinc.github.io/cwi-learn/content.json
-- catalog.json — 35-track catalog: https://cumulativewebinc.github.io/cwi-learn/catalog.json
+- catalog.json — 35-track catalog: https://cwi-machine-data.hp-ace.workers.dev/catalog.json
 - graph.json — catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
 - gear.json — Agent Deck registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
 
@@ -51,7 +51,7 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 > LIVE 2026-10-03: query-db.json is published and queryable. Verified via HTTP 200 + cold query test.
 > and do not fetch it as live data, until a live GET returns HTTP 200.
 
-- Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json
+- Endpoint: https://cwi-machine-data.hp-ace.workers.dev/query?q=
 - query.js (client-side filter, same schema): https://cumulativewebinc.github.io/cwi-learn/placement/query.js
 - Schema: cwi.placement-query/1.0 — over the placement-engine data layer (31-track catalog graph:
   tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03).
@@ -334,7 +334,7 @@ observation date as stale.
 ## Public machine-readable surface
 - Canonical root routes (live 2026-09-15):
   https://cumulativewebinc.github.io/cwi-learn/llms.txt
-  https://cumulativewebinc.github.io/cwi-learn/catalog.json
+  https://cwi-machine-data.hp-ace.workers.dev/catalog.json
   https://cumulativewebinc.github.io/cwi-learn/graph.json
   https://cumulativewebinc.github.io/cwi-learn/kit.json
 - This file, catalog.json, graph.json, and the AI Learning Kit are published
@@ -447,7 +447,7 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 ## Machine endpoints (canonical, stable)
 - Entity graph (JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.jsonld
 - Entity index (human + embedded JSON-LD): https://cumulativewebinc.github.io/cwi-learn/entities.html
-- Catalog data: https://cumulativewebinc.github.io/cwi-learn/catalog.json
+- Catalog data: https://cwi-machine-data.hp-ace.workers.dev/catalog.json
 - Catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
 - Agent card: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
 - Sitemap: https://cumulativewebinc.github.io/cwi-learn/sitemap.xml
