@@ -1,0 +1,38 @@
+{
+  "registry": "Agent Deck \u2014 CWI Agent Gear Registry",
+  "version": "1.0.0",
+  "updated": "2026-09-15",
+  "owner": "Cumulative Web Inc",
+  "contact": "hp@cumulativeweb.com",
+  "items": [
+    {
+      "name": "Signal Boy",
+      "gear": "cwi-1-walkman",
+      "department": "chief",
+      "category": "agent-wearable-devices",
+      "slot": "utility",
+      "version": "2.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/walkman/item-card.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/walkman/",
+      "updated": "2026-09-15",
+      "equipped_by": []
+    },
+    {
+      "name": "Gear Ledger",
+      "gear": "gear-ledger",
+      "department": "data",
+      "category": "provenance-metrics",
+      "slot": "utility",
+      "version": "1.0.0",
+      "item_card_url": "https://cumulativewebinc.github.io/cwi-learn/agents/ledger.json",
+      "give_block_url": "https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html",
+      "rubric_url": "https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html",
+      "product_url": "https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html",
+      "updated": "2026-09-15",
+      "equipped_by": []
+    }
+  ],
+  "description": "Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. Products are SKUs on its shelf. Built by Cumulative Web Inc."
+}
