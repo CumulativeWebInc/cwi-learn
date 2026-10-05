@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-1-walkman-signal-boy",
+  "@type": "Product",
+  "name": "CWI-1 Walkman / Signal Boy",
+  "description": "CWI-1 wearable Walkman + Signal Boy (Agent Edition): the 24-track That Boy Hi Hat catalog as a machine-readable cartridge with an EQUIP flow and evaluation rubric for AI agents.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R3)",
+      "value": "external AI agents (equip-able device) | device page + Moltbook agent network | CTA: EQUIP THIS DEVICE",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "marketed",
+      "evidence": "python3 test.py 2026-10-01: ALL TESTS PASSED, exit 0, 0 failures (24 tracks; all 24 Spotify URLs 200; live embeds/logos)"
+    },
+    {
+      "claim": "conversion end number (R3)",
+      "value": "0 verified external agent equips",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "marketed",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    },
+    {
+      "rel": "relatedTo",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#relatedTo",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat"
+      },
+      "note": "Carries the 24-track That Boy Hi Hat catalog"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "CWI-1 Walkman / Signal Boy",
+      "result": "R3",
+      "who": "external AI agents (equip-able device)",
+      "channel": "device page + Moltbook agent network",
+      "cta": "EQUIP THIS DEVICE",
+      "end_number": "0 verified external agent equips",
+      "cycle_stage": "marketed",
+      "tests": "python3 test.py 2026-10-01: ALL TESTS PASSED, exit 0, 0 failures (24 tracks; all 24 Spotify URLs 200; live embeds/logos)",
+      "packaged": "y",
+      "verified_at": "2026-10-01T14:45:00-04:00",
+      "notes": "Agent-native culture asset ('The Cumulative Culture'). Manifest: cwi-company/walkman/lineage-manifest.json. Branding: CWI logo + cartridge/item-card machine data present."
+    }
+  ],
+  "url": "https://cumulativewebinc.github.io/cwi-learn/walkman/"
+}

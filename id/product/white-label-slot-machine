@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/white-label-slot-machine",
+  "@type": "VideoGame",
+  "name": "White-Label Slot Machine",
+  "description": "White-label slot machine: link engine proven live (Spotify/Apple Music/Amazon); sellable to artists and labels, not yet packaged for sale.",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "version": "2.0.0",
+  "provenance": [
+    {
+      "claim": "lineage record (R1)",
+      "value": "indie artists + labels | direct outreach to artists/labels via CWI services (hp@cumulativeweb.com); Meta Muse App Store submission path unverified | CTA: License the white-label slot engine for your catalog",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "verified",
+      "status": "built",
+      "evidence": "green: resolve-links 7/7 (node:test; two-command identity, fabrication tripwire, 7-scout isolation, latency budget) (run 2026-10-01)"
+    },
+    {
+      "claim": "conversion end number (R1)",
+      "value": "1000",
+      "source": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+      },
+      "dateCreated": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "version": "2.0.0",
+      "confidence": "claimed_unverified",
+      "status": "built",
+      "evidence": "as recorded in the lineage registry 2026-10-01"
+    }
+  ],
+  "relationships": [
+    {
+      "rel": "developedBy",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology#developedBy",
+      "target": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+      },
+      "note": "Built by Cumulative Web Inc"
+    }
+  ],
+  "lineage": [
+    {
+      "product": "White-Label Slot Machine",
+      "result": "R1",
+      "who": "indie artists + labels",
+      "channel": "direct outreach to artists/labels via CWI services (hp@cumulativeweb.com); Meta Muse App Store submission path unverified",
+      "cta": "License the white-label slot engine for your catalog",
+      "end_number": 1000,
+      "cycle_stage": "built",
+      "tests": "green: resolve-links 7/7 (node:test; two-command identity, fabrication tripwire, 7-scout isolation, latency budget) (run 2026-10-01)",
+      "packaged": "n",
+      "verified_at": "2026-10-01T14:20:00-04:00",
+      "notes": "Strongest R1 lineage in the games slice: a sellable product whose buyer is an artist/label. Link engine proven live (Spotify, Apple Music, Amazon verified; no public Tidal search API; YouTube needs artist-pasted key). Not yet packaged for sale — no white-label skin, pricing page, or checkout; next conversion action is the package + first pitch."
+    }
+  ]
+}
