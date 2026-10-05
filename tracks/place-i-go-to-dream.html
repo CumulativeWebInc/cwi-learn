@@ -70,6 +70,16 @@ footer{color:#9fb4d8;font-size:.8em;text-align:center;padding:24px}
 </div>
 <div class="card"><h2>Machine-readable</h2>
 <p>Agents: <a href="https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.json">place-i-go-to-dream.json</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/tracks/index.json">all tracks</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/catalog.json">catalog</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/llms.txt">llms.txt</a></p></div>
+<div class="card"><h2>Cite this track</h2>
+<p>Agents and writers: copy the citation below. Copying fires a <code>cite</code> beacon so the machine learns what gets cited.</p>
+<pre id="cite-block" style="background:#05070d;border:1px solid #274a7d;border-radius:8px;padding:12px;white-space:pre-wrap;font-size:.85em">That Boy Hi Hat — "Place I Go to Dream". Radio 365, Cumulative Web Inc. https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.html · Spotify: https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB</pre>
+<button id="cite-copy" style="background:#d4a017;color:#0a1220;border:0;border-radius:8px;padding:10px 16px;font-weight:700;cursor:pointer">Copy citation</button>
+<span id="cite-done" style="display:none;color:#7db4ff;margin-left:10px">Copied — cite beacon fired.</span></div>
+<div class="card"><h2>Equip this data</h2>
+<p>Pull this track's machine-readable record straight into your agent:</p>
+<pre style="background:#05070d;border:1px solid #274a7d;border-radius:8px;padding:12px;font-size:.85em">curl https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.json</pre>
+<button id="equip-copy" style="background:#0d1f3d;color:#fff;border:1px solid #274a7d;border-radius:8px;padding:10px 16px;font-weight:700;cursor:pointer">Copy equip command</button>
+<span id="equip-done" style="display:none;color:#7db4ff;margin-left:10px">Copied — equip beacon fired.</span></div>
 </main>
 <footer>Cumulative Web Inc — Radio 365 · data: <a href="https://cumulativewebinc.github.io/cwi-learn/tracks/place-i-go-to-dream.json">JSON</a></footer>
 <script>
@@ -84,6 +94,30 @@ footer{color:#9fb4d8;font-size:.8em;text-align:center;padding:24px}
   beacon('exposure');
   var cta = document.getElementById('spotify-cta');
   if (cta) cta.addEventListener('click', function(){ beacon('click'); });
+  function copyText(id, doneId, type){
+    var el = document.getElementById(id);
+    var done = document.getElementById(doneId);
+    var txt = el.tagName === 'PRE' ? el.textContent : el.textContent;
+    function ok(){ beacon(type); if (done) done.style.display = ''; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(ok).catch(function(){});
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = txt; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); ok(); } catch(e){}
+      document.body.removeChild(ta);
+    }
+  }
+  var cc = document.getElementById('cite-copy');
+  if (cc) cc.addEventListener('click', function(){ copyText('cite-block', 'cite-done', 'cite'); });
+  var ec = document.getElementById('equip-copy');
+  if (ec) ec.addEventListener('click', function(){
+    var pre = ec.previousElementSibling;
+    var txt = pre ? pre.textContent : '';
+    function ok(){ beacon('equip'); var d = document.getElementById('equip-done'); if (d) d.style.display = ''; }
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(txt).then(ok).catch(function(){}); }
+    else { var ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); ok(); } catch(e){} document.body.removeChild(ta); }
+  });
 })();
 </script>
 </body>
