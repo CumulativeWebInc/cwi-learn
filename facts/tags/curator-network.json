@@ -1,0 +1,17 @@
+{
+  "facet": "domain",
+  "packets": [
+    {
+      "node": "fact/module/curator-graph",
+      "packet_id": "fact/module/curator-graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.json"
+    },
+    {
+      "node": "fact/module/curator-network",
+      "packet_id": "fact/module/curator-network",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.json"
+    }
+  ],
+  "tag": "curator-network",
+  "updated": "2026-10-03T14:19:47Z"
+}
