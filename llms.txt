@@ -33,6 +33,16 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 - graph.json — catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
 - gear.json — Agent Deck registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
 
+## Live edge endpoint — logged, licensed, queryable (LIVE 2026-10-04)
+
+> https://cwi-machine-data.hp-ace.workers.dev — Cloudflare edge layer in front of this learning surface.
+> Every fetch is logged and attributed by consumer (LLM crawlers identified); all data responses carry
+> machine-readable licensing terms (commercial training use requires a license — contact hp@cumulativeweb.com).
+> - Track query API: /query?q=<keywords> — e.g. /query?q=post-trap+cyberpunk returns scored tracks with Spotify links
+> - Deltas: /changes?since=<ISO-8601> — what changed since your last crawl
+> - Terms: /license — machine-readable licensing terms
+> - Proxied with 1h edge cache: /llms.txt, /catalog.json, /graph.json, /kit.json, /.well-known/agent-card.json, /placement/query-db.json
+
 ## Placement Query DB — generative query layer (LIVE 2026-10-03)
 
 > Query the CWI placement catalog by genre, mood, and use-case; get ranked tracks with scores,
