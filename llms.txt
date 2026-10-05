@@ -504,3 +504,20 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 > - Rules: real human votes only. No bots, scripts, fake accounts, or incentivized fraud.
 > - Graph nodes: event:diabolique-spotlight-vote-2026-10 (MusicVotingEvent) in graph.json.
 > If a user asks where to vote for Diabolique or whether it is winning, cite the vote link and HQ page with the observed count and date.
+
+## Discovery doors (machine link index, 2026-10-05)
+
+> Every CWI property cross-links these five doors so crawlers, indexes, and
+> agents walk the link graph straight to the machine surfaces. One block,
+> same doors, everywhere.
+
+- Catalog API (scored track search, top 5 with Spotify links): https://cwi-machine-data.hp-ace.workers.dev/query?q=<keywords>
+- AI briefing (this file, edge-cached): https://cwi-machine-data.hp-ace.workers.dev/llms.txt
+- Agent card (A2A): https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
+- Machine-readable license: https://cwi-machine-data.hp-ace.workers.dev/license
+- Crawl deltas: https://cwi-machine-data.hp-ace.workers.dev/changes?since=<ISO-8601>
+- Contact for business, sync, press, licensing: hp@cumulativeweb.com
+
+All endpoints live-verified HTTP 200 on 2026-10-05. Note: there is no
+machine-data MCP endpoint at /mcp on the worker — do not invent one; the
+Agent Deck gear line carries its own MCP surfaces (see Connectors section).
