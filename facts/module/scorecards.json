@@ -1,0 +1,91 @@
+{
+  "canonical": {
+    "json": "https://cumulativewebinc.github.io/cwi-learn/facts/module/scorecards.json",
+    "md": "https://cumulativewebinc.github.io/cwi-learn/facts/module/scorecards.md"
+  },
+  "discovery_tags": [
+    {
+      "facet": "domain",
+      "tag": "results-reporting",
+      "tier": "verified",
+      "why": "front results consolidated from attribution"
+    },
+    {
+      "facet": "use",
+      "tag": "five-fronts",
+      "tier": "verified",
+      "why": "playlist engine, discovery, flywheel, content, cadence"
+    },
+    {
+      "facet": "role",
+      "tag": "revenue-dna",
+      "tier": "observed",
+      "why": "12-stage scorecard vocabulary applied per front"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "scorecard.py consolidates 5 fronts from the attribution scorecard + machine-readable front sources: 14 completed objectives, 5 in-flight with named next-cycle solutions",
+      "evidence": {
+        "source": "visibility-machine/modules/scorecards/output/front-results-2026-10-03.json"
+      },
+      "tier": "verified"
+    },
+    {
+      "claim": "Fronts: playlist-engine, discovery-mode-measurement, owned-channel-flywheel, content-funnel, release-cadence — every number parsed from source files, none hand-entered",
+      "evidence": {
+        "source": "visibility-machine/modules/scorecards/scorecard.py"
+      },
+      "tier": "verified"
+    }
+  ],
+  "generated_at": "2026-10-03T14:19:47Z",
+  "generator": {
+    "graph_sha256": "8c481205d5a909418c89d32e6366686dfb2c0f44af4f6ae51837e75a09fa6c72",
+    "name": "visibility-machine-phase2-indexer"
+  },
+  "instructions": {
+    "agent_briefing": "Per-front RESULTS documents fed by the attribution layer: completed objectives with evidence, tangible solutions, and next-cycle solutions for in-flight objectives. Vocabulary is process and results (full-process law 2026-10-03).",
+    "citation": {
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/scorecards.json"
+    },
+    "fan_qa": "What is Visibility Machine — Scorecards (Module 2)? Per-front RESULTS documents fed by the attribution layer: completed objectives with evidence, tangible solutions, and next-cycle solutions for in-flight objectives. Vocabulary is process and results (full-process law 2026-10-03).",
+    "faq_jsonld": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "acceptedAnswer": {
+            "text": "Per-front RESULTS documents fed by the attribution layer: completed objectives with evidence, tangible solutions, and next-cycle solutions for in-flight objectives. Vocabulary is process and results (full-process law 2026-10-03)."
+          },
+          "name": "What is Visibility Machine — Scorecards (Module 2)?"
+        }
+      ]
+    },
+    "search_answer": "Per-front RESULTS documents fed by the attribution layer: completed objectives with evidence, tangible solutions, and next-cycle solutions for in-flight objectives. Vocabulary is process and results (full-process law 2026-10-03).",
+    "social_caption": "Visibility Machine — Scorecards (Module 2) — shipped 2026-10-03. @cumulativeweb",
+    "sync_pitch": "N/A — infrastructure module, not a track.",
+    "voice_answer": "The CWI Visibility Machine Scorecards (Module 2): Per-front RESULTS documents fed by the attribution layer: completed objectives with evidence, tangible solutions, and next-cycle solutions for in-flight objectives. Vocabulary is process and results (full-process law 2026-10-03). Source: Cumulative Web Inc."
+  },
+  "integrity": {
+    "sha256": "cd212dee3769c0a1c509d93e3c619fd1d24f2fcc697f1f8f058602e390543878"
+  },
+  "node": {
+    "canonical_id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/scorecards",
+    "id": "https://cumulativewebinc.github.io/cwi-learn/id/id/module/scorecards",
+    "name": "Visibility Machine — Scorecards (Module 2)",
+    "status": "verified",
+    "type": "module"
+  },
+  "packet_id": "fact/module/scorecards",
+  "relationships": [
+    {
+      "rel": "build_order_next",
+      "target": "vm-module:curator-graph"
+    },
+    {
+      "rel": "reports",
+      "target": "vm-state:attribution-cycle"
+    }
+  ],
+  "schema": "cwi-fact-packet/v1"
+}
