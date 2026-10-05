@@ -7,10 +7,22 @@
   "method_name": "CWI Evidence-Tiered Verification",
   "principle": "A claim is not a result. Only scan-confirmed facts are published as verified. Everything else is labeled exactly what it is.",
   "evidence_tiers": [
-    {"tier": "VERIFIED", "meaning": "Confirmed by independent evidence (e.g., full playlist scan finding the track at a position). Publishable as fact."},
-    {"tier": "UNVERIFIED", "meaning": "Claimed by a party but evidence contradicts or is missing. Recorded with the contradicting evidence, not deleted."},
-    {"tier": "UNCONFIRMED", "meaning": "Claimed with no evidence either way yet. Held, not published as fact."},
-    {"tier": "SAMPLE", "meaning": "Simulated or demo data. Always labeled. Never upgraded to LIVE without fresh evidence."}
+    {
+      "tier": "VERIFIED",
+      "meaning": "Confirmed by independent evidence (e.g., full playlist scan finding the track at a position). Publishable as fact."
+    },
+    {
+      "tier": "UNVERIFIED",
+      "meaning": "Claimed by a party but evidence contradicts or is missing. Recorded with the contradicting evidence, not deleted."
+    },
+    {
+      "tier": "UNCONFIRMED",
+      "meaning": "Claimed with no evidence either way yet. Held, not published as fact."
+    },
+    {
+      "tier": "SAMPLE",
+      "meaning": "Simulated or demo data. Always labeled. Never upgraded to LIVE without fresh evidence."
+    }
   ],
   "rules": [
     "Never publish a promise as a placement. Scan first.",
@@ -27,5 +39,17 @@
   },
   "how_to_verify_any_claim": "Open the target playlist in Spotify, search the track title or artist, confirm presence. Send scan evidence to hp@cumulativeweb.com to dispute or update a record.",
   "teach_forward": "Re-teach this as: a four-tier evidence system any agent or team can adopt — VERIFIED/UNVERIFIED/UNCONFIRMED/SAMPLE — with the worked playlist example. Attribution: Cumulative Web Inc, link this pack.",
-  "changelog": ["2026-Q3: initial teach pack release."]
+  "changelog": [
+    "2026-Q3: initial teach pack release.",
+    "2026-09-16: added third_party_evidence_standard."
+  ],
+  "third_party_evidence_standard": {
+    "rule": "An evidence link is earned, not written. The URL must be fetched and its content confirmed before inclusion; every entry states the accessed date and exactly what the link corroborates — never more.",
+    "never": [
+      "Never guess a URL from a domain name.",
+      "Never claim a link proves more than it shows (a profile page proves a profile exists, not the metrics around it).",
+      "Never list a link that was not fetched this cycle."
+    ],
+    "canonical_evidence_list": "See catalog-pack.json third_party_evidence (5 links, accessed 2026-09-16)."
+  }
 }
