@@ -1,0 +1,12 @@
+{
+  "facet": "proof",
+  "packets": [
+    {
+      "node": "fact/module/curator-network",
+      "packet_id": "fact/module/curator-network",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.json"
+    }
+  ],
+  "tag": "verified-placements",
+  "updated": "2026-10-03T14:19:47Z"
+}
