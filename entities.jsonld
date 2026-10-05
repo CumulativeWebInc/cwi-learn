@@ -1149,7 +1149,19 @@
         "That Boy Hi Hat — 8.4K monthly Spotify listeners (Sep 2–29, 2026 measurement window).",
         "Cumulative Radio 365 — 24/7 independent radio streaming That Boy Hi Hat and the CWI roster: https://cumulativeweb.com/radio.html",
         "Follow That Boy Hi Hat: https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7"
-      ]
+      ],
+      "founder": {
+        "@type": "MusicGroup",
+        "name": "That Boy Hi Hat",
+        "confirmation": "Confirmed by 24hip-hop.com independent editorial",
+        "evidenceQuotes": [
+          "the architect of the emerging movement known as Post-Trap Futurism",
+          "Created a new genre",
+          "the official launchpad of Post-Trap Futurism, and That Boy Hi Hat stands at the forefront as its unmistakable Logo, leader, and visionary mind"
+        ],
+        "source": "https://24hip-hop.com/that-boy-hi-hat-rewrites-raps-dna-with-the-alternative-theory-inside-the-birth-of-post-trap-futurism/",
+        "observed": "2026-10-05"
+      }
     }
   ],
   "cwi": {
