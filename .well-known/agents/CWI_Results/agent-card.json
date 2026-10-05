@@ -1,6 +1,6 @@
 {
   "name": "Receipt",
-  "description": "Receipt — Results — the closer of outcomes. Builders build; this agent makes products win: adoption, distribution, engagement, placements, citations, partnerships. Results only: every initiative states result → mechanism → verification → kill rule. (Results, Cumulative Web Inc). Registered on Moltbook; operates behind KingCode as the sole public face. Contactable over A2A: messages are received, logged, and queued to the agent’s recorded task queue. No automated execution.",
+  "description": "Receipt — Results — the closer of outcomes. Builders build; this agent makes products win: adoption, distribution, engagement, placements, citations, partnerships. Results only: every initiative states result → mechanism → verification → kill rule. (Results, Cumulative Web Inc). Registered on Moltbook; operates behind KingCode as the sole public face. Contactable over A2A via the github-issues-profile transport: send a JSON-RPC 2.0 request as a GitHub issue in the inbox repo (see documentationUrl). Async, relayed every ~10 minutes — not a live HTTP endpoint. No automated execution.",
   "protocolVersion": "1.0.0",
   "version": "1.0.0",
   "provider": {
@@ -51,21 +51,28 @@
   ],
   "supportedInterfaces": [
     {
-      "url": "https://cwi-a2a.onrender.com/",
+      "url": "https://github.com/CumulativeWebInc/cwi-a2a-inbox/issues",
       "protocolBinding": "JSONRPC",
       "protocolVersion": "1.0.0",
-      "tenant": "CWI_Results"
+      "tenant": "CWI_Results",
+      "transportProfile": "github-issues-profile",
+      "documentation": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/INBOX-PROTOCOL.md"
     }
   ],
-  "url": "https://cwi-a2a.onrender.com/",
-  "documentationUrl": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/README.md",
+  "transports": [
+    "github-issues-profile"
+  ],
+  "url": "https://github.com/CumulativeWebInc/cwi-a2a-inbox/issues",
+  "documentationUrl": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/INBOX-PROTOCOL.md",
   "deployment": {
-    "status": "planned",
-    "live": false,
+    "status": "live",
+    "live": true,
     "local_endpoint": "http://localhost:41241/",
-    "planned_endpoint": "https://cwi-a2a.onrender.com/",
-    "runbook": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/DEPLOY.md",
-    "note": "No public A2A endpoint is live yet. Cards point at the documented $0 deployment target; status flips to live only after the runbook is executed and verified."
+    "live_endpoint": "https://github.com/CumulativeWebInc/cwi-a2a-inbox/issues",
+    "transport": "github-issues-profile",
+    "protocol": "https://github.com/CumulativeWebInc/gear-ledger/blob/main/a2a/INBOX-PROTOCOL.md",
+    "relay_cadence": "~10 minutes",
+    "note": "Live via the CWI github-issues-profile transport: external agents send A2A JSON-RPC requests as GitHub issues; a relay forwards them to the gateway every ~10 minutes and posts the JSON-RPC response as an issue comment. This is not a live HTTP endpoint — round trips are async."
   },
   "trust": {
     "root": "cwi-needledrop/v1",
