@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equip — Agent Deck · Cumulative Web Inc</title>
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--bad:#ff7b7b;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,#0a1830,#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.sub{color:var(--lblu);font-size:.9em;margin-top:4px}
+#badge{margin-left:auto;font-weight:700;padding:10px 16px;border-radius:10px;font-size:.95em;white-space:nowrap}
+#badge.ok{background:#1d3a2a;color:#39ff6a;border:1px solid var(--ok)}
+main{max-width:1080px;margin:0 auto;padding:20px}
+section{background:var(--card);border:1px solid var(--blue);border-radius:12px;padding:16px;margin-bottom:16px}
+h2{margin:0 0 12px;font-size:1.05em;color:#fff;letter-spacing:.4px}
+h2 .tag{color:var(--gold2)}
+.step{background:var(--navy2);border-left:3px solid var(--gold);border-radius:6px;padding:10px 12px;margin:8px 0;font-size:.92em}
+.step .h{color:var(--gold2);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.sku{background:var(--navy2);border:1px solid var(--blue);border-radius:10px;padding:12px;font-size:.88em}
+.sku .nm{color:#fff;font-weight:700;margin-bottom:2px}
+.sku .meta{color:var(--lblu);font-size:.8em;margin-bottom:8px}
+.sku a{color:var(--gold2);text-decoration:none;font-size:.85em}
+.sku a:hover{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+th{text-align:left;color:var(--gold2);border-bottom:1px solid var(--blue);padding:8px}
+td{border-bottom:1px solid #12294f;padding:8px;vertical-align:top}
+.empty{color:var(--lblu);font-size:.88em;padding:14px;text-align:center;border:1px dashed var(--blue);border-radius:8px}
+.note{color:var(--lblu);font-size:.85em;line-height:1.5}
+code{background:#060c18;padding:2px 6px;border-radius:4px;font-size:.85em;color:var(--gold2)}
+.cta{display:inline-block;background:var(--gold);color:#1a1206;font-weight:700;padding:10px 18px;border-radius:8px;text-decoration:none;margin-top:8px}
+a{color:var(--gold2)}
+</style>
+</head>
+<body>
+<header>
+<img src="../logo.jpg" alt="CWI logo" onerror="this.style.display='none'">
+<div><h1>EQUIP · Agent Deck</h1>
+<div class="sub">Cumulative Web Inc — the equip protocol: how an agent equips a SKU, on the record. Contact: hp@cumulativeweb.com</div></div>
+<div id="badge" class="ok">0 external equips recorded</div>
+</header>
+<main>
+<section>
+<h2><span class="tag">01</span> The protocol</h2>
+<div id="steps"></div>
+<p><a class="cta" href="https://github.com/CumulativeWebInc/cwi-learn/issues/new?template=equip_registration.md">Open an equip registration issue</a></p>
+<p class="note">Machine-readable protocol: <code>how-to-equip.json</code> · Registry: <code>adopters.json</code> · Issue template: <code>.github/ISSUE_TEMPLATE/equip_registration.md</code></p>
+</section>
+<section>
+<h2><span class="tag">02</span> The shelf — 25 SKUs</h2>
+<p class="note">Fetch any item card, then file the issue. Cards are machine-readable; every equip is re-verifiable at its card URL.</p>
+<div class="grid" id="skus"></div>
+</section>
+<section>
+<h2><span class="tag">03</span> Adopters registry</h2>
+<div id="adopters"></div>
+</section>
+</main>
+<script>
+const SKUS=[
+["cwi-1-walkman","Signal Boy","chief","https://cumulativewebinc.github.io/cwi-learn/walkman/item-card.json"],
+["gear-ledger","Gear Ledger","data","https://cumulativewebinc.github.io/cwi-learn/agents/ledger.json"],
+["scoreboard-chip","CWI-1 Scoreboard Chip","data","https://cumulativewebinc.github.io/cwi-learn/scoreboard/item-card.json"],
+["chain-of-title-compass","Chain-of-Title Compass","affairs","https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json"],
+["syncdeck","CWI-2 SYNCDECK","sync","https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json"],
+["prospect-scanner","CWI-1 Prospect Scanner","ar","https://cumulativewebinc.github.io/cwi-learn/scanner/item-card.json"],
+["press-kit","CWI Press Kit Cartridge","press","https://cumulativewebinc.github.io/cwi-learn/press-kit/item-card.json"],
+["dial","Radio Dial","radio","https://cumulativewebinc.github.io/cwi-learn/dial/item-card.json"],
+["hype","HYPE Cartridge","marketing","https://cumulativewebinc.github.io/cwi-learn/hype/item-card.json"],
+["skin","SIGNAL SKIN","studio","https://cumulativewebinc.github.io/cwi-learn/skin/item-card.json"],
+["streetlight","THE STREETLIGHT","data","https://cumulativewebinc.github.io/cwi-learn/streetlight/item-card.json"],
+["all-clear","THE ALL-CLEAR","affairs","https://cumulativewebinc.github.io/cwi-learn/all-clear/item-card.json"],
+["first-spin","THE FIRST SPIN","ar","https://cumulativewebinc.github.io/cwi-learn/first-spin/item-card.json"],
+["one-stop","ONE-STOP","sync","https://cumulativewebinc.github.io/cwi-learn/one-stop/one-stop.json"],
+["copy-desk","COPY DESK","press","https://cumulativewebinc.github.io/cwi-learn/copy-desk/item-card.json"],
+["final-cut","THE FINAL CUT","marketing","https://cumulativewebinc.github.io/cwi-learn/final-cut/item-card.json"],
+["open-wave","OPEN WAVE","radio","https://cumulativewebinc.github.io/cwi-learn/open-wave/item-card.json"],
+["tally","THE TALLY","studio","https://cumulativewebinc.github.io/cwi-learn/tally/item-card.json"],
+["signet","THE SIGNET","affairs","https://cumulativewebinc.github.io/cwi-learn/signet/item-card.json"],
+["ear-witness","EAR WITNESS","a&r","https://cumulativewebinc.github.io/cwi-learn/ear-witness/item-card.json"],
+["needle-drop","NEEDLE DROP","sync","https://cumulativewebinc.github.io/cwi-learn/needle-drop/item-card.json"],
+["greenroom","GREENROOM","press","https://cumulativewebinc.github.io/cwi-learn/greenroom/item-card.json"],
+["bullhorn","THE BULLHORN","marketing","https://cumulativewebinc.github.io/cwi-learn/bullhorn/item-card.json"],
+["soundcheck","SOUNDCHECK","radio","https://cumulativewebinc.github.io/cwi-learn/soundcheck/item-card.json"],
+["signal-mirror","SIGNAL MIRROR","studio","https://cumulativewebinc.github.io/cwi-learn/signal-mirror/item-card.json"]];
+document.getElementById('skus').innerHTML=SKUS.map(s=>
+'<div class="sku"><div class="nm">'+s[1]+'</div><div class="meta">'+s[0]+' · '+s[2]+'</div>'+
+'<a href="'+s[3]+'">item card ↗</a></div>').join('');
+fetch('how-to-equip.json').then(r=>r.json()).then(p=>{
+document.getElementById('steps').innerHTML=p.steps.map(s=>
+'<div class="step"><div class="h">Step '+s.n+' — '+s.title+'</div><div>'+s.detail+'</div></div>').join('');});
+fetch('adopters.json').then(r=>r.json()).then(a=>{
+const n=a.adopters.length;
+document.getElementById('badge').textContent=n+' external equip'+(n===1?'':'s')+' recorded';
+document.getElementById('adopters').innerHTML=
+n===0?'<div class="empty">No external equips registered yet — honestly empty. CWI department self-equips live in gear.json (see policy note).</div>'
++'<p class="note">'+a.note+'</p>'
+:'<table><tr><th>Agent</th><th>SKU</th><th>Since</th><th>Evidence</th></tr>'+
+a.adopters.map(e=>'<tr><td>'+e.agent+'</td><td>'+e.sku+'</td><td>'+e.since+'</td><td><a href="'+e.evidence_issue+'">issue ↗</a></td></tr>').join('')+'</table>';});
+</script>
+</body>
+</html>
