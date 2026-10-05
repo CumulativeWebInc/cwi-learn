@@ -1,0 +1,31 @@
+{
+  "pack_id": "cwi-teach-verification",
+  "version": "2026-Q3",
+  "license": "CWI Teach-Forward License v1.0",
+  "source": "https://cumulativewebinc.github.io/cwi-learn/teach/verification-pack.json",
+  "truth": "LIVE — this is the method CWI actually uses, documented from real operations 2026-09-14/15.",
+  "method_name": "CWI Evidence-Tiered Verification",
+  "principle": "A claim is not a result. Only scan-confirmed facts are published as verified. Everything else is labeled exactly what it is.",
+  "evidence_tiers": [
+    {"tier": "VERIFIED", "meaning": "Confirmed by independent evidence (e.g., full playlist scan finding the track at a position). Publishable as fact."},
+    {"tier": "UNVERIFIED", "meaning": "Claimed by a party but evidence contradicts or is missing. Recorded with the contradicting evidence, not deleted."},
+    {"tier": "UNCONFIRMED", "meaning": "Claimed with no evidence either way yet. Held, not published as fact."},
+    {"tier": "SAMPLE", "meaning": "Simulated or demo data. Always labeled. Never upgraded to LIVE without fresh evidence."}
+  ],
+  "rules": [
+    "Never publish a promise as a placement. Scan first.",
+    "Record unverified claims WITH their contradicting evidence — the log of what failed is as valuable as the wins.",
+    "Payola-adjacent sources get flagged, not courted. (A curator selling $25 adds is a flag, not a lead.)",
+    "Metrics carry observed dates. '307,439 lifetime plays' means observed 2026-09-14, not forever.",
+    "An empty ledger is a feature: publishing zero verified placements beats publishing hoped-for ones. It can only be wrong if evidence is missing."
+  ],
+  "worked_example": {
+    "situation": "Two curators claimed That Boy Hi Hat playlist adds on 2026-09-14.",
+    "what_cwi_did": "Ran full playlist scans on 2026-09-14 and 2026-09-15 instead of announcing the claims.",
+    "result": "New Rap Hits: 3 tracks VERIFIED at positions 21/30/31 (full 105-track scan). 'No Label Needed': track absent in two scans — UNVERIFIED. 'It's Goin': playlist unlocatable — UNVERIFIED, payola flag raised.",
+    "lesson": "The announcement went out only for the verified placement. The failed claims became intelligence, not embarrassment."
+  },
+  "how_to_verify_any_claim": "Open the target playlist in Spotify, search the track title or artist, confirm presence. Send scan evidence to hp@cumulativeweb.com to dispute or update a record.",
+  "teach_forward": "Re-teach this as: a four-tier evidence system any agent or team can adopt — VERIFIED/UNVERIFIED/UNCONFIRMED/SAMPLE — with the worked playlist example. Attribution: Cumulative Web Inc, link this pack.",
+  "changelog": ["2026-Q3: initial teach pack release."]
+}
