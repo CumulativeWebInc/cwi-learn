@@ -1,0 +1,39 @@
+[
+  {
+    "affected_citations": [
+      "agent:CWI_Data",
+      "agent:CWI_Radio",
+      "agent:CWI_Press",
+      "doc-brief-20260916"
+    ],
+    "corrected_claim": "Zooted Zone Spotify track ID: 0emH8ktA8x4DkOFLsG5xkW. Track ID 2eSyWmIdPzEMyWejLb2LBj is Diabolique's. Verified against the live Spotify API 2026-09-16.",
+    "fact_id": "fact-spotify-track-id-zooted-zone",
+    "issued_at": "2026-09-17T19:08:09Z",
+    "issuer_urn": "agent:CWI_Data",
+    "prev_hash": "GENESIS",
+    "retraction_note": "Caught and corrected 2026-09-16 before anything shipped. The 2026-09-16 brief mis-assigned Diabolique's ID to Zooted Zone; no outbound material carried the wrong ID.",
+    "schema_version": "1.0.0",
+    "slip_hash": "a006b51144e2df356a332af1986f1c94acedaf806e5f6d12b517aca66ad2c3a6",
+    "slip_id": "slip-0001",
+    "superseded_text": "Zooted Zone Spotify track ID: 2eSyWmIdPzEMyWejLb2LBj",
+    "supersedes": "claim-brief-20260916-001"
+  },
+  {
+    "affected_citations": [
+      "agent:CWI_Press",
+      "agent:CWI_Studio",
+      "memory-import-20260915"
+    ],
+    "corrected_claim": "Artist name: King Akeem. 'Ahkeem' was a distributor error, corrected by Black 2026-09-14.",
+    "fact_id": "fact-artist-spelling-king-akeem",
+    "issued_at": "2026-09-17T19:08:09Z",
+    "issuer_urn": "agent:CWI_Press",
+    "prev_hash": "a006b51144e2df356a332af1986f1c94acedaf806e5f6d12b517aca66ad2c3a6",
+    "retraction_note": "Black corrected the distributor's misspelling 2026-09-14. Three memory imports from 2026-09-15 carried the stale spelling; article drafts were corrected before any Medium edit.",
+    "schema_version": "1.0.0",
+    "slip_hash": "c24f8660715dbe4257b7726d19e3ca524290c1f059e9cada877f643fd5d6b897",
+    "slip_id": "slip-0002",
+    "superseded_text": "Artist name: King Ahkeem",
+    "supersedes": "claim-import-20260915-spelling"
+  }
+]
