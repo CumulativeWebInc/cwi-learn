@@ -85,5 +85,14 @@
     "guide": "https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md",
     "version": "2026-Q3",
     "hfDataset": "https://huggingface.co/datasets/BlackLansky/cwi-catalog"
+  },
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
+  "knowledgeSystem": {
+    "version": "2.0.0",
+    "aiIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json",
+    "entityIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
+    "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+    "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
+    "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
   }
 }

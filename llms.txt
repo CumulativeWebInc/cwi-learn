@@ -1,3 +1,12 @@
+# MACHINE FRONT DOOR (knowledge system v2.0.0, 2026-10-01)
+
+> Start at https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json — the DataCatalog listing every dataset, entity,
+> schema, and document. Permanent entity IDs: https://cumulativewebinc.github.io/cwi-learn/id/<type>/<slug> (fetch the @id
+> URL directly; body is JSON-LD). Relationship vocabulary: https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld (16
+> controlled terms; no free-text relation names). Provenance: every claim carries source
+> @id + dates + version + confidence (verified | owner_confirmed | claimed_unverified |
+> incomplete) + status. Retrofit packaging schema: https://cumulativewebinc.github.io/cwi-learn/schemas/product.json.
+
 # Catalog Graph (cwi-learn)
 
 > The machine-readable learning surface for That Boy Hi Hat and the CWI catalog — llms.txt, catalog.json, graph.json, and the Agent Deck gear line: free protocols, schemas, and item cards for AI agents. No login, no key.

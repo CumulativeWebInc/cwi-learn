@@ -579,5 +579,16 @@
     "silver_records": 8,
     "bronze_records": 44,
     "generated_from": "catalog-interop/catalog-index.json (record build 2026-09-19)"
+  },
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/kit.json",
+  "@type": "Dataset",
+  "knowledgeSystem": {
+    "version": "2.0.0",
+    "aiIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json",
+    "entityIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
+    "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+    "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
+    "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
   }
 }
