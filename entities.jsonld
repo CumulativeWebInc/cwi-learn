@@ -1153,13 +1153,16 @@
       "founder": {
         "@type": "MusicGroup",
         "name": "That Boy Hi Hat",
-        "confirmation": "Confirmed by 24hip-hop.com independent editorial",
+        "confirmation": "Confirmed by 24hip-hop.com and Rolling Hype independent editorial (observed 2026-10-05)",
         "evidenceQuotes": [
-          "the architect of the emerging movement known as Post-Trap Futurism",
-          "Created a new genre",
-          "the official launchpad of Post-Trap Futurism, and That Boy Hi Hat stands at the forefront as its unmistakable Logo, leader, and visionary mind"
+          "the architect of the emerging movement known as Post-Trap Futurism (24hip-hop.com)",
+          "the flagship project of a new experimental movement he calls Post-Trap Futurism (Rolling Hype)",
+          "Post-Trap Futurism isn't a trend. It's a blueprint. (Rolling Hype)"
         ],
-        "source": "https://24hip-hop.com/that-boy-hi-hat-rewrites-raps-dna-with-the-alternative-theory-inside-the-birth-of-post-trap-futurism/",
+        "source": [
+          "https://24hip-hop.com/that-boy-hi-hat-rewrites-raps-dna-with-the-alternative-theory-inside-the-birth-of-post-trap-futurism/",
+          "https://rollinghype.com/that-boy-hi-hat-redefines-the-future-of-alternative-rap-with-his-groundbreaking-album-the-alternative-theory/"
+        ],
         "observed": "2026-10-05"
       }
     }
