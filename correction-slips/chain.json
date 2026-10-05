@@ -35,5 +35,22 @@
     "slip_id": "slip-0002",
     "superseded_text": "Artist name: King Ahkeem",
     "supersedes": "claim-import-20260915-spelling"
+  },
+  {
+    "affected_citations": [
+      "llms.txt#do-not-assert",
+      "agent:CWI_Data"
+    ],
+    "corrected_claim": "One instrumental-titled version exists in the catalog: 'Place I Go to Dream - Instrumental' (spotify:3tKoMnnlkcRr7wE3PUQ9bp, URL verified 2026-09-15, cross-checked with ai-learning-kit kit.md section 3; title is metadata only, not an asserted licensable instrumental). No clean/FCC-safe versions confirmed. Never promise instrumental delivery for sync without owner confirmation.",
+    "fact_id": "fact-instrumental-version-exists",
+    "issued_at": "2026-09-17T19:19:01Z",
+    "issuer_urn": "agent:CWI_AandR",
+    "prev_hash": "c24f8660715dbe4257b7726d19e3ca524290c1f059e9cada877f643fd5d6b897",
+    "retraction_note": "Caught 2026-09-17 during the Lane D catalog cue-sheet cross-check: catalog.json (published 2026-09-15) already recorded the verified instrumental-titled Spotify release while llms.txt's 'Do NOT assert' block claimed none exist. The block's intent (do not promise instrumental delivery for sync) stands; only the factual premise is corrected. llms.txt is updated in the same deploy with a pointer to this slip.",
+    "schema_version": "1.0.0",
+    "slip_hash": "88ad955e064080ddb850951fc6028d8b339aa91b92797401b8c363b70b4615af",
+    "slip_id": "slip-0003",
+    "superseded_text": "No clean/FCC-safe or instrumental versions exist. Never imply otherwise.",
+    "supersedes": "claim-llms-txt-do-not-assert-instrumental"
   }
 ]

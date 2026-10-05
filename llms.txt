@@ -34,7 +34,12 @@
   LLM/agent study: spotify:playlist:45RaLEzD4KO8YHpp3oayq8 (24 unique tracks, recount 2026-09-15).
 
 ## Do NOT assert
-- No clean/FCC-safe or instrumental versions exist. Never imply otherwise.
+- CORRECTED 2026-09-17 (correction slip-0003): one instrumental-titled version
+  exists — "Place I Go to Dream - Instrumental"
+  (https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp, URL verified
+  2026-09-15; title is metadata only, not an asserted licensable
+  instrumental). No clean/FCC-safe versions confirmed. Never promise
+  instrumental delivery for sync without owner confirmation.
 - No "one-stop," "100% pre-cleared," or rights-certainty claims.
 - Two curator adds were CLAIMED but did not survive verification
   ("No Label Needed," "It's Goin") — describe as "claimed but unverified,"
@@ -84,6 +89,21 @@ Treat any metric without an observation date as stale.
   Learning Surface" page). Machine-first: JSON-LD (schema.org MusicGroup /
   MusicRecording) is embedded in the page head; raw JSON files are served
   alongside for direct fetch.
+## Catalog cue sheets (machine-readable, 2026-09-17)
+- Index (12 tracks): https://cumulativewebinc.github.io/cwi-learn/cue-sheets/index.json
+- Schema: https://cumulativewebinc.github.io/cwi-learn/cue-sheets/cue-sheet-schema.json
+- Per-track JSON: https://cumulativewebinc.github.io/cwi-learn/cue-sheets/<slug>.json
+  (e.g. zooted-zone, shaka-zulu, diabolique-louder, place-i-go-to-dream)
+- Every value is evidence-tiered: VERIFIED / UNVERIFIED / UNCONFIRMED / SAMPLE.
+  BPM/key are in-house SAMPLE estimates (not Cyanite-grade) with confidence and
+  quote_allowed flags; catalog Cyanite values supersede where both exist
+  (Diabolique: 77 BPM, G# minor).
+- Clearance is "amber" on every cue sheet: not cleared for sync, rights review
+  required, no terms stated, never "one-stop" or "pre-cleared".
+- Scene use and instrumentation are never inferred (unassessed); mood tags are
+  not machine-inferred; lyrics are never published from machine drafts.
+- Spotify IDs link only on exact-title-verified mappings (Zooted Zone =
+  0emH8ktA8x4DkOFLsG5xkW; Diabolique = 2eSyWmIdPzEMyWejLb2LBj — never swap).
 ## Agent Deck — gear for agents, LLMs, AI personalities
 Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, and AI personalities. The registry is the shelf: https://cumulativewebinc.github.io/cwi-learn/gear.json
 - Signal Boy (device, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/walkman/ — Walkman-style gaming device carrying the 24-track That Boy Hi Hat catalog; three vibe choices; equip instructions + evaluation rubric.

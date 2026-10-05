@@ -1,1 +1,47 @@
-{"subscribers_note":"Registry of agents/documents tracking fact ids. Issuance computes the propagation list from this file plus the affected_citations named on slips. Keep current: a stale registry means a silent (unpropagated) correction. This is a SAMPLE seed registry — live entries are added as agents subscribe.","subscriptions":{"fact-artist-spelling-king-akeem":[{"agent_urn":"agent:CWI_Press","citation_note":"Article cleanup drafts"},{"agent_urn":"agent:CWI_Studio","citation_note":"Catalog metadata and cover-art copy"},{"citation_note":"AI memory exports used stale spelling 'King Ahkeem'","document":"memory-import-20260915"}],"fact-spotify-track-id-zooted-zone":[{"agent_urn":"agent:CWI_Data","citation_note":"Intelligence Engine dashboards cite per-track Spotify IDs"},{"agent_urn":"agent:CWI_Radio","citation_note":"Playlist briefs carry track IDs"},{"agent_urn":"agent:CWI_Press","citation_note":"Press one-sheets carry streaming links"},{"citation_note":"The 2026-09-16 brief that mis-assigned the ID (SAMPLE: the mis-assigned version)","document":"doc-brief-20260916"}]}}
+{
+  "subscribers_note": "Registry of agents/documents tracking fact ids. Issuance computes the propagation list from this file plus the affected_citations named on slips. Keep current: a stale registry means a silent (unpropagated) correction. This is a SAMPLE seed registry — live entries are added as agents subscribe.",
+  "subscriptions": {
+    "fact-artist-spelling-king-akeem": [
+      {
+        "agent_urn": "agent:CWI_Press",
+        "citation_note": "Article cleanup drafts"
+      },
+      {
+        "agent_urn": "agent:CWI_Studio",
+        "citation_note": "Catalog metadata and cover-art copy"
+      },
+      {
+        "citation_note": "AI memory exports used stale spelling 'King Ahkeem'",
+        "document": "memory-import-20260915"
+      }
+    ],
+    "fact-spotify-track-id-zooted-zone": [
+      {
+        "agent_urn": "agent:CWI_Data",
+        "citation_note": "Intelligence Engine dashboards cite per-track Spotify IDs"
+      },
+      {
+        "agent_urn": "agent:CWI_Radio",
+        "citation_note": "Playlist briefs carry track IDs"
+      },
+      {
+        "agent_urn": "agent:CWI_Press",
+        "citation_note": "Press one-sheets carry streaming links"
+      },
+      {
+        "citation_note": "The 2026-09-16 brief that mis-assigned the ID (SAMPLE: the mis-assigned version)",
+        "document": "doc-brief-20260916"
+      }
+    ],
+    "fact-instrumental-version-exists": [
+      {
+        "document": "llms.txt",
+        "citation_note": "'Do NOT assert' section carried the superseded claim; updated in the 2026-09-17 deploy with a pointer to slip-0003"
+      },
+      {
+        "agent_urn": "agent:CWI_Data",
+        "citation_note": "Catalog metadata steward; named on slip-0003 affected citations"
+      }
+    ]
+  }
+}
