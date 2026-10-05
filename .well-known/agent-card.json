@@ -248,7 +248,7 @@
     "status_note": "STAGED 2026-10-03 \u2014 query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
   },
   "liveEndpoint": {
-    "url": "https://cwi-machine-data.hp-ace.workers.dev",
+    "url": "https://data.cumulativeweb.com",
     "description": "Live Cloudflare edge endpoint for this learning surface: logged and attributed fetches (LLM crawlers identified), machine-readable licensing terms on all data responses, /query scored track search, /changes crawl deltas, /license terms.",
     "status": "live",
     "since": "2026-10-04"
