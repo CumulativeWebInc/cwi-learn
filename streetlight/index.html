@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE STREETLIGHT — Cumulative Web Inc</title>
+<meta name="description" content="THE STREETLIGHT — the Data department's agent-analytics product: one machine-readable streetlight.json a site publishes at a standard path, its public traction vitals, readable by any agent with one fetch. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a12f;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:960px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+/* ---- streetlight dashboard ---- */
+.statrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:14px 0}
+.stat{background:var(--navy2);border:1px solid var(--blue);border-radius:10px;padding:14px}
+.stat .num{font-size:1.6em;font-weight:800;color:#fff}
+.stat .lab{font-size:.75em;color:var(--lblu);margin-top:4px;letter-spacing:.4px}
+.na{color:var(--lblu);font-style:italic;font-weight:400}
+.badge{display:inline-block;padding:5px 12px;border-radius:20px;font-size:.78em;font-weight:700;letter-spacing:.4px;margin-bottom:10px}
+.badge.attested{background:#0f2f1c;color:#7fe3a3;border:1px solid var(--ok)}
+.badge.unattested{background:#2c2310;color:var(--gold2);border:1px solid var(--warn)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu)}
+code{color:var(--gold2);font-size:.88em;word-break:break-all}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.loader{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.loader input[type=text]{flex:1;min-width:220px;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;color:var(--xlblu);padding:10px 12px;font-size:.9em}
+.loader textarea{width:100%;min-height:120px;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;color:var(--xlblu);padding:10px 12px;font-size:.85em;font-family:monospace}
+.loader button{background:var(--gold);border:none;color:#1a1206;padding:10px 18px;border-radius:9px;
+cursor:pointer;font-weight:700;font-size:.9em}
+.loader button:hover{background:var(--gold2)}
+.err{background:#2c1414;border:1px solid #a33;border-radius:10px;padding:12px;color:#f0b0b0;margin:12px 0;font-size:.9em}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:.9em;line-height:1.6}
+.vs .col{background:var(--navy2);border-radius:10px;padding:12px}
+.vs .col h3{margin:0 0 8px;font-size:.85em;color:var(--gold2);letter-spacing:.5px}
+ul{line-height:1.7;font-size:.92em}
+@media(max-width:640px){.vs{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE STREETLIGHT</h1>
+<div class="brand" id="tagline">One machine-readable file at a standard path — a site's public traction vitals, readable by any agent with one fetch. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> a site publishes <code>streetlight.json</code> at a standard path — its public traction vitals as plain JSON. Any agent reads it with one fetch: no login, no JavaScript, no cookies, no sampling, zero PII (aggregates only). The file <i>is</i> the API. This page renders <b>any</b> streetlight.json — paste one below, load one by URL, or view CWI's own.</div>
+
+<div class="card"><h2>VIEW A STREETLIGHT</h2>
+<div class="loader">
+<input type="text" id="url-input" placeholder="https://your-site/streetlight.json" aria-label="Streetlight JSON URL">
+<button id="btn-url">Load by URL</button>
+<button id="btn-cwi">Load CWI's own</button>
+</div>
+<div class="loader">
+<textarea id="paste-input" placeholder='Paste a streetlight.json here, then press "Load pasted JSON".'></textarea>
+</div>
+<div class="loader"><button id="btn-paste">Load pasted JSON</button></div>
+<div id="sl-error"></div>
+</div>
+
+<div class="card"><h2 id="sl-title">VITALS DASHBOARD</h2>
+<div id="sl-body"><p style="color:var(--lblu);font-size:.9em">Loading CWI's reference streetlight.json&hellip;</p></div>
+</div>
+
+<div class="card"><h2>PUBLISH YOUR OWN — THE STANDARD PATH</h2>
+<ul>
+<li>Put your <code>streetlight.json</code> at <b>https://your-site/streetlight.json</b> (root of the property). That single URL is the whole API contract.</li>
+<li>Author it against the published schema: <a href="streetlight-schema.json">streetlight-schema.json</a> (<code>cwi-streetlight/v1</code>).</li>
+<li>Counts are publisher-attested. If you have not attested a metric yet, set it to <code>null</code> and <code>"attested": false</code> — an honest file beats a fabricated one, and the dashboard renders nulls as "not yet attested."</li>
+<li>Aggregates only. Never put anything in the file that could identify a person — no IPs, no cookies, no device IDs, no user agents.</li>
+</ul>
+</div>
+
+<div class="card"><h2>WHY IT BEATS GOOGLE ANALYTICS 4</h2>
+<div class="vs">
+<div class="col"><h3>GOOGLE ANALYTICS 4</h3>
+<ul><li>Login + property access required</li><li>Consent banners gate the data</li><li>Sampled counts on large properties</li><li>Private dashboards — agents can't read them</li><li>Privacy burden lives with the publisher</li></ul></div>
+<div class="col"><h3>THE STREETLIGHT</h3>
+<ul><li>One unauthenticated fetch, no login</li><li>No consent banners — public aggregates by design</li><li>Exact publisher-attested counts, never sampled</li><li>The file IS the API — any agent reads it</li><li>Privacy-positive by design: aggregates only, zero PII</li></ul></div>
+</div>
+<p style="font-size:.88em;color:var(--lblu)">Free forever. No tier, no token, no tracking script on your pages.</p>
+</div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE STREETLIGHT", "tagline": "One machine-readable file at a standard path — a site's public traction vitals, readable by any agent with one fetch. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "the file is the API", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/streetlight/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE STREETLIGHT") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+function esc(s){
+  return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+function fmt(n){
+  if(n===null||n===undefined) return '<span class="na">not yet attested</span>';
+  return Number(n).toLocaleString("en-US");
+}
+function table(rows, heads){
+  var h = "<table><tr>" + heads.map(function(x){return "<th>"+esc(x)+"</th>";}).join("") + "</tr>";
+  rows.forEach(function(r){
+    h += "<tr>" + r.map(function(c){return "<td>"+c+"</td>";}).join("") + "</tr>";
+  });
+  return h + "</table>";
+}
+function render(sl){
+  var body = document.getElementById("sl-body");
+  var err = document.getElementById("sl-error");
+  err.innerHTML = "";
+  try{
+    if(!sl || sl.format !== "cwi-streetlight/v1")
+      throw new Error("not a streetlight.json — expected format cwi-streetlight/v1");
+    var v = sl.vitals || {};
+    var badge = v.attested
+      ? '<span class="badge attested">ATTESTED COUNTS</span>'
+      : '<span class="badge unattested">UNATTESTED — nulls are honest placeholders</span>';
+    document.getElementById("sl-title").textContent =
+      "VITALS DASHBOARD — " + ((sl.property&&sl.property.name)||"streetlight");
+    var h = badge;
+    h += "<p style='line-height:1.7;font-size:.93em'><b>Property:</b> " +
+      (sl.property&&sl.property.url
+        ? '<a href="'+esc(sl.property.url)+'">'+esc(sl.property.name)+"</a>"
+        : esc((sl.property&&sl.property.name)||"")) +
+      "<br><b>As of:</b> " + esc(sl.as_of) +
+      (sl.window ? "<br><b>Window:</b> " + esc(sl.window.start) + " &rarr; " + esc(sl.window.end) : "") +
+      (sl.window&&sl.window.tz ? " ("+esc(sl.window.tz)+")" : "") + "</p>";
+    h += '<div class="statrow">' +
+      '<div class="stat"><div class="num">'+fmt(v.visits)+'</div><div class="lab">VISITS</div></div>' +
+      '<div class="stat"><div class="num">'+fmt(v.unique_agents)+'</div><div class="lab">UNIQUE AGENTS</div></div>' +
+      '<div class="stat"><div class="num">'+((v.top_paths||[]).length)+'</div><div class="lab">TOP PATHS TRACKED</div></div>' +
+      '<div class="stat"><div class="num">'+((v.top_queries||[]).length)+'</div><div class="lab">TOP QUERIES</div></div>' +
+      "</div>";
+    if((v.top_paths||[]).length){
+      h += "<h3 style='color:var(--gold2);font-size:.95em'>TOP PATHS</h3>" +
+        table(v.top_paths.map(function(p){
+          return [esc(p.path),
+                  fmt(p.hits),
+                  p.verified_http!=null?esc(p.verified_http)+" <span class='na'>"+esc(p.verified_on||"")+"</span>":"<span class='na'>—</span>"];
+        }), ["Path","Hits","HTTP verified"]);
+    }
+    if((v.referrers||[]).length){
+      h += "<h3 style='color:var(--gold2);font-size:.95em'>REFERRERS</h3>" +
+        table(v.referrers.map(function(r){return [esc(r.referrer), fmt(r.hits)];}), ["Referrer","Hits"]);
+    }
+    if((v.top_queries||[]).length){
+      h += "<h3 style='color:var(--gold2);font-size:.95em'>TOP QUERIES</h3>" +
+        table(v.top_queries.map(function(q){return [esc(q.query), fmt(q.hits)];}), ["Query","Hits"]);
+    }
+    if((sl.signals||[]).length){
+      h += "<h3 style='color:var(--gold2);font-size:.95em'>PUBLISHER SIGNALS</h3>" +
+        table(sl.signals.map(function(s){
+          return [esc(s.label), esc(s.value),
+                  "<span class='na'>"+esc(s.observed||"")+"</span>",
+                  "<span class='na'>"+esc(s.source||"")+"</span>"];
+        }), ["Signal","Value","Observed","Source"]);
+    }
+    if(sl.methodology){
+      h += "<h3 style='color:var(--gold2);font-size:.95em'>METHODOLOGY</h3><table>" +
+        ["collection","aggregation","privacy","sampling"].filter(function(k){return sl.methodology[k];}).map(function(k){
+          return "<tr><td class='k'>"+esc(k)+"</td><td>"+esc(sl.methodology[k])+"</td></tr>";
+        }).join("") + "</table>";
+    }
+    if(sl.publisher){
+      h += "<p style='line-height:1.7;font-size:.92em'><b>Publisher:</b> " + esc(sl.publisher.name) +
+        (sl.publisher.contact ? " &middot; " + esc(sl.publisher.contact) : "") + "</p>";
+    }
+    body.innerHTML = h;
+  }catch(e){
+    err.innerHTML = '<div class="err">Could not render streetlight: ' + esc(e.message) + "</div>";
+  }
+}
+function loadText(t, label){
+  try{ render(JSON.parse(t)); }
+  catch(e){
+    document.getElementById("sl-error").innerHTML =
+      '<div class="err">Could not parse ' + esc(label||"JSON") + ": " + esc(e.message) + "</div>";
+  }
+}
+function loadUrl(u){
+  fetch(u).then(function(r){
+    if(!r.ok) throw new Error("HTTP " + r.status + " fetching " + u);
+    return r.text();
+  }).then(function(t){ loadText(t, u); })
+  .catch(function(e){
+    document.getElementById("sl-error").innerHTML =
+      '<div class="err">' + esc(e.message) + "</div>";
+  });
+}
+document.getElementById("btn-url").onclick = function(){
+  var u = document.getElementById("url-input").value.trim();
+  if(u) loadUrl(u);
+};
+document.getElementById("btn-cwi").onclick = function(){ loadUrl("streetlight.json"); };
+document.getElementById("btn-paste").onclick = function(){
+  loadText(document.getElementById("paste-input").value, "pasted JSON");
+};
+(function init(){
+  var m = /[?&]url=([^&]+)/.exec(location.search);
+  if(m) loadUrl(decodeURIComponent(m[1]));
+  else loadUrl("streetlight.json");
+})();
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["streetlight.json","streetlight.json"],["Schema","streetlight-schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub: cwi-learn campus","https://cumulativewebinc.github.io/cwi-learn/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>

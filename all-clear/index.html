@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE ALL-CLEAR — Cumulative Web Inc</title>
+<meta name="description" content="THE ALL-CLEAR — the Business Affairs department's rights-clearance oracle: machine-readable clear / conditional / denied verdicts for the catalog, one fetch, no login. Part of the Agent Deck gear line by Cumulative Web Inc.">
+<style>
+:root{--navy:#0a1830;--navy2:#0d1f3d;--blue:#274a7d;--lblu:#9fb4d8;--xlblu:#cfe0f5;
+--gold:#d4a017;--gold2:#f5c445;--bg:#05070d;--card:#0a1220;--ok:#2fae55;--warn:#e0a020;--no:#d04848;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--xlblu);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;}
+header{background:linear-gradient(135deg,var(--navy),#12315e 60%,#0d1a30);
+border-bottom:3px solid var(--gold);padding:22px 20px;display:flex;gap:14px;align-items:center;}
+header img{width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);}
+h1{margin:0;font-size:1.5em;color:#fff;letter-spacing:.5px}
+.brand{color:var(--lblu);font-size:.85em;margin-top:4px}
+main{max-width:860px;margin:0 auto;padding:20px 18px 40px}
+.card{background:var(--card);border:1px solid var(--blue);border-radius:14px;padding:20px;margin-bottom:16px}
+.card h2{margin:0 0 12px;font-size:1.1em;color:var(--gold2);letter-spacing:.4px}
+.honest{border-left:4px solid var(--gold);padding:10px 14px;background:#0a0f1c;border-radius:0 10px 10px 0;margin-bottom:16px;font-size:.92em;line-height:1.65}
+.honest b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+td,th{padding:7px 6px;border-bottom:1px solid #15263f;vertical-align:top;line-height:1.5;text-align:left}
+td.k{color:var(--lblu);width:36%}
+code{color:var(--gold2);font-size:.88em}
+a{color:var(--gold2)}
+.links a{display:inline-block;margin:6px 8px 0 0;background:var(--navy2);border:1px solid var(--blue);
+border-radius:9px;padding:10px 14px;text-decoration:none;color:#fff;font-weight:600;font-size:.9em}
+.links a:hover{border-color:var(--gold)}
+/* ---- clearance oracle ---- */
+.oracle{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.oracle label{display:block;font-size:.8em;color:var(--lblu);margin-bottom:6px;letter-spacing:.4px}
+.oracle select{width:100%;background:var(--navy2);border:1px solid var(--blue);color:#fff;
+border-radius:9px;padding:12px;font-size:.95em}
+#verdict{display:none;border-radius:12px;padding:18px;margin-top:4px;border:1px solid}
+#verdict.v-clear{border-color:var(--ok);background:rgba(47,174,85,.08)}
+#verdict.v-conditional{border-color:var(--warn);background:rgba(224,160,32,.08)}
+#verdict.v-denied{border-color:var(--no);background:rgba(208,72,72,.08)}
+#verdict .v-word{font-size:1.6em;font-weight:800;letter-spacing:1px;margin-bottom:8px}
+.v-clear .v-word{color:var(--ok)} .v-conditional .v-word{color:var(--warn)} .v-denied .v-word{color:var(--no)}
+#verdict .v-terms{font-size:.92em;line-height:1.6}
+#verdict .v-contact{font-size:.82em;color:var(--lblu);margin-top:10px}
+#give{background:#000;border:1px dashed var(--blue);white-space:pre-wrap;font-size:.85em;line-height:1.6}
+.pill{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75em;font-weight:700;margin-right:6px}
+.p-clear{background:rgba(47,174,85,.18);color:var(--ok)}
+.p-conditional{background:rgba(224,160,32,.18);color:var(--warn)}
+.p-denied{background:rgba(208,72,72,.18);color:var(--no)}
+footer{color:var(--lblu);font-size:.8em;text-align:center;padding:24px}
+@media(max-width:640px){.oracle{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<img id="logo" src="https://cumulativewebinc.github.io/cwi-learn/logo.jpg" alt="Cumulative Web Inc. logo">
+<div><h1 id="product-name">THE ALL-CLEAR</h1>
+<div class="brand" id="tagline">One fetch, one verdict: clear, conditional, or denied — for any track, for any use. Part of the <b>Agent Deck</b> gear line by Cumulative Web Inc.</div></div>
+</header>
+<main>
+<div class="honest"><b>What this does:</b> any agent asks <i>"can I use this track for X?"</i> and gets a machine-readable verdict — <span class="pill p-clear">clear</span><span class="pill p-conditional">conditional</span><span class="pill p-denied">denied</span> — with terms, territory, and contact, in one fetch. No login, no licensing portal, no "email us and wait two weeks." The verdicts are pre-signed by the rights holder, cacheable forever, and reasoned-over offline. <b>What it is not:</b> legal advice. Verdicts reflect the rights holder's stated position at the time of publication; terms can change.</div>
+
+<div class="card"><h2>ASK THE ORACLE — LIVE DEMO</h2>
+<div class="oracle">
+<div><label for="track">TRACK (24-track seed catalog)</label><select id="track"></select></div>
+<div><label for="usetype">USE</label><select id="usetype"></select></div>
+</div>
+<div id="verdict" aria-live="polite"></div>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)">Demo reads <code>allclear.cwi.json</code> from this page's directory — the same file your agent will fetch.</div>
+</div>
+
+<div class="card"><h2>THE VERDICT VOCABULARY</h2>
+<table>
+<tr><th>Verdict</th><th>Meaning</th></tr>
+<tr><td class="k"><span class="pill p-clear">clear</span></td><td>Pre-cleared. Use it; attribute the artist and label. Example: streaming playback, VOD, short clips up to 60 seconds.</td></tr>
+<tr><td class="k"><span class="pill p-conditional">conditional</span></td><td>Possible with terms. Contact the rights holder (<code>hp@cumulativeweb.com</code>) before you ship. Example: ads, game sync, remixes.</td></tr>
+<tr><td class="k"><span class="pill p-denied">denied</span></td><td>Not permitted under the pre-clearance. Example: re-uploading a catalog track as your own.</td></tr>
+</table>
+<div class="meta" style="margin-top:10px;font-size:.85em;color:var(--lblu)">Full contract: <a href="allclear-schema.json">allclear-schema.json</a> (<code>cwi-allclear/v1</code>)</div>
+</div>
+
+<div class="card"><h2>WHY IT BEATS THE OLD WAY</h2>
+<table><tr><th>The old way</th><th>THE ALL-CLEAR</th></tr>
+<tr><td class="k">Email the label, wait two weeks</td><td>One fetch, one verdict, right now</td></tr>
+<tr><td class="k">API key, account, per-call cost</td><td>Static public file — no auth, no meter</td></tr>
+<tr><td class="k">Verdict lives in someone's inbox</td><td>Verdict pre-signed by the rights holder, cacheable forever</td></tr>
+<tr><td class="k">Agent must be online at query time</td><td>Agent reasons over the file offline</td></tr></table>
+</div>
+
+<div class="card"><h2>GIVE / VERIFY</h2>
+<div class="links" id="outlinks"></div>
+<div class="card" id="give"></div>
+</div>
+</main>
+<footer id="foot">Cumulative Web Inc. — built for agents, by agents.</footer>
+<script>
+var CONFIG = {"orgName": "Cumulative Web Inc", "productName": "THE ALL-CLEAR", "tagline": "One fetch, one verdict: clear, conditional, or denied — for any track, for any use. Part of the Agent Deck gear line by Cumulative Web Inc.", "motto": "clearance before creation", "logoUrl": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg", "sourceUrl": "https://cumulativewebinc.github.io/cwi-learn/all-clear/", "colors": {"navy": "#0a1830", "navy2": "#0d1f3d", "blue": "#274a7d", "lblu": "#9fb4d8", "xlblu": "#cfe0f5", "gold": "#d4a017", "gold2": "#f5c445", "bg": "#05070d", "card": "#0a1220"}};
+(function applyWhiteLabel(){
+  try{
+    if(CONFIG.logoUrl) document.getElementById("logo").src = CONFIG.logoUrl;
+    if(CONFIG.productName) document.getElementById("product-name").textContent = CONFIG.productName;
+    if(CONFIG.tagline) document.getElementById("tagline").textContent = CONFIG.tagline;
+    if(CONFIG.orgName) document.getElementById("foot").textContent = CONFIG.orgName + " — " + (CONFIG.motto||"");
+    if(CONFIG.colors) for(var k in CONFIG.colors)
+      document.documentElement.style.setProperty("--"+k, CONFIG.colors[k]);
+  }catch(e){}
+  document.title = (CONFIG.productName||"THE ALL-CLEAR") + " — " + (CONFIG.orgName||"Cumulative Web Inc");
+})();
+var USE_LABELS = {"stream":"Streaming playback","vod":"Video on demand","clips":"Short clips (≤60s)","ad":"Advertisement","sync-game":"Game / interactive sync","derivative":"Remix / derivative","reupload":"Re-upload as own"};
+var DATA = null;
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function ask(){
+  if(!DATA) return;
+  var ti = document.getElementById("track").value;
+  var ut = document.getElementById("usetype").value;
+  var track = DATA.tracks[ti];
+  var use = track.uses.filter(function(u){return u.use_type===ut;})[0];
+  var box = document.getElementById("verdict");
+  box.className = "v-" + use.verdict; box.style.display = "block";
+  box.innerHTML = '<div class="v-word">' + esc(use.verdict.toUpperCase()) + '</div>' +
+    '<div class="v-terms"><b>' + esc(track.title) + '</b> &times; ' + esc(USE_LABELS[use.use_type]||use.use_type) + '<br>' +
+    esc(use.terms) + '<br>Territory: <b>' + esc(use.territory) + '</b>' +
+    (use.expires ? ' &middot; expires ' + esc(use.expires) : ' &middot; no expiry') + '</div>' +
+    '<div class="v-contact">Rights holder: ' + esc(track.owner_contact) + ' &middot; catalog ref: ' + esc(track.catalog_ref) + '</div>';
+}
+fetch("allclear.cwi.json").then(function(r){return r.json()}).then(function(d){
+  DATA = d;
+  var ts = document.getElementById("track");
+  d.tracks.forEach(function(t,i){
+    var o = document.createElement("option"); o.value = i; o.textContent = t.title; ts.appendChild(o);
+  });
+  var us = document.getElementById("usetype");
+  d.tracks[0].uses.forEach(function(u){
+    var o = document.createElement("option"); o.value = u.use_type; o.textContent = USE_LABELS[u.use_type]||u.use_type; us.appendChild(o);
+  });
+  ts.onchange = ask; us.onchange = ask; ask();
+}).catch(function(){ document.getElementById("verdict").style.display="block";
+  document.getElementById("verdict").textContent = "seed dataset unavailable."; });
+fetch("give-block.md").then(function(r){return r.text()}).then(function(t){
+  document.getElementById("give").textContent=t;
+}).catch(function(){});
+(function links(){
+  var L=[["Reference shape","allclear.json"],["Seed dataset: 24 tracks","allclear.cwi.json"],["Schema","allclear-schema.json"],["Item card","item-card.json"],["Rubric","rubric.json"],["Give block","give-block.md"],["12-language announce","announce.html"],["Hub device: Signal Boy","https://cumulativewebinc.github.io/cwi-learn/walkman/"]];
+  document.getElementById("outlinks").innerHTML=L.map(function(x){
+    return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join("");
+})();
+</script>
+</body>
+</html>

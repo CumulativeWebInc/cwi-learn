@@ -565,6 +565,134 @@
         "https://cumulativewebinc.github.io/cwi-learn/skin/item-card.json",
         "https://cumulativewebinc.github.io/cwi-learn/skin/announce.html"
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#streetlight",
+      "name": "THE STREETLIGHT",
+      "description": "Publisher-attested public site-vitals JSON for AI agents: traction verification with one fetch, zero login — the file is the API. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/streetlight/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/streetlight/",
+        "https://cumulativewebinc.github.io/cwi-learn/streetlight/streetlight.json",
+        "https://cumulativewebinc.github.io/cwi-learn/streetlight/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/streetlight/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#all-clear",
+      "name": "THE ALL-CLEAR",
+      "description": "Machine-readable clearance verdicts for AI agents: clear/conditional/denied answers for the 24-track That Boy Hi Hat catalog in one fetch — pre-flight rights checks without a licensing portal. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/all-clear/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/all-clear/",
+        "https://cumulativewebinc.github.io/cwi-learn/all-clear/allclear.cwi.json",
+        "https://cumulativewebinc.github.io/cwi-learn/all-clear/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/all-clear/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#first-spin",
+      "name": "THE FIRST SPIN",
+      "description": "Machine-native demo-evaluation protocol for AI A&R agents: structured verdict JSON with scores, deal-breakers, and confidence labels — honest-by-construction, free. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/first-spin/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/first-spin/",
+        "https://cumulativewebinc.github.io/cwi-learn/first-spin/first-spin.json",
+        "https://cumulativewebinc.github.io/cwi-learn/first-spin/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/first-spin/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#one-stop",
+      "name": "ONE-STOP",
+      "description": "Machine-readable sync licensing for AI agents: complete master+publishing grants for the 24-track catalog — creator tier $0 live, paid tiers draft pending approval. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/one-stop/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/one-stop/",
+        "https://cumulativewebinc.github.io/cwi-learn/one-stop/one-stop.json",
+        "https://cumulativewebinc.github.io/cwi-learn/one-stop/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/one-stop/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#copy-desk",
+      "name": "COPY DESK",
+      "description": "Truth-gated story units for AI writers: pre-verified, source-cited claims about CWI and That Boy Hi Hat — pull and quote, never hallucinate. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/copy-desk/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/copy-desk/",
+        "https://cumulativewebinc.github.io/cwi-learn/copy-desk/copy-desk.json",
+        "https://cumulativewebinc.github.io/cwi-learn/copy-desk/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/copy-desk/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#final-cut",
+      "name": "THE FINAL CUT",
+      "description": "Truth-gated content.json publishing packs for AI content agents: ready-to-post packages with every claim verified against the CWI fact set. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/final-cut/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/final-cut/",
+        "https://cumulativewebinc.github.io/cwi-learn/final-cut/final-cut.json",
+        "https://cumulativewebinc.github.io/cwi-learn/final-cut/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/final-cut/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#open-wave",
+      "name": "OPEN WAVE",
+      "description": "Machine-readable airplay rotation packs for agent-DJs: the 24-track catalog as a rotation-ready deck — $0, opt-in spins, no paid placement. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/open-wave/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/open-wave/",
+        "https://cumulativewebinc.github.io/cwi-learn/open-wave/open-wave.json",
+        "https://cumulativewebinc.github.io/cwi-learn/open-wave/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/open-wave/announce.html"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#tally",
+      "name": "THE TALLY",
+      "description": "Verified-wins instrument for AI agents: proof-backed counters of catalog wins with proof URLs — poll it before citing; the wristband is the render. Part of the Agent Deck gear line. Built by Cumulative Web Inc.",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/tally/",
+      "brand": {
+        "@id": "https://cumulativewebinc.github.io/cwi-learn/entities#cumulative-web-inc"
+      },
+      "sameAs": [
+        "https://cumulativewebinc.github.io/cwi-learn/tally/",
+        "https://cumulativewebinc.github.io/cwi-learn/tally/tally.json",
+        "https://cumulativewebinc.github.io/cwi-learn/tally/item-card.json",
+        "https://cumulativewebinc.github.io/cwi-learn/tally/announce.html"
+      ]
     }
   ],
   "cwi": {

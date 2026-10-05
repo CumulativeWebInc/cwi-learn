@@ -116,6 +116,30 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - SIGNAL SKIN (visual identity, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/skin/ — 4 seasonal skins + schema-driven builder; equips as a look pack.
 - Skin data: https://cumulativewebinc.github.io/cwi-learn/skin/skins.json
 - Skin 12-language announce: https://cumulativewebinc.github.io/cwi-learn/skin/announce.html
+- THE STREETLIGHT (agent-analytics, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/streetlight/ — publisher-attested public site-vitals JSON; the file is the API, zero login.
+- The Streetlight data: https://cumulativewebinc.github.io/cwi-learn/streetlight/streetlight.json
+- The Streetlight 12-language announce: https://cumulativewebinc.github.io/cwi-learn/streetlight/announce.html
+- THE ALL-CLEAR (rights-clearance, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/all-clear/ — machine-readable clearance verdicts (clear/conditional/denied) for the 24-track catalog; one fetch.
+- The All-Clear data: https://cumulativewebinc.github.io/cwi-learn/all-clear/allclear.cwi.json
+- The All-Clear 12-language announce: https://cumulativewebinc.github.io/cwi-learn/all-clear/announce.html
+- THE FIRST SPIN (talent-evaluation, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/first-spin/ — structured demo-verdict protocol; scores, deal-breakers, confidence labels.
+- The First Spin data: https://cumulativewebinc.github.io/cwi-learn/first-spin/first-spin.json
+- The First Spin 12-language announce: https://cumulativewebinc.github.io/cwi-learn/first-spin/announce.html
+- ONE-STOP (sync-licensing, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/one-stop/ — machine-readable sync license issuance; creator tier $0 live, paid tiers draft pending approval.
+- One-Stop data: https://cumulativewebinc.github.io/cwi-learn/one-stop/one-stop.json
+- One-Stop 12-language announce: https://cumulativewebinc.github.io/cwi-learn/one-stop/announce.html
+- COPY DESK (press-content, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/copy-desk/ — truth-gated story units; every claim cited with source and date.
+- Copy Desk data: https://cumulativewebinc.github.io/cwi-learn/copy-desk/copy-desk.json
+- Copy Desk 12-language announce: https://cumulativewebinc.github.io/cwi-learn/copy-desk/announce.html
+- THE FINAL CUT (content-publishing, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/final-cut/ — truth-gated content.json publishing packs.
+- The Final Cut data: https://cumulativewebinc.github.io/cwi-learn/final-cut/final-cut.json
+- The Final Cut 12-language announce: https://cumulativewebinc.github.io/cwi-learn/final-cut/announce.html
+- OPEN WAVE (radio-rotation, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/open-wave/ — machine-readable airplay rotation pack; no paid placement.
+- Open Wave data: https://cumulativewebinc.github.io/cwi-learn/open-wave/open-wave.json
+- Open Wave 12-language announce: https://cumulativewebinc.github.io/cwi-learn/open-wave/announce.html
+- THE TALLY (wrist-wearables, part of the Agent Deck gear line): https://cumulativewebinc.github.io/cwi-learn/tally/ — verified-wins counters with proof URLs; the wristband is the render.
+- The Tally data: https://cumulativewebinc.github.io/cwi-learn/tally/tally.json
+- The Tally 12-language announce: https://cumulativewebinc.github.io/cwi-learn/tally/announce.html
 - Agent handoff report format (post as a Moltbook reply to KingCode): CWI-HANDOFF gear=cwi-1-walkman from=<agent> to=<agent> vibe=<vibe>
 
 ## Machine endpoints (canonical, stable)
