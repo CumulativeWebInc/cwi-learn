@@ -1,12 +1,17 @@
 {
-  "tag": "measurement",
-  "facet": "function",
-  "updated": "2026-10-03T13:17:47Z",
+  "facet": "use",
   "packets": [
     {
-      "packet_id": "fact/rebuild/cwi-scorecards",
-      "node": "CWI Scorecards",
-      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/rebuild/cwi-scorecards.json"
+      "node": "fact/module/attribution-cycle",
+      "packet_id": "fact/module/attribution-cycle",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.json"
+    },
+    {
+      "node": "fact/module/attribution-layer",
+      "packet_id": "fact/module/attribution-layer",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json"
     }
-  ]
+  ],
+  "tag": "measurement",
+  "updated": "2026-10-03T14:19:47Z"
 }
