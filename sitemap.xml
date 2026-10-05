@@ -8,7 +8,7 @@
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/graph.json</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/kit.json</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://cumulativewebinc.github.io/cwi-learn/sitemap.xml</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/sitemap.xml</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/logo.jpg</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/gear.json</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/walkman/</loc><lastmod>2026-09-15</lastmod></url>
@@ -445,4 +445,8 @@
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked.md</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.md</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/post-trap-futurism.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/cyberpunk-2027.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/post-trap-futurism.json</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://cumulativewebinc.github.io/cwi-learn/datasets/cyberpunk-2027.json</loc><lastmod>2026-10-05</lastmod></url>
 </urlset>
