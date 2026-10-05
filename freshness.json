@@ -1,7 +1,7 @@
 {
   "schema": "cwi.freshness/1.0",
   "freshness_rule": "A field is FRESH when observed within the last 48 hours. Older fields are labeled STALE with their last honest observation date. Timestamps are never manufactured — observed_at is written only by real verification events.",
-  "manifest_checked_at": "2026-09-23T10:38:03.773Z",
+  "manifest_checked_at": "2026-09-24T10:38:04.346Z",
   "endpoints": [
     {
       "file": "catalog.json",
@@ -14,7 +14,7 @@
           "label": "Zooted Zone lifetime Spotify plays (307,439)",
           "observed_at": "2026-09-14",
           "status": "stale",
-          "age_hours": 226.6,
+          "age_hours": 250.6,
           "refresh": "analytics sweep (Spotify / Viberate / Songstats)",
           "source": "analytics pull 2026-09-14",
           "note": "Lifetime figure grows slowly; treat as approximate between sweeps."
@@ -24,7 +24,7 @@
           "label": "Artist monthly listeners (171)",
           "observed_at": "2026-09-14",
           "status": "stale",
-          "age_hours": 226.6,
+          "age_hours": 250.6,
           "refresh": "analytics sweep (Spotify / Viberate / Songstats)",
           "source": "analytics pull 2026-09-14",
           "note": "Monthly listeners are volatile; the honest value is the last sweep's value."
@@ -34,7 +34,7 @@
           "label": "CWI label Spotify presence (followers / following / DistroKid saves)",
           "observed_at": "2026-09-15",
           "status": "stale",
-          "age_hours": 202.6,
+          "age_hours": 226.6,
           "refresh": "label screenshot or manual re-verification",
           "source": "screenshot supplied by Black, 2026-09-15",
           "note": "Follower counts change daily; last honest observation 2026-09-15."
@@ -44,7 +44,7 @@
           "label": "Playlist claim verification states",
           "observed_at": "2026-09-17",
           "status": "stale",
-          "age_hours": 154.6,
+          "age_hours": 178.6,
           "refresh": "playlist sweep (intelligence engine)",
           "source": "playlist sweep 2026-09-17",
           "note": "A claim flips to verified only on a full scan that finds the track; absence across two scans keeps it claimed_unverified."
@@ -62,7 +62,7 @@
           "label": "Node verification states (incl. playlist positions)",
           "observed_at": "2026-09-15",
           "status": "stale",
-          "age_hours": 202.6,
+          "age_hours": 226.6,
           "refresh": "playlist sweep (intelligence engine)",
           "source": "playlist sweep 2026-09-15",
           "note": "Playlist positions decay fast; positions older than 48h are stale by definition."
@@ -86,7 +86,7 @@
           "label": "Verified proof points",
           "observed_at": "2026-09-14",
           "status": "stale",
-          "age_hours": 226.6,
+          "age_hours": 250.6,
           "refresh": "verification sweep",
           "source": "verification sweep 2026-09-14",
           "note": "Proof points are point-in-time; re-verify before citing as current."
@@ -104,7 +104,7 @@
           "label": "Volatile prose figures (stream counts, positions, dates)",
           "observed_at": "2026-09-15",
           "status": "stale",
-          "age_hours": 202.6,
+          "age_hours": 226.6,
           "refresh": "regenerated from catalog.json on the same pipeline",
           "source": "generated from catalog.json 2026-09-15",
           "note": "llms.txt is a human/LLM-readable rendering of catalog.json; its numbers are only as fresh as the catalog fields they quote."
