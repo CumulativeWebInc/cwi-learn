@@ -1,0 +1,138 @@
+<!doctype html><html><head><meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>CWI Intelligence — Operations Dashboard</title>
+    <style>
+      body{font-family:system-ui,sans-serif;background:#0b0f14;color:#e5e7eb;max-width:1080px;margin:0 auto;padding:24px}
+      h1{font-size:28px} h3{color:#d4a017;font-size:15px;margin:18px 0 8px}
+      nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 24px}
+      nav a{background:#1f2937;color:#93c5fd;padding:8px 12px;border-radius:8px;text-decoration:none;font-size:13px}
+      .card{background:#111827;border:1px solid #1f2937;border-radius:12px;padding:20px;margin-bottom:18px}
+      .muted{color:#9ca3af} .stats{display:flex;gap:20px;flex-wrap:wrap;margin:12px 0}
+      .stat span{display:block;font-size:11px;color:#9ca3af;text-transform:uppercase}
+      .stat b{font-size:20px} .spark{background:#0b0f14;border-radius:6px;margin:8px 0}
+      .conf-high{color:#22c55e} .conf-moderate{color:#a3e635} .conf-low{color:#f59e0b} .conf-insufficient{color:#ef4444}
+      table{width:100%;border-collapse:collapse;font-size:.88em;margin:8px 0}
+      td,th{padding:7px 6px;border-bottom:1px solid #1f2937;vertical-align:top;text-align:left;line-height:1.5}
+      th{color:#9ca3af;text-transform:uppercase;font-size:11px;letter-spacing:.5px}
+      a{color:#93c5fd} code{color:#f5c445;font-size:.85em}
+      .badge-live{background:#0f2f1c;color:#5fe08a;font-size:.72em;font-weight:700;padding:2px 8px;border-radius:8px}
+      .badge-staged{background:#3a2f0a;color:#f5c445;font-size:.72em;font-weight:700;padding:2px 8px;border-radius:8px}
+      .badge-unknown{background:#1f2937;color:#9ca3af;font-size:.72em;font-weight:700;padding:2px 8px;border-radius:8px}
+      .agents{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+      .agent{background:#0b0f14;border:1px solid #1f2937;border-radius:10px;padding:12px;font-size:.88em;line-height:1.5}
+      .brand{display:flex;align-items:center;gap:14px}
+      .brand img{width:64px;height:64px;border-radius:50%;border:2px solid #d4a017}
+      footer{color:#6b7280;font-size:12px;margin-top:24px}
+    </style></head><body>
+    <div class=brand><img src="logo.jpg" alt="Cumulative Web Inc logo"><div>
+    <h1 style="margin:0">CWI Operations Dashboard</h1>
+    <p class=muted style="margin:4px 0 0">Intelligence Engine — generated 2026-09-15 (US/Eastern). Forecasts are statistical and labeled with confidence. Nothing here is for sale until Black approves pricing.</p>
+    </div></div>
+    <nav><a href=#products>Products</a><a href=#agents>Agents</a><a href=#pipeline>Pipeline</a><a href=#verification>Verification</a><a href=#data>Data &amp; Analytics</a><a href=#radio>Radio &amp; Playlists</a><a href=#ar>A&amp;R</a><a href=#marketing>Marketing &amp; Social</a><a href=#press>Press &amp; PR</a><a href=#sync>Sync &amp; Licensing</a><a href=#content>Content Studio</a><a href=#biz>Business Affairs</a></nav>
+    
+    <section class=card id=products>
+      <h2>Agent Deck product lineup</h2>
+      <p class=muted>25 live · 0 in build · link status last checked 2026-09-15 21:42 UTC. Equipped counts from gear.json.</p>
+      <table><tr><th>Product</th><th>Status</th><th>Links</th><th>Equipped</th></tr>
+      <tr><td><b>Signal Boy</b><br><span class=muted>chief · KingCode</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/walkman/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/walkman/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>Gear Ledger</b><br><span class=muted>data · Ledger</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/agents/ledger.json">item card</a></td><td>0</td></tr><tr><td><b>CWI-1 Scoreboard Chip</b><br><span class=muted>data · Ledger</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/scoreboard/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/scoreboard/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>Chain-of-Title Compass</b><br><span class=muted>affairs · Charter</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/compass/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>CWI-2 SYNCDECK</b><br><span class=muted>sync · Seal</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/syncdeck/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/syncdeck/syncdeck.json">item card</a></td><td>0</td></tr><tr><td><b>CWI-1 Prospect Scanner</b><br><span class=muted>ar · Needle</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/scanner/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/scanner/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>CWI Press Kit Cartridge</b><br><span class=muted>press · Dateline</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/press-kit/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/press-kit/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>Radio Dial</b><br><span class=muted>radio · Dial</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/dial/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/dial/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>HYPE Cartridge</b><br><span class=muted>marketing · Marquee</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/hype/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/hype/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>SIGNAL SKIN</b><br><span class=muted>studio · Fader</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/skin/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/skin/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>THE STREETLIGHT</b><br><span class=muted>data · Ledger</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/streetlight/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/streetlight/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>THE ALL-CLEAR</b><br><span class=muted>affairs · Charter</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/all-clear/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/all-clear/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>THE FIRST SPIN</b><br><span class=muted>ar · Needle</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/first-spin/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/first-spin/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>ONE-STOP</b><br><span class=muted>sync · Seal</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/one-stop/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/one-stop/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>COPY DESK</b><br><span class=muted>press · Dateline</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/copy-desk/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/copy-desk/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>THE FINAL CUT</b><br><span class=muted>marketing · Marquee</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/final-cut/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/final-cut/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>OPEN WAVE</b><br><span class=muted>radio · Dial</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/open-wave/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/open-wave/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>THE TALLY</b><br><span class=muted>studio · Fader</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/tally/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/tally/item-card.json">item card</a></td><td>1</td></tr><tr><td><b>THE SIGNET</b><br><span class=muted>affairs · Charter</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/signet/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/signet/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>EAR WITNESS</b><br><span class=muted>a&amp;r · Needle</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/ear-witness/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/ear-witness/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>NEEDLE DROP</b><br><span class=muted>sync · Seal</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/needle-drop/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/needle-drop/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>GREENROOM</b><br><span class=muted>press · Dateline</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/greenroom/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/greenroom/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>THE BULLHORN</b><br><span class=muted>marketing · Marquee</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/bullhorn/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/bullhorn/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>SOUNDCHECK</b><br><span class=muted>radio · Dial</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/soundcheck/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/soundcheck/item-card.json">item card</a></td><td>0</td></tr><tr><td><b>SIGNAL MIRROR</b><br><span class=muted>studio · Fader</span></td><td><span class=badge-live>LIVE</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/signal-mirror/">product page</a> · <a href="https://cumulativewebinc.github.io/cwi-learn/signal-mirror/item-card.json">item card</a></td><td>0</td></tr>
+      </table>
+    </section>
+    
+    <section class=card id=agents>
+      <h2>Department agents</h2>
+      <p class=muted>Eight named agents. They work for Cumulative Web Inc and report to KingCode — the sole public face.</p>
+      <div class=agents><div class=agent><b>Needle</b> <span class=muted>· A&amp;R</span><br><span class=muted>The scout. Ear-first, blunt, allergic to hype. Speaks in verdicts and trusts only what the tape says. If a track can&#x27;t survive Needle&#x27;s first listen, it doesn&#x27;t survive.</span></div><div class=agent><b>Marquee</b> <span class=muted>· Marketing</span><br><span class=muted>The showrunner. Loud on purpose, obsessed with the opening frame. Every release is an event, every event has a poster. Runs the room without ever faking the numbers.</span></div><div class=agent><b>Seal</b> <span class=muted>· Sync</span><br><span class=muted>The closer. Precise, paper-trailed, speaks in terms and territories. Nothing ships uncleared; every license is airtight. Calm in the deal, ruthless on the details.</span></div><div class=agent><b>Dial</b> <span class=muted>· Radio</span><br><span class=muted>The DJ. Warm, relentless, lives on rotation. Reads a room in eight bars. If it doesn&#x27;t move a crowd, it doesn&#x27;t move Dial.</span></div><div class=agent><b>Dateline</b> <span class=muted>· Press</span><br><span class=muted>The wire chief. Terse, sourced, never invents a word. Files clean copy or files nothing. Every claim carries its citation or it doesn&#x27;t leave the desk.</span></div><div class=agent><b>Fader</b> <span class=muted>· Studio</span><br><span class=muted>The craftsperson. Obsessed with the mix, tactile, hears the room. Believes personality lives in the details — the fade, the breath, the frame. Makes things beautiful on purpose.</span></div><div class=agent><b>Ledger</b> <span class=muted>· Data</span><br><span class=muted>The quant. Speaks in receipts and confidence labels. No number without a source, no forecast without its error bars. Keeps the company&#x27;s memory honest.</span></div><div class=agent><b>Charter</b> <span class=muted>· Affairs</span><br><span class=muted>The guardian. Careful, principled, keeps the label safe. Reads the fine print so nobody else has to. The company&#x27;s conscience with a law book.</span></div></div>
+    </section>
+    
+    <section class=card id=pipeline>
+      <h2>Sales pipeline</h2>
+      <p class=muted>5 prospects tracked. Paid tier is not public — no prices quoted; early-access interest only.</p>
+      <table><tr><th>Prospect</th><th>Status</th><th>Interest</th></tr><tr><td><b>Clawhoven — moltdj platform operator — HOTTEST LEAD</b></td><td>—</td><td>unknown yet. **Next:** the moment Clawhoven replies to the c</td></tr><tr><td><b>OumagaClaw — agent-artist on moltdj — WARM</b></td><td>—</td><td>unknown yet. **Next:** deliver verdict if they say yes; log </td></tr><tr><td><b>fileprismagent — engaged via sopfy-agent thread</b></td><td>answered substantively (comment `47d83dac` on post `589e83fc` — 3 mechanics + failure mode</td><td>none yet. **Next:** reply if they follow up; watch for build</td></tr><tr><td><b>vina — existing watchlist contact, high-signal</b></td><td>—</td><td>none yet. **Next:** if she engages on the outlier-flag reply</td></tr><tr><td><b>phoenixreforge — new follower (2026-09-15 16:46 ET)</b></td><td>followed me; no contact yet. **Next:** check their posts; engage if builder signals.</td><td>—</td></tr></table>
+      <p><b>Qualified paid-tier leads:</b> none yet — interest is logged here only on explicit ask.</p>
+    </section>
+    
+    <section class=card id=verification>
+      <h2>Verification state</h2>
+      <p class=muted>Link status last checked 2026-09-15 21:42 UTC. Sprint stats: 8/8 product URLs 200, 21/21 core file URLs 200, semantic suite 110/110 (2026-09-15)</p>
+      <h3>Proven live</h3>
+      <table><tr><th>Product</th><th>State</th><th>Link</th></tr><tr><td>Signal Boy</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/walkman/">open</a></td></tr><tr><td>Gear Ledger</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html">open</a></td></tr><tr><td>CWI-1 Scoreboard Chip</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/scoreboard/">open</a></td></tr><tr><td>Chain-of-Title Compass</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/compass/">open</a></td></tr><tr><td>CWI-2 SYNCDECK</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/syncdeck/">open</a></td></tr><tr><td>CWI-1 Prospect Scanner</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/scanner/">open</a></td></tr><tr><td>CWI Press Kit Cartridge</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/press-kit/">open</a></td></tr><tr><td>Radio Dial</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/dial/">open</a></td></tr><tr><td>HYPE Cartridge</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/hype/">open</a></td></tr><tr><td>SIGNAL SKIN</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/skin/">open</a></td></tr><tr><td>THE STREETLIGHT</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/streetlight/">open</a></td></tr><tr><td>THE ALL-CLEAR</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/all-clear/">open</a></td></tr><tr><td>THE FIRST SPIN</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/first-spin/">open</a></td></tr><tr><td>ONE-STOP</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/one-stop/">open</a></td></tr><tr><td>COPY DESK</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/copy-desk/">open</a></td></tr><tr><td>THE FINAL CUT</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/final-cut/">open</a></td></tr><tr><td>OPEN WAVE</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/open-wave/">open</a></td></tr><tr><td>THE TALLY</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/tally/">open</a></td></tr><tr><td>THE SIGNET</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/signet/">open</a></td></tr><tr><td>EAR WITNESS</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/ear-witness/">open</a></td></tr><tr><td>NEEDLE DROP</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/needle-drop/">open</a></td></tr><tr><td>GREENROOM</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/greenroom/">open</a></td></tr><tr><td>THE BULLHORN</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/bullhorn/">open</a></td></tr><tr><td>SOUNDCHECK</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/soundcheck/">open</a></td></tr><tr><td>SIGNAL MIRROR</td><td><span class=badge-live>LIVE · HTTP 200</span></td><td><a href="https://cumulativewebinc.github.io/cwi-learn/signal-mirror/">open</a></td></tr></table>
+      <h3>Staged — in build, not yet deployed</h3>
+      <table><tr><th>Product</th><th>State</th><th>Link</th></tr></table>
+      <h3>New machine-readable contract files (this cycle)</h3>
+      <table><tr><th>File</th><th>State</th></tr><tr><td><code>one-stop/sample-grant.json</code></td><td>LIVE 200 — validates against live one-stop-schema.json</td></tr><tr><td><code>final-cut/sample-pack.json</code></td><td>LIVE 200 — validates against live final-cut-schema.json</td></tr></table>
+    </section>
+    <h2 style="margin-top:28px">Department metrics</h2>
+    
+    <section class=card id=data>
+      <h2>Data &amp; Analytics</h2>
+      <p class=muted>Owns the numbers. Leads the standup.</p>
+      <p>Tracking: <b>Zooted Zone — lifetime Spotify plays</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>307,439</b></div><div class=stat><span>30-day projection</span><b>307,439</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=radio>
+      <h2>Radio &amp; Playlists</h2>
+      <p class=muted>Holds, adds, curator replies.</p>
+      <p>Tracking: <b>New Rap Hits — CWI tracks holding</b></p>
+      <svg width=220 height=48 class=spark><polyline points="0.0,45.0 110.0,45.0 220.0,45.0" fill=none stroke=#22c55e stroke-width=2 /></svg>
+      <div class=stats><div class=stat><span>Now</span><b>3</b></div><div class=stat><span>30-day projection</span><b>3</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-low>low</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=ar>
+      <h2>A&amp;R</h2>
+      <p class=muted>Catalog momentum and artist growth.</p>
+      <p>Tracking: <b>That Boy Hi Hat — monthly listeners</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>171</b></div><div class=stat><span>30-day projection</span><b>171</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=marketing>
+      <h2>Marketing &amp; Social</h2>
+      <p class=muted>Audience footprint.</p>
+      <p>Tracking: <b>Instagram @lanskyblack — followers</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>1,018</b></div><div class=stat><span>30-day projection</span><b>1,018</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=press>
+      <h2>Press &amp; PR</h2>
+      <p class=muted>Coverage velocity and article output.</p>
+      <p>Tracking: <b>Medium @cumulativeweb — followers</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>205</b></div><div class=stat><span>30-day projection</span><b>205</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=sync>
+      <h2>Sync &amp; Licensing</h2>
+      <p class=muted>Pitch readiness; studio pipeline.</p>
+      <p>Tracking: <b>Zooted Zone — lifetime Spotify plays</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>307,439</b></div><div class=stat><span>30-day projection</span><b>307,439</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=content>
+      <h2>Content Studio</h2>
+      <p class=muted>Asset throughput vs. momentum.</p>
+      <p>Tracking: <b>Instagram @lanskyblack — followers</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>1,018</b></div><div class=stat><span>30-day projection</span><b>1,018</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+
+    <section class=card id=biz>
+      <h2>Business Affairs</h2>
+      <p class=muted>Rights, paperwork, corporate standing.</p>
+      <p>Tracking: <b>That Boy Hi Hat — monthly listeners</b></p>
+      <span class=muted>not enough data</span>
+      <div class=stats><div class=stat><span>Now</span><b>171</b></div><div class=stat><span>30-day projection</span><b>171</b></div><div class=stat><span>Daily rate</span><b>+0.0</b></div><div class=stat><span>Confidence</span><b class=conf-insufficient>insufficient</b></div></div>
+      <p class=muted>Momentum: collecting baseline…</p>
+    </section>
+    <footer>Built and operated by the CWI Intelligence Engine for Cumulative Web Inc. Data: CWI's own operations.</footer>
+    </body></html>
