@@ -1,27 +1,40 @@
 {
-  "generated_at": "2026-09-16T13:20:16.051185Z",
-  "method_summary": "Spotify's /v1/audio-features and /v1/audio-analysis Web API endpoints were removed on 27 Nov 2024 (403 Forbidden for apps created after that date), so no Spotify-computed values exist here. Documented fallback: compute features with librosa from each track's 30-second Spotify preview MP3 (analyze_previews.py: tempo via beat tracking, key/mode via Krumhansl-Schumann chroma template matching, energy via mean RMS, brightness via spectral centroid, percussiveness via onset-envelope strength). danceability, valence and speechiness are omitted \u2014 they need Spotify's proprietary models and are never estimated. On 2026-09-16 the connected partner API exposed no preview_url for any of the 27 ID-resolved tracks (full per-track response scan), so no real audio could be downloaded and all feature values are null rather than fabricated.",
+  "generated_at": "2026-09-16T13:21:47Z",
+  "method_summary": "Audio features for 6 of 35 catalog tracks were fetched 2026-09-16 from ReccoBeats API v1 (https://api.reccobeats.com/v1), a free third-party music database with Spotify-like audio features, used as the documented fallback after Spotify deprecated its own /v1/audio-features endpoint (Nov 2024). Verified two-step flow, firsthand: GET /v1/track?ids=<Spotify IDs> resolves Spotify IDs to ReccoBeats UUIDs (path-param /v1/track/:id does NOT accept Spotify IDs directly), then GET /v1/audio-features?ids=<UUIDs> returns the 12 Spotify-shaped fields (acousticness, danceability, energy, instrumentalness, key, liveness, loudness, mode, speechiness, tempo, valence). All 6 returned values passed range sanity checks (tempo 0-250 BPM, key 0-11, mode 0/1, others 0-1, loudness -60..2 dB) and the resolved track title/artist matched the catalog. No API key; requests sequential with 1.5s sleeps, no rate-limit (429) hit.",
   "coverage": {
-    "ok": 0,
+    "ok": 6,
     "total": 35
   },
   "status_breakdown": {
-    "ok": 0,
+    "ok": 6,
     "no_spotify_id": 8,
-    "no_preview": 27,
-    "analysis_failed": 0
+    "not_in_recobeats_db": 21
   },
-  "honest_limits": "Zero tracks carry computed audio features in this run: the 27 tracks with verified Spotify IDs returned no preview_url from the connected Spotify API (Spotify stripped preview URLs from API responses for newer apps alongside the Nov 2024 audio-features deprecation), so there was no real audio to analyze and every features object is null instead of invented. The 8 remaining tracks (all 7 King Akeem singles plus 183 Wildboi \"Stunt\") have no verified Spotify track ID \u2014 search candidates resolved to other artists on their track pages, so they were marked no_spotify_id rather than guessed. When previews become available, features will be computed with librosa from the actual 30-second preview waveform only (tempo, key/mode, energy, brightness, percussiveness) and will describe the preview clip, not the full track; danceability, valence and speechiness will remain absent because they require Spotify's proprietary models.",
+  "honest_limits": "6 of 35 tracks carry audio features, every number traced to a live ReccoBeats API response fetched 2026-09-16. ReccoBeats is an independent third-party: its values come from its own analysis/crawl, NOT from Spotify's deprecated audio-features endpoint, and may differ from the numbers Spotify's models once produced. 21 of the 27 Spotify-ID-resolved tracks (including Diabolique, Shaka Zulu, Doves & Diamonds, Full Moon, Everything Greezy, and Pix) are simply absent from ReccoBeats' database \u2014 single and batch lookups return an empty match, not an error \u2014 so their features are null rather than estimated. The 8 tracks without verified Spotify IDs (all 7 King Akeem singles plus 183 Wildboi 'Stunt') were left untouched and never guessed. Coverage grows only when tracks enter ReccoBeats' database; re-run the lookup before assuming more.",
   "tracks": [
     {
       "artist": "That Boy Hi Hat",
       "title": "Zooted Zone",
       "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
-      "features": null,
-      "method": null,
-      "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "features": {
+        "danceability": 0.784,
+        "energy": 0.329,
+        "valence": 0.411,
+        "tempo_bpm": 162.993,
+        "key": 1,
+        "key_pitch_class": "C#",
+        "mode": "major",
+        "acousticness": 0.0153,
+        "instrumentalness": 1.03e-06,
+        "liveness": 0.108,
+        "speechiness": 0.241,
+        "loudness_db": -15.549
+      },
+      "method": "ReccoBeats API v1 \u2014 third-party audio analysis of the Spotify track (NOT Spotify's own analysis, NOT CWI fingerprinting)",
+      "source_audio": "recobeats",
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "ok",
+      "recobeats_id": "7a6b7e34-49ce-402f-8e9f-821dcce0ca0a"
     },
     {
       "artist": "That Boy Hi Hat",
@@ -30,8 +43,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -40,8 +54,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -50,8 +65,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -60,8 +76,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -70,8 +87,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -80,8 +98,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -90,8 +109,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -100,8 +120,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -110,8 +131,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -120,8 +142,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -130,8 +153,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -140,8 +164,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -150,8 +175,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -160,8 +186,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -170,8 +197,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -180,8 +208,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
@@ -190,18 +219,33 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
       "title": "Place I Go to Dream - Remastered",
       "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
-      "features": null,
-      "method": null,
-      "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "features": {
+        "danceability": 0.643,
+        "energy": 0.646,
+        "valence": 0.47,
+        "tempo_bpm": 84.979,
+        "key": 1,
+        "key_pitch_class": "C#",
+        "mode": "major",
+        "acousticness": 0.0186,
+        "instrumentalness": 0.0,
+        "liveness": 0.329,
+        "speechiness": 0.231,
+        "loudness_db": -7.09
+      },
+      "method": "ReccoBeats API v1 \u2014 third-party audio analysis of the Spotify track (NOT Spotify's own analysis, NOT CWI fingerprinting)",
+      "source_audio": "recobeats",
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "ok",
+      "recobeats_id": "7aae8ef4-de21-4cbb-bc3c-a800d0285317"
     },
     {
       "artist": "That Boy Hi Hat",
@@ -210,48 +254,105 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "That Boy Hi Hat",
       "title": "Smokin' Pain",
       "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
-      "features": null,
-      "method": null,
-      "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "features": {
+        "danceability": 0.746,
+        "energy": 0.588,
+        "valence": 0.591,
+        "tempo_bpm": 88.029,
+        "key": 9,
+        "key_pitch_class": "A",
+        "mode": "minor",
+        "acousticness": 0.104,
+        "instrumentalness": 0.0,
+        "liveness": 0.479,
+        "speechiness": 0.139,
+        "loudness_db": -8.815
+      },
+      "method": "ReccoBeats API v1 \u2014 third-party audio analysis of the Spotify track (NOT Spotify's own analysis, NOT CWI fingerprinting)",
+      "source_audio": "recobeats",
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "ok",
+      "recobeats_id": "0c0a462e-1c40-44bb-a0cc-f0c8be8fc40a"
     },
     {
       "artist": "That Boy Hi Hat",
       "title": "Phantasm",
       "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
-      "features": null,
-      "method": null,
-      "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "features": {
+        "danceability": 0.548,
+        "energy": 0.595,
+        "valence": 0.568,
+        "tempo_bpm": 120.181,
+        "key": 10,
+        "key_pitch_class": "A#",
+        "mode": "minor",
+        "acousticness": 0.092,
+        "instrumentalness": 0.0,
+        "liveness": 0.278,
+        "speechiness": 0.541,
+        "loudness_db": -11.115
+      },
+      "method": "ReccoBeats API v1 \u2014 third-party audio analysis of the Spotify track (NOT Spotify's own analysis, NOT CWI fingerprinting)",
+      "source_audio": "recobeats",
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "ok",
+      "recobeats_id": "7f62e054-6a19-48b8-ba49-7f6177667f27"
     },
     {
       "artist": "That Boy Hi Hat",
       "title": "Misfits and Hooligans",
       "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
-      "features": null,
-      "method": null,
-      "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "features": {
+        "danceability": 0.624,
+        "energy": 0.533,
+        "valence": 0.286,
+        "tempo_bpm": 80.025,
+        "key": 2,
+        "key_pitch_class": "D",
+        "mode": "major",
+        "acousticness": 0.0934,
+        "instrumentalness": 0.0,
+        "liveness": 0.147,
+        "speechiness": 0.372,
+        "loudness_db": -11.483
+      },
+      "method": "ReccoBeats API v1 \u2014 third-party audio analysis of the Spotify track (NOT Spotify's own analysis, NOT CWI fingerprinting)",
+      "source_audio": "recobeats",
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "ok",
+      "recobeats_id": "9038f477-f3f6-46db-9bba-dd18bc3ec489"
     },
     {
       "artist": "That Boy Hi Hat",
       "title": "Roses over Monaco",
       "spotify_id": "3r86CjoxCNvvCz98h2btm1",
-      "features": null,
-      "method": null,
-      "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "features": {
+        "danceability": 0.831,
+        "energy": 0.572,
+        "valence": 0.328,
+        "tempo_bpm": 108.947,
+        "key": 10,
+        "key_pitch_class": "A#",
+        "mode": "minor",
+        "acousticness": 0.0929,
+        "instrumentalness": 0.0,
+        "liveness": 0.07,
+        "speechiness": 0.245,
+        "loudness_db": -8.514
+      },
+      "method": "ReccoBeats API v1 \u2014 third-party audio analysis of the Spotify track (NOT Spotify's own analysis, NOT CWI fingerprinting)",
+      "source_audio": "recobeats",
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "ok",
+      "recobeats_id": "bd2f3373-971e-4b10-ad8a-eae8298cb794"
     },
     {
       "artist": "183 Wildboi",
@@ -260,8 +361,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "183 Wildboi",
@@ -270,8 +372,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "Dre50",
@@ -280,8 +383,9 @@
       "features": null,
       "method": null,
       "source_audio": null,
-      "fetched_at": "2026-09-16T13:20:16.051185Z",
-      "status": "no_preview"
+      "fetched_at": "2026-09-16T13:21:47Z",
+      "status": "not_in_recobeats_db",
+      "note": "Verified Spotify ID is absent from the ReccoBeats database (2026-09-16 batch lookup returned no match); no features available from this source."
     },
     {
       "artist": "King Akeem",
