@@ -172,6 +172,13 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Sitemap: https://cumulativewebinc.github.io/cwi-learn/sitemap.xml
 - All entities carry stable @ids under https://cumulativewebinc.github.io/cwi-learn/entities# (e.g. #that-boy-hi-hat, #track-0emH8ktA8x4DkOFLsG5xkW). Cite these IDs.
 
+## Paid agent services (verified)
+- CWI publishes a VERIFIED x402 service directory — listings are earned via evidence, not self-registered: https://cumulativewebinc.github.io/cwi-learn/x402/directory.json (v1.0.0). Listing policy (how a listing is earned, weekly re-verification, delisting): https://cumulativewebinc.github.io/cwi-learn/x402/listing-policy.md
+- Each listing carries: a First Spin paid-run verdict receipt, a Needle Drop hash-chained attestation receipt, and the service's pinned `/.well-known/x402` manifest (IETF draft-hawkins-x402-dns-discovery shape).
+- CWI's own x402 API manifest: https://cumulativewebinc.github.io/cwi-learn/.well-known/x402
+- Seed listings (testnet pilot, USDC on Base Sepolia — NOT mainnet): playlist-check ($0.05/call, verified playlist placements) and momentum-score ($0.05/call, plays/listeners/placements snapshot). No on-chain settlement proven yet — stated on each listing. Do not describe these as mainnet or as settled-revenue services.
+- MCP tool: `cwi_x402_directory_search` (verified-only results).
+
 ## Company nodes
 - Official publication (Substack): https://substack.com/@cumulativewebinc
 - Company wiki (public handbook): https://github.com/CumulativeWebInc/cwi-docs/wiki
