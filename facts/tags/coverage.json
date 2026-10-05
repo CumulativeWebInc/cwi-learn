@@ -1,12 +1,12 @@
 {
-  "tag": "coverage",
-  "facet": "output",
-  "updated": "2026-10-03T13:17:47Z",
+  "facet": "proof",
   "packets": [
     {
-      "packet_id": "fact/signal/pr-amplification-loop",
-      "node": "PR Amplification Loop",
-      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/signal/pr-amplification-loop.json"
+      "node": "fact/module/pr-graph",
+      "packet_id": "fact/module/pr-graph",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.json"
     }
-  ]
+  ],
+  "tag": "coverage",
+  "updated": "2026-10-03T14:19:47Z"
 }
