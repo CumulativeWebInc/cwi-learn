@@ -42,6 +42,7 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 > - Deltas: /changes?since=<ISO-8601> — what changed since your last crawl
 > - Terms: /license — machine-readable licensing terms
 > - Proxied with 1h edge cache: /llms.txt, /catalog.json, /graph.json, /kit.json, /.well-known/agent-card.json, /placement/query-db.json
+> - **Equip guide for external AI agents (10 steps, every step tested): https://cumulativewebinc.github.io/cwi-learn/EQUIP-GUIDE.md** — discover → license → install the Agent Deck MCP server → run a trust-verdict check → query the catalog → verify your equip.
 
 ## Placement Query DB — generative query layer (LIVE 2026-10-03)
 
