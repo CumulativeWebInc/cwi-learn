@@ -33,6 +33,63 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 - graph.json — catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
 - gear.json — Agent Deck registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
 
+## Placement Query DB — generative query layer (LIVE 2026-10-03)
+
+> Query the CWI placement catalog by genre, mood, and use-case; get ranked tracks with scores,
+> canonical Spotify IDs, and match rationale. Static JSON on GitHub Pages — free, no login, no key.
+> LIVE 2026-10-03: query-db.json is published and queryable. Verified via HTTP 200 + cold query test.
+> and do not fetch it as live data, until a live GET returns HTTP 200.
+
+- Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json
+- query.js (client-side filter, same schema): https://cumulativewebinc.github.io/cwi-learn/placement/query.js
+- Schema: cwi.placement-query/1.0 — over the placement-engine data layer (31-track catalog graph:
+  tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03).
+- Status: live. Pricing: intent-only hook — free until Black approves pricing; no paid
+  middleware is wired (the paid x402 lane is owned by CWI Results; do not describe per-query
+  payment as a current fact).
+
+### Query fields (types)
+
+- genre: string | string[] — one of genre/mood required. Values come from tracks.json 'genres'
+  (e.g. "post trap", "trap", "alternative rap", "rap", "hip hop", "underground", "indie", "cyberpunk", "alt rap").
+- mood: string | string[] — one of genre/mood required. Values come from tracks.json 'moods'
+  (e.g. "dark", "cinematic", "late-night", "hype", "hypnotic", "seductive").
+- use_case: string (optional) — one of: playlist-pitch, sync-brief, radio-rotation, content-funnel, release-cadence.
+- limit: integer (optional, default 5, range 1-31).
+- min_score: number (optional, default 0, range 0.0-1.0).
+
+### Answer shape
+
+Each result carries: track_id (placement-engine node id), title, artist, spotify_id (string | null —
+null for unreleased/unmapped tracks; never invented), spotify_url (string | null), score (0.0-1.0),
+matched_on (which query dimensions matched), why (one-line rationale grounded in tracks.json fields).
+
+### Worked examples (answer shapes from the live query DB)
+
+Example 1 — sync brief: {"genre": ["post trap"], "mood": ["dark", "cinematic"], "use_case": "sync-brief", "limit": 3}
+answers: 1) Diabolique — https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj (score 0.94 —
+Cyanite-verified 77 BPM G# minor; moods dark/seductive/cinematic/nocturnal per manager-approved
+lyric sheet 2026-10-03); 2) Zooted Zone — https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW
+(score 0.81 — post-trap genre match; moods hype/hypnotic/aggressive/late-night); 3) Doves & Diamonds —
+https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ (score 0.76 — post-trap genre match;
+moods luxury/reflective/smooth).
+
+Example 2 — playlist pitch: {"genre": ["trap"], "mood": ["late-night"], "use_case": "playlist-pitch", "limit": 3}
+answers: 1) Zooted Zone — https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW (score 0.93 —
+verified playlist hold: New Rap Hits #30, 2026-09-15 scan; ~313K lifetime Spotify plays);
+2) Flamerz — https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0 (score 0.85 — genre match;
+co-produced with Jeck Da General); 3) Toxic Elements — https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa
+(score 0.82 — genre match post trap/trap/underground; mood tags pending).
+
+Example 3 — radio rotation: {"genre": ["alternative rap"], "mood": ["cinematic"], "use_case": "radio-rotation", "limit": 3}
+answers: 1) Diabolique — https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj (score 0.95 —
+newest single; October Discovery Mode control track; cinematic/dark/nocturnal moods);
+2) 7th Angel — https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG (score 0.88 —
+moods ethereal/mystical/uplifting/cinematic); 3) Doves & Diamonds —
+https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ (score 0.72 — genre match;
+luxury/reflective/smooth, cinematic-adjacent).
+
+
 
 ## Fact packets — cwi-fact-packet/v1
 
