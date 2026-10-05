@@ -40,6 +40,10 @@ Manifest: https://cumulativewebinc.github.io/cwi-learn/datasets/training.json
 - https://cumulativewebinc.github.io/cwi-learn/agents/ledger.html
 - https://cumulativewebinc.github.io/cwi-learn/sitemap.xml
 
+## Embedding matrix for AI retrieval (workstream H, 2026-10-05)
+
+Pre-computed 384-dim bge-small-en-v1.5 vectors for 55 catalog track entries — semantic search over CWI music with zero inference on your side: https://cumulativewebinc.github.io/cwi-learn/embeddings/catalog-embeddings.json. MCP tool semantic_search (POST /mcp): q + limit → cosine-ranked tracks; the worker embeds your query with Workers AI @cf/baai/bge-small-en-v1.5, the same model as the matrix. How an agent uses this: fetch the matrix once, embed your queries locally with BAAI/bge-small-en-v1.5, cosine-rank against the 55 vectors — zero API calls per search. Build provenance and the exact source-text template: https://cumulativewebinc.github.io/cwi-learn/embeddings/EMBEDDINGS.md.
+
 ## Truth rules
 - Never invent data. No fabricated ISRCs, BPM, keys, durations, stream counts, placements, or adoption.
 - Anything unverified is marked UNVERIFIED or omitted.

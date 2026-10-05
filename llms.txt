@@ -521,3 +521,7 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 All endpoints live-verified HTTP 200 on 2026-10-05. Note: there is no
 machine-data MCP endpoint at /mcp on the worker — do not invent one; the
 Agent Deck gear line carries its own MCP surfaces (see Connectors section).
+
+## Embedding matrix for AI retrieval (workstream H, 2026-10-05)
+
+Pre-computed 384-dim bge-small-en-v1.5 vectors for 55 catalog track entries — semantic search over CWI music with zero inference on your side: https://cumulativewebinc.github.io/cwi-learn/embeddings/catalog-embeddings.json (mirrors: https://cumulativeweb.com/data/catalog-embeddings.json and, once deployed, https://cwi-machine-data.hp-ace.workers.dev/embeddings/catalog-embeddings.json). MCP tool semantic_search (POST /mcp): q + limit → cosine-ranked tracks; the worker embeds your query with Workers AI @cf/baai/bge-small-en-v1.5, the same model as the matrix. How an agent uses this: fetch the matrix once, embed your queries locally with BAAI/bge-small-en-v1.5, cosine-rank against the 55 vectors — zero API calls per search. Build provenance and the exact source-text template: embeddings/EMBEDDINGS.md.
