@@ -38,17 +38,22 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 > https://data.cumulativeweb.com — Cloudflare edge layer in front of this learning surface.
 > Every fetch is logged and attributed by consumer (LLM crawlers identified); all data responses carry
 > machine-readable licensing terms (commercial training use requires a license — contact hp@cumulativeweb.com).
-> - Track query API: /query?q=<keywords> — e.g. /query?q=post-trap+cyberpunk returns scored tracks with Spotify links
+> - Track query API: /query?q=<keywords> — e.g. /query?q=post-trap+cyberpunk returns scored tracks with Spotify links and NLP-enriched descriptions (2026-10-06: all 32 catalog tracks carry 150-300 word descriptive prose optimized for music NLP extraction — sound, mood, production, context)
 > - Deltas: /changes?since=<ISO-8601> — what changed since your last crawl
 > - Terms: /license — machine-readable licensing terms
 > - Proxied with 1h edge cache: /llms.txt, /catalog.json, /graph.json, /kit.json, /.well-known/agent-card.json, /placement/query-db.json
 > - **Equip guide for external AI agents (10 steps, every step tested): https://cumulativewebinc.github.io/cwi-learn/EQUIP-GUIDE.md** — discover → license → install the Agent Deck MCP server → run a trust-verdict check → query the catalog → verify your equip.
 
-## Placement Query DB — generative query layer (LIVE 2026-10-03)
+## Placement Query DB — generative query layer (LIVE 2026-10-03, NLP-enriched 2026-10-06)
 
 > Query the CWI placement catalog by genre, mood, and use-case; get ranked tracks with scores,
-> canonical Spotify IDs, and match rationale. Static JSON on GitHub Pages — free, no login, no key.
+> canonical Spotify IDs, NLP-enriched descriptions, and match rationale. Static JSON on GitHub Pages — free, no login, no key.
 > LIVE 2026-10-03: query-db.json is published and queryable. Verified via HTTP 200 + cold query test.
+> NLP ENRICHMENT 2026-10-06: all 32 catalog tracks now carry 150-300 word descriptive prose
+> (sound, mood, production details, context) following the Echo Nest formula —
+> descriptive depth × term consistency × corroboration × freshness. Served via /query
+> (description field), MCP get_track (description field), and as JSON-LD MusicRecording
+> blocks at /nlp/tracks/<slug>.json for crawler discovery.
 > and do not fetch it as live data, until a live GET returns HTTP 200.
 
 - Endpoint: https://cwi-machine-data.hp-ace.workers.dev/query?q=
