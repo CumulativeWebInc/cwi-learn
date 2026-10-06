@@ -4,7 +4,25 @@ name: gitleaks
 
 on:
   push:
+    paths-ignore:
+      # Machine-written data/state — no secret-bearing capacity. Skips the
+      # scan on data-only pushes (encrypted blobs, embedding vectors, fact
+      # packets). Code/config/content pushes still scan.
+      - 'placement/**'
+      - 'embeddings/**'
+      - 'facts/**'
+      - '**/*.aes'
+      - '**/*.gpg'
   pull_request:
+  schedule:
+    # Weekly full-history safety net — catches anything the path filter skipped.
+    - cron: '0 6 * * 1'
+
+# One run per ref — a newer push cleanly supersedes the older one
+# (matches the 2026-10-05 repair on cumulativeweb.com + gear-ledger).
+concurrency:
+  group: gitleaks-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
