@@ -1,22 +1,49 @@
 # CWI Catalog Embedding Matrix — EMBEDDINGS.md
 
-**Workstream H — "cyber reach" (2026-10-05).** AI systems retrieve with vectors, not keywords.
+**Workstream H — "cyber reach" (2026-10-05). Rebuilt v2 (2026-10-06).** AI systems retrieve with vectors, not keywords.
 This matrix publishes the CWI catalog as pre-computed embeddings so any agent/RAG
 pipeline can do semantic search over our music with **zero inference on their side**.
 
-## The matrix
+## The matrix (v2 — current)
 
 - **File:** `embeddings/catalog-embeddings.json` (this directory)
 - **Model:** `bge-small-en-v1.5` (BAAI, open) — 384 dimensions
-- **Entries:** 55 (all 53 `catalog.json` tracks + 6 additional title variants from the
-  query/sync sources, 4 merged on title normalization — 53 + 6 − 4 = 55)
-- **Size:** 266,631 bytes (~260 KB; ~90 KB gzipped on the wire)
-- **Version:** `cwi-embeddings/v1-2026-10-05`
+- **Entries:** 32 (all NLP-enriched tracks from `placement-engine/tracks.json`)
+- **Size:** ~178 KB (~65 KB gzipped on the wire)
+- **Version:** `cwi-embeddings/v2-2026-10-06-nlp`
 - **Entry schema:**
-  `{track_id, title, artist, spotify_url, embedding:[384 floats, 6-decimal], model, dim, version, embedded_at, source_text, fallback_text, has_sonic_descriptors}`
+  `{track_id, title, artist, spotify_url, embedding:[384 floats, 6-decimal], model, dim, version, embedded_at, source_text, nlp_word_count, source_template}`
 
 Every entry verified: `len(embedding) == 384` (build-time assertion; the worker's
 `loadEmbeddingMatrix` re-validates on load and refuses to serve an invalid matrix).
+
+## v2 changes (2026-10-06, Lansky's order)
+
+Per the standing law "NLP enrichment is the standard for ALL catalog music" (2026-10-06):
+semantic search embeddings are now built over the NLP-enriched descriptions
+(150-300 words per track, Echo Nest formula: descriptive depth × source consistency
+× term corroboration × freshness) instead of the v1 one-line composed descriptions.
+
+**Template v2:**
+```
+{title} — {artist}
+Genres: {g1, g2, ...}            (line omitted when empty)
+Moods: {m1, m2, ...}             (line omitted when empty)
+{nlp_description (150-300 words of rich descriptive prose)}
+```
+
+**Build method v2:** Local ONNX (`/tmp/bge-model/model.onnx` from HuggingFace
+`BAAI/bge-small-en-v1.5`), CLS pooling, L2-normalized — identical to fastembed's
+BGE behavior. Used because the proxy blocked fastembed's model download; the
+ONNX weights are the same published BAAI checkpoint, so model parity holds.
+
+**Ranking check 2026-10-06:** "dark cyberpunk rap for a film scene" →
+Cyberpunk 2027 #1 (0.6564), Diabolique #2, Neon Nights Pt. 777 #3.
+"upbeat dance party song with high energy" → Stunt #1, Golden Diamond #2.
+Sensible: PASS. (v1 had ranked Pay Yourself #1 for the cyberpunk query —
+v2 correctly surfaces the actual Cyberpunk 2027 release.)
+
+**v1 backup:** `embeddings/catalog-embeddings-v1-backup.json` (55 entries, preserved).
 
 ## Model parity rule (anti-corruption)
 
