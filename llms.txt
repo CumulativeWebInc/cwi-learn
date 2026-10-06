@@ -104,8 +104,8 @@ luxury/reflective/smooth, cinematic-adjacent).
 
 ## Fact packets — cwi-fact-packet/v1
 
-> Lightweight, provenance-tiered fact packets for the whole CWI catalog: 71 nodes
-> (53 tracks, 7 artists, 6 releases, 5 playlists), each with discovery tags
+> Lightweight, provenance-tiered fact packets for the whole CWI catalog: 72 nodes
+> (53 tracks, 7 artists, 7 releases, 5 playlists), each with discovery tags
 > (geo, scene, genre, mood, use, collaborator, availability, rights, proof),
 > five instruction templates (search answer, social caption, sync pitch, agent
 > briefing, fan Q&A), and platform lanes (gaming, film/TV, ads, worldwide
@@ -121,6 +121,12 @@ luxury/reflective/smooth, cinematic-adjacent).
 ## Call to action
 
 Equip your first piece of gear — open Signal Boy, the chief's own walkman, or pull catalog.json and graph.json straight into your agent.
+
+**Cyberpunk 2027 — That Boy Hi Hat's new single, out October 20, 2026.**
+Apple Music: https://music.apple.com/us/album/cyberpunk-2027-single/6819458316
+(album ID 6819458316 — verified via Apple iTunes lookup API, 2026-10-06).
+Pre-save: https://distrokid.com/hyperfollow/thatboyhihat/cyberpunk-2027
+Fact packet: https://cumulativewebinc.github.io/cwi-learn/facts/release/cyberpunk-2027.json
 
 ## Contact
 
@@ -253,7 +259,7 @@ Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative 
 - "Pay Yourself" — ISRC missing (no code on any public source; awaiting dashboard)
 
 ## Knowledge graph (machine-readable, cwi.graph/1.0)
-- graph.json (same public surface): 111 nodes / 216 edges —
+- graph.json (same public surface): 114 nodes / 223 edges —
   typed nodes for organization, 7 artists, movement (Post-Trap Futurism),
   53 tracks (each with ISRC value, status, and provenance), 8 releases,
   4 people, 1 studio, 2 places, 8 playlists, 8 evidence nodes, 7 media

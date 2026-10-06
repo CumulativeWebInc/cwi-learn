@@ -1,7 +1,7 @@
 {
   "schema": "cwi-fact-packet/v1",
   "manifest": "facts/index.json",
-  "updated": "2026-10-03",
+  "updated": "2026-10-06",
   "packets": [
     {
       "packet_id": "fact/artist/183-wildboi",
@@ -154,7 +154,7 @@
     },
     {
       "packet_id": "fact/playlist/that-boy-hi-hat-alternative-rap-complete-catalog-ai-learning-set",
-      "node": "That Boy Hi Hat – Alternative Rap Complete Catalog (AI Learning Set)",
+      "node": "That Boy Hi Hat \u2013 Alternative Rap Complete Catalog (AI Learning Set)",
       "type": "playlist",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/playlist/that-boy-hi-hat-alternative-rap-complete-catalog-ai-learning-set.json",
       "tags": [
@@ -1231,7 +1231,7 @@
     },
     {
       "packet_id": "fact/module/attribution-cycle",
-      "node": "Attribution cycle — kill-rule state 2026-10-03",
+      "node": "Attribution cycle \u2014 kill-rule state 2026-10-03",
       "type": "state",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-cycle.json",
       "tags": [
@@ -1241,7 +1241,7 @@
     },
     {
       "packet_id": "fact/module/attribution-layer",
-      "node": "Visibility Machine — Attribution Layer (Module 1)",
+      "node": "Visibility Machine \u2014 Attribution Layer (Module 1)",
       "type": "module",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/attribution-layer.json",
       "tags": [
@@ -1253,7 +1253,7 @@
     },
     {
       "packet_id": "fact/module/creative-engine",
-      "node": "Visibility Machine — Creative Engine (Module 6)",
+      "node": "Visibility Machine \u2014 Creative Engine (Module 6)",
       "type": "module",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/creative-engine.json",
       "tags": [
@@ -1264,7 +1264,7 @@
     },
     {
       "packet_id": "fact/module/curator-graph",
-      "node": "Visibility Machine — Curator Graph (Module 3)",
+      "node": "Visibility Machine \u2014 Curator Graph (Module 3)",
       "type": "module",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-graph.json",
       "tags": [
@@ -1275,7 +1275,7 @@
     },
     {
       "packet_id": "fact/module/curator-network",
-      "node": "Curator network — state 2026-10-03",
+      "node": "Curator network \u2014 state 2026-10-03",
       "type": "state",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/curator-network.json",
       "tags": [
@@ -1295,7 +1295,7 @@
     },
     {
       "packet_id": "fact/module/pitch-crm",
-      "node": "Visibility Machine — Pitch CRM (Module 4)",
+      "node": "Visibility Machine \u2014 Pitch CRM (Module 4)",
       "type": "module",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pitch-crm.json",
       "tags": [
@@ -1306,7 +1306,7 @@
     },
     {
       "packet_id": "fact/module/pr-coverage",
-      "node": "PR coverage — state 2026-10-03",
+      "node": "PR coverage \u2014 state 2026-10-03",
       "type": "state",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-coverage.json",
       "tags": [
@@ -1316,7 +1316,7 @@
     },
     {
       "packet_id": "fact/module/pr-graph",
-      "node": "Visibility Machine — PR Graph (Module 5)",
+      "node": "Visibility Machine \u2014 PR Graph (Module 5)",
       "type": "module",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/pr-graph.json",
       "tags": [
@@ -1327,7 +1327,7 @@
     },
     {
       "packet_id": "fact/module/scorecards",
-      "node": "Visibility Machine — Scorecards (Module 2)",
+      "node": "Visibility Machine \u2014 Scorecards (Module 2)",
       "type": "module",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/scorecards.json",
       "tags": [
@@ -1338,7 +1338,7 @@
     },
     {
       "packet_id": "fact/module/twenty-minds-phase2",
-      "node": "Twenty Minds — Phase 2 build order decision",
+      "node": "Twenty Minds \u2014 Phase 2 build order decision",
       "type": "decision",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/twenty-minds-phase2.json",
       "tags": [
@@ -1348,12 +1348,29 @@
     },
     {
       "packet_id": "fact/module/vote-hq-src-wire",
-      "node": "Vote HQ ?src= wire — live state 2026-10-03",
+      "node": "Vote HQ ?src= wire \u2014 live state 2026-10-03",
       "type": "state",
       "url": "https://cumulativewebinc.github.io/cwi-learn/facts/module/vote-hq-src-wire.json",
       "tags": [
         "attribution",
         "verified-live"
+      ]
+    },
+    {
+      "packet_id": "fact/release/cyberpunk-2027",
+      "node": "Cyberpunk 2027 (single)",
+      "type": "release",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/facts/release/cyberpunk-2027.json",
+      "tags": [
+        "frederick",
+        "maryland",
+        "dmv",
+        "usa",
+        "release",
+        "new-music",
+        "global",
+        "apple-music",
+        "sync-ready"
       ]
     }
   ]
