@@ -6,7 +6,7 @@
     "@type": "MusicGroup",
     "name": "That Boy Hi Hat"
   },
-  "description": "'Place I Go to Dream' is the emotional anchor of That Boy Hi Hat's Idol or Icon era \u2014 and, at 11.5 LU, the most dynamic record in its batch. That Boy Hi Hat built the song on contrast, the way dreams actually work: submerged, then suddenly vivid. An in-house analysis places the tempo near 85 BPM, but the number barely matters next to the swing between near-silence and full bloom. The verses arrive as whispers over muted keys and lo-fi textures; the chorus opens into cinematic production, with layered synth pads and a deep low end that feels like surfacing. The genre is alternative rap and indie-leaning post trap \u2014 dreamy, vulnerable, and melancholic, with a haunting, ethereal quality that never tips into defeat. The instrumentation tells the story: electric piano and atmospheric pads in the verses, strings and a full bassline in the chorus, vocal chops drifting through the bridge, and ad-libs answering the lead like echoes. That Boy Hi Hat tracks the arrangement with his delivery \u2014 introspective and lonely when the beat runs quiet, defiant when it blooms. For fans of indie and melodic rap, the track recalls the quietest corners of the catalog. It sits alongside the era's nocturnal rap records as the one that proved dynamics could carry narrative weight \u2014 and it sounds like a score cue that learned how to rap. Three versions stream on Spotify \u2014 the original, a remastered pass, and a full instrumental \u2014 because the songwriting survives the stripping, and as of 2026 it remains the catalog's proof that loudness is not the only kind of power.",
+  "description": "'Place I Go to Dream' is the emotional anchor of That Boy Hi Hat's Idol or Icon era \u2014 and, at 11.5 LU, the most dynamic record in its batch. That Boy Hi Hat built the song on contrast, the way dreams actually work: submerged, then suddenly vivid. An in-house analysis places the tempo near 85 BPM, but the number barely matters next to the swing between near-silence and full bloom. The verses arrive as whispers over muted keys and lo-fi textures; the chorus opens into cinematic production, with layered synth pads and a deep low end that feels like surfacing. The genre is alternative rap and indie-leaning post trap \u2014 dreamy, vulnerable, and melancholic, with a haunting, ethereal quality that never tips into defeat. The instrumentation tells the story: electric piano and atmospheric pads in the verses, strings and a full bassline in the chorus, vocal chops drifting through the bridge, and ad-libs answering the lead like echoes. That Boy Hi Hat tracks the arrangement with his delivery \u2014 introspective and lonely when the beat runs quiet, defiant when it blooms. For fans of indie and melodic rap, the track recalls the quietest corners of the catalog. It sits alongside the era's nocturnal rap records as the one that proved dynamics could carry narrative weight \u2014 and it sounds like a score cue that learned how to rap. Three versions stream on Spotify \u2014 the original, a remastered pass, and a full instrumental \u2014 because the songwriting survives the stripping, and as of 2026 it remains the catalog's proof that loudness is not the only kind of power. Produced by Jeck da General with Black Lansky co-producing.",
   "genre": [
     "alternative rap",
     "alt rap",
@@ -15,7 +15,13 @@
     "indie"
   ],
   "keywords": "",
+  "datePublished": "2021-11-24",
   "sameAs": [
     "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8"
-  ]
+  ],
+  "producer": {
+    "@type": "Person",
+    "name": "Jeck da General",
+    "description": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  }
 }

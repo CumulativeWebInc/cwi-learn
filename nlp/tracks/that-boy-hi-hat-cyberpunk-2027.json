@@ -17,5 +17,9 @@
   "datePublished": "2026-10-20",
   "sameAs": [
     "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316"
-  ]
+  ],
+  "producer": {
+    "@type": "Person",
+    "name": "Kokurcho"
+  }
 }

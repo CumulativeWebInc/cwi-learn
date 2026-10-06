@@ -1,0 +1,3849 @@
+{
+ "rubric_version": "2.0",
+ "pass_threshold": 84,
+ "max_score": 120,
+ "scored_at": "2026-10-06T18:42:19Z",
+ "track_count": 32,
+ "pass_count": 31,
+ "fail_count": 1,
+ "average": 88.6,
+ "results": [
+  {
+   "track_id": "diabolique",
+   "title": "Diabolique",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 7,
+     "details": {
+      "fields_present": 5,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 7,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 5,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 10,
+     "details": {
+      "moods_in_record": 8,
+      "vocab_moods_in_prose": 9
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 5,
+     "details": {
+      "instruments_found": 5,
+      "presence_markers": 0
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 6,
+     "details": {
+      "words": 216,
+      "sentences": 7,
+      "sonic_markers": 0
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 3,
+     "details": {
+      "comparison_hits": 0,
+      "scene_hits": 3
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 4,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 10,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": true
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 19,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 86,
+   "pass": true,
+   "gaps": [
+    "Instrumentation: 5/10",
+    "Descriptive Prose Quality: 6/10",
+    "Comparison/Lineage: 3/10",
+    "Freshness: 4/10"
+   ]
+  },
+  {
+   "track_id": "zooted-zone",
+   "title": "Zooted Zone",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 7,
+     "details": {
+      "fields_present": 5,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 6,
+     "details": {
+      "genres_in_record": [
+       "post trap",
+       "trap",
+       "rap",
+       "underground",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 3,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 6,
+      "vocab_moods_in_prose": 6
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 6,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 234,
+      "sentences": 8,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 4,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 1,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": true
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 15,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 87,
+   "pass": true,
+   "gaps": [
+    "Genre Tagging: 6/10",
+    "Freshness: 1/10"
+   ]
+  },
+  {
+   "track_id": "doves-and-diamonds",
+   "title": "Doves & Diamonds",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 7,
+     "details": {
+      "fields_present": 5,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 7,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 4,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 9,
+     "details": {
+      "moods_in_record": 7,
+      "vocab_moods_in_prose": 7
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 241,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 6,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 0
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 5,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 7,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 10,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": true
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 20,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 96,
+   "pass": true,
+   "gaps": [
+    "Comparison/Lineage: 6/10"
+   ]
+  },
+  {
+   "track_id": "shaka-zulu",
+   "title": "Shaka Zulu",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "hip hop",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 13,
+      "subgenres_in_prose": 5
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 15
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 5
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 281,
+      "sentences": 10,
+      "sonic_markers": 3
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 2,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 4,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 1
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 35,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 95,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Production Detail: 6/10",
+    "Freshness: 4/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "flamerz",
+   "title": "Flamerz",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 2,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "trap",
+       "rap",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 10,
+      "subgenres_in_prose": 4
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 12
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 218,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "studio_mentioned": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 6,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 32,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 92,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 2/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "neon-nights-pt-777",
+   "title": "Neon Nights Pt. 777",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "cyberpunk"
+      ],
+      "vocab_genres_in_prose": 10,
+      "subgenres_in_prose": 3
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 14
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 13,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 204,
+      "sentences": 11,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 2,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 8,
+     "details": {
+      "comparison_hits": 6,
+      "scene_hits": 2
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 37,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 86,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 2/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "ultimate",
+   "title": "Ultimate",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 11,
+      "subgenres_in_prose": 5
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 13
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 297,
+      "sentences": 12,
+      "sonic_markers": 3
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 3,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 0,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 33,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 6/10",
+    "Freshness: 0/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "painted-lady",
+   "title": "Painted Lady",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 2,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 8,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 7,
+      "subgenres_in_prose": 1
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 10
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 233,
+      "sentences": 8,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 2,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 8,
+     "details": {
+      "comparison_hits": 5,
+      "scene_hits": 2
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 23,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 84,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 2/10",
+    "Production Detail: 2/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "warped-and-wicked",
+   "title": "Warped & Wicked",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 8,
+      "subgenres_in_prose": 4
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 12
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 9,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 3
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 202,
+      "sentences": 8,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 2,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 8,
+     "details": {
+      "comparison_hits": 6,
+      "scene_hits": 2
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 2,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 30,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 89,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 2/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "golden-diamond",
+   "title": "Golden Diamond",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 10,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 7,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 7
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 9,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 205,
+      "sentences": 8,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 5,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 1
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 8,
+     "details": {
+      "comparison_hits": 5,
+      "scene_hits": 2
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 2,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 26,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 84,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Production Detail: 5/10",
+    "Freshness: 2/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "spirits-n-shadows",
+   "title": "Spirits n Shadows",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 5,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 10,
+      "subgenres_in_prose": 4
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 14
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 11,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 205,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 1
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 4,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 34,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 5/10",
+    "Production Detail: 6/10",
+    "Freshness: 4/10"
+   ]
+  },
+  {
+   "track_id": "flex-my-flame",
+   "title": "Flex My Flame",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 2,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 8,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 4,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 4
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 250,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 2,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 5,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 7,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 19,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 84,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 2/10",
+    "Mood Tagging: 4/10",
+    "Production Detail: 2/10"
+   ]
+  },
+  {
+   "track_id": "rainbows-and-roses",
+   "title": "Rainbows And Roses",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 5,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "indie"
+      ],
+      "vocab_genres_in_prose": 8,
+      "subgenres_in_prose": 5
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 12
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 284,
+      "sentences": 10,
+      "sonic_markers": 3
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 3
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 3,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 2,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 3,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 1
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 29,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 96,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 5/10",
+    "Freshness: 3/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "tears-and-scars",
+   "title": "Tears and Scars",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 8,
+      "subgenres_in_prose": 3
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 15
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 9,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 299,
+      "sentences": 11,
+      "sonic_markers": 4
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 9,
+     "details": {
+      "comparison_hits": 3,
+      "scene_hits": 3
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 2,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 0,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 32,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 89,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 6/10",
+    "Freshness: 0/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "toxic-elements",
+   "title": "Toxic Elements",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 6,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 7,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "trap",
+       "rap",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 7,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 7,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 7
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 9,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 259,
+      "sentences": 10,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 4,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 5,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 23,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 88,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 6/10",
+    "Production Detail: 4/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "scorpion-and-sapphires",
+   "title": "Scorpion & Sapphires",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 10,
+      "subgenres_in_prose": 5
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 13
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 278,
+      "sentences": 11,
+      "sonic_markers": 4
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 0,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 32,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 6/10",
+    "Freshness: 0/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "7th-angel",
+   "title": "7th Angel",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 5,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "indie"
+      ],
+      "vocab_genres_in_prose": 12,
+      "subgenres_in_prose": 6
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 10,
+     "details": {
+      "moods_in_record": 4,
+      "vocab_moods_in_prose": 12
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 272,
+      "sentences": 9,
+      "sonic_markers": 5
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 3
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 3,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 2,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 1,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 1
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 7,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": true
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 33,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 97,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 5/10",
+    "Freshness: 1/10"
+   ]
+  },
+  {
+   "track_id": "place-i-go-to-dream",
+   "title": "Place I Go to Dream",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 6,
+     "details": {
+      "fields_present": 5,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 8,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "indie"
+      ],
+      "vocab_genres_in_prose": 8,
+      "subgenres_in_prose": 1
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 10
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 12,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 9,
+     "details": {
+      "words": 278,
+      "sentences": 11,
+      "sonic_markers": 2
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 4,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 1
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 8,
+     "details": {
+      "shared_terms": 28,
+      "orphan_terms": 2
+     }
+    }
+   },
+   "total": 89,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 6/10",
+    "Production Detail: 4/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "smokin-pain",
+   "title": "Smokin' Pain",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 10,
+      "subgenres_in_prose": 5
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 12
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 300,
+      "sentences": 12,
+      "sonic_markers": 4
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 4,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 2,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 29,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 92,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 6/10",
+    "Freshness: 2/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "phantasm",
+   "title": "Phantasm",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 3,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "cyberpunk"
+      ],
+      "vocab_genres_in_prose": 7,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 13
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 15,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 217,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 5,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 8,
+     "details": {
+      "comparison_hits": 7,
+      "scene_hits": 2
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 2,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 34,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 5/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "misfits-and-hooligans",
+   "title": "Misfits and Hooligans",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 3,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 10,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 12,
+      "subgenres_in_prose": 4
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 14
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 10,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 4
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 10,
+     "details": {
+      "words": 289,
+      "sentences": 9,
+      "sonic_markers": 4
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 6,
+     "details": {
+      "producer_credited": false,
+      "studio_mentioned": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 10,
+     "details": {
+      "comparison_hits": 5,
+      "scene_hits": 4
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 2,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 6,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 33,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 92,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 3/10",
+    "Production Detail: 6/10",
+    "Freshness: 2/10",
+    "Structural Completeness: 6/10"
+   ]
+  },
+  {
+   "track_id": "roses-over-monaco",
+   "title": "Roses over Monaco",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 2,
+     "details": {
+      "fields_present": 2,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 8,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 7,
+      "subgenres_in_prose": 1
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 14
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 240,
+      "sentences": 10,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 3,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 9,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 3
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 7,
+     "details": {
+      "shared_terms": 28,
+      "orphan_terms": 3
+     }
+    }
+   },
+   "total": 85,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 2/10",
+    "Production Detail: 3/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "broken-hearts-club",
+   "title": "Broken Hearts Club",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 5,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 1
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 7,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 10
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 10,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 6,
+     "details": {
+      "words": 309,
+      "sentences": 11,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 8,
+     "details": {
+      "producer_credited": true,
+      "studio_mentioned": true,
+      "technical_markers": 1
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 6,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 0
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 8,
+     "details": {
+      "shared_terms": 25,
+      "orphan_terms": 2
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 5/10",
+    "Descriptive Prose Quality: 6/10",
+    "Comparison/Lineage: 6/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "star-king-akeem",
+   "title": "Star",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 1,
+     "details": {
+      "fields_present": 1,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 7,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 6,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 10
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 11,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 282,
+      "sentences": 10,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 5,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 5,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 10,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 26,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 88,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 1/10",
+    "Production Detail: 5/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "full-moon-183-wilboi",
+   "title": "Full Moon",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 8,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop",
+       "trap"
+      ],
+      "vocab_genres_in_prose": 6,
+      "subgenres_in_prose": 1
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 7,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 7
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 9,
+     "details": {
+      "instruments_found": 13,
+      "presence_markers": 3
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 192,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 3,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 8,
+     "details": {
+      "comparison_hits": 7,
+      "scene_hits": 2
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 10,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 4,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 26,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Production Detail: 3/10",
+    "Freshness: 4/10"
+   ]
+  },
+  {
+   "track_id": "stunt-183-wilboi",
+   "title": "Stunt",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 7,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 4,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 10
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 9,
+     "details": {
+      "instruments_found": 9,
+      "presence_markers": 3
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 247,
+      "sentences": 10,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 3,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 6,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 0
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 5,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 7,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 23,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 85,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Production Detail: 3/10",
+    "Comparison/Lineage: 6/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "vai-vem-vem-dre50",
+   "title": "vai vem vem",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 6,
+     "details": {
+      "genres_in_record": [
+       "dancehall",
+       "afrobeats",
+       "hip hop"
+      ],
+      "vocab_genres_in_prose": 3,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 9
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 12,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 7,
+     "details": {
+      "words": 197,
+      "sentences": 8,
+      "sonic_markers": 0
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "studio_mentioned": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 5,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 8,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 2
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 9,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 6,
+     "details": {
+      "shared_terms": 20,
+      "orphan_terms": 4
+     }
+    }
+   },
+   "total": 86,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Genre Tagging: 6/10",
+    "Cross-Track Consistency: 6/10"
+   ]
+  },
+  {
+   "track_id": "pay-yourself-greg-porn",
+   "title": "Pay Yourself",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 6,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 2
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 8,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 6,
+      "subgenres_in_prose": 1
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 9
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 6,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 246,
+      "sentences": 10,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 2
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 6,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 0
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 4,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 4,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 20,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 88,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 6/10",
+    "Comparison/Lineage: 6/10",
+    "Freshness: 4/10"
+   ]
+  },
+  {
+   "track_id": "on-edge-greg-porn",
+   "title": "On Edge",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 6,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 12
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 12,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 251,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 3,
+     "details": {
+      "producer_credited": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 10,
+     "details": {
+      "artist_mentions": 4,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 9,
+     "details": {
+      "shared_terms": 30,
+      "orphan_terms": 1
+     }
+    }
+   },
+   "total": 90,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Production Detail: 3/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "unholy-hunter-greg-porn",
+   "title": "Unholy Hunter",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 0,
+     "details": {
+      "fields_present": 0,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 5,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 13
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 8,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 284,
+      "sentences": 11,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 2,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 6,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 0
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 4,
+     "details": {
+      "artist_mentions": 5,
+      "has_spotify": false
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 1,
+     "details": {
+      "has_release_date": false,
+      "context_markers": 1
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 4,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 27,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 69,
+   "pass": false,
+   "gaps": [
+    "Audio Attributes Completeness: 0/10",
+    "Production Detail: 2/10",
+    "Comparison/Lineage: 6/10",
+    "Entity Clarity: 4/10",
+    "Freshness: 1/10",
+    "Structural Completeness: 4/10"
+   ]
+  },
+  {
+   "track_id": "2k23-corner-fleekz",
+   "title": "2K23 Corner$",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 4,
+     "details": {
+      "fields_present": 4,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 7,
+     "details": {
+      "genres_in_record": [
+       "rap",
+       "hip hop",
+       "underground"
+      ],
+      "vocab_genres_in_prose": 4,
+      "subgenres_in_prose": 0
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 7,
+     "details": {
+      "moods_in_record": 0,
+      "vocab_moods_in_prose": 7
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 7,
+     "details": {
+      "instruments_found": 6,
+      "presence_markers": 1
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 9,
+     "details": {
+      "words": 224,
+      "sentences": 8,
+      "sonic_markers": 2
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 2,
+     "details": {
+      "producer_credited": false,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 6,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 0
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 10,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": true
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 6,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 0
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 8,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": false
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 17,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 86,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 4/10",
+    "Production Detail: 2/10",
+    "Comparison/Lineage: 6/10",
+    "Freshness: 6/10"
+   ]
+  },
+  {
+   "track_id": "that-boy-hi-hat-cyberpunk-2027",
+   "title": "Cyberpunk 2027",
+   "categories": {
+    "audio_attributes": {
+     "label": "Audio Attributes Completeness",
+     "score": 1,
+     "details": {
+      "fields_present": 1,
+      "prose_bonus": 0
+     }
+    },
+    "genre_tagging": {
+     "label": "Genre Tagging",
+     "score": 9,
+     "details": {
+      "genres_in_record": [
+       "alternative rap",
+       "alt rap",
+       "post trap",
+       "rap"
+      ],
+      "vocab_genres_in_prose": 7,
+      "subgenres_in_prose": 2
+     }
+    },
+    "mood_tagging": {
+     "label": "Mood Tagging",
+     "score": 8,
+     "details": {
+      "moods_in_record": 5,
+      "vocab_moods_in_prose": 6
+     }
+    },
+    "instrumentation": {
+     "label": "Instrumentation",
+     "score": 8,
+     "details": {
+      "instruments_found": 9,
+      "presence_markers": 2
+     }
+    },
+    "vocab_consistency": {
+     "label": "Vocabulary Consistency",
+     "score": 10,
+     "details": {
+      "deviations": [],
+      "clean": true
+     }
+    },
+    "prose_quality": {
+     "label": "Descriptive Prose Quality",
+     "score": 8,
+     "details": {
+      "words": 247,
+      "sentences": 9,
+      "sonic_markers": 1
+     }
+    },
+    "production_detail": {
+     "label": "Production Detail",
+     "score": 7,
+     "details": {
+      "producer_credited": true,
+      "studio_mentioned": true,
+      "technical_markers": 0
+     }
+    },
+    "comparison_lineage": {
+     "label": "Comparison/Lineage",
+     "score": 7,
+     "details": {
+      "comparison_hits": 4,
+      "scene_hits": 1
+     }
+    },
+    "entity_clarity": {
+     "label": "Entity Clarity",
+     "score": 7,
+     "details": {
+      "artist_mentions": 3,
+      "has_spotify": false
+     }
+    },
+    "freshness": {
+     "label": "Freshness",
+     "score": 7,
+     "details": {
+      "has_release_date": true,
+      "context_markers": 1
+     }
+    },
+    "structural": {
+     "label": "Structural Completeness",
+     "score": 10,
+     "details": {
+      "name": true,
+      "byArtist": true,
+      "description": true,
+      "genre": true,
+      "keywords": true
+     }
+    },
+    "cross_track": {
+     "label": "Cross-Track Consistency",
+     "score": 10,
+     "details": {
+      "shared_terms": 21,
+      "orphan_terms": 0
+     }
+    }
+   },
+   "total": 92,
+   "pass": true,
+   "gaps": [
+    "Audio Attributes Completeness: 1/10"
+   ]
+  }
+ ]
+}
