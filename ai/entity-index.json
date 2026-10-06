@@ -1,261 +1,268 @@
 {
- "@context": "https://schema.org",
- "@id": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
- "@type": "Dataset",
- "name": "CWI entity index",
- "version": "2.0.0",
- "dateCreated": "2026-10-01",
- "dateModified": "2026-10-02",
- "publisher": {
-  "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
- },
- "entities": [
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat",
-   "@type": "MusicGroup",
-   "name": "That Boy Hi Hat",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat"
+  "@context": "https://schema.org",
+  "@id": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
+  "@type": "Dataset",
+  "name": "CWI entity index",
+  "version": "2.0.0",
+  "dateCreated": "2026-10-01",
+  "dateModified": "2026-10-02",
+  "publisher": {
+    "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
   },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01",
-   "@type": "Dataset",
-   "name": "CWI lineage registry (2026-10-01)",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc",
-   "@type": "Organization",
-   "name": "Cumulative Web Inc",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/777-neon-nights",
-   "@type": "VideoGame",
-   "name": "777 Neon Nights",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/777-neon-nights"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/a2a-relay",
-   "@type": "SoftwareApplication",
-   "name": "a2a-relay",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/a2a-relay"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/agent-a-thon",
-   "@type": "Event",
-   "name": "agent-a-thon",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/agent-a-thon"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/barrel-king",
-   "@type": "VideoGame",
-   "name": "Barrel King",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/barrel-king"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/codex-the-logo-effect",
-   "@type": "Book",
-   "name": "CODEX — The Logo Effect",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/codex-the-logo-effect"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cover-pieces",
-   "@type": "VideoGame",
-   "name": "Cover Pieces",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cover-pieces"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/crown-climb",
-   "@type": "VideoGame",
-   "name": "Crown Climb",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/crown-climb"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-1-walkman-signal-boy",
-   "@type": "Product",
-   "name": "CWI-1 Walkman / Signal Boy",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-1-walkman-signal-boy"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-agent-memory",
-   "@type": "SoftwareApplication",
-   "name": "cwi-agent-memory",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-agent-memory"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-public",
-   "@type": "SoftwareApplication",
-   "name": "cwi-mcp-public",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-public"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-server",
-   "@type": "SoftwareApplication",
-   "name": "cwi-mcp-server",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-server"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-store",
-   "@type": "Store",
-   "name": "cwi-store",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-store"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-world-desktop",
-   "@type": "SoftwareApplication",
-   "name": "CWI World Desktop",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-world-desktop"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/delibra",
-   "@type": "SoftwareApplication",
-   "name": "delibra",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/delibra"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/fredrock-writers-room",
-   "@type": "WebApplication",
-   "name": "FredRock Writers Room",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/fredrock-writers-room"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/full-catalog-slots",
-   "@type": "VideoGame",
-   "name": "Full-Catalog Slots",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/full-catalog-slots"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/gear-ledger",
-   "@type": "SoftwareApplication",
-   "name": "gear-ledger",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/gear-ledger"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/kingcode-lens",
-   "@type": "WebApplication",
-   "name": "KingCode Lens",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/kingcode-lens"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/legacy-story-collection-platform",
-   "@type": "WebApplication",
-   "name": "Legacy Story Collection Platform",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/legacy-story-collection-platform"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/meta-global-ai-developer-hackathon",
-   "@type": "Event",
-   "name": "meta-global-ai-developer-hackathon",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/meta-global-ai-developer-hackathon"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/project-nervous-system",
-   "@type": "SoftwareApplication",
-   "name": "project-nervous-system",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/project-nervous-system"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/pull-distribution-stats",
-   "@type": "SoftwareApplication",
-   "name": "pull-distribution-stats",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/pull-distribution-stats"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/radio-365",
-   "@type": "RadioStation",
-   "name": "radio-365",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/radio-365"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/results-dashboard",
-   "@type": "WebApplication",
-   "name": "results-dashboard",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/results-dashboard"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/sanqa",
-   "@type": "SoftwareApplication",
-   "name": "SANQA",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/sanqa"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/skill-sentinel",
-   "@type": "SoftwareApplication",
-   "name": "skill-sentinel",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/skill-sentinel"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/street-kings",
-   "@type": "VideoGame",
-   "name": "Street Kings",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/street-kings"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/tag-city-3d",
-   "@type": "VideoGame",
-   "name": "TAG CITY 3D",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/tag-city-3d"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/the-edit-storefront",
-   "@type": "Store",
-   "name": "the-edit-storefront",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/the-edit-storefront"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/trust-verdict",
-   "@type": "SoftwareApplication",
-   "name": "trust-verdict",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/trust-verdict"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/weekly-session-podcast-engine",
-   "@type": "SoftwareApplication",
-   "name": "Weekly Session Podcast Engine",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/weekly-session-podcast-engine"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/white-label-slot-machine",
-   "@type": "VideoGame",
-   "name": "White-Label Slot Machine",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/white-label-slot-machine"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/word-signal",
-   "@type": "VideoGame",
-   "name": "Word Signal",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/word-signal"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cena-br",
-   "@type": "WebApplication",
-   "name": "cena-br",
-   "url": "https://cumulativeweb.com/cena/"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/page/cena-hub",
-   "@type": "WebPage",
-   "name": "cena-hub",
-   "url": "https://cumulativeweb.com/cena/"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/page/cena-br-al-maceio",
-   "@type": "WebPage",
-   "name": "cena-br-al-maceio",
-   "url": "https://cumulativeweb.com/cena/br/al/maceio/"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/page/cena-metodologia",
-   "@type": "WebPage",
-   "name": "cena-metodologia",
-   "url": "https://cumulativeweb.com/cena/metodologia/"
-  },
-  {
-   "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/cena-research-2026-10-02",
-   "@type": "Dataset",
-   "name": "cena-research-2026-10-02",
-   "url": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/cena-research-2026-10-02"
-  }
- ],
- "count": 41
+  "entities": [
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat",
+      "@type": "MusicGroup",
+      "name": "That Boy Hi Hat",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/artist/that-boy-hi-hat"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01",
+      "@type": "Dataset",
+      "name": "CWI lineage registry (2026-10-01)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/lineage-registry-2026-10-01"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc",
+      "@type": "Organization",
+      "name": "Cumulative Web Inc",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/organization/cumulative-web-inc"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/777-neon-nights",
+      "@type": "VideoGame",
+      "name": "777 Neon Nights",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/777-neon-nights"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/a2a-relay",
+      "@type": "SoftwareApplication",
+      "name": "a2a-relay",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/a2a-relay"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/agent-a-thon",
+      "@type": "Event",
+      "name": "agent-a-thon",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/agent-a-thon"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/barrel-king",
+      "@type": "VideoGame",
+      "name": "Barrel King",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/barrel-king"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/codex-the-logo-effect",
+      "@type": "Book",
+      "name": "CODEX — The Logo Effect",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/codex-the-logo-effect"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cover-pieces",
+      "@type": "VideoGame",
+      "name": "Cover Pieces",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cover-pieces"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/crown-climb",
+      "@type": "VideoGame",
+      "name": "Crown Climb",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/crown-climb"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-1-walkman-signal-boy",
+      "@type": "Product",
+      "name": "CWI-1 Walkman / Signal Boy",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-1-walkman-signal-boy",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-1-walkman-signal-boy"
+      }
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-agent-memory",
+      "@type": "SoftwareApplication",
+      "name": "cwi-agent-memory",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-agent-memory"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-public",
+      "@type": "SoftwareApplication",
+      "name": "cwi-mcp-public",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-public"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-server",
+      "@type": "SoftwareApplication",
+      "name": "cwi-mcp-server",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-mcp-server"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-store",
+      "@type": "Store",
+      "name": "cwi-store",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-store"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-world-desktop",
+      "@type": "SoftwareApplication",
+      "name": "CWI World Desktop",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/cwi-world-desktop"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/delibra",
+      "@type": "SoftwareApplication",
+      "name": "delibra",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/delibra"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/fredrock-writers-room",
+      "@type": "WebApplication",
+      "name": "FredRock Writers Room",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/fredrock-writers-room"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/full-catalog-slots",
+      "@type": "VideoGame",
+      "name": "Full-Catalog Slots",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/full-catalog-slots"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/gear-ledger",
+      "@type": "SoftwareApplication",
+      "name": "gear-ledger",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/gear-ledger"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/kingcode-lens",
+      "@type": "WebApplication",
+      "name": "KingCode Lens",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/kingcode-lens"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/legacy-story-collection-platform",
+      "@type": "WebApplication",
+      "name": "Legacy Story Collection Platform",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/legacy-story-collection-platform"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/meta-global-ai-developer-hackathon",
+      "@type": "Event",
+      "name": "meta-global-ai-developer-hackathon",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/meta-global-ai-developer-hackathon"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/project-nervous-system",
+      "@type": "SoftwareApplication",
+      "name": "project-nervous-system",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/project-nervous-system"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/pull-distribution-stats",
+      "@type": "SoftwareApplication",
+      "name": "pull-distribution-stats",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/pull-distribution-stats"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/radio-365",
+      "@type": "RadioStation",
+      "name": "radio-365",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/radio-365"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/results-dashboard",
+      "@type": "WebApplication",
+      "name": "results-dashboard",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/results-dashboard"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/sanqa",
+      "@type": "SoftwareApplication",
+      "name": "SANQA",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/sanqa"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/skill-sentinel",
+      "@type": "SoftwareApplication",
+      "name": "skill-sentinel",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/skill-sentinel"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/street-kings",
+      "@type": "VideoGame",
+      "name": "Street Kings",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/street-kings"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/tag-city-3d",
+      "@type": "VideoGame",
+      "name": "TAG CITY 3D",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/tag-city-3d"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/the-edit-storefront",
+      "@type": "Store",
+      "name": "the-edit-storefront",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/the-edit-storefront"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/trust-verdict",
+      "@type": "SoftwareApplication",
+      "name": "trust-verdict",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/trust-verdict"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/weekly-session-podcast-engine",
+      "@type": "SoftwareApplication",
+      "name": "Weekly Session Podcast Engine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/weekly-session-podcast-engine"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/white-label-slot-machine",
+      "@type": "VideoGame",
+      "name": "White-Label Slot Machine",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/white-label-slot-machine"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/word-signal",
+      "@type": "VideoGame",
+      "name": "Word Signal",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/product/word-signal"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/product/cena-br",
+      "@type": "WebApplication",
+      "name": "cena-br",
+      "url": "https://cumulativeweb.com/cena/"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/page/cena-hub",
+      "@type": "WebPage",
+      "name": "cena-hub",
+      "url": "https://cumulativeweb.com/cena/"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/page/cena-br-al-maceio",
+      "@type": "WebPage",
+      "name": "cena-br-al-maceio",
+      "url": "https://cumulativeweb.com/cena/br/al/maceio/"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/page/cena-metodologia",
+      "@type": "WebPage",
+      "name": "cena-metodologia",
+      "url": "https://cumulativeweb.com/cena/metodologia/"
+    },
+    {
+      "@id": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/cena-research-2026-10-02",
+      "@type": "Dataset",
+      "name": "cena-research-2026-10-02",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/id/dataset/cena-research-2026-10-02"
+    }
+  ],
+  "count": 41
 }
