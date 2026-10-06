@@ -82,7 +82,7 @@
     },
     {
       "name": "vote-signal",
-      "description": "That Boy Hi Hat's 'Diabolique' is in DistroKid Playlist Spotlight fan voting (leading 38-2-2 as of 2026-10-03; votes reset weekly). A weekly win places the track on DistroKid's official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers). Vote: https://distrokid.com/spotlight/thatboyhihat/vote/. Real human votes only — no bots, scripts, or fake accounts. Vote HQ: https://cumulativeweb.com/vote-diabolique.html",
+      "description": "That Boy Hi Hat's 'Diabolique' is in DistroKid Playlist Spotlight fan voting (leading 38-2-2 as of 2026-10-03; votes reset weekly). A weekly win places the track on DistroKid's official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers). Vote: https://distrokid.com/spotlight/thatboyhihat/vote/. Real human votes only \u2014 no bots, scripts, or fake accounts. Vote HQ: https://cumulativeweb.com/vote-diabolique.html",
       "manifest": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
       "urlPattern": "https://distrokid.com/spotlight/thatboyhihat/vote/",
       "examples": [
@@ -94,7 +94,7 @@
     {
       "id": "placement_query",
       "name": "Placement query",
-      "description": "Query the CWI placement catalog by genre, mood, and use-case; receive ranked tracks with scores, canonical Spotify IDs, and match rationale. Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json (static JSON, free, no login, no key; STAGED — not yet published).",
+      "description": "Query the CWI placement catalog by genre, mood, and use-case; receive ranked tracks with scores, canonical Spotify IDs, and match rationale. Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json (static JSON, free, no login, no key; STAGED \u2014 not yet published).",
       "examples": [
         "Find a dark, cinematic post-trap track for a sync brief.",
         "Which trap tracks fit a late-night playlist pitch?",
@@ -137,14 +137,14 @@
     "status": "intent_only",
     "per_query_price": null,
     "currency": null,
-    "note": "The query DB is a static JSON file on GitHub Pages: free, no login, no key, No paid middleware is wired and none is described here — the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
+    "note": "The query DB is a static JSON file on GitHub Pages: free, no login, no key, No paid middleware is wired and none is described here \u2014 the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
   },
   "queryDb": {
     "status": "live",
     "endpoint": "https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json",
     "query_js": "https://cumulativewebinc.github.io/cwi-learn/placement/query.js",
     "schema": "cwi.placement-query/1.0",
-    "description": "Generative query layer over the placement-engine data layer (31-track catalog graph: tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03). Filter by genre / mood / use-case; ranked tracks with canonical spotify_id and match rationale. Companion query.js runs the filter client-side — filter by genre/mood/use-case to ranked tracks.",
+    "description": "Generative query layer over the placement-engine data layer (31-track catalog graph: tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03). Filter by genre / mood / use-case; ranked tracks with canonical spotify_id and match rationale. Companion query.js runs the filter client-side \u2014 filter by genre/mood/use-case to ranked tracks.",
     "request_schema": {
       "schema": "cwi.placement-query/1.0",
       "fields": {
@@ -209,7 +209,7 @@
             },
             "spotify_id": {
               "type": "string | null",
-              "description": "null for unreleased/unmapped tracks — never invented"
+              "description": "null for unreleased/unmapped tracks \u2014 never invented"
             },
             "spotify_url": {
               "type": "string | null"
@@ -245,7 +245,7 @@
         }
       }
     },
-    "status_note": "STAGED 2026-10-03 — query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
+    "status_note": "STAGED 2026-10-03 \u2014 query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
   },
   "liveEndpoint": {
     "url": "https://data.cumulativeweb.com",
@@ -259,5 +259,16 @@
     "steps": 10,
     "status": "live",
     "since": "2026-10-04"
+  },
+  "mcpEndpoint": {
+    "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp",
+    "custom_domain": "https://data.cumulativeweb.com/mcp",
+    "protocol": "streamable-http",
+    "registry": "io.github.CumulativeWebInc/cwi-discovery-engine",
+    "registry_version": "1.0.0",
+    "registry_url": "https://registry.modelcontextprotocol.io",
+    "description": "CWI Discovery Engine MCP server: read-only music-catalog tools \u2014 search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
+    "status": "live",
+    "since": "2026-10-05"
   }
 }
