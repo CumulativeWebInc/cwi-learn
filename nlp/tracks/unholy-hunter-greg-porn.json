@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Unholy Hunter",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "Greg Porn"
+  },
+  "description": "\"Unholy Hunter\" is Greg Porn at his darkest \u2014 and right now it exists only as a two-minute reference statement, Ref 1.0, awaiting its final mix and artist clearance. What the reference already makes clear: this is dystopian, aggressive underground hip hop, a dangerous record whose title does its own forecasting. Greg Porn stalks the beat with predatory confidence, and somewhere in the run there is a shout-out to Black Lansky \u2014 a reminder that the CWI machine is in the room even when the track is at its most feral. The raw reference form only sharpens the effect: no polish to blunt the edges, just nocturnal menace and a trap-leaning, bass-heavy low end that feels like pursuit. When the final mix lands, \"Unholy Hunter\" will sit as the darkest chapter in Greg Porn's catalog run \u2014 the companion piece to \"Pay Yourself\"'s discipline and \"On Edge\"'s tension. For now, it is a two-minute warning shot from an artist hunting at full throttle.",
+  "genre": [
+    "rap",
+    "hip hop",
+    "underground"
+  ],
+  "keywords": ""
+}

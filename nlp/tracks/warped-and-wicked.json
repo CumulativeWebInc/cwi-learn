@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Warped & Wicked",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Warped & Wicked is one of the defining statements of That Boy Hi Hat's alternative rap catalog \u2014 a track whose title was locked by Black himself on September 17, 2026, correcting the early 'Worked And Wicked' filename into its canonical form. That editorial care tells you something about how central this record is to the artist's canon: the identical recording runs on both albums, unchanged, a fixed point in the catalog. At a measured 85 BPM, the track moves with a heavy, deliberate sway rather than a sprint, built on 808-driven low end that lands with real physical weight beneath a synth-driven instrumental that bends and smears at the edges, like signal distortion pulled into melody. The sound is nocturnal and dystopian, thick with an urban decay atmosphere that wraps around the vocal instead of merely supporting it. That Boy Hi Hat delivers in a cadence that feels half-hypnotic, half-dangerous, letting the beat's negative space do as much storytelling as the bars. It sits squarely in post trap territory while carrying the underground hip hop fingerprint that runs through his best work \u2014 raw enough to feel hand-cut, polished enough to compete anywhere. Warped & Wicked is the sound of That Boy Hi Hat at his most cinematic: a dark, late-night descent that rewards repeat listens, the kind of record that belongs on the same shelf as the genre's heavyweight mood pieces.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC"
+  ]
+}

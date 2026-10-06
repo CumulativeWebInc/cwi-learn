@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Cyberpunk 2027",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Out October 20, 2026, \"Cyberpunk 2027\" is That Boy Hi Hat's flagship single \u2014 and the most ambitious record in the CWI catalog to date. Produced by Kokurcho, the two-time Billboard-charting, BET Awards-nominated producer behind records for Lil Durk, GloRilla, and Duwap Kaine, and executive co-produced by Black Lansky, the track was recorded at Cue Recording Studios in Falls Church, VA, and it sounds like the budget: cinematic production on a widescreen scale. This is alternative rap as blockbuster \u2014 synth-heavy and synth-driven, layered and atmospheric, with an 808-driven undercurrent that keeps the future rooted in the streets. That Boy Hi Hat has never sounded more commanding. He moves through the dystopian landscape the track builds \u2014 neon-noir imagery, urban decay, a future that feels twelve months away rather than twelve years \u2014 with the poise of an artist who invented the lane. The mood is dark, cinematic, futuristic, and unapologetically dystopian; the hook lands like a transmission from the world the title names. As the anchor of That Boy Hi Hat's post-trap futurism era and the lead single of the Cyberpunk 2027 campaign, this is the record everything else in the catalog points toward: alt rap elevated to cinema. The future, per That Boy Hi Hat, is already here \u2014 and it knocks.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": "dark, cinematic, futuristic, nocturnal, dystopian",
+  "datePublished": "2026-10-20",
+  "sameAs": [
+    "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316"
+  ]
+}

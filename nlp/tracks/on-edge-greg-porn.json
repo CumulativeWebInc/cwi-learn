@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "On Edge",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "Greg Porn"
+  },
+  "description": "\"On Edge\" finds Greg Porn leaning into tension \u2014 a dangerous, late-night underground hip hop record that lives up to its title. DistroKid-verified under Cumulative Web Inc, the track trades anthem-sized hooks for something more wire-taut: atmospheric production, crisp hi-hats, and a vocal performance that sounds one bar away from snapping. Greg Porn raps with an introspective edge here, turning street narrative inward \u2014 the paranoia and pressure that come with ambition, rendered without flinching. The mix is lean and menacing, an 808-driven low end pressing against a sparse, nocturnal arrangement, with trap drums that hit like a pulse running too fast. Within Greg Porn's CWI run \u2014 alongside \"Pay Yourself\" and the unreleased \"Unholy Hunter\" \u2014 \"On Edge\" is the uneasy middle chapter: aggressive but controlled, hypnotic but never comfortable. It is the sound of an artist who knows exactly how close to the line he is standing, and keeps walking anyway.",
+  "genre": [
+    "rap",
+    "hip hop",
+    "underground"
+  ],
+  "keywords": ""
+}

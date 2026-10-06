@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Golden Diamond",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Golden Diamond is That Boy Hi Hat operating at his most triumphant \u2014 a post-trap futurism anthem that treats success like it was always inevitable. The in-house BPM analysis puts it at 88 BPM with 0.89 confidence, the strongest reading in the twelve-track batch, and that midtempo strut is exactly the point: nothing here rushes. The instrumental moves like a coronation procession, all synth-driven lift and hard-hitting drums, with a widescreen sound that pushes the vocal to the front of the mix and lets the melody ring. Flagged in the September 2026 analysis notes as a sync-ready signal, the record makes that assessment easy to hear \u2014 this is a track built for placement, with an anthemic chorus structure and a cinematic production that would sit comfortably under a film's turning-point montage. As a NO SKIPS EP track eligible for the November Discovery push, Golden Diamond carries real catalog weight for That Boy Hi Hat, and it earns it. The mood is triumphant without being naive, hypnotic in its repetition, carrying a self-belief that runs through the alternative rap tradition of victory-lap records while keeping the trap low end that anchors his sound. It sits beside the biggest, shiniest moments of his catalog \u2014 proof that the underground edge and the big-room ambition live in the same room.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Neon Nights Pt. 777",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "\"Neon Nights Pt. 777\" sounds like the city That Boy Hi Hat built his whole aesthetic inside: rain-slicked streets, flickering signs, and a sky that never goes fully dark. Marked as sync-ready in the catalog's 2026 analysis, this is post-trap futurism in its most cinematic form \u2014 a 91 BPM slow-burn where synth-driven neon textures stretch across a bass-heavy groove, and atmospheric pads give the track a widescreen, dystopian-future glow. The drums hit with controlled menace, leaving long open spaces for That Boy Hi Hat to float through. His delivery here is hypnotic and nocturnal, half-sung melodies drifting over the low end like smoke \u2014 late-night reflection rendered as sound. The mood is futuristic and cinematic at once: danger and seduction in the same frame, the kind of record that scores a night drive through a city that doesn't exist yet. Energy runs high throughout, but it's a contained intensity \u2014 anthemic without ever breaking the spell. In the catalog, \"Neon Nights Pt. 777\" is the clearest neon-noir statement That Boy Hi Hat has made, the track where his post trap sound and his dystopian visual imagination lock together completely.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Shaka Zulu",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Named for the legendary warrior king, \"Shaka Zulu\" is That Boy Hi Hat in conqueror mode \u2014 a high-energy underground record built for front-to-back intensity. The production drives forward with a martial, mid-tempo post trap stomp: hard-hitting drums, 808-driven low end, and synth-heavy stabs that land like a war drum answered by artillery. It's aggressive and anthemic by design, with an energy level that pins the needle \u2014 every bar delivered like a charge. That Boy Hi Hat matches the beat's confrontational posture bar for bar, his flow defiant and triumphant, leaning into the track's core themes of ambition, self-belief, and triumph over adversity. There is no melancholy here; this is the sound of someone taking ground and daring you to dispute it. The vocal sits forward and crisp in the mix, with ad-libs stacked thick for a widescreen, almost cinematic sense of scale. In the catalog, \"Shaka Zulu\" stands as one of the purest expressions of the artist's underground hip hop edge \u2014 a November Discovery-eligible track that plays like a coronation speech delivered mid-battle. That Boy Hi Hat doesn't just borrow the name; he earns the comparison in every bar.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop",
+    "underground"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw"
+  ]
+}

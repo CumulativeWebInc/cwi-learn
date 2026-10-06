@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Zooted Zone",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "If \"Diabolique\" is the after-hours confession, \"Zooted Zone\" is the party before it \u2014 the breakout record where That Boy Hi Hat's sound turns fully feral. At a blistering 163 BPM in C-sharp minor, the Kokurcho and Black Lansky production is pure post trap adrenaline: skittering crisp hi-hats at double time, hard-hitting drums that hit like a kicked door, and a synth-driven low end that rolls in massive, hypnotic waves. The energy is maximum \u2014 aggressive, hype, unapologetically anthemic. That Boy Hi Hat rides the beat with a locked-in, almost chant-like flow, stacking bars about hedonism, trap-house street narrative, and living large \u2014 \"in the Zootazone,\" where angels and demons negotiate over the same bottle. His delivery alternates between a snarling underground bite and a melodic, late-night drift that keeps the whole thing hypnotic rather than merely loud. Explicit and unfiltered, the record captures the bravado of a night that refuses to end. In the catalog, \"Zooted Zone\" is the hinge: writers That Boy Hi Hat and Black Lansky found the formula here \u2014 street narrative over futuristic production \u2014 that the rest of the post trap catalog keeps extending. It sounds like 2 AM with the bass turned up and the exits sealed shut.",
+  "genre": [
+    "post trap",
+    "trap",
+    "rap",
+    "underground",
+    "hip hop"
+  ],
+  "keywords": "hype, hypnotic, aggressive, underground, late-night, anthemic",
+  "sameAs": [
+    "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW"
+  ],
+  "producer": {
+    "@type": "Person",
+    "description": "See notes"
+  }
+}

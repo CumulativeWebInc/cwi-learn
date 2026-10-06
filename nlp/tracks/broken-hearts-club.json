@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Broken Hearts Club",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "'Broken Hearts Club' is one of the loudest things That Boy Hi Hat has ever committed to tape \u2014 the mix runs at -9.9 dB mean, the hottest in its vault batch \u2014 and the volume is the point. This is a heartbreak record that refuses to whisper: at 110 BPM it moves with the forward pressure of a club track, but the writing is pure vulnerability, a melancholic anthem for anyone who's had to rebuild in public. It belongs to the November NO SKIPS EP, a five-track run alongside 'Golden Diamond,' 'Doves & Diamonds,' 'Zooted Zone,' and 'Shaka Zulu' that earned November Discovery Mode eligibility \u2014 a lane designed for records that convert casual listeners into believers. As of early October 2026 it had yet to land on Spotify, which makes its VEVO video the primary window: a visual cut uploaded in September 2026 that carries the track's defiant, anthemic energy straight to camera. That Boy Hi Hat has written sadder songs and harder songs, but few that commit to both at once \u2014 the polished mix keeps the loudness from turning ragged, and the hook lands like a promise rather than a complaint. 'Broken Hearts Club' is the sound of turning heartbreak into momentum: bass-heavy, unapologetic, and built for rooms full of people who've been there.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": ""
+}

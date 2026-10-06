@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Flamerz",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "\"Flamerz\" is pure combustion \u2014 one of the rawest cuts from The Alternative Theory, and a track that distills That Boy Hi Hat's post trap formula to its most aggressive essence. The production is synth-driven and bass-heavy, built on hard-hitting drums and razor-edged hi-hats that give the track its scorched, underground texture. From the first bar it runs hot: hypnotic, hype, and late-night in the most dangerous sense. That Boy Hi Hat attacks the beat with a relentless, punchy cadence \u2014 part street narrative, part battle cry \u2014 riding the low end with the confidence of an artist who knows exactly where the record's firepower lives. The explicit content is unfiltered but purposeful, feeding the track's larger theme of ambition burning off everything that isn't real. In the mix, his voice is upfront and layered, ad-libs crackling around the lead vocal like sparks, which keeps the whole thing feeling live and volatile rather than polished flat. As a cut from the 2025 album The Alternative Theory, \"Flamerz\" sits at the center of That Boy Hi Hat's alternative rap identity: dark, defiant, and built for rooms where the bass does the talking.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "hip hop"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0"
+  ]
+}

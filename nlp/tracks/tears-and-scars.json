@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Tears and Scars",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Tears and Scars is That Boy Hi Hat at his most confessional, and the catalog treats it accordingly: the identical recording appears on both albums, preserved unchanged, as if the track is too foundational to touch. The title tells you the thematic ground \u2014 loss, loyalty, the cost of the road \u2014 and the performance backs it up. The sonic frame is late-night reflection rendered in sound: an atmospheric, synth-driven bed with a bass-heavy undertow that moves slowly enough to let every line land, while the vocal delivery stays introspective rather than performative, vulnerable without tipping into sentimentality. The mix is polished enough to keep the emotion legible but leaves the grain of the voice intact, and that rawness is the point \u2014 this is underground hip hop as diary, alternative rap as confession booth. The mood is melancholic in the truest sense: not sadness performed for effect, but the sound of someone who has been through it and is documenting the evidence. In the catalog it sits beside Rainbows And Roses as the other half of the emotional ledger, the record you reach for when the triumph anthems feel too far away. Tears and Scars is That Boy Hi Hat proving that the hardest thing to do in post trap is not go harder \u2014 it is go honest.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk"
+  ]
+}

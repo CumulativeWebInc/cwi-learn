@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Spirits n Shadows",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Spirits n Shadows is the outlier of the batch and That Boy Hi Hat knows it. The in-house tempo estimate lands at 157 BPM, a high-velocity double-time read that makes this the fastest-feeling record in his catalog by a wide margin, while the identical recording appears on both albums \u2014 a deliberate choice to keep the most volatile cut in the catalog within reach wherever you enter his work. The sonic texture is all tension: crisp hi-hats rattling at a clip that feels almost airborne, bass-heavy low end that pulses rather than booms, and an atmospheric layer of synths that gives the track its nocturnal, dystopian frame. It is aggressive without being chaotic, dark in the way a city street at 3 a.m. is dark \u2014 the danger is ambient, not theatrical. That Boy Hi Hat rides the double-time beat with a controlled urgency that never spills over, and the effect is hypnotic rather than exhausting. In terms of scene, this sits deep in underground hip hop territory, the kind of alternative rap record that announces an artist's range: most rappers slow down to be menacing; here the menace comes from speed. Spirits n Shadows is That Boy Hi Hat proving he can outrun the beat and still make it feel like a haunting, and it stands as one of the most distinctive tempo choices anywhere in his discography.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6"
+  ]
+}

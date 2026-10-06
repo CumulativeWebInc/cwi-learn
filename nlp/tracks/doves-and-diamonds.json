@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Doves & Diamonds",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "\"Doves & Diamonds\" finds That Boy Hi Hat trading the trap-house shadows for something more elevated \u2014 a late-night anthem about luxury, loyalty, and the cost of getting there. At 85 BPM in D minor, the Kokurcho and Black Lansky production moves with a regal, mid-tempo sway: layered, synth-heavy pads wash over a bass-heavy groove, while crisp hi-hats and hard-hitting drums give the track its street-certified pulse. It is alternative rap at its smoothest and most anthemic \u2014 cinematic production with a widescreen sound that feels like headlights on a highway at 3 AM. That Boy Hi Hat's flow is measured and reflective, half celebration, half memorial: luxury against street narrative, doves against diamonds, triumph over adversity against being haunted by the past. His shout-outs to brotherhood \u2014 \"tears and scars, all my soldiers\" \u2014 land with genuine weight, grounding the hype in something real. Released January 2023, the track is a November Discovery-eligible anchor of the catalog, and it remains one of the clearest demonstrations of That Boy Hi Hat's post trap range: introspective and hype in the same breath, dangerous and seductive without ever losing its reflective center.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+  ],
+  "keywords": "luxury, reflective, smooth, late-night, anthemic, introspective, hype",
+  "datePublished": "2023-01-11",
+  "sameAs": [
+    "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ"
+  ],
+  "producer": {
+    "@type": "Person",
+    "description": "See notes"
+  }
+}

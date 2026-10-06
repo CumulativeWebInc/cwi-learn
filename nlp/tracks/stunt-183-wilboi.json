@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Stunt",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "183 Wilboi"
+  },
+  "description": "\"Stunt\" is 183 Wilboi in pure showmanship mode \u2014 a hype, aggressive trap cut built for the moment before the night peaks. Co-produced by Black Lansky, the record trades the moonlit introspection of \"Full Moon\" for something harder: anthemic energy, hard-hitting drums, and a bass-heavy mix designed to rattle a room. 183 Wilboi attacks the track with defiant swagger, the kind of performance that turns a verse into a declaration. The production keeps it lean and mean \u2014 underground hip hop with the punch of a catalog centerpiece, crisp hi-hats cutting through the low end and a hook engineered for call-and-response. Currently living as a reference recording in the CWI vault rather than a commercial release, \"Stunt\" shows the other half of 183 Wilboi's range: not the thinker in the driver's seat, but the headliner commanding the crowd. For fans tracking the Rock-Rap Night sessions, it is the loudest thing in the room, and a clear signal that 183 Wilboi can carry a stage as easily as a session.",
+  "genre": [
+    "rap",
+    "hip hop"
+  ],
+  "keywords": "",
+  "producer": {
+    "@type": "Person",
+    "description": "See notes"
+  }
+}

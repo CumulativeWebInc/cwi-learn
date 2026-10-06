@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Smokin' Pain",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "'Smokin' Pain' is a deep cut from That Boy Hi Hat's Idol or Icon, the 2021 record that mapped the outer edges of his sound \u2014 and it lives up to the album's wandering spirit. This is underground hip hop in its purest mode: a hazy, late-night groove built around murky low end and drifting keys, with That Boy Hi Hat rapping like he's working through something he can't quite name. The title is doing real work \u2014 the pain here isn't dramatized, it's smothered and slow-burning, the kind you sit with at 3 a.m. Production stays skeletal on purpose: the space between the drums carries the mood, and his flow fills it with introspective, low-register writing that favors atmosphere over acrobatics. There's a melancholic weight to the record that separates it from the more triumphant post trap entries in the catalog; it's one of his most honest-sounding performances, and its underground status suits it \u2014 this isn't a song chasing playlists. It's That Boy Hi Hat at his most nocturnal, letting a song smolder rather than explode. For listeners who came through the bigger singles, 'Smokin' Pain' is the reward for digging: a dark, inward-facing track that proves the alternative rap lane has rooms the singles never enter.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK"
+  ]
+}

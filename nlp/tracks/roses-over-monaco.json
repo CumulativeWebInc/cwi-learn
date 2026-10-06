@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Roses over Monaco",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Closing Idol or Icon (2021), 'Roses over Monaco' is That Boy Hi Hat at his most cinematic \u2014 a finale engineered to feel like one. The title alone sets the scene: luxury against the backdrop of the French Riviera at night, opulence as a survival story rather than a flex. Production leans widescreen, with layered synths and a slow-blooming arrangement that lets each section arrive like a scene change, and his flow follows suit \u2014 measured, unhurried, carrying the weight of late-night reflection. This is post trap rendered as triumph over adversity: the verses acknowledge the climb without dwelling in the wound, and the hook opens up into something genuinely uplifting. In the alternative rap lane, closers do the heaviest emotional lifting \u2014 they're the last word a listener carries \u2014 and That Boy Hi Hat treats the responsibility seriously. 'Roses over Monaco' doesn't just end the album; it reframes everything before it as prologue, the dark streets that made the roses necessary. It's one of the catalog's most composed performances: nothing hurried, nothing wasted. When the last note fades, the record has done what a great closer should \u2014 left you wanting to run the whole journey back.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1"
+  ]
+}

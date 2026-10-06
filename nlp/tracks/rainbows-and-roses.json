@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Rainbows And Roses",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Rainbows And Roses is the emotional pivot point of the catalog \u2014 the track That Boy Hi Hat built for the moments when the bravado drops away. The September 2026 analysis notes flag it as the strongest sync-ready signal in the batch, and the reason is audible within seconds: an in-house key read places it in A major with 0.80 confidence, and the warmth of that major-key center is what makes the melancholic undercurrent hit so hard. At 85 BPM the tempo gives every phrase room to breathe, and the production leans atmospheric and layered, synth-driven rather than percussive-forward, letting the vocal carry the weight of a song about love and loss in equal measure. The mood is introspective and vulnerable, cinematic in the quiet way \u2014 less widescreen explosion, more slow zoom. Released as the pivotal single carrying both the main and instrumental versions, it stands as proof of That Boy Hi Hat's range inside alternative rap: the same artist who rides double-time menace can hold a melancholic melody and make it feel earned. It sits in the catalog like a window left open in a dark room \u2014 the underground hip hop texture is still there in the vocal grain, but the song reaches for something gentler, and lands it.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo"
+  ]
+}

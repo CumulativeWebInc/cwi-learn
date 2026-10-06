@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Ultimate",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Some songs get one release; \"Ultimate\" demanded three. The same recording appears across Post Trap Futurism: The Logo Effect, The Alternative Theory, and its own Ultimate single \u2014 a triple appearance that tells you everything about how central this record is to That Boy Hi Hat's identity. And it earns the confidence: this is post-trap futurism at its most anthemic, a widescreen declaration of self-belief built on hard-hitting drums, synth-heavy low end, and a hook engineered to fill rooms. The production leans cinematic \u2014 layered, atmospheric, bass-heavy \u2014 with That Boy Hi Hat's vocal riding front and center, defiant and triumphant in equal measure. The themes are classic and eternal: triumph over adversity, ambition sharpened into certainty, loyalty to the ones who were there before the spotlight. His flow here is commanding rather than combative, the sound of an artist who stopped asking for permission. Hypnotic in its repetition, hype in its delivery, the record plays like a coronation that never quite ends \u2014 which is exactly why it kept getting re-released. In the catalog, \"Ultimate\" is the thesis statement: the track That Boy Hi Hat returns to when he needs to remind everyone \u2014 including himself \u2014 what the whole project is for.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK"
+  ]
+}

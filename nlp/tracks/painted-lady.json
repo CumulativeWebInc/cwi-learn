@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Painted Lady",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Released as a single in August 2024 and later carried onto The Alternative Theory, \"Painted Lady\" is That Boy Hi Hat at his most seductive and nocturnal \u2014 a late-night alternative rap record about beauty with an edge. The production moves in the low-lit post trap register he does best: synth-driven melodies with a smoky, atmospheric pull, bass-heavy low end, and hard-hitting drums that keep the track's swagger grounded while the top line drifts. It's melancholic and introspective beneath the surface \u2014 a record about desire tangled up with loss, loyalty tested against betrayal, the painted surface hiding something heavier underneath. That Boy Hi Hat's delivery splits the difference between rap and croon, his voice sitting deep in a polished mix, doubled and ad-libbed into something that feels like a conversation he's having with himself at last call. The explicit edge is there but it serves the atmosphere, not the other way around: this is seduction as storytelling. In the catalog, \"Painted Lady\" sits alongside \"Diabolique\" as one of That Boy Hi Hat's definitive nocturnal records \u2014 proof that his alternative rap sound is as comfortable in the dark, quiet rooms as it is in the loud ones.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": "",
+  "datePublished": "2024-08-16",
+  "sameAs": [
+    "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl"
+  ]
+}

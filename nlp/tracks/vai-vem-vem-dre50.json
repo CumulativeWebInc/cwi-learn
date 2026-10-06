@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "vai vem vem",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "Dre50"
+  },
+  "description": "Jamaican artist Dre50 brings cross-Caribbean heat to the CWI catalog with \"vai vem vem,\" a co-production with Black Lansky that released September 30, 2026. The title \u2014 Portuguese for the push and pull of coming and going \u2014 sets the tone for a seductive, hypnotic record built for late-night dancefloors. Dre50 rides the beat with the fluidity of an artist fluent in island rhythm, and the production answers with an 808-driven groove that sits comfortably in the underground hip hop lane, trap drums anchoring the sway. There is a dangerous charm to \"vai vem vem\": seductive on the surface, loaded with street narrative underneath. The polished mix keeps every element crisp \u2014 the percussion, the low end, Dre50's commanding vocal presence. Released under Cumulative Web Inc, it marks Dre50 as one of the roster's most internationally flavored voices, a bridge between Kingston energy and the CWI sound. \"vai vem vem\" does not chase trends; it sets a mood and holds it.",
+  "genre": [],
+  "keywords": "",
+  "datePublished": "2026-09-30",
+  "sameAs": [
+    "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML"
+  ],
+  "producer": {
+    "@type": "Person",
+    "description": "See notes"
+  }
+}

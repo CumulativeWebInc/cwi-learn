@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Toxic Elements",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "First released as the single Toxic Element on November 14, 2023 via Deezer and later carried into the album catalog as Toxic Elements, this is one of the records that defines That Boy Hi Hat's dark-era sound. The identical recording runs across all three release IDs, and the plural shift in the album title feels intentional \u2014 what was a singular toxic element became a whole periodic table of them. Sonically the track is pure neon-noir: synth-driven and bass-heavy, with an atmospheric, layered production that wraps the vocal in a haze and lets the low end do the threatening. The mood is seductive and dangerous in equal measure, hypnotic in its repetition, with a late-night urban decay feel that places it firmly in the underground hip hop tradition of records about betrayal and beautiful poison. That Boy Hi Hat performs it with a controlled cool that makes the toxicity feel chosen rather than suffered \u2014 the narrator is inside the situation, not lecturing from outside it. In alternative rap terms it sits alongside the great toxic-relationship records of the genre, but the post trap DNA keeps it current: crisp hi-hats, 808-driven weight, a mix polished enough for rotation without losing its menace. Toxic Elements is the sound of That Boy Hi Hat at his most magnetic \u2014 a record that pulls you in even as it warns you not to.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "underground"
+  ],
+  "keywords": "",
+  "datePublished": "2023-11-14",
+  "sameAs": [
+    "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa"
+  ]
+}

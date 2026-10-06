@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Flex My Flame",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Released as a single on July 28, 2023 via Deezer, Flex My Flame is one of That Boy Hi Hat's earliest statements of intent \u2014 and its longevity speaks for it. The identical recording runs across all three releases in the catalog, a sign that this is a foundational record the artist keeps returning to. Sonically it is pure post trap confidence: 808-driven low end, hard-hitting drums, and a synth-heavy instrumental that leaves generous room for the vocal to flex in. The mood is late-night and seductive, dangerous in the way charisma always is \u2014 this is a record about self-belief as performance, and That Boy Hi Hat sells every bar like the outcome was never in doubt. The mix is polished without sanding off the edge, giving the track the kind of sheen that made it a natural single choice while keeping the underground hip hop grit in the percussion and the vocal attack. Where it sits in the catalog is telling: this is the bridge between the early alternative rap experiments and the fully formed sound that followed. Flex My Flame belongs in the company of the great swagger records of the genre \u2014 not boast as filler, but boast as craft. For That Boy Hi Hat, it remains a live-wire calling card, and hearing the same master unchanged across three releases only underlines how right the first take was.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap"
+  ],
+  "keywords": "",
+  "datePublished": "2023-07-28",
+  "sameAs": [
+    "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm"
+  ]
+}

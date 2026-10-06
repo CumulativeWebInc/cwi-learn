@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Star",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "King Akeem"
+  },
+  "description": "'Star' is the record that proved King Ahkeem belonged on the marquee. The CWI roster artist broke north of 112,000 plays on this single, and the numbers make sense the moment the hook lands: it's a straight-ahead rap anthem built on self-belief, the kind of track that plays like a coronation. Black co-produced the single \u2014 and counts Ahkeem's catalog among his own \u2014 and that co-production shows in the record's construction: the beat is sturdy and uncluttered, giving King Ahkeem's voice the full frame, while the hook is engineered for maximum carry. This is hip hop in its celebratory register: triumphant without being smug, hype without being frantic. The verses detail the climb with street-narrative specificity; the chorus turns it into something anthemic, a room full of people saying the title back. As of early October 2026, no clean Spotify match had surfaced for the track, which only sharpens its underground hip hop credentials \u2014 'Star' traveled on momentum and word of mouth rather than algorithmic placement. For listeners mapping the wider CWI universe beyond That Boy Hi Hat, 'Star' is the entry point: King Ahkeem's defining statement, and a reminder that ambition, cleanly produced and honestly delivered, still moves numbers on its own.",
+  "genre": [
+    "rap",
+    "hip hop"
+  ],
+  "keywords": "",
+  "producer": {
+    "@type": "Person",
+    "description": "See notes"
+  }
+}

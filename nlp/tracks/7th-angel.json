@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "7th Angel",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "'7th Angel' opens like a transmission from somewhere just above the city \u2014 synth-driven pads bloom into a widescreen sound that feels equal parts cathedral and cockpit. That Boy Hi Hat rides the mid-tempo 85 BPM groove at a measured, unhurried pace, his flow stretching into a near-chant as layers of atmospheric texture stack beneath him: reversed swells, faint choir-like voicings, and a low-end pulse that keeps the ethereal mood anchored to something physical. It is alternative rap rendered as film score \u2014 cinematic in the literal sense, built to play over a slow aerial shot of city lights at dawn. The song's four-minute runtime gives the arrangement room to breathe and re-bloom; the same recording carries both the album and the single, and it earns the dual life, with an uplifting lift in the back half that never tips into saccharine. That Boy Hi Hat has always blurred the line between rap track and soundscape, and '7th Angel' may be his purest statement of that instinct: mystical without being vague, triumphant without being loud. In the catalog it sits apart from the harder post trap cuts, a reminder that the post-trap futurism lane has a ceiling-high sky above it.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+  ],
+  "keywords": "ethereal, mystical, uplifting, cinematic",
+  "sameAs": [
+    "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG"
+  ]
+}

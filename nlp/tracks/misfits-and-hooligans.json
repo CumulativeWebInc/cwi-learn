@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Misfits and Hooligans",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "At five minutes and forty-nine seconds, 'Misfits and Hooligans' is That Boy Hi Hat's longest record on Spotify \u2014 and it earns every second. An Idol or Icon (2021) standout, the track is a sprawling underground hip hop statement built for the outsiders: hard-hitting drums, a bass line that rolls rather than stabs, and a hook designed to be shouted back. That Boy Hi Hat writes the whole thing like a manifesto for the kids who never fit the room, and the length becomes a feature \u2014 verses stack into verses, the beat breathes, and the defiant energy compounds rather than dissipates. There's an anthemic quality to it that the catalog's darker cuts don't chase: this is hype as community-building, the sound of a crowd finding each other. The post trap architecture keeps it modern \u2014 crisp hi-hats, layered low end \u2014 but the spirit is older than that, closer to the raw collectivism of early underground rap crews. For a catalog that leans atmospheric and nocturnal, 'Misfits and Hooligans' is That Boy Hi Hat at his most communal: dangerous in intent, inclusive in invitation. It plays like a set-closer even on record, and it's the clearest evidence that his songwriting scales to ambition when the canvas is wide.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg"
+  ]
+}

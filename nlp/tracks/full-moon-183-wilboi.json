@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Full Moon",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "183 Wilboi"
+  },
+  "description": "There is a particular kind of rap record that only makes sense after midnight, and \"Full Moon\" is 183 Wilboi's entry in that canon. Co-produced by Black Lansky, the track sits at the intersection of trap and underground hip hop, built on an atmospheric, layered bed that lets 183 Wilboi's delivery carry the weight. The production breathes: an 808-driven low end, crisp hi-hats ticking like a clock, and a spacious synth wash that earns the title \u2014 it sounds like driving under a bright moon with the windows down. Mood-wise, \"Full Moon\" is nocturnal and introspective without turning soft; there is a hypnotic pull to the hook that rewards repeat listens. 183 Wilboi raps with the confidence of an artist who knows his lane \u2014 late-night reflection rendered as street narrative, ambition set against the quiet hours. As the pilot record of the Rock-Rap Night session series, it doubles as a statement of intent for the CWI catalog: polished enough for headphones, raw enough for the block. Clean and direct rather than explicit, it plays anywhere the night runs long. In a catalog full of daylight anthems, \"Full Moon\" owns the dark.",
+  "genre": [
+    "rap",
+    "hip hop",
+    "trap"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ"
+  ],
+  "producer": {
+    "@type": "Person",
+    "description": "See notes"
+  }
+}

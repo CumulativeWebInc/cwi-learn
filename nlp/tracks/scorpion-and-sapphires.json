@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Scorpion & Sapphires",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "That Boy Hi Hat"
+  },
+  "description": "Scorpion & Sapphires \u2014 appearing on The Alternative Theory under the variant Scorpions & Sapphires, with the identical recording underneath \u2014 is one of the most evocatively titled records in That Boy Hi Hat's catalog, and the sound lives up to the name. The instrumental is nocturnal and cinematic, synth-driven with a bass-heavy pulse that moves like something gliding across hot pavement: dangerous but elegant, the scorpion in the sapphire light. The mood is seductive and dystopian, a late-night neon-noir vignette that sits comfortably in the post-trap futurism lane \u2014 futuristic in texture, ancient in its predator-and-jewel symbolism. That Boy Hi Hat delivers with a relaxed menace that never raises its voice, and the production supports that restraint: atmospheric layering, a polished mix, hard-hitting drums that knock without breaking the spell. It is the kind of alternative rap record that rewards the headphones \u2014 every texture placed with intention, every silence doing work. In the catalog it belongs beside the darker, more cinematic cuts, the tracks where the underground hip hop edge meets the widescreen ambition. Scorpion & Sapphires is That Boy Hi Hat proving that danger and beauty are the same instrument, and that he knows exactly how to play it.",
+  "genre": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+  ],
+  "keywords": "",
+  "sameAs": [
+    "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "2K23 Corner$",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "Fleekz"
+  },
+  "description": "Released February 7, 2023 as a single, \"2K23 Corner$\" pairs Fleekz with That Boy Hi Hat for a dangerous, aggressive underground hip hop cut straight from the street-narrative playbook. Fleekz sets the tone with hungry, hard-hitting delivery over trap drums and a bass-heavy mix; then That Boy Hi Hat slides in and reminds you why his \"Appears On\" section is worth checking \u2014 a feature verse that treats the corner as both setting and state of mind. The production is lean and menacing: crisp hi-hats, an 808-driven low end, and an atmospheric edge that keeps the record nocturnal without losing its daytime punch. Explicit and unapologetic, \"2K23 Corner$\" is a time capsule of the 2023 underground and a key early link between That Boy Hi Hat and the wider CWI orbit \u2014 the kind of collaboration that foreshadows a catalog. For That Boy Hi Hat completists, it is an essential feature; for Fleekz, it is the calling card.",
+  "genre": [
+    "rap",
+    "hip hop",
+    "underground"
+  ],
+  "keywords": "",
+  "datePublished": "2023-02-07",
+  "sameAs": [
+    "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm"
+  ]
+}
