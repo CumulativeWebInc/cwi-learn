@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian — Every signal. Every rank. Measured.</title>
+<style>
+:root{
+  --meridian-gold:#d9b36c; --meridian-gold-soft:#b9975a;
+  --meridian-bg:#0a0a0a; --meridian-panel:#111214;
+  --meridian-ink:#f2ede3; --meridian-muted:#a8a29a;
+  --meridian-up:#4ade80; --meridian-down:#f87171; --meridian-warn:#fbbf24;
+  --line:#2a2419; --radius:14px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--meridian-bg);color:var(--meridian-ink);
+  font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,monospace}
+.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
+header.top{border-bottom:1px solid var(--line);padding:18px 0;position:sticky;top:0;
+  background:rgba(10,10,10,.95);z-index:50}
+.top-inner{display:flex;align-items:center;gap:16px}
+.logo{width:52px;height:52px;border-radius:12px;object-fit:cover;border:1px solid var(--meridian-gold-soft)}
+.wordmark{font-family:Georgia,serif;font-size:28px;letter-spacing:.08em;color:var(--meridian-gold);margin:0}
+.tagline{font-size:12px;color:var(--meridian-muted);letter-spacing:.14em;text-transform:uppercase;margin:2px 0 0}
+.updated{margin-left:auto;font-size:12px;color:var(--meridian-muted)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:26px 0}
+.card{background:var(--meridian-panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.card .icon{font-size:26px}
+.card .big{font-size:34px;font-weight:700;color:var(--meridian-gold);margin:6px 0 2px}
+.card .label{font-size:12px;color:var(--meridian-muted);text-transform:uppercase;letter-spacing:.1em}
+section{margin:10px 0 34px}
+h2.sec{font-size:20px;color:var(--meridian-gold);border-bottom:1px solid var(--line);padding-bottom:8px;margin:0 0 16px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:var(--meridian-muted);font-weight:600;font-size:12px;text-transform:uppercase;
+  letter-spacing:.08em;padding:10px 12px;border-bottom:1px solid var(--line)}
+td{padding:10px 12px;border-bottom:1px solid #1a1a1a}
+.up{color:var(--meridian-up)} .down{color:var(--meridian-down)} .same{color:var(--meridian-muted)}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:999px;padding:3px 12px;letter-spacing:.06em}
+.b-high{background:rgba(248,113,113,.15);color:var(--meridian-down);border:1px solid var(--meridian-down)}
+.b-med{background:rgba(251,191,36,.12);color:var(--meridian-warn);border:1px solid var(--meridian-warn)}
+.b-low{background:rgba(168,162,154,.12);color:var(--meridian-muted);border:1px solid var(--meridian-muted)}
+.b-a{background:rgba(217,179,108,.15);color:var(--meridian-gold);border:1px solid var(--meridian-gold)}
+.b-b{background:rgba(74,222,128,.1);color:var(--meridian-up);border:1px solid var(--meridian-up)}
+.b-c{background:rgba(251,191,36,.1);color:var(--meridian-warn);border:1px solid var(--meridian-warn)}
+.b-df{background:rgba(248,113,113,.1);color:var(--meridian-down);border:1px solid var(--meridian-down)}
+.bar-wrap{background:#1c1d20;border-radius:6px;height:22px;overflow:hidden;display:flex;margin:6px 0}
+.seg{height:100%;min-width:2px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--meridian-muted);margin:8px 0}
+.dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:middle}
+.gap{border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0;background:#0e0f11}
+.gap .sig{font-weight:700;font-size:15px}
+.gap .vals{font-size:13px;color:var(--meridian-muted);margin:4px 0}
+.gap .act{font-size:14px;margin-top:6px}
+details{margin:8px 0}
+summary{cursor:pointer;font-weight:600;font-size:16px;color:var(--meridian-ink);padding:10px 0}
+summary:hover{color:var(--meridian-gold)}
+.ai-card{border:1px solid var(--meridian-gold-soft);border-radius:10px;padding:16px;margin:12px 0;background:#0e0f11}
+.ai-card .q{font-size:13px;color:var(--meridian-muted);text-transform:uppercase;letter-spacing:.08em}
+.mode-badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.mode-swift{background:#1a2f1a;color:#4ade80;border:1px solid #2a5a2a}
+.mode-deliberate{background:#2f2410;color:#d9b36c;border:1px solid #5a4a2a}
+.mode-unknown{background:#222;color:#888;border:1px solid #444}
+.ai-card pre{white-space:pre-wrap;font-size:14px;line-height:1.7;margin:8px 0 0;font-family:inherit}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+.compare-col{border:1px solid var(--line);border-radius:10px;padding:16px;background:#0e0f11}
+.compare-col.swift{border-color:#2a5a2a}
+.compare-col.deliberate{border-color:var(--meridian-gold-soft)}
+.compare-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.compare-head .tier{font-size:16px;font-weight:700}
+.compare-head .tier.swift{color:var(--meridian-up)}
+.compare-head .tier.deliberate{color:var(--meridian-gold)}
+.compare-meta{font-size:12px;color:var(--meridian-muted);margin-bottom:8px}
+.compare-col pre{white-space:pre-wrap;font-size:13px;line-height:1.6;margin:8px 0 0;font-family:inherit;max-height:300px;overflow-y:auto}
+.mode-explain{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+.mode-card{border:1px solid var(--line);border-radius:10px;padding:18px;background:#0e0f11}
+.mode-card h3{margin:0 0 8px;font-size:17px}
+.mode-card.swift h3{color:var(--meridian-up)}
+.mode-card.deliberate h3{color:var(--meridian-gold)}
+.mode-card p{font-size:14px;color:var(--meridian-muted);margin:6px 0}
+.mode-card .spec{font-size:13px;margin-top:10px}
+.mode-card .spec b{color:var(--meridian-ink)}
+@media(max-width:800px){.compare-grid,.mode-explain{grid-template-columns:1fr}}
+.raw{font-size:12px;color:var(--meridian-muted);margin-top:8px}
+.raw code{background:#1c1d20;padding:2px 6px;border-radius:4px;font-size:11px}
+.spark{display:inline-block;vertical-align:middle}
+.atlas-flag{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:8px 0;background:#0e0f11;font-size:14px}
+.keeper{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--meridian-warn)}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--meridian-muted);font-size:13px}
+@media(max-width:800px){.cards{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap top-inner">
+  <img class="logo" src="../brand/meridian-logo.webp" alt="Meridian" onerror="this.style.display='none'">
+  <div><h1 class="wordmark">MERIDIAN</h1><p class="tagline">Every signal. Every rank. Measured.</p></div>
+  <div class="updated mono" id="updated">—</div>
+</div></header>
+
+<div class="wrap">
+  <div class="cards" id="overview"></div>
+
+  <section><h2 class="sec">⬣ The Meridian Suite — Every Piece</h2>
+    <p class="raw" style="font-size:14px">The complete Meridian system: 9 core modules + every expansion added 2026-10-07. Status as of <span class="mono">2026-10-07</span>.</p>
+    <table><thead><tr><th>#</th><th>Piece</th><th>What it does</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">01</td><td><b>Meridian Score</b></td><td>100-point content rubric (depth, structure, schema, meta, authority, technical, freshness)</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">02</td><td><b>Meridian Track</b></td><td>Rank tracking per query, history for sparklines</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">03</td><td><b>Meridian Dissect</b></td><td>Our signals vs. competitor average → prioritized gaps</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">04</td><td><b>Meridian Mind — Swift</b></td><td>Rapid AI analysis, single-call 1.5B model, ~25–45s</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">05</td><td><b>Meridian Mind — Deliberate</b></td><td>Three-reasoner deliberation with dissent capture (Delibra)</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">06</td><td><b>Meridian Inject</b></td><td>Mandatory AI-to-AI injection: schema, sitemap, llms.txt, MCP catalog, links, push, receipt</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">07</td><td><b>Meridian Broadcast</b></td><td>Active push: IndexNow, WebSub, sitemap signals</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">08</td><td><b>Meridian Atlas</b></td><td>Platform capability maps (flags, keepers, thresholds)</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">09</td><td><b>Meridian Pipeline</b></td><td>Full cycle runner: Score → Dissect → Close gap → Inject → Broadcast → Build authority → Measure</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">10</td><td><b>get_radio MCP tool</b> <span class="badge b-b">NEW 10-07</span></td><td>8th MCP tool: Radio 365 live HLS stream, now-playing, listener stats</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">11</td><td><b>get_announcements MCP tool</b> <span class="badge b-b">NEW 10-07</span></td><td>9th MCP tool: pushes new releases/drops/events to every connected AI</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">12</td><td><b>get_featured MCP tool</b> <span class="badge b-b">NEW 10-07</span></td><td>10th MCP tool: trending/featured tracks — every AI leads with our best</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">13</td><td><b>Mood / context tags</b> <span class="badge b-b">NEW 10-07</span></td><td>Catalog enrichment: "music for coding", "workout", situational queries</td><td><span class="badge b-c">BUILDING</span></td></tr>
+      <tr><td class="mono">14</td><td><b>Sounds-like graph</b> <span class="badge b-b">NEW 10-07</span></td><td>"Artists like X" edges in the knowledge graph</td><td><span class="badge b-c">BUILDING</span></td></tr>
+      <tr><td class="mono">15</td><td><b>mcprush listing</b> <span class="badge b-b">NEW 10-07</span></td><td>CWI Discovery Engine marketplace listing, claim CLM-0075 approved, optimized copy</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">16</td><td><b>cwi-music-discovery skill</b> <span class="badge b-b">NEW 10-07</span></td><td>mcprush agent skill: one-command install, teaches any AI our catalog</td><td><span class="badge b-c">PUBLISHING</span></td></tr>
+      <tr><td class="mono">17</td><td><b>Directory blitz</b> <span class="badge b-b">NEW 10-07</span></td><td>mcp.so submitted (#4906), PulseMCP paused, Smithery/Glama/awesome-MCP queued</td><td><span class="badge b-c">IN PROGRESS</span></td></tr>
+      <tr><td class="mono">18</td><td><b>Cross-link mesh</b> <span class="badge b-b">NEW 10-07</span></td><td>mcprush links in llms.txt, agent-card.json, footers (both sites)</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">19</td><td><b>Announcement stack</b> <span class="badge b-b">NEW 10-07</span></td><td>Blog post (1,900+ words, full schema) + EN/PT social posts + EN/PT dialogue audio</td><td><span class="badge b-a">LIVE</span></td></tr>
+      <tr><td class="mono">20</td><td><b>Radio /radio/ fix</b> <span class="badge b-b">NEW 10-07</span></td><td>Added radio/index.html redirect → /radio.html (was 404)</td><td><span class="badge b-a">LIVE</span></td></tr>
+    </tbody></table>
+  </section>
+
+  <section><h2 class="sec">◎ Meridian Track — Rank Tracker</h2>
+    <table><thead><tr><th>Query</th><th>Best Rank</th><th>7-Day</th><th>Movement</th><th>Notes</th></tr></thead>
+    <tbody id="ranks"></tbody></table>
+  </section>
+
+  <section><h2 class="sec">◈ Meridian Score — Content Scores</h2>
+    <div class="legend" id="scoreLegend"></div>
+    <div id="scores"></div>
+  </section>
+
+  <section><h2 class="sec">◉ Meridian Dissect — Gap Analysis</h2><div id="gaps"></div></section>
+
+  <section><h2 class="sec">✦ Meridian Mind — AI Recommendations</h2><div id="ai"></div></section>
+
+  <section><h2 class="sec">⚡ Meridian Mind — Swift vs Deliberate</h2>
+    <div class="mode-explain">
+      <div class="mode-card swift">
+        <h3>⚡ Meridian Swift</h3>
+        <p>Rapid AI analysis for high-volume scanning. Same 1.5B model, same weights — one sharp analyst, no deliberation overhead.</p>
+        <div class="spec"><b>Speed:</b> ~25–45s per query<br><b>Best for:</b> routine gap analysis, daily scans, bulk content review</div>
+      </div>
+      <div class="mode-card deliberate">
+        <h3>◈ Meridian Deliberate</h3>
+        <p>Full three-reasoner deliberation with dissent capture. Explorer, critic, and pragmatist debate; a rotating judge synthesizes with minority views preserved.</p>
+        <div class="spec"><b>Speed:</b> ~75–95s per query<br><b>Best for:</b> high-stakes decisions, strategy calls, contested queries</div>
+      </div>
+    </div>
+    <div id="compare"></div>
+  </section>
+
+  <section><h2 class="sec">⬢ Meridian Atlas — Platform Capability Map</h2><div id="atlas"></div></section>
+
+  <section><h2 class="sec">⇪ Meridian Inject — AI-to-AI Injection</h2>
+    <p class="raw" style="font-size:14px">Mandatory cycle step 4: every scored page is injected to all machine surfaces — schema verified, sitemap, llms.txt, MCP catalog, internal links, GitHub push, receipt.</p>
+    <div id="inject"></div>
+  </section>
+
+  <section><h2 class="sec">📡 Meridian Broadcast — Active Push</h2>
+    <p class="raw" style="font-size:14px">Mandatory cycle step 5: inject is passive (we wait) — broadcast is active (we push, they come). IndexNow, WebSub, sitemap signals. Sitemap ping endpoints are retired by Google/Bing — reported as deprecated, never faked.</p>
+    <div id="broadcast"></div>
+  </section>
+
+  <section><h2 class="sec">🔥 Flamerz — First Entry Battle Plan</h2><div id="flamerz"></div></section>
+</div>
+
+<footer><div class="wrap">
+  Meridian — CWI ranking signal machine. Scores show raw inputs; no black-box numbers. $0 infrastructure.
+</div></footer>
+
+<script>
+const DIM_COLORS = {
+  contentDepth:'#d9b36c', structure:'#b9975a', schema:'#7dd3fc',
+  meta:'#c4b5fd', authority:'#f87171', technical:'#4ade80', freshness:'#fbbf24'
+};
+const DIM_LABELS = {
+  contentDepth:'Depth', structure:'Structure', schema:'Schema',
+  meta:'Meta', authority:'Authority', technical:'Technical', freshness:'Freshness'
+};
+
+async function load(p){ try{ const r=await fetch(p); return await r.json(); }catch(e){ return null; } }
+
+function sparkline(hist){
+  // hist: [{date, position}] — lower position = better
+  const pts = hist.map(h=>h.position);
+  const w=90,h=26;
+  const valid=pts.filter(p=>p!==null);
+  if(!valid.length) return '<span class="same">no data</span>';
+  const max=Math.max(...valid,10), min=1;
+  const step=w/Math.max(pts.length-1,1);
+  let d='';
+  pts.forEach((p,i)=>{
+    const x=(i*step).toFixed(1);
+    const y=p===null? h-2 : (h-4-((max-p)/(max-min||1))*(h-8)).toFixed(1);
+    d+=(i?'L':'M')+x+','+y+' ';
+  });
+  const last=valid[valid.length-1], first=valid[0];
+  const col = last<first?'var(--meridian-up)':last>first?'var(--meridian-down)':'var(--meridian-muted)';
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><path d="${d}" fill="none" stroke="${col}" stroke-width="2"/></svg>`;
+}
+
+async function main(){
+  const [queries, scores, gaps, ai, atlas] = await Promise.all([
+    load('../data/queries.json'), load('../data/scores.json'),
+    load('../data/gaps.json'), load('../data/ai.json'), load('../data/atlas.json')
+  ]);
+  const rankings = await load('../data/rankings/'+new Date().toISOString().slice(0,10)+'.json');
+
+  document.getElementById('updated').textContent = 'Updated ' + new Date().toLocaleString();
+
+  // Overview cards
+  const nQ = queries?.queries?.length || 0;
+  const scoreVals = scores ? Object.values(scores) : [];
+  const avgScore = scoreVals.length ? (scoreVals.reduce((a,s)=>a+s.total,0)/scoreVals.length).toFixed(1) : '—';
+  const ranked = (rankings||[]).filter(r=>r.bestOurPosition!==null).length;
+  document.getElementById('overview').innerHTML = `
+    <div class="card"><div class="icon">◎</div><div class="big mono">${nQ}</div><div class="label">Queries tracked</div></div>
+    <div class="card"><div class="icon">◈</div><div class="big mono">${avgScore}</div><div class="label">Avg content score</div></div>
+    <div class="card"><div class="icon">⬢</div><div class="big mono">${scoreVals.length}</div><div class="label">Pages scored</div></div>
+    <div class="card"><div class="icon">◉</div><div class="big mono">${ranked}/${nQ}</div><div class="label">Queries ranking</div></div>`;
+
+  // Rank tracker
+  const qnotes = {}; (queries?.queries||[]).forEach(q=>qnotes[q.query]=q.notes||'');
+  document.getElementById('ranks').innerHTML = (rankings||[]).map(r=>{
+    const hist = (r.history||[]);
+    const pos = r.bestOurPosition;
+    const prev = hist.length>1 ? hist[hist.length-2].position : null;
+    let move = '<span class="same">—</span>';
+    if(pos!==null && prev!==null){ move = pos<prev?'<span class="up">▲ up</span>':pos>prev?'<span class="down">▼ down</span>':'<span class="same">— same</span>'; }
+    return `<tr><td><strong>${esc(r.query)}</strong></td>
+      <td class="mono">${pos!==null?'<span style="color:var(--meridian-gold);font-weight:700">#'+pos+'</span>':'<span class="same">unranked</span>'}</td>
+      <td>${sparkline(hist)}</td><td>${move}</td><td class="raw">${esc(qnotes[r.query]||'')}</td></tr>`;
+  }).join('') || '<tr><td colspan="5" class="same">No ranking data yet.</td></tr>';
+
+  // Score legend
+  document.getElementById('scoreLegend').innerHTML = Object.keys(DIM_LABELS).map(k=>
+    `<span><span class="dot" style="background:${DIM_COLORS[k]}"></span>${DIM_LABELS[k]}</span>`).join('');
+
+  // Content scores — stacked bars
+  document.getElementById('scores').innerHTML = scoreVals.map(s=>{
+    const segs = Object.keys(DIM_LABELS).map(k=>{
+      const v = s.breakdown[k]||0, max = {contentDepth:25,structure:15,schema:15,meta:10,authority:15,technical:10,freshness:10}[k];
+      return `<div class="seg" style="width:${(v/max*100).toFixed(1)}%;background:${DIM_COLORS[k]}" title="${DIM_LABELS[k]}: ${v}/${max}"></div>`;
+    }).join('');
+    const gradeCls = s.grade==='A'?'b-a':s.grade==='B'?'b-b':s.grade==='C'?'b-c':'b-df';
+    const shortUrl = s.url.replace('https://','').slice(0,52);
+    return `<div class="gap"><div style="display:flex;justify-content:space-between;align-items:center">
+      <span class="sig mono" style="font-size:13px">${esc(shortUrl)}</span>
+      <span><span class="badge ${gradeCls}">${s.grade} ${s.total.toFixed(1)}</span></span></div>
+      <div class="bar-wrap">${segs}</div>
+      <div class="raw">query: <code>${esc(s.query)}</code> · words: <code>${s.raw.wordCount}</code> · schema: <code>${(s.raw.schemaTypes||[]).join(', ')||'none'}</code> · authority: <code>${s.raw.authorityFlag}</code></div>
+    </div>`;
+  }).join('') || '<p class="same">No scores yet — run lib/pipeline.js</p>';
+
+  // Gaps
+  document.getElementById('gaps').innerHTML = Object.entries(gaps||{}).map(([q,g])=>`
+    <details open><summary>${esc(q)} <span class="raw">— ${g.gaps.length} gaps · ${g.competitorsAnalyzed} competitors</span></summary>
+    ${g.gaps.map(gp=>`<div class="gap">
+      <span class="badge ${gp.impact==='high'?'b-high':gp.impact==='medium'?'b-med':'b-low'}">${gp.impact}</span>
+      <span class="sig">${esc(gp.signal)}</span>
+      <div class="vals mono">ours: ${gp.ourValue} · competitor avg: ${gp.competitorAvg}${gp.competitorBest!==null?' · best: '+gp.competitorBest:''} · effort: ${'●'.repeat(gp.effort)}${'○'.repeat(3-gp.effort)}</div>
+      <div class="act">→ ${esc(gp.action)}</div>
+    </div>`).join('') || '<p class="same">No gaps — at or above competitor average.</p>'}
+    </details>`).join('') || '<p class="same">No gap data yet.</p>';
+
+  // AI
+  document.getElementById('ai').innerHTML = Object.entries(ai||{}).map(([q,a])=>`
+    <div class="ai-card"><div class="q">${esc(q)} · ${esc(a.method)} · <span class="mode-badge mode-${esc(a.mode||'unknown')}">${esc(a.mode||'?')}</span> · ${a.timing_ms!=null?(a.timing_ms/1000).toFixed(1)+'s':''} · ${esc(a.analyzedAt?.slice(0,10)||'')}</div>
+    ${a.recommendations?`<pre>${esc(a.recommendations)}</pre>`:`<p class="same">${esc(a.warning||'No recommendations.')}</p>`}
+    ${a.judge?`<div class="q">judge: ${esc(a.judge.lens)} (${esc(a.judge.confidence)})${a.jobId?` · job ${esc(a.jobId.slice(0,8))}`:''}</div>`:''}
+    </div>`).join('') || '<p class="same">No AI analysis yet.</p>';
+
+  // Swift vs Deliberate comparison
+  const cmp = await load('../data/ai-compare.json');
+  document.getElementById('compare').innerHTML = cmp && Object.keys(cmp).length ? Object.entries(cmp).map(([q, modes])=>{
+    const s = modes.swift, d = modes.deliberate;
+    const col = (r, cls, tierName, tierIcon) => r ? `
+      <div class="compare-col ${cls}">
+        <div class="compare-head"><span class="tier ${cls}">${tierIcon} ${tierName}</span></div>
+        <div class="compare-meta mono">${esc(r.model||'')} · ${r.timing_ms!=null?(r.timing_ms/1000).toFixed(1)+'s':'—'}${r.degraded?' · <span class="down">degraded</span>':''}</div>
+        ${r.judge?`<div class="compare-meta">judge: ${esc(r.judge.lens)} (${esc(r.judge.confidence)})${r.dissent&&r.dissent.summary?` · dissent captured`:''}</div>`:''}
+        ${r.recommendations?`<pre>${esc(r.recommendations)}</pre>`:`<p class="same">${esc(r.warning||'No recommendations.')}</p>`}
+      </div>` : `<div class="compare-col ${cls}"><div class="compare-head"><span class="tier ${cls}">${tierIcon} ${tierName}</span></div><p class="same">Not yet run.</p></div>`;
+    return `<details open><summary>${esc(q)}</summary><div class="compare-grid">${col(s,'swift','Meridian Swift','⚡')}${col(d,'deliberate','Meridian Deliberate','◈')}</div></details>`;
+  }).join('') : '<p class="same">Comparison data not yet available — run both modes via the pipeline.</p>';
+
+  // Atlas
+  const at = atlas?.platforms?.substack, sc = atlas?.scores?.substack;
+  document.getElementById('atlas').innerHTML = at ? `
+    <p class="raw" style="font-size:14px">${esc(atlas.doctrine)}</p>
+    <p><span class="badge b-med">${sc.coveragePct}% capability coverage</span>
+    <span class="raw"> ${sc.heldVsReference}/${sc.capabilitiesMapped} flags at reference level · reverse-engineered ${esc(at.reverseEngineered)}</span></p>
+    ${at.capabilities.map(c=>`<div class="atlas-flag">
+      <strong class="mono">${esc(c.flag)}</strong>
+      <span class="keeper">${esc(c.keeper)}</span><br>
+      <span class="raw">ours: <code>${JSON.stringify(c.ours)}</code> · reference (${esc(c.referenceEntity||'n/a')}): <code>${JSON.stringify(c.reference)}</code></span><br>
+      ${c.path&&c.path!=='None needed'?`<span style="font-size:13px">→ ${esc(c.path)}</span><br>`:''}
+      ${c.bypass?`<span style="font-size:13px;color:var(--meridian-gold)">Bypass: ${esc(c.bypass)}</span>`:''}
+    </div>`).join('')}
+    <p class="raw"><strong>Verdict:</strong> ${esc(at.verdict)}</p>`
+    : '<p class="same">No atlas data.</p>';
+
+  // Meridian Inject — injection receipts
+  const injData = await load('../data/inject.json');
+  document.getElementById('inject').innerHTML = injData && Object.keys(injData).length ? Object.entries(injData).map(([url, r])=>{
+    const stepBadge = (s) => {
+      if (!s) return '<span class="badge b-low">—</span>';
+      if (s.status === 'ok' || s.status === 'added' || s.status === 'pushed' || s.status === 'found' || s.status === 'checked')
+        return `<span class="badge b-a">${esc(s.status)}</span>`;
+      if (s.status === 'skipped')
+        return `<span class="badge b-med">skipped · ${esc(s.reason||'')}</span>`;
+      return `<span class="badge b-high">${esc(s.status)}${s.reason?' · '+esc(s.reason):''}</span>`;
+    };
+    const st = r.steps || {};
+    return `<details open><summary>${esc(r.name||url)} ${r.blocked?'<span class="badge b-high">BLOCKED · '+esc(r.blockReason||'')+'</span>':''} <span class="raw">— ${esc(r.injectedAt?.slice(0,16).replace('T',' ')||'')}</span></summary>
+      <div class="gap"><span class="sig mono" style="font-size:13px">${esc(url)}</span>
+      ${r.commit?`<div class="vals mono">commit: <code>${esc(r.commit.slice(0,7))}</code></div>`:''}
+      <div class="vals mono" style="margin-top:6px">
+        schema ${stepBadge(st.schema)}${st.schema?.types?` <code>${esc((st.schema.types||[]).join(', '))}</code>`:''}<br>
+        sitemap ${stepBadge(st.sitemap)} · llms.txt ${stepBadge(st.llmsTxt)}<br>
+        mcp-catalog ${stepBadge(st.mcpCatalog)}${st.mcpCatalog?.title?` <code>${esc(st.mcpCatalog.title)}${st.mcpCatalog.artist?' — '+esc(st.mcpCatalog.artist):''}</code>`:''}<br>
+        internal-links ${stepBadge(st.internalLinks)}${st.internalLinks?.linkingPages?.length?` <code>${esc(st.internalLinks.linkingPages.join(', '))}</code>`:' <span class="down">no linking pages — gap</span>'}<br>
+        github-push ${stepBadge(st.githubPush)}
+      </div></div>
+    </details>`;
+  }).join('') : '<p class="same">No injections yet — run lib/pipeline.js (inject is step 4 of the cycle).</p>';
+
+  // Meridian Broadcast — active push receipts
+  const bcData = await load('../data/broadcast.json');
+  document.getElementById('broadcast').innerHTML = bcData && Object.keys(bcData).length ? Object.entries(bcData).map(([url, r])=>{
+    const chanBadge = (c) => {
+      if (!c) return '<span class="badge b-low">—</span>';
+      if (c.status === 'sent')
+        return `<span class="badge b-a">sent${c.response?' · '+esc(String(c.response)):''}</span>`;
+      if (c.status === 'deprecated')
+        return `<span class="badge b-med">deprecated${c.response?' · '+esc(String(c.response)):''}</span>`;
+      if (c.status === 'skipped' || c.status === 'ui-only')
+        return `<span class="badge b-med">${esc(c.status)}${c.reason?' · '+esc(c.reason):''}</span>`;
+      return `<span class="badge b-high">${esc(c.status)}${c.response?' · '+esc(String(c.response)):''}${c.detail?' · '+esc(c.detail.slice(0,80)):''}</span>`;
+    };
+    const ch = r.channels || {};
+    return `<details open><summary><span class="sig mono" style="font-size:13px">${esc(url)}</span> ${r.blocked?'<span class="badge b-high">BLOCKED · '+esc(r.blockReason||'')+'</span>':''} <span class="raw">— ${esc(r.broadcastAt?.slice(0,16).replace('T',' ')||'')}</span></summary>
+      <div class="vals mono" style="margin-top:6px">
+        indexnow ${chanBadge(ch.indexnow)}<br>
+        sitemap-ping google ${chanBadge(ch.sitemapPingGoogle)} · bing ${chanBadge(ch.sitemapPingBing)}<br>
+        websub ${chanBadge(ch.websub)} · search-console ${chanBadge(ch.searchConsole)}
+      </div></div>
+    </details>`;
+  }).join('') : '<p class="same">No broadcasts yet — run lib/pipeline.js (broadcast is step 5 of the cycle).</p>';
+
+  // Flamerz entry
+  const fl = await load('../data/flamerz-entry.json');
+  document.getElementById('flamerz').innerHTML = fl ? `
+    <p class="raw" style="font-size:14px">🔥 <strong>${esc(fl.song)}</strong> by ${esc(fl.artist)} · produced by ${esc(fl.producer)} · entry ${esc(fl.entryDate)}</p>
+    ${fl.spotifyForArtists?`<div class="cards" style="margin:12px 0">
+      <div class="card"><div class="icon">♫</div><div class="big mono">${fl.spotifyForArtists.allTimeStreams}</div><div class="label">All-time Spotify streams</div></div>
+      <div class="card"><div class="icon">▲</div><div class="big mono">${fl.spotifyForArtists.last12Months.streams}</div><div class="label">Last 12 mo (+${fl.spotifyForArtists.last12Months.changePct}%)</div></div>
+      <div class="card"><div class="icon">👥</div><div class="big mono">${fl.spotifyForArtists.listeners}</div><div class="label">Listeners · ${fl.spotifyForArtists.streamsPerListener}/listener</div></div>
+      <div class="card"><div class="icon">♥</div><div class="big mono">${fl.spotifyForArtists.saves}</div><div class="label">Saves · ${fl.spotifyForArtists.playlistAdds} playlist adds</div></div>
+      <div class="card"><div class="icon">▤</div><div class="big mono">${fl.spotifyForArtists.playlists.total}</div><div class="label">Playlists (0 editorial)</div></div>
+    </div>
+    <details><summary>Spotify for Artists — verified baseline (supplied by Black, ${esc(fl.entryDate)})</summary>
+      <p class="raw">Top playlists: ${fl.spotifyForArtists.playlists.top.map(p=>esc(p.name)+' ('+p.streams+' streams, '+p.type+')').join(' · ')}</p>
+      <p class="raw">Stream spikes: ${fl.spotifyForArtists.streamSpikes.map(s=>esc(s.period)+' (~'+s.streams+')').join(', ')}</p>
+      ${fl.cyberpunk2027Context?`<p class="raw"><strong>Cyberpunk 2027 context</strong> (drops ${esc(fl.cyberpunk2027Context.releaseDate)}): ${fl.cyberpunk2027Context.last28Days.monthlyListeners.toLocaleString()} monthly listeners (+${fl.cyberpunk2027Context.last28Days.monthlyListenersChangePct}%), ${fl.cyberpunk2027Context.last28Days.streams.toLocaleString()} streams (+${fl.cyberpunk2027Context.last28Days.streamsChangePct}%). Pre-release: pitched ✓, Canvas ${esc(fl.cyberpunk2027Context.preReleaseChecklist.canvasCount)} ✓, Discovery Mode ✓, display campaign ${fl.cyberpunk2027Context.preReleaseChecklist.displayCampaignBooked?'booked':'NOT booked'}.</p>
+      <p class="raw">${esc(fl.cyberpunk2027Context.note)}</p>`:''}
+    </details>
+    ${fl.playlistGap?`<details open><summary>Playlist gap — <span class="badge b-high">high impact</span></summary>
+      <div class="gap"><span class="sig">${esc(fl.playlistGap.signal)}</span>
+      <div class="vals mono">${esc(fl.playlistGap.ourValue)}</div>
+      <p class="raw">${esc(fl.playlistGap.note)}</p>
+      <div class="act">→ ${esc(fl.playlistGap.action)}</div></div>
+    </details>`:''}`:''}
+    <details open><summary>Pages scored (${fl.urlsFound.length})</summary>
+    ${fl.urlsFound.map(u=>`<div class="gap"><span class="sig mono" style="font-size:13px">${esc(u.url.replace('https://','').slice(0,55))}</span>
+      <span class="badge ${u.grade==='A'?'b-a':u.grade==='B'?'b-b':u.grade==='C'?'b-c':'b-df'}">${u.grade} ${u.score.toFixed(1)}</span>
+      <div class="vals mono">words: ${u.wordCount} · fetch: ${u.fetchOk?'ok':'blocked'}</div></div>`).join('')}
+    </details>
+    <details open><summary>Ranking — "${esc(fl.ranking.query)}"</summary>
+      <p class="raw">${esc(fl.ranking.note)}</p>
+    </details>
+    <details open><summary>Top gaps (${fl.topGaps.length})</summary>
+    ${fl.topGaps.map(g=>`<div class="gap">
+      <span class="badge ${g.impact==='high'?'b-high':g.impact==='medium'?'b-med':'b-low'}">${g.impact}</span>
+      <span class="sig">${esc(g.signal)}</span>
+      <div class="vals mono">ours: ${g.ourValue} · competitor avg: ${g.competitorAvg}</div>
+      <div class="act">→ ${esc(g.action)}</div></div>`).join('')}
+    </details>
+    <details open><summary>AI recommendations (${esc(fl.aiRecommendations.mode)} · ${fl.aiRecommendations.timing_s}s)</summary>
+      <div class="ai-card"><pre>${esc(fl.aiRecommendations.text)}</pre></div>
+    </details>
+    <details open><summary>Battle plan (${fl.battlePlan.length} actions)</summary>
+      <ol>${fl.battlePlan.map(b=>`<li style="margin:8px 0">${esc(b)}</li>`).join('')}</ol>
+    </details>`
+    : '<p class="same">No Flamerz entry yet.</p>';
+}
+
+function esc(s){ return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+main();
+</script>
+</body>
+</html>
