@@ -382,5 +382,17 @@
   "description": "CWI Discovery Engine MCP server: read-only music-catalog tools \u2014 search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
   "status": "live",
   "since": "2026-10-05"
- }
+ },
+ "marketplaceListings": [
+  {
+   "name": "mcprush",
+   "description": "MCP server marketplace (100,000+ MCP server and agent skill listings) where AI developers discover and install MCP servers into Claude, Cursor, VS Code with one CLI command. CWI Discovery Engine is listed and publisher-claimed: every install puts the CWI music catalog inside another AI's context. Free listing, security-scanned.",
+   "url": "https://mcprush.com/cumulativewebinc/cwi-discovery-engine-mcp",
+   "category": "mcp-marketplace",
+   "publisher": "CumulativeWebInc",
+   "claimReference": "CLM-0075",
+   "claimApproved": "2026-10-07",
+   "pricing": "free"
+  }
+ ]
 }

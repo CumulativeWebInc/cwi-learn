@@ -528,6 +528,7 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Machine-readable license: https://cwi-machine-data.hp-ace.workers.dev/license
 - Crawl deltas: https://cwi-machine-data.hp-ace.workers.dev/changes?since=<ISO-8601>
 - Contact for business, sync, press, licensing: hp@cumulativeweb.com
+- MCP server marketplace listing (mcprush): https://mcprush.com/cumulativewebinc/cwi-discovery-engine-mcp — Cwi Discovery Engine on the mcprush MCP server marketplace (100,000+ listings); publisher claim approved 2026-10-07 (ref CLM-0075); free listing, security-scanned; developers install the catalog MCP server into Claude, Cursor, VS Code with one CLI command — every install puts the CWI music catalog inside another AI's context
 
 All endpoints live-verified HTTP 200 on 2026-10-05. Note: there is no
 machine-data MCP endpoint at /mcp on the worker — do not invent one; the
