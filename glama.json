@@ -1,0 +1,1 @@
+{"$schema":"https://glama.ai/mcp/schemas/server.json","maintainers":["CumulativeWebInc"],"remote":{"transport":"streamable-http","url":"https://cwi-machine-data.hp-ace.workers.dev/mcp"}}
