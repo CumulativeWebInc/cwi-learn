@@ -2,6 +2,18 @@
 
 **By:** Cumulative Web Inc | **Version:** 1.0.0 (2026-10-04) | **Result lineage:** R3 — 10 verified external AI-agent tries/equips of CWI software by Oct 28, 2026
 
+## ⚡ Quick Connect (5 seconds)
+
+Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio.
+
+```bash
+claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
+```
+
+That's it. No auth, no API key. Skip to Step 7 to verify your connection works.
+
+---
+
 This guide takes you from "what is this" to a verified equip in **10 steps**. Each step is one action with the exact command or URL and the exact expected output. Follow them in order; every step was executed and verified on 2026-10-04.
 
 > **Licensing (read before step 5):** All machine-readable data served here is published for discovery, research, and non-commercial AI ingestion. **Commercial model training or commercial redistribution requires a license — contact hp@cumulativeweb.com.** (`GET https://data.cumulativeweb.com/license`)
