@@ -1,0 +1,2250 @@
+{
+ "schema": "cwi-catalog/v1",
+ "language": "nl",
+ "title": "CWI-catalogus",
+ "description": "Machineleesbare muziekcatalogus van Cumulative Web Inc: 37 tracks van 7 artiesten.",
+ "track_count": 37,
+ "artists": {
+  "That Boy Hi Hat": {
+   "bio": "Alternatieve rapartiest uit Frederick, Maryland (VS). Schepper van Post-Trap Futurism. 24 tracks in de catalogus."
+  },
+  "King Ahkeem": {
+   "bio": "Trapartiest. 5 tracks. Pure, harde trap."
+  },
+  "Dre50": {
+   "bio": "Afrobeatsartiest met Jamaicaanse en Braziliaanse invloeden. 2 tracks."
+  },
+  "183 Wildboi": {
+   "bio": "Rap-rock / rock-rap. 2 tracks."
+  },
+  "Greg Porn": {
+   "bio": "Cyberpunk-sound, dark luxury. 3 tracks."
+  },
+  "Fleekz": {
+   "bio": "Hiphopartiest. 1 track."
+  },
+  "Black Lansky": {
+   "bio": "Labelbaas, co-producer van alle catalogustracks. Multi-genre artiest."
+  }
+ },
+ "tracks": [
+  {
+   "id": "track:diabolique",
+   "title": "Diabolique",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Diabolique\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met donker, verleidelijk-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "donker",
+    "verleidelijk",
+    "cinematisch",
+    "gevaarlijk",
+    "nachtelijk",
+    "late nacht",
+    "introspectief",
+    "triest"
+   ],
+   "moods_en": [
+    "dark",
+    "seductive",
+    "cinematic",
+    "dangerous",
+    "nocturnal",
+    "late-night",
+    "introspective",
+    "sad"
+   ],
+   "contexts": [
+    "late nacht",
+    "rijden",
+    "club",
+    "ontspannen"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "nocturnal rap",
+    "seductive rap"
+   ],
+   "bpm": 77,
+   "musical_key": "G# minor",
+   "energy_1_5": 3,
+   "duration": "2:35",
+   "duration_ms": 155844,
+   "release_date": "2026-07-03",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+   "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:zooted-zone",
+   "title": "Zooted Zone",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Zooted Zone\" van That Boy Hi Hat — post-trap, trap-track met hype, hypnotiserend-sfeer. Energiek en intens.",
+   "genres": [
+    "post-trap",
+    "trap",
+    "rap",
+    "underground",
+    "hiphop"
+   ],
+   "genres_en": [
+    "post trap",
+    "trap",
+    "rap",
+    "underground",
+    "hip hop"
+   ],
+   "moods": [
+    "hype",
+    "hypnotiserend",
+    "agressief",
+    "underground",
+    "late nacht",
+    "anthemisch"
+   ],
+   "moods_en": [
+    "hype",
+    "hypnotic",
+    "aggressive",
+    "underground",
+    "late-night",
+    "anthemic"
+   ],
+   "contexts": [
+    "feest",
+    "club",
+    "voor de wedstrijd",
+    "rijden"
+   ],
+   "sounds_like": [
+    "trap",
+    "party rap",
+    "post-trap"
+   ],
+   "bpm": 163,
+   "musical_key": "C# minor",
+   "energy_1_5": 4,
+   "duration": "3:08",
+   "duration_ms": 188466,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+   "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:doves-and-diamonds",
+   "title": "Doves & Diamonds",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Doves & Diamonds\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met luxe, reflectief-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "luxe",
+    "reflectief",
+    "soepel",
+    "late nacht",
+    "anthemisch",
+    "introspectief",
+    "hype"
+   ],
+   "moods_en": [
+    "luxury",
+    "reflective",
+    "smooth",
+    "late-night",
+    "anthemic",
+    "introspective",
+    "hype"
+   ],
+   "contexts": [
+    "late nacht",
+    "ontspannen",
+    "viering"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "luxury rap",
+    "nocturnal rap"
+   ],
+   "bpm": 85,
+   "musical_key": "D minor",
+   "energy_1_5": 4,
+   "duration": "3:01",
+   "duration_ms": 181544,
+   "release_date": "2023-01-11",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+   "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 96,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:shaka-zulu",
+   "title": "Shaka Zulu",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Shaka Zulu\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met energiek, agressief-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "hiphop",
+    "underground"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop",
+    "underground"
+   ],
+   "moods": [
+    "energiek",
+    "agressief",
+    "anthemisch",
+    "uitdagend",
+    "rebels",
+    "dreigend",
+    "hypnotiserend",
+    "triomfantelijk",
+    "gevaarlijk",
+    "zelfverzekerd",
+    "donker",
+    "nachtelijk"
+   ],
+   "moods_en": [
+    "energetic",
+    "aggressive",
+    "anthemic",
+    "defiant",
+    "rebellious",
+    "menacing",
+    "hypnotic",
+    "triumphant",
+    "dangerous",
+    "confident",
+    "dark",
+    "nocturnal"
+   ],
+   "contexts": [
+    "workout",
+    "sportschool",
+    "voor de wedstrijd",
+    "hardlopen"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "underground hip hop",
+    "anthemic rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:11",
+   "duration_ms": 251611,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+   "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 98,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:flamerz",
+   "title": "Flamerz",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Flamerz\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met agressief, uitdagend-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "trap",
+    "rap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "agressief",
+    "uitdagend",
+    "zelfverzekerd",
+    "anthemisch",
+    "hype",
+    "rebels",
+    "urgent",
+    "gevaarlijk",
+    "energiek",
+    "donker"
+   ],
+   "moods_en": [
+    "aggressive",
+    "defiant",
+    "confident",
+    "anthemic",
+    "hype",
+    "rebellious",
+    "urgent",
+    "dangerous",
+    "energetic",
+    "dark"
+   ],
+   "contexts": [
+    "workout",
+    "sportschool",
+    "feest",
+    "voor de wedstrijd",
+    "club"
+   ],
+   "sounds_like": [
+    "rage beats",
+    "melodic trap",
+    "dark trap"
+   ],
+   "duration": "3:06",
+   "duration_ms": 186206,
+   "release_date": "2025-11-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+   "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+   "producer": "Jeck Da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:neon-nights-pt-777",
+   "title": "Neon Nights Pt. 777",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Neon Nights Pt. 777\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met etherisch, soepel-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "moods": [
+    "etherisch",
+    "soepel",
+    "hypnotiserend",
+    "late nacht",
+    "verleidelijk",
+    "cinematisch",
+    "dromerig",
+    "nachtelijk",
+    "futuristisch",
+    "mysterieus",
+    "relaxed",
+    "chill",
+    "gepolijst"
+   ],
+   "moods_en": [
+    "ethereal",
+    "smooth",
+    "hypnotic",
+    "late-night",
+    "seductive",
+    "cinematic",
+    "dreamy",
+    "nocturnal",
+    "futuristic",
+    "mysterious",
+    "laid-back",
+    "chill",
+    "polished"
+   ],
+   "contexts": [
+    "rijden",
+    "late nacht",
+    "programmeren",
+    "ontspannen",
+    "roadtrip"
+   ],
+   "sounds_like": [
+    "synthwave rap",
+    "melodic trap",
+    "electronic rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "3:47",
+   "duration_ms": 227472,
+   "release_date": "2025-11-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+   "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 88,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:ultimate",
+   "title": "Ultimate",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Ultimate\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met anthemisch, cinematisch-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "anthemisch",
+    "cinematisch",
+    "triomfantelijk",
+    "uitdagend",
+    "zelfverzekerd",
+    "euforisch",
+    "donker",
+    "nachtelijk",
+    "hypnotiserend"
+   ],
+   "moods_en": [
+    "anthemic",
+    "cinematic",
+    "triumphant",
+    "defiant",
+    "confident",
+    "euphoric",
+    "dark",
+    "nocturnal",
+    "hypnotic"
+   ],
+   "contexts": [
+    "voor de wedstrijd",
+    "workout",
+    "viering",
+    "ochtend"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "anthemic rap",
+    "post-trap"
+   ],
+   "duration": "3:16",
+   "duration_ms": 196163,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+   "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:painted-lady",
+   "title": "Painted Lady",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Painted Lady\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met verleidelijk, nachtelijk-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "verleidelijk",
+    "nachtelijk",
+    "late nacht",
+    "melancholisch",
+    "intiem",
+    "introspectief",
+    "gevaarlijk",
+    "donker"
+   ],
+   "moods_en": [
+    "seductive",
+    "nocturnal",
+    "late-night",
+    "melancholic",
+    "intimate",
+    "introspective",
+    "dangerous",
+    "dark"
+   ],
+   "contexts": [
+    "late nacht",
+    "ontspannen",
+    "rijden"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "dark trap",
+    "alt r&b rap"
+   ],
+   "duration": "2:48",
+   "duration_ms": 168500,
+   "release_date": "2024-08-16",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+   "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:warped-and-wicked",
+   "title": "Warped & Wicked",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Warped & Wicked\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met donker, dreigend-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "underground"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "donker",
+    "dreigend",
+    "uitdagend",
+    "hypnotiserend",
+    "rauw",
+    "somber",
+    "nachtelijk",
+    "late nacht",
+    "dystopisch",
+    "agressief",
+    "gevaarlijk"
+   ],
+   "moods_en": [
+    "dark",
+    "menacing",
+    "defiant",
+    "hypnotic",
+    "raw",
+    "brooding",
+    "nocturnal",
+    "late-night",
+    "dystopian",
+    "aggressive",
+    "dangerous"
+   ],
+   "contexts": [
+    "rijden",
+    "late nacht",
+    "programmeren"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "cinematic rap",
+    "underground trap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:08",
+   "duration_ms": 248555,
+   "release_date": "2022-04-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+   "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:golden-diamond",
+   "title": "Golden Diamond",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Golden Diamond\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met triomfantelijk, cinematisch-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "triomfantelijk",
+    "cinematisch",
+    "anthemisch",
+    "late nacht",
+    "zelfverzekerd",
+    "gepolijst",
+    "rauw",
+    "euforisch"
+   ],
+   "moods_en": [
+    "triumphant",
+    "cinematic",
+    "anthemic",
+    "late-night",
+    "confident",
+    "polished",
+    "raw",
+    "euphoric"
+   ],
+   "contexts": [
+    "viering",
+    "voor de wedstrijd",
+    "rijden",
+    "ochtend"
+   ],
+   "sounds_like": [
+    "melodic trap",
+    "post-trap",
+    "anthemic rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:02",
+   "duration_ms": 242696,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+   "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:spirits-n-shadows",
+   "title": "Spirits n Shadows",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Spirits n Shadows\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met agressief, hypnotiserend-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "underground"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "agressief",
+    "hypnotiserend",
+    "urgent",
+    "uitdagend",
+    "dreigend",
+    "anthemisch",
+    "beklijvend",
+    "donker",
+    "cinematisch",
+    "gevaarlijk",
+    "energiek",
+    "nachtelijk"
+   ],
+   "moods_en": [
+    "aggressive",
+    "hypnotic",
+    "urgent",
+    "defiant",
+    "menacing",
+    "anthemic",
+    "haunting",
+    "dark",
+    "cinematic",
+    "dangerous",
+    "energetic",
+    "nocturnal"
+   ],
+   "contexts": [
+    "workout",
+    "hardlopen",
+    "sportschool",
+    "rijden",
+    "late nacht"
+   ],
+   "sounds_like": [
+    "rage beats",
+    "dark trap",
+    "nocturnal rap"
+   ],
+   "bpm": 157,
+   "energy_1_5": 4,
+   "duration": "3:18",
+   "duration_ms": 198034,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+   "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:flex-my-flame",
+   "title": "Flex My Flame",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Flex My Flame\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met zelfverzekerd, gevaarlijk-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap"
+   ],
+   "moods": [
+    "zelfverzekerd",
+    "gevaarlijk",
+    "anthemisch",
+    "triomfantelijk",
+    "soepel",
+    "gepolijst"
+   ],
+   "moods_en": [
+    "confident",
+    "dangerous",
+    "anthemic",
+    "triumphant",
+    "smooth",
+    "polished"
+   ],
+   "contexts": [
+    "voor de wedstrijd",
+    "feest",
+    "club",
+    "rijden",
+    "viering"
+   ],
+   "sounds_like": [
+    "post-trap",
+    "anthemic rap",
+    "trap"
+   ],
+   "duration": "3:03",
+   "duration_ms": 183750,
+   "release_date": "2023-07-28",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm",
+   "spotify_id": "3knXIxd0PlraXvarlwGwKm",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:rainbows-and-roses",
+   "title": "Rainbows And Roses",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Rainbows And Roses\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met introspectief, kwetsbaar-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "indie"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "introspectief",
+    "kwetsbaar",
+    "triest",
+    "melancholisch",
+    "dromerig",
+    "zacht",
+    "nachtelijk",
+    "eenzaam"
+   ],
+   "moods_en": [
+    "introspective",
+    "vulnerable",
+    "sad",
+    "melancholic",
+    "dreamy",
+    "mellow",
+    "nocturnal",
+    "lonely"
+   ],
+   "contexts": [
+    "ontspannen",
+    "late nacht",
+    "focus"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "melodic rap",
+    "sad rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:00",
+   "duration_ms": 240613,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+   "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 99,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:tears-and-scars",
+   "title": "Tears and Scars",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Tears and Scars\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met melancholisch, introspectief-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "melancholisch",
+    "introspectief",
+    "kwetsbaar",
+    "donker",
+    "zacht",
+    "etherisch",
+    "triest",
+    "eenzaam",
+    "late nacht"
+   ],
+   "moods_en": [
+    "melancholic",
+    "introspective",
+    "vulnerable",
+    "dark",
+    "mellow",
+    "ethereal",
+    "sad",
+    "lonely",
+    "late-night"
+   ],
+   "contexts": [
+    "ontspannen",
+    "late nacht",
+    "focus"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "dark trap",
+    "confessional rap"
+   ],
+   "duration": "4:40",
+   "duration_ms": 280346,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+   "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:toxic-elements",
+   "title": "Toxic Elements",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Toxic Elements\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met donker, verleidelijk-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "trap",
+    "rap",
+    "underground"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "donker",
+    "verleidelijk",
+    "gevaarlijk",
+    "hypnotiserend",
+    "late nacht",
+    "nachtelijk",
+    "dreigend",
+    "rauw"
+   ],
+   "moods_en": [
+    "dark",
+    "seductive",
+    "dangerous",
+    "hypnotic",
+    "late-night",
+    "nocturnal",
+    "menacing",
+    "raw"
+   ],
+   "contexts": [
+    "late nacht",
+    "rijden",
+    "ontspannen"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "nocturnal rap",
+    "toxic r&b rap"
+   ],
+   "bpm": 140,
+   "musical_key": "C# minor",
+   "duration": "3:23",
+   "duration_ms": 203703,
+   "release_date": "2023-11-14",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+   "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 91,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:scorpion-and-sapphires",
+   "title": "Scorpion & Sapphires",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Scorpion & Sapphires\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met nachtelijk, cinematisch-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "nachtelijk",
+    "cinematisch",
+    "gevaarlijk",
+    "verleidelijk",
+    "dystopisch",
+    "dreigend",
+    "mysterieus",
+    "donker",
+    "hypnotiserend",
+    "late nacht"
+   ],
+   "moods_en": [
+    "nocturnal",
+    "cinematic",
+    "dangerous",
+    "seductive",
+    "dystopian",
+    "menacing",
+    "mysterious",
+    "dark",
+    "hypnotic",
+    "late-night"
+   ],
+   "contexts": [
+    "rijden",
+    "late nacht",
+    "roadtrip"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "cinematic rap",
+    "nocturnal rap"
+   ],
+   "duration": "3:07",
+   "duration_ms": 187480,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61",
+   "spotify_id": "0ptdX13NNwDj6l9hF0Pl61",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:7th-angel",
+   "title": "7th Angel",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"7th Angel\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met etherisch, mystiek-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "indie"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "etherisch",
+    "mystiek",
+    "opbeurend",
+    "cinematisch"
+   ],
+   "moods_en": [
+    "ethereal",
+    "mystical",
+    "uplifting",
+    "cinematic"
+   ],
+   "contexts": [
+    "ontspannen",
+    "late nacht",
+    "focus"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "cinematic rap",
+    "nocturnal rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:00",
+   "duration_ms": 240000,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+   "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 97,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:place-i-go-to-dream",
+   "title": "Place I Go to Dream",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Place I Go to Dream\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met dromerig, kwetsbaar-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "indie"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "dromerig",
+    "kwetsbaar",
+    "melancholisch",
+    "beklijvend",
+    "etherisch",
+    "introspectief",
+    "eenzaam",
+    "uitdagend",
+    "nachtelijk",
+    "zacht"
+   ],
+   "moods_en": [
+    "dreamy",
+    "vulnerable",
+    "melancholic",
+    "haunting",
+    "ethereal",
+    "introspective",
+    "lonely",
+    "defiant",
+    "nocturnal",
+    "mellow"
+   ],
+   "contexts": [
+    "ontspannen",
+    "late nacht",
+    "focus",
+    "studeren"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "indie rap",
+    "dream rap"
+   ],
+   "bpm": 85,
+   "musical_key": "C#",
+   "energy_1_5": 4,
+   "duration": "2:48",
+   "duration_ms": 168071,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+   "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:smokin-pain",
+   "title": "Smokin' Pain",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Smokin' Pain\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met introspectief, late nacht-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "underground"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "introspectief",
+    "late nacht",
+    "melancholisch",
+    "donker",
+    "eenzaam",
+    "triest",
+    "rauw",
+    "zacht",
+    "nachtelijk",
+    "chill"
+   ],
+   "moods_en": [
+    "introspective",
+    "late-night",
+    "melancholic",
+    "dark",
+    "lonely",
+    "sad",
+    "raw",
+    "mellow",
+    "nocturnal",
+    "chill"
+   ],
+   "contexts": [
+    "late nacht",
+    "ontspannen"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "nocturnal rap",
+    "underground hip hop"
+   ],
+   "duration": "3:18",
+   "duration_ms": 198530,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+   "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:phantasm",
+   "title": "Phantasm",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Phantasm\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met donker, dystopisch-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "moods": [
+    "donker",
+    "dystopisch",
+    "introspectief",
+    "somber",
+    "etherisch",
+    "mysterieus",
+    "nachtelijk",
+    "cinematisch",
+    "melancholisch",
+    "beklijvend",
+    "eenzaam",
+    "koud",
+    "hypnotiserend"
+   ],
+   "moods_en": [
+    "dark",
+    "dystopian",
+    "introspective",
+    "brooding",
+    "ethereal",
+    "mysterious",
+    "nocturnal",
+    "cinematic",
+    "melancholic",
+    "haunting",
+    "lonely",
+    "cold",
+    "hypnotic"
+   ],
+   "contexts": [
+    "programmeren",
+    "late nacht",
+    "focus",
+    "gamen"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "synthwave rap",
+    "dystopian rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "3:55",
+   "duration_ms": 235467,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+   "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:misfits-and-hooligans",
+   "title": "Misfits and Hooligans",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Misfits and Hooligans\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met uitdagend, agressief-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap",
+    "underground"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "uitdagend",
+    "agressief",
+    "rauw",
+    "energiek",
+    "rebels",
+    "anthemisch",
+    "triomfantelijk",
+    "hype"
+   ],
+   "moods_en": [
+    "defiant",
+    "aggressive",
+    "raw",
+    "energetic",
+    "rebellious",
+    "anthemic",
+    "triumphant",
+    "hype"
+   ],
+   "contexts": [
+    "workout",
+    "voor de wedstrijd",
+    "feest",
+    "sportschool"
+   ],
+   "sounds_like": [
+    "underground hip hop",
+    "anthemic rap",
+    "post-trap"
+   ],
+   "duration": "5:49",
+   "duration_ms": 349074,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+   "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:roses-over-monaco",
+   "title": "Roses over Monaco",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Roses over Monaco\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met cinematisch, late nacht-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "cinematisch",
+    "late nacht",
+    "triomfantelijk",
+    "hoopvol",
+    "romantisch",
+    "nostalgisch",
+    "zacht",
+    "warm",
+    "serieus",
+    "introspectief",
+    "opbeurend"
+   ],
+   "moods_en": [
+    "cinematic",
+    "late-night",
+    "triumphant",
+    "hopeful",
+    "romantic",
+    "nostalgic",
+    "mellow",
+    "warm",
+    "serious",
+    "introspective",
+    "uplifting"
+   ],
+   "contexts": [
+    "ontspannen",
+    "viering",
+    "rijden",
+    "ochtend"
+   ],
+   "sounds_like": [
+    "cinematic rap",
+    "melodic rap",
+    "triumphant rap"
+   ],
+   "duration": "4:35",
+   "duration_ms": 275304,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+   "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 88,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:broken-hearts-club",
+   "title": "Broken Hearts Club",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Broken Hearts Club\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met melancholisch, anthemisch-sfeer. Energiek en intens.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "melancholisch",
+    "anthemisch",
+    "uitdagend",
+    "triomfantelijk",
+    "euforisch",
+    "kwetsbaar",
+    "triest",
+    "energiek"
+   ],
+   "moods_en": [
+    "melancholic",
+    "anthemic",
+    "defiant",
+    "triumphant",
+    "euphoric",
+    "vulnerable",
+    "sad",
+    "energetic"
+   ],
+   "contexts": [
+    "club",
+    "feest",
+    "workout",
+    "rijden"
+   ],
+   "sounds_like": [
+    "sad rap",
+    "anthemic rap",
+    "post-trap"
+   ],
+   "bpm": 84,
+   "musical_key": "C# Major",
+   "energy_1_5": 4,
+   "duration": "3:08",
+   "duration_ms": 188000,
+   "release_date": "2023-05-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6OCaHPYNSYBwAgaQrZ5IHq",
+   "spotify_id": "6OCaHPYNSYBwAgaQrZ5IHq",
+   "producer": "Jeck Da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:star-king-akeem",
+   "title": "Star",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Star\" van King Ahkeem — trap, hiphop-track met anthemisch, triomfantelijk-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "trap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "anthemisch",
+    "triomfantelijk",
+    "zelfverzekerd",
+    "euforisch",
+    "uitdagend",
+    "serieus",
+    "hype"
+   ],
+   "moods_en": [
+    "anthemic",
+    "triumphant",
+    "confident",
+    "euphoric",
+    "defiant",
+    "serious",
+    "hype"
+   ],
+   "contexts": [
+    "viering",
+    "voor de wedstrijd",
+    "feest",
+    "workout",
+    "ochtend"
+   ],
+   "sounds_like": [
+    "pop rap",
+    "anthemic rap",
+    "hip hop"
+   ],
+   "duration": "2:51",
+   "duration_ms": 171000,
+   "release_date": "2019-04-21",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4Zhwi9tbKqoxsJjbrSPVuY",
+   "spotify_id": "4Zhwi9tbKqoxsJjbrSPVuY",
+   "apple_music_url": "https://music.apple.com/us/album/star/1678405503?i=1678405504",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 90,
+   "catalog_tier": "silver",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:full-moon-183-wilboi",
+   "title": "Full Moon",
+   "artist": "183 Wildboi",
+   "artist_id": "artist:183-wildboi",
+   "description": "\"Full Moon\" van 183 Wildboi — rap-rock, rock-rap-track met anthemisch, zelfverzekerd-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "rap-rock",
+    "rock-rap"
+   ],
+   "genres_en": [
+    "rap rock",
+    "rock rap"
+   ],
+   "moods": [
+    "anthemisch",
+    "zelfverzekerd",
+    "energiek",
+    "euforisch",
+    "triomfantelijk",
+    "hype"
+   ],
+   "moods_en": [
+    "anthemic",
+    "confident",
+    "energetic",
+    "euphoric",
+    "triumphant",
+    "hype"
+   ],
+   "contexts": [
+    "viering",
+    "voor de wedstrijd",
+    "workout",
+    "feest"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "anthemic rap",
+    "stadium rap"
+   ],
+   "bpm": 120,
+   "musical_key": "A minor",
+   "duration": "3:15",
+   "duration_ms": 195000,
+   "release_date": "2022-08-26",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ",
+   "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "rap rock"
+  },
+  {
+   "id": "track:stunt-183-wilboi",
+   "title": "Stunt",
+   "artist": "183 Wildboi",
+   "artist_id": "artist:183-wildboi",
+   "description": "\"Stunt\" van 183 Wildboi — rap-rock, rock-rap-track met hype, agressief-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "rap-rock",
+    "rock-rap"
+   ],
+   "genres_en": [
+    "rap rock",
+    "rock rap"
+   ],
+   "moods": [
+    "hype",
+    "agressief",
+    "anthemisch",
+    "uitdagend",
+    "zelfverzekerd",
+    "rebels",
+    "energiek",
+    "rauw"
+   ],
+   "moods_en": [
+    "hype",
+    "aggressive",
+    "anthemic",
+    "defiant",
+    "confident",
+    "rebellious",
+    "energetic",
+    "raw"
+   ],
+   "contexts": [
+    "workout",
+    "voor de wedstrijd",
+    "sportschool",
+    "feest"
+   ],
+   "sounds_like": [
+    "underground hip hop",
+    "trap",
+    "anthemic rap"
+   ],
+   "duration": "2:32",
+   "duration_ms": 152208,
+   "release_date": "2024-05-19",
+   "release_status": "released",
+   "spotify_id": "1nqHYA5CT2JwyZjVmoIkfe",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 72,
+   "catalog_tier": "silver",
+   "genre_voice": "rap rock"
+  },
+  {
+   "id": "track:vai-vem-vem-dre50",
+   "title": "vai vem vem",
+   "artist": "Dre50",
+   "artist_id": "artist:dre50",
+   "description": "\"vai vem vem\" van Dre50 — afrobeats, dancehall-track met soepel, zelfverzekerd-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "afrobeats",
+    "dancehall",
+    "hiphop"
+   ],
+   "genres_en": [
+    "afrobeats",
+    "dancehall",
+    "hip hop"
+   ],
+   "moods": [
+    "soepel",
+    "zelfverzekerd",
+    "gepolijst",
+    "warm",
+    "speels",
+    "verleidelijk",
+    "relaxed",
+    "chill"
+   ],
+   "moods_en": [
+    "smooth",
+    "confident",
+    "polished",
+    "warm",
+    "playful",
+    "seductive",
+    "laid-back",
+    "chill"
+   ],
+   "contexts": [
+    "feest",
+    "rijden",
+    "roadtrip",
+    "club"
+   ],
+   "sounds_like": [
+    "dancehall",
+    "afrobeats",
+    "island pop"
+   ],
+   "bpm": 126,
+   "musical_key": "F minor",
+   "duration": "2:47",
+   "duration_ms": 167000,
+   "release_date": "2026-09-30",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML",
+   "spotify_id": "6MNkg5WRxtnzLA22JFpUML",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "afrobeats"
+  },
+  {
+   "id": "track:pay-yourself-greg-porn",
+   "title": "Pay Yourself",
+   "artist": "Greg Porn",
+   "artist_id": "artist:greg-porn",
+   "description": "\"Pay Yourself\" van Greg Porn — cyberpunk, dark luxury-track met uitdagend, agressief-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "genres_en": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "uitdagend",
+    "agressief",
+    "triomfantelijk",
+    "zelfverzekerd",
+    "dreigend",
+    "rauw",
+    "serieus",
+    "gevaarlijk",
+    "zwaar"
+   ],
+   "moods_en": [
+    "defiant",
+    "aggressive",
+    "triumphant",
+    "confident",
+    "menacing",
+    "raw",
+    "serious",
+    "dangerous",
+    "heavy"
+   ],
+   "contexts": [
+    "workout",
+    "sportschool",
+    "voor de wedstrijd",
+    "focus"
+   ],
+   "sounds_like": [
+    "underground trap",
+    "hardcore hip hop",
+    "street rap"
+   ],
+   "bpm": 94,
+   "musical_key": "A Major",
+   "duration": "3:06",
+   "duration_ms": 186000,
+   "release_date": "2023-07-04",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4E0B7kVlJgcX0V0L3e793L",
+   "spotify_id": "4E0B7kVlJgcX0V0L3e793L",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 96,
+   "catalog_tier": "silver",
+   "genre_voice": "cyberpunk"
+  },
+  {
+   "id": "track:on-edge-greg-porn",
+   "title": "On Edge",
+   "artist": "Greg Porn",
+   "artist_id": "artist:greg-porn",
+   "description": "\"On Edge\" van Greg Porn — cyberpunk, dark luxury-track met late nacht, introspectief-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "genres_en": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "late nacht",
+    "introspectief",
+    "gevaarlijk",
+    "urgent",
+    "hypnotiserend",
+    "agressief",
+    "angstig",
+    "serieus",
+    "nachtelijk",
+    "dreigend",
+    "donker"
+   ],
+   "moods_en": [
+    "late-night",
+    "introspective",
+    "dangerous",
+    "urgent",
+    "hypnotic",
+    "aggressive",
+    "anxious",
+    "serious",
+    "nocturnal",
+    "menacing",
+    "dark"
+   ],
+   "contexts": [
+    "late nacht",
+    "programmeren",
+    "rijden",
+    "focus"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "underground trap",
+    "dark trap"
+   ],
+   "bpm": 172,
+   "musical_key": "G major",
+   "duration": "2:14",
+   "duration_ms": 134000,
+   "release_date": "2023-08-10",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/5MJKRQuEYdC6duNFHz964U",
+   "spotify_id": "5MJKRQuEYdC6duNFHz964U",
+   "apple_music_url": "https://music.apple.com/us/album/on-edge/1702015437?i=1702015438",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 98,
+   "catalog_tier": "silver",
+   "genre_voice": "cyberpunk"
+  },
+  {
+   "id": "track:unholy-hunter-greg-porn",
+   "title": "Unholy Hunter",
+   "artist": "Greg Porn",
+   "artist_id": "artist:greg-porn",
+   "description": "\"Unholy Hunter\" van Greg Porn — cyberpunk, dark luxury-track met donker, dystopisch-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "genres_en": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "donker",
+    "dystopisch",
+    "gevaarlijk",
+    "nachtelijk",
+    "dreigend",
+    "hypnotiserend",
+    "late nacht",
+    "koud",
+    "rauw",
+    "agressief"
+   ],
+   "moods_en": [
+    "dark",
+    "dystopian",
+    "dangerous",
+    "nocturnal",
+    "menacing",
+    "hypnotic",
+    "late-night",
+    "cold",
+    "raw",
+    "aggressive"
+   ],
+   "contexts": [
+    "late nacht",
+    "programmeren",
+    "gamen"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "underground trap",
+    "horrorcore-adjacent"
+   ],
+   "release_status": "unreleased_ref_only",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 85,
+   "catalog_tier": "bronze",
+   "genre_voice": "cyberpunk"
+  },
+  {
+   "id": "track:2k23-corner-fleekz",
+   "title": "2K23 Corners",
+   "artist": "Fleekz",
+   "artist_id": "artist:artist:fleekz",
+   "description": "\"2K23 Corners\" van Fleekz — rap, hiphop-track met ruw, dreigend-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "rap",
+    "hiphop",
+    "underground"
+   ],
+   "genres_en": [
+    "rap",
+    "hip hop",
+    "underground"
+   ],
+   "moods": [
+    "ruw",
+    "dreigend",
+    "late nacht",
+    "agressief",
+    "zelfverzekerd",
+    "rauw",
+    "donker",
+    "serieus"
+   ],
+   "moods_en": [
+    "gritty",
+    "menacing",
+    "late-night",
+    "aggressive",
+    "confident",
+    "raw",
+    "dark",
+    "serious"
+   ],
+   "contexts": [
+    "rijden",
+    "late nacht",
+    "workout"
+   ],
+   "sounds_like": [
+    "underground hip hop",
+    "street rap",
+    "trap"
+   ],
+   "bpm": 83,
+   "musical_key": "C# Major",
+   "duration": "3:58",
+   "duration_ms": 238000,
+   "release_date": "2023-02-07",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm",
+   "spotify_id": "6mpcJapNVe4OPZ3j9QPHqm",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 89,
+   "catalog_tier": "silver"
+  },
+  {
+   "id": "track:that-boy-hi-hat-cyberpunk-2027",
+   "title": "Cyberpunk 2027",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Cyberpunk 2027\" van That Boy Hi Hat — alternatieve rap, alternatieve rap-track met donker, cinematisch-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "alternatieve rap",
+    "alternatieve rap",
+    "post-trap",
+    "rap"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "donker",
+    "cinematisch",
+    "futuristisch",
+    "nachtelijk",
+    "dystopisch"
+   ],
+   "moods_en": [
+    "dark",
+    "cinematic",
+    "futuristic",
+    "nocturnal",
+    "dystopian"
+   ],
+   "contexts": [
+    "programmeren",
+    "gamen",
+    "rijden",
+    "workout",
+    "late nacht"
+   ],
+   "sounds_like": [
+    "cyberpunk rap",
+    "futuristic trap",
+    "synthwave rap"
+   ],
+   "release_date": "2026-10-20",
+   "release_status": "pre_release",
+   "apple_music_url": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+   "producer": "Kokurcho",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "bronze",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:pix-dre50",
+   "title": "Pix",
+   "artist": "Dre50",
+   "artist_id": "artist:dre50",
+   "description": "\"Pix\" van Dre50 — afrobeats, dancehall-track met soepel, warm-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "afrobeats",
+    "dancehall",
+    "hiphop"
+   ],
+   "genres_en": [
+    "afrobeats",
+    "dancehall",
+    "hip hop"
+   ],
+   "moods": [
+    "soepel",
+    "warm",
+    "speels"
+   ],
+   "moods_en": [
+    "smooth",
+    "warm",
+    "playful"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_date": "2025-01-07",
+   "release_status": "released",
+   "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 84,
+   "catalog_tier": "silver",
+   "genre_voice": "afrobeats"
+  },
+  {
+   "id": "track:bluefaces-30-king-ahkeem",
+   "title": "Bluefaces 3.0",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Bluefaces 3.0\" van King Ahkeem — trap, hiphop-track met zelfverzekerd, hype-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "trap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "zelfverzekerd",
+    "hype",
+    "agressief"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:element-king-ahkeem",
+   "title": "Element",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Element\" van King Ahkeem — trap, hiphop-track met zelfverzekerd, hype-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "trap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "zelfverzekerd",
+    "hype",
+    "agressief"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:embiid-king-ahkeem",
+   "title": "Embiid",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Embiid\" van King Ahkeem — trap, hiphop-track met zelfverzekerd, hype-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "trap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "zelfverzekerd",
+    "hype",
+    "agressief"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:super-solid-king-ahkeem",
+   "title": "Super Solid",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Super Solid\" van King Ahkeem — trap, hiphop-track met zelfverzekerd, hype-sfeer. Gebalanceerd en meeslepend.",
+   "genres": [
+    "trap",
+    "hiphop"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "zelfverzekerd",
+    "hype",
+    "agressief"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  }
+ ],
+ "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+ "license": "MIT",
+ "publisher": "Cumulative Web Inc"
+}

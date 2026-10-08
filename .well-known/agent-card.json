@@ -407,13 +407,64 @@
     "de",
     "fr",
     "it",
-    "es"
+    "es",
+    "th",
+    "nl"
   ],
   "localizedDiscovery": {
-    "pt-BR": "https://cumulativewebinc.github.io/cwi-learn/llms-pt-BR.txt",
-    "de": "https://cumulativewebinc.github.io/cwi-learn/llms-de.txt",
-    "fr": "https://cumulativewebinc.github.io/cwi-learn/llms-fr.txt",
-    "it": "https://cumulativewebinc.github.io/cwi-learn/llms-it.txt",
-    "es": "https://cumulativewebinc.github.io/cwi-learn/llms-es.txt"
+    "pt-BR": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-pt-BR.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-pt-BR.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-pt-BR.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-pt-BR.json"
+    },
+    "de": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-de.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-de.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-de.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-de.json"
+    },
+    "fr": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-fr.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-fr.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-fr.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-fr.json"
+    },
+    "it": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-it.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-it.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-it.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-it.json"
+    },
+    "es": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-es.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-es.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-es.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-es.json"
+    },
+    "th": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-th.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-th.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-th.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-th.json"
+    },
+    "nl": {
+      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-nl.txt",
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nl.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-nl.json",
+      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-nl.json"
+    },
+    "uk": {
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-uk.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-uk.json"
+    },
+    "ie": {
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ie.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-ie.json"
+    },
+    "au": {
+      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-au.json",
+      "events": "https://cumulativewebinc.github.io/cwi-learn/events-au.json"
+    }
   }
 }

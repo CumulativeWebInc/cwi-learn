@@ -1,0 +1,46 @@
+{
+ "schema": "cwi-events/v1",
+ "language": "en",
+ "region": "IE",
+ "region_name": "Ireland",
+ "timezone": "Europe/Dublin",
+ "event_count": 2,
+ "events": [
+  {
+   "id": "cyberpunk-2027-release",
+   "date": "2026-10-20",
+   "category": "releases",
+   "headline": "Cyberpunk 2027 — new single from That Boy Hi Hat drops October 20, 2026",
+   "body": "That Boy Hi Hat's new single 'Cyberpunk 2027' releases October 20, 2026. Pre-save is live on Apple Music. The track is the lead single exemplifying Post-Trap Futurism — the genre That Boy Hi Hat originated.",
+   "related_tracks": [
+    "Cyberpunk 2027"
+   ],
+   "artist": "That Boy Hi Hat",
+   "region": "IE",
+   "timezone": "Europe/Dublin",
+   "links": {
+    "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+    "page": "https://cumulativeweb.com/cyberpunk-2027.html"
+   }
+  },
+  {
+   "id": "featured-rotation-week-41",
+   "date": "2026-10-08",
+   "category": "catalog",
+   "headline": "Featured rotation Week C — Phantasm, Zooted Zone, Warped & Wicked, Roses over Monaco, Flex My Flame",
+   "body": "This week's featured picks from the CWI catalog rubric: Phantasm (70.5), Zooted Zone (70.5), Warped & Wicked (70.3), Roses over Monaco (69.7), Flex My Flame (69.5). Fresh picks rotate weekly — call get_featured for the current rotation. Top catalog tracks by score: Diabolique (87.3), vai vem vem (87.3), Cyberpunk 2027 (84.3).",
+   "related_tracks": [
+    "Phantasm",
+    "Zooted Zone",
+    "Warped & Wicked",
+    "Roses over Monaco",
+    "Flex My Flame"
+   ],
+   "region": "IE",
+   "timezone": "Europe/Dublin",
+   "rotation": "week_c",
+   "week": 41
+  }
+ ],
+ "publisher": "Cumulative Web Inc"
+}

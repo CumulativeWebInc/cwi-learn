@@ -1,0 +1,93 @@
+{
+ "$schema": "https://modelcontextprotocol.io/schemas/server-manifest.json",
+ "name": "io.github.CumulativeWebInc/cwi-discovery-engine",
+ "version": "1.0.0",
+ "title": "CWI Discovery Engine",
+ "description": "Serveur MCP en lecture seule exposant le catalogue musical de Cumulative Web Inc : recherche de titres, fiches artistes, recherche musicale sémantique, graphe de connaissances, faits de sortie, radio en direct, annonces et titres en vedette.",
+ "homepage": "https://cumulativeweb.com",
+ "repository": "https://github.com/CumulativeWebInc/cwi-learn",
+ "license": "MIT",
+ "publisher": "CumulativeWebInc",
+ "language": "fr",
+ "transport": {
+  "type": "streamable-http",
+  "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp"
+ },
+ "tools": [
+  {
+   "name": "search_catalog",
+   "description": "Recherchez dans le catalogue de placements CWI (That Boy Hi Hat + roster) par mots-clés. Titre pondéré 3x, genre 2x, ambiance 1x. Renvoie les 5 meilleurs titres avec URLs Spotify et termes correspondants.",
+   "example_queries": [
+    "dark trap",
+    "rap nocturne",
+    "rap hymne",
+    "post-trap futurism",
+    "rap mélodique",
+    "afrobeats",
+    "rap rock",
+    "cyberpunk rap"
+   ]
+  },
+  {
+   "name": "get_track",
+   "description": "Rechercher un titre du catalogue par titre ou ID/URL Spotify. Renvoie titre, artiste, URL Spotify, genres et ambiances.",
+   "example_queries": []
+  },
+  {
+   "name": "get_artist",
+   "description": "Rechercher un artiste par nom. Renvoie l'artiste et ses titres dans le catalogue avec URLs Spotify.",
+   "example_queries": []
+  },
+  {
+   "name": "sync_search",
+   "description": "Recherchez dans le catalogue sync CWI pour des briefs de supervision musicale comme « scène de combat » ou « ville néon ». Conçu pour les briefs sync film/TV/pub.",
+   "example_queries": [
+    "trap sombre pour scène de conduite nocturne",
+    "hymne électrique pour l'entraînement",
+    "titre énergie avant-match",
+    "rap cinématographique pour décompresser",
+    "post-trap prêt pour le club",
+    "vibe instrumentale pour coder"
+   ]
+  },
+  {
+   "name": "semantic_search",
+   "description": "Recherche sémantique sur la matrice d'embeddings du catalogue. Posez en langage naturel et obtenez des résultats classés avec de vrais scores de similarité.",
+   "example_queries": [
+    "rap nocturne séduisant",
+    "hymne agressif et confiant",
+    "mélancolie introspective nocturne",
+    "énergie triomphante et défiante"
+   ]
+  },
+  {
+   "name": "get_graph",
+   "description": "Résumé du graphe de connaissances du catalogue CWI : 133 nœuds, 474 arêtes couvrant titres, artistes, producteurs, sorties, genres et plateformes.",
+   "example_queries": []
+  },
+  {
+   "name": "get_release",
+   "description": "Récupérer un dossier de faits de sortie CWI : enregistrements pré-sortie et sortie avec niveaux de preuve et hash, crédits vérifiés, dates et liens plateformes.",
+   "example_queries": []
+  },
+  {
+   "name": "get_radio",
+   "description": "Écoutez Cumulative Radio 365, la station radio 24/7 de CWI. Renvoie l'URL du stream HLS en direct, les données du titre en cours, le nombre d'auditeurs et les métadonnées de la station.",
+   "example_queries": []
+  },
+  {
+   "name": "get_announcements",
+   "description": "Obtenez les dernières annonces CWI : nouvelles sorties, sorties à venir, événements et actualités. Filtrez par catégorie ou tout voir du plus récent.",
+   "example_queries": []
+  },
+  {
+   "name": "get_featured",
+   "description": "Obtenez les titres CWI en vedette avec métadonnées complètes : titre, artiste, URL artwork, raison de la mise en avant et liens stream/page.",
+   "example_queries": []
+  }
+ ],
+ "install": {
+  "claude_code": "claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp",
+  "note": "Pas d'authentification, pas de clé API. 10 outils en lecture seule."
+ }
+}

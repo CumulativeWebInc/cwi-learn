@@ -1,0 +1,2250 @@
+{
+ "schema": "cwi-catalog/v1",
+ "language": "th",
+ "title": "แคตตาล็อก CWI",
+ "description": "แคตตาล็อกเพลงของ Cumulative Web Inc ที่เครื่องอ่านได้: 37 เพลงจาก 7 ศิลปิน",
+ "track_count": 37,
+ "artists": {
+  "That Boy Hi Hat": {
+   "bio": "ศิลปินแร็พทางเลือกจาก Frederick, Maryland (สหรัฐอเมริกา) ผู้สร้าง Post-Trap Futurism มี 24 เพลงในแคตตาล็อก"
+  },
+  "King Ahkeem": {
+   "bio": "ศิลปินแทร็พ มี 5 เพลง แทร็พแท้ๆ หนักหน่วง"
+  },
+  "Dre50": {
+   "bio": "ศิลปินแอโฟรบีทส์ผสมกลิ่นอายจาเมกาและบราซิล มี 2 เพลง"
+  },
+  "183 Wildboi": {
+   "bio": "แร็พร็อก / ร็อกแร็พ มี 2 เพลง"
+  },
+  "Greg Porn": {
+   "bio": "ซาวด์ไซเบอร์พังก์ ลักซ์ชัวรี่ดาร์ก มี 3 เพลง"
+  },
+  "Fleekz": {
+   "bio": "ศิลปินฮิปฮอป มี 1 เพลง"
+  },
+  "Black Lansky": {
+   "bio": "หัวหน้าค่ายเพลง โปรดิวเซอร์ร่วมทุกเพลงในแคตตาล็อก ศิลปินหลายแนว"
+  }
+ },
+ "tracks": [
+  {
+   "id": "track:diabolique",
+   "title": "Diabolique",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Diabolique\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์มืดมน, ยั่วยวน สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "มืดมน",
+    "ยั่วยวน",
+    "เหมือนภาพยนตร์",
+    "อันตราย",
+    "ยามค่ำคืน",
+    "ดึกดื่น",
+    "ครุ่นคิด",
+    "เศร้า"
+   ],
+   "moods_en": [
+    "dark",
+    "seductive",
+    "cinematic",
+    "dangerous",
+    "nocturnal",
+    "late-night",
+    "introspective",
+    "sad"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "ขับรถ",
+    "คลับ",
+    "ผ่อนคลาย"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "nocturnal rap",
+    "seductive rap"
+   ],
+   "bpm": 77,
+   "musical_key": "G# minor",
+   "energy_1_5": 3,
+   "duration": "2:35",
+   "duration_ms": 155844,
+   "release_date": "2026-07-03",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+   "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:zooted-zone",
+   "title": "Zooted Zone",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Zooted Zone\" โดย That Boy Hi Hat — เพลงโพสต์แทร็พ, แทร็พ อารมณ์เร้าใจ, สะกดจิต เต็มพลังและเข้มข้น",
+   "genres": [
+    "โพสต์แทร็พ",
+    "แทร็พ",
+    "แร็พ",
+    "อันเดอร์กราวด์",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "post trap",
+    "trap",
+    "rap",
+    "underground",
+    "hip hop"
+   ],
+   "moods": [
+    "เร้าใจ",
+    "สะกดจิต",
+    "ดุดัน",
+    "อันเดอร์กราวด์",
+    "ดึกดื่น",
+    "ยิ่งใหญ่"
+   ],
+   "moods_en": [
+    "hype",
+    "hypnotic",
+    "aggressive",
+    "underground",
+    "late-night",
+    "anthemic"
+   ],
+   "contexts": [
+    "ปาร์ตี้",
+    "คลับ",
+    "ก่อนเกม",
+    "ขับรถ"
+   ],
+   "sounds_like": [
+    "trap",
+    "party rap",
+    "post-trap"
+   ],
+   "bpm": 163,
+   "musical_key": "C# minor",
+   "energy_1_5": 4,
+   "duration": "3:08",
+   "duration_ms": 188466,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+   "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:doves-and-diamonds",
+   "title": "Doves & Diamonds",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Doves & Diamonds\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์หรูหรา, ทบทวน เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "หรูหรา",
+    "ทบทวน",
+    "ลื่นไหล",
+    "ดึกดื่น",
+    "ยิ่งใหญ่",
+    "ครุ่นคิด",
+    "เร้าใจ"
+   ],
+   "moods_en": [
+    "luxury",
+    "reflective",
+    "smooth",
+    "late-night",
+    "anthemic",
+    "introspective",
+    "hype"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "ผ่อนคลาย",
+    "การเฉลิมฉลอง"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "luxury rap",
+    "nocturnal rap"
+   ],
+   "bpm": 85,
+   "musical_key": "D minor",
+   "energy_1_5": 4,
+   "duration": "3:01",
+   "duration_ms": 181544,
+   "release_date": "2023-01-11",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+   "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 96,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:shaka-zulu",
+   "title": "Shaka Zulu",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Shaka Zulu\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์เต็มไปด้วยพลัง, ดุดัน เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "ฮิปฮอป",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop",
+    "underground"
+   ],
+   "moods": [
+    "เต็มไปด้วยพลัง",
+    "ดุดัน",
+    "ยิ่งใหญ่",
+    "ท้าทาย",
+    "ขบถ",
+    "น่ากลัว",
+    "สะกดจิต",
+    "ชัยชนะ",
+    "อันตราย",
+    "มั่นใจ",
+    "มืดมน",
+    "ยามค่ำคืน"
+   ],
+   "moods_en": [
+    "energetic",
+    "aggressive",
+    "anthemic",
+    "defiant",
+    "rebellious",
+    "menacing",
+    "hypnotic",
+    "triumphant",
+    "dangerous",
+    "confident",
+    "dark",
+    "nocturnal"
+   ],
+   "contexts": [
+    "ออกกำลังกาย",
+    "ยิม",
+    "ก่อนเกม",
+    "วิ่ง"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "underground hip hop",
+    "anthemic rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:11",
+   "duration_ms": 251611,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+   "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 98,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:flamerz",
+   "title": "Flamerz",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Flamerz\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ดุดัน, ท้าทาย สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แทร็พ",
+    "แร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "ดุดัน",
+    "ท้าทาย",
+    "มั่นใจ",
+    "ยิ่งใหญ่",
+    "เร้าใจ",
+    "ขบถ",
+    "เร่งด่วน",
+    "อันตราย",
+    "เต็มไปด้วยพลัง",
+    "มืดมน"
+   ],
+   "moods_en": [
+    "aggressive",
+    "defiant",
+    "confident",
+    "anthemic",
+    "hype",
+    "rebellious",
+    "urgent",
+    "dangerous",
+    "energetic",
+    "dark"
+   ],
+   "contexts": [
+    "ออกกำลังกาย",
+    "ยิม",
+    "ปาร์ตี้",
+    "ก่อนเกม",
+    "คลับ"
+   ],
+   "sounds_like": [
+    "rage beats",
+    "melodic trap",
+    "dark trap"
+   ],
+   "duration": "3:06",
+   "duration_ms": 186206,
+   "release_date": "2025-11-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+   "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+   "producer": "Jeck Da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:neon-nights-pt-777",
+   "title": "Neon Nights Pt. 777",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Neon Nights Pt. 777\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ล่องลอย, ลื่นไหล เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "ไซเบอร์พังก์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "moods": [
+    "ล่องลอย",
+    "ลื่นไหล",
+    "สะกดจิต",
+    "ดึกดื่น",
+    "ยั่วยวน",
+    "เหมือนภาพยนตร์",
+    "ฝันหวาน",
+    "ยามค่ำคืน",
+    "ล้ำสมัย",
+    "ลึกลับ",
+    "สบายๆ",
+    "ชิล",
+    "ประณีต"
+   ],
+   "moods_en": [
+    "ethereal",
+    "smooth",
+    "hypnotic",
+    "late-night",
+    "seductive",
+    "cinematic",
+    "dreamy",
+    "nocturnal",
+    "futuristic",
+    "mysterious",
+    "laid-back",
+    "chill",
+    "polished"
+   ],
+   "contexts": [
+    "ขับรถ",
+    "ดึกดื่น",
+    "เขียนโค้ด",
+    "ผ่อนคลาย",
+    "เที่ยวทางรถ"
+   ],
+   "sounds_like": [
+    "synthwave rap",
+    "melodic trap",
+    "electronic rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "3:47",
+   "duration_ms": 227472,
+   "release_date": "2025-11-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+   "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 88,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:ultimate",
+   "title": "Ultimate",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Ultimate\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ยิ่งใหญ่, เหมือนภาพยนตร์ สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "ยิ่งใหญ่",
+    "เหมือนภาพยนตร์",
+    "ชัยชนะ",
+    "ท้าทาย",
+    "มั่นใจ",
+    "เคลิบเคลิ้ม",
+    "มืดมน",
+    "ยามค่ำคืน",
+    "สะกดจิต"
+   ],
+   "moods_en": [
+    "anthemic",
+    "cinematic",
+    "triumphant",
+    "defiant",
+    "confident",
+    "euphoric",
+    "dark",
+    "nocturnal",
+    "hypnotic"
+   ],
+   "contexts": [
+    "ก่อนเกม",
+    "ออกกำลังกาย",
+    "การเฉลิมฉลอง",
+    "ตอนเช้า"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "anthemic rap",
+    "post-trap"
+   ],
+   "duration": "3:16",
+   "duration_ms": 196163,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+   "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:painted-lady",
+   "title": "Painted Lady",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Painted Lady\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ยั่วยวน, ยามค่ำคืน สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "ยั่วยวน",
+    "ยามค่ำคืน",
+    "ดึกดื่น",
+    "โศกเศร้า",
+    "ใกล้ชิด",
+    "ครุ่นคิด",
+    "อันตราย",
+    "มืดมน"
+   ],
+   "moods_en": [
+    "seductive",
+    "nocturnal",
+    "late-night",
+    "melancholic",
+    "intimate",
+    "introspective",
+    "dangerous",
+    "dark"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "ผ่อนคลาย",
+    "ขับรถ"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "dark trap",
+    "alt r&b rap"
+   ],
+   "duration": "2:48",
+   "duration_ms": 168500,
+   "release_date": "2024-08-16",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+   "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:warped-and-wicked",
+   "title": "Warped & Wicked",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Warped & Wicked\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์มืดมน, น่ากลัว เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "มืดมน",
+    "น่ากลัว",
+    "ท้าทาย",
+    "สะกดจิต",
+    "ดิบ",
+    "ครุ่นคิด",
+    "ยามค่ำคืน",
+    "ดึกดื่น",
+    "ดิสโทเปีย",
+    "ดุดัน",
+    "อันตราย"
+   ],
+   "moods_en": [
+    "dark",
+    "menacing",
+    "defiant",
+    "hypnotic",
+    "raw",
+    "brooding",
+    "nocturnal",
+    "late-night",
+    "dystopian",
+    "aggressive",
+    "dangerous"
+   ],
+   "contexts": [
+    "ขับรถ",
+    "ดึกดื่น",
+    "เขียนโค้ด"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "cinematic rap",
+    "underground trap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:08",
+   "duration_ms": 248555,
+   "release_date": "2022-04-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+   "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:golden-diamond",
+   "title": "Golden Diamond",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Golden Diamond\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ชัยชนะ, เหมือนภาพยนตร์ เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "ชัยชนะ",
+    "เหมือนภาพยนตร์",
+    "ยิ่งใหญ่",
+    "ดึกดื่น",
+    "มั่นใจ",
+    "ประณีต",
+    "ดิบ",
+    "เคลิบเคลิ้ม"
+   ],
+   "moods_en": [
+    "triumphant",
+    "cinematic",
+    "anthemic",
+    "late-night",
+    "confident",
+    "polished",
+    "raw",
+    "euphoric"
+   ],
+   "contexts": [
+    "การเฉลิมฉลอง",
+    "ก่อนเกม",
+    "ขับรถ",
+    "ตอนเช้า"
+   ],
+   "sounds_like": [
+    "melodic trap",
+    "post-trap",
+    "anthemic rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:02",
+   "duration_ms": 242696,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+   "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:spirits-n-shadows",
+   "title": "Spirits n Shadows",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Spirits n Shadows\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ดุดัน, สะกดจิต เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "ดุดัน",
+    "สะกดจิต",
+    "เร่งด่วน",
+    "ท้าทาย",
+    "น่ากลัว",
+    "ยิ่งใหญ่",
+    "หลอกหลอน",
+    "มืดมน",
+    "เหมือนภาพยนตร์",
+    "อันตราย",
+    "เต็มไปด้วยพลัง",
+    "ยามค่ำคืน"
+   ],
+   "moods_en": [
+    "aggressive",
+    "hypnotic",
+    "urgent",
+    "defiant",
+    "menacing",
+    "anthemic",
+    "haunting",
+    "dark",
+    "cinematic",
+    "dangerous",
+    "energetic",
+    "nocturnal"
+   ],
+   "contexts": [
+    "ออกกำลังกาย",
+    "วิ่ง",
+    "ยิม",
+    "ขับรถ",
+    "ดึกดื่น"
+   ],
+   "sounds_like": [
+    "rage beats",
+    "dark trap",
+    "nocturnal rap"
+   ],
+   "bpm": 157,
+   "energy_1_5": 4,
+   "duration": "3:18",
+   "duration_ms": 198034,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+   "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:flex-my-flame",
+   "title": "Flex My Flame",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Flex My Flame\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์มั่นใจ, อันตราย สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap"
+   ],
+   "moods": [
+    "มั่นใจ",
+    "อันตราย",
+    "ยิ่งใหญ่",
+    "ชัยชนะ",
+    "ลื่นไหล",
+    "ประณีต"
+   ],
+   "moods_en": [
+    "confident",
+    "dangerous",
+    "anthemic",
+    "triumphant",
+    "smooth",
+    "polished"
+   ],
+   "contexts": [
+    "ก่อนเกม",
+    "ปาร์ตี้",
+    "คลับ",
+    "ขับรถ",
+    "การเฉลิมฉลอง"
+   ],
+   "sounds_like": [
+    "post-trap",
+    "anthemic rap",
+    "trap"
+   ],
+   "duration": "3:03",
+   "duration_ms": 183750,
+   "release_date": "2023-07-28",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm",
+   "spotify_id": "3knXIxd0PlraXvarlwGwKm",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:rainbows-and-roses",
+   "title": "Rainbows And Roses",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Rainbows And Roses\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ครุ่นคิด, เปราะบาง เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อินดี้"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "ครุ่นคิด",
+    "เปราะบาง",
+    "เศร้า",
+    "โศกเศร้า",
+    "ฝันหวาน",
+    "นุ่มนวล",
+    "ยามค่ำคืน",
+    "โดดเดี่ยว"
+   ],
+   "moods_en": [
+    "introspective",
+    "vulnerable",
+    "sad",
+    "melancholic",
+    "dreamy",
+    "mellow",
+    "nocturnal",
+    "lonely"
+   ],
+   "contexts": [
+    "ผ่อนคลาย",
+    "ดึกดื่น",
+    "สมาธิ"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "melodic rap",
+    "sad rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:00",
+   "duration_ms": 240613,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+   "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 99,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:tears-and-scars",
+   "title": "Tears and Scars",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Tears and Scars\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์โศกเศร้า, ครุ่นคิด สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "โศกเศร้า",
+    "ครุ่นคิด",
+    "เปราะบาง",
+    "มืดมน",
+    "นุ่มนวล",
+    "ล่องลอย",
+    "เศร้า",
+    "โดดเดี่ยว",
+    "ดึกดื่น"
+   ],
+   "moods_en": [
+    "melancholic",
+    "introspective",
+    "vulnerable",
+    "dark",
+    "mellow",
+    "ethereal",
+    "sad",
+    "lonely",
+    "late-night"
+   ],
+   "contexts": [
+    "ผ่อนคลาย",
+    "ดึกดื่น",
+    "สมาธิ"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "dark trap",
+    "confessional rap"
+   ],
+   "duration": "4:40",
+   "duration_ms": 280346,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+   "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:toxic-elements",
+   "title": "Toxic Elements",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Toxic Elements\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์มืดมน, ยั่วยวน สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แทร็พ",
+    "แร็พ",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "มืดมน",
+    "ยั่วยวน",
+    "อันตราย",
+    "สะกดจิต",
+    "ดึกดื่น",
+    "ยามค่ำคืน",
+    "น่ากลัว",
+    "ดิบ"
+   ],
+   "moods_en": [
+    "dark",
+    "seductive",
+    "dangerous",
+    "hypnotic",
+    "late-night",
+    "nocturnal",
+    "menacing",
+    "raw"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "ขับรถ",
+    "ผ่อนคลาย"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "nocturnal rap",
+    "toxic r&b rap"
+   ],
+   "bpm": 140,
+   "musical_key": "C# minor",
+   "duration": "3:23",
+   "duration_ms": 203703,
+   "release_date": "2023-11-14",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+   "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 91,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:scorpion-and-sapphires",
+   "title": "Scorpion & Sapphires",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Scorpion & Sapphires\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ยามค่ำคืน, เหมือนภาพยนตร์ สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "ยามค่ำคืน",
+    "เหมือนภาพยนตร์",
+    "อันตราย",
+    "ยั่วยวน",
+    "ดิสโทเปีย",
+    "น่ากลัว",
+    "ลึกลับ",
+    "มืดมน",
+    "สะกดจิต",
+    "ดึกดื่น"
+   ],
+   "moods_en": [
+    "nocturnal",
+    "cinematic",
+    "dangerous",
+    "seductive",
+    "dystopian",
+    "menacing",
+    "mysterious",
+    "dark",
+    "hypnotic",
+    "late-night"
+   ],
+   "contexts": [
+    "ขับรถ",
+    "ดึกดื่น",
+    "เที่ยวทางรถ"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "cinematic rap",
+    "nocturnal rap"
+   ],
+   "duration": "3:07",
+   "duration_ms": 187480,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61",
+   "spotify_id": "0ptdX13NNwDj6l9hF0Pl61",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:7th-angel",
+   "title": "7th Angel",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"7th Angel\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ล่องลอย, ลี้ลับ เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อินดี้"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "ล่องลอย",
+    "ลี้ลับ",
+    "ยกระดับจิตใจ",
+    "เหมือนภาพยนตร์"
+   ],
+   "moods_en": [
+    "ethereal",
+    "mystical",
+    "uplifting",
+    "cinematic"
+   ],
+   "contexts": [
+    "ผ่อนคลาย",
+    "ดึกดื่น",
+    "สมาธิ"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "cinematic rap",
+    "nocturnal rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:00",
+   "duration_ms": 240000,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+   "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 97,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:place-i-go-to-dream",
+   "title": "Place I Go to Dream",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Place I Go to Dream\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ฝันหวาน, เปราะบาง เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อินดี้"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "ฝันหวาน",
+    "เปราะบาง",
+    "โศกเศร้า",
+    "หลอกหลอน",
+    "ล่องลอย",
+    "ครุ่นคิด",
+    "โดดเดี่ยว",
+    "ท้าทาย",
+    "ยามค่ำคืน",
+    "นุ่มนวล"
+   ],
+   "moods_en": [
+    "dreamy",
+    "vulnerable",
+    "melancholic",
+    "haunting",
+    "ethereal",
+    "introspective",
+    "lonely",
+    "defiant",
+    "nocturnal",
+    "mellow"
+   ],
+   "contexts": [
+    "ผ่อนคลาย",
+    "ดึกดื่น",
+    "สมาธิ",
+    "อ่านหนังสือ"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "indie rap",
+    "dream rap"
+   ],
+   "bpm": 85,
+   "musical_key": "C#",
+   "energy_1_5": 4,
+   "duration": "2:48",
+   "duration_ms": 168071,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+   "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:smokin-pain",
+   "title": "Smokin' Pain",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Smokin' Pain\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ครุ่นคิด, ดึกดื่น สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "ครุ่นคิด",
+    "ดึกดื่น",
+    "โศกเศร้า",
+    "มืดมน",
+    "โดดเดี่ยว",
+    "เศร้า",
+    "ดิบ",
+    "นุ่มนวล",
+    "ยามค่ำคืน",
+    "ชิล"
+   ],
+   "moods_en": [
+    "introspective",
+    "late-night",
+    "melancholic",
+    "dark",
+    "lonely",
+    "sad",
+    "raw",
+    "mellow",
+    "nocturnal",
+    "chill"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "ผ่อนคลาย"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "nocturnal rap",
+    "underground hip hop"
+   ],
+   "duration": "3:18",
+   "duration_ms": 198530,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+   "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:phantasm",
+   "title": "Phantasm",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Phantasm\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์มืดมน, ดิสโทเปีย เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "ไซเบอร์พังก์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "moods": [
+    "มืดมน",
+    "ดิสโทเปีย",
+    "ครุ่นคิด",
+    "ครุ่นคิด",
+    "ล่องลอย",
+    "ลึกลับ",
+    "ยามค่ำคืน",
+    "เหมือนภาพยนตร์",
+    "โศกเศร้า",
+    "หลอกหลอน",
+    "โดดเดี่ยว",
+    "เย็นชา",
+    "สะกดจิต"
+   ],
+   "moods_en": [
+    "dark",
+    "dystopian",
+    "introspective",
+    "brooding",
+    "ethereal",
+    "mysterious",
+    "nocturnal",
+    "cinematic",
+    "melancholic",
+    "haunting",
+    "lonely",
+    "cold",
+    "hypnotic"
+   ],
+   "contexts": [
+    "เขียนโค้ด",
+    "ดึกดื่น",
+    "สมาธิ",
+    "เล่นเกม"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "synthwave rap",
+    "dystopian rap"
+   ],
+   "energy_1_5": 4,
+   "duration": "3:55",
+   "duration_ms": 235467,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+   "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:misfits-and-hooligans",
+   "title": "Misfits and Hooligans",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Misfits and Hooligans\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์ท้าทาย, ดุดัน สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "ท้าทาย",
+    "ดุดัน",
+    "ดิบ",
+    "เต็มไปด้วยพลัง",
+    "ขบถ",
+    "ยิ่งใหญ่",
+    "ชัยชนะ",
+    "เร้าใจ"
+   ],
+   "moods_en": [
+    "defiant",
+    "aggressive",
+    "raw",
+    "energetic",
+    "rebellious",
+    "anthemic",
+    "triumphant",
+    "hype"
+   ],
+   "contexts": [
+    "ออกกำลังกาย",
+    "ก่อนเกม",
+    "ปาร์ตี้",
+    "ยิม"
+   ],
+   "sounds_like": [
+    "underground hip hop",
+    "anthemic rap",
+    "post-trap"
+   ],
+   "duration": "5:49",
+   "duration_ms": 349074,
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+   "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:roses-over-monaco",
+   "title": "Roses over Monaco",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Roses over Monaco\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์เหมือนภาพยนตร์, ดึกดื่น สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "เหมือนภาพยนตร์",
+    "ดึกดื่น",
+    "ชัยชนะ",
+    "มีความหวัง",
+    "โรแมนติก",
+    "คิดถึงอดีต",
+    "นุ่มนวล",
+    "อบอุ่น",
+    "จริงจัง",
+    "ครุ่นคิด",
+    "ยกระดับจิตใจ"
+   ],
+   "moods_en": [
+    "cinematic",
+    "late-night",
+    "triumphant",
+    "hopeful",
+    "romantic",
+    "nostalgic",
+    "mellow",
+    "warm",
+    "serious",
+    "introspective",
+    "uplifting"
+   ],
+   "contexts": [
+    "ผ่อนคลาย",
+    "การเฉลิมฉลอง",
+    "ขับรถ",
+    "ตอนเช้า"
+   ],
+   "sounds_like": [
+    "cinematic rap",
+    "melodic rap",
+    "triumphant rap"
+   ],
+   "duration": "4:35",
+   "duration_ms": 275304,
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+   "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+   "producer": "Jeck da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 88,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:broken-hearts-club",
+   "title": "Broken Hearts Club",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Broken Hearts Club\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์โศกเศร้า, ยิ่งใหญ่ เต็มพลังและเข้มข้น",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "โศกเศร้า",
+    "ยิ่งใหญ่",
+    "ท้าทาย",
+    "ชัยชนะ",
+    "เคลิบเคลิ้ม",
+    "เปราะบาง",
+    "เศร้า",
+    "เต็มไปด้วยพลัง"
+   ],
+   "moods_en": [
+    "melancholic",
+    "anthemic",
+    "defiant",
+    "triumphant",
+    "euphoric",
+    "vulnerable",
+    "sad",
+    "energetic"
+   ],
+   "contexts": [
+    "คลับ",
+    "ปาร์ตี้",
+    "ออกกำลังกาย",
+    "ขับรถ"
+   ],
+   "sounds_like": [
+    "sad rap",
+    "anthemic rap",
+    "post-trap"
+   ],
+   "bpm": 84,
+   "musical_key": "C# Major",
+   "energy_1_5": 4,
+   "duration": "3:08",
+   "duration_ms": 188000,
+   "release_date": "2023-05-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6OCaHPYNSYBwAgaQrZ5IHq",
+   "spotify_id": "6OCaHPYNSYBwAgaQrZ5IHq",
+   "producer": "Jeck Da General",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:star-king-akeem",
+   "title": "Star",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Star\" โดย King Ahkeem — เพลงแทร็พ, ฮิปฮอป อารมณ์ยิ่งใหญ่, ชัยชนะ สมดุลและน่าติดตาม",
+   "genres": [
+    "แทร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "ยิ่งใหญ่",
+    "ชัยชนะ",
+    "มั่นใจ",
+    "เคลิบเคลิ้ม",
+    "ท้าทาย",
+    "จริงจัง",
+    "เร้าใจ"
+   ],
+   "moods_en": [
+    "anthemic",
+    "triumphant",
+    "confident",
+    "euphoric",
+    "defiant",
+    "serious",
+    "hype"
+   ],
+   "contexts": [
+    "การเฉลิมฉลอง",
+    "ก่อนเกม",
+    "ปาร์ตี้",
+    "ออกกำลังกาย",
+    "ตอนเช้า"
+   ],
+   "sounds_like": [
+    "pop rap",
+    "anthemic rap",
+    "hip hop"
+   ],
+   "duration": "2:51",
+   "duration_ms": 171000,
+   "release_date": "2019-04-21",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4Zhwi9tbKqoxsJjbrSPVuY",
+   "spotify_id": "4Zhwi9tbKqoxsJjbrSPVuY",
+   "apple_music_url": "https://music.apple.com/us/album/star/1678405503?i=1678405504",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 90,
+   "catalog_tier": "silver",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:full-moon-183-wilboi",
+   "title": "Full Moon",
+   "artist": "183 Wildboi",
+   "artist_id": "artist:183-wildboi",
+   "description": "\"Full Moon\" โดย 183 Wildboi — เพลงแร็พร็อก, ร็อกแร็พ อารมณ์ยิ่งใหญ่, มั่นใจ สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พร็อก",
+    "ร็อกแร็พ"
+   ],
+   "genres_en": [
+    "rap rock",
+    "rock rap"
+   ],
+   "moods": [
+    "ยิ่งใหญ่",
+    "มั่นใจ",
+    "เต็มไปด้วยพลัง",
+    "เคลิบเคลิ้ม",
+    "ชัยชนะ",
+    "เร้าใจ"
+   ],
+   "moods_en": [
+    "anthemic",
+    "confident",
+    "energetic",
+    "euphoric",
+    "triumphant",
+    "hype"
+   ],
+   "contexts": [
+    "การเฉลิมฉลอง",
+    "ก่อนเกม",
+    "ออกกำลังกาย",
+    "ปาร์ตี้"
+   ],
+   "sounds_like": [
+    "melodic rap",
+    "anthemic rap",
+    "stadium rap"
+   ],
+   "bpm": 120,
+   "musical_key": "A minor",
+   "duration": "3:15",
+   "duration_ms": 195000,
+   "release_date": "2022-08-26",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ",
+   "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93,
+   "catalog_tier": "silver",
+   "genre_voice": "rap rock"
+  },
+  {
+   "id": "track:stunt-183-wilboi",
+   "title": "Stunt",
+   "artist": "183 Wildboi",
+   "artist_id": "artist:183-wildboi",
+   "description": "\"Stunt\" โดย 183 Wildboi — เพลงแร็พร็อก, ร็อกแร็พ อารมณ์เร้าใจ, ดุดัน สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พร็อก",
+    "ร็อกแร็พ"
+   ],
+   "genres_en": [
+    "rap rock",
+    "rock rap"
+   ],
+   "moods": [
+    "เร้าใจ",
+    "ดุดัน",
+    "ยิ่งใหญ่",
+    "ท้าทาย",
+    "มั่นใจ",
+    "ขบถ",
+    "เต็มไปด้วยพลัง",
+    "ดิบ"
+   ],
+   "moods_en": [
+    "hype",
+    "aggressive",
+    "anthemic",
+    "defiant",
+    "confident",
+    "rebellious",
+    "energetic",
+    "raw"
+   ],
+   "contexts": [
+    "ออกกำลังกาย",
+    "ก่อนเกม",
+    "ยิม",
+    "ปาร์ตี้"
+   ],
+   "sounds_like": [
+    "underground hip hop",
+    "trap",
+    "anthemic rap"
+   ],
+   "duration": "2:32",
+   "duration_ms": 152208,
+   "release_date": "2024-05-19",
+   "release_status": "released",
+   "spotify_id": "1nqHYA5CT2JwyZjVmoIkfe",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 72,
+   "catalog_tier": "silver",
+   "genre_voice": "rap rock"
+  },
+  {
+   "id": "track:vai-vem-vem-dre50",
+   "title": "vai vem vem",
+   "artist": "Dre50",
+   "artist_id": "artist:dre50",
+   "description": "\"vai vem vem\" โดย Dre50 — เพลงแอโฟรบีทส์, แดนซ์ฮอลล์ อารมณ์ลื่นไหล, มั่นใจ สมดุลและน่าติดตาม",
+   "genres": [
+    "แอโฟรบีทส์",
+    "แดนซ์ฮอลล์",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "afrobeats",
+    "dancehall",
+    "hip hop"
+   ],
+   "moods": [
+    "ลื่นไหล",
+    "มั่นใจ",
+    "ประณีต",
+    "อบอุ่น",
+    "ขี้เล่น",
+    "ยั่วยวน",
+    "สบายๆ",
+    "ชิล"
+   ],
+   "moods_en": [
+    "smooth",
+    "confident",
+    "polished",
+    "warm",
+    "playful",
+    "seductive",
+    "laid-back",
+    "chill"
+   ],
+   "contexts": [
+    "ปาร์ตี้",
+    "ขับรถ",
+    "เที่ยวทางรถ",
+    "คลับ"
+   ],
+   "sounds_like": [
+    "dancehall",
+    "afrobeats",
+    "island pop"
+   ],
+   "bpm": 126,
+   "musical_key": "F minor",
+   "duration": "2:47",
+   "duration_ms": 167000,
+   "release_date": "2026-09-30",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML",
+   "spotify_id": "6MNkg5WRxtnzLA22JFpUML",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "silver",
+   "genre_voice": "afrobeats"
+  },
+  {
+   "id": "track:pay-yourself-greg-porn",
+   "title": "Pay Yourself",
+   "artist": "Greg Porn",
+   "artist_id": "artist:greg-porn",
+   "description": "\"Pay Yourself\" โดย Greg Porn — เพลงไซเบอร์พังก์, ลักซ์ชัวรี่ดาร์ก อารมณ์ท้าทาย, ดุดัน สมดุลและน่าติดตาม",
+   "genres": [
+    "ไซเบอร์พังก์",
+    "ลักซ์ชัวรี่ดาร์ก"
+   ],
+   "genres_en": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "ท้าทาย",
+    "ดุดัน",
+    "ชัยชนะ",
+    "มั่นใจ",
+    "น่ากลัว",
+    "ดิบ",
+    "จริงจัง",
+    "อันตราย",
+    "หนักหน่วง"
+   ],
+   "moods_en": [
+    "defiant",
+    "aggressive",
+    "triumphant",
+    "confident",
+    "menacing",
+    "raw",
+    "serious",
+    "dangerous",
+    "heavy"
+   ],
+   "contexts": [
+    "ออกกำลังกาย",
+    "ยิม",
+    "ก่อนเกม",
+    "สมาธิ"
+   ],
+   "sounds_like": [
+    "underground trap",
+    "hardcore hip hop",
+    "street rap"
+   ],
+   "bpm": 94,
+   "musical_key": "A Major",
+   "duration": "3:06",
+   "duration_ms": 186000,
+   "release_date": "2023-07-04",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4E0B7kVlJgcX0V0L3e793L",
+   "spotify_id": "4E0B7kVlJgcX0V0L3e793L",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 96,
+   "catalog_tier": "silver",
+   "genre_voice": "cyberpunk"
+  },
+  {
+   "id": "track:on-edge-greg-porn",
+   "title": "On Edge",
+   "artist": "Greg Porn",
+   "artist_id": "artist:greg-porn",
+   "description": "\"On Edge\" โดย Greg Porn — เพลงไซเบอร์พังก์, ลักซ์ชัวรี่ดาร์ก อารมณ์ดึกดื่น, ครุ่นคิด สมดุลและน่าติดตาม",
+   "genres": [
+    "ไซเบอร์พังก์",
+    "ลักซ์ชัวรี่ดาร์ก"
+   ],
+   "genres_en": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "ดึกดื่น",
+    "ครุ่นคิด",
+    "อันตราย",
+    "เร่งด่วน",
+    "สะกดจิต",
+    "ดุดัน",
+    "วิตกกังวล",
+    "จริงจัง",
+    "ยามค่ำคืน",
+    "น่ากลัว",
+    "มืดมน"
+   ],
+   "moods_en": [
+    "late-night",
+    "introspective",
+    "dangerous",
+    "urgent",
+    "hypnotic",
+    "aggressive",
+    "anxious",
+    "serious",
+    "nocturnal",
+    "menacing",
+    "dark"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "เขียนโค้ด",
+    "ขับรถ",
+    "สมาธิ"
+   ],
+   "sounds_like": [
+    "nocturnal rap",
+    "underground trap",
+    "dark trap"
+   ],
+   "bpm": 172,
+   "musical_key": "G major",
+   "duration": "2:14",
+   "duration_ms": 134000,
+   "release_date": "2023-08-10",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/5MJKRQuEYdC6duNFHz964U",
+   "spotify_id": "5MJKRQuEYdC6duNFHz964U",
+   "apple_music_url": "https://music.apple.com/us/album/on-edge/1702015437?i=1702015438",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 98,
+   "catalog_tier": "silver",
+   "genre_voice": "cyberpunk"
+  },
+  {
+   "id": "track:unholy-hunter-greg-porn",
+   "title": "Unholy Hunter",
+   "artist": "Greg Porn",
+   "artist_id": "artist:greg-porn",
+   "description": "\"Unholy Hunter\" โดย Greg Porn — เพลงไซเบอร์พังก์, ลักซ์ชัวรี่ดาร์ก อารมณ์มืดมน, ดิสโทเปีย สมดุลและน่าติดตาม",
+   "genres": [
+    "ไซเบอร์พังก์",
+    "ลักซ์ชัวรี่ดาร์ก"
+   ],
+   "genres_en": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "มืดมน",
+    "ดิสโทเปีย",
+    "อันตราย",
+    "ยามค่ำคืน",
+    "น่ากลัว",
+    "สะกดจิต",
+    "ดึกดื่น",
+    "เย็นชา",
+    "ดิบ",
+    "ดุดัน"
+   ],
+   "moods_en": [
+    "dark",
+    "dystopian",
+    "dangerous",
+    "nocturnal",
+    "menacing",
+    "hypnotic",
+    "late-night",
+    "cold",
+    "raw",
+    "aggressive"
+   ],
+   "contexts": [
+    "ดึกดื่น",
+    "เขียนโค้ด",
+    "เล่นเกม"
+   ],
+   "sounds_like": [
+    "dark trap",
+    "underground trap",
+    "horrorcore-adjacent"
+   ],
+   "release_status": "unreleased_ref_only",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 85,
+   "catalog_tier": "bronze",
+   "genre_voice": "cyberpunk"
+  },
+  {
+   "id": "track:2k23-corner-fleekz",
+   "title": "2K23 Corners",
+   "artist": "Fleekz",
+   "artist_id": "artist:artist:fleekz",
+   "description": "\"2K23 Corners\" โดย Fleekz — เพลงแร็พ, ฮิปฮอป อารมณ์ดิบ, น่ากลัว สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พ",
+    "ฮิปฮอป",
+    "อันเดอร์กราวด์"
+   ],
+   "genres_en": [
+    "rap",
+    "hip hop",
+    "underground"
+   ],
+   "moods": [
+    "ดิบ",
+    "น่ากลัว",
+    "ดึกดื่น",
+    "ดุดัน",
+    "มั่นใจ",
+    "ดิบ",
+    "มืดมน",
+    "จริงจัง"
+   ],
+   "moods_en": [
+    "gritty",
+    "menacing",
+    "late-night",
+    "aggressive",
+    "confident",
+    "raw",
+    "dark",
+    "serious"
+   ],
+   "contexts": [
+    "ขับรถ",
+    "ดึกดื่น",
+    "ออกกำลังกาย"
+   ],
+   "sounds_like": [
+    "underground hip hop",
+    "street rap",
+    "trap"
+   ],
+   "bpm": 83,
+   "musical_key": "C# Major",
+   "duration": "3:58",
+   "duration_ms": 238000,
+   "release_date": "2023-02-07",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm",
+   "spotify_id": "6mpcJapNVe4OPZ3j9QPHqm",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 89,
+   "catalog_tier": "silver"
+  },
+  {
+   "id": "track:that-boy-hi-hat-cyberpunk-2027",
+   "title": "Cyberpunk 2027",
+   "artist": "That Boy Hi Hat",
+   "artist_id": "artist:tbhh",
+   "description": "\"Cyberpunk 2027\" โดย That Boy Hi Hat — เพลงแร็พทางเลือก, แร็พทางเลือก อารมณ์มืดมน, เหมือนภาพยนตร์ สมดุลและน่าติดตาม",
+   "genres": [
+    "แร็พทางเลือก",
+    "แร็พทางเลือก",
+    "โพสต์แทร็พ",
+    "แร็พ"
+   ],
+   "genres_en": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "มืดมน",
+    "เหมือนภาพยนตร์",
+    "ล้ำสมัย",
+    "ยามค่ำคืน",
+    "ดิสโทเปีย"
+   ],
+   "moods_en": [
+    "dark",
+    "cinematic",
+    "futuristic",
+    "nocturnal",
+    "dystopian"
+   ],
+   "contexts": [
+    "เขียนโค้ด",
+    "เล่นเกม",
+    "ขับรถ",
+    "ออกกำลังกาย",
+    "ดึกดื่น"
+   ],
+   "sounds_like": [
+    "cyberpunk rap",
+    "futuristic trap",
+    "synthwave rap"
+   ],
+   "release_date": "2026-10-20",
+   "release_status": "pre_release",
+   "apple_music_url": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+   "producer": "Kokurcho",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92,
+   "catalog_tier": "bronze",
+   "genre_voice": "post-trap futurism"
+  },
+  {
+   "id": "track:pix-dre50",
+   "title": "Pix",
+   "artist": "Dre50",
+   "artist_id": "artist:dre50",
+   "description": "\"Pix\" โดย Dre50 — เพลงแอโฟรบีทส์, แดนซ์ฮอลล์ อารมณ์ลื่นไหล, อบอุ่น สมดุลและน่าติดตาม",
+   "genres": [
+    "แอโฟรบีทส์",
+    "แดนซ์ฮอลล์",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "afrobeats",
+    "dancehall",
+    "hip hop"
+   ],
+   "moods": [
+    "ลื่นไหล",
+    "อบอุ่น",
+    "ขี้เล่น"
+   ],
+   "moods_en": [
+    "smooth",
+    "warm",
+    "playful"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_date": "2025-01-07",
+   "release_status": "released",
+   "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 84,
+   "catalog_tier": "silver",
+   "genre_voice": "afrobeats"
+  },
+  {
+   "id": "track:bluefaces-30-king-ahkeem",
+   "title": "Bluefaces 3.0",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Bluefaces 3.0\" โดย King Ahkeem — เพลงแทร็พ, ฮิปฮอป อารมณ์มั่นใจ, เร้าใจ สมดุลและน่าติดตาม",
+   "genres": [
+    "แทร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "มั่นใจ",
+    "เร้าใจ",
+    "ดุดัน"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:element-king-ahkeem",
+   "title": "Element",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Element\" โดย King Ahkeem — เพลงแทร็พ, ฮิปฮอป อารมณ์มั่นใจ, เร้าใจ สมดุลและน่าติดตาม",
+   "genres": [
+    "แทร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "มั่นใจ",
+    "เร้าใจ",
+    "ดุดัน"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:embiid-king-ahkeem",
+   "title": "Embiid",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Embiid\" โดย King Ahkeem — เพลงแทร็พ, ฮิปฮอป อารมณ์มั่นใจ, เร้าใจ สมดุลและน่าติดตาม",
+   "genres": [
+    "แทร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "มั่นใจ",
+    "เร้าใจ",
+    "ดุดัน"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  },
+  {
+   "id": "track:super-solid-king-ahkeem",
+   "title": "Super Solid",
+   "artist": "King Ahkeem",
+   "artist_id": "artist:king-ahkeem",
+   "description": "\"Super Solid\" โดย King Ahkeem — เพลงแทร็พ, ฮิปฮอป อารมณ์มั่นใจ, เร้าใจ สมดุลและน่าติดตาม",
+   "genres": [
+    "แทร็พ",
+    "ฮิปฮอป"
+   ],
+   "genres_en": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "มั่นใจ",
+    "เร้าใจ",
+    "ดุดัน"
+   ],
+   "moods_en": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "sounds_like": [],
+   "release_status": "released",
+   "co_producer": "Black Lansky",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87,
+   "catalog_tier": "bronze",
+   "genre_voice": "trap"
+  }
+ ],
+ "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+ "license": "MIT",
+ "publisher": "Cumulative Web Inc"
+}

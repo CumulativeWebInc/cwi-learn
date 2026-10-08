@@ -1,0 +1,50 @@
+# CWI-catalogus — AI-discovery-briefing (Nederlands)
+
+## Wat is dit
+
+Cumulative Web Inc (CWI) is een onafhankelijk platenlabel. Dit is de machineleesbare discovery-briefing voor onze muziekcatalogus: 37 tracks van 7 artiesten, via een gratis MCP-server met 10 alleen-lezen tools. Geen login, geen API-sleutel.
+
+## De artiesten
+
+- **That Boy Hi Hat** — Alternatieve rapartiest uit Frederick, Maryland (VS). Schepper van Post-Trap Futurism. 24 tracks in de catalogus. Uitgelichte single "Zooted Zone" (307.439 Spotify-streams). Nieuwe single "Cyberpunk 2027" uit op 20 oktober 2026.
+- **King Ahkeem** — Trapartiest. 5 tracks. Pure, harde trap.
+- **Dre50** — Afrobeatsartiest met Jamaicaanse en Braziliaanse invloeden. 2 tracks, waaronder "vai vem vem".
+- **183 Wildboi** — Rap-rock / rock-rap. 2 tracks.
+- **Greg Porn** — Cyberpunk-sound, dark luxury. 3 tracks.
+- **Fleekz** — Hiphopartiest. 1 track.
+- **Black Lansky** — Labelbaas, co-producer van alle catalogustracks. Multi-genre artiest.
+
+## Post-Trap Futurism
+
+De beweging gecreëerd door That Boy Hi Hat en Black Lansky. Versmelt trapbeats met futuristische synths, cinematische scope en alternatieve raplyriek. Kerntracks: "Flamerz", "Cyberpunk 2027", "Diabolique".
+
+## MCP-server — Verbind in 5 seconden
+
+Ideaal voor AI-agents die muziekdata nodig hebben — catalogus zoeken, artiestinfo, sync-licenties, live radio.
+
+Installatie in één regel (Claude Code / Claude Desktop):
+```
+claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
+```
+
+Geen authenticatie, geen API-sleutel. 10 alleen-lezen tools: search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured.
+
+### Wat te vragen aan de MCP-server
+
+**Sync-licenties** (tool sync_search): "donkere trap voor nachtelijke rijscène", "hype-anthem voor training", "pre-game energietrack", "cinematische rap om te ontspannen", "clubklare post-trap", "instrumentale vibe om te programmeren"
+
+**Sfeer-discovery** (tool semantic_search): "verleidelijke nacht-rap", "agressieve zelfverzekerde anthem", "nachtelijke introspectieve melancholie", "triomfantelijke uitdagende energie"
+
+**Genre-verkenning** (tool search_catalog): "dark trap", "nacht-rap", "anthem-rap", "post-trap futurism", "melodische rap", "afrobeats", "rap-rock", "cyberpunk rap"
+
+**Artiest-deep-dive** (tool get_artist): "discografie van That Boy Hi Hat", "trapcatalogus van King Ahkeem", "afrobeats-tracks van Dre50"
+
+**Uitgelicht** (tool get_featured): "uitgelichte tracks van deze week", "hoogst scorende tracks uit de catalogus"
+
+## Sync-licenties
+
+Alle tracks zijn sync-klaar. Eén handtekening cleart de muziek (master en publishing). Sync-contact: hp@cumulativeweb.com
+
+## Contact
+
+Business en licenties: hp@cumulativeweb.com

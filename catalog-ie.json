@@ -1,0 +1,1275 @@
+{
+ "schema": "cwi-catalog/v1",
+ "language": "en",
+ "region": "IE",
+ "region_name": "Ireland",
+ "timezone": "Europe/Dublin",
+ "title": "CWI Catalog (Ireland)",
+ "description": "Machine-readable CWI music catalog for Ireland: 37 tracks from 7 artists.",
+ "track_count": 37,
+ "tracks": [
+  {
+   "id": "track:diabolique",
+   "title": "Diabolique",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "dark",
+    "seductive",
+    "cinematic",
+    "dangerous",
+    "nocturnal",
+    "late-night",
+    "introspective",
+    "sad"
+   ],
+   "contexts": [
+    "late-night",
+    "driving",
+    "club",
+    "wind-down"
+   ],
+   "bpm": 77,
+   "musical_key": "G# minor",
+   "energy_1_5": 3,
+   "duration": "2:35",
+   "release_date": "2026-07-03",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+   "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86
+  },
+  {
+   "id": "track:zooted-zone",
+   "title": "Zooted Zone",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "post trap",
+    "trap",
+    "rap",
+    "underground",
+    "hip hop"
+   ],
+   "moods": [
+    "hype",
+    "hypnotic",
+    "aggressive",
+    "underground",
+    "late-night",
+    "anthemic"
+   ],
+   "contexts": [
+    "party",
+    "club",
+    "pre-game",
+    "driving"
+   ],
+   "bpm": 163,
+   "musical_key": "C# minor",
+   "energy_1_5": 4,
+   "duration": "3:08",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+   "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87
+  },
+  {
+   "id": "track:doves-and-diamonds",
+   "title": "Doves & Diamonds",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "luxury",
+    "reflective",
+    "smooth",
+    "late-night",
+    "anthemic",
+    "introspective",
+    "hype"
+   ],
+   "contexts": [
+    "late-night",
+    "wind-down",
+    "celebration"
+   ],
+   "bpm": 85,
+   "musical_key": "D minor",
+   "energy_1_5": 4,
+   "duration": "3:01",
+   "release_date": "2023-01-11",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+   "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 96
+  },
+  {
+   "id": "track:shaka-zulu",
+   "title": "Shaka Zulu",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop",
+    "underground"
+   ],
+   "moods": [
+    "energetic",
+    "aggressive",
+    "anthemic",
+    "defiant",
+    "rebellious",
+    "menacing",
+    "hypnotic",
+    "triumphant",
+    "dangerous",
+    "confident",
+    "dark",
+    "nocturnal"
+   ],
+   "contexts": [
+    "workout",
+    "gym",
+    "pre-game",
+    "running"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:11",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+   "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 98
+  },
+  {
+   "id": "track:flamerz",
+   "title": "Flamerz",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "aggressive",
+    "defiant",
+    "confident",
+    "anthemic",
+    "hype",
+    "rebellious",
+    "urgent",
+    "dangerous",
+    "energetic",
+    "dark"
+   ],
+   "contexts": [
+    "workout",
+    "gym",
+    "party",
+    "pre-game",
+    "club"
+   ],
+   "duration": "3:06",
+   "release_date": "2025-11-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+   "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95
+  },
+  {
+   "id": "track:neon-nights-pt-777",
+   "title": "Neon Nights Pt. 777",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "moods": [
+    "ethereal",
+    "smooth",
+    "hypnotic",
+    "late-night",
+    "seductive",
+    "cinematic",
+    "dreamy",
+    "nocturnal",
+    "futuristic",
+    "mysterious",
+    "laid-back",
+    "chill",
+    "polished"
+   ],
+   "contexts": [
+    "driving",
+    "late-night",
+    "coding",
+    "wind-down",
+    "road-trip"
+   ],
+   "energy_1_5": 4,
+   "duration": "3:47",
+   "release_date": "2025-11-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+   "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 88
+  },
+  {
+   "id": "track:ultimate",
+   "title": "Ultimate",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "hip hop"
+   ],
+   "moods": [
+    "anthemic",
+    "cinematic",
+    "triumphant",
+    "defiant",
+    "confident",
+    "euphoric",
+    "dark",
+    "nocturnal",
+    "hypnotic"
+   ],
+   "contexts": [
+    "pre-game",
+    "workout",
+    "celebration",
+    "morning"
+   ],
+   "duration": "3:16",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+   "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93
+  },
+  {
+   "id": "track:painted-lady",
+   "title": "Painted Lady",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "seductive",
+    "nocturnal",
+    "late-night",
+    "melancholic",
+    "intimate",
+    "introspective",
+    "dangerous",
+    "dark"
+   ],
+   "contexts": [
+    "late-night",
+    "wind-down",
+    "driving"
+   ],
+   "duration": "2:48",
+   "release_date": "2024-08-16",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+   "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87
+  },
+  {
+   "id": "track:warped-and-wicked",
+   "title": "Warped & Wicked",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "dark",
+    "menacing",
+    "defiant",
+    "hypnotic",
+    "raw",
+    "brooding",
+    "nocturnal",
+    "late-night",
+    "dystopian",
+    "aggressive",
+    "dangerous"
+   ],
+   "contexts": [
+    "driving",
+    "late-night",
+    "coding"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:08",
+   "release_date": "2022-04-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+   "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92
+  },
+  {
+   "id": "track:golden-diamond",
+   "title": "Golden Diamond",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "triumphant",
+    "cinematic",
+    "anthemic",
+    "late-night",
+    "confident",
+    "polished",
+    "raw",
+    "euphoric"
+   ],
+   "contexts": [
+    "celebration",
+    "pre-game",
+    "driving",
+    "morning"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:02",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+   "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87
+  },
+  {
+   "id": "track:spirits-n-shadows",
+   "title": "Spirits n Shadows",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "aggressive",
+    "hypnotic",
+    "urgent",
+    "defiant",
+    "menacing",
+    "anthemic",
+    "haunting",
+    "dark",
+    "cinematic",
+    "dangerous",
+    "energetic",
+    "nocturnal"
+   ],
+   "contexts": [
+    "workout",
+    "running",
+    "gym",
+    "driving",
+    "late-night"
+   ],
+   "bpm": 157,
+   "energy_1_5": 4,
+   "duration": "3:18",
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+   "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93
+  },
+  {
+   "id": "track:flex-my-flame",
+   "title": "Flex My Flame",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap"
+   ],
+   "moods": [
+    "confident",
+    "dangerous",
+    "anthemic",
+    "triumphant",
+    "smooth",
+    "polished"
+   ],
+   "contexts": [
+    "pre-game",
+    "party",
+    "club",
+    "driving",
+    "celebration"
+   ],
+   "duration": "3:03",
+   "release_date": "2023-07-28",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm",
+   "spotify_id": "3knXIxd0PlraXvarlwGwKm",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87
+  },
+  {
+   "id": "track:rainbows-and-roses",
+   "title": "Rainbows And Roses",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "introspective",
+    "vulnerable",
+    "sad",
+    "melancholic",
+    "dreamy",
+    "mellow",
+    "nocturnal",
+    "lonely"
+   ],
+   "contexts": [
+    "wind-down",
+    "late-night",
+    "focus"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:00",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+   "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 99
+  },
+  {
+   "id": "track:tears-and-scars",
+   "title": "Tears and Scars",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "melancholic",
+    "introspective",
+    "vulnerable",
+    "dark",
+    "mellow",
+    "ethereal",
+    "sad",
+    "lonely",
+    "late-night"
+   ],
+   "contexts": [
+    "wind-down",
+    "late-night",
+    "focus"
+   ],
+   "duration": "4:40",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+   "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92
+  },
+  {
+   "id": "track:toxic-elements",
+   "title": "Toxic Elements",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "dark",
+    "seductive",
+    "dangerous",
+    "hypnotic",
+    "late-night",
+    "nocturnal",
+    "menacing",
+    "raw"
+   ],
+   "contexts": [
+    "late-night",
+    "driving",
+    "wind-down"
+   ],
+   "bpm": 140,
+   "musical_key": "C# minor",
+   "duration": "3:23",
+   "release_date": "2023-11-14",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+   "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 91
+  },
+  {
+   "id": "track:scorpion-and-sapphires",
+   "title": "Scorpion & Sapphires",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "nocturnal",
+    "cinematic",
+    "dangerous",
+    "seductive",
+    "dystopian",
+    "menacing",
+    "mysterious",
+    "dark",
+    "hypnotic",
+    "late-night"
+   ],
+   "contexts": [
+    "driving",
+    "late-night",
+    "road-trip"
+   ],
+   "duration": "3:07",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61",
+   "spotify_id": "0ptdX13NNwDj6l9hF0Pl61",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93
+  },
+  {
+   "id": "track:7th-angel",
+   "title": "7th Angel",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "ethereal",
+    "mystical",
+    "uplifting",
+    "cinematic"
+   ],
+   "contexts": [
+    "wind-down",
+    "late-night",
+    "focus"
+   ],
+   "energy_1_5": 4,
+   "duration": "4:00",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+   "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 97
+  },
+  {
+   "id": "track:place-i-go-to-dream",
+   "title": "Place I Go to Dream",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "indie"
+   ],
+   "moods": [
+    "dreamy",
+    "vulnerable",
+    "melancholic",
+    "haunting",
+    "ethereal",
+    "introspective",
+    "lonely",
+    "defiant",
+    "nocturnal",
+    "mellow"
+   ],
+   "contexts": [
+    "wind-down",
+    "late-night",
+    "focus",
+    "studying"
+   ],
+   "bpm": 85,
+   "musical_key": "C#",
+   "energy_1_5": 4,
+   "duration": "2:48",
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+   "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92
+  },
+  {
+   "id": "track:smokin-pain",
+   "title": "Smokin' Pain",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "introspective",
+    "late-night",
+    "melancholic",
+    "dark",
+    "lonely",
+    "sad",
+    "raw",
+    "mellow",
+    "nocturnal",
+    "chill"
+   ],
+   "contexts": [
+    "late-night",
+    "wind-down"
+   ],
+   "duration": "3:18",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+   "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95
+  },
+  {
+   "id": "track:phantasm",
+   "title": "Phantasm",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "cyberpunk"
+   ],
+   "moods": [
+    "dark",
+    "dystopian",
+    "introspective",
+    "brooding",
+    "ethereal",
+    "mysterious",
+    "nocturnal",
+    "cinematic",
+    "melancholic",
+    "haunting",
+    "lonely",
+    "cold",
+    "hypnotic"
+   ],
+   "contexts": [
+    "coding",
+    "late-night",
+    "focus",
+    "gaming"
+   ],
+   "energy_1_5": 4,
+   "duration": "3:55",
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+   "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93
+  },
+  {
+   "id": "track:misfits-and-hooligans",
+   "title": "Misfits and Hooligans",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap",
+    "underground"
+   ],
+   "moods": [
+    "defiant",
+    "aggressive",
+    "raw",
+    "energetic",
+    "rebellious",
+    "anthemic",
+    "triumphant",
+    "hype"
+   ],
+   "contexts": [
+    "workout",
+    "pre-game",
+    "party",
+    "gym"
+   ],
+   "duration": "5:49",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+   "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 95
+  },
+  {
+   "id": "track:roses-over-monaco",
+   "title": "Roses over Monaco",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "cinematic",
+    "late-night",
+    "triumphant",
+    "hopeful",
+    "romantic",
+    "nostalgic",
+    "mellow",
+    "warm",
+    "serious",
+    "introspective",
+    "uplifting"
+   ],
+   "contexts": [
+    "wind-down",
+    "celebration",
+    "driving",
+    "morning"
+   ],
+   "duration": "4:35",
+   "release_date": "2021-11-24",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+   "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 88
+  },
+  {
+   "id": "track:broken-hearts-club",
+   "title": "Broken Hearts Club",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "melancholic",
+    "anthemic",
+    "defiant",
+    "triumphant",
+    "euphoric",
+    "vulnerable",
+    "sad",
+    "energetic"
+   ],
+   "contexts": [
+    "club",
+    "party",
+    "workout",
+    "driving"
+   ],
+   "bpm": 84,
+   "musical_key": "C# Major",
+   "energy_1_5": 4,
+   "duration": "3:08",
+   "release_date": "2023-05-20",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6OCaHPYNSYBwAgaQrZ5IHq",
+   "spotify_id": "6OCaHPYNSYBwAgaQrZ5IHq",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93
+  },
+  {
+   "id": "track:star-king-akeem",
+   "title": "Star",
+   "artist": "King Ahkeem",
+   "genres": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "anthemic",
+    "triumphant",
+    "confident",
+    "euphoric",
+    "defiant",
+    "serious",
+    "hype"
+   ],
+   "contexts": [
+    "celebration",
+    "pre-game",
+    "party",
+    "workout",
+    "morning"
+   ],
+   "duration": "2:51",
+   "release_date": "2019-04-21",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4Zhwi9tbKqoxsJjbrSPVuY",
+   "spotify_id": "4Zhwi9tbKqoxsJjbrSPVuY",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 90
+  },
+  {
+   "id": "track:full-moon-183-wilboi",
+   "title": "Full Moon",
+   "artist": "183 Wildboi",
+   "genres": [
+    "rap rock",
+    "rock rap"
+   ],
+   "moods": [
+    "anthemic",
+    "confident",
+    "energetic",
+    "euphoric",
+    "triumphant",
+    "hype"
+   ],
+   "contexts": [
+    "celebration",
+    "pre-game",
+    "workout",
+    "party"
+   ],
+   "bpm": 120,
+   "musical_key": "A minor",
+   "duration": "3:15",
+   "release_date": "2022-08-26",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ",
+   "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 93
+  },
+  {
+   "id": "track:stunt-183-wilboi",
+   "title": "Stunt",
+   "artist": "183 Wildboi",
+   "genres": [
+    "rap rock",
+    "rock rap"
+   ],
+   "moods": [
+    "hype",
+    "aggressive",
+    "anthemic",
+    "defiant",
+    "confident",
+    "rebellious",
+    "energetic",
+    "raw"
+   ],
+   "contexts": [
+    "workout",
+    "pre-game",
+    "gym",
+    "party"
+   ],
+   "duration": "2:32",
+   "release_date": "2024-05-19",
+   "release_status": "released",
+   "spotify_id": "1nqHYA5CT2JwyZjVmoIkfe",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 72
+  },
+  {
+   "id": "track:vai-vem-vem-dre50",
+   "title": "vai vem vem",
+   "artist": "Dre50",
+   "genres": [
+    "afrobeats",
+    "dancehall",
+    "hip hop"
+   ],
+   "moods": [
+    "smooth",
+    "confident",
+    "polished",
+    "warm",
+    "playful",
+    "seductive",
+    "laid-back",
+    "chill"
+   ],
+   "contexts": [
+    "party",
+    "driving",
+    "road-trip",
+    "club"
+   ],
+   "bpm": 126,
+   "musical_key": "F minor",
+   "duration": "2:47",
+   "release_date": "2026-09-30",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML",
+   "spotify_id": "6MNkg5WRxtnzLA22JFpUML",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92
+  },
+  {
+   "id": "track:pay-yourself-greg-porn",
+   "title": "Pay Yourself",
+   "artist": "Greg Porn",
+   "genres": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "defiant",
+    "aggressive",
+    "triumphant",
+    "confident",
+    "menacing",
+    "raw",
+    "serious",
+    "dangerous",
+    "heavy"
+   ],
+   "contexts": [
+    "workout",
+    "gym",
+    "pre-game",
+    "focus"
+   ],
+   "bpm": 94,
+   "musical_key": "A Major",
+   "duration": "3:06",
+   "release_date": "2023-07-04",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/4E0B7kVlJgcX0V0L3e793L",
+   "spotify_id": "4E0B7kVlJgcX0V0L3e793L",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 96
+  },
+  {
+   "id": "track:on-edge-greg-porn",
+   "title": "On Edge",
+   "artist": "Greg Porn",
+   "genres": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "late-night",
+    "introspective",
+    "dangerous",
+    "urgent",
+    "hypnotic",
+    "aggressive",
+    "anxious",
+    "serious",
+    "nocturnal",
+    "menacing",
+    "dark"
+   ],
+   "contexts": [
+    "late-night",
+    "coding",
+    "driving",
+    "focus"
+   ],
+   "bpm": 172,
+   "musical_key": "G major",
+   "duration": "2:14",
+   "release_date": "2023-08-10",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/5MJKRQuEYdC6duNFHz964U",
+   "spotify_id": "5MJKRQuEYdC6duNFHz964U",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 98
+  },
+  {
+   "id": "track:unholy-hunter-greg-porn",
+   "title": "Unholy Hunter",
+   "artist": "Greg Porn",
+   "genres": [
+    "cyberpunk",
+    "dark luxury"
+   ],
+   "moods": [
+    "dark",
+    "dystopian",
+    "dangerous",
+    "nocturnal",
+    "menacing",
+    "hypnotic",
+    "late-night",
+    "cold",
+    "raw",
+    "aggressive"
+   ],
+   "contexts": [
+    "late-night",
+    "coding",
+    "gaming"
+   ],
+   "release_status": "unreleased_ref_only",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 85
+  },
+  {
+   "id": "track:2k23-corner-fleekz",
+   "title": "2K23 Corners",
+   "artist": "Fleekz",
+   "genres": [
+    "rap",
+    "hip hop",
+    "underground"
+   ],
+   "moods": [
+    "gritty",
+    "menacing",
+    "late-night",
+    "aggressive",
+    "confident",
+    "raw",
+    "dark",
+    "serious"
+   ],
+   "contexts": [
+    "driving",
+    "late-night",
+    "workout"
+   ],
+   "bpm": 83,
+   "musical_key": "C# Major",
+   "duration": "3:58",
+   "release_date": "2023-02-07",
+   "release_status": "released",
+   "spotify_url": "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm",
+   "spotify_id": "6mpcJapNVe4OPZ3j9QPHqm",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 89
+  },
+  {
+   "id": "track:that-boy-hi-hat-cyberpunk-2027",
+   "title": "Cyberpunk 2027",
+   "artist": "That Boy Hi Hat",
+   "genres": [
+    "alternative rap",
+    "alt rap",
+    "post trap",
+    "rap"
+   ],
+   "moods": [
+    "dark",
+    "cinematic",
+    "futuristic",
+    "nocturnal",
+    "dystopian"
+   ],
+   "contexts": [
+    "coding",
+    "gaming",
+    "driving",
+    "workout",
+    "late-night"
+   ],
+   "release_date": "2026-10-20",
+   "release_status": "pre_release",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 92
+  },
+  {
+   "id": "track:pix-dre50",
+   "title": "Pix",
+   "artist": "Dre50",
+   "genres": [
+    "afrobeats",
+    "dancehall",
+    "hip hop"
+   ],
+   "moods": [
+    "smooth",
+    "warm",
+    "playful"
+   ],
+   "contexts": [],
+   "release_date": "2025-01-07",
+   "release_status": "released",
+   "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 84
+  },
+  {
+   "id": "track:bluefaces-30-king-ahkeem",
+   "title": "Bluefaces 3.0",
+   "artist": "King Ahkeem",
+   "genres": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "release_status": "released",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86
+  },
+  {
+   "id": "track:element-king-ahkeem",
+   "title": "Element",
+   "artist": "King Ahkeem",
+   "genres": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "release_status": "released",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87
+  },
+  {
+   "id": "track:embiid-king-ahkeem",
+   "title": "Embiid",
+   "artist": "King Ahkeem",
+   "genres": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "release_status": "released",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 86
+  },
+  {
+   "id": "track:super-solid-king-ahkeem",
+   "title": "Super Solid",
+   "artist": "King Ahkeem",
+   "genres": [
+    "trap",
+    "hip hop"
+   ],
+   "moods": [
+    "confident",
+    "hype",
+    "aggressive"
+   ],
+   "contexts": [],
+   "release_status": "released",
+   "label": "Cumulative Web Inc",
+   "license_contact": "hp@cumulativeweb.com",
+   "nlp_score": 87
+  }
+ ],
+ "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+ "license": "MIT",
+ "publisher": "Cumulative Web Inc"
+}

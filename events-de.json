@@ -1,0 +1,40 @@
+{
+ "schema": "cwi-events/v1",
+ "language": "de",
+ "event_count": 2,
+ "events": [
+  {
+   "id": "cyberpunk-2027-release",
+   "date": "2026-10-20",
+   "category": "releases",
+   "headline": "Cyberpunk 2027 — neue Single von That Boy Hi Hat erscheint am 20. Oktober 2026",
+   "body": "Die neue Single von That Boy Hi Hat, „Cyberpunk 2027\", erscheint am 20. Oktober 2026. Der Track ist die Lead-Single, die den Post-Trap Futurism verkörpert — das Genre, das That Boy Hi Hat geschaffen hat.",
+   "related_tracks": [
+    "Cyberpunk 2027"
+   ],
+   "artist": "That Boy Hi Hat",
+   "links": {
+    "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+    "page": "https://cumulativeweb.com/cyberpunk-2027.html"
+   }
+  },
+  {
+   "id": "featured-rotation-week-41",
+   "date": "2026-10-08",
+   "category": "catalog",
+   "headline": "Featured-Rotation Woche C — Phantasm, Zooted Zone, Warped & Wicked, Roses over Monaco, Flex My Flame",
+   "body": "Die vorgestellten Picks dieser Woche aus dem CWI-Katalog: Phantasm (70.5), Zooted Zone (70.5), Warped & Wicked (70.3), Roses over Monaco (69.7), Flex My Flame (69.5). Wöchentlich neue Picks — get_featured für die aktuelle Rotation aufrufen.",
+   "related_tracks": [
+    "Phantasm",
+    "Zooted Zone",
+    "Warped & Wicked",
+    "Roses over Monaco",
+    "Flex My Flame"
+   ],
+   "rotation": "week_c",
+   "week": 41
+  }
+ ],
+ "source": "https://cumulativewebinc.github.io/cwi-learn/announcements.json",
+ "publisher": "Cumulative Web Inc"
+}

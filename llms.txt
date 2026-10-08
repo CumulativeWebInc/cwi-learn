@@ -137,15 +137,24 @@ Fact packet: https://cumulativewebinc.github.io/cwi-learn/facts/release/cyberpun
 
 Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative Web Inc)
 
-## International discovery (6 languages)
+## International discovery (8 languages + 3 regions)
 
-This catalog brief is available in 5 additional languages for AI agents operating in non-English markets. Each version includes translated artist bios, catalog descriptions, MCP install instructions, and localized call-magnet query examples.
+This catalog brief is available in 7 additional languages for AI agents operating in non-English markets. Each version includes translated artist bios, catalog descriptions, MCP install instructions, and localized call-magnet query examples. Full JSON data (catalog, events, MCP discovery) is available per language.
 
 - Português (Brasil): https://cumulativewebinc.github.io/cwi-learn/llms-pt-BR.txt
 - Deutsch: https://cumulativewebinc.github.io/cwi-learn/llms-de.txt
 - Français: https://cumulativewebinc.github.io/cwi-learn/llms-fr.txt
 - Italiano: https://cumulativewebinc.github.io/cwi-learn/llms-it.txt
 - Español: https://cumulativewebinc.github.io/cwi-learn/llms-es.txt
+- ไทย (Thai): https://cumulativewebinc.github.io/cwi-learn/llms-th.txt
+- Nederlands: https://cumulativewebinc.github.io/cwi-learn/llms-nl.txt
+
+Region-specific catalog and event data (English):
+- United Kingdom: https://cumulativewebinc.github.io/cwi-learn/catalog-uk.json
+- Ireland: https://cumulativewebinc.github.io/cwi-learn/catalog-ie.json
+- Australia: https://cumulativewebinc.github.io/cwi-learn/catalog-au.json
+
+JSON discovery files per language: catalog-{lang}.json, events-{lang}.json, mcp-{lang}.json (e.g. https://cumulativewebinc.github.io/cwi-learn/catalog-de.json)
 
 Agent card declares all supported languages: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
 

@@ -1,0 +1,93 @@
+{
+ "$schema": "https://modelcontextprotocol.io/schemas/server-manifest.json",
+ "name": "io.github.CumulativeWebInc/cwi-discovery-engine",
+ "version": "1.0.0",
+ "title": "CWI Discovery Engine",
+ "description": "เซิร์ฟเวอร์ MCP แบบอ่านอย่างเดียวสำหรับแคตตาล็อกเพลงของ Cumulative Web Inc: ค้นหาเพลง ดูข้อมูลศิลปิน ค้นหาเพลงเชิงความหมาย กราฟความรู้ ข้อมูลการปล่อยเพลง วิทยุสด ประกาศ และเพลงแนะนำ",
+ "homepage": "https://cumulativeweb.com",
+ "repository": "https://github.com/CumulativeWebInc/cwi-learn",
+ "license": "MIT",
+ "publisher": "CumulativeWebInc",
+ "language": "th",
+ "transport": {
+  "type": "streamable-http",
+  "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp"
+ },
+ "tools": [
+  {
+   "name": "search_catalog",
+   "description": "ค้นหาแคตตาล็อกเพลงของ CWI (That Boy Hi Hat + ศิลปิน) ด้วยคำค้น ชื่อเพลงน้ำหนัก 3 เท่า แนวดนตรี 2 เท่า อารมณ์ 1 เท่า ส่งคืน 5 เพลงอันดับต้นพร้อม URL Spotify และคำที่ตรงกัน",
+   "example_queries": [
+    "ดาร์กแทร็พ",
+    "แร็พยามค่ำคืน",
+    "แร็พปลุกใจ",
+    "โพสต์แทร็พฟิวเจอริซึม",
+    "แร็พเมโลดิก",
+    "แอโฟรบีทส์",
+    "แร็พร็อก",
+    "ไซเบอร์พังก์แร็พ"
+   ]
+  },
+  {
+   "name": "get_track",
+   "description": "ค้นหาเพลงจากแคตตาล็อกด้วยชื่อหรือ Spotify ID/URL ส่งคืนชื่อเพลง ศิลปิน URL Spotify แนวดนตรี และอารมณ์",
+   "example_queries": []
+  },
+  {
+   "name": "get_artist",
+   "description": "ค้นหาศิลปินด้วยชื่อ ส่งคืนศิลปินและเพลงของเขาในแคตตาล็อกพร้อม URL Spotify",
+   "example_queries": []
+  },
+  {
+   "name": "sync_search",
+   "description": "ค้นหาแคตตาล็อกซิงก์ของ CWI สำหรับงาน music supervision เช่น \"ฉากต่อสู้\" หรือ \"เมืองนีออน\" สร้างมาสำหรับบรีฟซิงก์ภาพยนตร์/ทีวี/โฆษณา",
+   "example_queries": [
+    "แทร็พดาร์กสำหรับฉากขับรถยามค่ำคืน",
+    "เพลงปลุกใจสำหรับออกกำลังกาย",
+    "เพลงพลังก่อนเกม",
+    "แร็พสไตล์ภาพยนตร์สำหรับผ่อนคลาย",
+    "โพสต์แทร็พพร้อมคลับ",
+    "ไวบ์ดนตรีสำหรับเขียนโค้ด"
+   ]
+  },
+  {
+   "name": "semantic_search",
+   "description": "ค้นหาเชิงความหมายบนเมทริกซ์เอ็มเบดดิงของแคตตาล็อก ถามด้วยภาษาธรรมชาติและรับผลลัพธ์จัดอันดับพร้อมคะแนนความคล้ายจริง",
+   "example_queries": [
+    "แร็พยามค่ำคืนยั่วยวน",
+    "เพลงปลุกใจดุดันมั่นใจ",
+    "ความโศกเศร้าครุ่นคิดยามดึก",
+    "พลังแห่งชัยชนะท้าทาย"
+   ]
+  },
+  {
+   "name": "get_graph",
+   "description": "สรุปกราฟความรู้แคตตาล็อก CWI: 133 โหนด 474 เส้นเชื่อม ครอบคลุมเพลง ศิลปิน โปรดิวเซอร์ การปล่อยเพลง แนวดนตรี และแพลตฟอร์ม",
+   "example_queries": []
+  },
+  {
+   "name": "get_release",
+   "description": "ดึงแพ็กเกจข้อเท็จจริงการปล่อยเพลงของ CWI: บันทึกก่อนปล่อยและหลังปล่อยพร้อมระดับหลักฐานและแฮช เครดิตที่ยืนยันแล้ว วันที่ และลิงก์แพลตฟอร์ม",
+   "example_queries": []
+  },
+  {
+   "name": "get_radio",
+   "description": "เปิด Cumulative Radio 365 สถานีวิทยุสตรีมมิง 24/7 ของ CWI ส่งคืน URL สตรีม HLS สด ข้อมูลเพลงที่กำลังเล่น จำนวนผู้ฟัง และข้อมูลสถานี",
+   "example_queries": []
+  },
+  {
+   "name": "get_announcements",
+   "description": "รับประกาศล่าสุดของ CWI: เพลงใหม่ การปล่อยเพลงที่กำลังจะมา อีเวนต์ และข่าวสาร กรองตามหมวดหมู่หรือดูทั้งหมดเรียงตามใหม่สุด",
+   "example_queries": []
+  },
+  {
+   "name": "get_featured",
+   "description": "รับเพลงแนะนำของ CWI พร้อมข้อมูลครบถ้วน: ชื่อเพลง ศิลปิน URL ภาพปก เหตุผลที่แนะนำ และลิงก์สตรีม/เพจ",
+   "example_queries": []
+  }
+ ],
+ "install": {
+  "claude_code": "claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp",
+  "note": "ไม่ต้องยืนยันตัวตน ไม่ต้องใช้ API key มี 10 เครื่องมือแบบอ่านอย่างเดียว"
+ }
+}
