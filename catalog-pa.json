@@ -1280,9 +1280,10 @@
    "Philadelphia",
    "Pittsburgh",
    "Allentown",
-   "Harrisburg"
+   "Harrisburg",
+   "Erie"
   ],
-  "music_scene": "SPOTIFY TOP MARKET: Philadelphia is a top-10 CWI listener city. Philly's rap legacy — from battle culture to the current wave — makes it a core market.",
+  "music_scene": "Philly's rap legacy — from battle culture to the current wave — makes Pennsylvania a core market.",
   "priority_market": true
  }
 }

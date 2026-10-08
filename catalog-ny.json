@@ -1279,12 +1279,13 @@
   "major_cities": [
    "New York City",
    "Brooklyn",
+   "Queens",
    "Buffalo",
    "Rochester",
    "Albany",
-   "Queens"
+   "Yonkers"
   ],
-  "music_scene": "SPOTIFY TOP MARKET: Brooklyn is a top-10 CWI listener city. The rap capital — NYC boroughs drive national taste, and the catalog's post-trap sound was built for these streets.",
+  "music_scene": "The rap capital — NYC boroughs drive national taste, and the catalog's post-trap sound was built for these streets.",
   "priority_market": true
  }
 }
