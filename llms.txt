@@ -137,6 +137,18 @@ Fact packet: https://cumulativewebinc.github.io/cwi-learn/facts/release/cyberpun
 
 Business & licensing: hp@cumulativeweb.com (official public contact, Cumulative Web Inc)
 
+## International discovery (6 languages)
+
+This catalog brief is available in 5 additional languages for AI agents operating in non-English markets. Each version includes translated artist bios, catalog descriptions, MCP install instructions, and localized call-magnet query examples.
+
+- Português (Brasil): https://cumulativewebinc.github.io/cwi-learn/llms-pt-BR.txt
+- Deutsch: https://cumulativewebinc.github.io/cwi-learn/llms-de.txt
+- Français: https://cumulativewebinc.github.io/cwi-learn/llms-fr.txt
+- Italiano: https://cumulativewebinc.github.io/cwi-learn/llms-it.txt
+- Español: https://cumulativewebinc.github.io/cwi-learn/llms-es.txt
+
+Agent card declares all supported languages: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
+
 ---
 # Cumulative Web Inc — AI-readable catalog brief (2026-09-19 edition)
 

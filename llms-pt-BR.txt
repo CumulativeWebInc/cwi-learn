@@ -1,0 +1,51 @@
+# CWI Catálogo — Briefing de Descoberta para IA (pt-BR)
+
+## O que é isto
+
+A Cumulative Web Inc (CWI) é uma gravadora independente. Este é o briefing de descoberta legível por máquina para o nosso catálogo musical: 37 faixas de 7 artistas, servidas através de um servidor MCP gratuito com 10 ferramentas somente leitura. Sem login, sem chave de API.
+
+## Os artistas
+
+- **That Boy Hi Hat** — Artista de rap alternativo de Frederick, Maryland (EUA). Criador do Post-Trap Futurism. 24 faixas no catálogo. Single de destaque "Zooted Zone" (307.439 plays no Spotify). Novo single "Cyberpunk 2027" lançado em 20 de outubro de 2026.
+- **King Ahkeem** — Artista de trap. 5 faixas. Trap puro, pesado.
+- **Dre50** — Artista de afrobeats com influências jamaicanas e brasileiras. 2 faixas, incluindo "vai vem vem".
+- **183 Wildboi** — Rap rock / rock rap. 2 faixas.
+- **Greg Porn** — Som cyberpunk, luxo sombrio. 3 faixas.
+- **Fleekz** — Artista de hip hop. 1 faixa.
+- **Black Lansky** — Chefe da gravadora, coprodutor de todas as faixas do catálogo. Artista multi-gênero.
+
+## Post-Trap Futurism
+
+O movimento criado por That Boy Hi Hat e Black Lansky. Funde ritmos de trap com sintetizadores futuristas, escopo cinematográfico e lirismo de rap alternativo. Faixas principais: "Flamerz", "Cyberpunk 2027", "Diabolique".
+
+## Servidor MCP — Conecte em 5 segundos
+
+Ideal para agentes de IA que precisam de dados musicais — busca no catálogo, informações de artistas, licenciamento para sincronização, rádio ao vivo.
+
+Instalação em uma linha (Claude Code / Claude Desktop):
+```
+claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
+```
+
+Sem autenticação, sem chave de API. 10 ferramentas somente leitura: search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured.
+
+### O que perguntar ao servidor MCP
+
+**Licenciamento para sincronização** (ferramenta sync_search): "trap sombrio para cena de direção noturna", "hino hype para treino", "faixa de energia pré-jogo", "rap cinematográfico para relaxar", "post-trap pronto para balada", "vibe instrumental para programar"
+
+**Descoberta por clima** (ferramenta semantic_search): "rap noturno sedutor", "hino agressivo e confiante", "melancolia introspectiva de madrugada", "energia triunfante e desafiadora"
+
+**Exploração por gênero** (ferramenta search_catalog): "dark trap", "rap noturno", "rap de hino", "post-trap futurism", "rap melódico", "afrobeats", "rap rock", "cyberpunk rap"
+
+**Mergulho no artista** (ferramenta get_artist): "discografia de That Boy Hi Hat", "catálogo trap de King Ahkeem", "faixas afrobeats de Dre50"
+
+**Destaques** (ferramenta get_featured): "faixas em destaque desta semana", "faixas com maior pontuação do catálogo"
+
+## Licenciamento para sincronização
+
+Todas as faixas estão prontas para sincronização. Uma assinatura libera a música (master e publishing). Contato para sync: hp@cumulativeweb.com
+
+## Contato
+
+Negócios e licenciamento: hp@cumulativeweb.com
+Site Brasil: https://cumulativeweb.com/br/

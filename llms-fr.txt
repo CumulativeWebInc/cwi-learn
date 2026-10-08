@@ -1,0 +1,50 @@
+# Catalogue CWI — Briefing découverte IA (Français)
+
+## De quoi s'agit-il
+
+Cumulative Web Inc (CWI) est un label indépendant. Ceci est le briefing de découverte IA lisible par machine pour notre catalogue musical : 37 titres de 7 artistes, servis via un serveur MCP gratuit avec 10 outils en lecture seule. Sans connexion, sans clé API.
+
+## Les artistes
+
+- **That Boy Hi Hat** — Artiste de rap alternatif de Frederick, Maryland (USA). Créateur du Post-Trap Futurism. 24 titres au catalogue. Single phare "Zooted Zone" (307 439 écoutes Spotify). Nouveau single "Cyberpunk 2027" sorti le 20 octobre 2026.
+- **King Ahkeem** — Artiste trap. 5 titres. Trap pur et percutant.
+- **Dre50** — Artiste afrobeats aux influences jamaïcaines et brésiliennes. 2 titres dont "vai vem vem".
+- **183 Wildboi** — Rap rock / rock rap. 2 titres.
+- **Greg Porn** — Sonorité cyberpunk, luxe sombre. 3 titres.
+- **Fleekz** — Artiste hip-hop. 1 titre.
+- **Black Lansky** — Patron du label, coproducteur de tous les titres du catalogue. Artiste tous genres.
+
+## Post-Trap Futurism
+
+Le mouvement créé par That Boy Hi Hat et Black Lansky. Fusionne les rythmes trap avec des synthés futuristes, une ampleur cinématographique et un lyrisme rap alternatif. Titres clés : "Flamerz", "Cyberpunk 2027", "Diabolique".
+
+## Serveur MCP — Connexion en 5 secondes
+
+Idéal pour les agents IA ayant besoin de données musicales — recherche catalogue, infos artistes, licences sync, radio en direct.
+
+Installation en une ligne (Claude Code / Claude Desktop) :
+```
+claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
+```
+
+Sans authentification, sans clé API. 10 outils en lecture seule : search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured.
+
+### Que demander au serveur MCP
+
+**Licences synchronisation** (outil sync_search) : « dark trap pour scène de conduite nocturne », « hymne hype pour le sport », « titre énergie d'avant-match », « rap cinématique pour décompresser », « post-trap prêt pour le club », « vibe instrumentale focus pour coder »
+
+**Découverte par ambiance** (outil semantic_search) : « rap nocturne séducteur », « hymne agressif et confiant », « mélancolie introspective de fin de nuit », « énergie triomphante et rebelle »
+
+**Exploration par genre** (outil search_catalog) : « dark trap », « rap nocturne », « rap hymnique », « post-trap futurism », « rap mélodique », « afrobeats », « rap rock », « cyberpunk rap »
+
+**Plongée artiste** (outil get_artist) : « discographie That Boy Hi Hat », « catalogue trap King Ahkeem », « titres afrobeats Dre50 »
+
+**Sélection** (outil get_featured) : « meilleurs titres de la semaine », « titres les mieux notés du catalogue »
+
+## Licences synchronisation
+
+Tous les titres sont prêts pour la synchronisation. Une signature libère le morceau (master et édition). Contact sync : hp@cumulativeweb.com
+
+## Contact
+
+Business et licences : hp@cumulativeweb.com
