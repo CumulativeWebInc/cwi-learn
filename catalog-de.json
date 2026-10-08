@@ -1,11 +1,11 @@
 {
   "schema": "cwi-catalog/v1",
-  "language": "en",
+  "language": "de",
   "region": "DE",
-  "region_name": "Delaware",
+  "region_name": "Deutschland",
   "timezone": "America/New_York",
-  "title": "CWI Catalog (Delaware)",
-  "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+  "title": "CWI Katalog (Deutschland)",
+  "description": "Maschinenlesbarer CWI-Musikkatalog für Deutschland: 37 Tracks von 7 Künstlern.",
   "track_count": 37,
   "tracks": [
     {

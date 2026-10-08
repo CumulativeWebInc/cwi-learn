@@ -2313,5 +2313,6 @@
   ],
   "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
   "license": "MIT",
-  "publisher": "Cumulative Web Inc"
+  "publisher": "Cumulative Web Inc",
+  "region_name": "Italia"
 }
