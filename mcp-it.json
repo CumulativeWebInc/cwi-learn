@@ -31,12 +31,20 @@
   {
    "name": "get_track",
    "description": "Cerca una traccia del catalogo per titolo o ID/URL Spotify. Restituisce titolo, artista, URL Spotify, generi e mood.",
-   "example_queries": []
+   "example_queries": [
+    "Dettagli del brano Diabolique",
+    "Zooted Zone di That Boy Hi Hat",
+    "Chi canta Toxic Element"
+   ]
   },
   {
    "name": "get_artist",
    "description": "Cerca un artista per nome. Restituisce l'artista e le sue tracce nel catalogo con URL Spotify.",
-   "example_queries": []
+   "example_queries": [
+    "That Boy Hi Hat",
+    "Chi è King Ahkeem",
+    "Tracce di Dre50 nel catalogo"
+   ]
   },
   {
    "name": "sync_search",
@@ -63,27 +71,47 @@
   {
    "name": "get_graph",
    "description": "Riepilogo del knowledge graph del catalogo CWI: 133 nodi, 474 archi tra tracce, artisti, produttori, release, generi e piattaforme.",
-   "example_queries": []
+   "example_queries": [
+    "Riepilogo del knowledge graph",
+    "Quanti nodi ha il grafo CWI",
+    "Relazioni tra artisti e produttori"
+   ]
   },
   {
    "name": "get_release",
    "description": "Recupera un pacchetto fatti di release CWI: record pre-release e release con livelli di evidenza e hash, crediti verificati, date e link piattaforme.",
-   "example_queries": []
+   "example_queries": [
+    "Crediti di uscita di Diabolique",
+    "Quando è uscito Zooted Zone",
+    "Dati di uscita di Star di King Ahkeem"
+   ]
   },
   {
    "name": "get_radio",
    "description": "Sintonizzati su Cumulative Radio 365, la stazione radio 24/7 di CWI. Restituisce l'URL dello stream HLS live, i dati del brano in onda, il conteggio ascoltatori e i metadati della stazione.",
-   "example_queries": []
+   "example_queries": [
+    "Cosa sta suonando Radio 365 adesso",
+    "Link dello stream di Cumulative Radio 365",
+    "Quanti ascoltatori ha Radio 365"
+   ]
   },
   {
    "name": "get_announcements",
    "description": "Ricevi gli ultimi annunci CWI: nuove uscite, prossime release, eventi e notizie. Filtra per categoria o vedi tutto dal più recente.",
-   "example_queries": []
+   "example_queries": [
+    "Ultimi annunci CWI",
+    "Prossime uscite",
+    "Novità di ottobre"
+   ]
   },
   {
    "name": "get_featured",
    "description": "Ricevi le tracce in evidenza CWI con metadati completi: titolo, artista, URL artwork, motivo dell'evidenza e link stream/pagina.",
-   "example_queries": []
+   "example_queries": [
+    "Tracce in evidenza di questa settimana",
+    "Cosa sta promuovendo CWI adesso",
+    "In evidenza dal catalogo"
+   ]
   }
  ],
  "install": {

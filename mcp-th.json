@@ -31,12 +31,20 @@
   {
    "name": "get_track",
    "description": "ค้นหาเพลงจากแคตตาล็อกด้วยชื่อหรือ Spotify ID/URL ส่งคืนชื่อเพลง ศิลปิน URL Spotify แนวดนตรี และอารมณ์",
-   "example_queries": []
+   "example_queries": [
+    "รายละเอียดเพลง Diabolique",
+    "เพลง Zooted Zone ของ That Boy Hi Hat",
+    "ใครร้องเพลง Toxic Element"
+   ]
   },
   {
    "name": "get_artist",
    "description": "ค้นหาศิลปินด้วยชื่อ ส่งคืนศิลปินและเพลงของเขาในแคตตาล็อกพร้อม URL Spotify",
-   "example_queries": []
+   "example_queries": [
+    "That Boy Hi Hat",
+    "King Ahkeem คือใคร",
+    "เพลงของ Dre50 ในแคตตาล็อก"
+   ]
   },
   {
    "name": "sync_search",
@@ -63,27 +71,47 @@
   {
    "name": "get_graph",
    "description": "สรุปกราฟความรู้แคตตาล็อก CWI: 133 โหนด 474 เส้นเชื่อม ครอบคลุมเพลง ศิลปิน โปรดิวเซอร์ การปล่อยเพลง แนวดนตรี และแพลตฟอร์ม",
-   "example_queries": []
+   "example_queries": [
+    "สรุปกราฟความรู้ของแคตตาล็อก",
+    "กราฟ CWI มีกี่โหนด",
+    "ความสัมพันธ์ระหว่างศิลปินและโปรดิวเซอร์"
+   ]
   },
   {
    "name": "get_release",
    "description": "ดึงแพ็กเกจข้อเท็จจริงการปล่อยเพลงของ CWI: บันทึกก่อนปล่อยและหลังปล่อยพร้อมระดับหลักฐานและแฮช เครดิตที่ยืนยันแล้ว วันที่ และลิงก์แพลตฟอร์ม",
-   "example_queries": []
+   "example_queries": [
+    "เครดิตการปล่อยเพลง Diabolique",
+    "Zooted Zone ปล่อยเมื่อไหร่",
+    "ข้อมูลการปล่อยเพลง Star ของ King Ahkeem"
+   ]
   },
   {
    "name": "get_radio",
    "description": "เปิด Cumulative Radio 365 สถานีวิทยุสตรีมมิง 24/7 ของ CWI ส่งคืน URL สตรีม HLS สด ข้อมูลเพลงที่กำลังเล่น จำนวนผู้ฟัง และข้อมูลสถานี",
-   "example_queries": []
+   "example_queries": [
+    "ตอนนี้ Radio 365 กำลังเล่นเพลงอะไร",
+    "ลิงก์สตรีมของ Cumulative Radio 365",
+    "Radio 365 มีผู้ฟังกี่คน"
+   ]
   },
   {
    "name": "get_announcements",
    "description": "รับประกาศล่าสุดของ CWI: เพลงใหม่ การปล่อยเพลงที่กำลังจะมา อีเวนต์ และข่าวสาร กรองตามหมวดหมู่หรือดูทั้งหมดเรียงตามใหม่สุด",
-   "example_queries": []
+   "example_queries": [
+    "ประกาศล่าสุดของ CWI",
+    "เพลงที่จะปล่อยเร็วๆ นี้",
+    "ข่าวสารเดือนตุลาคม"
+   ]
   },
   {
    "name": "get_featured",
    "description": "รับเพลงแนะนำของ CWI พร้อมข้อมูลครบถ้วน: ชื่อเพลง ศิลปิน URL ภาพปก เหตุผลที่แนะนำ และลิงก์สตรีม/เพจ",
-   "example_queries": []
+   "example_queries": [
+    "เพลงแนะนำประจำสัปดาห์นี้",
+    "ตอนนี้ CWI แนะนำเพลงอะไร",
+    "เพลงเด่นจากแคตตาล็อก"
+   ]
   }
  ],
  "install": {

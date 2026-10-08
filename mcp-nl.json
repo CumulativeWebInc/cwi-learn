@@ -31,12 +31,20 @@
   {
    "name": "get_track",
    "description": "Zoek één catalogustrack op titel of Spotify-ID/URL. Retourneert titel, artiest, Spotify-URL, genres en sferen.",
-   "example_queries": []
+   "example_queries": [
+    "Details van de track Diabolique",
+    "Zooted Zone van That Boy Hi Hat",
+    "Wie zingt Toxic Element"
+   ]
   },
   {
    "name": "get_artist",
    "description": "Zoek een artiest op naam. Retourneert de artiest en zijn tracks in de catalogus met Spotify-URL's.",
-   "example_queries": []
+   "example_queries": [
+    "That Boy Hi Hat",
+    "Wie is King Ahkeem",
+    "Tracks van Dre50 in de catalogus"
+   ]
   },
   {
    "name": "sync_search",
@@ -63,27 +71,47 @@
   {
    "name": "get_graph",
    "description": "Samenvatting van de CWI-catalogus-kennisgraaf: 133 nodes, 474 edges voor tracks, artiesten, producers, releases, genres en platforms.",
-   "example_queries": []
+   "example_queries": [
+    "Samenvatting van de kennisgraaf",
+    "Hoeveel nodes heeft de CWI-graaf",
+    "Relaties tussen artiesten en producers"
+   ]
   },
   {
    "name": "get_release",
    "description": "Haal een CWI-release-feitenpakket op: evidence-getierde, hash-verzegelde pre-release- en release-records met geverifieerde credits, data en platformlinks.",
-   "example_queries": []
+   "example_queries": [
+    "Release-credits van Diabolique",
+    "Wanneer kwam Zooted Zone uit",
+    "Release-gegevens van Star van King Ahkeem"
+   ]
   },
   {
    "name": "get_radio",
    "description": "Stem af op Cumulative Radio 365, het 24/7 streaming-radiostation van CWI. Retourneert de live HLS-stream-URL, now-playing-data, luisteraarsaantallen en station-metadata.",
-   "example_queries": []
+   "example_queries": [
+    "Wat draait Radio 365 nu",
+    "Stream-link van Cumulative Radio 365",
+    "Hoeveel luisteraars heeft Radio 365"
+   ]
   },
   {
    "name": "get_announcements",
    "description": "Haal de laatste CWI-aankondigingen op: nieuwe releases, aankomende drops, evenementen en nieuws. Filter op categorie of alles nieuwste eerst.",
-   "example_queries": []
+   "example_queries": [
+    "Laatste CWI-aankondigingen",
+    "Aankomende releases",
+    "Nieuws van oktober"
+   ]
   },
   {
    "name": "get_featured",
    "description": "Haal de momenteel uitgelichte CWI-tracks op met volledige metadata: titel, artiest, artwork-URL, reden van uitlichting en stream/pagina-links.",
-   "example_queries": []
+   "example_queries": [
+    "Uitgelichte tracks deze week",
+    "Wat licht CWI nu uit",
+    "Hoogtepunten uit de catalogus"
+   ]
   }
  ],
  "install": {

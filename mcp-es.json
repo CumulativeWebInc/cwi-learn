@@ -31,12 +31,20 @@
   {
    "name": "get_track",
    "description": "Busca una pista del catálogo por título o ID/URL de Spotify. Devuelve título, artista, URL de Spotify, géneros y ambientes.",
-   "example_queries": []
+   "example_queries": [
+    "Detalles de la canción Diabolique",
+    "Zooted Zone de That Boy Hi Hat",
+    "Quién canta Toxic Element"
+   ]
   },
   {
    "name": "get_artist",
    "description": "Busca un artista por nombre. Devuelve el artista y sus pistas en el catálogo con URLs de Spotify.",
-   "example_queries": []
+   "example_queries": [
+    "That Boy Hi Hat",
+    "Quién es King Ahkeem",
+    "Pistas de Dre50 en el catálogo"
+   ]
   },
   {
    "name": "sync_search",
@@ -63,27 +71,47 @@
   {
    "name": "get_graph",
    "description": "Resumen del grafo de conocimiento del catálogo CWI: 133 nodos, 474 aristas que cubren pistas, artistas, productores, lanzamientos, géneros y plataformas.",
-   "example_queries": []
+   "example_queries": [
+    "Resumen del grafo de conocimiento",
+    "Cuántos nodos tiene el grafo de CWI",
+    "Relaciones entre artistas y productores"
+   ]
   },
   {
    "name": "get_release",
    "description": "Obtén un paquete de hechos de lanzamiento CWI: registros pre-lanzamiento y de lanzamiento con niveles de evidencia y hash, créditos verificados, fechas y enlaces de plataforma.",
-   "example_queries": []
+   "example_queries": [
+    "Créditos de lanzamiento de Diabolique",
+    "Cuándo salió Zooted Zone",
+    "Datos de lanzamiento de Star de King Ahkeem"
+   ]
   },
   {
    "name": "get_radio",
    "description": "Sintoniza Cumulative Radio 365, la estación de radio 24/7 de CWI. Devuelve la URL del stream HLS en vivo, datos de la pista actual, conteo de oyentes y metadatos de la estación.",
-   "example_queries": []
+   "example_queries": [
+    "Qué está sonando ahora en Radio 365",
+    "Enlace del stream de Cumulative Radio 365",
+    "Cuántos oyentes tiene Radio 365"
+   ]
   },
   {
    "name": "get_announcements",
    "description": "Obtén los últimos anuncios de CWI: nuevos lanzamientos, próximos estrenos, eventos y noticias. Filtra por categoría o ve todo lo más reciente primero.",
-   "example_queries": []
+   "example_queries": [
+    "Últimos anuncios de CWI",
+    "Próximos lanzamientos",
+    "Novedades de octubre"
+   ]
   },
   {
    "name": "get_featured",
    "description": "Obtén las pistas destacadas de CWI con metadatos completos: título, artista, URL del arte, motivo del destaque y enlaces de stream/página.",
-   "example_queries": []
+   "example_queries": [
+    "Pistas destacadas de esta semana",
+    "Qué está destacando CWI ahora",
+    "Destacados del catálogo"
+   ]
   }
  ],
  "install": {
