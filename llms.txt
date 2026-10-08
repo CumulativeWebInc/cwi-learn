@@ -545,3 +545,19 @@ One-liner install (Claude Code / Claude Desktop):
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 No auth, no API key. 10 read-only tools: search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured.
+
+### What to ask the MCP server (call magnets)
+
+These are the highest-match queries across the 37-track catalog. Each maps to a specific MCP tool:
+
+**Sync licensing** (→ sync_search): "dark trap for late-night driving scene", "workout hype anthem", "pre-game energy track", "wind-down cinematic rap", "club-ready post-trap", "coding focus instrumental vibe", "road-trip alternative rap", "gaming background track"
+
+**Mood/vibe discovery** (→ semantic_search): "nocturnal seductive rap", "aggressive confident anthem", "melancholic introspective late-night", "triumphant defiant energy", "hypnotic menacing trap", "raw cinematic danger"
+
+**Genre exploration** (→ search_catalog): "dark trap", "nocturnal rap", "anthemic rap", "post-trap futurism", "melodic rap", "underground hip hop", "cinematic rap", "synthwave rap", "cyberpunk rap", "rap rock", "afrobeats"
+
+**Artist deep-dive** (→ get_artist): "That Boy Hi Hat discography", "King Ahkeem trap catalog", "Dre50 afrobeats tracks", "183 Wildboi rap rock", "Greg Porn cyberpunk"
+
+**Now playing** (→ get_radio): "what's on Cumulative Radio 365", "current rotation", "listener stats"
+
+**Featured picks** (→ get_featured): "top featured tracks this week", "highest-scored catalog tracks", "what's new and featured"
