@@ -1,0 +1,5 @@
+# Smithery deployment config for CWI Discovery Engine MCP server
+# Remote streamable-http endpoint (no local build required)
+startCommand:
+  type: http
+  url: https://cwi-machine-data.hp-ace.workers.dev/mcp
