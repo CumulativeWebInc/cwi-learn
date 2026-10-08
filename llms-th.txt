@@ -2,7 +2,7 @@
 
 ## นี่คืออะไร
 
-Cumulative Web Inc (CWI) เป็นค่ายเพลงอิสระ นี่คือบรีฟการค้นพบที่เครื่องอ่านได้สำหรับแคตตาล็อกเพลงของเรา: 37 เพลงจาก 7 ศิลปิน ให้บริการผ่านเซิร์ฟเวอร์ MCP ฟรีพร้อม 10 เครื่องมือแบบอ่านอย่างเดียว ไม่ต้องล็อกอิน ไม่ต้องใช้ API key
+Cumulative Web Inc (CWI) เป็นค่ายเพลงอิสระ นี่คือบรีฟการค้นพบที่เครื่องอ่านได้สำหรับแคตตาล็อกเพลงของเรา: 37 เพลงจาก 7 ศิลปิน ให้บริการผ่านเซิร์ฟเวอร์ MCP ฟรีพร้อม 21 เครื่องมือ ไม่ต้องล็อกอิน ไม่ต้องใช้ API key
 
 ## ศิลปิน
 
@@ -27,7 +27,7 @@ Cumulative Web Inc (CWI) เป็นค่ายเพลงอิสระ น
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 
-ไม่ต้องยืนยันตัวตน ไม่ต้องใช้ API key มี 10 เครื่องมือแบบอ่านอย่างเดียว: search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured
+ไม่ต้องยืนยันตัวตน ไม่ต้องใช้ API key มี 21 เครื่องมือ: 10 เครื่องมืออ่านแคตตาล็อก/วิทยุ (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured), 5 เครื่องมือแอ็กชันวิทยุ (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 เครื่องมือแอ็กชันธุรกิจ (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp)
 
 ### สิ่งที่ควรถามเซิร์ฟเวอร์ MCP
 

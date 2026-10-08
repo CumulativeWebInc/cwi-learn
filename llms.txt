@@ -565,7 +565,7 @@ One-liner install (Claude Code / Claude Desktop):
 ```
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
-No auth, no API key. 10 read-only tools: search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured.
+No auth, no API key. 21 tools: 10 catalog/radio reads (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured), 5 radio actions (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 catalog/business actions (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
 
 ### What to ask the MCP server (call magnets)
 
@@ -582,3 +582,12 @@ These are the highest-match queries across the 37-track catalog. Each maps to a 
 **Now playing** (→ get_radio): "what's on Cumulative Radio 365", "current rotation", "listener stats"
 
 **Featured picks** (→ get_featured): "top featured tracks this week", "highest-scored catalog tracks", "what's new and featured"
+
+**Radio interaction** (→ request_song): "request Diabolique on Cumulative Radio 365", "play something for a night drive", "dedicate a song"
+**What's next** (→ get_up_next): "what's playing next on the radio", "upcoming tracks"
+**Radio schedule** (→ get_schedule): "full radio program today", "what's on at 8pm"
+
+**Sync briefs** (→ submit_sync_brief): "submit a sync brief for a late-night driving scene", "need dark trap for a film"
+**Playlist pitching** (→ pitch_for_playlist): "pitch Diabolique for a workout playlist", "submit track for playlist consideration"
+**Recommendations** (→ get_recommendations): "dark trap for night drive", "recommend something like Diabolique", "what should I listen to"
+**Events** (→ get_events): "upcoming CWI events", "when is the Cyberpunk 2027 release"

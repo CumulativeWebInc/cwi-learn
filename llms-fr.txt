@@ -2,7 +2,7 @@
 
 ## De quoi s'agit-il
 
-Cumulative Web Inc (CWI) est un label indépendant. Ceci est le briefing de découverte IA lisible par machine pour notre catalogue musical : 37 titres de 7 artistes, servis via un serveur MCP gratuit avec 10 outils en lecture seule. Sans connexion, sans clé API.
+Cumulative Web Inc (CWI) est un label indépendant. Ceci est le briefing de découverte IA lisible par machine pour notre catalogue musical : 37 titres de 7 artistes, servis via un serveur MCP gratuit avec 21 outils. Sans connexion, sans clé API.
 
 ## Les artistes
 
@@ -27,7 +27,7 @@ Installation en une ligne (Claude Code / Claude Desktop) :
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 
-Sans authentification, sans clé API. 10 outils en lecture seule : search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured.
+Sans authentification, sans clé API. 21 outils : 10 outils de lecture catalogue/radio (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured), 5 outils d’action radio (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 outils d’action catalogue/business (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
 
 ### Que demander au serveur MCP
 
