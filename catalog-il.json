@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "IL",
+ "region_name": "Illinois",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Illinois)",
+ "description": "Machine-readable CWI music catalog for Illinois: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "IL",
+  "name": "Illinois",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Chicago",
+   "Aurora",
+   "Naperville",
+   "Springfield"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
-  "priority_market": false
+  "music_scene": "SPOTIFY TOP MARKET: Chicago is a top-10 CWI listener city. Drill's birthplace — the catalog's darker trap cuts resonate here.",
+  "priority_market": true
  }
 }

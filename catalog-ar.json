@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "AR",
+ "region_name": "Arkansas",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Arkansas)",
+ "description": "Machine-readable CWI music catalog for Arkansas: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,15 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "AR",
+  "name": "Arkansas",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Little Rock",
+   "Fayetteville",
+   "Fort Smith"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Little Rock's hip-hop scene is rising, with Fayetteville's college energy driving discovery.",
   "priority_market": false
  }
 }

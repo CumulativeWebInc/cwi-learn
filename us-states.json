@@ -1,0 +1,392 @@
+{
+ "schema": "cwi-us-states/v1",
+ "title": "CWI US State Discovery Index",
+ "description": "48 continental US states, each with localized catalog and events JSON for AI discovery.",
+ "state_count": 48,
+ "states": [
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-al.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-al.json"
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ar.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ar.json"
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "timezone": "America/Phoenix",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-az.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-az.json"
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "timezone": "America/Los_Angeles",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ca.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ca.json"
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "timezone": "America/Denver",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-co.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-co.json"
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ct.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ct.json"
+  },
+  {
+   "code": "DE",
+   "name": "Delaware",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-de.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-de.json"
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-fl.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-fl.json"
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "timezone": "America/New_York",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ga.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ga.json"
+  },
+  {
+   "code": "IA",
+   "name": "Iowa",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ia.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ia.json"
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "timezone": "America/Boise",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-id.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-id.json"
+  },
+  {
+   "code": "IL",
+   "name": "Illinois",
+   "timezone": "America/Chicago",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-il.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-il.json"
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-in.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-in.json"
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ks.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ks.json"
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ky.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ky.json"
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-la.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-la.json"
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ma.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ma.json"
+  },
+  {
+   "code": "MD",
+   "name": "Maryland",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-md.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-md.json"
+  },
+  {
+   "code": "ME",
+   "name": "Maine",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-me.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-me.json"
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "timezone": "America/Detroit",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mi.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mi.json"
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mn.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mn.json"
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mo.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mo.json"
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ms.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ms.json"
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "timezone": "America/Denver",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mt.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mt.json"
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nc.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nc.json"
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nd.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nd.json"
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ne.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ne.json"
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nh.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nh.json"
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nj.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nj.json"
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "timezone": "America/Denver",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nm.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nm.json"
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "timezone": "America/Los_Angeles",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nv.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nv.json"
+  },
+  {
+   "code": "NY",
+   "name": "New York",
+   "timezone": "America/New_York",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ny.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ny.json"
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-oh.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-oh.json"
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ok.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ok.json"
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "timezone": "America/Los_Angeles",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-or.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-or.json"
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "timezone": "America/New_York",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-pa.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-pa.json"
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ri.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ri.json"
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-sc.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-sc.json"
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-sd.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-sd.json"
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-tn.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-tn.json"
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "timezone": "America/Chicago",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-tx.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-tx.json"
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "timezone": "America/Denver",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ut.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ut.json"
+  },
+  {
+   "code": "VA",
+   "name": "Virginia",
+   "timezone": "America/New_York",
+   "priority_market": true,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-va.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-va.json"
+  },
+  {
+   "code": "VT",
+   "name": "Vermont",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-vt.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-vt.json"
+  },
+  {
+   "code": "WA",
+   "name": "Washington",
+   "timezone": "America/Los_Angeles",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wa.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wa.json"
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "timezone": "America/Chicago",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wi.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wi.json"
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "timezone": "America/New_York",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wv.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wv.json"
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "timezone": "America/Denver",
+   "priority_market": false,
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wy.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wy.json"
+  }
+ ]
+}

@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "NV",
+ "region_name": "Nevada",
+ "timezone": "America/Los_Angeles",
+ "title": "CWI Catalog (Nevada)",
+ "description": "Machine-readable CWI music catalog for Nevada: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,15 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "NV",
+  "name": "Nevada",
+  "timezone": "America/Los_Angeles",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Las Vegas",
+   "Reno",
+   "Henderson"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Las Vegas runs on late-night energy — the catalog's nocturnal tracks are built for this city.",
   "priority_market": false
  }
 }

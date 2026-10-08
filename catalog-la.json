@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "LA",
+ "region_name": "Louisiana",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Louisiana)",
+ "description": "Machine-readable CWI music catalog for Louisiana: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,15 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "LA",
+  "name": "Louisiana",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "New Orleans",
+   "Baton Rouge",
+   "Shreveport"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "New Orleans bounce heritage meets Baton Rouge's street-rap wave — Louisiana hears everything first.",
   "priority_market": false
  }
 }

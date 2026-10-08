@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "UT",
+ "region_name": "Utah",
+ "timezone": "America/Denver",
+ "title": "CWI Catalog (Utah)",
+ "description": "Machine-readable CWI music catalog for Utah: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "UT",
+  "name": "Utah",
+  "timezone": "America/Denver",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Salt Lake City",
+   "Provo",
+   "Ogden",
+   "West Valley City"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Salt Lake City's underground scene is quietly one of the West's most loyal.",
   "priority_market": false
  }
 }

@@ -1,9 +1,9 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
+ "region": "SD",
+ "region_name": "South Dakota",
+ "timezone": "America/Chicago",
  "event_count": 2,
  "events": [
   {
@@ -16,8 +16,8 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "SD",
+   "timezone": "America/Chicago",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
     "page": "https://cumulativeweb.com/cyberpunk-2027.html"
@@ -36,23 +36,23 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "SD",
+   "timezone": "America/Chicago",
    "rotation": "week_c",
    "week": 41
   }
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "SD",
+  "name": "South Dakota",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Sioux Falls",
+   "Rapid City",
+   "Aberdeen"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Sioux Falls is the plains' discovery hub — small market, loyal listeners.",
   "priority_market": false
  }
 }

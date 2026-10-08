@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "KS",
+ "region_name": "Kansas",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Kansas)",
+ "description": "Machine-readable CWI music catalog for Kansas: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "KS",
+  "name": "Kansas",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Wichita",
+   "Kansas City",
+   "Topeka",
+   "Overland Park"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Kansas City's jazz-to-rap lineage runs through both sides of the state line.",
   "priority_market": false
  }
 }

@@ -1,9 +1,9 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
+ "region": "OR",
+ "region_name": "Oregon",
+ "timezone": "America/Los_Angeles",
  "event_count": 2,
  "events": [
   {
@@ -16,8 +16,8 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "OR",
+   "timezone": "America/Los_Angeles",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
     "page": "https://cumulativeweb.com/cyberpunk-2027.html"
@@ -36,23 +36,24 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "OR",
+   "timezone": "America/Los_Angeles",
    "rotation": "week_c",
    "week": 41
   }
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "OR",
+  "name": "Oregon",
+  "timezone": "America/Los_Angeles",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Portland",
+   "Eugene",
+   "Salem",
+   "Bend"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Portland's indie-rap underground is one of the West Coast's most creative scenes.",
   "priority_market": false
  }
 }

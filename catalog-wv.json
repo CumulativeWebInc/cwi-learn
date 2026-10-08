@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "WV",
+ "region_name": "West Virginia",
  "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "title": "CWI Catalog (West Virginia)",
+ "description": "Machine-readable CWI music catalog for West Virginia: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,15 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "WV",
+  "name": "West Virginia",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Charleston",
+   "Morgantown",
+   "Huntington"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Morgantown's college energy drives discovery in the Mountain State.",
   "priority_market": false
  }
 }

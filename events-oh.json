@@ -1,8 +1,8 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "OH",
+ "region_name": "Ohio",
  "timezone": "America/New_York",
  "event_count": 2,
  "events": [
@@ -16,7 +16,7 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
+   "region": "OH",
    "timezone": "America/New_York",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
@@ -36,7 +36,7 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
+   "region": "OH",
    "timezone": "America/New_York",
    "rotation": "week_c",
    "week": 41
@@ -44,15 +44,17 @@
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "OH",
+  "name": "Ohio",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Columbus",
+   "Cleveland",
+   "Cincinnati",
+   "Toledo",
+   "Akron"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Columbus, Cleveland, and Cincinnati form a three-city Ohio rap triangle.",
   "priority_market": false
  }
 }

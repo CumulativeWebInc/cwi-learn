@@ -1,9 +1,9 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
+ "region": "IA",
+ "region_name": "Iowa",
+ "timezone": "America/Chicago",
  "event_count": 2,
  "events": [
   {
@@ -16,8 +16,8 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "IA",
+   "timezone": "America/Chicago",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
     "page": "https://cumulativeweb.com/cyberpunk-2027.html"
@@ -36,23 +36,24 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "IA",
+   "timezone": "America/Chicago",
    "rotation": "week_c",
    "week": 41
   }
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "IA",
+  "name": "Iowa",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Des Moines",
+   "Cedar Rapids",
+   "Davenport",
+   "Iowa City"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Iowa City's college scene and Des Moines' growing hip-hop community drive Midwest discovery.",
   "priority_market": false
  }
 }

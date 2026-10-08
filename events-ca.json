@@ -1,9 +1,9 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
+ "region": "CA",
+ "region_name": "California",
+ "timezone": "America/Los_Angeles",
  "event_count": 2,
  "events": [
   {
@@ -16,8 +16,8 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "CA",
+   "timezone": "America/Los_Angeles",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
     "page": "https://cumulativeweb.com/cyberpunk-2027.html"
@@ -36,23 +36,25 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
-   "timezone": "America/New_York",
+   "region": "CA",
+   "timezone": "America/Los_Angeles",
    "rotation": "week_c",
    "week": 41
   }
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "CA",
+  "name": "California",
+  "timezone": "America/Los_Angeles",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Los Angeles",
+   "San Francisco",
+   "San Diego",
+   "Sacramento",
+   "Oakland"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
-  "priority_market": false
+  "music_scene": "SPOTIFY TOP MARKET: Los Angeles is a top-10 CWI listener city. West Coast hip-hop capital — the catalog's post-trap sound lands hard here.",
+  "priority_market": true
  }
 }

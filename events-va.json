@@ -1,8 +1,8 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "VA",
+ "region_name": "Virginia",
  "timezone": "America/New_York",
  "event_count": 2,
  "events": [
@@ -16,7 +16,7 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
+   "region": "VA",
    "timezone": "America/New_York",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
@@ -36,7 +36,7 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
+   "region": "VA",
    "timezone": "America/New_York",
    "rotation": "week_c",
    "week": 41
@@ -44,15 +44,18 @@
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "VA",
+  "name": "Virginia",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Ashburn",
+   "Arlington",
+   "Richmond",
+   "Virginia Beach",
+   "Norfolk",
+   "Alexandria"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
-  "priority_market": false
+  "music_scene": "SPOTIFY TOP MARKET: Ashburn is a top-10 CWI listener city. Northern Virginia's tech-corridor energy plus Richmond and Hampton Roads' rap scenes — VA is a core market.",
+  "priority_market": true
  }
 }

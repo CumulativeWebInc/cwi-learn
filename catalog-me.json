@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "ME",
+ "region_name": "Maine",
  "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "title": "CWI Catalog (Maine)",
+ "description": "Machine-readable CWI music catalog for Maine: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,15 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "ME",
+  "name": "Maine",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Portland",
+   "Lewiston",
+   "Bangor"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Portland's indie scene punches above its weight for a small market.",
   "priority_market": false
  }
 }

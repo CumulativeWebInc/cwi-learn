@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "NY",
+ "region_name": "New York",
  "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "title": "CWI Catalog (New York)",
+ "description": "Machine-readable CWI music catalog for New York: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,18 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "NY",
+  "name": "New York",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "New York City",
+   "Brooklyn",
+   "Buffalo",
+   "Rochester",
+   "Albany",
+   "Queens"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
-  "priority_market": false
+  "music_scene": "SPOTIFY TOP MARKET: Brooklyn is a top-10 CWI listener city. The rap capital — NYC boroughs drive national taste, and the catalog's post-trap sound was built for these streets.",
+  "priority_market": true
  }
 }

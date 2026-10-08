@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "NC",
+ "region_name": "North Carolina",
  "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "title": "CWI Catalog (North Carolina)",
+ "description": "Machine-readable CWI music catalog for North Carolina: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,17 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "NC",
+  "name": "North Carolina",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Charlotte",
+   "Raleigh",
+   "Durham",
+   "Greensboro",
+   "Fayetteville"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Charlotte and the Raleigh-Durham corridor form a growing Southern rap market.",
   "priority_market": false
  }
 }

@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "MS",
+ "region_name": "Mississippi",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Mississippi)",
+ "description": "Machine-readable CWI music catalog for Mississippi: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "MS",
+  "name": "Mississippi",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Jackson",
+   "Gulfport",
+   "Biloxi",
+   "Hattiesburg"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Jackson's Southern rap roots run deep in the birthplace of the blues.",
   "priority_market": false
  }
 }

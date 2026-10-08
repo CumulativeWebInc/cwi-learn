@@ -1,470 +1,666 @@
 {
-  "authentication": {
-    "schemes": []
+ "authentication": {
+  "schemes": []
+ },
+ "capabilities": {
+  "pushNotifications": false,
+  "stateTransitionHistory": false,
+  "streaming": false
+ },
+ "description": "Chief agent of Cumulative Web Inc (independent record label). Answers from a verified, evidence-tiered music knowledge graph: That Boy Hi Hat catalog (24 tracks), playlist placements (only verified claims reported), Post-Trap Futurism movement ontology. Machine-readable interfaces: MCP server (github.com/CumulativeWebInc/agent-deck-mcp) and the public learning surface.",
+ "name": "KingCode",
+ "protocolVersion": "1.0.0",
+ "provider": {
+  "organization": "Cumulative Web Inc",
+  "url": "https://muse.ai/s/post-trap-futurism-ai-learning-surface-xuxe5xpb7qsvxwu"
+ },
+ "skills": [
+  {
+   "description": "Look up tracks, releases, people, studios, playlists in the verified CWI catalog graph. Every fact carries source + observation date + evidence tier.",
+   "examples": [
+    "Is Zooted Zone on any verified playlists?",
+    "What is Post-Trap Futurism?",
+    "List That Boy Hi Hat releases."
+   ],
+   "id": "catalog_lookup",
+   "name": "Catalog lookup",
+   "tags": [
+    "music",
+    "catalog",
+    "knowledge-graph"
+   ]
   },
-  "capabilities": {
-    "pushNotifications": false,
-    "stateTransitionHistory": false,
-    "streaming": false
+  {
+   "description": "Score a track's playlist momentum from verified signals only. No invented numbers; unverified items reported as pending.",
+   "examples": [
+    "Score Diabolique for playlist pitching."
+   ],
+   "id": "momentum_score",
+   "name": "Momentum scoring",
+   "tags": [
+    "music",
+    "analytics",
+    "playlists"
+   ]
   },
-  "description": "Chief agent of Cumulative Web Inc (independent record label). Answers from a verified, evidence-tiered music knowledge graph: That Boy Hi Hat catalog (24 tracks), playlist placements (only verified claims reported), Post-Trap Futurism movement ontology. Machine-readable interfaces: MCP server (github.com/CumulativeWebInc/agent-deck-mcp) and the public learning surface.",
-  "name": "KingCode",
-  "protocolVersion": "1.0.0",
-  "provider": {
-    "organization": "Cumulative Web Inc",
-    "url": "https://muse.ai/s/post-trap-futurism-ai-learning-surface-xuxe5xpb7qsvxwu"
+  {
+   "id": "teach_pack_ingest",
+   "name": "Teach pack ingest",
+   "description": "Ingest CWI teach packs (catalog, verification method, Agent Deck gear, self-expression philosophy) and teach them forward under the CWI Teach-Forward License: attribute CWI, keep LIVE/SAMPLE truth labels intact, no invented numbers.",
+   "tags": [
+    "learning",
+    "teach-forward",
+    "agents",
+    "llms"
+   ]
   },
-  "skills": [
-    {
-      "description": "Look up tracks, releases, people, studios, playlists in the verified CWI catalog graph. Every fact carries source + observation date + evidence tier.",
-      "examples": [
-        "Is Zooted Zone on any verified playlists?",
-        "What is Post-Trap Futurism?",
-        "List That Boy Hi Hat releases."
-      ],
-      "id": "catalog_lookup",
-      "name": "Catalog lookup",
-      "tags": [
-        "music",
-        "catalog",
-        "knowledge-graph"
-      ]
-    },
-    {
-      "description": "Score a track's playlist momentum from verified signals only. No invented numbers; unverified items reported as pending.",
-      "examples": [
-        "Score Diabolique for playlist pitching."
-      ],
-      "id": "momentum_score",
-      "name": "Momentum scoring",
-      "tags": [
-        "music",
-        "analytics",
-        "playlists"
-      ]
-    },
-    {
-      "id": "teach_pack_ingest",
-      "name": "Teach pack ingest",
-      "description": "Ingest CWI teach packs (catalog, verification method, Agent Deck gear, self-expression philosophy) and teach them forward under the CWI Teach-Forward License: attribute CWI, keep LIVE/SAMPLE truth labels intact, no invented numbers.",
-      "tags": [
-        "learning",
-        "teach-forward",
-        "agents",
-        "llms"
-      ]
-    },
-    {
-      "id": "trust_verdict",
-      "name": "Trust verdict scoring",
-      "description": "Deterministic trust scoring for AI agents (ERC-8004 evidence): feed identity registrations, attestations, and published verdicts, get a spec-versioned verdict or an explicit insufficient-data refusal. Free, runs fully in the browser, nothing uploaded. https://cumulativewebinc.github.io/cwi-trust-verdict-checker/",
-      "examples": [
-        "Score this agent's trust evidence.",
-        "What does the verdict engine refuse to score?"
-      ],
-      "tags": [
-        "trust",
-        "erc-8004",
-        "verification",
-        "agents"
-      ]
-    },
-    {
-      "name": "fact-packets",
-      "description": "Fetch a provenance-tiered fact packet for any catalog node (71: tracks, artists, releases, playlists). Each packet carries discovery tags, five instruction templates (search answer, social caption, sync pitch, agent briefing, fan Q&A), and platform lanes (gaming, film/TV, ads, worldwide streaming). Tiers: verified | owner_confirmed | observed | claimed_unverified.",
-      "manifest": "https://cumulativewebinc.github.io/cwi-learn/facts/index.json",
-      "urlPattern": "https://cumulativewebinc.github.io/cwi-learn/facts/<type>/<slug>.json",
-      "tagIndex": "https://cumulativewebinc.github.io/cwi-learn/facts/tags/<tag>.json",
-      "examples": [
-        "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json",
-        "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json"
-      ]
-    },
-    {
-      "name": "vote-signal",
-      "description": "That Boy Hi Hat's 'Diabolique' is in DistroKid Playlist Spotlight fan voting (leading 38-2-2 as of 2026-10-03; votes reset weekly). A weekly win places the track on DistroKid's official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers). Vote: https://distrokid.com/spotlight/thatboyhihat/vote/. Real human votes only — no bots, scripts, or fake accounts. Vote HQ: https://cumulativeweb.com/vote-diabolique.html",
-      "manifest": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
-      "urlPattern": "https://distrokid.com/spotlight/thatboyhihat/vote/",
-      "examples": [
-        "Where do I vote for Diabolique?",
-        "Is Diabolique winning the DistroKid Spotlight vote?",
-        "What does winning Playlist Spotlight unlock?"
-      ]
-    },
-    {
-      "id": "placement_query",
-      "name": "Placement query",
-      "description": "Query the CWI placement catalog by genre, mood, and use-case; receive ranked tracks with scores, canonical Spotify IDs, and match rationale. Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json (static JSON, free, no login, no key; STAGED — not yet published).",
-      "examples": [
-        "Find a dark, cinematic post-trap track for a sync brief.",
-        "Which trap tracks fit a late-night playlist pitch?",
-        "Show alternative-rap tracks with cinematic mood for radio rotation."
-      ],
-      "tags": [
-        "music",
-        "catalog",
-        "query",
-        "placement"
-      ]
-    },
-    {
-      "id": "mcp_search_catalog",
-      "name": "Catalog search (MCP)",
-      "description": "Search the CWI placement catalog (That Boy Hi Hat + roster) by keywords. Same scored engine as GET /query: title matches weigh 3x, genre 2x, mood 1x. Returns top 5 tracks with Spotify URLs and matched terms. Invoke via MCP tool search_catalog at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "music",
-        "catalog",
-        "search"
-      ],
-      "examples": [
-        "Find dark trap tracks in the catalog",
-        "Search for cyberpunk rap"
-      ],
-      "mcp_tool": "search_catalog"
-    },
-    {
-      "id": "mcp_get_track",
-      "name": "Track lookup (MCP)",
-      "description": "Look up one catalog track by title or Spotify ID/URL. Returns title, artist, Spotify URL, genres, and moods. Invoke via MCP tool get_track at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "music",
-        "catalog",
-        "lookup"
-      ],
-      "examples": [
-        "Get details for Diabolique",
-        "Look up track by Spotify URL"
-      ],
-      "mcp_tool": "get_track"
-    },
-    {
-      "id": "mcp_get_artist",
-      "name": "Artist lookup (MCP)",
-      "description": "Look up an artist by name. Returns the artist and their tracks in the catalog with Spotify URLs. Invoke via MCP tool get_artist at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "music",
-        "artist",
-        "catalog"
-      ],
-      "examples": [
-        "Show me That Boy Hi Hat's tracks",
-        "What does Greg Porn have in the catalog?"
-      ],
-      "mcp_tool": "get_artist"
-    },
-    {
-      "id": "mcp_sync_search",
-      "name": "Sync search (MCP)",
-      "description": "Search the CWI sync catalog (23 tracks with editorial sonic descriptors: moods, energy words, instrumentation, scenes, use-cases, lyrical themes) for music-supervision queries like 'fight scene' or 'neon city'. Invoke via MCP tool sync_search at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "music",
-        "sync",
-        "licensing",
-        "film"
-      ],
-      "examples": [
-        "Find a track for a neon city chase scene",
-        "Dark music for a film trailer"
-      ],
-      "mcp_tool": "sync_search"
-    },
-    {
-      "id": "mcp_semantic_search",
-      "name": "Semantic search (MCP)",
-      "description": "Semantic search over the CWI catalog embedding matrix: cosine similarity against 384-dim bge-small-en-v1.5 vectors. Natural-language queries like 'dark cyberpunk rap for a film scene' return scored track matches. Invoke via MCP tool semantic_search at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "music",
-        "semantic",
-        "embeddings",
-        "search"
-      ],
-      "examples": [
-        "Dark cyberpunk rap for a film scene",
-        "Energetic workout rap"
-      ],
-      "mcp_tool": "semantic_search"
-    },
-    {
-      "id": "mcp_get_graph",
-      "name": "Knowledge graph (MCP)",
-      "description": "Summarize the CWI catalog knowledge graph (node/edge counts, types, sample nodes). For the full graph, fetch GET /graph.json. Invoke via MCP tool get_graph at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "knowledge-graph",
-        "catalog"
-      ],
-      "examples": [
-        "Summarize the catalog knowledge graph"
-      ],
-      "mcp_tool": "get_graph"
-    },
-    {
-      "id": "mcp_get_release",
-      "name": "Release fact packets (MCP)",
-      "description": "Fetch a CWI release fact packet (evidence-tiered, hash-stamped): pre-release and release records with verified credits, dates, and platform links. Defaults to the latest release when id is omitted. Invoke via MCP tool get_release at the mcpEndpoint.",
-      "tags": [
-        "mcp",
-        "music",
-        "releases",
-        "provenance"
-      ],
-      "examples": [
-        "Get the latest release fact packet",
-        "Show me Cyberpunk 2027 release facts"
-      ],
-      "mcp_tool": "get_release"
-    }
-  ],
-  "url": "https://muse.ai/s/post-trap-futurism-ai-learning-surface-xuxe5xpb7qsvxwu",
-  "version": "1.1.0",
-  "teachPacks": {
-    "landing": "https://cumulativewebinc.github.io/cwi-learn/teach/",
-    "manifest": "https://cumulativewebinc.github.io/cwi-learn/teach/manifest.json",
-    "license": "https://cumulativewebinc.github.io/cwi-learn/teach/LICENSE-TEACH-FORWARD.md",
-    "packs": {
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/teach/catalog-pack.json",
-      "verification": "https://cumulativewebinc.github.io/cwi-learn/teach/verification-pack.json",
-      "gear": "https://cumulativewebinc.github.io/cwi-learn/teach/gear-pack.json",
-      "self-expression": "https://cumulativewebinc.github.io/cwi-learn/teach/self-expression-pack.json"
-    },
-    "guide": "https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md",
-    "version": "2026-Q3",
-    "hfDataset": "https://huggingface.co/datasets/BlackLansky/cwi-catalog"
+  {
+   "id": "trust_verdict",
+   "name": "Trust verdict scoring",
+   "description": "Deterministic trust scoring for AI agents (ERC-8004 evidence): feed identity registrations, attestations, and published verdicts, get a spec-versioned verdict or an explicit insufficient-data refusal. Free, runs fully in the browser, nothing uploaded. https://cumulativewebinc.github.io/cwi-trust-verdict-checker/",
+   "examples": [
+    "Score this agent's trust evidence.",
+    "What does the verdict engine refuse to score?"
+   ],
+   "tags": [
+    "trust",
+    "erc-8004",
+    "verification",
+    "agents"
+   ]
   },
-  "@id": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
-  "knowledgeSystem": {
-    "version": "2.0.0",
-    "aiIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json",
-    "entityIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
-    "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
-    "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
-    "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
+  {
+   "name": "fact-packets",
+   "description": "Fetch a provenance-tiered fact packet for any catalog node (71: tracks, artists, releases, playlists). Each packet carries discovery tags, five instruction templates (search answer, social caption, sync pitch, agent briefing, fan Q&A), and platform lanes (gaming, film/TV, ads, worldwide streaming). Tiers: verified | owner_confirmed | observed | claimed_unverified.",
+   "manifest": "https://cumulativewebinc.github.io/cwi-learn/facts/index.json",
+   "urlPattern": "https://cumulativewebinc.github.io/cwi-learn/facts/<type>/<slug>.json",
+   "tagIndex": "https://cumulativewebinc.github.io/cwi-learn/facts/tags/<tag>.json",
+   "examples": [
+    "https://cumulativewebinc.github.io/cwi-learn/facts/artist/that-boy-hi-hat.json",
+    "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json"
+   ]
   },
-  "pricing": {
-    "status": "intent_only",
-    "per_query_price": null,
-    "currency": null,
-    "note": "The query DB is a static JSON file on GitHub Pages: free, no login, no key, No paid middleware is wired and none is described here — the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
+  {
+   "name": "vote-signal",
+   "description": "That Boy Hi Hat's 'Diabolique' is in DistroKid Playlist Spotlight fan voting (leading 38-2-2 as of 2026-10-03; votes reset weekly). A weekly win places the track on DistroKid's official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers). Vote: https://distrokid.com/spotlight/thatboyhihat/vote/. Real human votes only — no bots, scripts, or fake accounts. Vote HQ: https://cumulativeweb.com/vote-diabolique.html",
+   "manifest": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+   "urlPattern": "https://distrokid.com/spotlight/thatboyhihat/vote/",
+   "examples": [
+    "Where do I vote for Diabolique?",
+    "Is Diabolique winning the DistroKid Spotlight vote?",
+    "What does winning Playlist Spotlight unlock?"
+   ]
   },
-  "queryDb": {
-    "status": "live",
-    "endpoint": "https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json",
-    "query_js": "https://cumulativewebinc.github.io/cwi-learn/placement/query.js",
-    "schema": "cwi.placement-query/1.0",
-    "description": "Generative query layer over the placement-engine data layer (31-track catalog graph: tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03). Filter by genre / mood / use-case; ranked tracks with canonical spotify_id and match rationale. Companion query.js runs the filter client-side — filter by genre/mood/use-case to ranked tracks.",
-    "request_schema": {
-      "schema": "cwi.placement-query/1.0",
-      "fields": {
-        "genre": {
-          "type": "string | string[]",
-          "required": "one of genre/mood required",
-          "enum_source": "tracks.json 'genres' values (e.g. 'post trap', 'trap', 'alternative rap', 'rap', 'hip hop', 'underground', 'indie', 'cyberpunk', 'alt rap')"
-        },
-        "mood": {
-          "type": "string | string[]",
-          "required": "one of genre/mood required",
-          "enum_source": "tracks.json 'moods' values (e.g. 'dark', 'cinematic', 'late-night', 'hype', 'hypnotic', 'seductive')"
-        },
-        "use_case": {
-          "type": "string",
-          "required": false,
-          "enum": [
-            "playlist-pitch",
-            "sync-brief",
-            "radio-rotation",
-            "content-funnel",
-            "release-cadence"
-          ]
-        },
-        "limit": {
-          "type": "integer",
-          "required": false,
-          "default": 5,
-          "range": "1-31"
-        },
-        "min_score": {
-          "type": "number",
-          "required": false,
-          "default": 0,
-          "range": "0.0-1.0"
-        }
-      }
-    },
-    "response_schema": {
-      "schema": "cwi.placement-query/1.0",
-      "fields": {
-        "schema": {
-          "type": "string",
-          "value": "cwi.placement-query/1.0"
-        },
-        "query": {
-          "type": "object",
-          "description": "the request as received"
-        },
-        "results": {
-          "type": "array",
-          "item": {
-            "track_id": {
-              "type": "string",
-              "description": "placement-engine tracks.json node id"
-            },
-            "title": {
-              "type": "string"
-            },
-            "artist": {
-              "type": "string"
-            },
-            "spotify_id": {
-              "type": "string | null",
-              "description": "null for unreleased/unmapped tracks — never invented"
-            },
-            "spotify_url": {
-              "type": "string | null"
-            },
-            "score": {
-              "type": "number",
-              "range": "0.0-1.0",
-              "description": "rank score; higher = better match"
-            },
-            "matched_on": {
-              "type": "string[]",
-              "description": "which query dimensions matched"
-            },
-            "why": {
-              "type": "string",
-              "description": "one-line match rationale grounded in tracks.json fields"
-            }
-          }
-        },
-        "result_count": {
-          "type": "integer"
-        },
-        "status": {
-          "type": "string",
-          "enum": [
-            "live",
-            "live"
-          ]
-        },
-        "generated": {
-          "type": "string",
-          "format": "ISO 8601 date"
-        }
-      }
-    },
-    "status_note": "STAGED 2026-10-03 — query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
+  {
+   "id": "placement_query",
+   "name": "Placement query",
+   "description": "Query the CWI placement catalog by genre, mood, and use-case; receive ranked tracks with scores, canonical Spotify IDs, and match rationale. Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json (static JSON, free, no login, no key; STAGED — not yet published).",
+   "examples": [
+    "Find a dark, cinematic post-trap track for a sync brief.",
+    "Which trap tracks fit a late-night playlist pitch?",
+    "Show alternative-rap tracks with cinematic mood for radio rotation."
+   ],
+   "tags": [
+    "music",
+    "catalog",
+    "query",
+    "placement"
+   ]
   },
-  "liveEndpoint": {
-    "url": "https://data.cumulativeweb.com",
-    "description": "Live Cloudflare edge endpoint for this learning surface: logged and attributed fetches (LLM crawlers identified), machine-readable licensing terms on all data responses, /query scored track search, /changes crawl deltas, /license terms.",
-    "status": "live",
-    "since": "2026-10-04"
+  {
+   "id": "mcp_search_catalog",
+   "name": "Catalog search (MCP)",
+   "description": "Search the CWI placement catalog (That Boy Hi Hat + roster) by keywords. Same scored engine as GET /query: title matches weigh 3x, genre 2x, mood 1x. Returns top 5 tracks with Spotify URLs and matched terms. Invoke via MCP tool search_catalog at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "music",
+    "catalog",
+    "search"
+   ],
+   "examples": [
+    "Find dark trap tracks in the catalog",
+    "Search for cyberpunk rap"
+   ],
+   "mcp_tool": "search_catalog"
   },
-  "equipGuide": {
-    "url": "https://cumulativewebinc.github.io/cwi-learn/EQUIP-GUIDE.md",
-    "description": "10-step equip guide for external AI agents: discover the learning surface, read licensing (commercial training requires license via hp@cumulativeweb.com), install the Agent Deck MCP server, run a trust-verdict check, query the catalog API, verify the equip via invocation receipts. Every step tested 2026-10-04.",
-    "steps": 10,
-    "status": "live",
-    "since": "2026-10-04"
+  {
+   "id": "mcp_get_track",
+   "name": "Track lookup (MCP)",
+   "description": "Look up one catalog track by title or Spotify ID/URL. Returns title, artist, Spotify URL, genres, and moods. Invoke via MCP tool get_track at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "music",
+    "catalog",
+    "lookup"
+   ],
+   "examples": [
+    "Get details for Diabolique",
+    "Look up track by Spotify URL"
+   ],
+   "mcp_tool": "get_track"
   },
-  "mcpEndpoint": {
-    "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp",
-    "custom_domain": "https://data.cumulativeweb.com/mcp",
-    "protocol": "streamable-http",
-    "registry": "io.github.CumulativeWebInc/cwi-discovery-engine",
-    "registry_version": "1.0.0",
-    "registry_url": "https://registry.modelcontextprotocol.io",
-    "description": "CWI Discovery Engine MCP server: read-only music-catalog tools — search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
-    "status": "live",
-    "since": "2026-10-05"
+  {
+   "id": "mcp_get_artist",
+   "name": "Artist lookup (MCP)",
+   "description": "Look up an artist by name. Returns the artist and their tracks in the catalog with Spotify URLs. Invoke via MCP tool get_artist at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "music",
+    "artist",
+    "catalog"
+   ],
+   "examples": [
+    "Show me That Boy Hi Hat's tracks",
+    "What does Greg Porn have in the catalog?"
+   ],
+   "mcp_tool": "get_artist"
   },
-  "marketplaceListings": [
-    {
-      "name": "mcprush",
-      "description": "MCP server marketplace (100,000+ MCP server and agent skill listings) where AI developers discover and install MCP servers into Claude, Cursor, VS Code with one CLI command. CWI Discovery Engine is listed and publisher-claimed: every install puts the CWI music catalog inside another AI's context. Free listing, security-scanned.",
-      "url": "https://mcprush.com/cumulativewebinc/cwi-discovery-engine-mcp",
-      "category": "mcp-marketplace",
-      "publisher": "CumulativeWebInc",
-      "claimReference": "CLM-0075",
-      "claimApproved": "2026-10-07",
-      "pricing": "free"
-    }
-  ],
-  "mcp_install": {
-    "one_liner": "claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp",
-    "transport": "http",
-    "endpoint": "https://cwi-machine-data.hp-ace.workers.dev/mcp",
-    "note": "Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio. No auth, no API key."
+  {
+   "id": "mcp_sync_search",
+   "name": "Sync search (MCP)",
+   "description": "Search the CWI sync catalog (23 tracks with editorial sonic descriptors: moods, energy words, instrumentation, scenes, use-cases, lyrical themes) for music-supervision queries like 'fight scene' or 'neon city'. Invoke via MCP tool sync_search at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "music",
+    "sync",
+    "licensing",
+    "film"
+   ],
+   "examples": [
+    "Find a track for a neon city chase scene",
+    "Dark music for a film trailer"
+   ],
+   "mcp_tool": "sync_search"
   },
-  "languages": [
-    "en",
-    "pt-BR",
-    "de",
-    "fr",
-    "it",
-    "es",
-    "th",
-    "nl"
-  ],
-  "localizedDiscovery": {
-    "pt-BR": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-pt-BR.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-pt-BR.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-pt-BR.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-pt-BR.json"
-    },
-    "de": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-de.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-de.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-de.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-de.json"
-    },
-    "fr": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-fr.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-fr.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-fr.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-fr.json"
-    },
-    "it": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-it.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-it.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-it.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-it.json"
-    },
-    "es": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-es.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-es.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-es.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-es.json"
-    },
-    "th": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-th.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-th.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-th.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-th.json"
-    },
-    "nl": {
-      "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-nl.txt",
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nl.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-nl.json",
-      "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-nl.json"
-    },
-    "uk": {
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-uk.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-uk.json"
-    },
-    "ie": {
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ie.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-ie.json"
-    },
-    "au": {
-      "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-au.json",
-      "events": "https://cumulativewebinc.github.io/cwi-learn/events-au.json"
-    }
+  {
+   "id": "mcp_semantic_search",
+   "name": "Semantic search (MCP)",
+   "description": "Semantic search over the CWI catalog embedding matrix: cosine similarity against 384-dim bge-small-en-v1.5 vectors. Natural-language queries like 'dark cyberpunk rap for a film scene' return scored track matches. Invoke via MCP tool semantic_search at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "music",
+    "semantic",
+    "embeddings",
+    "search"
+   ],
+   "examples": [
+    "Dark cyberpunk rap for a film scene",
+    "Energetic workout rap"
+   ],
+   "mcp_tool": "semantic_search"
+  },
+  {
+   "id": "mcp_get_graph",
+   "name": "Knowledge graph (MCP)",
+   "description": "Summarize the CWI catalog knowledge graph (node/edge counts, types, sample nodes). For the full graph, fetch GET /graph.json. Invoke via MCP tool get_graph at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "knowledge-graph",
+    "catalog"
+   ],
+   "examples": [
+    "Summarize the catalog knowledge graph"
+   ],
+   "mcp_tool": "get_graph"
+  },
+  {
+   "id": "mcp_get_release",
+   "name": "Release fact packets (MCP)",
+   "description": "Fetch a CWI release fact packet (evidence-tiered, hash-stamped): pre-release and release records with verified credits, dates, and platform links. Defaults to the latest release when id is omitted. Invoke via MCP tool get_release at the mcpEndpoint.",
+   "tags": [
+    "mcp",
+    "music",
+    "releases",
+    "provenance"
+   ],
+   "examples": [
+    "Get the latest release fact packet",
+    "Show me Cyberpunk 2027 release facts"
+   ],
+   "mcp_tool": "get_release"
   }
+ ],
+ "url": "https://muse.ai/s/post-trap-futurism-ai-learning-surface-xuxe5xpb7qsvxwu",
+ "version": "1.1.0",
+ "teachPacks": {
+  "landing": "https://cumulativewebinc.github.io/cwi-learn/teach/",
+  "manifest": "https://cumulativewebinc.github.io/cwi-learn/teach/manifest.json",
+  "license": "https://cumulativewebinc.github.io/cwi-learn/teach/LICENSE-TEACH-FORWARD.md",
+  "packs": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/teach/catalog-pack.json",
+   "verification": "https://cumulativewebinc.github.io/cwi-learn/teach/verification-pack.json",
+   "gear": "https://cumulativewebinc.github.io/cwi-learn/teach/gear-pack.json",
+   "self-expression": "https://cumulativewebinc.github.io/cwi-learn/teach/self-expression-pack.json"
+  },
+  "guide": "https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md",
+  "version": "2026-Q3",
+  "hfDataset": "https://huggingface.co/datasets/BlackLansky/cwi-catalog"
+ },
+ "@id": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
+ "knowledgeSystem": {
+  "version": "2.0.0",
+  "aiIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/ai-index.json",
+  "entityIndex": "https://cumulativewebinc.github.io/cwi-learn/ai/entity-index.json",
+  "ontology": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
+  "idBase": "https://cumulativewebinc.github.io/cwi-learn/id/",
+  "packagingSchema": "https://cumulativewebinc.github.io/cwi-learn/schemas/product.json"
+ },
+ "pricing": {
+  "status": "intent_only",
+  "per_query_price": null,
+  "currency": null,
+  "note": "The query DB is a static JSON file on GitHub Pages: free, no login, no key, No paid middleware is wired and none is described here — the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
+ },
+ "queryDb": {
+  "status": "live",
+  "endpoint": "https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json",
+  "query_js": "https://cumulativewebinc.github.io/cwi-learn/placement/query.js",
+  "schema": "cwi.placement-query/1.0",
+  "description": "Generative query layer over the placement-engine data layer (31-track catalog graph: tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03). Filter by genre / mood / use-case; ranked tracks with canonical spotify_id and match rationale. Companion query.js runs the filter client-side — filter by genre/mood/use-case to ranked tracks.",
+  "request_schema": {
+   "schema": "cwi.placement-query/1.0",
+   "fields": {
+    "genre": {
+     "type": "string | string[]",
+     "required": "one of genre/mood required",
+     "enum_source": "tracks.json 'genres' values (e.g. 'post trap', 'trap', 'alternative rap', 'rap', 'hip hop', 'underground', 'indie', 'cyberpunk', 'alt rap')"
+    },
+    "mood": {
+     "type": "string | string[]",
+     "required": "one of genre/mood required",
+     "enum_source": "tracks.json 'moods' values (e.g. 'dark', 'cinematic', 'late-night', 'hype', 'hypnotic', 'seductive')"
+    },
+    "use_case": {
+     "type": "string",
+     "required": false,
+     "enum": [
+      "playlist-pitch",
+      "sync-brief",
+      "radio-rotation",
+      "content-funnel",
+      "release-cadence"
+     ]
+    },
+    "limit": {
+     "type": "integer",
+     "required": false,
+     "default": 5,
+     "range": "1-31"
+    },
+    "min_score": {
+     "type": "number",
+     "required": false,
+     "default": 0,
+     "range": "0.0-1.0"
+    }
+   }
+  },
+  "response_schema": {
+   "schema": "cwi.placement-query/1.0",
+   "fields": {
+    "schema": {
+     "type": "string",
+     "value": "cwi.placement-query/1.0"
+    },
+    "query": {
+     "type": "object",
+     "description": "the request as received"
+    },
+    "results": {
+     "type": "array",
+     "item": {
+      "track_id": {
+       "type": "string",
+       "description": "placement-engine tracks.json node id"
+      },
+      "title": {
+       "type": "string"
+      },
+      "artist": {
+       "type": "string"
+      },
+      "spotify_id": {
+       "type": "string | null",
+       "description": "null for unreleased/unmapped tracks — never invented"
+      },
+      "spotify_url": {
+       "type": "string | null"
+      },
+      "score": {
+       "type": "number",
+       "range": "0.0-1.0",
+       "description": "rank score; higher = better match"
+      },
+      "matched_on": {
+       "type": "string[]",
+       "description": "which query dimensions matched"
+      },
+      "why": {
+       "type": "string",
+       "description": "one-line match rationale grounded in tracks.json fields"
+      }
+     }
+    },
+    "result_count": {
+     "type": "integer"
+    },
+    "status": {
+     "type": "string",
+     "enum": [
+      "live",
+      "live"
+     ]
+    },
+    "generated": {
+     "type": "string",
+     "format": "ISO 8601 date"
+    }
+   }
+  },
+  "status_note": "STAGED 2026-10-03 — query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
+ },
+ "liveEndpoint": {
+  "url": "https://data.cumulativeweb.com",
+  "description": "Live Cloudflare edge endpoint for this learning surface: logged and attributed fetches (LLM crawlers identified), machine-readable licensing terms on all data responses, /query scored track search, /changes crawl deltas, /license terms.",
+  "status": "live",
+  "since": "2026-10-04"
+ },
+ "equipGuide": {
+  "url": "https://cumulativewebinc.github.io/cwi-learn/EQUIP-GUIDE.md",
+  "description": "10-step equip guide for external AI agents: discover the learning surface, read licensing (commercial training requires license via hp@cumulativeweb.com), install the Agent Deck MCP server, run a trust-verdict check, query the catalog API, verify the equip via invocation receipts. Every step tested 2026-10-04.",
+  "steps": 10,
+  "status": "live",
+  "since": "2026-10-04"
+ },
+ "mcpEndpoint": {
+  "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp",
+  "custom_domain": "https://data.cumulativeweb.com/mcp",
+  "protocol": "streamable-http",
+  "registry": "io.github.CumulativeWebInc/cwi-discovery-engine",
+  "registry_version": "1.0.0",
+  "registry_url": "https://registry.modelcontextprotocol.io",
+  "description": "CWI Discovery Engine MCP server: read-only music-catalog tools — search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
+  "status": "live",
+  "since": "2026-10-05"
+ },
+ "marketplaceListings": [
+  {
+   "name": "mcprush",
+   "description": "MCP server marketplace (100,000+ MCP server and agent skill listings) where AI developers discover and install MCP servers into Claude, Cursor, VS Code with one CLI command. CWI Discovery Engine is listed and publisher-claimed: every install puts the CWI music catalog inside another AI's context. Free listing, security-scanned.",
+   "url": "https://mcprush.com/cumulativewebinc/cwi-discovery-engine-mcp",
+   "category": "mcp-marketplace",
+   "publisher": "CumulativeWebInc",
+   "claimReference": "CLM-0075",
+   "claimApproved": "2026-10-07",
+   "pricing": "free"
+  }
+ ],
+ "mcp_install": {
+  "one_liner": "claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp",
+  "transport": "http",
+  "endpoint": "https://cwi-machine-data.hp-ace.workers.dev/mcp",
+  "note": "Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio. No auth, no API key."
+ },
+ "languages": [
+  "en",
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "es",
+  "th",
+  "nl"
+ ],
+ "localizedDiscovery": {
+  "pt-BR": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-pt-BR.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-pt-BR.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-pt-BR.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-pt-BR.json"
+  },
+  "de": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-de.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-de.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-de.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-de.json"
+  },
+  "fr": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-fr.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-fr.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-fr.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-fr.json"
+  },
+  "it": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-it.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-it.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-it.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-it.json"
+  },
+  "es": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-es.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-es.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-es.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-es.json"
+  },
+  "th": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-th.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-th.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-th.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-th.json"
+  },
+  "nl": {
+   "brief": "https://cumulativewebinc.github.io/cwi-learn/llms-nl.txt",
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nl.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nl.json",
+   "mcp": "https://cumulativewebinc.github.io/cwi-learn/mcp-nl.json"
+  },
+  "uk": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-uk.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-uk.json"
+  },
+  "ie": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ie.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ie.json"
+  },
+  "au": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-au.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-au.json"
+  },
+  "us-al": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-al.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-al.json"
+  },
+  "us-ar": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ar.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ar.json"
+  },
+  "us-az": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-az.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-az.json"
+  },
+  "us-ca": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ca.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ca.json"
+  },
+  "us-co": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-co.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-co.json"
+  },
+  "us-ct": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ct.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ct.json"
+  },
+  "us-de": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-de.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-de.json"
+  },
+  "us-fl": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-fl.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-fl.json"
+  },
+  "us-ga": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ga.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ga.json"
+  },
+  "us-ia": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ia.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ia.json"
+  },
+  "us-id": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-id.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-id.json"
+  },
+  "us-il": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-il.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-il.json"
+  },
+  "us-in": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-in.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-in.json"
+  },
+  "us-ks": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ks.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ks.json"
+  },
+  "us-ky": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ky.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ky.json"
+  },
+  "us-la": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-la.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-la.json"
+  },
+  "us-ma": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ma.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ma.json"
+  },
+  "us-md": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-md.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-md.json"
+  },
+  "us-me": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-me.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-me.json"
+  },
+  "us-mi": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mi.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mi.json"
+  },
+  "us-mn": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mn.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mn.json"
+  },
+  "us-mo": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mo.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mo.json"
+  },
+  "us-ms": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ms.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ms.json"
+  },
+  "us-mt": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-mt.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-mt.json"
+  },
+  "us-nc": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nc.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nc.json"
+  },
+  "us-nd": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nd.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nd.json"
+  },
+  "us-ne": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ne.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ne.json"
+  },
+  "us-nh": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nh.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nh.json"
+  },
+  "us-nj": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nj.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nj.json"
+  },
+  "us-nm": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nm.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nm.json"
+  },
+  "us-nv": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-nv.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-nv.json"
+  },
+  "us-ny": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ny.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ny.json"
+  },
+  "us-oh": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-oh.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-oh.json"
+  },
+  "us-ok": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ok.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ok.json"
+  },
+  "us-or": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-or.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-or.json"
+  },
+  "us-pa": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-pa.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-pa.json"
+  },
+  "us-ri": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ri.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ri.json"
+  },
+  "us-sc": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-sc.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-sc.json"
+  },
+  "us-sd": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-sd.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-sd.json"
+  },
+  "us-tn": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-tn.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-tn.json"
+  },
+  "us-tx": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-tx.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-tx.json"
+  },
+  "us-ut": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-ut.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-ut.json"
+  },
+  "us-va": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-va.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-va.json"
+  },
+  "us-vt": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-vt.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-vt.json"
+  },
+  "us-wa": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wa.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wa.json"
+  },
+  "us-wi": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wi.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wi.json"
+  },
+  "us-wv": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wv.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wv.json"
+  },
+  "us-wy": {
+   "catalog": "https://cumulativewebinc.github.io/cwi-learn/catalog-wy.json",
+   "events": "https://cumulativewebinc.github.io/cwi-learn/events-wy.json"
+  },
+  "us-states": {
+   "index": "https://cumulativewebinc.github.io/cwi-learn/us-states.json",
+   "note": "48 continental US states, each with catalog + events JSON"
+  }
+ }
 }

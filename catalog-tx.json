@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "TX",
+ "region_name": "Texas",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Texas)",
+ "description": "Machine-readable CWI music catalog for Texas: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,18 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "TX",
+  "name": "Texas",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Houston",
+   "Dallas",
+   "Austin",
+   "San Antonio",
+   "Fort Worth",
+   "El Paso"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
-  "priority_market": false
+  "music_scene": "SPOTIFY TOP MARKET: Houston is a top-10 CWI listener city. Texas is its own rap universe — Houston's trap legacy, Dallas's wave, Austin's indie crossover.",
+  "priority_market": true
  }
 }

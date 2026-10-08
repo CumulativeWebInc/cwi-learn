@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "MO",
+ "region_name": "Missouri",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Missouri)",
+ "description": "Machine-readable CWI music catalog for Missouri: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "MO",
+  "name": "Missouri",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Kansas City",
+   "St. Louis",
+   "Springfield",
+   "Columbia"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "St. Louis and Kansas City anchor a two-sided Missouri rap corridor.",
   "priority_market": false
  }
 }

@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "NM",
+ "region_name": "New Mexico",
+ "timezone": "America/Denver",
+ "title": "CWI Catalog (New Mexico)",
+ "description": "Machine-readable CWI music catalog for New Mexico: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,15 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "NM",
+  "name": "New Mexico",
+  "timezone": "America/Denver",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Albuquerque",
+   "Santa Fe",
+   "Las Cruces"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Albuquerque's desert-noir energy matches the catalog's late-night cuts.",
   "priority_market": false
  }
 }

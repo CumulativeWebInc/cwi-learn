@@ -1,8 +1,8 @@
 {
  "schema": "cwi-events/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
+ "region": "KY",
+ "region_name": "Kentucky",
  "timezone": "America/New_York",
  "event_count": 2,
  "events": [
@@ -16,7 +16,7 @@
     "Cyberpunk 2027"
    ],
    "artist": "That Boy Hi Hat",
-   "region": "DE",
+   "region": "KY",
    "timezone": "America/New_York",
    "links": {
     "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
@@ -36,7 +36,7 @@
     "Roses over Monaco",
     "Flex My Flame"
    ],
-   "region": "DE",
+   "region": "KY",
    "timezone": "America/New_York",
    "rotation": "week_c",
    "week": 41
@@ -44,15 +44,15 @@
  ],
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
+  "code": "KY",
+  "name": "Kentucky",
   "timezone": "America/New_York",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Louisville",
+   "Lexington",
+   "Bowling Green"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Louisville's rap scene is ascendant — a Midwest-South bridge market.",
   "priority_market": false
  }
 }

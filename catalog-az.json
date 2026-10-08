@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "AZ",
+ "region_name": "Arizona",
+ "timezone": "America/Phoenix",
+ "title": "CWI Catalog (Arizona)",
+ "description": "Machine-readable CWI music catalog for Arizona: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "AZ",
+  "name": "Arizona",
+  "timezone": "America/Phoenix",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Phoenix",
+   "Tucson",
+   "Mesa",
+   "Scottsdale"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Phoenix is a Southwest rap hub — desert-night energy that matches the late-night catalog.",
   "priority_market": false
  }
 }

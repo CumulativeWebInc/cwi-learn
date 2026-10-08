@@ -1,11 +1,11 @@
 {
  "schema": "cwi-catalog/v1",
  "language": "en",
- "region": "DE",
- "region_name": "Delaware",
- "timezone": "America/New_York",
- "title": "CWI Catalog (Delaware)",
- "description": "Machine-readable CWI music catalog for Delaware: 37 tracks from 7 artists.",
+ "region": "AL",
+ "region_name": "Alabama",
+ "timezone": "America/Chicago",
+ "title": "CWI Catalog (Alabama)",
+ "description": "Machine-readable CWI music catalog for Alabama: 37 tracks from 7 artists.",
  "track_count": 37,
  "tracks": [
   {
@@ -1273,15 +1273,16 @@
  "license": "MIT",
  "publisher": "Cumulative Web Inc",
  "state": {
-  "code": "DE",
-  "name": "Delaware",
-  "timezone": "America/New_York",
+  "code": "AL",
+  "name": "Alabama",
+  "timezone": "America/Chicago",
   "major_cities": [
-   "Wilmington",
-   "Dover",
-   "Newark"
+   "Birmingham",
+   "Montgomery",
+   "Mobile",
+   "Huntsville"
   ],
-  "music_scene": "Small state, big corridor — Wilmington sits between Philly and Baltimore's rap scenes.",
+  "music_scene": "Southern hip-hop roots run deep — from Mobile's underground to Birmingham's growing trap scene.",
   "priority_market": false
  }
 }
