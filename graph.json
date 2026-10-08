@@ -1,11 +1,11 @@
 {
  "graph_schema": "cwi.graph/1.0",
- "generated": "2026-10-06T07:50:00Z",
+ "generated": "2026-10-08T00:00:00Z",
  "maintainer": "Cumulative Web Inc (CWI_Data)",
  "source_of_truth_note": "Catalog nodes (artist/track) and all ISRC facts are machine-regenerated from catalog-interop/catalog-index.json (52 track records, 2026-09-19). Non-catalog nodes/edges (organization, movement, people, studio, place, releases, playlists, evidence, media assets) are carried over from the prior edition. Status is verified | owner_confirmed | claimed_unverified | promised_unverified. Placement Query DB node (service:placement-query-db) staged 2026-10-03, status incomplete until query-db.json push is confirmed live.",
  "counts": {
-  "nodes": 150,
-  "edges": 270,
+  "nodes": 133,
+  "edges": 474,
   "organization": 2,
   "movement": 1,
   "person": 4,
@@ -16,12 +16,12 @@
   "evidence": 10,
   "media_asset": 7,
   "artist": 7,
-  "track": 53,
+  "track": 37,
   "station": 1,
   "category": 1,
   "event": 1,
   "service": 1,
-  "genre": 3,
+  "genre": 38,
   "cta": 3
  },
  "nodes": [
@@ -995,1675 +995,6 @@
    ]
   },
   {
-   "id": "track:that-boy-hi-hat-diabolique",
-   "type": "track",
-   "name": "Diabolique",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZ8EF2666377",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (Diabolique single: 'successfully processed and delivered to stores', ISRC shown on track row). NOTE: Deezer public API reports QT6EF2666377 for the same single — open discrepancy, dashboard authoritative.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "isrc_conflict_note": "identity.isrc (DistroKid dashboard QZ8EF2666377 vs Deezer public API QT6EF2666377 — open discrepancy)",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.md",
-     "packet_id": "fact/track/diabolique",
-     "integrity_sha256": "0afb6b6517c3200c"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-spirits-n-shadows",
-   "type": "track",
-   "name": "Spirits n Shadows",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377312",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon + Post Trap Futurism)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/spirits-n-shadows.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/spirits-n-shadows.md",
-     "packet_id": "fact/track/spirits-n-shadows",
-     "integrity_sha256": "6276c9f43e00aec8"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-painted-lady",
-   "type": "track",
-   "name": "Painted Lady",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZMEP2461120",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (The Alternative Theory)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.md",
-     "packet_id": "fact/track/painted-lady",
-     "integrity_sha256": "73e9af79d7bad404"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-flamerz",
-   "type": "track",
-   "name": "Flamerz",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZMEP2456963",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (GTA VI EP, The Alternative Theory, single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.md",
-     "packet_id": "fact/track/flamerz",
-     "integrity_sha256": "edfe0452260f7bba"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-ultimate",
-   "type": "track",
-   "name": "Ultimate",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZMEM2484571",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.md",
-     "packet_id": "fact/track/ultimate",
-     "integrity_sha256": "5f9c4b478721d325"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-toxic-element",
-   "type": "track",
-   "name": "Toxic Element",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZWFE2309934",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory; Deezer spells 'Toxic Elements' (canonical title per owner 2026-10-02: 'Toxic Element'))",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-element.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-element.md",
-     "packet_id": "fact/track/toxic-element",
-     "integrity_sha256": "d1ce2cddf1178b5c"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-7th-angel",
-   "type": "track",
-   "name": "7th Angel",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZTB82306781",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (The Alternative Theory)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/7th-angel.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/7th-angel.md",
-     "packet_id": "fact/track/7th-angel",
-     "integrity_sha256": "0da585a79521f69a"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-phantasm",
-   "type": "track",
-   "name": "Phantasm",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377313",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/phantasm.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/phantasm.md",
-     "packet_id": "fact/track/phantasm",
-     "integrity_sha256": "849602eb55ee6c8c"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-golden-diamond",
-   "type": "track",
-   "name": "Golden Diamond",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": null,
-    "isrc_status": "conflicted",
-    "isrc_source": "CONFLICT: Deezer reports QZK6J2376416 (single / NO SKIPS EP) vs QT3FH2549003 (GTA VI EP / Post Trap Futurism) for the same audio (identical preview hash). No dashboard value supplied — needs Black's arbitration.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "isrc_conflict_note": "identity.isrc (QZK6J2376416 vs QT3FH2549003 — same audio, different codes)",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.md",
-     "packet_id": "fact/track/golden-diamond",
-     "integrity_sha256": "4692c3d3ea226b2a"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-flex-my-flame",
-   "type": "track",
-   "name": "Flex My Flame",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZHN32303575",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Post Trap Futurism, The Alternative Theory)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.md",
-     "packet_id": "fact/track/flex-my-flame",
-     "integrity_sha256": "a26d5c24b9068775"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-broken-hearts-club",
-   "type": "track",
-   "name": "Broken Hearts Club",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZES92391782",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (single delivered to 30 stores). Deezer public API confirms the identical code.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/broken-hearts-club.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/broken-hearts-club.md",
-     "packet_id": "fact/track/broken-hearts-club",
-     "integrity_sha256": "79f1e5bcba58950a"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-zooted-zone",
-   "type": "track",
-   "name": "Zooted Zone",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZDA52303345",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (single delivered to 32 stores). Deezer public API confirms the identical code on the single. NOTE: Deezer reports QT3FH2549001 for the same audio on the GTA VI EP — open discrepancy, dashboard authoritative.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "isrc_conflict_note": "identity.isrc EP variant (dashboard QZDA52303345 vs Deezer GTA VI EP QT3FH2549001 — same audio)",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.md",
-     "packet_id": "fact/track/zooted-zone",
-     "integrity_sha256": "1ec090bcb8a9bf59"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-neon-nights-pt-777",
-   "type": "track",
-   "name": "Neon Nights Pt. 777",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZTB92246281",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (The Alternative Theory)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/neon-nights-pt-777.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/neon-nights-pt-777.md",
-     "packet_id": "fact/track/neon-nights-pt-777",
-     "integrity_sha256": "03413ffc55f68ec8"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-doves-and-diamonds",
-   "type": "track",
-   "name": "Doves & Diamonds",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZTB72282572",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (consistent across single, NO SKIPS, GTA VI EP, Post Trap Futurism)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-diamonds.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-diamonds.md",
-     "packet_id": "fact/track/doves-diamonds",
-     "integrity_sha256": "82a465428e06bd7f"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-shaka-zulu",
-   "type": "track",
-   "name": "Shaka Zulu",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": null,
-    "isrc_status": "conflicted",
-    "isrc_source": "CONFLICT: Deezer reports THREE codes — QZMEM2252108 (single / NO SKIPS), QT3FH2549002 (GTA VI EP, same audio per preview hash), QT6FJ2542393 (Post Trap Futurism, different preview hash — possibly a distinct master). No dashboard value supplied — needs Black's arbitration.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "isrc_conflict_note": "identity.isrc (QZMEM2252108 vs QT3FH2549002 vs QT6FJ2542393 — same audio on two, possible distinct master on third)",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/shaka-zulu.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/shaka-zulu.md",
-     "packet_id": "fact/track/shaka-zulu",
-     "integrity_sha256": "621f05f6b85c9711"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-warped-and-wicked",
-   "type": "track",
-   "name": "Warped & Wicked",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZDA62200554",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 33 stores). Deezer public API confirms the identical code.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked.md",
-     "packet_id": "fact/track/warped-wicked",
-     "integrity_sha256": "7e6b2b8e61a2bfa9"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-warped-and-wicked-radio-edit",
-   "type": "track",
-   "name": "Warped & Wicked (Radio Edit)",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZDA62200555",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 33 stores, ISRC shown on the Radio Edit track row).",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked-radio-edit.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-wicked-radio-edit.md",
-     "packet_id": "fact/track/warped-wicked-radio-edit",
-     "integrity_sha256": "2907d17dbe9849d5"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-rainbows-and-roses",
-   "type": "track",
-   "name": "Rainbows And Roses",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZF222243412",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 35 stores). NOTE: Deezer public API reports QZFZ22243412 for the Post Trap Futurism album version — open discrepancy, dashboard authoritative.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "isrc_conflict_note": "identity.isrc (dashboard QZF222243412 vs Deezer QZFZ22243412 — open discrepancy)",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses.md",
-     "packet_id": "fact/track/rainbows-and-roses",
-     "integrity_sha256": "91c265d3858c1200"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-rainbows-and-roses-instrumental",
-   "type": "track",
-   "name": "Rainbows And Roses (Instrumental)",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "silver",
-    "isrc": "QZF222243413",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19 (2-track album delivered to 35 stores, ISRC shown on the Instrumental track row).",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses-instrumental.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses-instrumental.md",
-     "packet_id": "fact/track/rainbows-and-roses-instrumental",
-     "integrity_sha256": "0962bc02612d5e38"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-place-i-go-to-dream-remastered",
-   "type": "track",
-   "name": "Place I Go to Dream (Remastered)",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA52227918",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Place I Go to Dream (Remastered) 2-track; same code as Idol or Icon / Alternative Theory versions)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-remastered.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-remastered.md",
-     "packet_id": "fact/track/place-i-go-to-dream-remastered",
-     "integrity_sha256": "c1df2396a59f6780"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-place-i-go-to-dream-instrumental",
-   "type": "track",
-   "name": "Place I Go to Dream (Instrumental)",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA52227919",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Place I Go to Dream (Remastered) 2-track)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-instrumental.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream-instrumental.md",
-     "packet_id": "fact/track/place-i-go-to-dream-instrumental",
-     "integrity_sha256": "f7f53f3bc382b306"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-scorpions-and-sapphires",
-   "type": "track",
-   "name": "Scorpions & Sapphires",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377310",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon / Post Trap Futurism; Idol or Icon spells 'Scorpion & Sapphires')",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/scorpions-sapphires.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/scorpions-sapphires.md",
-     "packet_id": "fact/track/scorpions-sapphires",
-     "integrity_sha256": "2d44e3f5dfad59b6"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-tears-and-scars",
-   "type": "track",
-   "name": "Tears and Scars",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377309",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon / Post Trap Futurism)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.md",
-     "packet_id": "fact/track/tears-and-scars",
-     "integrity_sha256": "ce39a25a827ebdce"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-smokin-pain",
-   "type": "track",
-   "name": "Smokin' Pain",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377311",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/smokin-pain.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/smokin-pain.md",
-     "packet_id": "fact/track/smokin-pain",
-     "integrity_sha256": "967abc20bef7a0b2"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-misfits-and-hooligans",
-   "type": "track",
-   "name": "Misfits and Hooligans",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377314",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/misfits-and-hooligans.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/misfits-and-hooligans.md",
-     "packet_id": "fact/track/misfits-and-hooligans",
-     "integrity_sha256": "a6a0c1f9a8f2da98"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-roses-over-monaco",
-   "type": "track",
-   "name": "Roses over Monaco",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA72377315",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Idol or Icon)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/roses-over-monaco.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/roses-over-monaco.md",
-     "packet_id": "fact/track/roses-over-monaco",
-     "integrity_sha256": "312051b7e316e9d3"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:that-boy-hi-hat-piv-ot-al",
-   "type": "track",
-   "name": "piv-ot-al",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "That Boy Hi Hat",
-    "catalog_tier": "bronze",
-    "isrc": null,
-    "isrc_status": "unverified",
-    "isrc_source": null,
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/piv-ot-al.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/piv-ot-al.md",
-     "packet_id": "fact/track/piv-ot-al",
-     "integrity_sha256": "d40ae05bd83f5acf"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-tiempo",
-   "type": "track",
-   "name": "tiempo",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTB92317688",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single; Deezer lowercases 'tiempo')",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tiempo.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tiempo.md",
-     "packet_id": "fact/track/tiempo",
-     "integrity_sha256": "52e8061949d18b4d"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-lofi-2-0",
-   "type": "track",
-   "name": "LOFI 2.0",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTAU2364938",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/lofi-2-0.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/lofi-2-0.md",
-     "packet_id": "fact/track/lofi-2-0",
-     "integrity_sha256": "fd7fe2dc7d561162"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-skateboard-team-sports",
-   "type": "track",
-   "name": "Skateboard Team Sports",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZES72391652",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/skateboard-team-sports.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/skateboard-team-sports.md",
-     "packet_id": "fact/track/skateboard-team-sports",
-     "integrity_sha256": "3c9780e9a8e6a0a8"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-retro-vibe",
-   "type": "track",
-   "name": "Retro Vibe",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZES82338847",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/retro-vibe.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/retro-vibe.md",
-     "packet_id": "fact/track/retro-vibe",
-     "integrity_sha256": "1f3a39a40d3e7ca7"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-viral-beats",
-   "type": "track",
-   "name": "Viral Beats",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZES72321863",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/viral-beats.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/viral-beats.md",
-     "packet_id": "fact/track/viral-beats",
-     "integrity_sha256": "35a5cb92499010a4"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-mosh-pit",
-   "type": "track",
-   "name": "Mosh Pit",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTAZ2200862",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/mosh-pit.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/mosh-pit.md",
-     "packet_id": "fact/track/mosh-pit",
-     "integrity_sha256": "5c351439511db5eb"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-allegience",
-   "type": "track",
-   "name": "Allegience",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTAZ2200863",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP; Deezer spelling 'Allegience' [sic])",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/allegience.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/allegience.md",
-     "packet_id": "fact/track/allegience",
-     "integrity_sha256": "be7369a5074c595c"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-give-it-all",
-   "type": "track",
-   "name": "Give It All",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTAZ2200864",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/give-it-all.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/give-it-all.md",
-     "packet_id": "fact/track/give-it-all",
-     "integrity_sha256": "583954ab02f73475"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-do-it-to-me",
-   "type": "track",
-   "name": "Do it to me",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTAZ2200865",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/do-it-to-me.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/do-it-to-me.md",
-     "packet_id": "fact/track/do-it-to-me",
-     "integrity_sha256": "91960fb3168d262c"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-streets-again",
-   "type": "track",
-   "name": "Streets Again",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": "QZTAZ2200866",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (Focused Intent EP)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/streets-again.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/streets-again.md",
-     "packet_id": "fact/track/streets-again",
-     "integrity_sha256": "b77c0eff5d497c93"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:black-lansky-sync-ready-tracks",
-   "type": "track",
-   "name": "Sync Ready Tracks",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Black Lansky",
-    "catalog_tier": "bronze",
-    "isrc": null,
-    "isrc_status": "unverified",
-    "isrc_source": null,
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/sync-ready-tracks.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/sync-ready-tracks.md",
-     "packet_id": "fact/track/sync-ready-tracks",
-     "integrity_sha256": "c411d51004bd6046"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-star",
-   "type": "track",
-   "name": "Star",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZHN32363436",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single; Deezer artist spelling 'King Ahkeem')",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/star.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/star.md",
-     "packet_id": "fact/track/star",
-     "integrity_sha256": "a280f81d05d1fbae"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-super-solid",
-   "type": "track",
-   "name": "Super Solid",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZTB62301270",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/super-solid.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/super-solid.md",
-     "packet_id": "fact/track/super-solid",
-     "integrity_sha256": "5ff2e9685088e588"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-embiid",
-   "type": "track",
-   "name": "Embiid",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZNWW2269584",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single; DistroKid spells 'Embidd')",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/embiid.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/embiid.md",
-     "packet_id": "fact/track/embiid",
-     "integrity_sha256": "f031039f6c37f905"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-bluefaces-3-0",
-   "type": "track",
-   "name": "Bluefaces 3.0",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZHN32388169",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/bluefaces-3-0.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/bluefaces-3-0.md",
-     "packet_id": "fact/track/bluefaces-3-0",
-     "integrity_sha256": "21b611490f5bcbe2"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-goated",
-   "type": "track",
-   "name": "Goated",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZMEP2445736",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/goated.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/goated.md",
-     "packet_id": "fact/track/goated",
-     "integrity_sha256": "9a8b47971b433331"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-element",
-   "type": "track",
-   "name": "Element",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZHN42322704",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/element.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/element.md",
-     "packet_id": "fact/track/element",
-     "integrity_sha256": "3fd93ed330d14bdd"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:king-akeem-summer-night-fast",
-   "type": "track",
-   "name": "Summer Night FAST",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "King Akeem",
-    "catalog_tier": "bronze",
-    "isrc": "QZTB62312853",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/summer-night-fast.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/summer-night-fast.md",
-     "packet_id": "fact/track/summer-night-fast",
-     "integrity_sha256": "0da057bec273f60a"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:183-wildboi-stunt",
-   "type": "track",
-   "name": "Stunt",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "183 Wildboi",
-    "catalog_tier": "bronze",
-    "isrc": "QZMEP2463049",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/stunt.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/stunt.md",
-     "packet_id": "fact/track/stunt",
-     "integrity_sha256": "d694461e9a9c7941"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:183-wildboi-full-moon",
-   "type": "track",
-   "name": "Full Moon",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "183 Wildboi",
-    "catalog_tier": "bronze",
-    "isrc": "QZNWS2289104",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/full-moon.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/full-moon.md",
-     "packet_id": "fact/track/full-moon",
-     "integrity_sha256": "c9d9c5cb26776c9f"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:dre50-pix",
-   "type": "track",
-   "name": "Pix",
-   "status": "verified",
-   "attrs": {
-    "performed_by": "Dre50",
-    "catalog_tier": "silver",
-    "isrc": "QZFYZ2531105",
-    "isrc_status": "verified",
-    "isrc_source": "DistroKid release dashboard, label-provided screenshot 2026-09-19. Deezer public API confirms the identical code.",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pix.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pix.md",
-     "packet_id": "fact/track/pix",
-     "integrity_sha256": "fe6e069cb6fb1c61"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:fleekz-2k23-corner",
-   "type": "track",
-   "name": "2K23 Corner$ (feat. That Boy Hi Hat)",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Fleekz",
-    "catalog_tier": "bronze",
-    "isrc": "QZDA52309060",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corner-feat-that-boy-hi-hat.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corner-feat-that-boy-hi-hat.md",
-     "packet_id": "fact/track/2k23-corner-feat-that-boy-hi-hat",
-     "integrity_sha256": "b7b72d8bafed2cb6"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:fleekz-2k23-corners",
-   "type": "track",
-   "name": "2k23 Corners",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "Fleekz",
-    "catalog_tier": "bronze",
-    "isrc": "QZK6L2263080",
-    "isrc_status": "verified",
-    "isrc_source": "Deezer public API album/track endpoint, read 2026-09-19 (public source; not distributor-confirmed) (single)",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corners.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corners.md",
-     "packet_id": "fact/track/2k23-corners",
-     "integrity_sha256": "87a6286eb4ebb0bb"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:gregporn-on-edge",
-   "type": "track",
-   "name": "On Edge",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "GregPorn",
-    "catalog_tier": "bronze",
-    "isrc": null,
-    "isrc_status": "unverified",
-    "isrc_source": null,
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/on-edge.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/on-edge.md",
-     "packet_id": "fact/track/on-edge",
-     "integrity_sha256": "1c053049d7e65e21"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
-   "id": "track:gregporn-pay-yourself",
-   "type": "track",
-   "name": "Pay Yourself",
-   "status": "owner_confirmed",
-   "attrs": {
-    "performed_by": "GregPorn",
-    "catalog_tier": "bronze",
-    "isrc": null,
-    "isrc_status": "unverified",
-    "isrc_source": null,
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "master_owner": "Cumulative Web Inc",
-    "license_contact": "hp@cumulativeweb.com",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pay-yourself.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pay-yourself.md",
-     "packet_id": "fact/track/pay-yourself",
-     "integrity_sha256": "12fab8a5ef19146b"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Track identity and ISRC provenance",
-     "source": "catalog-interop/catalog-index.json, generated 2026-09-19",
-     "observed": "2026-09-19",
-     "status": "owner_confirmed"
-    }
-   ]
-  },
-  {
    "attrs": {
     "broadcast_state": "off air — first broadcast drops soon",
     "contact": "hp@cumulativeweb.com",
@@ -2726,37 +1057,6 @@
      "md": "https://cumulativewebinc.github.io/cwi-learn/facts/release/vai-vem-vem-single.md",
      "packet_id": "fact/release/vai-vem-vem-single",
      "integrity_sha256": "89cfa618c498ebce"
-    }
-   },
-   "evidence": [
-    {
-     "claim": "Release live on stores 2026-09-30",
-     "source": "Spotify/Apple Music/Deezer API verification 2026-09-30; CWI release intake",
-     "observed": "2026-09-30",
-     "status": "verified"
-    }
-   ]
-  },
-  {
-   "id": "track:dre50-vai-vem-vem",
-   "type": "track",
-   "name": "vai vem vem",
-   "status": "verified",
-   "attrs": {
-    "artist": "Dre50",
-    "isrc": "QTAZU2645608",
-    "duration": "2:46",
-    "written_by": "Dre50",
-    "produced_by": "Dre50",
-    "co_produced_by": "Black Lansky",
-    "label": "Cumulative Web Inc",
-    "distributor": "DistroKid",
-    "facts": {
-     "schema": "cwi-fact-packet/v1",
-     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/vai-vem-vem.json",
-     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/vai-vem-vem.md",
-     "packet_id": "fact/track/vai-vem-vem",
-     "integrity_sha256": "9051061cac3ab7f6"
     }
    },
    "evidence": [
@@ -4098,22 +2398,3032 @@
    }
   },
   {
-   "id": "track:gregporn-unholy-hunter",
+   "id": "track:diabolique",
    "type": "track",
-   "name": "Unholy Hunter (Ref 1.0)",
-   "label": "Unholy Hunter (Ref 1.0)",
-   "status": "owner_confirmed",
+   "name": "Diabolique",
+   "status": "verified",
    "attrs": {
-    "performed_by": "GregPorn",
-    "catalog_tier": "bronze",
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "dark",
+     "seductive",
+     "cinematic",
+     "dangerous",
+     "nocturnal",
+     "late-night",
+     "introspective",
+     "sad"
+    ],
+    "nlp_description": "\"Diabolique\" is a slow-burning nocturnal record that sits at the dark heart of That Boy Hi Hat's catalog. Over a halftime trap pulse at 77 BPM in G-sharp minor, the production — co-produced by Hybrid and Black Lansky — builds a widescreen, cinematic soundscape: foggy atmospheric synth pads, sparse but hard-hitting drums, and a low 808-driven undertow that keeps the whole track leaning forward like a scene shot in slow motion. This is alternative rap at its most seductive and most dangerous. That Boy Hi Hat moves through the beat with a half-sung, confessional cadence, inhabiting the song's central duality — the pull between light and dark, the haunted party scene where pleasure and regret share the same bottle. His vocal sits deep in the polished mix, double-tracked in places, as though arguing with his own reflection. The mood is late-night and introspective: ghosts and shadows drift through the bars, heartbreak sits underneath the bravado, and the whole thing plays like the final reel of a film that never quite resolves. In context, \"Diabolique\" served as the October Discovery Mode control track and one of the Crucial submissions anchoring the catalog push — and it shows why That Boy Hi Hat's post trap register works so well at low tempos: seductive, cinematic, dangerous, and quietly devastating.",
+    "nlp_score": 86,
+    "bpm": 77,
+    "musical_key": "G# minor",
+    "energy_1_5": 3,
+    "duration_ms": 155844,
+    "duration_human": "2:35",
+    "release_date": "2026-07-03",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+    "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+    "apple_music_url": null,
     "isrc": null,
-    "isrc_status": "unverified",
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
     "label": "Cumulative Web Inc",
-    "master_owner": "Cumulative Web Inc",
+    "distributor": "DistroKid",
     "license_contact": "hp@cumulativeweb.com",
-    "release_status": "unreleased",
-    "release_note": "Reference recording Ref 1.0 (2:02). Supplied by Black Lansky 2026-10-02. In Radio 365 rotation."
-   }
+    "lyrical_themes": [
+     "duality — stuck between light and dark",
+     "midnight and nocturnal imagery",
+     "ghosts, shadows, haunted past",
+     "heartbreak and broken promises",
+     "altered states",
+     "party scene",
+     "confession and self-reflection"
+    ],
+    "contexts": [
+     "late-night",
+     "driving",
+     "club",
+     "wind-down"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "nocturnal rap",
+     "seductive rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/diabolique.md",
+     "packet_id": "fact/track/diabolique"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2026-07-03",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "NLP description present (1319 chars), rubric v2.0 score 86/120",
+     "source": "nlp-catalog pipeline, controlled vocabulary",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "submission-briefs.json 2026-10-03; lyricsheets-2026-10-03/diabolique.txt (manager-verified); spotify-api experience spotify:album:36coJOOVRAq7Q1GkRV6gQa (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:zooted-zone",
+   "type": "track",
+   "name": "Zooted Zone",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "post trap",
+     "trap",
+     "rap",
+     "underground",
+     "hip hop"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "hype",
+     "hypnotic",
+     "aggressive",
+     "underground",
+     "late-night",
+     "anthemic"
+    ],
+    "nlp_description": "",
+    "nlp_score": 87,
+    "bpm": 163,
+    "musical_key": "C# minor",
+    "energy_1_5": 4,
+    "duration_ms": 188466,
+    "duration_human": "3:08",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+    "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [
+     "hedonism and altered states — 'in the Zootazone'",
+     "street imagery and trap house",
+     "bravado — living large, big timers",
+     "angels vs demons duality"
+    ],
+    "contexts": [
+     "party",
+     "club",
+     "pre-game",
+     "driving"
+    ],
+    "sounds_like_lanes": [
+     "trap",
+     "party rap",
+     "post-trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/zooted-zone.md",
+     "packet_id": "fact/track/zooted-zone"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: post trap, trap, rap, underground, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "submission-briefs.json 2026-10-03; lyricsheets-2026-10-03/zooted-zone.txt (manager-verified); spotify-api experience spotify:album:6TzJ3TdZXFDLVsQY9RY1eL (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:doves-and-diamonds",
+   "type": "track",
+   "name": "Doves & Diamonds",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "hip hop"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "luxury",
+     "reflective",
+     "smooth",
+     "late-night",
+     "anthemic",
+     "introspective",
+     "hype"
+    ],
+    "nlp_description": "",
+    "nlp_score": 96,
+    "bpm": 85,
+    "musical_key": "D minor",
+    "energy_1_5": 4,
+    "duration_ms": 181544,
+    "duration_human": "3:01",
+    "release_date": "2023-01-11",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+    "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [
+     "luxury vs street contrast",
+     "brotherhood — 'tears and scars, all my soldiers'",
+     "celebration and elevation",
+     "altered states",
+     "haunted by the past"
+    ],
+    "contexts": [
+     "late-night",
+     "wind-down",
+     "celebration"
+    ],
+    "sounds_like_lanes": [
+     "melodic rap",
+     "luxury rap",
+     "nocturnal rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-and-diamonds.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/doves-and-diamonds.md",
+     "packet_id": "fact/track/doves-and-diamonds"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-01-11",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "submission-briefs.json 2026-10-03; lyricsheets-2026-10-03/doves-and-diamonds.txt (manager-verified); spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:shaka-zulu",
+   "type": "track",
+   "name": "Shaka Zulu",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "hip hop",
+     "underground"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "energetic",
+     "aggressive",
+     "anthemic",
+     "defiant",
+     "rebellious",
+     "menacing",
+     "hypnotic",
+     "triumphant",
+     "dangerous",
+     "confident",
+     "dark",
+     "nocturnal"
+    ],
+    "nlp_description": "",
+    "nlp_score": 98,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 251611,
+    "duration_human": "4:11",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+    "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "workout",
+     "gym",
+     "pre-game",
+     "running"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "underground hip hop",
+     "anthemic rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/shaka-zulu.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/shaka-zulu.md",
+     "packet_id": "fact/track/shaka-zulu"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, hip hop, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:flamerz",
+   "type": "track",
+   "name": "Flamerz",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "trap",
+     "rap",
+     "hip hop"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "aggressive",
+     "defiant",
+     "confident",
+     "anthemic",
+     "hype",
+     "rebellious",
+     "urgent",
+     "dangerous",
+     "energetic",
+     "dark"
+    ],
+    "nlp_description": "",
+    "nlp_score": 95,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 186206,
+    "duration_human": "3:06",
+    "release_date": "2025-11-20",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+    "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Jeck Da General",
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "workout",
+     "gym",
+     "party",
+     "pre-game",
+     "club"
+    ],
+    "sounds_like_lanes": [
+     "rage beats",
+     "melodic trap",
+     "dark trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flamerz.md",
+     "packet_id": "fact/track/flamerz"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2025-11-20",
+     "source": "Medium/CWI: The Alternative Theory set for November 20, 2025",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, trap, rap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:4DUYH0aQmnVZWqE6YZHYbb (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:neon-nights-pt-777",
+   "type": "track",
+   "name": "Neon Nights Pt. 777",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "cyberpunk"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "ethereal",
+     "smooth",
+     "hypnotic",
+     "late-night",
+     "seductive",
+     "cinematic",
+     "dreamy",
+     "nocturnal",
+     "futuristic",
+     "mysterious",
+     "laid-back",
+     "chill",
+     "polished"
+    ],
+    "nlp_description": "",
+    "nlp_score": 88,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 227472,
+    "duration_human": "3:47",
+    "release_date": "2025-11-20",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+    "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "driving",
+     "late-night",
+     "coding",
+     "wind-down",
+     "road-trip"
+    ],
+    "sounds_like_lanes": [
+     "synthwave rap",
+     "melodic trap",
+     "electronic rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/neon-nights-pt-777.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/neon-nights-pt-777.md",
+     "packet_id": "fact/track/neon-nights-pt-777"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2025-11-20",
+     "source": "Medium/CWI: The Alternative Theory set for November 20, 2025",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, cyberpunk",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:4DUYH0aQmnVZWqE6YZHYbb (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:ultimate",
+   "type": "track",
+   "name": "Ultimate",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "hip hop"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "anthemic",
+     "cinematic",
+     "triumphant",
+     "defiant",
+     "confident",
+     "euphoric",
+     "dark",
+     "nocturnal",
+     "hypnotic"
+    ],
+    "nlp_description": "",
+    "nlp_score": 93,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 196163,
+    "duration_human": "3:16",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+    "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "pre-game",
+     "workout",
+     "celebration",
+     "morning"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "anthemic rap",
+     "post-trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/ultimate.md",
+     "packet_id": "fact/track/ultimate"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 4DUYH0aQmnVZWqE6YZHYbb, 6a3KmfMmEWohuNVLEj2noF (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:painted-lady",
+   "type": "track",
+   "name": "Painted Lady",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "seductive",
+     "nocturnal",
+     "late-night",
+     "melancholic",
+     "intimate",
+     "introspective",
+     "dangerous",
+     "dark"
+    ],
+    "nlp_description": "",
+    "nlp_score": 87,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 168500,
+    "duration_human": "2:48",
+    "release_date": "2024-08-16",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+    "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "late-night",
+     "wind-down",
+     "driving"
+    ],
+    "sounds_like_lanes": [
+     "nocturnal rap",
+     "dark trap",
+     "alt r&b rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/painted-lady.md",
+     "packet_id": "fact/track/painted-lady"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2024-08-16",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:4DUYH0aQmnVZWqE6YZHYbb (live 2026-10-03); audit-2026-09-17.md (Deezer)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:warped-and-wicked",
+   "type": "track",
+   "name": "Warped & Wicked",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "underground"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "dark",
+     "menacing",
+     "defiant",
+     "hypnotic",
+     "raw",
+     "brooding",
+     "nocturnal",
+     "late-night",
+     "dystopian",
+     "aggressive",
+     "dangerous"
+    ],
+    "nlp_description": "",
+    "nlp_score": 92,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 248555,
+    "duration_human": "4:08",
+    "release_date": "2022-04-20",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+    "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "driving",
+     "late-night",
+     "coding"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "cinematic rap",
+     "underground trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-and-wicked.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/warped-and-wicked.md",
+     "packet_id": "fact/track/warped-and-wicked"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2022-04-20",
+     "source": "iTunes: Warped & Wicked (Radio Edit) released 2022-04-20; Anghami: Apr 2022",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 4DUYH0aQmnVZWqE6YZHYbb (live 2026-10-03); canonical-titles-2026-09-17.json; analysis-2026-09-17-all-tracks.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:golden-diamond",
+   "type": "track",
+   "name": "Golden Diamond",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "triumphant",
+     "cinematic",
+     "anthemic",
+     "late-night",
+     "confident",
+     "polished",
+     "raw",
+     "euphoric"
+    ],
+    "nlp_description": "",
+    "nlp_score": 87,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 242696,
+    "duration_human": "4:02",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+    "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "celebration",
+     "pre-game",
+     "driving",
+     "morning"
+    ],
+    "sounds_like_lanes": [
+     "melodic trap",
+     "post-trap",
+     "anthemic rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/golden-diamond.md",
+     "packet_id": "fact/track/golden-diamond"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 1ovhUgh1WcoqBW5PoYDIl9 (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:spirits-n-shadows",
+   "type": "track",
+   "name": "Spirits n Shadows",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "underground"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "aggressive",
+     "hypnotic",
+     "urgent",
+     "defiant",
+     "menacing",
+     "anthemic",
+     "haunting",
+     "dark",
+     "cinematic",
+     "dangerous",
+     "energetic",
+     "nocturnal"
+    ],
+    "nlp_description": "",
+    "nlp_score": 93,
+    "bpm": 157,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 198034,
+    "duration_human": "3:18",
+    "release_date": "2021-11-24",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+    "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Jeck da General",
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "workout",
+     "running",
+     "gym",
+     "driving",
+     "late-night"
+    ],
+    "sounds_like_lanes": [
+     "rage beats",
+     "dark trap",
+     "nocturnal rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/spirits-n-shadows.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/spirits-n-shadows.md",
+     "packet_id": "fact/track/spirits-n-shadows"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2021-11-24",
+     "source": "Last.fm: Idol or Icon released 24 Nov 2021",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 0sSbgWgAQ3Wehh2Qdo2CEe (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:flex-my-flame",
+   "type": "track",
+   "name": "Flex My Flame",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "confident",
+     "dangerous",
+     "anthemic",
+     "triumphant",
+     "smooth",
+     "polished"
+    ],
+    "nlp_description": "",
+    "nlp_score": 87,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 183750,
+    "duration_human": "3:03",
+    "release_date": "2023-07-28",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm",
+    "spotify_id": "3knXIxd0PlraXvarlwGwKm",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "pre-game",
+     "party",
+     "club",
+     "driving",
+     "celebration"
+    ],
+    "sounds_like_lanes": [
+     "post-trap",
+     "anthemic rap",
+     "trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/flex-my-flame.md",
+     "packet_id": "fact/track/flex-my-flame"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-07-28",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 4DUYH0aQmnVZWqE6YZHYbb, 2Rh1oDSAwmIq3lRhKiYd97 (live 2026-10-03); spotify-api experience spotify:playlist:1aKBRGOS2ZOMiKwleCd9KV (live 2026-10-03); audit-2026-09-17.md (Deezer)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:rainbows-and-roses",
+   "type": "track",
+   "name": "Rainbows And Roses",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "indie"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "introspective",
+     "vulnerable",
+     "sad",
+     "melancholic",
+     "dreamy",
+     "mellow",
+     "nocturnal",
+     "lonely"
+    ],
+    "nlp_description": "",
+    "nlp_score": 99,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 240613,
+    "duration_human": "4:00",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+    "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "wind-down",
+     "late-night",
+     "focus"
+    ],
+    "sounds_like_lanes": [
+     "nocturnal rap",
+     "melodic rap",
+     "sad rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/rainbows-and-roses.md",
+     "packet_id": "fact/track/rainbows-and-roses"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, indie",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 0iZzlMHHeyXnzSDQagk6yz (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:tears-and-scars",
+   "type": "track",
+   "name": "Tears and Scars",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "melancholic",
+     "introspective",
+     "vulnerable",
+     "dark",
+     "mellow",
+     "ethereal",
+     "sad",
+     "lonely",
+     "late-night"
+    ],
+    "nlp_description": "",
+    "nlp_score": 92,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 280346,
+    "duration_human": "4:40",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+    "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "wind-down",
+     "late-night",
+     "focus"
+    ],
+    "sounds_like_lanes": [
+     "nocturnal rap",
+     "dark trap",
+     "confessional rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/tears-and-scars.md",
+     "packet_id": "fact/track/tears-and-scars"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 0sSbgWgAQ3Wehh2Qdo2CEe (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:toxic-elements",
+   "type": "track",
+   "name": "Toxic Elements",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "trap",
+     "rap",
+     "underground"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "dark",
+     "seductive",
+     "dangerous",
+     "hypnotic",
+     "late-night",
+     "nocturnal",
+     "menacing",
+     "raw"
+    ],
+    "nlp_description": "",
+    "nlp_score": 91,
+    "bpm": 140,
+    "musical_key": "C# minor",
+    "energy_1_5": null,
+    "duration_ms": 203703,
+    "duration_human": "3:23",
+    "release_date": "2023-11-14",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+    "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "late-night",
+     "driving",
+     "wind-down"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "nocturnal rap",
+     "toxic r&b rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-elements.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/toxic-elements.md",
+     "packet_id": "fact/track/toxic-elements"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-11-14",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, trap, rap, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:35buycAVHzNbIeKELvZmyk, 4DUYH0aQmnVZWqE6YZHYbb, 6SftvInxw1baP4rA4xHJ8y (live 2026-10-03); audit-2026-09-17.md (Deezer)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:scorpion-and-sapphires",
+   "type": "track",
+   "name": "Scorpion & Sapphires",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "nocturnal",
+     "cinematic",
+     "dangerous",
+     "seductive",
+     "dystopian",
+     "menacing",
+     "mysterious",
+     "dark",
+     "hypnotic",
+     "late-night"
+    ],
+    "nlp_description": "",
+    "nlp_score": 93,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 187480,
+    "duration_human": "3:07",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61",
+    "spotify_id": "0ptdX13NNwDj6l9hF0Pl61",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "driving",
+     "late-night",
+     "road-trip"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "cinematic rap",
+     "nocturnal rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/scorpion-and-sapphires.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/scorpion-and-sapphires.md",
+     "packet_id": "fact/track/scorpion-and-sapphires"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:0sSbgWgAQ3Wehh2Qdo2CEe, 4DUYH0aQmnVZWqE6YZHYbb (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:7th-angel",
+   "type": "track",
+   "name": "7th Angel",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "indie"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "ethereal",
+     "mystical",
+     "uplifting",
+     "cinematic"
+    ],
+    "nlp_description": "",
+    "nlp_score": 97,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 240000,
+    "duration_human": "4:00",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+    "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "wind-down",
+     "late-night",
+     "focus"
+    ],
+    "sounds_like_lanes": [
+     "melodic rap",
+     "cinematic rap",
+     "nocturnal rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/7th-angel.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/7th-angel.md",
+     "packet_id": "fact/track/7th-angel"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, indie",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:4DUYH0aQmnVZWqE6YZHYbb, 64m0Q3xrLXiZcLMV8AxCeX (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:place-i-go-to-dream",
+   "type": "track",
+   "name": "Place I Go to Dream",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "indie"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "dreamy",
+     "vulnerable",
+     "melancholic",
+     "haunting",
+     "ethereal",
+     "introspective",
+     "lonely",
+     "defiant",
+     "nocturnal",
+     "mellow"
+    ],
+    "nlp_description": "",
+    "nlp_score": 92,
+    "bpm": 85,
+    "musical_key": "C#",
+    "energy_1_5": 4,
+    "duration_ms": 168071,
+    "duration_human": "2:48",
+    "release_date": "2021-11-24",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+    "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Jeck da General",
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "wind-down",
+     "late-night",
+     "focus",
+     "studying"
+    ],
+    "sounds_like_lanes": [
+     "melodic rap",
+     "indie rap",
+     "dream rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/place-i-go-to-dream.md",
+     "packet_id": "fact/track/place-i-go-to-dream"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2021-11-24",
+     "source": "Last.fm: Idol or Icon released 24 Nov 2021",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, indie",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:0sSbgWgAQ3Wehh2Qdo2CEe, 4DUYH0aQmnVZWqE6YZHYbb, 3Gbp39K1JVJJUdAv3TJR3G (live 2026-10-03); analysis-2026-09-17-all-tracks.md; vault-inventory.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:smokin-pain",
+   "type": "track",
+   "name": "Smokin' Pain",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "underground"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "introspective",
+     "late-night",
+     "melancholic",
+     "dark",
+     "lonely",
+     "sad",
+     "raw",
+     "mellow",
+     "nocturnal",
+     "chill"
+    ],
+    "nlp_description": "",
+    "nlp_score": 95,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 198530,
+    "duration_human": "3:18",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+    "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "late-night",
+     "wind-down"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "nocturnal rap",
+     "underground hip hop"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/smokin-pain.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/smokin-pain.md",
+     "packet_id": "fact/track/smokin-pain"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:0sSbgWgAQ3Wehh2Qdo2CEe (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:phantasm",
+   "type": "track",
+   "name": "Phantasm",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "cyberpunk"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "dark",
+     "dystopian",
+     "introspective",
+     "brooding",
+     "ethereal",
+     "mysterious",
+     "nocturnal",
+     "cinematic",
+     "melancholic",
+     "haunting",
+     "lonely",
+     "cold",
+     "hypnotic"
+    ],
+    "nlp_description": "",
+    "nlp_score": 93,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": 4,
+    "duration_ms": 235467,
+    "duration_human": "3:55",
+    "release_date": "2021-11-24",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+    "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Jeck da General",
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "coding",
+     "late-night",
+     "focus",
+     "gaming"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "synthwave rap",
+     "dystopian rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/phantasm.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/phantasm.md",
+     "packet_id": "fact/track/phantasm"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2021-11-24",
+     "source": "Last.fm: Idol or Icon released 24 Nov 2021",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, cyberpunk",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:0sSbgWgAQ3Wehh2Qdo2CEe (live 2026-10-03); analysis-2026-09-17-all-tracks.md; canonical-titles-2026-09-17.json",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:misfits-and-hooligans",
+   "type": "track",
+   "name": "Misfits and Hooligans",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap",
+     "underground"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "defiant",
+     "aggressive",
+     "raw",
+     "energetic",
+     "rebellious",
+     "anthemic",
+     "triumphant",
+     "hype"
+    ],
+    "nlp_description": "",
+    "nlp_score": 95,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 349074,
+    "duration_human": "5:49",
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+    "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "workout",
+     "pre-game",
+     "party",
+     "gym"
+    ],
+    "sounds_like_lanes": [
+     "underground hip hop",
+     "anthemic rap",
+     "post-trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/misfits-and-hooligans.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/misfits-and-hooligans.md",
+     "packet_id": "fact/track/misfits-and-hooligans"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:0sSbgWgAQ3Wehh2Qdo2CEe (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:roses-over-monaco",
+   "type": "track",
+   "name": "Roses over Monaco",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "cinematic",
+     "late-night",
+     "triumphant",
+     "hopeful",
+     "romantic",
+     "nostalgic",
+     "mellow",
+     "warm",
+     "serious",
+     "introspective",
+     "uplifting"
+    ],
+    "nlp_description": "",
+    "nlp_score": 88,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 275304,
+    "duration_human": "4:35",
+    "release_date": "2021-11-24",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+    "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Jeck da General",
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "wind-down",
+     "celebration",
+     "driving",
+     "morning"
+    ],
+    "sounds_like_lanes": [
+     "cinematic rap",
+     "melodic rap",
+     "triumphant rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/roses-over-monaco.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/roses-over-monaco.md",
+     "packet_id": "fact/track/roses-over-monaco"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2021-11-24",
+     "source": "Last.fm: Idol or Icon released 24 Nov 2021",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:album:0sSbgWgAQ3Wehh2Qdo2CEe (live 2026-10-03)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:broken-hearts-club",
+   "type": "track",
+   "name": "Broken Hearts Club",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "melancholic",
+     "anthemic",
+     "defiant",
+     "triumphant",
+     "euphoric",
+     "vulnerable",
+     "sad",
+     "energetic"
+    ],
+    "nlp_description": "",
+    "nlp_score": 93,
+    "bpm": 84,
+    "musical_key": "C# Major",
+    "energy_1_5": 4,
+    "duration_ms": 188000,
+    "duration_human": "3:08",
+    "release_date": "2023-05-20",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/6OCaHPYNSYBwAgaQrZ5IHq",
+    "spotify_id": "6OCaHPYNSYBwAgaQrZ5IHq",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Jeck Da General",
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "club",
+     "party",
+     "workout",
+     "driving"
+    ],
+    "sounds_like_lanes": [
+     "sad rap",
+     "anthemic rap",
+     "post-trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/broken-hearts-club.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/broken-hearts-club.md",
+     "packet_id": "fact/track/broken-hearts-club"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-05-20",
+     "source": "TuneBat via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "vault-inventory.md; analysis-2026-09-17-all-tracks.md; audit-2026-09-17.md (YouTube)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:star-king-akeem",
+   "type": "track",
+   "name": "Star",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "King Ahkeem",
+    "artist_id": "artist:king-ahkeem",
+    "genres": [
+     "trap",
+     "hip hop"
+    ],
+    "genre_voice": "trap",
+    "moods": [
+     "anthemic",
+     "triumphant",
+     "confident",
+     "euphoric",
+     "defiant",
+     "serious",
+     "hype"
+    ],
+    "nlp_description": "",
+    "nlp_score": 90,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 171000,
+    "duration_human": "2:51",
+    "release_date": "2019-04-21",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/4Zhwi9tbKqoxsJjbrSPVuY",
+    "spotify_id": "4Zhwi9tbKqoxsJjbrSPVuY",
+    "apple_music_url": "https://music.apple.com/us/album/star/1678405503?i=1678405504",
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "celebration",
+     "pre-game",
+     "party",
+     "workout",
+     "morning"
+    ],
+    "sounds_like_lanes": [
+     "pop rap",
+     "anthemic rap",
+     "hip hop"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/star-king-akeem.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/star-king-akeem.md",
+     "packet_id": "fact/track/star-king-akeem"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2019-04-21",
+     "source": "Spotify/Apple Music via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: trap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "memory/people/king-akeem.md; spotify-api artist/track searches (live 2026-10-03, no match); TuneBat/Spotify/Apple Music/YouTube via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:full-moon-183-wilboi",
+   "type": "track",
+   "name": "Full Moon",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "183 Wildboi",
+    "artist_id": "artist:183-wildboi",
+    "genres": [
+     "rap rock",
+     "rock rap"
+    ],
+    "genre_voice": "rap rock",
+    "moods": [
+     "anthemic",
+     "confident",
+     "energetic",
+     "euphoric",
+     "triumphant",
+     "hype"
+    ],
+    "nlp_description": "",
+    "nlp_score": 93,
+    "bpm": 120,
+    "musical_key": "A minor",
+    "energy_1_5": null,
+    "duration_ms": 195000,
+    "duration_human": "3:15",
+    "release_date": "2022-08-26",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ",
+    "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "celebration",
+     "pre-game",
+     "workout",
+     "party"
+    ],
+    "sounds_like_lanes": [
+     "melodic rap",
+     "anthemic rap",
+     "stadium rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/full-moon-183-wilboi.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/full-moon-183-wilboi.md",
+     "packet_id": "fact/track/full-moon-183-wilboi"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2022-08-26",
+     "source": "TuneBat via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: rap rock, rock rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:artist:2XjJkxkE8SkkjYqsGbCpoO (live 2026-10-03); vault-inventory.md; MEMORY.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:stunt-183-wilboi",
+   "type": "track",
+   "name": "Stunt",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "183 Wildboi",
+    "artist_id": "artist:183-wildboi",
+    "genres": [
+     "rap rock",
+     "rock rap"
+    ],
+    "genre_voice": "rap rock",
+    "moods": [
+     "hype",
+     "aggressive",
+     "anthemic",
+     "defiant",
+     "confident",
+     "rebellious",
+     "energetic",
+     "raw"
+    ],
+    "nlp_description": "",
+    "nlp_score": 72,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": 152208,
+    "duration_human": "2:32",
+    "release_date": "2024-05-19",
+    "release_status": "released",
+    "spotify_url": null,
+    "spotify_id": "1nqHYA5CT2JwyZjVmoIkfe",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "workout",
+     "pre-game",
+     "gym",
+     "party"
+    ],
+    "sounds_like_lanes": [
+     "underground hip hop",
+     "trap",
+     "anthemic rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/stunt-183-wilboi.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/stunt-183-wilboi.md",
+     "packet_id": "fact/track/stunt-183-wilboi"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2024-05-19",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: rap rock, rock rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "vault-inventory.md; memory/people/183-wilboi.md; spotify-api track search (live 2026-10-03, no match)",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:vai-vem-vem-dre50",
+   "type": "track",
+   "name": "vai vem vem",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "Dre50",
+    "artist_id": "artist:dre50",
+    "genres": [
+     "afrobeats",
+     "dancehall",
+     "hip hop"
+    ],
+    "genre_voice": "afrobeats",
+    "moods": [
+     "smooth",
+     "confident",
+     "polished",
+     "warm",
+     "playful",
+     "seductive",
+     "laid-back",
+     "chill"
+    ],
+    "nlp_description": "",
+    "nlp_score": 92,
+    "bpm": 126,
+    "musical_key": "F minor",
+    "energy_1_5": null,
+    "duration_ms": 167000,
+    "duration_human": "2:47",
+    "release_date": "2026-09-30",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML",
+    "spotify_id": "6MNkg5WRxtnzLA22JFpUML",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "party",
+     "driving",
+     "road-trip",
+     "club"
+    ],
+    "sounds_like_lanes": [
+     "dancehall",
+     "afrobeats",
+     "island pop"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/vai-vem-vem-dre50.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/vai-vem-vem-dre50.md",
+     "packet_id": "fact/track/vai-vem-vem-dre50"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2026-09-30",
+     "source": "CWI records 2026-09-30; TuneBat confirms via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: afrobeats, dancehall, hip hop",
+     "source": "Derived from NLP description prose (mentions dancehall, afrobeats) 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api search (live 2026-10-03; artist subtitle 'Dre50'); memory/people/dre50.md; TuneBat/Spotify/Apple Music/YouTube via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:pay-yourself-greg-porn",
+   "type": "track",
+   "name": "Pay Yourself",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "Greg Porn",
+    "artist_id": "artist:greg-porn",
+    "genres": [
+     "cyberpunk",
+     "dark luxury"
+    ],
+    "genre_voice": "cyberpunk",
+    "moods": [
+     "defiant",
+     "aggressive",
+     "triumphant",
+     "confident",
+     "menacing",
+     "raw",
+     "serious",
+     "dangerous",
+     "heavy"
+    ],
+    "nlp_description": "",
+    "nlp_score": 96,
+    "bpm": 94,
+    "musical_key": "A Major",
+    "energy_1_5": null,
+    "duration_ms": 186000,
+    "duration_human": "3:06",
+    "release_date": "2023-07-04",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/4E0B7kVlJgcX0V0L3e793L",
+    "spotify_id": "4E0B7kVlJgcX0V0L3e793L",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "workout",
+     "gym",
+     "pre-game",
+     "focus"
+    ],
+    "sounds_like_lanes": [
+     "underground trap",
+     "hardcore hip hop",
+     "street rap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pay-yourself-greg-porn.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pay-yourself-greg-porn.md",
+     "packet_id": "fact/track/pay-yourself-greg-porn"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-07-04",
+     "source": "TuneBat via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: cyberpunk, dark luxury",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:track:4E0B7kVlJgcX0V0L3e793L (live 2026-10-03; 'Popular tracks by Greg Porn'); memory/people/greg-porn.md; TuneBat/Spotify/Apple Music/YouTube via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:on-edge-greg-porn",
+   "type": "track",
+   "name": "On Edge",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "Greg Porn",
+    "artist_id": "artist:greg-porn",
+    "genres": [
+     "cyberpunk",
+     "dark luxury"
+    ],
+    "genre_voice": "cyberpunk",
+    "moods": [
+     "late-night",
+     "introspective",
+     "dangerous",
+     "urgent",
+     "hypnotic",
+     "aggressive",
+     "anxious",
+     "serious",
+     "nocturnal",
+     "menacing",
+     "dark"
+    ],
+    "nlp_description": "",
+    "nlp_score": 98,
+    "bpm": 172,
+    "musical_key": "G major",
+    "energy_1_5": null,
+    "duration_ms": 134000,
+    "duration_human": "2:14",
+    "release_date": "2023-08-10",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/5MJKRQuEYdC6duNFHz964U",
+    "spotify_id": "5MJKRQuEYdC6duNFHz964U",
+    "apple_music_url": "https://music.apple.com/us/album/on-edge/1702015437?i=1702015438",
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "late-night",
+     "coding",
+     "driving",
+     "focus"
+    ],
+    "sounds_like_lanes": [
+     "nocturnal rap",
+     "underground trap",
+     "dark trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/on-edge-greg-porn.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/on-edge-greg-porn.md",
+     "packet_id": "fact/track/on-edge-greg-porn"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-08-10",
+     "source": "Spotify/Apple Music via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: cyberpunk, dark luxury",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "memory/people/greg-porn.md; spotify-api experience spotify:artist:56m3zvu4pwoqd9MrHkQHQg (live 2026-10-03; absent from Top Tracks); TuneBat/Spotify/Apple Music/YouTube via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:unholy-hunter-greg-porn",
+   "type": "track",
+   "name": "Unholy Hunter",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "Greg Porn",
+    "artist_id": "artist:greg-porn",
+    "genres": [
+     "cyberpunk",
+     "dark luxury"
+    ],
+    "genre_voice": "cyberpunk",
+    "moods": [
+     "dark",
+     "dystopian",
+     "dangerous",
+     "nocturnal",
+     "menacing",
+     "hypnotic",
+     "late-night",
+     "cold",
+     "raw",
+     "aggressive"
+    ],
+    "nlp_description": "",
+    "nlp_score": 85,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": null,
+    "release_status": "unreleased_ref_only",
+    "spotify_url": null,
+    "spotify_id": null,
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "late-night",
+     "coding",
+     "gaming"
+    ],
+    "sounds_like_lanes": [
+     "dark trap",
+     "underground trap",
+     "horrorcore-adjacent"
+    ],
+    "catalog_tier": "bronze",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/unholy-hunter-greg-porn.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/unholy-hunter-greg-porn.md",
+     "packet_id": "fact/track/unholy-hunter-greg-porn"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Genres: cyberpunk, dark luxury",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "vault-inventory.md; memory/people/greg-porn.md",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:2k23-corner-fleekz",
+   "type": "track",
+   "name": "2K23 Corners",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "Fleekz",
+    "artist_id": "artist:artist:fleekz",
+    "genres": [
+     "rap",
+     "hip hop",
+     "underground"
+    ],
+    "genre_voice": null,
+    "moods": [
+     "gritty",
+     "menacing",
+     "late-night",
+     "aggressive",
+     "confident",
+     "raw",
+     "dark",
+     "serious"
+    ],
+    "nlp_description": "",
+    "nlp_score": 89,
+    "bpm": 83,
+    "musical_key": "C# Major",
+    "energy_1_5": null,
+    "duration_ms": 238000,
+    "duration_human": "3:58",
+    "release_date": "2023-02-07",
+    "release_status": "released",
+    "spotify_url": "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm",
+    "spotify_id": "6mpcJapNVe4OPZ3j9QPHqm",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [
+     "driving",
+     "late-night",
+     "workout"
+    ],
+    "sounds_like_lanes": [
+     "underground hip hop",
+     "street rap",
+     "trap"
+    ],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corner-fleekz.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/2k23-corner-fleekz.md",
+     "packet_id": "fact/track/2k23-corner-fleekz"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2023-02-07",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: rap, hip hop, underground",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "spotify-api experience spotify:track:6mpcJapNVe4OPZ3j9QPHqm (live 2026-10-03; 'Popular tracks by Fleekz'); audit-2026-09-17.md (Apple Music); TuneBat/Spotify/Apple Music/YouTube via live browser 2026-10-06",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:that-boy-hi-hat-cyberpunk-2027",
+   "type": "track",
+   "name": "Cyberpunk 2027",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "That Boy Hi Hat",
+    "artist_id": "artist:tbhh",
+    "genres": [
+     "alternative rap",
+     "alt rap",
+     "post trap",
+     "rap"
+    ],
+    "genre_voice": "post-trap futurism",
+    "moods": [
+     "dark",
+     "cinematic",
+     "futuristic",
+     "nocturnal",
+     "dystopian"
+    ],
+    "nlp_description": "",
+    "nlp_score": 92,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": "2026-10-20",
+    "release_status": "pre_release",
+    "spotify_url": null,
+    "spotify_id": null,
+    "apple_music_url": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+    "isrc": null,
+    "isrc_status": null,
+    "producer": "Kokurcho",
+    "co_producer": null,
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [
+     "cyberpunk",
+     "future"
+    ],
+    "contexts": [
+     "coding",
+     "gaming",
+     "driving",
+     "workout",
+     "late-night"
+    ],
+    "sounds_like_lanes": [
+     "cyberpunk rap",
+     "futuristic trap",
+     "synthwave rap"
+    ],
+    "catalog_tier": "bronze",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/that-boy-hi-hat-cyberpunk-2027.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/that-boy-hi-hat-cyberpunk-2027.md",
+     "packet_id": "fact/track/that-boy-hi-hat-cyberpunk-2027"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2026-10-20",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: alternative rap, alt rap, post trap, rap",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Track metadata from catalog sources",
+     "source": "Apple iTunes lookup API (live read 2026-10-06); owner-confirmed credits 2026-10-04",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:pix-dre50",
+   "type": "track",
+   "name": "Pix",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "Dre50",
+    "artist_id": "artist:dre50",
+    "genres": [
+     "afrobeats",
+     "dancehall",
+     "hip hop"
+    ],
+    "genre_voice": "afrobeats",
+    "moods": [
+     "smooth",
+     "warm",
+     "playful"
+    ],
+    "nlp_description": "\"Pix\" is Dre50's sun-warmed invitation to the dancefloor, an afrobeats record with dancehall bounce that carries its hip hop DNA with an easy, confident sway. Released January 7, 2025, it arrived as one of the CWI catalog's brightest discoveries — a smooth, warm, playful cut that sounds like golden hour rendered in sound. The production, with Black Lansky credited as lyricist and assistant producer alongside co-lyricist Andre Rowe, keeps the groove front and center: syncopated afrobeats drums with a light, rolling bounce, layered percussion in the crossover tradition, and a bassline that rolls rather than hits. Dre50 rides the beat with a melodic, half-sung flow, his delivery relaxed but precise, evoking the carefree register of late-summer anthems built for open windows and long drives. Atmospheric synth pads float underneath the rhythm section while crisp percussion cuts through the warmth. It is music made for movement — hypnotic in its repetition, triumphant in its simplicity. For fans of the afrobeats movement and the island-rap bridge, \"Pix\" sits alongside the catalog's most joyful records. The track is out now on all platforms via Cumulative Web Inc, ℗ 2025, and holds a verified Spotify listing.",
+    "nlp_score": 84,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": "2025-01-07",
+    "release_status": "released",
+    "spotify_url": null,
+    "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [],
+    "sounds_like_lanes": [],
+    "catalog_tier": "silver",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pix-dre50.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/pix-dre50.md",
+     "packet_id": "fact/track/pix-dre50"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "Release date 2025-01-07",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "NLP description present (1221 chars), rubric v2.0 score 84/120",
+     "source": "nlp-catalog pipeline, controlled vocabulary",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: afrobeats, dancehall, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:bluefaces-30-king-ahkeem",
+   "type": "track",
+   "name": "Bluefaces 3.0",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "King Ahkeem",
+    "artist_id": "artist:king-ahkeem",
+    "genres": [
+     "trap",
+     "hip hop"
+    ],
+    "genre_voice": "trap",
+    "moods": [
+     "confident",
+     "hype",
+     "aggressive"
+    ],
+    "nlp_description": "\"Bluefaces 3.0\" is King Ahkeem at his most confident — a trap record co-produced by Black Lansky that treats the money anthem as a contact sport. The title plays on the blue hundred-dollar bill, and the track moves like a victory lap through that imagery: hype, aggressive, and unapologetically anthemic from the first bar. The beat is pure trap architecture — the 808 bass drives the track throughout, long sliding bass notes locked to crisp hi-hats with rolling patterns landing in the chorus, dark synth leads cutting through the mix and snare hits landing like exclamation points. King Ahkeem rides the instrumental with a confident, aggressive flow, stacking ad-libs between bars and letting the vocal sit heavy and upfront in the mix. The energy never dips: the verses stay hype, the hook goes full anthem, and the outro fades on a final run of stuttering hi-hats. The production is 808-driven and bass-heavy throughout, with atmospheric pads filling the space behind the drums so the track feels widescreen even at its hardest. For fans of modern trap built for the trunk and the club alike, \"Bluefaces 3.0\" evokes the southern hip hop lineage — it sounds like Atlanta's trap drums updated with a sharper, more cinematic edge. The record sits in conversation with King Ahkeem's other trap singles in the CWI catalog, and it holds rotation on Cumulative Radio 365, where the anthemic hook translates cleanly to broadcast. King Ahkeem's delivery recalls the confident wave of contemporary trap royalty, and the triumphant closer lands like a championship speech. The dark trap textures carry real depth, with synth layers stacked throughout the mix. Out now via Cumulative Radio 365 since its 2026 premiere, it is a triumphant moment in the underground trap wave and the wider scene.",
+    "nlp_score": 86,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": null,
+    "spotify_id": null,
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [],
+    "sounds_like_lanes": [],
+    "catalog_tier": "bronze",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/bluefaces-30-king-ahkeem.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/bluefaces-30-king-ahkeem.md",
+     "packet_id": "fact/track/bluefaces-30-king-ahkeem"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "NLP description present (1788 chars), rubric v2.0 score 86/120",
+     "source": "nlp-catalog pipeline, controlled vocabulary",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: trap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:element-king-ahkeem",
+   "type": "track",
+   "name": "Element",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "King Ahkeem",
+    "artist_id": "artist:king-ahkeem",
+    "genres": [
+     "trap",
+     "hip hop"
+    ],
+    "genre_voice": "trap",
+    "moods": [
+     "confident",
+     "hype",
+     "aggressive"
+    ],
+    "nlp_description": "\"Element\" strips King Ahkeem's sound down to its foundation — a trap record co-produced by Black Lansky built on the idea that the basics, done right, hit hardest. The title says everything: this is the element, the core, the unshakable base of his style. Confident and aggressive, the track moves with a hype energy that never needs to raise its voice to prove a point. The production is dark trap at its most elemental — the 808 bass drives the record throughout, crisp hi-hats cutting in the chorus with double-time precision, with dark textures and deep tones layered underneath like a pulse. King Ahkeem's flow is locked and precise, each bar landing exactly on the grid, with ad-libs used sparingly and surgically — a confident performance that trusts the beat to do the heavy lifting. The mix is clean and hard-hitting, with the 808 bass sitting front and center and the percussion crisp enough to cut through any system. There is no filler here: every sound earns its place, and the track's restraint is what makes it anthemic — the hook hits harder because nothing around it is competing for attention. For fans of stripped-back trap that prioritizes impact over ornament, \"Element\" evokes the foundational lineage of the genre — it sounds like the essential ingredients of trap drums and 808-driven production reduced to their purest form. The record sits alongside King Ahkeem's \"Bluefaces 3.0\" and \"Embiid\" in the CWI catalog's trap lane, and it holds rotation on Cumulative Radio 365. King Ahkeem's delivery recalls the disciplined confidence of trap's architects, and the track's elemental focus makes it a statement of identity as much as a song. Out now via Cumulative Radio 365 since its 2026 premiere — a triumphant, defiant underground trap wave entry in the wider scene.",
+    "nlp_score": 87,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": null,
+    "spotify_id": null,
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [],
+    "sounds_like_lanes": [],
+    "catalog_tier": "bronze",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/element-king-ahkeem.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/element-king-ahkeem.md",
+     "packet_id": "fact/track/element-king-ahkeem"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "NLP description present (1790 chars), rubric v2.0 score 87/120",
+     "source": "nlp-catalog pipeline, controlled vocabulary",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: trap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:embiid-king-ahkeem",
+   "type": "track",
+   "name": "Embiid",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "King Ahkeem",
+    "artist_id": "artist:king-ahkeem",
+    "genres": [
+     "trap",
+     "hip hop"
+    ],
+    "genre_voice": "trap",
+    "moods": [
+     "confident",
+     "hype",
+     "aggressive"
+    ],
+    "nlp_description": "\"Embiid\" is King Ahkeem playing at MVP level — a trap record co-produced by Black Lansky named for dominance and built to sound like it. The title borrows the aura of basketball's most unstoppable big man, and the track carries that same larger-than-life confidence: hype, aggressive, and anthemic, with a swagger that fills every corner of the beat. The instrumental is trap built for the arena — the 808 bass drives the track throughout, distorted low-end weight under rolling hi-hats landing in the chorus in double-time, and hard-hitting drums that land like body blows, all wrapped in dark synth textures and atmospheric pads that give the track its widescreen scale. King Ahkeem attacks the beat with a confident, aggressive delivery, stacking ad-libs and vocal chops that amplify the larger-than-life energy, and the hook is pure anthem — designed to be chanted back. The production stays 808-driven and bass-heavy throughout, with the mix keeping the vocal upfront and dominant over the instrumental, exactly as the concept demands. For fans of trap that treats confidence as a competitive sport, \"Embiid\" evokes the triumphant lineage of victory-lap rap — it sounds like a championship parade rendered in 808s and hi-hats. The record sits in conversation with King Ahkeem's \"Bluefaces 3.0\" and \"Super Solid\" in the CWI catalog's trap lane, and it holds rotation on Cumulative Radio 365, where the anthemic hook plays like a stadium chant. King Ahkeem's delivery recalls the dominant-era energy of trap's biggest names, and the track's MVP framing makes its ambition explicit: this is music built to win. Dark trap textures give the production depth, synth layers stacked throughout. Out now via Cumulative Radio 365 since its 2026 premiere — a triumphant, menacing entry in the underground trap wave and the wider scene.",
+    "nlp_score": 86,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": null,
+    "spotify_id": null,
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [],
+    "sounds_like_lanes": [],
+    "catalog_tier": "bronze",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/embiid-king-ahkeem.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/embiid-king-ahkeem.md",
+     "packet_id": "fact/track/embiid-king-ahkeem"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "NLP description present (1829 chars), rubric v2.0 score 86/120",
+     "source": "nlp-catalog pipeline, controlled vocabulary",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: trap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
+  },
+  {
+   "id": "track:super-solid-king-ahkeem",
+   "type": "track",
+   "name": "Super Solid",
+   "status": "verified",
+   "attrs": {
+    "performed_by": "King Ahkeem",
+    "artist_id": "artist:king-ahkeem",
+    "genres": [
+     "trap",
+     "hip hop"
+    ],
+    "genre_voice": "trap",
+    "moods": [
+     "confident",
+     "hype",
+     "aggressive"
+    ],
+    "nlp_description": "\"Super Solid\" is King Ahkeem's oath of reliability — a trap record co-produced by Black Lansky about being the one thing that doesn't crack under pressure. The title is a promise, and the track delivers it with a confident, aggressive stride and a hype energy that feels earned rather than performed. The beat is trap built like concrete — the sub-heavy 808 bass drives the track throughout, locked to crisp hi-hats that snap in the chorus, with dark synth stabs and snare hits providing the structural reinforcement, and atmospheric pads filling the gaps so the whole thing feels dense and immovable. King Ahkeem's flow is steady and assured, never rushing, never wavering — a confident performance that embodies the track's central claim, with ad-libs reinforcing the hook like rebar in the foundation. The mix is polished and hard-hitting, with the bass-heavy low end balanced against crisp percussion so every element lands with full weight. The hook is anthemic without being flashy: a simple, repeatable declaration of solidity that sticks because it sounds true. For fans of trap that values substance over spectacle, \"Super Solid\" evokes the grounded lineage of the genre — it sounds like the reliable core of southern hip hop's trap tradition, built to last rather than built to trend. The record sits alongside King Ahkeem's \"Embiid\" and \"Element\" in the CWI catalog's trap lane, and it holds rotation on Cumulative Radio 365. King Ahkeem's delivery recalls the steady-handed confidence of trap's most dependable voices, and the track's unshakeable energy makes its title a verified claim rather than a boast. Dark trap textures add depth, the sub-bass anchors the foundation beneath hard-hitting drums. Out now via Cumulative Radio 365 since its 2026 premiere — a triumphant, defiant statement in the underground trap wave and the wider scene.",
+    "nlp_score": 87,
+    "bpm": null,
+    "musical_key": null,
+    "energy_1_5": null,
+    "duration_ms": null,
+    "duration_human": null,
+    "release_date": null,
+    "release_status": "released",
+    "spotify_url": null,
+    "spotify_id": null,
+    "apple_music_url": null,
+    "isrc": null,
+    "isrc_status": null,
+    "producer": null,
+    "co_producer": "Black Lansky",
+    "label": "Cumulative Web Inc",
+    "distributor": "DistroKid",
+    "license_contact": "hp@cumulativeweb.com",
+    "lyrical_themes": [],
+    "contexts": [],
+    "sounds_like_lanes": [],
+    "catalog_tier": "bronze",
+    "facts": {
+     "schema": "cwi-fact-packet/v1",
+     "json": "https://cumulativewebinc.github.io/cwi-learn/facts/track/super-solid-king-ahkeem.json",
+     "md": "https://cumulativewebinc.github.io/cwi-learn/facts/track/super-solid-king-ahkeem.md",
+     "packet_id": "fact/track/super-solid-king-ahkeem"
+    }
+   },
+   "evidence": [
+    {
+     "claim": "NLP description present (1854 chars), rubric v2.0 score 87/120",
+     "source": "nlp-catalog pipeline, controlled vocabulary",
+     "observed": "2026-10-08",
+     "status": "verified"
+    },
+    {
+     "claim": "Genres: trap, hip hop",
+     "source": "tracks.json catalog record",
+     "observed": "2026-10-08",
+     "status": "verified"
+    }
+   ]
   }
  ],
  "edges": [
@@ -5711,6 +7021,1230 @@
    "from": "track:gregporn-unholy-hunter",
    "to": "artist:gregporn",
    "type": "performed_by"
+  },
+  {
+   "from": "track:diabolique",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:diabolique",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:diabolique",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:diabolique",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:diabolique",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:zooted-zone",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:zooted-zone",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:zooted-zone",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:zooted-zone",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:zooted-zone",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:zooted-zone",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:doves-and-diamonds",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:doves-and-diamonds",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:doves-and-diamonds",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:doves-and-diamonds",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:doves-and-diamonds",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:doves-and-diamonds",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:shaka-zulu",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Qobuz: Jeck da General (Composer, Beat maker), Black Lansky (Composer, Lyricist, Co-Executive Producer)"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "Qobuz: Jeck da General (Composer, Beat maker), Black Lansky (Composer, Lyricist, Co-Executive Producer)"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flamerz",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:neon-nights-pt-777",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:neon-nights-pt-777",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:neon-nights-pt-777",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:neon-nights-pt-777",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:neon-nights-pt-777",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:neon-nights-pt-777",
+   "to": "genre:cyberpunk",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:ultimate",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:ultimate",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:ultimate",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:ultimate",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:ultimate",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:ultimate",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:painted-lady",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:painted-lady",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:painted-lady",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:painted-lady",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:painted-lady",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:warped-and-wicked",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:warped-and-wicked",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:warped-and-wicked",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:warped-and-wicked",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:warped-and-wicked",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:warped-and-wicked",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:golden-diamond",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:golden-diamond",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:golden-diamond",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:golden-diamond",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:golden-diamond",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:spirits-n-shadows",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flex-my-flame",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:flex-my-flame",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flex-my-flame",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flex-my-flame",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flex-my-flame",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:flex-my-flame",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:rainbows-and-roses",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:rainbows-and-roses",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:rainbows-and-roses",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:rainbows-and-roses",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:rainbows-and-roses",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:rainbows-and-roses",
+   "to": "genre:indie",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:tears-and-scars",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:tears-and-scars",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:tears-and-scars",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:tears-and-scars",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:tears-and-scars",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:toxic-elements",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:scorpion-and-sapphires",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:scorpion-and-sapphires",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:scorpion-and-sapphires",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:scorpion-and-sapphires",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:scorpion-and-sapphires",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:7th-angel",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:7th-angel",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:7th-angel",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:7th-angel",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:7th-angel",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:7th-angel",
+   "to": "genre:indie",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:place-i-go-to-dream",
+   "to": "genre:indie",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:smokin-pain",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:smokin-pain",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:smokin-pain",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:smokin-pain",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:smokin-pain",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:smokin-pain",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:phantasm",
+   "to": "genre:cyberpunk",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:misfits-and-hooligans",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:misfits-and-hooligans",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:misfits-and-hooligans",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:misfits-and-hooligans",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:misfits-and-hooligans",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:misfits-and-hooligans",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "Qobuz/Deezer: Jeck da General (Composer), Black Lansky (Composer, Lyricist)"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:roses-over-monaco",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Qobuz: Jeck da General (Composer, Beat maker), Black Lansky (Composer, Lyricist, Co-Producer)"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "Qobuz: Jeck da General (Composer, Beat maker), Black Lansky (Composer, Lyricist, Co-Producer)"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:broken-hearts-club",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:star-king-akeem",
+   "to": "artist:king-ahkeem",
+   "rel": "performed_by",
+   "note": "catalog record: performed by King Ahkeem"
+  },
+  {
+   "from": "track:star-king-akeem",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "memory/people/king-akeem.md: Black co-produced his singles"
+  },
+  {
+   "from": "track:star-king-akeem",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:star-king-akeem",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:full-moon-183-wilboi",
+   "to": "artist:183-wildboi",
+   "rel": "performed_by",
+   "note": "catalog record: performed by 183 Wildboi"
+  },
+  {
+   "from": "track:full-moon-183-wilboi",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "memory/people/183-wilboi.md: Black co-produced Full Moon"
+  },
+  {
+   "from": "track:full-moon-183-wilboi",
+   "to": "genre:rap-rock",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:full-moon-183-wilboi",
+   "to": "genre:rock-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:stunt-183-wilboi",
+   "to": "artist:183-wildboi",
+   "rel": "performed_by",
+   "note": "catalog record: performed by 183 Wildboi"
+  },
+  {
+   "from": "track:stunt-183-wilboi",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "memory/people/183-wilboi.md: Black co-produced Stunt"
+  },
+  {
+   "from": "track:stunt-183-wilboi",
+   "to": "genre:rap-rock",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:stunt-183-wilboi",
+   "to": "genre:rock-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:stunt-183-wilboi",
+   "to": "release:stunt",
+   "rel": "included_in",
+   "note": "album: Stunt"
+  },
+  {
+   "from": "track:vai-vem-vem-dre50",
+   "to": "artist:dre50",
+   "rel": "performed_by",
+   "note": "catalog record: performed by Dre50"
+  },
+  {
+   "from": "track:vai-vem-vem-dre50",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "memory/people/dre50.md: Black co-produced vai vem vem"
+  },
+  {
+   "from": "track:vai-vem-vem-dre50",
+   "to": "genre:afrobeats",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:vai-vem-vem-dre50",
+   "to": "genre:dancehall",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:vai-vem-vem-dre50",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:pay-yourself-greg-porn",
+   "to": "artist:greg-porn",
+   "rel": "performed_by",
+   "note": "catalog record: performed by Greg Porn"
+  },
+  {
+   "from": "track:pay-yourself-greg-porn",
+   "to": "genre:cyberpunk",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:pay-yourself-greg-porn",
+   "to": "genre:dark-luxury",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:on-edge-greg-porn",
+   "to": "artist:greg-porn",
+   "rel": "performed_by",
+   "note": "catalog record: performed by Greg Porn"
+  },
+  {
+   "from": "track:on-edge-greg-porn",
+   "to": "genre:cyberpunk",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:on-edge-greg-porn",
+   "to": "genre:dark-luxury",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:unholy-hunter-greg-porn",
+   "to": "artist:greg-porn",
+   "rel": "performed_by",
+   "note": "catalog record: performed by Greg Porn"
+  },
+  {
+   "from": "track:unholy-hunter-greg-porn",
+   "to": "genre:cyberpunk",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:unholy-hunter-greg-porn",
+   "to": "genre:dark-luxury",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:2k23-corner-fleekz",
+   "to": "artist:artist:fleekz",
+   "rel": "performed_by",
+   "note": "catalog record: performed by Fleekz"
+  },
+  {
+   "from": "track:2k23-corner-fleekz",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:2k23-corner-fleekz",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:2k23-corner-fleekz",
+   "to": "genre:underground",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:that-boy-hi-hat-cyberpunk-2027",
+   "to": "artist:tbhh",
+   "rel": "performed_by",
+   "note": "catalog record: performed by That Boy Hi Hat"
+  },
+  {
+   "from": "track:that-boy-hi-hat-cyberpunk-2027",
+   "to": "person:kokurcho",
+   "rel": "produced_by",
+   "note": "catalog record"
+  },
+  {
+   "from": "track:that-boy-hi-hat-cyberpunk-2027",
+   "to": "genre:alternative-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:that-boy-hi-hat-cyberpunk-2027",
+   "to": "genre:alt-rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:that-boy-hi-hat-cyberpunk-2027",
+   "to": "genre:post-trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:that-boy-hi-hat-cyberpunk-2027",
+   "to": "genre:rap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:pix-dre50",
+   "to": "artist:dre50",
+   "rel": "performed_by",
+   "note": "catalog record: performed by Dre50"
+  },
+  {
+   "from": "track:pix-dre50",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "catalog record"
+  },
+  {
+   "from": "track:pix-dre50",
+   "to": "genre:afrobeats",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:pix-dre50",
+   "to": "genre:dancehall",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:pix-dre50",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:bluefaces-30-king-ahkeem",
+   "to": "artist:king-ahkeem",
+   "rel": "performed_by",
+   "note": "catalog record: performed by King Ahkeem"
+  },
+  {
+   "from": "track:bluefaces-30-king-ahkeem",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "catalog record"
+  },
+  {
+   "from": "track:bluefaces-30-king-ahkeem",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:bluefaces-30-king-ahkeem",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:element-king-ahkeem",
+   "to": "artist:king-ahkeem",
+   "rel": "performed_by",
+   "note": "catalog record: performed by King Ahkeem"
+  },
+  {
+   "from": "track:element-king-ahkeem",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "catalog record"
+  },
+  {
+   "from": "track:element-king-ahkeem",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:element-king-ahkeem",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:embiid-king-ahkeem",
+   "to": "artist:king-ahkeem",
+   "rel": "performed_by",
+   "note": "catalog record: performed by King Ahkeem"
+  },
+  {
+   "from": "track:embiid-king-ahkeem",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "catalog record"
+  },
+  {
+   "from": "track:embiid-king-ahkeem",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:embiid-king-ahkeem",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:super-solid-king-ahkeem",
+   "to": "artist:king-ahkeem",
+   "rel": "performed_by",
+   "note": "catalog record: performed by King Ahkeem"
+  },
+  {
+   "from": "track:super-solid-king-ahkeem",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "catalog record"
+  },
+  {
+   "from": "track:super-solid-king-ahkeem",
+   "to": "genre:trap",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:super-solid-king-ahkeem",
+   "to": "genre:hip-hop",
+   "rel": "exemplar_of",
+   "note": "catalog genre tagging"
   }
  ],
  "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
