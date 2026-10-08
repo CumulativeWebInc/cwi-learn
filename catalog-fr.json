@@ -1,2250 +1,2295 @@
 {
- "schema": "cwi-catalog/v1",
- "language": "fr",
- "title": "Catalogue CWI",
- "description": "Catalogue musical CWI lisible par machine : 37 titres de 7 artistes.",
- "track_count": 37,
- "artists": {
-  "That Boy Hi Hat": {
-   "bio": "Artiste de rap alternatif de Frederick, Maryland (USA). Créateur du Post-Trap Futurism. 24 titres au catalogue."
+  "schema": "cwi-catalog/v1",
+  "language": "fr",
+  "title": "Catalogue CWI",
+  "description": "Catalogue musical CWI lisible par machine : 37 titres de 7 artistes.",
+  "track_count": 37,
+  "artists": {
+    "That Boy Hi Hat": {
+      "bio": "Artiste de rap alternatif de Frederick, Maryland (USA). Créateur du Post-Trap Futurism. 24 titres au catalogue."
+    },
+    "King Ahkeem": {
+      "bio": "Artiste trap. 5 titres. Trap pur et dur."
+    },
+    "Dre50": {
+      "bio": "Artiste afrobeats aux influences jamaïcaines et brésiliennes. 2 titres."
+    },
+    "183 Wildboi": {
+      "bio": "Rap rock / rock rap. 2 titres."
+    },
+    "Greg Porn": {
+      "bio": "Son cyberpunk, luxe sombre. 3 titres."
+    },
+    "Fleekz": {
+      "bio": "Artiste hip-hop. 1 titre."
+    },
+    "Black Lansky": {
+      "bio": "Patron du label, coproducteur de tous les titres du catalogue. Artiste multi-genres."
+    }
   },
-  "King Ahkeem": {
-   "bio": "Artiste trap. 5 titres. Trap pur et dur."
-  },
-  "Dre50": {
-   "bio": "Artiste afrobeats aux influences jamaïcaines et brésiliennes. 2 titres."
-  },
-  "183 Wildboi": {
-   "bio": "Rap rock / rock rap. 2 titres."
-  },
-  "Greg Porn": {
-   "bio": "Son cyberpunk, luxe sombre. 3 titres."
-  },
-  "Fleekz": {
-   "bio": "Artiste hip-hop. 1 titre."
-  },
-  "Black Lansky": {
-   "bio": "Patron du label, coproducteur de tous les titres du catalogue. Artiste multi-genres."
-  }
- },
- "tracks": [
-  {
-   "id": "track:diabolique",
-   "title": "Diabolique",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Diabolique » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, séduisant. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "sombre",
-    "séduisant",
-    "cinématographique",
-    "dangereux",
-    "nocturne",
-    "tard dans la nuit",
-    "introspectif",
-    "triste"
-   ],
-   "moods_en": [
-    "dark",
-    "seductive",
-    "cinematic",
-    "dangerous",
-    "nocturnal",
-    "late-night",
-    "introspective",
-    "sad"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "conduire",
-    "boîte",
-    "se détendre"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "nocturnal rap",
-    "seductive rap"
-   ],
-   "bpm": 77,
-   "musical_key": "G# minor",
-   "energy_1_5": 3,
-   "duration": "2:35",
-   "duration_ms": 155844,
-   "release_date": "2026-07-03",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
-   "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 86,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:zooted-zone",
-   "title": "Zooted Zone",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Zooted Zone » de That Boy Hi Hat — titre post-trap, trap à l'ambiance électrique, hypnotique. Énergique et intense.",
-   "genres": [
-    "post-trap",
-    "trap",
-    "rap",
-    "underground",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "post trap",
-    "trap",
-    "rap",
-    "underground",
-    "hip hop"
-   ],
-   "moods": [
-    "électrique",
-    "hypnotique",
-    "agressif",
-    "underground",
-    "tard dans la nuit",
-    "hymne"
-   ],
-   "moods_en": [
-    "hype",
-    "hypnotic",
-    "aggressive",
-    "underground",
-    "late-night",
-    "anthemic"
-   ],
-   "contexts": [
-    "fête",
-    "boîte",
-    "avant-match",
-    "conduire"
-   ],
-   "sounds_like": [
-    "trap",
-    "party rap",
-    "post-trap"
-   ],
-   "bpm": 163,
-   "musical_key": "C# minor",
-   "energy_1_5": 4,
-   "duration": "3:08",
-   "duration_ms": 188466,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
-   "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 87,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:doves-and-diamonds",
-   "title": "Doves & Diamonds",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Doves & Diamonds » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance luxe, réfléchi. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "hip hop"
-   ],
-   "moods": [
-    "luxe",
-    "réfléchi",
-    "fluide",
-    "tard dans la nuit",
-    "hymne",
-    "introspectif",
-    "électrique"
-   ],
-   "moods_en": [
-    "luxury",
-    "reflective",
-    "smooth",
-    "late-night",
-    "anthemic",
-    "introspective",
-    "hype"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "se détendre",
-    "célébration"
-   ],
-   "sounds_like": [
-    "melodic rap",
-    "luxury rap",
-    "nocturnal rap"
-   ],
-   "bpm": 85,
-   "musical_key": "D minor",
-   "energy_1_5": 4,
-   "duration": "3:01",
-   "duration_ms": 181544,
-   "release_date": "2023-01-11",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
-   "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 96,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:shaka-zulu",
-   "title": "Shaka Zulu",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Shaka Zulu » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance énergique, agressif. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "hip-hop",
-    "underground"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "hip hop",
-    "underground"
-   ],
-   "moods": [
-    "énergique",
-    "agressif",
-    "hymne",
-    "défiante",
-    "rebelle",
-    "menaçant",
-    "hypnotique",
-    "triomphant",
-    "dangereux",
-    "confiant",
-    "sombre",
-    "nocturne"
-   ],
-   "moods_en": [
-    "energetic",
-    "aggressive",
-    "anthemic",
-    "defiant",
-    "rebellious",
-    "menacing",
-    "hypnotic",
-    "triumphant",
-    "dangerous",
-    "confident",
-    "dark",
-    "nocturnal"
-   ],
-   "contexts": [
-    "entraînement",
-    "salle de sport",
-    "avant-match",
-    "courir"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "underground hip hop",
-    "anthemic rap"
-   ],
-   "energy_1_5": 4,
-   "duration": "4:11",
-   "duration_ms": 251611,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
-   "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 98,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:flamerz",
-   "title": "Flamerz",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Flamerz » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance agressif, défiante. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "trap",
-    "rap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "trap",
-    "rap",
-    "hip hop"
-   ],
-   "moods": [
-    "agressif",
-    "défiante",
-    "confiant",
-    "hymne",
-    "électrique",
-    "rebelle",
-    "urgent",
-    "dangereux",
-    "énergique",
-    "sombre"
-   ],
-   "moods_en": [
-    "aggressive",
-    "defiant",
-    "confident",
-    "anthemic",
-    "hype",
-    "rebellious",
-    "urgent",
-    "dangerous",
-    "energetic",
-    "dark"
-   ],
-   "contexts": [
-    "entraînement",
-    "salle de sport",
-    "fête",
-    "avant-match",
-    "boîte"
-   ],
-   "sounds_like": [
-    "rage beats",
-    "melodic trap",
-    "dark trap"
-   ],
-   "duration": "3:06",
-   "duration_ms": 186206,
-   "release_date": "2025-11-20",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
-   "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
-   "producer": "Jeck Da General",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 95,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:neon-nights-pt-777",
-   "title": "Neon Nights Pt. 777",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Neon Nights Pt. 777 » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance éthéré, fluide. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "cyberpunk"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "cyberpunk"
-   ],
-   "moods": [
-    "éthéré",
-    "fluide",
-    "hypnotique",
-    "tard dans la nuit",
-    "séduisant",
-    "cinématographique",
-    "rêveur",
-    "nocturne",
-    "futuriste",
-    "mystérieux",
-    "décontracté",
-    "détendu",
-    "poli"
-   ],
-   "moods_en": [
-    "ethereal",
-    "smooth",
-    "hypnotic",
-    "late-night",
-    "seductive",
-    "cinematic",
-    "dreamy",
-    "nocturnal",
-    "futuristic",
-    "mysterious",
-    "laid-back",
-    "chill",
-    "polished"
-   ],
-   "contexts": [
-    "conduire",
-    "tard dans la nuit",
-    "coder",
-    "se détendre",
-    "road trip"
-   ],
-   "sounds_like": [
-    "synthwave rap",
-    "melodic trap",
-    "electronic rap"
-   ],
-   "energy_1_5": 4,
-   "duration": "3:47",
-   "duration_ms": 227472,
-   "release_date": "2025-11-20",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
-   "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 88,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:ultimate",
-   "title": "Ultimate",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Ultimate » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance hymne, cinématographique. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "hip hop"
-   ],
-   "moods": [
-    "hymne",
-    "cinématographique",
-    "triomphant",
-    "défiante",
-    "confiant",
-    "euphorique",
-    "sombre",
-    "nocturne",
-    "hypnotique"
-   ],
-   "moods_en": [
-    "anthemic",
-    "cinematic",
-    "triumphant",
-    "defiant",
-    "confident",
-    "euphoric",
-    "dark",
-    "nocturnal",
-    "hypnotic"
-   ],
-   "contexts": [
-    "avant-match",
-    "entraînement",
-    "célébration",
-    "matin"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "anthemic rap",
-    "post-trap"
-   ],
-   "duration": "3:16",
-   "duration_ms": 196163,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
-   "spotify_id": "2daugr3ni3r6jHH6UI57EK",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 93,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:painted-lady",
-   "title": "Painted Lady",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Painted Lady » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance séduisant, nocturne. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "séduisant",
-    "nocturne",
-    "tard dans la nuit",
-    "mélancolique",
-    "intime",
-    "introspectif",
-    "dangereux",
-    "sombre"
-   ],
-   "moods_en": [
-    "seductive",
-    "nocturnal",
-    "late-night",
-    "melancholic",
-    "intimate",
-    "introspective",
-    "dangerous",
-    "dark"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "se détendre",
-    "conduire"
-   ],
-   "sounds_like": [
-    "nocturnal rap",
-    "dark trap",
-    "alt r&b rap"
-   ],
-   "duration": "2:48",
-   "duration_ms": 168500,
-   "release_date": "2024-08-16",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
-   "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 87,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:warped-and-wicked",
-   "title": "Warped & Wicked",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Warped & Wicked » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, menaçant. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "underground"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "underground"
-   ],
-   "moods": [
-    "sombre",
-    "menaçant",
-    "défiante",
-    "hypnotique",
-    "brut",
-    "sombre",
-    "nocturne",
-    "tard dans la nuit",
-    "dystopique",
-    "agressif",
-    "dangereux"
-   ],
-   "moods_en": [
-    "dark",
-    "menacing",
-    "defiant",
-    "hypnotic",
-    "raw",
-    "brooding",
-    "nocturnal",
-    "late-night",
-    "dystopian",
-    "aggressive",
-    "dangerous"
-   ],
-   "contexts": [
-    "conduire",
-    "tard dans la nuit",
-    "coder"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "cinematic rap",
-    "underground trap"
-   ],
-   "energy_1_5": 4,
-   "duration": "4:08",
-   "duration_ms": 248555,
-   "release_date": "2022-04-20",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
-   "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 92,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:golden-diamond",
-   "title": "Golden Diamond",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Golden Diamond » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance triomphant, cinématographique. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "triomphant",
-    "cinématographique",
-    "hymne",
-    "tard dans la nuit",
-    "confiant",
-    "poli",
-    "brut",
-    "euphorique"
-   ],
-   "moods_en": [
-    "triumphant",
-    "cinematic",
-    "anthemic",
-    "late-night",
-    "confident",
-    "polished",
-    "raw",
-    "euphoric"
-   ],
-   "contexts": [
-    "célébration",
-    "avant-match",
-    "conduire",
-    "matin"
-   ],
-   "sounds_like": [
-    "melodic trap",
-    "post-trap",
-    "anthemic rap"
-   ],
-   "energy_1_5": 4,
-   "duration": "4:02",
-   "duration_ms": 242696,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
-   "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 87,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:spirits-n-shadows",
-   "title": "Spirits n Shadows",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Spirits n Shadows » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance agressif, hypnotique. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "underground"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "underground"
-   ],
-   "moods": [
-    "agressif",
-    "hypnotique",
-    "urgent",
-    "défiante",
-    "menaçant",
-    "hymne",
-    "obsédant",
-    "sombre",
-    "cinématographique",
-    "dangereux",
-    "énergique",
-    "nocturne"
-   ],
-   "moods_en": [
-    "aggressive",
-    "hypnotic",
-    "urgent",
-    "defiant",
-    "menacing",
-    "anthemic",
-    "haunting",
-    "dark",
-    "cinematic",
-    "dangerous",
-    "energetic",
-    "nocturnal"
-   ],
-   "contexts": [
-    "entraînement",
-    "courir",
-    "salle de sport",
-    "conduire",
-    "tard dans la nuit"
-   ],
-   "sounds_like": [
-    "rage beats",
-    "dark trap",
-    "nocturnal rap"
-   ],
-   "bpm": 157,
-   "energy_1_5": 4,
-   "duration": "3:18",
-   "duration_ms": 198034,
-   "release_date": "2021-11-24",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
-   "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
-   "producer": "Jeck da General",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 93,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:flex-my-flame",
-   "title": "Flex My Flame",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Flex My Flame » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance confiant, dangereux. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "trap",
-    "rap"
-   ],
-   "moods": [
-    "confiant",
-    "dangereux",
-    "hymne",
-    "triomphant",
-    "fluide",
-    "poli"
-   ],
-   "moods_en": [
-    "confident",
-    "dangerous",
-    "anthemic",
-    "triumphant",
-    "smooth",
-    "polished"
-   ],
-   "contexts": [
-    "avant-match",
-    "fête",
-    "boîte",
-    "conduire",
-    "célébration"
-   ],
-   "sounds_like": [
-    "post-trap",
-    "anthemic rap",
-    "trap"
-   ],
-   "duration": "3:03",
-   "duration_ms": 183750,
-   "release_date": "2023-07-28",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm",
-   "spotify_id": "3knXIxd0PlraXvarlwGwKm",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 87,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:rainbows-and-roses",
-   "title": "Rainbows And Roses",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Rainbows And Roses » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance introspectif, vulnérable. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "indé"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "indie"
-   ],
-   "moods": [
-    "introspectif",
-    "vulnérable",
-    "triste",
-    "mélancolique",
-    "rêveur",
-    "doux",
-    "nocturne",
-    "solitaire"
-   ],
-   "moods_en": [
-    "introspective",
-    "vulnerable",
-    "sad",
-    "melancholic",
-    "dreamy",
-    "mellow",
-    "nocturnal",
-    "lonely"
-   ],
-   "contexts": [
-    "se détendre",
-    "tard dans la nuit",
-    "concentration"
-   ],
-   "sounds_like": [
-    "nocturnal rap",
-    "melodic rap",
-    "sad rap"
-   ],
-   "energy_1_5": 4,
-   "duration": "4:00",
-   "duration_ms": 240613,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
-   "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 99,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:tears-and-scars",
-   "title": "Tears and Scars",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Tears and Scars » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance mélancolique, introspectif. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "mélancolique",
-    "introspectif",
-    "vulnérable",
-    "sombre",
-    "doux",
-    "éthéré",
-    "triste",
-    "solitaire",
-    "tard dans la nuit"
-   ],
-   "moods_en": [
-    "melancholic",
-    "introspective",
-    "vulnerable",
-    "dark",
-    "mellow",
-    "ethereal",
-    "sad",
-    "lonely",
-    "late-night"
-   ],
-   "contexts": [
-    "se détendre",
-    "tard dans la nuit",
-    "concentration"
-   ],
-   "sounds_like": [
-    "nocturnal rap",
-    "dark trap",
-    "confessional rap"
-   ],
-   "duration": "4:40",
-   "duration_ms": 280346,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
-   "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 92,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:toxic-elements",
-   "title": "Toxic Elements",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Toxic Elements » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, séduisant. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "trap",
-    "rap",
-    "underground"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "trap",
-    "rap",
-    "underground"
-   ],
-   "moods": [
-    "sombre",
-    "séduisant",
-    "dangereux",
-    "hypnotique",
-    "tard dans la nuit",
-    "nocturne",
-    "menaçant",
-    "brut"
-   ],
-   "moods_en": [
-    "dark",
-    "seductive",
-    "dangerous",
-    "hypnotic",
-    "late-night",
-    "nocturnal",
-    "menacing",
-    "raw"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "conduire",
-    "se détendre"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "nocturnal rap",
-    "toxic r&b rap"
-   ],
-   "bpm": 140,
-   "musical_key": "C# minor",
-   "duration": "3:23",
-   "duration_ms": 203703,
-   "release_date": "2023-11-14",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
-   "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 91,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:scorpion-and-sapphires",
-   "title": "Scorpion & Sapphires",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Scorpion & Sapphires » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance nocturne, cinématographique. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "nocturne",
-    "cinématographique",
-    "dangereux",
-    "séduisant",
-    "dystopique",
-    "menaçant",
-    "mystérieux",
-    "sombre",
-    "hypnotique",
-    "tard dans la nuit"
-   ],
-   "moods_en": [
-    "nocturnal",
-    "cinematic",
-    "dangerous",
-    "seductive",
-    "dystopian",
-    "menacing",
-    "mysterious",
-    "dark",
-    "hypnotic",
-    "late-night"
-   ],
-   "contexts": [
-    "conduire",
-    "tard dans la nuit",
-    "road trip"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "cinematic rap",
-    "nocturnal rap"
-   ],
-   "duration": "3:07",
-   "duration_ms": 187480,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61",
-   "spotify_id": "0ptdX13NNwDj6l9hF0Pl61",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 93,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:7th-angel",
-   "title": "7th Angel",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« 7th Angel » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance éthéré, mystique. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "indé"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "indie"
-   ],
-   "moods": [
-    "éthéré",
-    "mystique",
-    "exaltant",
-    "cinématographique"
-   ],
-   "moods_en": [
-    "ethereal",
-    "mystical",
-    "uplifting",
-    "cinematic"
-   ],
-   "contexts": [
-    "se détendre",
-    "tard dans la nuit",
-    "concentration"
-   ],
-   "sounds_like": [
-    "melodic rap",
-    "cinematic rap",
-    "nocturnal rap"
-   ],
-   "energy_1_5": 4,
-   "duration": "4:00",
-   "duration_ms": 240000,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
-   "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 97,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:place-i-go-to-dream",
-   "title": "Place I Go to Dream",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Place I Go to Dream » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance rêveur, vulnérable. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "indé"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "indie"
-   ],
-   "moods": [
-    "rêveur",
-    "vulnérable",
-    "mélancolique",
-    "obsédant",
-    "éthéré",
-    "introspectif",
-    "solitaire",
-    "défiante",
-    "nocturne",
-    "doux"
-   ],
-   "moods_en": [
-    "dreamy",
-    "vulnerable",
-    "melancholic",
-    "haunting",
-    "ethereal",
-    "introspective",
-    "lonely",
-    "defiant",
-    "nocturnal",
-    "mellow"
-   ],
-   "contexts": [
-    "se détendre",
-    "tard dans la nuit",
-    "concentration",
-    "étudier"
-   ],
-   "sounds_like": [
-    "melodic rap",
-    "indie rap",
-    "dream rap"
-   ],
-   "bpm": 85,
-   "musical_key": "C#",
-   "energy_1_5": 4,
-   "duration": "2:48",
-   "duration_ms": 168071,
-   "release_date": "2021-11-24",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
-   "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
-   "producer": "Jeck da General",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 92,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:smokin-pain",
-   "title": "Smokin' Pain",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Smokin' Pain » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance introspectif, tard dans la nuit. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "underground"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "underground"
-   ],
-   "moods": [
-    "introspectif",
-    "tard dans la nuit",
-    "mélancolique",
-    "sombre",
-    "solitaire",
-    "triste",
-    "brut",
-    "doux",
-    "nocturne",
-    "détendu"
-   ],
-   "moods_en": [
-    "introspective",
-    "late-night",
-    "melancholic",
-    "dark",
-    "lonely",
-    "sad",
-    "raw",
-    "mellow",
-    "nocturnal",
-    "chill"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "se détendre"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "nocturnal rap",
-    "underground hip hop"
-   ],
-   "duration": "3:18",
-   "duration_ms": 198530,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
-   "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 95,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:phantasm",
-   "title": "Phantasm",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Phantasm » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, dystopique. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "cyberpunk"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "cyberpunk"
-   ],
-   "moods": [
-    "sombre",
-    "dystopique",
-    "introspectif",
-    "sombre",
-    "éthéré",
-    "mystérieux",
-    "nocturne",
-    "cinématographique",
-    "mélancolique",
-    "obsédant",
-    "solitaire",
-    "froid",
-    "hypnotique"
-   ],
-   "moods_en": [
-    "dark",
-    "dystopian",
-    "introspective",
-    "brooding",
-    "ethereal",
-    "mysterious",
-    "nocturnal",
-    "cinematic",
-    "melancholic",
-    "haunting",
-    "lonely",
-    "cold",
-    "hypnotic"
-   ],
-   "contexts": [
-    "coder",
-    "tard dans la nuit",
-    "concentration",
-    "gaming"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "synthwave rap",
-    "dystopian rap"
-   ],
-   "energy_1_5": 4,
-   "duration": "3:55",
-   "duration_ms": 235467,
-   "release_date": "2021-11-24",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
-   "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
-   "producer": "Jeck da General",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 93,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:misfits-and-hooligans",
-   "title": "Misfits and Hooligans",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Misfits and Hooligans » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance défiante, agressif. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap",
-    "underground"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap",
-    "underground"
-   ],
-   "moods": [
-    "défiante",
-    "agressif",
-    "brut",
-    "énergique",
-    "rebelle",
-    "hymne",
-    "triomphant",
-    "électrique"
-   ],
-   "moods_en": [
-    "defiant",
-    "aggressive",
-    "raw",
-    "energetic",
-    "rebellious",
-    "anthemic",
-    "triumphant",
-    "hype"
-   ],
-   "contexts": [
-    "entraînement",
-    "avant-match",
-    "fête",
-    "salle de sport"
-   ],
-   "sounds_like": [
-    "underground hip hop",
-    "anthemic rap",
-    "post-trap"
-   ],
-   "duration": "5:49",
-   "duration_ms": 349074,
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
-   "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 95,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:roses-over-monaco",
-   "title": "Roses over Monaco",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Roses over Monaco » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance cinématographique, tard dans la nuit. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "cinématographique",
-    "tard dans la nuit",
-    "triomphant",
-    "plein d'espoir",
-    "romantique",
-    "nostalgique",
-    "doux",
-    "chaleureux",
-    "sérieux",
-    "introspectif",
-    "exaltant"
-   ],
-   "moods_en": [
-    "cinematic",
-    "late-night",
-    "triumphant",
-    "hopeful",
-    "romantic",
-    "nostalgic",
-    "mellow",
-    "warm",
-    "serious",
-    "introspective",
-    "uplifting"
-   ],
-   "contexts": [
-    "se détendre",
-    "célébration",
-    "conduire",
-    "matin"
-   ],
-   "sounds_like": [
-    "cinematic rap",
-    "melodic rap",
-    "triumphant rap"
-   ],
-   "duration": "4:35",
-   "duration_ms": 275304,
-   "release_date": "2021-11-24",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
-   "spotify_id": "3r86CjoxCNvvCz98h2btm1",
-   "producer": "Jeck da General",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 88,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:broken-hearts-club",
-   "title": "Broken Hearts Club",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Broken Hearts Club » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance mélancolique, hymne. Énergique et intense.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "mélancolique",
-    "hymne",
-    "défiante",
-    "triomphant",
-    "euphorique",
-    "vulnérable",
-    "triste",
-    "énergique"
-   ],
-   "moods_en": [
-    "melancholic",
-    "anthemic",
-    "defiant",
-    "triumphant",
-    "euphoric",
-    "vulnerable",
-    "sad",
-    "energetic"
-   ],
-   "contexts": [
-    "boîte",
-    "fête",
-    "entraînement",
-    "conduire"
-   ],
-   "sounds_like": [
-    "sad rap",
-    "anthemic rap",
-    "post-trap"
-   ],
-   "bpm": 84,
-   "musical_key": "C# Major",
-   "energy_1_5": 4,
-   "duration": "3:08",
-   "duration_ms": 188000,
-   "release_date": "2023-05-20",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/6OCaHPYNSYBwAgaQrZ5IHq",
-   "spotify_id": "6OCaHPYNSYBwAgaQrZ5IHq",
-   "producer": "Jeck Da General",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 93,
-   "catalog_tier": "silver",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:star-king-akeem",
-   "title": "Star",
-   "artist": "King Ahkeem",
-   "artist_id": "artist:king-ahkeem",
-   "description": "« Star » de King Ahkeem — titre trap, hip-hop à l'ambiance hymne, triomphant. Équilibré et prenant.",
-   "genres": [
-    "trap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "trap",
-    "hip hop"
-   ],
-   "moods": [
-    "hymne",
-    "triomphant",
-    "confiant",
-    "euphorique",
-    "défiante",
-    "sérieux",
-    "électrique"
-   ],
-   "moods_en": [
-    "anthemic",
-    "triumphant",
-    "confident",
-    "euphoric",
-    "defiant",
-    "serious",
-    "hype"
-   ],
-   "contexts": [
-    "célébration",
-    "avant-match",
-    "fête",
-    "entraînement",
-    "matin"
-   ],
-   "sounds_like": [
-    "pop rap",
-    "anthemic rap",
-    "hip hop"
-   ],
-   "duration": "2:51",
-   "duration_ms": 171000,
-   "release_date": "2019-04-21",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/4Zhwi9tbKqoxsJjbrSPVuY",
-   "spotify_id": "4Zhwi9tbKqoxsJjbrSPVuY",
-   "apple_music_url": "https://music.apple.com/us/album/star/1678405503?i=1678405504",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 90,
-   "catalog_tier": "silver",
-   "genre_voice": "trap"
-  },
-  {
-   "id": "track:full-moon-183-wilboi",
-   "title": "Full Moon",
-   "artist": "183 Wildboi",
-   "artist_id": "artist:183-wildboi",
-   "description": "« Full Moon » de 183 Wildboi — titre rap rock, rock rap à l'ambiance hymne, confiant. Équilibré et prenant.",
-   "genres": [
-    "rap rock",
-    "rock rap"
-   ],
-   "genres_en": [
-    "rap rock",
-    "rock rap"
-   ],
-   "moods": [
-    "hymne",
-    "confiant",
-    "énergique",
-    "euphorique",
-    "triomphant",
-    "électrique"
-   ],
-   "moods_en": [
-    "anthemic",
-    "confident",
-    "energetic",
-    "euphoric",
-    "triumphant",
-    "hype"
-   ],
-   "contexts": [
-    "célébration",
-    "avant-match",
-    "entraînement",
-    "fête"
-   ],
-   "sounds_like": [
-    "melodic rap",
-    "anthemic rap",
-    "stadium rap"
-   ],
-   "bpm": 120,
-   "musical_key": "A minor",
-   "duration": "3:15",
-   "duration_ms": 195000,
-   "release_date": "2022-08-26",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ",
-   "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 93,
-   "catalog_tier": "silver",
-   "genre_voice": "rap rock"
-  },
-  {
-   "id": "track:stunt-183-wilboi",
-   "title": "Stunt",
-   "artist": "183 Wildboi",
-   "artist_id": "artist:183-wildboi",
-   "description": "« Stunt » de 183 Wildboi — titre rap rock, rock rap à l'ambiance électrique, agressif. Équilibré et prenant.",
-   "genres": [
-    "rap rock",
-    "rock rap"
-   ],
-   "genres_en": [
-    "rap rock",
-    "rock rap"
-   ],
-   "moods": [
-    "électrique",
-    "agressif",
-    "hymne",
-    "défiante",
-    "confiant",
-    "rebelle",
-    "énergique",
-    "brut"
-   ],
-   "moods_en": [
-    "hype",
-    "aggressive",
-    "anthemic",
-    "defiant",
-    "confident",
-    "rebellious",
-    "energetic",
-    "raw"
-   ],
-   "contexts": [
-    "entraînement",
-    "avant-match",
-    "salle de sport",
-    "fête"
-   ],
-   "sounds_like": [
-    "underground hip hop",
-    "trap",
-    "anthemic rap"
-   ],
-   "duration": "2:32",
-   "duration_ms": 152208,
-   "release_date": "2024-05-19",
-   "release_status": "released",
-   "spotify_id": "1nqHYA5CT2JwyZjVmoIkfe",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 72,
-   "catalog_tier": "silver",
-   "genre_voice": "rap rock"
-  },
-  {
-   "id": "track:vai-vem-vem-dre50",
-   "title": "vai vem vem",
-   "artist": "Dre50",
-   "artist_id": "artist:dre50",
-   "description": "« vai vem vem » de Dre50 — titre afrobeats, dancehall à l'ambiance fluide, confiant. Équilibré et prenant.",
-   "genres": [
-    "afrobeats",
-    "dancehall",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "afrobeats",
-    "dancehall",
-    "hip hop"
-   ],
-   "moods": [
-    "fluide",
-    "confiant",
-    "poli",
-    "chaleureux",
-    "espiègle",
-    "séduisant",
-    "décontracté",
-    "détendu"
-   ],
-   "moods_en": [
-    "smooth",
-    "confident",
-    "polished",
-    "warm",
-    "playful",
-    "seductive",
-    "laid-back",
-    "chill"
-   ],
-   "contexts": [
-    "fête",
-    "conduire",
-    "road trip",
-    "boîte"
-   ],
-   "sounds_like": [
-    "dancehall",
-    "afrobeats",
-    "island pop"
-   ],
-   "bpm": 126,
-   "musical_key": "F minor",
-   "duration": "2:47",
-   "duration_ms": 167000,
-   "release_date": "2026-09-30",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML",
-   "spotify_id": "6MNkg5WRxtnzLA22JFpUML",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 92,
-   "catalog_tier": "silver",
-   "genre_voice": "afrobeats"
-  },
-  {
-   "id": "track:pay-yourself-greg-porn",
-   "title": "Pay Yourself",
-   "artist": "Greg Porn",
-   "artist_id": "artist:greg-porn",
-   "description": "« Pay Yourself » de Greg Porn — titre cyberpunk, luxe sombre à l'ambiance défiante, agressif. Équilibré et prenant.",
-   "genres": [
-    "cyberpunk",
-    "luxe sombre"
-   ],
-   "genres_en": [
-    "cyberpunk",
-    "dark luxury"
-   ],
-   "moods": [
-    "défiante",
-    "agressif",
-    "triomphant",
-    "confiant",
-    "menaçant",
-    "brut",
-    "sérieux",
-    "dangereux",
-    "lourd"
-   ],
-   "moods_en": [
-    "defiant",
-    "aggressive",
-    "triumphant",
-    "confident",
-    "menacing",
-    "raw",
-    "serious",
-    "dangerous",
-    "heavy"
-   ],
-   "contexts": [
-    "entraînement",
-    "salle de sport",
-    "avant-match",
-    "concentration"
-   ],
-   "sounds_like": [
-    "underground trap",
-    "hardcore hip hop",
-    "street rap"
-   ],
-   "bpm": 94,
-   "musical_key": "A Major",
-   "duration": "3:06",
-   "duration_ms": 186000,
-   "release_date": "2023-07-04",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/4E0B7kVlJgcX0V0L3e793L",
-   "spotify_id": "4E0B7kVlJgcX0V0L3e793L",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 96,
-   "catalog_tier": "silver",
-   "genre_voice": "cyberpunk"
-  },
-  {
-   "id": "track:on-edge-greg-porn",
-   "title": "On Edge",
-   "artist": "Greg Porn",
-   "artist_id": "artist:greg-porn",
-   "description": "« On Edge » de Greg Porn — titre cyberpunk, luxe sombre à l'ambiance tard dans la nuit, introspectif. Équilibré et prenant.",
-   "genres": [
-    "cyberpunk",
-    "luxe sombre"
-   ],
-   "genres_en": [
-    "cyberpunk",
-    "dark luxury"
-   ],
-   "moods": [
-    "tard dans la nuit",
-    "introspectif",
-    "dangereux",
-    "urgent",
-    "hypnotique",
-    "agressif",
-    "anxieux",
-    "sérieux",
-    "nocturne",
-    "menaçant",
-    "sombre"
-   ],
-   "moods_en": [
-    "late-night",
-    "introspective",
-    "dangerous",
-    "urgent",
-    "hypnotic",
-    "aggressive",
-    "anxious",
-    "serious",
-    "nocturnal",
-    "menacing",
-    "dark"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "coder",
-    "conduire",
-    "concentration"
-   ],
-   "sounds_like": [
-    "nocturnal rap",
-    "underground trap",
-    "dark trap"
-   ],
-   "bpm": 172,
-   "musical_key": "G major",
-   "duration": "2:14",
-   "duration_ms": 134000,
-   "release_date": "2023-08-10",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/5MJKRQuEYdC6duNFHz964U",
-   "spotify_id": "5MJKRQuEYdC6duNFHz964U",
-   "apple_music_url": "https://music.apple.com/us/album/on-edge/1702015437?i=1702015438",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 98,
-   "catalog_tier": "silver",
-   "genre_voice": "cyberpunk"
-  },
-  {
-   "id": "track:unholy-hunter-greg-porn",
-   "title": "Unholy Hunter",
-   "artist": "Greg Porn",
-   "artist_id": "artist:greg-porn",
-   "description": "« Unholy Hunter » de Greg Porn — titre cyberpunk, luxe sombre à l'ambiance sombre, dystopique. Équilibré et prenant.",
-   "genres": [
-    "cyberpunk",
-    "luxe sombre"
-   ],
-   "genres_en": [
-    "cyberpunk",
-    "dark luxury"
-   ],
-   "moods": [
-    "sombre",
-    "dystopique",
-    "dangereux",
-    "nocturne",
-    "menaçant",
-    "hypnotique",
-    "tard dans la nuit",
-    "froid",
-    "brut",
-    "agressif"
-   ],
-   "moods_en": [
-    "dark",
-    "dystopian",
-    "dangerous",
-    "nocturnal",
-    "menacing",
-    "hypnotic",
-    "late-night",
-    "cold",
-    "raw",
-    "aggressive"
-   ],
-   "contexts": [
-    "tard dans la nuit",
-    "coder",
-    "gaming"
-   ],
-   "sounds_like": [
-    "dark trap",
-    "underground trap",
-    "horrorcore-adjacent"
-   ],
-   "release_status": "unreleased_ref_only",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 85,
-   "catalog_tier": "bronze",
-   "genre_voice": "cyberpunk"
-  },
-  {
-   "id": "track:2k23-corner-fleekz",
-   "title": "2K23 Corners",
-   "artist": "Fleekz",
-   "artist_id": "artist:artist:fleekz",
-   "description": "« 2K23 Corners » de Fleekz — titre rap, hip-hop à l'ambiance brut, menaçant. Équilibré et prenant.",
-   "genres": [
-    "rap",
-    "hip-hop",
-    "underground"
-   ],
-   "genres_en": [
-    "rap",
-    "hip hop",
-    "underground"
-   ],
-   "moods": [
-    "brut",
-    "menaçant",
-    "tard dans la nuit",
-    "agressif",
-    "confiant",
-    "brut",
-    "sombre",
-    "sérieux"
-   ],
-   "moods_en": [
-    "gritty",
-    "menacing",
-    "late-night",
-    "aggressive",
-    "confident",
-    "raw",
-    "dark",
-    "serious"
-   ],
-   "contexts": [
-    "conduire",
-    "tard dans la nuit",
-    "entraînement"
-   ],
-   "sounds_like": [
-    "underground hip hop",
-    "street rap",
-    "trap"
-   ],
-   "bpm": 83,
-   "musical_key": "C# Major",
-   "duration": "3:58",
-   "duration_ms": 238000,
-   "release_date": "2023-02-07",
-   "release_status": "released",
-   "spotify_url": "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm",
-   "spotify_id": "6mpcJapNVe4OPZ3j9QPHqm",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 89,
-   "catalog_tier": "silver"
-  },
-  {
-   "id": "track:that-boy-hi-hat-cyberpunk-2027",
-   "title": "Cyberpunk 2027",
-   "artist": "That Boy Hi Hat",
-   "artist_id": "artist:tbhh",
-   "description": "« Cyberpunk 2027 » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, cinématographique. Équilibré et prenant.",
-   "genres": [
-    "rap alternatif",
-    "rap alternatif",
-    "post-trap",
-    "rap"
-   ],
-   "genres_en": [
-    "alternative rap",
-    "alt rap",
-    "post trap",
-    "rap"
-   ],
-   "moods": [
-    "sombre",
-    "cinématographique",
-    "futuriste",
-    "nocturne",
-    "dystopique"
-   ],
-   "moods_en": [
-    "dark",
-    "cinematic",
-    "futuristic",
-    "nocturnal",
-    "dystopian"
-   ],
-   "contexts": [
-    "coder",
-    "gaming",
-    "conduire",
-    "entraînement",
-    "tard dans la nuit"
-   ],
-   "sounds_like": [
-    "cyberpunk rap",
-    "futuristic trap",
-    "synthwave rap"
-   ],
-   "release_date": "2026-10-20",
-   "release_status": "pre_release",
-   "apple_music_url": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
-   "producer": "Kokurcho",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 92,
-   "catalog_tier": "bronze",
-   "genre_voice": "post-trap futurism"
-  },
-  {
-   "id": "track:pix-dre50",
-   "title": "Pix",
-   "artist": "Dre50",
-   "artist_id": "artist:dre50",
-   "description": "« Pix » de Dre50 — titre afrobeats, dancehall à l'ambiance fluide, chaleureux. Équilibré et prenant.",
-   "genres": [
-    "afrobeats",
-    "dancehall",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "afrobeats",
-    "dancehall",
-    "hip hop"
-   ],
-   "moods": [
-    "fluide",
-    "chaleureux",
-    "espiègle"
-   ],
-   "moods_en": [
-    "smooth",
-    "warm",
-    "playful"
-   ],
-   "contexts": [],
-   "sounds_like": [],
-   "release_date": "2025-01-07",
-   "release_status": "released",
-   "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 84,
-   "catalog_tier": "silver",
-   "genre_voice": "afrobeats"
-  },
-  {
-   "id": "track:bluefaces-30-king-ahkeem",
-   "title": "Bluefaces 3.0",
-   "artist": "King Ahkeem",
-   "artist_id": "artist:king-ahkeem",
-   "description": "« Bluefaces 3.0 » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
-   "genres": [
-    "trap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "trap",
-    "hip hop"
-   ],
-   "moods": [
-    "confiant",
-    "électrique",
-    "agressif"
-   ],
-   "moods_en": [
-    "confident",
-    "hype",
-    "aggressive"
-   ],
-   "contexts": [],
-   "sounds_like": [],
-   "release_status": "released",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 86,
-   "catalog_tier": "bronze",
-   "genre_voice": "trap"
-  },
-  {
-   "id": "track:element-king-ahkeem",
-   "title": "Element",
-   "artist": "King Ahkeem",
-   "artist_id": "artist:king-ahkeem",
-   "description": "« Element » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
-   "genres": [
-    "trap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "trap",
-    "hip hop"
-   ],
-   "moods": [
-    "confiant",
-    "électrique",
-    "agressif"
-   ],
-   "moods_en": [
-    "confident",
-    "hype",
-    "aggressive"
-   ],
-   "contexts": [],
-   "sounds_like": [],
-   "release_status": "released",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 87,
-   "catalog_tier": "bronze",
-   "genre_voice": "trap"
-  },
-  {
-   "id": "track:embiid-king-ahkeem",
-   "title": "Embiid",
-   "artist": "King Ahkeem",
-   "artist_id": "artist:king-ahkeem",
-   "description": "« Embiid » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
-   "genres": [
-    "trap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "trap",
-    "hip hop"
-   ],
-   "moods": [
-    "confiant",
-    "électrique",
-    "agressif"
-   ],
-   "moods_en": [
-    "confident",
-    "hype",
-    "aggressive"
-   ],
-   "contexts": [],
-   "sounds_like": [],
-   "release_status": "released",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 86,
-   "catalog_tier": "bronze",
-   "genre_voice": "trap"
-  },
-  {
-   "id": "track:super-solid-king-ahkeem",
-   "title": "Super Solid",
-   "artist": "King Ahkeem",
-   "artist_id": "artist:king-ahkeem",
-   "description": "« Super Solid » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
-   "genres": [
-    "trap",
-    "hip-hop"
-   ],
-   "genres_en": [
-    "trap",
-    "hip hop"
-   ],
-   "moods": [
-    "confiant",
-    "électrique",
-    "agressif"
-   ],
-   "moods_en": [
-    "confident",
-    "hype",
-    "aggressive"
-   ],
-   "contexts": [],
-   "sounds_like": [],
-   "release_status": "released",
-   "co_producer": "Black Lansky",
-   "label": "Cumulative Web Inc",
-   "license_contact": "hp@cumulativeweb.com",
-   "nlp_score": 87,
-   "catalog_tier": "bronze",
-   "genre_voice": "trap"
-  }
- ],
- "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
- "license": "MIT",
- "publisher": "Cumulative Web Inc"
+  "tracks": [
+    {
+      "id": "track:diabolique",
+      "title": "Diabolique",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Diabolique » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, séduisant. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "sombre",
+        "séduisant",
+        "cinématographique",
+        "dangereux",
+        "nocturne",
+        "tard dans la nuit",
+        "introspectif",
+        "triste"
+      ],
+      "moods_en": [
+        "dark",
+        "seductive",
+        "cinematic",
+        "dangerous",
+        "nocturnal",
+        "late-night",
+        "introspective",
+        "sad"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "conduire",
+        "boîte",
+        "se détendre"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "nocturnal rap",
+        "seductive rap"
+      ],
+      "bpm": 77,
+      "musical_key": "G# minor",
+      "energy_1_5": 3,
+      "duration": "2:35",
+      "duration_ms": 155844,
+      "release_date": "2026-07-03",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "spotify_id": "2eSyWmIdPzEMyWejLb2LBj",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 86,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:zooted-zone",
+      "title": "Zooted Zone",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Zooted Zone » de That Boy Hi Hat — titre post-trap, trap à l'ambiance électrique, hypnotique. Énergique et intense.",
+      "genres": [
+        "post-trap",
+        "trap",
+        "rap",
+        "underground",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "post trap",
+        "trap",
+        "rap",
+        "underground",
+        "hip hop"
+      ],
+      "moods": [
+        "électrique",
+        "hypnotique",
+        "agressif",
+        "underground",
+        "tard dans la nuit",
+        "hymne"
+      ],
+      "moods_en": [
+        "hype",
+        "hypnotic",
+        "aggressive",
+        "underground",
+        "late-night",
+        "anthemic"
+      ],
+      "contexts": [
+        "fête",
+        "boîte",
+        "avant-match",
+        "conduire"
+      ],
+      "sounds_like": [
+        "trap",
+        "party rap",
+        "post-trap"
+      ],
+      "bpm": 163,
+      "musical_key": "C# minor",
+      "energy_1_5": 4,
+      "duration": "3:08",
+      "duration_ms": 188466,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "spotify_id": "0emH8ktA8x4DkOFLsG5xkW",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 87,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:doves-and-diamonds",
+      "title": "Doves & Diamonds",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Doves & Diamonds » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance luxe, réfléchi. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "hip hop"
+      ],
+      "moods": [
+        "luxe",
+        "réfléchi",
+        "fluide",
+        "tard dans la nuit",
+        "hymne",
+        "introspectif",
+        "électrique"
+      ],
+      "moods_en": [
+        "luxury",
+        "reflective",
+        "smooth",
+        "late-night",
+        "anthemic",
+        "introspective",
+        "hype"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "se détendre",
+        "célébration"
+      ],
+      "sounds_like": [
+        "melodic rap",
+        "luxury rap",
+        "nocturnal rap"
+      ],
+      "bpm": 85,
+      "musical_key": "D minor",
+      "energy_1_5": 4,
+      "duration": "3:01",
+      "duration_ms": 181544,
+      "release_date": "2023-01-11",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "spotify_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 96,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:shaka-zulu",
+      "title": "Shaka Zulu",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Shaka Zulu » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance énergique, agressif. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "hip-hop",
+        "underground"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "hip hop",
+        "underground"
+      ],
+      "moods": [
+        "énergique",
+        "agressif",
+        "hymne",
+        "défiante",
+        "rebelle",
+        "menaçant",
+        "hypnotique",
+        "triomphant",
+        "dangereux",
+        "confiant",
+        "sombre",
+        "nocturne"
+      ],
+      "moods_en": [
+        "energetic",
+        "aggressive",
+        "anthemic",
+        "defiant",
+        "rebellious",
+        "menacing",
+        "hypnotic",
+        "triumphant",
+        "dangerous",
+        "confident",
+        "dark",
+        "nocturnal"
+      ],
+      "contexts": [
+        "entraînement",
+        "salle de sport",
+        "avant-match",
+        "courir"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "underground hip hop",
+        "anthemic rap"
+      ],
+      "energy_1_5": 4,
+      "duration": "4:11",
+      "duration_ms": 251611,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "spotify_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 98,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:flamerz",
+      "title": "Flamerz",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Flamerz » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance agressif, défiante. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "trap",
+        "rap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "trap",
+        "rap",
+        "hip hop"
+      ],
+      "moods": [
+        "agressif",
+        "défiante",
+        "confiant",
+        "hymne",
+        "électrique",
+        "rebelle",
+        "urgent",
+        "dangereux",
+        "énergique",
+        "sombre"
+      ],
+      "moods_en": [
+        "aggressive",
+        "defiant",
+        "confident",
+        "anthemic",
+        "hype",
+        "rebellious",
+        "urgent",
+        "dangerous",
+        "energetic",
+        "dark"
+      ],
+      "contexts": [
+        "entraînement",
+        "salle de sport",
+        "fête",
+        "avant-match",
+        "boîte"
+      ],
+      "sounds_like": [
+        "rage beats",
+        "melodic trap",
+        "dark trap"
+      ],
+      "duration": "3:06",
+      "duration_ms": 186206,
+      "release_date": "2025-11-20",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "spotify_id": "2MDHAUo4zJTHGXGQHUhNw0",
+      "producer": "Jeck Da General",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 95,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:neon-nights-pt-777",
+      "title": "Neon Nights Pt. 777",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Neon Nights Pt. 777 » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance éthéré, fluide. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "cyberpunk"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "cyberpunk"
+      ],
+      "moods": [
+        "éthéré",
+        "fluide",
+        "hypnotique",
+        "tard dans la nuit",
+        "séduisant",
+        "cinématographique",
+        "rêveur",
+        "nocturne",
+        "futuriste",
+        "mystérieux",
+        "décontracté",
+        "détendu",
+        "poli"
+      ],
+      "moods_en": [
+        "ethereal",
+        "smooth",
+        "hypnotic",
+        "late-night",
+        "seductive",
+        "cinematic",
+        "dreamy",
+        "nocturnal",
+        "futuristic",
+        "mysterious",
+        "laid-back",
+        "chill",
+        "polished"
+      ],
+      "contexts": [
+        "conduire",
+        "tard dans la nuit",
+        "coder",
+        "se détendre",
+        "road trip"
+      ],
+      "sounds_like": [
+        "synthwave rap",
+        "melodic trap",
+        "electronic rap"
+      ],
+      "energy_1_5": 4,
+      "duration": "3:47",
+      "duration_ms": 227472,
+      "release_date": "2025-11-20",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "spotify_id": "4XP56LZjeS0TJUd30kpGSK",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 88,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:ultimate",
+      "title": "Ultimate",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Ultimate » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance hymne, cinématographique. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "hip hop"
+      ],
+      "moods": [
+        "hymne",
+        "cinématographique",
+        "triomphant",
+        "défiante",
+        "confiant",
+        "euphorique",
+        "sombre",
+        "nocturne",
+        "hypnotique"
+      ],
+      "moods_en": [
+        "anthemic",
+        "cinematic",
+        "triumphant",
+        "defiant",
+        "confident",
+        "euphoric",
+        "dark",
+        "nocturnal",
+        "hypnotic"
+      ],
+      "contexts": [
+        "avant-match",
+        "entraînement",
+        "célébration",
+        "matin"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "anthemic rap",
+        "post-trap"
+      ],
+      "duration": "3:16",
+      "duration_ms": 196163,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "spotify_id": "2daugr3ni3r6jHH6UI57EK",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 93,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:painted-lady",
+      "title": "Painted Lady",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Painted Lady » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance séduisant, nocturne. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "séduisant",
+        "nocturne",
+        "tard dans la nuit",
+        "mélancolique",
+        "intime",
+        "introspectif",
+        "dangereux",
+        "sombre"
+      ],
+      "moods_en": [
+        "seductive",
+        "nocturnal",
+        "late-night",
+        "melancholic",
+        "intimate",
+        "introspective",
+        "dangerous",
+        "dark"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "se détendre",
+        "conduire"
+      ],
+      "sounds_like": [
+        "nocturnal rap",
+        "dark trap",
+        "alt r&b rap"
+      ],
+      "duration": "2:48",
+      "duration_ms": 168500,
+      "release_date": "2024-08-16",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "spotify_id": "6nhzq7P7x09aUbPts4ywFl",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 87,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:warped-and-wicked",
+      "title": "Warped & Wicked",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Warped & Wicked » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, menaçant. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "underground"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "underground"
+      ],
+      "moods": [
+        "sombre",
+        "menaçant",
+        "défiante",
+        "hypnotique",
+        "brut",
+        "sombre",
+        "nocturne",
+        "tard dans la nuit",
+        "dystopique",
+        "agressif",
+        "dangereux"
+      ],
+      "moods_en": [
+        "dark",
+        "menacing",
+        "defiant",
+        "hypnotic",
+        "raw",
+        "brooding",
+        "nocturnal",
+        "late-night",
+        "dystopian",
+        "aggressive",
+        "dangerous"
+      ],
+      "contexts": [
+        "conduire",
+        "tard dans la nuit",
+        "coder"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "cinematic rap",
+        "underground trap"
+      ],
+      "energy_1_5": 4,
+      "duration": "4:08",
+      "duration_ms": 248555,
+      "release_date": "2022-04-20",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "spotify_id": "3w4RKguHAT2xd9K0w5CklC",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 92,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:golden-diamond",
+      "title": "Golden Diamond",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Golden Diamond » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance triomphant, cinématographique. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "triomphant",
+        "cinématographique",
+        "hymne",
+        "tard dans la nuit",
+        "confiant",
+        "poli",
+        "brut",
+        "euphorique"
+      ],
+      "moods_en": [
+        "triumphant",
+        "cinematic",
+        "anthemic",
+        "late-night",
+        "confident",
+        "polished",
+        "raw",
+        "euphoric"
+      ],
+      "contexts": [
+        "célébration",
+        "avant-match",
+        "conduire",
+        "matin"
+      ],
+      "sounds_like": [
+        "melodic trap",
+        "post-trap",
+        "anthemic rap"
+      ],
+      "energy_1_5": 4,
+      "duration": "4:02",
+      "duration_ms": 242696,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "spotify_id": "4RFWRhPn8NX0DTQPpl1swe",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 87,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:spirits-n-shadows",
+      "title": "Spirits n Shadows",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Spirits n Shadows » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance agressif, hypnotique. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "underground"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "underground"
+      ],
+      "moods": [
+        "agressif",
+        "hypnotique",
+        "urgent",
+        "défiante",
+        "menaçant",
+        "hymne",
+        "obsédant",
+        "sombre",
+        "cinématographique",
+        "dangereux",
+        "énergique",
+        "nocturne"
+      ],
+      "moods_en": [
+        "aggressive",
+        "hypnotic",
+        "urgent",
+        "defiant",
+        "menacing",
+        "anthemic",
+        "haunting",
+        "dark",
+        "cinematic",
+        "dangerous",
+        "energetic",
+        "nocturnal"
+      ],
+      "contexts": [
+        "entraînement",
+        "courir",
+        "salle de sport",
+        "conduire",
+        "tard dans la nuit"
+      ],
+      "sounds_like": [
+        "rage beats",
+        "dark trap",
+        "nocturnal rap"
+      ],
+      "bpm": 157,
+      "energy_1_5": 4,
+      "duration": "3:18",
+      "duration_ms": 198034,
+      "release_date": "2021-11-24",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "spotify_id": "2tEdW6WKfcs2NGI6OIvAm6",
+      "producer": "Jeck da General",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 93,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:flex-my-flame",
+      "title": "Flex My Flame",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Flex My Flame » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance confiant, dangereux. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "trap",
+        "rap"
+      ],
+      "moods": [
+        "confiant",
+        "dangereux",
+        "hymne",
+        "triomphant",
+        "fluide",
+        "poli"
+      ],
+      "moods_en": [
+        "confident",
+        "dangerous",
+        "anthemic",
+        "triumphant",
+        "smooth",
+        "polished"
+      ],
+      "contexts": [
+        "avant-match",
+        "fête",
+        "boîte",
+        "conduire",
+        "célébration"
+      ],
+      "sounds_like": [
+        "post-trap",
+        "anthemic rap",
+        "trap"
+      ],
+      "duration": "3:03",
+      "duration_ms": 183750,
+      "release_date": "2023-07-28",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/3knXIxd0PlraXvarlwGwKm",
+      "spotify_id": "3knXIxd0PlraXvarlwGwKm",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 87,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:rainbows-and-roses",
+      "title": "Rainbows And Roses",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Rainbows And Roses » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance introspectif, vulnérable. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "indé"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "indie"
+      ],
+      "moods": [
+        "introspectif",
+        "vulnérable",
+        "triste",
+        "mélancolique",
+        "rêveur",
+        "doux",
+        "nocturne",
+        "solitaire"
+      ],
+      "moods_en": [
+        "introspective",
+        "vulnerable",
+        "sad",
+        "melancholic",
+        "dreamy",
+        "mellow",
+        "nocturnal",
+        "lonely"
+      ],
+      "contexts": [
+        "se détendre",
+        "tard dans la nuit",
+        "concentration"
+      ],
+      "sounds_like": [
+        "nocturnal rap",
+        "melodic rap",
+        "sad rap"
+      ],
+      "energy_1_5": 4,
+      "duration": "4:00",
+      "duration_ms": 240613,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "spotify_id": "2ZUYjQGsRLHRcsfgyeAWpo",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 99,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:tears-and-scars",
+      "title": "Tears and Scars",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Tears and Scars » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance mélancolique, introspectif. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "mélancolique",
+        "introspectif",
+        "vulnérable",
+        "sombre",
+        "doux",
+        "éthéré",
+        "triste",
+        "solitaire",
+        "tard dans la nuit"
+      ],
+      "moods_en": [
+        "melancholic",
+        "introspective",
+        "vulnerable",
+        "dark",
+        "mellow",
+        "ethereal",
+        "sad",
+        "lonely",
+        "late-night"
+      ],
+      "contexts": [
+        "se détendre",
+        "tard dans la nuit",
+        "concentration"
+      ],
+      "sounds_like": [
+        "nocturnal rap",
+        "dark trap",
+        "confessional rap"
+      ],
+      "duration": "4:40",
+      "duration_ms": 280346,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "spotify_id": "6NfxhZ4NebIduGEKZeD2Lk",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 92,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:toxic-elements",
+      "title": "Toxic Elements",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Toxic Elements » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, séduisant. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "trap",
+        "rap",
+        "underground"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "trap",
+        "rap",
+        "underground"
+      ],
+      "moods": [
+        "sombre",
+        "séduisant",
+        "dangereux",
+        "hypnotique",
+        "tard dans la nuit",
+        "nocturne",
+        "menaçant",
+        "brut"
+      ],
+      "moods_en": [
+        "dark",
+        "seductive",
+        "dangerous",
+        "hypnotic",
+        "late-night",
+        "nocturnal",
+        "menacing",
+        "raw"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "conduire",
+        "se détendre"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "nocturnal rap",
+        "toxic r&b rap"
+      ],
+      "bpm": 140,
+      "musical_key": "C# minor",
+      "duration": "3:23",
+      "duration_ms": 203703,
+      "release_date": "2023-11-14",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "spotify_id": "2aTbpxiF2jNiB3PGi81oqa",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 91,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:scorpion-and-sapphires",
+      "title": "Scorpion & Sapphires",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Scorpion & Sapphires » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance nocturne, cinématographique. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "nocturne",
+        "cinématographique",
+        "dangereux",
+        "séduisant",
+        "dystopique",
+        "menaçant",
+        "mystérieux",
+        "sombre",
+        "hypnotique",
+        "tard dans la nuit"
+      ],
+      "moods_en": [
+        "nocturnal",
+        "cinematic",
+        "dangerous",
+        "seductive",
+        "dystopian",
+        "menacing",
+        "mysterious",
+        "dark",
+        "hypnotic",
+        "late-night"
+      ],
+      "contexts": [
+        "conduire",
+        "tard dans la nuit",
+        "road trip"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "cinematic rap",
+        "nocturnal rap"
+      ],
+      "duration": "3:07",
+      "duration_ms": 187480,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/0ptdX13NNwDj6l9hF0Pl61",
+      "spotify_id": "0ptdX13NNwDj6l9hF0Pl61",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 93,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:7th-angel",
+      "title": "7th Angel",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« 7th Angel » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance éthéré, mystique. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "indé"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "indie"
+      ],
+      "moods": [
+        "éthéré",
+        "mystique",
+        "exaltant",
+        "cinématographique"
+      ],
+      "moods_en": [
+        "ethereal",
+        "mystical",
+        "uplifting",
+        "cinematic"
+      ],
+      "contexts": [
+        "se détendre",
+        "tard dans la nuit",
+        "concentration"
+      ],
+      "sounds_like": [
+        "melodic rap",
+        "cinematic rap",
+        "nocturnal rap"
+      ],
+      "energy_1_5": 4,
+      "duration": "4:00",
+      "duration_ms": 240000,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "spotify_id": "2dvfN5rFyQO69qmb5oYlRG",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 97,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:place-i-go-to-dream",
+      "title": "Place I Go to Dream",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Place I Go to Dream » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance rêveur, vulnérable. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "indé"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "indie"
+      ],
+      "moods": [
+        "rêveur",
+        "vulnérable",
+        "mélancolique",
+        "obsédant",
+        "éthéré",
+        "introspectif",
+        "solitaire",
+        "défiante",
+        "nocturne",
+        "doux"
+      ],
+      "moods_en": [
+        "dreamy",
+        "vulnerable",
+        "melancholic",
+        "haunting",
+        "ethereal",
+        "introspective",
+        "lonely",
+        "defiant",
+        "nocturnal",
+        "mellow"
+      ],
+      "contexts": [
+        "se détendre",
+        "tard dans la nuit",
+        "concentration",
+        "étudier"
+      ],
+      "sounds_like": [
+        "melodic rap",
+        "indie rap",
+        "dream rap"
+      ],
+      "bpm": 85,
+      "musical_key": "C#",
+      "energy_1_5": 4,
+      "duration": "2:48",
+      "duration_ms": 168071,
+      "release_date": "2021-11-24",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "spotify_id": "31MTBSMfWy4jGEYAilkaH8",
+      "producer": "Jeck da General",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 92,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:smokin-pain",
+      "title": "Smokin' Pain",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Smokin' Pain » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance introspectif, tard dans la nuit. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "underground"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "underground"
+      ],
+      "moods": [
+        "introspectif",
+        "tard dans la nuit",
+        "mélancolique",
+        "sombre",
+        "solitaire",
+        "triste",
+        "brut",
+        "doux",
+        "nocturne",
+        "détendu"
+      ],
+      "moods_en": [
+        "introspective",
+        "late-night",
+        "melancholic",
+        "dark",
+        "lonely",
+        "sad",
+        "raw",
+        "mellow",
+        "nocturnal",
+        "chill"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "se détendre"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "nocturnal rap",
+        "underground hip hop"
+      ],
+      "duration": "3:18",
+      "duration_ms": 198530,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "spotify_id": "6jJpR9IhQ9PmRPJpxLlOmK",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 95,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:phantasm",
+      "title": "Phantasm",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Phantasm » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, dystopique. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "cyberpunk"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "cyberpunk"
+      ],
+      "moods": [
+        "sombre",
+        "dystopique",
+        "introspectif",
+        "sombre",
+        "éthéré",
+        "mystérieux",
+        "nocturne",
+        "cinématographique",
+        "mélancolique",
+        "obsédant",
+        "solitaire",
+        "froid",
+        "hypnotique"
+      ],
+      "moods_en": [
+        "dark",
+        "dystopian",
+        "introspective",
+        "brooding",
+        "ethereal",
+        "mysterious",
+        "nocturnal",
+        "cinematic",
+        "melancholic",
+        "haunting",
+        "lonely",
+        "cold",
+        "hypnotic"
+      ],
+      "contexts": [
+        "coder",
+        "tard dans la nuit",
+        "concentration",
+        "gaming"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "synthwave rap",
+        "dystopian rap"
+      ],
+      "energy_1_5": 4,
+      "duration": "3:55",
+      "duration_ms": 235467,
+      "release_date": "2021-11-24",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "spotify_id": "7xbS3rY8ZzCXNEPLPykf95",
+      "producer": "Jeck da General",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 93,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:misfits-and-hooligans",
+      "title": "Misfits and Hooligans",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Misfits and Hooligans » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance défiante, agressif. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap",
+        "underground"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap",
+        "underground"
+      ],
+      "moods": [
+        "défiante",
+        "agressif",
+        "brut",
+        "énergique",
+        "rebelle",
+        "hymne",
+        "triomphant",
+        "électrique"
+      ],
+      "moods_en": [
+        "defiant",
+        "aggressive",
+        "raw",
+        "energetic",
+        "rebellious",
+        "anthemic",
+        "triumphant",
+        "hype"
+      ],
+      "contexts": [
+        "entraînement",
+        "avant-match",
+        "fête",
+        "salle de sport"
+      ],
+      "sounds_like": [
+        "underground hip hop",
+        "anthemic rap",
+        "post-trap"
+      ],
+      "duration": "5:49",
+      "duration_ms": 349074,
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "spotify_id": "4Z5UCQLqWzpPeihPTZ9Gqg",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 95,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:roses-over-monaco",
+      "title": "Roses over Monaco",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Roses over Monaco » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance cinématographique, tard dans la nuit. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "cinématographique",
+        "tard dans la nuit",
+        "triomphant",
+        "plein d'espoir",
+        "romantique",
+        "nostalgique",
+        "doux",
+        "chaleureux",
+        "sérieux",
+        "introspectif",
+        "exaltant"
+      ],
+      "moods_en": [
+        "cinematic",
+        "late-night",
+        "triumphant",
+        "hopeful",
+        "romantic",
+        "nostalgic",
+        "mellow",
+        "warm",
+        "serious",
+        "introspective",
+        "uplifting"
+      ],
+      "contexts": [
+        "se détendre",
+        "célébration",
+        "conduire",
+        "matin"
+      ],
+      "sounds_like": [
+        "cinematic rap",
+        "melodic rap",
+        "triumphant rap"
+      ],
+      "duration": "4:35",
+      "duration_ms": 275304,
+      "release_date": "2021-11-24",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "spotify_id": "3r86CjoxCNvvCz98h2btm1",
+      "producer": "Jeck da General",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 88,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:broken-hearts-club",
+      "title": "Broken Hearts Club",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Broken Hearts Club » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance mélancolique, hymne. Énergique et intense.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "mélancolique",
+        "hymne",
+        "défiante",
+        "triomphant",
+        "euphorique",
+        "vulnérable",
+        "triste",
+        "énergique"
+      ],
+      "moods_en": [
+        "melancholic",
+        "anthemic",
+        "defiant",
+        "triumphant",
+        "euphoric",
+        "vulnerable",
+        "sad",
+        "energetic"
+      ],
+      "contexts": [
+        "boîte",
+        "fête",
+        "entraînement",
+        "conduire"
+      ],
+      "sounds_like": [
+        "sad rap",
+        "anthemic rap",
+        "post-trap"
+      ],
+      "bpm": 84,
+      "musical_key": "C# Major",
+      "energy_1_5": 4,
+      "duration": "3:08",
+      "duration_ms": 188000,
+      "release_date": "2023-05-20",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/6OCaHPYNSYBwAgaQrZ5IHq",
+      "spotify_id": "6OCaHPYNSYBwAgaQrZ5IHq",
+      "producer": "Jeck Da General",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 93,
+      "catalog_tier": "silver",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:star-king-akeem",
+      "title": "Star",
+      "artist": "King Ahkeem",
+      "artist_id": "artist:king-ahkeem",
+      "description": "« Star » de King Ahkeem — titre trap, hip-hop à l'ambiance hymne, triomphant. Équilibré et prenant.",
+      "genres": [
+        "trap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "trap",
+        "hip hop"
+      ],
+      "moods": [
+        "hymne",
+        "triomphant",
+        "confiant",
+        "euphorique",
+        "défiante",
+        "sérieux",
+        "électrique"
+      ],
+      "moods_en": [
+        "anthemic",
+        "triumphant",
+        "confident",
+        "euphoric",
+        "defiant",
+        "serious",
+        "hype"
+      ],
+      "contexts": [
+        "célébration",
+        "avant-match",
+        "fête",
+        "entraînement",
+        "matin"
+      ],
+      "sounds_like": [
+        "pop rap",
+        "anthemic rap",
+        "hip hop"
+      ],
+      "duration": "2:51",
+      "duration_ms": 171000,
+      "release_date": "2019-04-21",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/4Zhwi9tbKqoxsJjbrSPVuY",
+      "spotify_id": "4Zhwi9tbKqoxsJjbrSPVuY",
+      "apple_music_url": "https://music.apple.com/us/album/star/1678405503?i=1678405504",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 90,
+      "catalog_tier": "silver",
+      "genre_voice": "trap"
+    },
+    {
+      "id": "track:full-moon-183-wilboi",
+      "title": "Full Moon",
+      "artist": "183 Wildboi",
+      "artist_id": "artist:183-wildboi",
+      "description": "« Full Moon » de 183 Wildboi — titre rap rock, rock rap à l'ambiance hymne, confiant. Équilibré et prenant.",
+      "genres": [
+        "rap rock",
+        "rock rap"
+      ],
+      "genres_en": [
+        "rap rock",
+        "rock rap"
+      ],
+      "moods": [
+        "hymne",
+        "confiant",
+        "énergique",
+        "euphorique",
+        "triomphant",
+        "électrique"
+      ],
+      "moods_en": [
+        "anthemic",
+        "confident",
+        "energetic",
+        "euphoric",
+        "triumphant",
+        "hype"
+      ],
+      "contexts": [
+        "célébration",
+        "avant-match",
+        "entraînement",
+        "fête"
+      ],
+      "sounds_like": [
+        "melodic rap",
+        "anthemic rap",
+        "stadium rap"
+      ],
+      "bpm": 120,
+      "musical_key": "A minor",
+      "duration": "3:15",
+      "duration_ms": 195000,
+      "release_date": "2022-08-26",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/5QDagEHk3ilEDK6zVBZqmZ",
+      "spotify_id": "5QDagEHk3ilEDK6zVBZqmZ",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 93,
+      "catalog_tier": "silver",
+      "genre_voice": "rap rock"
+    },
+    {
+      "id": "track:stunt-183-wilboi",
+      "title": "Stunt",
+      "artist": "183 Wildboi",
+      "artist_id": "artist:183-wildboi",
+      "description": "« Stunt » de 183 Wildboi — titre rap rock, rock rap à l'ambiance électrique, agressif. Équilibré et prenant.",
+      "genres": [
+        "rap rock",
+        "rock rap"
+      ],
+      "genres_en": [
+        "rap rock",
+        "rock rap"
+      ],
+      "moods": [
+        "électrique",
+        "agressif",
+        "hymne",
+        "défiante",
+        "confiant",
+        "rebelle",
+        "énergique",
+        "brut"
+      ],
+      "moods_en": [
+        "hype",
+        "aggressive",
+        "anthemic",
+        "defiant",
+        "confident",
+        "rebellious",
+        "energetic",
+        "raw"
+      ],
+      "contexts": [
+        "entraînement",
+        "avant-match",
+        "salle de sport",
+        "fête"
+      ],
+      "sounds_like": [
+        "underground hip hop",
+        "trap",
+        "anthemic rap"
+      ],
+      "duration": "2:32",
+      "duration_ms": 152208,
+      "release_date": "2024-05-19",
+      "release_status": "released",
+      "spotify_id": "1nqHYA5CT2JwyZjVmoIkfe",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 72,
+      "catalog_tier": "silver",
+      "genre_voice": "rap rock"
+    },
+    {
+      "id": "track:vai-vem-vem-dre50",
+      "title": "vai vem vem",
+      "artist": "Dre50",
+      "artist_id": "artist:dre50",
+      "description": "« vai vem vem » de Dre50 — titre afrobeats, dancehall à l'ambiance fluide, confiant. Équilibré et prenant.",
+      "genres": [
+        "afrobeats",
+        "dancehall",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "afrobeats",
+        "dancehall",
+        "hip hop"
+      ],
+      "moods": [
+        "fluide",
+        "confiant",
+        "poli",
+        "chaleureux",
+        "espiègle",
+        "séduisant",
+        "décontracté",
+        "détendu"
+      ],
+      "moods_en": [
+        "smooth",
+        "confident",
+        "polished",
+        "warm",
+        "playful",
+        "seductive",
+        "laid-back",
+        "chill"
+      ],
+      "contexts": [
+        "fête",
+        "conduire",
+        "road trip",
+        "boîte"
+      ],
+      "sounds_like": [
+        "dancehall",
+        "afrobeats",
+        "island pop"
+      ],
+      "bpm": 126,
+      "musical_key": "F minor",
+      "duration": "2:47",
+      "duration_ms": 167000,
+      "release_date": "2026-09-30",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/6MNkg5WRxtnzLA22JFpUML",
+      "spotify_id": "6MNkg5WRxtnzLA22JFpUML",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 92,
+      "catalog_tier": "silver",
+      "genre_voice": "afrobeats"
+    },
+    {
+      "id": "track:pay-yourself-greg-porn",
+      "title": "Pay Yourself",
+      "artist": "Greg Porn",
+      "artist_id": "artist:greg-porn",
+      "description": "« Pay Yourself » de Greg Porn — titre cyberpunk, luxe sombre à l'ambiance défiante, agressif. Équilibré et prenant.",
+      "genres": [
+        "cyberpunk",
+        "luxe sombre"
+      ],
+      "genres_en": [
+        "cyberpunk",
+        "dark luxury"
+      ],
+      "moods": [
+        "défiante",
+        "agressif",
+        "triomphant",
+        "confiant",
+        "menaçant",
+        "brut",
+        "sérieux",
+        "dangereux",
+        "lourd"
+      ],
+      "moods_en": [
+        "defiant",
+        "aggressive",
+        "triumphant",
+        "confident",
+        "menacing",
+        "raw",
+        "serious",
+        "dangerous",
+        "heavy"
+      ],
+      "contexts": [
+        "entraînement",
+        "salle de sport",
+        "avant-match",
+        "concentration"
+      ],
+      "sounds_like": [
+        "underground trap",
+        "hardcore hip hop",
+        "street rap"
+      ],
+      "bpm": 94,
+      "musical_key": "A Major",
+      "duration": "3:06",
+      "duration_ms": 186000,
+      "release_date": "2023-07-04",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/4E0B7kVlJgcX0V0L3e793L",
+      "spotify_id": "4E0B7kVlJgcX0V0L3e793L",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 96,
+      "catalog_tier": "silver",
+      "genre_voice": "cyberpunk"
+    },
+    {
+      "id": "track:on-edge-greg-porn",
+      "title": "On Edge",
+      "artist": "Greg Porn",
+      "artist_id": "artist:greg-porn",
+      "description": "« On Edge » de Greg Porn — titre cyberpunk, luxe sombre à l'ambiance tard dans la nuit, introspectif. Équilibré et prenant.",
+      "genres": [
+        "cyberpunk",
+        "luxe sombre"
+      ],
+      "genres_en": [
+        "cyberpunk",
+        "dark luxury"
+      ],
+      "moods": [
+        "tard dans la nuit",
+        "introspectif",
+        "dangereux",
+        "urgent",
+        "hypnotique",
+        "agressif",
+        "anxieux",
+        "sérieux",
+        "nocturne",
+        "menaçant",
+        "sombre"
+      ],
+      "moods_en": [
+        "late-night",
+        "introspective",
+        "dangerous",
+        "urgent",
+        "hypnotic",
+        "aggressive",
+        "anxious",
+        "serious",
+        "nocturnal",
+        "menacing",
+        "dark"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "coder",
+        "conduire",
+        "concentration"
+      ],
+      "sounds_like": [
+        "nocturnal rap",
+        "underground trap",
+        "dark trap"
+      ],
+      "bpm": 172,
+      "musical_key": "G major",
+      "duration": "2:14",
+      "duration_ms": 134000,
+      "release_date": "2023-08-10",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/5MJKRQuEYdC6duNFHz964U",
+      "spotify_id": "5MJKRQuEYdC6duNFHz964U",
+      "apple_music_url": "https://music.apple.com/us/album/on-edge/1702015437?i=1702015438",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 98,
+      "catalog_tier": "silver",
+      "genre_voice": "cyberpunk"
+    },
+    {
+      "id": "track:unholy-hunter-greg-porn",
+      "title": "Unholy Hunter",
+      "artist": "Greg Porn",
+      "artist_id": "artist:greg-porn",
+      "description": "« Unholy Hunter » de Greg Porn — titre cyberpunk, luxe sombre à l'ambiance sombre, dystopique. Équilibré et prenant.",
+      "genres": [
+        "cyberpunk",
+        "luxe sombre"
+      ],
+      "genres_en": [
+        "cyberpunk",
+        "dark luxury"
+      ],
+      "moods": [
+        "sombre",
+        "dystopique",
+        "dangereux",
+        "nocturne",
+        "menaçant",
+        "hypnotique",
+        "tard dans la nuit",
+        "froid",
+        "brut",
+        "agressif"
+      ],
+      "moods_en": [
+        "dark",
+        "dystopian",
+        "dangerous",
+        "nocturnal",
+        "menacing",
+        "hypnotic",
+        "late-night",
+        "cold",
+        "raw",
+        "aggressive"
+      ],
+      "contexts": [
+        "tard dans la nuit",
+        "coder",
+        "gaming"
+      ],
+      "sounds_like": [
+        "dark trap",
+        "underground trap",
+        "horrorcore-adjacent"
+      ],
+      "release_status": "unreleased_ref_only",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 85,
+      "catalog_tier": "bronze",
+      "genre_voice": "cyberpunk"
+    },
+    {
+      "id": "track:2k23-corner-fleekz",
+      "title": "2K23 Corners",
+      "artist": "Fleekz",
+      "artist_id": "artist:artist:fleekz",
+      "description": "« 2K23 Corners » de Fleekz — titre rap, hip-hop à l'ambiance brut, menaçant. Équilibré et prenant.",
+      "genres": [
+        "rap",
+        "hip-hop",
+        "underground"
+      ],
+      "genres_en": [
+        "rap",
+        "hip hop",
+        "underground"
+      ],
+      "moods": [
+        "brut",
+        "menaçant",
+        "tard dans la nuit",
+        "agressif",
+        "confiant",
+        "brut",
+        "sombre",
+        "sérieux"
+      ],
+      "moods_en": [
+        "gritty",
+        "menacing",
+        "late-night",
+        "aggressive",
+        "confident",
+        "raw",
+        "dark",
+        "serious"
+      ],
+      "contexts": [
+        "conduire",
+        "tard dans la nuit",
+        "entraînement"
+      ],
+      "sounds_like": [
+        "underground hip hop",
+        "street rap",
+        "trap"
+      ],
+      "bpm": 83,
+      "musical_key": "C# Major",
+      "duration": "3:58",
+      "duration_ms": 238000,
+      "release_date": "2023-02-07",
+      "release_status": "released",
+      "spotify_url": "https://open.spotify.com/track/6mpcJapNVe4OPZ3j9QPHqm",
+      "spotify_id": "6mpcJapNVe4OPZ3j9QPHqm",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 89,
+      "catalog_tier": "silver"
+    },
+    {
+      "id": "track:that-boy-hi-hat-cyberpunk-2027",
+      "title": "Cyberpunk 2027",
+      "artist": "That Boy Hi Hat",
+      "artist_id": "artist:tbhh",
+      "description": "« Cyberpunk 2027 » de That Boy Hi Hat — titre rap alternatif, rap alternatif à l'ambiance sombre, cinématographique. Équilibré et prenant.",
+      "genres": [
+        "rap alternatif",
+        "rap alternatif",
+        "post-trap",
+        "rap"
+      ],
+      "genres_en": [
+        "alternative rap",
+        "alt rap",
+        "post trap",
+        "rap"
+      ],
+      "moods": [
+        "sombre",
+        "cinématographique",
+        "futuriste",
+        "nocturne",
+        "dystopique"
+      ],
+      "moods_en": [
+        "dark",
+        "cinematic",
+        "futuristic",
+        "nocturnal",
+        "dystopian"
+      ],
+      "contexts": [
+        "coder",
+        "gaming",
+        "conduire",
+        "entraînement",
+        "tard dans la nuit"
+      ],
+      "sounds_like": [
+        "cyberpunk rap",
+        "futuristic trap",
+        "synthwave rap"
+      ],
+      "release_date": "2026-10-20",
+      "release_status": "pre_release",
+      "apple_music_url": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+      "producer": "Kokurcho",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 92,
+      "catalog_tier": "bronze",
+      "genre_voice": "post-trap futurism"
+    },
+    {
+      "id": "track:pix-dre50",
+      "title": "Pix",
+      "artist": "Dre50",
+      "artist_id": "artist:dre50",
+      "description": "« Pix » de Dre50 — titre afrobeats, dancehall à l'ambiance fluide, chaleureux. Équilibré et prenant.",
+      "genres": [
+        "afrobeats",
+        "dancehall",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "afrobeats",
+        "dancehall",
+        "hip hop"
+      ],
+      "moods": [
+        "fluide",
+        "chaleureux",
+        "espiègle"
+      ],
+      "moods_en": [
+        "smooth",
+        "warm",
+        "playful"
+      ],
+      "contexts": [
+        "fête",
+        "été",
+        "danse",
+        "plage"
+      ],
+      "sounds_like": [
+        "afrobeats",
+        "dancehall",
+        "afro-fusion"
+      ],
+      "release_date": "2025-01-07",
+      "release_status": "released",
+      "spotify_id": "6oe7rfPRAHVM5UwCC4aETs",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 84,
+      "catalog_tier": "silver",
+      "genre_voice": "afrobeats"
+    },
+    {
+      "id": "track:bluefaces-30-king-ahkeem",
+      "title": "Bluefaces 3.0",
+      "artist": "King Ahkeem",
+      "artist_id": "artist:king-ahkeem",
+      "description": "« Bluefaces 3.0 » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
+      "genres": [
+        "trap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "trap",
+        "hip hop"
+      ],
+      "moods": [
+        "confiant",
+        "électrique",
+        "agressif"
+      ],
+      "moods_en": [
+        "confident",
+        "hype",
+        "aggressive"
+      ],
+      "contexts": [
+        "nuit",
+        "conduite",
+        "sport",
+        "fête"
+      ],
+      "sounds_like": [
+        "trap",
+        "hip-hop",
+        "rap"
+      ],
+      "release_status": "released",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 86,
+      "catalog_tier": "bronze",
+      "genre_voice": "trap"
+    },
+    {
+      "id": "track:element-king-ahkeem",
+      "title": "Element",
+      "artist": "King Ahkeem",
+      "artist_id": "artist:king-ahkeem",
+      "description": "« Element » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
+      "genres": [
+        "trap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "trap",
+        "hip hop"
+      ],
+      "moods": [
+        "confiant",
+        "électrique",
+        "agressif"
+      ],
+      "moods_en": [
+        "confident",
+        "hype",
+        "aggressive"
+      ],
+      "contexts": [
+        "nuit",
+        "conduite",
+        "sport",
+        "fête"
+      ],
+      "sounds_like": [
+        "trap",
+        "hip-hop",
+        "rap"
+      ],
+      "release_status": "released",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 87,
+      "catalog_tier": "bronze",
+      "genre_voice": "trap"
+    },
+    {
+      "id": "track:embiid-king-ahkeem",
+      "title": "Embiid",
+      "artist": "King Ahkeem",
+      "artist_id": "artist:king-ahkeem",
+      "description": "« Embiid » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
+      "genres": [
+        "trap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "trap",
+        "hip hop"
+      ],
+      "moods": [
+        "confiant",
+        "électrique",
+        "agressif"
+      ],
+      "moods_en": [
+        "confident",
+        "hype",
+        "aggressive"
+      ],
+      "contexts": [
+        "nuit",
+        "conduite",
+        "sport",
+        "fête"
+      ],
+      "sounds_like": [
+        "trap",
+        "hip-hop",
+        "rap"
+      ],
+      "release_status": "released",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 86,
+      "catalog_tier": "bronze",
+      "genre_voice": "trap"
+    },
+    {
+      "id": "track:super-solid-king-ahkeem",
+      "title": "Super Solid",
+      "artist": "King Ahkeem",
+      "artist_id": "artist:king-ahkeem",
+      "description": "« Super Solid » de King Ahkeem — titre trap, hip-hop à l'ambiance confiant, électrique. Équilibré et prenant.",
+      "genres": [
+        "trap",
+        "hip-hop"
+      ],
+      "genres_en": [
+        "trap",
+        "hip hop"
+      ],
+      "moods": [
+        "confiant",
+        "électrique",
+        "agressif"
+      ],
+      "moods_en": [
+        "confident",
+        "hype",
+        "aggressive"
+      ],
+      "contexts": [
+        "nuit",
+        "conduite",
+        "sport",
+        "fête"
+      ],
+      "sounds_like": [
+        "trap",
+        "hip-hop",
+        "rap"
+      ],
+      "release_status": "released",
+      "co_producer": "Black Lansky",
+      "label": "Cumulative Web Inc",
+      "license_contact": "hp@cumulativeweb.com",
+      "nlp_score": 87,
+      "catalog_tier": "bronze",
+      "genre_voice": "trap"
+    }
+  ],
+  "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+  "license": "MIT",
+  "publisher": "Cumulative Web Inc"
 }
