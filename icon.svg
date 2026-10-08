@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cumulative Web Inc. — Music and Film">
+  <title>Cumulative Web Inc. — Music &amp; Film</title>
+  <rect width="512" height="512" fill="#000000"/>
+  <!-- Outer badge circle -->
+  <circle cx="256" cy="256" r="230" fill="#1a1a1a" stroke="#ffffff" stroke-width="10"/>
+  <!-- Inner silver ring -->
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#c0c0c0" stroke-width="4"/>
+  <!-- Top arc text: MUSIC -->
+  <defs>
+    <path id="topArc" d="M 76,256 A 180,180 0 0 1 436,256"/>
+    <path id="botArc" d="M 86,256 A 170,170 0 0 0 426,256"/>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a8a8a"/>
+      <stop offset="0.5" stop-color="#e8e8e8"/>
+      <stop offset="1" stop-color="#8a8a8a"/>
+    </linearGradient>
+  </defs>
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="72" fill="#111111" letter-spacing="6">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">MUSIC</textPath>
+  </text>
+  <!-- Bottom arc text: & FILM -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="72" fill="#111111" letter-spacing="6">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">&amp; FILM</textPath>
+  </text>
+  <!-- Center band -->
+  <rect x="40" y="216" width="432" height="80" fill="#000000"/>
+  <text x="256" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="44" fill="#ffffff" letter-spacing="2">Cumulative Web Inc.</text>
+  <!-- Side accents -->
+  <circle cx="256" cy="256" r="12" fill="url(#silver)"/>
+</svg>
