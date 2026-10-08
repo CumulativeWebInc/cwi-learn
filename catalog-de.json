@@ -1563,7 +1563,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 90,
       "catalog_tier": "silver",
-      "genre_voice": "trap"
+      "genre_voice": "trap",
+      "isrc": "QZHN32363436",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-star.jpg"
     },
     {
       "id": "track:full-moon-183-wilboi",
@@ -1674,7 +1676,12 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 72,
       "catalog_tier": "silver",
-      "genre_voice": "rap rock"
+      "genre_voice": "rap rock",
+      "spotify_url": "https://open.spotify.com/track/1nqHYA5CT2JwyZjVmoIkfe",
+      "isrc": "QZMEP2463049",
+      "artwork_url": "https://cumulativeweb.com/radio/art/183-wildboi-stunt.jpg",
+      "bpm": 120,
+      "musical_key": "G minor"
     },
     {
       "id": "track:vai-vem-vem-dre50",
@@ -1796,7 +1803,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 96,
       "catalog_tier": "silver",
-      "genre_voice": "cyberpunk"
+      "genre_voice": "cyberpunk",
+      "isrc": "QZMEP2353035",
+      "artwork_url": "https://cumulativeweb.com/radio/art/gregporn-pay-yourself.jpg"
     },
     {
       "id": "track:on-edge-greg-porn",
@@ -1861,7 +1870,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 98,
       "catalog_tier": "silver",
-      "genre_voice": "cyberpunk"
+      "genre_voice": "cyberpunk",
+      "isrc": "QZPLR2387460",
+      "artwork_url": "https://cumulativeweb.com/radio/art/gregporn-on-edge.jpg"
     },
     {
       "id": "track:unholy-hunter-greg-porn",
@@ -2073,7 +2084,10 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 84,
       "catalog_tier": "silver",
-      "genre_voice": "afrobeats"
+      "genre_voice": "afrobeats",
+      "spotify_url": "https://open.spotify.com/track/6oe7rfPRAHVM5UwCC4aETs",
+      "isrc": "QZFYZ2531105",
+      "artwork_url": "https://cumulativeweb.com/radio/art/dre50-pix.jpg"
     },
     {
       "id": "track:bluefaces-30-king-ahkeem",
@@ -2115,7 +2129,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 86,
       "catalog_tier": "bronze",
-      "genre_voice": "trap"
+      "genre_voice": "trap",
+      "isrc": "QZHN32388169",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-bluefaces-3-0.jpg"
     },
     {
       "id": "track:element-king-ahkeem",
@@ -2157,7 +2173,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 87,
       "catalog_tier": "bronze",
-      "genre_voice": "trap"
+      "genre_voice": "trap",
+      "isrc": "QZHN42322704",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-element.jpg"
     },
     {
       "id": "track:embiid-king-ahkeem",
@@ -2199,7 +2217,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 86,
       "catalog_tier": "bronze",
-      "genre_voice": "trap"
+      "genre_voice": "trap",
+      "isrc": "QZNWW2269584",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-embiid.jpg"
     },
     {
       "id": "track:super-solid-king-ahkeem",
@@ -2241,7 +2261,9 @@
       "license_contact": "hp@cumulativeweb.com",
       "nlp_score": 87,
       "catalog_tier": "bronze",
-      "genre_voice": "trap"
+      "genre_voice": "trap",
+      "isrc": "QZTB62301270",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-super-solid.jpg"
     }
   ],
   "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",

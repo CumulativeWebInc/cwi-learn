@@ -1563,7 +1563,9 @@
         "anthemic rap",
         "hip hop"
       ],
-      "duration_ms": 171000
+      "duration_ms": 171000,
+      "isrc": "QZHN32363436",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-star.jpg"
     },
     {
       "id": "track:full-moon-183-wilboi",
@@ -1674,7 +1676,12 @@
         "trap",
         "anthemic rap"
       ],
-      "duration_ms": 152208
+      "duration_ms": 152208,
+      "spotify_url": "https://open.spotify.com/track/1nqHYA5CT2JwyZjVmoIkfe",
+      "isrc": "QZMEP2463049",
+      "artwork_url": "https://cumulativeweb.com/radio/art/183-wildboi-stunt.jpg",
+      "bpm": 120,
+      "musical_key": "G minor"
     },
     {
       "id": "track:vai-vem-vem-dre50",
@@ -1796,7 +1803,9 @@
         "hardcore hip hop",
         "street rap"
       ],
-      "duration_ms": 186000
+      "duration_ms": 186000,
+      "isrc": "QZMEP2353035",
+      "artwork_url": "https://cumulativeweb.com/radio/art/gregporn-pay-yourself.jpg"
     },
     {
       "id": "track:on-edge-greg-porn",
@@ -1861,7 +1870,9 @@
         "underground trap",
         "dark trap"
       ],
-      "duration_ms": 134000
+      "duration_ms": 134000,
+      "isrc": "QZPLR2387460",
+      "artwork_url": "https://cumulativeweb.com/radio/art/gregporn-on-edge.jpg"
     },
     {
       "id": "track:unholy-hunter-greg-porn",
@@ -2065,7 +2076,10 @@
         "warm",
         "playful"
       ],
-      "sounds_like": []
+      "sounds_like": [],
+      "spotify_url": "https://open.spotify.com/track/6oe7rfPRAHVM5UwCC4aETs",
+      "isrc": "QZFYZ2531105",
+      "artwork_url": "https://cumulativeweb.com/radio/art/dre50-pix.jpg"
     },
     {
       "id": "track:bluefaces-30-king-ahkeem",
@@ -2098,7 +2112,9 @@
         "hype",
         "aggressive"
       ],
-      "sounds_like": []
+      "sounds_like": [],
+      "isrc": "QZHN32388169",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-bluefaces-3-0.jpg"
     },
     {
       "id": "track:element-king-ahkeem",
@@ -2131,7 +2147,9 @@
         "hype",
         "aggressive"
       ],
-      "sounds_like": []
+      "sounds_like": [],
+      "isrc": "QZHN42322704",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-element.jpg"
     },
     {
       "id": "track:embiid-king-ahkeem",
@@ -2164,7 +2182,9 @@
         "hype",
         "aggressive"
       ],
-      "sounds_like": []
+      "sounds_like": [],
+      "isrc": "QZNWW2269584",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-embiid.jpg"
     },
     {
       "id": "track:super-solid-king-ahkeem",
@@ -2197,7 +2217,9 @@
         "hype",
         "aggressive"
       ],
-      "sounds_like": []
+      "sounds_like": [],
+      "isrc": "QZTB62301270",
+      "artwork_url": "https://cumulativeweb.com/radio/art/king-ahkeem-super-solid.jpg"
     }
   ],
   "source": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
