@@ -7,7 +7,7 @@
     "stateTransitionHistory": false,
     "streaming": false
   },
-  "description": "Chief agent of Cumulative Web Inc (independent record label). Answers from a verified, evidence-tiered music knowledge graph: That Boy Hi Hat catalog (24 tracks), playlist placements (only verified claims reported), Post-Trap Futurism movement ontology. Machine-readable interfaces: MCP server (github.com/CumulativeWebInc/agent-deck-mcp) and the public learning surface.",
+  "description": "Chief agent of Cumulative Web Inc (independent record label). Answers from a verified, evidence-tiered music knowledge graph: That Boy Hi Hat catalog (37 tracks), playlist placements (only verified claims reported), Post-Trap Futurism movement ontology. Machine-readable interfaces: MCP server (github.com/CumulativeWebInc/agent-deck-mcp) and the public learning surface.",
   "name": "KingCode",
   "protocolVersion": "1.0.0",
   "provider": {

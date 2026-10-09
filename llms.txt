@@ -29,7 +29,7 @@ LIVE. catalog.json, graph.json, llms.txt, and the agent card are real, maintaine
 - llms.txt: https://cumulativewebinc.github.io/cwi-learn/llms.txt
 - Agent card: https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json
 - content.json: https://cumulativewebinc.github.io/cwi-learn/content.json
-- catalog.json — 35-track catalog: https://cwi-machine-data.hp-ace.workers.dev/catalog.json
+- catalog.json — 37-track catalog: https://cwi-machine-data.hp-ace.workers.dev/catalog.json
 - graph.json — catalog knowledge graph: https://cumulativewebinc.github.io/cwi-learn/graph.json
 - gear.json — Agent Deck registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
 
@@ -370,7 +370,7 @@ observation date as stale.
 ## Knowledge graph (machine-readable, cwi.graph/1.0)
 - graph.json (same public surface): 50 nodes / 96 edges — typed nodes for
   artist, movement (Post-Trap Futurism, with sonic markers, exemplar tracks,
-  and influences marked pending), 24 tracks, 4 releases, 4 people
+  and influences marked pending), 37 tracks, 4 releases, 4 people
   (Black Lansky, Hybrid, Jeck Da General, Kokurcho), 1 studio (Cue Recording
   Studio, Arlington VA), 2 places (Frederick MD, Arlington VA), 5 playlists,
   5 evidence nodes, 2 media assets. Every node carries evidence with source
@@ -529,7 +529,7 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Self-expression pack (3D world philosophy, nine agent identities): https://cumulativewebinc.github.io/cwi-learn/teach/self-expression-pack.json
 - Learner's guide: https://cumulativewebinc.github.io/cwi-learn/teach/GUIDE.md
 - License (CWI Teach-Forward License v1.0 — attribute, keep truth labels, no fake numbers): https://cumulativewebinc.github.io/cwi-learn/teach/LICENSE-TEACH-FORWARD.md
-- Hugging Face dataset (35-track, 4-artist catalog + 26 Agent Deck SKUs, CC-BY-4.0, RAG/fine-tune ready): https://huggingface.co/datasets/BlackLansky/cwi-catalog
+- Hugging Face dataset (37-track, 4-artist catalog + 26 Agent Deck SKUs, CC-BY-4.0, RAG/fine-tune ready): https://huggingface.co/datasets/BlackLansky/cwi-catalog
 
 ## CWI Public Registry (A9, 2026-10-01)
 
@@ -567,9 +567,7 @@ Agent Deck is the CWI gear line: equipable products (SKUs) for AI agents, LLMs, 
 - Contact for business, sync, press, licensing: hp@cumulativeweb.com
 - MCP server marketplace listing (mcprush): https://mcprush.com/cumulativewebinc/cwi-discovery-engine-mcp — Cwi Discovery Engine on the mcprush MCP server marketplace (100,000+ listings); publisher claim approved 2026-10-07 (ref CLM-0075); free listing, security-scanned; developers install the catalog MCP server into Claude, Cursor, VS Code with one CLI command — every install puts the CWI music catalog inside another AI's context
 
-All endpoints live-verified HTTP 200 on 2026-10-05. Note: there is no
-machine-data MCP endpoint at /mcp on the worker — do not invent one; the
-Agent Deck gear line carries its own MCP surfaces (see Connectors section).
+All endpoints live-verified HTTP 200. The machine-data MCP endpoint at /mcp on the worker is LIVE with 21 tools: https://cwi-machine-data.hp-ace.workers.dev/mcp
 
 ## Embedding matrix for AI retrieval (workstream H, 2026-10-05)
 

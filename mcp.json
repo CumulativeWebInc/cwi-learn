@@ -1,5 +1,4 @@
 {
-  "$schema": "https://modelcontextprotocol.io/schemas/server-manifest.json",
   "description": "Read-only MCP server exposing the Cumulative Web Inc music catalog: search tracks, look up artists, semantic music search, knowledge graph, release facts, live radio, announcements, and featured tracks.",
   "homepage": "https://cumulativeweb.com",
   "license": "MIT",
