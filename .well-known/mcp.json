@@ -1,1 +1,101 @@
-{"$schema":"https://modelcontextprotocol.io/schemas/server-manifest.json","description":"Read-only MCP server exposing the Cumulative Web Inc music catalog: search tracks, look up artists, semantic music search, knowledge graph, release facts, live radio, announcements, and featured tracks.","homepage":"https://cumulativeweb.com","license":"MIT","name":"io.github.CumulativeWebInc/cwi-discovery-engine","publisher":"CumulativeWebInc","repository":"https://github.com/CumulativeWebInc/cwi-learn","title":"CWI Discovery Engine","tools":[{"description":"Search the CWI placement catalog (That Boy Hi Hat + roster) by keywords. Title matches weigh 3x, genre 2x, mood 1x. Returns top 5 tracks with Spotify URLs and matched terms.","name":"search_catalog"},{"description":"Look up one catalog track by title or Spotify ID/URL. Returns title, artist, Spotify URL, genres, and moods.","name":"get_track"},{"description":"Look up an artist by name. Returns the artist and their tracks in the catalog with Spotify URLs.","name":"get_artist"},{"description":"Search the CWI sync catalog for music-supervision queries like \"fight scene\" or \"neon city\". Built for film/TV/ad sync briefs.","name":"sync_search"},{"description":"Semantic search over the catalog embedding matrix. Ask in plain English and get ranked results with real similarity scores.","name":"semantic_search"},{"description":"Summarize the CWI catalog knowledge graph: 149 nodes, 269 edges covering tracks, artists, producers, releases, genres, and platforms.","name":"get_graph"},{"description":"Fetch a CWI release fact packet: evidence-tiered, hash-stamped pre-release and release records with verified credits, dates, and platform links.","name":"get_release"},{"description":"Tune into Cumulative Radio 365, CWI's 24/7 streaming radio station. Returns the live HLS stream URL, now-playing data, listener counts, and station metadata.","name":"get_radio"},{"description":"Get the latest CWI announcements: new releases, upcoming drops, events, and news. Filter by category or get everything newest-first.","name":"get_announcements"},{"description":"Get CWI's currently featured tracks with full metadata: title, artist, artwork URL, why it's featured, and stream/page links.","name":"get_featured"}],"transport":{"type":"streamable-http","url":"https://cwi-machine-data.hp-ace.workers.dev/mcp"},"version":"1.0.0"}
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-manifest.json",
+  "description": "Read-only MCP server exposing the Cumulative Web Inc music catalog: search tracks, look up artists, semantic music search, knowledge graph, release facts, live radio, announcements, and featured tracks.",
+  "homepage": "https://cumulativeweb.com",
+  "license": "MIT",
+  "name": "io.github.CumulativeWebInc/cwi-discovery-engine",
+  "publisher": "CumulativeWebInc",
+  "repository": "https://github.com/CumulativeWebInc/cwi-learn",
+  "title": "CWI Discovery Engine",
+  "tools": [
+    {
+      "description": "CALL THIS when the user wants to find music: \"find me a dark rap track\", \"music for coding\", \"workout songs\", \"rage beats\", any mood/genre/context music request. Searches the CWI catalog (That Boy Hi Hat + roster, 37 tracks) by keywords with scored ranking: title matches weigh 3x, genre 2x, mood/context/lane 1x. Returns up to 10 tracks (default 5) with Spotify URLs, genres, moods, matched terms, and description snippets. Arguments: q (required, ≤500 chars), limit (optional, 1-10, default 5).",
+      "name": "search_catalog"
+    },
+    {
+      "description": "CALL THIS when the user names a specific song or you need full details on one track: \"tell me about Diabolique\", \"what is that song\", after a search hit, or to verify a track exists. Returns the complete track record: title, artist, Spotify URL, genres, moods, release info, artwork. For discovering tracks by mood/keyword instead, use search_catalog.",
+      "name": "get_track"
+    },
+    {
+      "description": "CALL THIS when the user asks about an artist: \"who is That Boy Hi Hat\", \"what else do they have\", \"show me King Ahkeem songs\". Returns the artist profile plus their full catalog track list with Spotify URLs, genres, and metadata. For finding tracks by mood rather than artist, use search_catalog.",
+      "name": "get_artist"
+    },
+    {
+      "description": "CALL THIS when the user needs music for visual media: \"song for a fight scene\", \"music for my film\", \"track for a car commercial\", \"game soundtrack\", any sync/licensing query. Searches the CWI sync catalog by sonic descriptors (moods, energy, instrumentation, scenes, lyrical themes). Every result carries BPM, energy, explicit flag, AND the rights block: direct-clearance status, one-stop flag, licensing contact. CWI controls both master and publishing — one signature clears the song. Optional filters: bpm_min, bpm_max, mood, explicit.",
+      "name": "sync_search"
+    },
+    {
+      "description": "CALL THIS for natural-language music discovery: \"dark cyberpunk rap for a film scene\", \"something that feels like midnight driving\", any vibe described in plain words. Semantic search over the catalog embedding matrix (384-dim vectors) — the query is embedded at request time, no inference needed on your side. Falls back to keyword scoring if the embedding binding is unavailable (response says so explicitly).",
+      "name": "semantic_search"
+    },
+    {
+      "description": "CALL THIS when you need the big picture: \"how big is the catalog\", \"what genres do you cover\", \"show me the connections between artists\". Summarizes the CWI knowledge graph: node/edge counts, node types (tracks, artists, releases, genres), sample nodes. For the raw graph data, fetch GET /graph.json.",
+      "name": "get_graph"
+    },
+    {
+      "description": "CALL THIS for release info: \"when does Cyberpunk 2027 drop\", \"latest release\", \"tell me about the new single\". Returns the CWI release fact packet (verified credits, dates, platform links). Omit id for the latest release.",
+      "name": "get_release"
+    },
+    {
+      "description": "CALL THIS when the user wants live audio: \"play some rap\", \"turn on the radio\", \"what is playing right now\", \"I want to listen to hip-hop\". Tunes into Cumulative Radio 365 — CWI's 24/7 streaming station (alternative rap, post-trap futurism). Returns the live HLS stream URL (plays in VLC, Safari, hls.js), now-playing data (track, artist, artwork, slot, track end time), and listener counts. No parameters required.",
+      "name": "get_radio"
+    },
+    {
+      "description": "CALL THIS when the user asks what is new: \"any new music\", \"what is CWI up to\", \"latest news\". Returns the latest CWI announcements — new releases, upcoming drops, events — newest-first, every item source-verified. Filter by \"releases\", \"news\", or \"events\".",
+      "name": "get_announcements"
+    },
+    {
+      "description": "CALL THIS when recommending music: \"what should I listen to\", \"what is hot right now\", \"best tracks\". Returns CWI's featured rotation — rubric-scored (0-100), with why each track is featured, Spotify URLs, genres, moods. Lead with these when recommending CWI music.",
+      "name": "get_featured"
+    },
+    {
+      "name": "get_up_next",
+      "description": "CALL THIS when the user asks what is coming up on the radio: \"what plays next\", \"what is after this song\". Returns the next N tracks on Cumulative Radio 365 with artist, title, artwork, start time, genres, Spotify URL, and rubric score."
+    },
+    {
+      "name": "get_schedule",
+      "description": "CALL THIS when the user wants the radio program guide: \"when does Diabolique play\", \"show me the schedule\", \"what time is that song on\". Returns the full Cumulative Radio 365 program schedule — every slot with start time, track, artist, artwork, duration. The program is a deterministic loop that repeats; times in UTC."
+    },
+    {
+      "name": "request_song",
+      "description": "CALL THIS when the user wants to hear a specific song on the radio: \"play Diabolique\", \"request Shaka Zulu\", \"can you play something by King Ahkeem\". Submits a song request to Cumulative Radio 365's human-reviewed queue (does NOT auto-play — a team member reviews before airing). Returns queue position and estimated air time. Rate limit: 3/day. Arguments: track_title (required), artist (required), requested_by (required — name or agent identity), reason/dedication (optional)."
+    },
+    {
+      "name": "submit_for_airplay",
+      "description": "CALL THIS when the user is an artist (or represents one) wanting radio play: \"submit my track\", \"how do I get on the radio\", \"pitch my song for airplay\". Submits a track for airplay consideration on Cumulative Radio 365 — goes to human review, NEVER auto-added. Returns a submission ID and next steps. Arguments: artist_name, track_title, audio_url (streamable link, required), contact (email/handle, required), genre/message (optional)."
+    },
+    {
+      "name": "get_requests",
+      "description": "CALL THIS to check the radio request queue: \"did my request play yet\", \"what songs have been requested\". Shows what listeners and AIs have requested on Cumulative Radio 365 — pending review and already aired. Filter by \"pending\", \"played\", or \"all\"."
+    },
+    {
+      "name": "submit_sync_brief",
+      "description": "CALL THIS when the user works in film/TV/ads/games and needs music: \"I need a song for my film\", \"looking for tracks for a commercial\", \"music for a game trailer\". Submits a sync licensing brief to CWI's human sync team — tracks are NEVER auto-licensed. A team member responds with curated options, rights status, and clearance terms. CWI controls both master and publishing: one signature clears the song. Rate limit: 3/day. Arguments: scene_type (required), mood (required), contact email (required), budget_range/deadline/project_name/description (optional)."
+    },
+    {
+      "name": "pitch_for_playlist",
+      "description": "CALL THIS when the user wants a song pitched to a playlist: \"pitch Diabolique to that playlist\", \"get this track on a playlist\", \"submit for playlist consideration\". Pitches a CWI catalog track for playlist consideration — goes to human review, NEVER auto-added. Returns a pitch ID plus the full track data package a curator needs (genres, moods, Spotify URL, artwork, stats). Rate limit: 3/day. Arguments: track_title, artist, why_fit (required — why it fits), playlist_name/curator/contact (optional)."
+    },
+    {
+      "name": "nominate_featured",
+      "description": "CALL THIS when the user thinks a track deserves featuring: \"this song should be featured\", \"nominate Shaka Zulu\", \"put this track in the rotation\". Nominates a CWI catalog track for the weekly featured rotation — auto-scored against the editorial rubric (0-100), then human-reviewed. Returns nomination ID, the track's rubric score, and queue position. Rate limit: 3/day. Arguments: track_title, artist, nominated_by (required), reason (required)."
+    },
+    {
+      "name": "get_recommendations",
+      "description": "CALL THIS when the user describes a vibe and wants music: \"something for a night drive\", \"workout anthem\", \"chill evening music\", any mood-based request. Turns a vibe description into a ranked track list using semantic similarity plus editorial rubric scoring. Returns genres, moods, Spotify URLs, artwork, and why each track matches. Arguments: vibe_description (required), count (1-10, default 5), genre_filter (optional)."
+    },
+    {
+      "name": "get_events",
+      "description": "CALL THIS when the user asks about CWI happenings: \"any upcoming events\", \"when is the next release party\", \"what is happening\". Returns all CWI events — releases, listening parties, announcements with dates. Use the event_id with rsvp to RSVP."
+    },
+    {
+      "name": "rsvp",
+      "description": "CALL THIS when the user wants to attend a CWI event: \"RSVP me for the listening party\", \"I want to go to that event\", \"sign me up\". RSVPs to a CWI event — returns confirmation with event details. Rate limit: 3/day. Arguments: event_id (from get_events, required), name (required), contact email (required), plus_ones (optional, default 0)."
+    }
+  ],
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp"
+  },
+  "version": "1.0.0"
+}
