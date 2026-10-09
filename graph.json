@@ -4,11 +4,11 @@
  "maintainer": "Cumulative Web Inc (CWI_Data)",
  "source_of_truth_note": "Catalog nodes (artist/track) and all ISRC facts are machine-regenerated from catalog-interop/catalog-index.json (52 track records, 2026-09-19). Non-catalog nodes/edges (organization, movement, people, studio, place, releases, playlists, evidence, media assets) are carried over from the prior edition. Status is verified | owner_confirmed | claimed_unverified | promised_unverified. Placement Query DB node (service:placement-query-db) staged 2026-10-03, status incomplete until query-db.json push is confirmed live.",
  "counts": {
-  "nodes": 133,
-  "edges": 474,
+  "nodes": 134,
+  "edges": 477,
   "organization": 2,
   "movement": 1,
-  "person": 4,
+  "person": 5,
   "studio": 1,
   "place": 2,
   "release": 9,
@@ -5424,6 +5424,25 @@
      "status": "verified"
     }
    ]
+  },
+  {
+   "id": "person:tyler-schafer",
+   "type": "person",
+   "name": "Tyler Schafer",
+   "status": "verified",
+   "attrs": {
+    "roles": [
+     "producer"
+    ]
+   },
+   "evidence": [
+    {
+     "claim": "Co-producer of '7th Angel' (That Boy Hi Hat), with Jeck Da General and Black Lansky",
+     "source": "Black's decision 2026-10-09; CWI Medium articles credit Jeck Da General, Black Lansky, and Tyler Schafer as producers",
+     "observed": "2026-10-09",
+     "status": "verified"
+    }
+   ]
   }
  ],
  "edges": [
@@ -8245,6 +8264,24 @@
    "to": "genre:hip-hop",
    "rel": "exemplar_of",
    "note": "catalog genre tagging"
+  },
+  {
+   "from": "track:that-boy-hi-hat-7th-angel",
+   "to": "person:jeck-da-general",
+   "rel": "produced_by",
+   "note": "Black's decision 2026-10-09: three-producer credit (Jeck Da General, Tyler Schafer, Black Lansky)"
+  },
+  {
+   "from": "track:that-boy-hi-hat-7th-angel",
+   "to": "person:tyler-schafer",
+   "rel": "produced_by",
+   "note": "Black's decision 2026-10-09: three-producer credit (Jeck Da General, Tyler Schafer, Black Lansky)"
+  },
+  {
+   "from": "track:that-boy-hi-hat-7th-angel",
+   "to": "person:black-lansky",
+   "rel": "co_produced_by",
+   "note": "per CWI standing law — co-produces all catalog music"
   }
  ],
  "@context": "https://cumulativewebinc.github.io/cwi-learn/graph/ontology.jsonld",
