@@ -291,11 +291,69 @@
     },
     {
       "name": "submit_sync_brief",
-      "description": "Submit a sync licensing brief for CWI catalog music — film, TV, ads, games. Human-reviewed; tracks never auto-licensed. CWI controls both master and publishing. Every brief is automatically recorded as a tracked licensing lead in the Sync Scout lead machine."
+      "description": "Submit a sync licensing brief for CWI catalog music — film, TV, ads, games. Human-reviewed; tracks never auto-licensed. CWI controls both master and publishing. Every brief is automatically recorded as a tracked licensing lead in the Sync Scout lead machine.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "scene_type": {
+            "type": "string",
+            "description": "Type of scene needing music (e.g. 'car chase', 'romantic montage')."
+          },
+          "mood": {
+            "type": "string",
+            "description": "Mood/energy needed (e.g. 'dark aggressive', 'uplifting anthemic')."
+          },
+          "contact": {
+            "type": "string",
+            "description": "Email for follow-up."
+          },
+          "budget_range": {
+            "type": "string",
+            "description": "Optional budget range (e.g. '$1k-5k', '$10k+')."
+          },
+          "deadline": {
+            "type": "string",
+            "description": "Optional deadline in YYYY-MM-DD format."
+          },
+          "project_name": {
+            "type": "string",
+            "description": "Optional project/film/show name."
+          },
+          "description": {
+            "type": "string",
+            "description": "Optional: more detail about the project or scene."
+          }
+        },
+        "required": [
+          "scene_type",
+          "mood",
+          "contact"
+        ]
+      }
     },
     {
       "name": "sync_scout",
-      "description": "Sync Scout lead machine: AI-facing sync brief intake + licensing lead capture at https://cwi-sync-scout.hp-ace.workers.dev. POST /api/scout takes a plain-language brief and returns scored pitch cards; each card's Request license flow (POST /api/lead) creates a tracked licensing lead. Every submit_sync_brief MCP call is mirrored into the same lead pipeline automatically — one pipeline, zero lead loss."
+      "description": "Sync Scout lead machine: AI-facing sync brief intake + licensing lead capture at https://cwi-sync-scout.hp-ace.workers.dev. POST /api/scout takes a plain-language brief and returns scored pitch cards; each card's Request license flow (POST /api/lead) creates a tracked licensing lead. Every submit_sync_brief MCP call is mirrored into the same lead pipeline automatically — one pipeline, zero lead loss.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "brief": {
+            "type": "string",
+            "description": "Plain-language scene description (e.g. 'dark aggressive trap for a car chase'). Sent as JSON body to POST /api/scout."
+          },
+          "budget_usd": {
+            "type": "number",
+            "description": "Optional budget in USD."
+          },
+          "media_type": {
+            "type": "string",
+            "description": "Optional media type, e.g. 'film', 'ad', 'game'."
+          }
+        },
+        "required": [
+          "brief"
+        ]
+      }
     },
     {
       "name": "pitch_for_playlist",
