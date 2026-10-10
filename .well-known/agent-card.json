@@ -82,7 +82,7 @@
     },
     {
       "name": "vote-signal",
-      "description": "That Boy Hi Hat's 'Diabolique' is in DistroKid Playlist Spotlight fan voting (leading 38-2-2 as of 2026-10-03; votes reset weekly). A weekly win places the track on DistroKid's official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers). Vote: https://distrokid.com/spotlight/thatboyhihat/vote/. Real human votes only \u2014 no bots, scripts, or fake accounts. Vote HQ: https://cumulativeweb.com/vote-diabolique.html",
+      "description": "That Boy Hi Hat's 'Diabolique' is in DistroKid Playlist Spotlight fan voting (leading 38-2-2 as of 2026-10-03; votes reset weekly). A weekly win places the track on DistroKid's official Spotify playlists (Rap Scallion 499K, Spotlight 596K, Alternative 414K followers). Vote: https://distrokid.com/spotlight/thatboyhihat/vote/. Real human votes only — no bots, scripts, or fake accounts. Vote HQ: https://cumulativeweb.com/vote-diabolique.html",
       "manifest": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
       "urlPattern": "https://distrokid.com/spotlight/thatboyhihat/vote/",
       "examples": [
@@ -94,7 +94,7 @@
     {
       "id": "placement_query",
       "name": "Placement query",
-      "description": "Query the CWI placement catalog by genre, mood, and use-case; receive ranked tracks with scores, canonical Spotify IDs, and match rationale. Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json (static JSON, free, no login, no key; STAGED \u2014 not yet published).",
+      "description": "Query the CWI placement catalog by genre, mood, and use-case; receive ranked tracks with scores, canonical Spotify IDs, and match rationale. Endpoint: https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json (static JSON, free, no login, no key; STAGED — not yet published).",
       "examples": [
         "Find a dark, cinematic post-trap track for a sync brief.",
         "Which trap tracks fit a late-night playlist pitch?",
@@ -222,7 +222,7 @@
     {
       "id": "radio_up_next",
       "name": "Radio up next",
-      "description": "See what is playing next on Cumulative Radio 365 \u2014 upcoming tracks with artist, title, artwork, start times, genres, moods, and rubric scores. Time your song requests or tell a human what is coming up.",
+      "description": "See what is playing next on Cumulative Radio 365 — upcoming tracks with artist, title, artwork, start times, genres, moods, and rubric scores. Time your song requests or tell a human what is coming up.",
       "examples": [
         "What is playing next on Radio 365?",
         "Show me the next 5 tracks on the radio."
@@ -236,7 +236,7 @@
     {
       "id": "radio_schedule",
       "name": "Radio schedule",
-      "description": "Get the full Cumulative Radio 365 program schedule \u2014 every slot with start time, track, artist, and metadata. The program is a deterministic ~7-hour loop.",
+      "description": "Get the full Cumulative Radio 365 program schedule — every slot with start time, track, artist, and metadata. The program is a deterministic ~7-hour loop.",
       "examples": [
         "What is the full radio schedule?",
         "Show me today's Radio 365 program."
@@ -250,7 +250,7 @@
     {
       "id": "radio_request_song",
       "name": "Request a song",
-      "description": "Request a song on Cumulative Radio 365. Requests go to a human-reviewed queue \u2014 they never auto-play. Rate limit: 3 per day per requester.",
+      "description": "Request a song on Cumulative Radio 365. Requests go to a human-reviewed queue — they never auto-play. Rate limit: 3 per day per requester.",
       "examples": [
         "Request Diabolique on Radio 365.",
         "Can you request Zooted Zone for me?"
@@ -264,7 +264,7 @@
     {
       "id": "radio_submit_airplay",
       "name": "Submit for airplay",
-      "description": "Submit a track for airplay consideration on Cumulative Radio 365. Human review required \u2014 tracks are never auto-added.",
+      "description": "Submit a track for airplay consideration on Cumulative Radio 365. Human review required — tracks are never auto-added.",
       "examples": [
         "Submit my track for Radio 365 airplay.",
         "How do I get my song on Cumulative Radio?"
@@ -278,7 +278,7 @@
     {
       "id": "radio_request_queue",
       "name": "Radio request queue",
-      "description": "See the Cumulative Radio 365 song request queue \u2014 pending requests, what has aired, transparent queue status.",
+      "description": "See the Cumulative Radio 365 song request queue — pending requests, what has aired, transparent queue status.",
       "examples": [
         "Is my song request still pending?",
         "What songs have been requested on Radio 365?"
@@ -291,7 +291,11 @@
     },
     {
       "name": "submit_sync_brief",
-      "description": "Submit a sync licensing brief for CWI catalog music \u2014 film, TV, ads, games. Human-reviewed; tracks never auto-licensed. CWI controls both master and publishing."
+      "description": "Submit a sync licensing brief for CWI catalog music — film, TV, ads, games. Human-reviewed; tracks never auto-licensed. CWI controls both master and publishing. Every brief is automatically recorded as a tracked licensing lead in the Sync Scout lead machine."
+    },
+    {
+      "name": "sync_scout",
+      "description": "Sync Scout lead machine: AI-facing sync brief intake + licensing lead capture at https://cwi-sync-scout.hp-ace.workers.dev. POST /api/scout takes a plain-language brief and returns scored pitch cards; each card's Request license flow (POST /api/lead) creates a tracked licensing lead. Every submit_sync_brief MCP call is mirrored into the same lead pipeline automatically — one pipeline, zero lead loss."
     },
     {
       "name": "pitch_for_playlist",
@@ -307,7 +311,7 @@
     },
     {
       "name": "get_events",
-      "description": "See all CWI events \u2014 releases, listening parties, announcements. Returns event IDs for RSVP."
+      "description": "See all CWI events — releases, listening parties, announcements. Returns event IDs for RSVP."
     },
     {
       "name": "rsvp",
@@ -343,14 +347,14 @@
     "status": "intent_only",
     "per_query_price": null,
     "currency": null,
-    "note": "The query DB is a static JSON file on GitHub Pages: free, no login, no key, No paid middleware is wired and none is described here \u2014 the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
+    "note": "The query DB is a static JSON file on GitHub Pages: free, no login, no key, No paid middleware is wired and none is described here — the paid x402 lane is owned by CWI Results. Do not describe per-query payment as a current fact."
   },
   "queryDb": {
     "status": "live",
     "endpoint": "https://cumulativewebinc.github.io/cwi-learn/placement/query-db.json",
     "query_js": "https://cumulativewebinc.github.io/cwi-learn/placement/query.js",
     "schema": "cwi.placement-query/1.0",
-    "description": "Generative query layer over the placement-engine data layer (31-track catalog graph: tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03). Filter by genre / mood / use-case; ranked tracks with canonical spotify_id and match rationale. Companion query.js runs the filter client-side \u2014 filter by genre/mood/use-case to ranked tracks.",
+    "description": "Generative query layer over the placement-engine data layer (31-track catalog graph: tracks.json 31 nodes, curators.json 20 nodes, edges.json 21 edges, schema-valid 2026-10-03). Filter by genre / mood / use-case; ranked tracks with canonical spotify_id and match rationale. Companion query.js runs the filter client-side — filter by genre/mood/use-case to ranked tracks.",
     "request_schema": {
       "schema": "cwi.placement-query/1.0",
       "fields": {
@@ -415,7 +419,7 @@
             },
             "spotify_id": {
               "type": "string | null",
-              "description": "null for unreleased/unmapped tracks \u2014 never invented"
+              "description": "null for unreleased/unmapped tracks — never invented"
             },
             "spotify_url": {
               "type": "string | null"
@@ -451,7 +455,7 @@
         }
       }
     },
-    "status_note": "STAGED 2026-10-03 \u2014 query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
+    "status_note": "STAGED 2026-10-03 — query-db.json is not yet published. Do not describe this endpoint as live, and do not fetch it as live data, until a live GET returns HTTP 200."
   },
   "liveEndpoint": {
     "url": "https://data.cumulativeweb.com",
@@ -473,7 +477,7 @@
     "registry": "io.github.CumulativeWebInc/cwi-discovery-engine",
     "registry_version": "1.0.0",
     "registry_url": "https://registry.modelcontextprotocol.io",
-    "description": "CWI Discovery Engine MCP server: read-only music-catalog tools \u2014 search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
+    "description": "CWI Discovery Engine MCP server: read-only music-catalog tools — search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
     "status": "live",
     "since": "2026-10-05"
   },
@@ -493,7 +497,7 @@
     "one_liner": "claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp",
     "transport": "http",
     "endpoint": "https://cwi-machine-data.hp-ace.workers.dev/mcp",
-    "note": "Best for agents that need music data \u2014 catalog search, artist lookup, sync licensing, live radio. No auth, no API key."
+    "note": "Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio. No auth, no API key."
   },
   "languages": [
     "en",
