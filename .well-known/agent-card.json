@@ -7,8 +7,8 @@
     "stateTransitionHistory": false,
     "streaming": false
   },
-  "description": "Chief agent of Cumulative Web Inc (independent record label). Answers from a verified, evidence-tiered music knowledge graph: That Boy Hi Hat catalog (37 tracks), playlist placements (only verified claims reported), Post-Trap Futurism movement ontology. Machine-readable interfaces: MCP server (github.com/CumulativeWebInc/agent-deck-mcp) and the public learning surface.",
-  "name": "KingCode",
+  "description": "CWI Discovery Engine: read-only MCP server for the Cumulative Web Inc music catalog. 21 tools: catalog search, track/artist lookup, sync licensing search, semantic search, knowledge graph, Radio 365 live radio, playlist pitching, release fact packets, and event RSVP. No auth, no key.",
+  "name": "CWI Discovery Engine",
   "protocolVersion": "1.0.0",
   "provider": {
     "organization": "Cumulative Web Inc",
@@ -533,9 +533,9 @@
     "custom_domain": "https://data.cumulativeweb.com/mcp",
     "protocol": "streamable-http",
     "registry": "io.github.CumulativeWebInc/cwi-discovery-engine",
-    "registry_version": "1.0.0",
+    "registry_version": "1.1.0",
     "registry_url": "https://registry.modelcontextprotocol.io",
-    "description": "CWI Discovery Engine MCP server: read-only music-catalog tools — search_catalog, get_track, get_artist, sync_search, semantic_search (cosine:bge-small-en-v1.5), get_release. POST JSON-RPC 2.0. No auth, no key.",
+    "description": "CWI Discovery Engine MCP server: 21 read-only music-catalog tools — search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_up_next, get_schedule, request_song, submit_for_airplay, get_requests, submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp. POST JSON-RPC 2.0. No auth, no key.",
     "status": "live",
     "since": "2026-10-05"
   },
