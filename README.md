@@ -1,5 +1,7 @@
 # cwi-learn
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/cumulativewebinc/cwi-learn)
+
 **Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio.**
 
 Post-Trap Futurism — machine-readable AI learning surface for That Boy Hi Hat and the Cumulative Web Inc roster.
