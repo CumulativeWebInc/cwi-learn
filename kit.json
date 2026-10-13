@@ -528,6 +528,22 @@
       "isrc_status": "unverified",
       "isrc_source": null,
       "catalog_tier": "bronze"
+    },
+    {
+      "n": 53,
+      "title": "Cyberpunk 2027",
+      "artist": "That Boy Hi Hat",
+      "isrc": "QTA2X2675077",
+      "isrc_status": "verified",
+      "isrc_source": "DistroKid, label-provided 2026-10-12",
+      "upc": "700563274374",
+      "release_date": "2026-10-20",
+      "release_status": "upcoming",
+      "presave_url": "https://distrokid.com/hyperfollow/thatboyhihat/cyberpunk-2027",
+      "apple_music": "https://music.apple.com/us/album/cyberpunk-2027-single/6819458316",
+      "producer": "Kokurcho",
+      "co_producer": "Black Lansky",
+      "catalog_tier": "gold"
     }
   ],
   "verified_proof_points": [
