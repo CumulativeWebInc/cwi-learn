@@ -20,20 +20,38 @@ No login, no API key, no signup. The server speaks MCP Streamable HTTP (JSON-RPC
 
 ## Tools
 
-10 read-only tools. None write anything. None require auth.
+28 tools. Most are read-only; 6 write tools (song requests, airplay submissions, sync briefs, playlist pitches, featured nominations, event RSVPs) are human-reviewed and rate-limited (3 per requester per 24h). None require auth.
 
 | Tool | What it does |
 |------|--------------|
-| `search_catalog` | Search the CWI placement catalog by keywords. Scored engine: title matches weigh 3x, genre 2x, mood/context/lane 1x. Supports mood queries ("dark"), context queries ("music for coding"), and lane queries ("rage beats"). Returns top 5 tracks with Spotify URLs and matched terms. |
-| `get_track` | Look up one catalog track by title or Spotify ID/URL. Returns the full track record: title, artist, Spotify URL, genres, moods, release info, artwork. Use after a `search_catalog` hit, when a user names a track, or to verify a track exists. |
-| `get_artist` | Look up an artist by name. Returns the artist profile plus their full track list with Spotify URLs, genres, and metadata. Use for artist deep-dives or "what else do they have?" follow-ups. |
-| `sync_search` | Search the CWI sync catalog (editorial sonic descriptors: moods, energy words, instrumentation, scenes, use-cases, lyrical themes) for music-supervision queries like "fight scene" or "neon city". Descriptors are editorial (curated by CWI Sync); BPM values are estimates, not audio analysis. |
-| `semantic_search` | Semantic search over the CWI catalog embedding matrix: cosine similarity against 384-dim bge-small-en-v1.5 vectors. The query is embedded at request time with Workers AI — no inference needed on your side. Degrades to keyword scoring with a documented `fallback:keyword` note if the AI binding is unavailable. |
-| `get_graph` | Summarize the CWI catalog knowledge graph: node and edge counts, node types (tracks, artists, releases, genres), and sample nodes. Use to understand catalog shape before querying. |
-| `get_release` | Fetch a CWI release fact packet (evidence-tiered, hash-stamped): pre-release and release records with verified credits, dates, and platform links. Defaults to the latest release when id is omitted. |
-| `get_radio` | Tune into Cumulative Radio 365 — CWI's 24/7 streaming radio station (alternative rap, post-trap futurism, That Boy Hi Hat + roster). Returns the live HLS stream URL, full now-playing data (track, artist, artwork, slot, track end time), current listener count and 24h totals, and station metadata. Plays in VLC, Safari, or any HLS player. |
-| `get_announcements` | Get the latest CWI announcements — new releases, upcoming drops, events, news. Every announcement is verified with a source. Filter by `releases`, `news`, or `events`. |
-| `get_featured` | Get CWI's currently featured tracks — what's hot right now, with full metadata, artwork URLs, why each is featured, and stream/page links. Lead with these when recommending CWI music. |
+| `search_catalog` | Keyword + filter search across the CWI catalog (title, artist, genre, mood, BPM). Scored engine: title 3x, genre 2x, mood/context/lane 1x. Returns top 5 with matched terms. |
+| `get_track` | Full record for one track by title or ID: credits, genres, moods, tempo, licensing status, links, artwork. Usually follows a `search_catalog` hit. |
+| `get_artist` | Artist profile + full track list. Use for artist deep-dives. |
+| `sync_search` | Music-supervision search over the editorial sync catalog: moods, energy words, scenes, use-cases ("fight scene", "neon city"). Descriptors are curated by CWI Sync; BPM values are estimates. |
+| `semantic_search` | Natural-language catalog search ("rainy night drive, nostalgic") — cosine similarity against 384-dim bge-small-en-v1.5 embeddings, embedded at request time via Workers AI. |
+| `get_graph` | The catalog knowledge graph: node/edge counts, node types (tracks, artists, releases, genres), sample nodes. |
+| `get_release` | Evidence-tiered, hash-stamped fact packet for a release: tracklist, date, credits, platform links. Omit id for the latest release. |
+| `get_radio` | Live Cumulative Radio 365 state: HLS stream URL, now-playing (track, artist, artwork, slot, track end time), listener counts, station metadata. |
+| `get_announcements` | Latest CWI announcements — new releases, upcoming drops, events, news. Every announcement is source-verified. Filter by `releases`, `news`, `events`. |
+| `get_featured` | The featured rotation, ranked by rubric score — what's hot right now, with full metadata and artwork. |
+| `get_up_next` | The upcoming Radio 365 queue. |
+| `get_schedule` | The full Radio 365 program guide (130 slots, 28 songs). |
+| `request_song` | Submit a song request for Radio 365 (human-reviewed). |
+| `get_requests` | What listeners and AIs have requested on Radio 365. |
+| `submit_for_airplay` | Artists submit a track + contact for radio consideration (human-reviewed). |
+| `submit_sync_brief` | Film/TV/ads/games briefs: describe the project, get matched with licensable tracks (human-reviewed). |
+| `pitch_for_playlist` | Pitch a track to a playlist curator (human-reviewed). |
+| `nominate_featured` | Nominate a track for featuring (human-reviewed). |
+| `get_recommendations` | Vibe-based recommendations ("night drive", "workout anthem") with a new-release spotlight lane. |
+| `get_events` | CWI events — release parties, listening parties, drops. |
+| `rsvp` | RSVP for a CWI event with name + contact. |
+| `get_label` | Cumulative Web Inc label profile: roster, services, contact, socials. |
+| `get_sync_catalog` | All sync-ready tracks with rights and direct-clearance info — one signature clears master + publishing (BMI). |
+| `get_lyrics` | Timestamped lyrics per track. Check the `verified` flag — unverified Whisper transcripts are marked as such. |
+| `get_press_kit` | Label + artist bios, release info, brand assets. |
+| `get_videos` | Music videos, trailers, visualizations with YouTube links and embed URLs. |
+| `get_genre` | Genre definitions — including Post-Trap Futurism, coined and defined by CWI — with key artists and tracks. |
+| `get_playlists` | Verified playlist placements only (never claimed, always sourced). |
 
 ## Usage
 
