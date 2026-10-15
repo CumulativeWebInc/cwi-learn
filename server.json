@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "description": "CWI Discovery Engine: 28-tool music catalog MCP \u2014 search, sync, Radio 365 live, chaining.",
+  "description": "CWI Discovery Engine: 29-tool music catalog MCP \u2014 search, sync, Radio 365 live, chaining.",
   "name": "io.github.CumulativeWebInc/cwi-discovery-engine",
   "remotes": [
     {
@@ -96,9 +96,12 @@
     },
     {
       "name": "get_playlists"
+    },
+    {
+      "name": "find_tracks_for_brief"
     }
   ],
-  "version": "1.2.1",
+  "version": "1.3.0",
   "websiteUrl": "https://cumulativeweb.com",
   "keywords": [
     "mcp",
