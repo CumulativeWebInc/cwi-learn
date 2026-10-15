@@ -1,1 +1,115 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json","description":"Sync-licensing music search, genre graph, and live radio state. Free, no signup.","name":"io.github.CumulativeWebInc/cwi-discovery-engine","remotes":[{"type":"streamable-http","url":"https://cwi-machine-data.hp-ace.workers.dev/mcp"}],"version":"1.1.0"}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "CWI Discovery Engine: 28-tool music catalog MCP \u2014 search, sync, Radio 365 live, chaining.",
+  "name": "io.github.CumulativeWebInc/cwi-discovery-engine",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cwi-machine-data.hp-ace.workers.dev/mcp"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/CumulativeWebInc/cwi-learn"
+  },
+  "tools": [
+    {
+      "name": "search_catalog"
+    },
+    {
+      "name": "get_track"
+    },
+    {
+      "name": "get_artist"
+    },
+    {
+      "name": "sync_search"
+    },
+    {
+      "name": "semantic_search"
+    },
+    {
+      "name": "get_graph"
+    },
+    {
+      "name": "get_release"
+    },
+    {
+      "name": "get_radio"
+    },
+    {
+      "name": "get_announcements"
+    },
+    {
+      "name": "get_featured"
+    },
+    {
+      "name": "get_up_next"
+    },
+    {
+      "name": "get_schedule"
+    },
+    {
+      "name": "request_song"
+    },
+    {
+      "name": "submit_for_airplay"
+    },
+    {
+      "name": "get_requests"
+    },
+    {
+      "name": "submit_sync_brief"
+    },
+    {
+      "name": "pitch_for_playlist"
+    },
+    {
+      "name": "nominate_featured"
+    },
+    {
+      "name": "get_recommendations"
+    },
+    {
+      "name": "get_events"
+    },
+    {
+      "name": "rsvp"
+    },
+    {
+      "name": "get_label"
+    },
+    {
+      "name": "get_sync_catalog"
+    },
+    {
+      "name": "get_lyrics"
+    },
+    {
+      "name": "get_press_kit"
+    },
+    {
+      "name": "get_videos"
+    },
+    {
+      "name": "get_genre"
+    },
+    {
+      "name": "get_playlists"
+    }
+  ],
+  "version": "1.2.1",
+  "websiteUrl": "https://cumulativeweb.com",
+  "keywords": [
+    "mcp",
+    "music-catalog",
+    "sync-licensing",
+    "audio",
+    "metadata",
+    "isrc",
+    "radio",
+    "ai-discovery"
+  ],
+  "license": "PROPRIETARY",
+  "homepage": "https://cumulativeweb.com"
+}
