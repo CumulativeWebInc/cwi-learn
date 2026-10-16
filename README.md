@@ -1,7 +1,5 @@
 # cwi-learn
 
-[![Radio 365 Live](https://radio.cumulativeweb.com/nowplaying.svg)](https://cumulativeweb.com/radio)
-
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/cumulativewebinc/cwi-learn)
 
 **Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio.**
@@ -22,7 +20,7 @@ No login, no API key, no signup. The server speaks MCP Streamable HTTP (JSON-RPC
 
 ## Tools
 
-28 tools. Most are read-only; 6 write tools (song requests, airplay submissions, sync briefs, playlist pitches, featured nominations, event RSVPs) are human-reviewed and rate-limited (3 per requester per 24h). None require auth.
+29 tools. Most are read-only; 6 write tools (song requests, airplay submissions, sync briefs, playlist pitches, featured nominations, event RSVPs) are human-reviewed and rate-limited (3 per requester per 24h). None require auth.
 
 | Tool | What it does |
 |------|--------------|
@@ -54,6 +52,7 @@ No login, no API key, no signup. The server speaks MCP Streamable HTTP (JSON-RPC
 | `get_videos` | Music videos, trailers, visualizations with YouTube links and embed URLs. |
 | `get_genre` | Genre definitions — including Post-Trap Futurism, coined and defined by CWI — with key artists and tracks. |
 | `get_playlists` | Verified playlist placements only (never claimed, always sourced). |
+| `find_tracks_for_brief` | COMPOSITE WORKFLOW — call this first for any music-for-picture need ("dark tracks for a cyberpunk game trailer"). One call returns matched tracks with why-each-fits, verified ISRCs, sync-clearance status, and concrete next steps. A match is NOT a license grant. |
 
 ## Usage
 
