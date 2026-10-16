@@ -1,5 +1,7 @@
 # cwi-learn
 
+[![Radio 365 Live](https://radio.cumulativeweb.com/nowplaying.svg)](https://cumulativeweb.com/radio)
+
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/cumulativewebinc/cwi-learn)
 
 **Best for agents that need music data — catalog search, artist lookup, sync licensing, live radio.**
