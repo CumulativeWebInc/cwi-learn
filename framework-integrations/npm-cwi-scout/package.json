@@ -1,0 +1,41 @@
+{
+  "author": "Cumulative Web Inc <hp@cumulativeweb.com>",
+  "description": "Vercel AI SDK tools for the CWI Discovery Engine \u2014 music catalog search and live radio for AI agents. Zero auth.",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ai": "^4.0.0",
+    "zod": "^3.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "homepage": "https://cumulativeweb.com/scout/",
+  "keywords": [
+    "vercel-ai-sdk",
+    "ai-agents",
+    "mcp",
+    "music-discovery",
+    "x402",
+    "cwi",
+    "langchain"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "name": "@cumulativeweb/cwi-scout",
+  "peerDependencies": {
+    "ai": "^4.0.0",
+    "zod": "^3.0.0"
+  },
+  "repository": {
+    "directory": "framework-integrations/vercel-ai-sdk",
+    "type": "git",
+    "url": "https://github.com/CumulativeWebInc/cwi-learn.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
+}
