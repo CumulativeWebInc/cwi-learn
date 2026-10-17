@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cwi-langchain"
+version = "1.0.0"
+description = "LangChain tools for the CWI Discovery Engine — music catalog search, track metadata, and live radio for AI agents."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Proprietary — Cumulative Web Inc" }
+authors = [{ name = "Cumulative Web Inc", email = "hp@cumulativeweb.com" }]
+keywords = ["langchain", "mcp", "music-discovery", "x402", "ai-agents", "cwi"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = ["requests>=2.28"]
+optional-dependencies = { langchain = ["langchain-core>=0.1"] }
+
+[project.urls]
+Homepage = "https://cumulativeweb.com/scout/"
+Documentation = "https://cwi-x402-api.onrender.com/openapi.json"
+Repository = "https://github.com/CumulativeWebInc/cwi-learn"
+
+[tool.setuptools.packages.find]
+where = ["src"]
