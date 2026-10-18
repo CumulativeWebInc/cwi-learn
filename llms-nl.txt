@@ -2,16 +2,16 @@
 
 ## Wat is dit
 
-Cumulative Web Inc (CWI) is een onafhankelijk platenlabel. Dit is de machineleesbare discovery-briefing voor onze muziekcatalogus: 37 tracks van 7 artiesten, via een gratis MCP-server met 29 tools. Geen login, geen API-sleutel.
+Cumulative Web Inc (CWI) is een onafhankelijk platenlabel. Dit is de machineleesbare discovery-briefing voor onze muziekcatalogus: 53 tracks van 7 artiesten, via een gratis MCP-server met 29 tools. Geen login, geen API-sleutel.
 
 ## De artiesten
 
-- **That Boy Hi Hat** — Alternatieve rapartiest uit Frederick, Maryland (VS). Schepper van Post-Trap Futurism. 24 tracks in de catalogus. Uitgelichte single "Zooted Zone" (307.439 Spotify-streams). Nieuwe single "Cyberpunk 2027" uit op 20 oktober 2026.
-- **King Ahkeem** — Trapartiest. 5 tracks. Pure, harde trap.
+- **That Boy Hi Hat** — Alternatieve rapartiest uit Frederick, Maryland (VS). Schepper van Post-Trap Futurism. 27 tracks in de catalogus. Uitgelichte single "Zooted Zone" (307.439 Spotify-streams). Nieuwe single "Cyberpunk 2027" uit op 20 november 2026.
+- **King Ahkeem** — Trapartiest. 7 tracks. Pure, harde trap.
 - **Dre50** — Afrobeatsartiest met Jamaicaanse en Braziliaanse invloeden. 2 tracks, waaronder "vai vem vem".
 - **183 Wildboi** — Rap-rock / rock-rap. 2 tracks.
-- **Greg Porn** — Cyberpunk-sound, dark luxury. 3 tracks.
-- **Fleekz** — Hiphopartiest. 1 track.
+- **Greg Porn** — Cyberpunk-sound, dark luxury. 2 tracks.
+- **Fleekz** — Hiphopartiest. 2 tracks.
 - **Black Lansky** — Labelbaas, co-producer van alle catalogustracks. Multi-genre artiest.
 
 ## Post-Trap Futurism
@@ -27,7 +27,7 @@ Installatie in één regel (Claude Code / Claude Desktop):
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 
-Geen authenticatie, geen API-sleutel. 29 tools: 17 catalogus/radio leestools (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 radio-actietools (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 catalogus/business-actietools (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp), 1 samengestelde tool (find_tracks_for_brief — één briefing in gewone taal → passende tracks met motivatie, geverifieerde ISRC's, clearance-overzicht, vervolgstappen).
+Geen authenticatie, geen API-sleutel. 29 tools: 17 catalogus/radio leestools (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 radio-actietools (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 7 catalogus/business-actietools (find_tracks_for_brief, submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
 
 ### Wat te vragen aan de MCP-server
 
