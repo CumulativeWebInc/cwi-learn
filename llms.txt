@@ -377,13 +377,13 @@ observation date as stale.
 
 
 ## Knowledge graph (machine-readable, cwi.graph/1.0)
-- graph.json (same public surface): 50 nodes / 96 edges — typed nodes for
-  artist, movement (Post-Trap Futurism, with sonic markers, exemplar tracks,
-  and influences marked pending), 37 tracks, 4 releases, 4 people
-  (Black Lansky, Hybrid, Jeck Da General, Kokurcho), 1 studio (Cue Recording
-  Studio, Arlington VA), 2 places (Frederick MD, Arlington VA), 5 playlists,
-  5 evidence nodes, 2 media assets. Every node carries evidence with source
-  and observation date; statuses: verified | owner_confirmed |
+- graph.json (same public surface): 134 nodes / 477 edges — typed nodes for
+  artist (7), movement (Post-Trap Futurism, with sonic markers, exemplar tracks,
+  and influences marked pending), 37 tracks, 9 releases, 5 people,
+  1 studio (Cue Recording Studio, Arlington VA), 2 places (Frederick MD,
+  Arlington VA), 8 playlists, 10 evidence nodes, 7 media assets. Every node
+  carries evidence with source and observation date; statuses: verified |
+  owner_confirmed |
   claimed_unverified | promised_unverified. Cross-validated against
   catalog.json and the AI Learning Kit (all track links resolve via
   Spotify oEmbed, 2026-09-15).
@@ -588,7 +588,7 @@ One-liner install (Claude Code / Claude Desktop):
 ```
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
-No auth, no API key. 29 tools: 17 catalog/radio reads (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 radio actions (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 catalog/business actions (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp), 1 composite (find_tracks_for_brief — one plain-language brief → matched tracks with fit reasons, verified ISRCs, clearance summary, next steps).
+No auth, no API key. 29 tools: 17 catalog/radio reads (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 radio actions (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 7 catalog/business actions (find_tracks_for_brief, submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
 
 ### What to ask the MCP server (call magnets)
 
