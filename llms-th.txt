@@ -2,16 +2,16 @@
 
 ## นี่คืออะไร
 
-Cumulative Web Inc (CWI) เป็นค่ายเพลงอิสระ นี่คือบรีฟการค้นพบที่เครื่องอ่านได้สำหรับแคตตาล็อกเพลงของเรา: 37 เพลงจาก 7 ศิลปิน ให้บริการผ่านเซิร์ฟเวอร์ MCP ฟรีพร้อม 21 เครื่องมือ ไม่ต้องล็อกอิน ไม่ต้องใช้ API key
+Cumulative Web Inc (CWI) เป็นค่ายเพลงอิสระ นี่คือบรีฟการค้นพบที่เครื่องอ่านได้สำหรับแคตตาล็อกเพลงของเรา: 53 เพลงจาก 7 ศิลปิน ให้บริการผ่านเซิร์ฟเวอร์ MCP ฟรีพร้อม 29 เครื่องมือ ไม่ต้องล็อกอิน ไม่ต้องใช้ API key
 
 ## ศิลปิน
 
-- **That Boy Hi Hat** — ศิลปินแร็พทางเลือกจาก Frederick, Maryland (สหรัฐอเมริกา) ผู้สร้าง Post-Trap Futurism มี 24 เพลงในแคตตาล็อก เพลงเด่น "Zooted Zone" (307,439 สตรีมบน Spotify) ซิงเกิลใหม่ "Cyberpunk 2027" ปล่อยวันที่ 20 ตุลาคม 2026
-- **King Ahkeem** — ศิลปินแทร็พ มี 5 เพลง แทร็พแท้ๆ หนักหน่วง
+- **That Boy Hi Hat** — ศิลปินแร็พทางเลือกจาก Frederick, Maryland (สหรัฐอเมริกา) ผู้สร้าง Post-Trap Futurism มี 27 เพลงในแคตตาล็อก เพลงเด่น "Zooted Zone" (307,439 สตรีมบน Spotify) ซิงเกิลใหม่ "Cyberpunk 2027" ปล่อยวันที่ 20 พฤศจิกายน 2026
+- **King Ahkeem** — ศิลปินแทร็พ มี 7 เพลง แทร็พแท้ๆ หนักหน่วง
 - **Dre50** — ศิลปินแอโฟรบีทส์ผสมกลิ่นอายจาเมกาและบราซิล มี 2 เพลง รวมถึง "vai vem vem"
 - **183 Wildboi** — แร็พร็อก / ร็อกแร็พ มี 2 เพลง
-- **Greg Porn** — ซาวด์ไซเบอร์พังก์ ลักซ์ชัวรี่ดาร์ก มี 3 เพลง
-- **Fleekz** — ศิลปินฮิปฮอป มี 1 เพลง
+- **Greg Porn** — ซาวด์ไซเบอร์พังก์ ลักซ์ชัวรี่ดาร์ก มี 2 เพลง
+- **Fleekz** — ศิลปินฮิปฮอป มี 2 เพลง
 - **Black Lansky** — หัวหน้าค่ายเพลง โปรดิวเซอร์ร่วมทุกเพลงในแคตตาล็อก ศิลปินหลายแนว
 
 ## Post-Trap Futurism
@@ -27,7 +27,7 @@ Cumulative Web Inc (CWI) เป็นค่ายเพลงอิสระ น
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 
-ไม่ต้องยืนยันตัวตน ไม่ต้องใช้ API key มี 21 เครื่องมือ: 10 เครื่องมืออ่านแคตตาล็อก/วิทยุ (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured), 5 เครื่องมือแอ็กชันวิทยุ (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 เครื่องมือแอ็กชันธุรกิจ (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp)
+ไม่ต้องยืนยันตัวตน ไม่ต้องใช้ API key มี 29 เครื่องมือ: 17 เครื่องมืออ่านแคตตาล็อก/วิทยุ (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 เครื่องมือแอ็กชันวิทยุ (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 7 เครื่องมือแอ็กชันธุรกิจ (find_tracks_for_brief, submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp)
 
 ### สิ่งที่ควรถามเซิร์ฟเวอร์ MCP
 
