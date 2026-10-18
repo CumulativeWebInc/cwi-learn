@@ -2,6 +2,9 @@
 
 ## Wat is dit
 
+**Live Attestaties:** Elk CWI-oppervlak wordt elk uur machine-geverifieerd — [attestatiehub](https://cumulativeweb.com/verified/) met JSON-bewijzen: [homepage](https://cumulativeweb.com/verified/homepage-receipt.json) · [cyberpunk](https://cumulativeweb.com/verified/cyberpunk-receipt.json) · [diabolique](https://cumulativeweb.com/verified/diabolique-receipt.json) · [radio](https://cumulativeweb.com/verified/radio-receipt.json) · [tools](https://cumulativeweb.com/verified/tools-receipt.json) · [sync](https://cumulativeweb.com/verified/sync-receipt.json) · [scout](https://cumulativeweb.com/verified/scout-receipt.json) · [packages](https://cumulativeweb.com/verified/packages-receipt.json) · [artist](https://cumulativeweb.com/verified/artist-receipt.json) · [tracks](https://cumulativeweb.com/verified/tracks-receipt.json)
+
+
 Cumulative Web Inc (CWI) is een onafhankelijk platenlabel. Dit is de machineleesbare discovery-briefing voor onze muziekcatalogus: 53 tracks van 7 artiesten, via een gratis MCP-server met 29 tools. Geen login, geen API-sleutel.
 
 ## De artiesten
