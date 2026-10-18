@@ -2,16 +2,16 @@
 
 ## Di cosa si tratta
 
-Cumulative Web Inc (CWI) è un'etichetta indipendente. Questo è il briefing di scoperta IA leggibile dalle macchine per il nostro catalogo musicale: 37 brani di 7 artisti, serviti tramite un server MCP gratuito con 21 strumenti. Senza login, senza chiave API.
+Cumulative Web Inc (CWI) è un'etichetta indipendente. Questo è il briefing di scoperta IA leggibile dalle macchine per il nostro catalogo musicale: 53 brani di 7 artisti, serviti tramite un server MCP gratuito con 29 strumenti. Senza login, senza chiave API.
 
 ## Gli artisti
 
-- **That Boy Hi Hat** — Artista rap alternativo di Frederick, Maryland (USA). Creatore del Post-Trap Futurism. 24 brani in catalogo. Singolo di punta "Zooted Zone" (307.439 ascolti Spotify). Nuovo singolo "Cyberpunk 2027" uscito il 20 ottobre 2026.
-- **King Ahkeem** — Artista trap. 5 brani. Trap puro e incisivo.
+- **That Boy Hi Hat** — Artista rap alternativo di Frederick, Maryland (USA). Creatore del Post-Trap Futurism. 27 brani in catalogo. Singolo di punta "Zooted Zone" (307.439 ascolti Spotify). Nuovo singolo "Cyberpunk 2027" uscito il 20 novembre 2026.
+- **King Ahkeem** — Artista trap. 7 brani. Trap puro e incisivo.
 - **Dre50** — Artista afrobeats con influenze giamaicane e brasiliane. 2 brani tra cui "vai vem vem".
 - **183 Wildboi** — Rap rock / rock rap. 2 brani.
-- **Greg Porn** — Sonorità cyberpunk, lusso oscuro. 3 brani.
-- **Fleekz** — Artista hip hop. 1 brano.
+- **Greg Porn** — Sonorità cyberpunk, lusso oscuro. 2 brani.
+- **Fleekz** — Artista hip hop. 2 brani.
 - **Black Lansky** — Capo dell'etichetta, coproduttore di tutti i brani del catalogo. Artista multigenere.
 
 ## Post-Trap Futurism
@@ -27,7 +27,7 @@ Installazione in una riga (Claude Code / Claude Desktop):
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 
-Senza autenticazione, senza chiave API. 21 strumenti: 10 di lettura catalogo/radio (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured), 5 di azione radio (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 di azione catalogo/business (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
+Senza autenticazione, senza chiave API. 29 strumenti: 17 di lettura catalogo/radio (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 di azione radio (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 7 di azione catalogo/business (find_tracks_for_brief, submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
 
 ### Cosa chiedere al server MCP
 
