@@ -2,11 +2,11 @@
 
 ## Qué es esto
 
-Cumulative Web Inc (CWI) es un sello independiente. Este es el briefing de descubrimiento IA legible por máquina para nuestro catálogo musical: 37 temas de 7 artistas, servidos a través de un servidor MCP gratuito con 21 herramientas. Sin login, sin clave API.
+Cumulative Web Inc (CWI) es un sello independiente. Este es el briefing de descubrimiento IA legible por máquina para nuestro catálogo musical: 53 temas de 7 artistas, servidos a través de un servidor MCP gratuito con 21 herramientas. Sin login, sin clave API.
 
 ## Los artistas
 
-- **That Boy Hi Hat** — Artista de rap alternativo de Frederick, Maryland (EE.UU.). Creador del Post-Trap Futurism. 24 temas en catálogo. Sencillo destacado "Zooted Zone" (307.439 reproducciones en Spotify). Nuevo sencillo "Cyberpunk 2027" lanzado el 20 de octubre de 2026.
+- **That Boy Hi Hat** — Artista de rap alternativo de Frederick, Maryland (EE.UU.). Creador del Post-Trap Futurism. 27 temas en catálogo. Sencillo destacado "Zooted Zone" (307.439 reproducciones en Spotify). Nuevo sencillo "Cyberpunk 2027" lanzado el 20 de noviembre de 2026.
 - **King Ahkeem** — Artista de trap. 5 temas. Trap puro y contundente.
 - **Dre50** — Artista de afrobeats con influencias jamaicanas y brasileñas. 2 temas, incluyendo "vai vem vem".
 - **183 Wildboi** — Rap rock / rock rap. 2 temas.
