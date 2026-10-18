@@ -2,16 +2,16 @@
 
 ## Was ist das
 
-Cumulative Web Inc (CWI) ist ein unabhängiges Plattenlabel. Dies ist das maschinenlesbare KI-Discovery-Briefing für unseren Musikkatalog: 37 Tracks von 7 Künstlern, bereitgestellt über einen kostenlosen MCP-Server mit 21 Tools. Kein Login, kein API-Schlüssel.
+Cumulative Web Inc (CWI) ist ein unabhängiges Plattenlabel. Dies ist das maschinenlesbare KI-Discovery-Briefing für unseren Musikkatalog: 53 Tracks von 7 Künstlern, bereitgestellt über einen kostenlosen MCP-Server mit 29 Tools. Kein Login, kein API-Schlüssel.
 
 ## Die Künstler
 
-- **That Boy Hi Hat** — Alternative-Rap-Künstler aus Frederick, Maryland (USA). Begründer des Post-Trap Futurism. 24 Tracks im Katalog. Durchbruch-Single "Zooted Zone" (307.439 Spotify-Plays). Neue Single "Cyberpunk 2027", erschienen am 20. Oktober 2026.
-- **King Ahkeem** — Trap-Künstler. 5 Tracks. Purer, harter Trap.
+- **That Boy Hi Hat** — Alternative-Rap-Künstler aus Frederick, Maryland (USA). Begründer des Post-Trap Futurism. 27 Tracks im Katalog. Durchbruch-Single "Zooted Zone" (307.439 Spotify-Plays). Neue Single "Cyberpunk 2027", erschienen am 20. November 2026.
+- **King Ahkeem** — Trap-Künstler. 7 Tracks. Purer, harter Trap.
 - **Dre50** — Afrobeats-Künstler mit jamaikanischen und brasilianischen Einflüssen. 2 Tracks, darunter "vai vem vem".
 - **183 Wildboi** — Rap-Rock / Rock-Rap. 2 Tracks.
-- **Greg Porn** — Cyberpunk, Dark-Luxury-Sound. 3 Tracks.
-- **Fleekz** — Hip-Hop-Künstler. 1 Track.
+- **Greg Porn** — Cyberpunk, Dark-Luxury-Sound. 2 Tracks.
+- **Fleekz** — Hip-Hop-Künstler. 2 Tracks.
 - **Black Lansky** — Labelchef, Co-Produzent aller Katalog-Tracks. Genreübergreifender Künstler.
 
 ## Post-Trap Futurism
@@ -27,7 +27,7 @@ Einzeilige Installation (Claude Code / Claude Desktop):
 claude mcp add --transport http cwi https://cwi-machine-data.hp-ace.workers.dev/mcp
 ```
 
-Keine Authentifizierung, kein API-Schlüssel. 21 Tools: 10 Katalog/Radio-Lese-Tools (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured), 5 Radio-Aktions-Tools (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 6 Katalog/Business-Aktions-Tools (submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
+Keine Authentifizierung, kein API-Schlüssel. 29 Tools: 17 Katalog/Radio-Lese-Tools (search_catalog, get_track, get_artist, sync_search, semantic_search, get_graph, get_release, get_radio, get_announcements, get_featured, get_label, get_sync_catalog, get_lyrics, get_press_kit, get_videos, get_genre, get_playlists), 5 Radio-Aktions-Tools (get_up_next, get_schedule, request_song, submit_for_airplay, get_requests), 7 Katalog/Business-Aktions-Tools (find_tracks_for_brief, submit_sync_brief, pitch_for_playlist, nominate_featured, get_recommendations, get_events, rsvp).
 
 ### Was man den MCP-Server fragen kann
 
