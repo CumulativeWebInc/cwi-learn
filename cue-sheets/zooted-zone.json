@@ -15,9 +15,16 @@
     "note": "Verified against the live Spotify API 2026-09-16. Correction slip-0001 on record: an older outreach link carried Diabolique's ID; this is the correct one."
   },
   "mix": null,
-  "duration_s": null,
-  "duration_note": "Duration not measured in the 2026-09-17 batch. Not stated.",
-  "audio": {},
+  "duration_s": 188.5,
+  "duration_note": "Master duration 188.466s (Spotify duration_ms; Deezer lists 188s). Filled 2026-10-20.",
+  "audio": {
+    "bpm": 163,
+    "musical_key": "C# minor",
+    "energy_1_5": 4,
+    "explicit": true,
+    "clean_edit_exists": true,
+    "source": "Catalog Cyanite values via submission-briefs.json 2026-10-03; duration Spotify/Deezer 2026-10-20"
+  },
   "genre": [
     {
       "value": "alternative rap",
@@ -56,7 +63,7 @@
     },
     {
       "role": "recording",
-      "name": "Hagerstown, MD — February 2023",
+      "name": "Hagerstown, MD \u2014 February 2023",
       "tier": "VERIFIED",
       "source": "CWI Medium articles (per 2026-09-15 memory import)",
       "note": "Recording location/date as published by CWI."
@@ -78,7 +85,7 @@
       "note": "Curator Flow; confirmed by full scan 2026-09-16 (late delivery after absent 9/15 scans)."
     },
     {
-      "playlist": "360°: The Best Indie Music (Eric Alper)",
+      "playlist": "360\u00b0: The Best Indie Music (Eric Alper)",
       "position": 216,
       "observed_at": "2026-09-17",
       "tier": "VERIFIED",
@@ -106,7 +113,7 @@
     "The breakout: 307,439 lifetime Spotify plays observed 2026-09-14 (tier VERIFIED, published proof point)."
   ],
   "third_party_audio_features": {
-    "source": "ReccoBeats API v1 (third-party audio analysis of the Spotify track — NOT Spotify's own analysis), fetched 2026-09-16",
+    "source": "ReccoBeats API v1 (third-party audio analysis of the Spotify track \u2014 NOT Spotify's own analysis), fetched 2026-09-16",
     "tier": "VERIFIED",
     "note": "Every number traced to a live ReccoBeats API response; independent third party, values may differ from other analyzers.",
     "values": {
