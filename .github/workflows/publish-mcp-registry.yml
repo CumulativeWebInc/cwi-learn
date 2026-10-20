@@ -20,4 +20,12 @@ jobs:
       - name: Publish to MCP Registry (OIDC)
         run: |
           /tmp/mcp-publisher login github-oidc
-          /tmp/mcp-publisher publish
+          set +e
+          OUT=$(/tmp/mcp-publisher publish 2>&1)
+          CODE=$?
+          echo "$OUT"
+          if [ "$CODE" -ne 0 ] && echo "$OUT" | grep -q "cannot publish duplicate version"; then
+            echo "This version is already published in the registry - nothing to do."
+            exit 0
+          fi
+          exit $CODE
